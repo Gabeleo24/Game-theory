@@ -18,21 +18,43 @@ class SocialMediaCollector:
     def __init__(self, twitter_bearer_token: Optional[str] = None):
         """
         Initialize the social media collector.
-        
+
         Args:
             twitter_bearer_token: Twitter API bearer token
         """
         self.config = Config()
         self.bearer_token = twitter_bearer_token or self.config.get('twitter.bearer_token')
+        self.api_key = self.config.get('twitter.api_key')
+        self.api_key_secret = self.config.get('twitter.api_key_secret')
+        self.access_token = self.config.get('twitter.access_token')
+        self.access_token_secret = self.config.get('twitter.access_token_secret')
+
         self.cache_manager = CacheManager()
         self.logger = logging.getLogger(__name__)
-        
-        # Initialize Twitter API client
+
+        # Initialize Twitter API client with multiple authentication options
         if self.bearer_token:
-            self.twitter_client = tweepy.Client(bearer_token=self.bearer_token)
+            try:
+                self.twitter_client = tweepy.Client(bearer_token=self.bearer_token)
+                self.logger.info("Twitter client initialized with bearer token")
+            except Exception as e:
+                self.logger.error(f"Failed to initialize Twitter client with bearer token: {e}")
+                self.twitter_client = None
+        elif all([self.api_key, self.api_key_secret, self.access_token, self.access_token_secret]):
+            try:
+                self.twitter_client = tweepy.Client(
+                    consumer_key=self.api_key,
+                    consumer_secret=self.api_key_secret,
+                    access_token=self.access_token,
+                    access_token_secret=self.access_token_secret
+                )
+                self.logger.info("Twitter client initialized with OAuth 1.0a")
+            except Exception as e:
+                self.logger.error(f"Failed to initialize Twitter client with OAuth: {e}")
+                self.twitter_client = None
         else:
             self.twitter_client = None
-            self.logger.warning("Twitter bearer token not provided. Twitter functionality disabled.")
+            self.logger.warning("Twitter API credentials not provided. Twitter functionality disabled.")
     
     def search_tweets(self, query: str, max_results: int = 100, days_back: int = 7) -> List[Dict[str, Any]]:
         """
