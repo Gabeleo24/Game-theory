@@ -37,11 +37,11 @@ class ExpandedCollector:
         self.requests_used = 28  # Current count after first collection
         self.daily_limit = 75000
         
-        print("🚀 EXPANDED DATA COLLECTION - MAXIMIZE ULTRA PLAN")
+        print("EXPANDED DATA COLLECTION - MAXIMIZE ULTRA PLAN")
         print("=" * 70)
-        print(f"📊 Starting with: {self.requests_used} requests used")
-        print(f"🎯 Available: {self.daily_limit - self.requests_used:,} requests")
-        print(f"🏆 Target: Comprehensive multi-year, multi-league dataset")
+        print(f"Starting with: {self.requests_used} requests used")
+        print(f"Available: {self.daily_limit - self.requests_used:,} requests")
+        print(f"Target: Comprehensive multi-year, multi-league dataset")
         print("=" * 70)
     
     def make_request(self, endpoint, params=None, description="API call"):
@@ -55,17 +55,17 @@ class ExpandedCollector:
             self.requests_used += 1
             remaining = self.daily_limit - self.requests_used
             
-            print(f"   📡 {description} (Used: {self.requests_used}, Remaining: {remaining:,})")
+            print(f"   {description} (Used: {self.requests_used}, Remaining: {remaining:,})")
             
             return response.json()
             
         except Exception as e:
-            print(f"   ❌ Error in {description}: {e}")
+            print(f"   Error in {description}: {e}")
             return None
     
     def collect_major_leagues_multi_year(self):
         """Collect major European leagues for multiple years."""
-        print("\n🌍 MAJOR EUROPEAN LEAGUES - MULTI-YEAR COLLECTION")
+        print("\nMAJOR EUROPEAN LEAGUES - MULTI-YEAR COLLECTION")
         print("-" * 60)
         
         leagues = {
@@ -82,16 +82,16 @@ class ExpandedCollector:
         
         for league_name, league_info in leagues.items():
             if self.requests_used >= 10000:  # Safety limit
-                print(f"⚠️  Stopping at {league_name} - safety limit reached")
+                print(f"Stopping at {league_name} - safety limit reached")
                 break
                 
-            print(f"\n🏆 Collecting {league_name} - Multi-Year Dataset")
+            print(f"\nCollecting {league_name} - Multi-Year Dataset")
             
             for season in seasons:
                 if self.requests_used >= 10000:
                     break
                     
-                print(f"📅 {league_name} {season} season...")
+                print(f"{league_name} {season} season...")
                 
                 # Teams
                 teams_response = self.make_request('teams', 
@@ -106,7 +106,7 @@ class ExpandedCollector:
                     with open(filename, 'w') as f:
                         json.dump(teams, f, indent=2, default=str)
                     
-                    print(f"      ✅ {len(teams)} teams saved")
+                    print(f"      {len(teams)} teams saved")
                 
                 # Matches
                 matches_response = self.make_request('fixtures',
@@ -121,7 +121,7 @@ class ExpandedCollector:
                     with open(filename, 'w') as f:
                         json.dump(matches, f, indent=2, default=str)
                     
-                    print(f"      ✅ {len(matches)} matches saved")
+                    print(f"      {len(matches)} matches saved")
                 
                 # Standings
                 standings_response = self.make_request('standings',
@@ -136,13 +136,13 @@ class ExpandedCollector:
                     with open(filename, 'w') as f:
                         json.dump(standings, f, indent=2, default=str)
                     
-                    print(f"      ✅ Standings saved")
+                    print(f"      Standings saved")
                 
                 time.sleep(0.2)  # Rate limiting
     
     def collect_detailed_team_statistics_expanded(self):
         """Collect detailed statistics for top teams across leagues."""
-        print("\n📊 DETAILED TEAM STATISTICS - EXPANDED COLLECTION")
+        print("\nDETAILED TEAM STATISTICS - EXPANDED COLLECTION")
         print("-" * 60)
         
         # Top teams from major leagues
@@ -184,10 +184,10 @@ class ExpandedCollector:
         
         for season in seasons:
             if self.requests_used >= 20000:  # Safety limit
-                print(f"⚠️  Stopping at season {season} - safety limit reached")
+                print(f"Stopping at season {season} - safety limit reached")
                 break
                 
-            print(f"\n📈 Collecting detailed stats for {season} season...")
+            print(f"\nCollecting detailed stats for {season} season...")
             season_stats = {}
             
             for team in top_teams:
@@ -214,11 +214,11 @@ class ExpandedCollector:
             with open(filename, 'w') as f:
                 json.dump(season_stats, f, indent=2, default=str)
             
-            print(f"   ✅ Detailed statistics saved for {len(season_stats)} teams in {season}")
+            print(f"   Detailed statistics saved for {len(season_stats)} teams in {season}")
     
     def collect_match_statistics_sample(self):
         """Collect detailed match statistics for key games."""
-        print("\n⚽ DETAILED MATCH STATISTICS - KEY GAMES")
+        print("\nDETAILED MATCH STATISTICS - KEY GAMES")
         print("-" * 60)
         
         # Load some matches to get fixture IDs
@@ -229,7 +229,7 @@ class ExpandedCollector:
             with open('data/processed/champions_league_matches_2023_ultra.json', 'r') as f:
                 cl_matches = json.load(f)
         except:
-            print("   ⚠️  Match files not found, skipping detailed match stats")
+            print("   Match files not found, skipping detailed match stats")
             return
         
         # Select important matches (El Clasico, big games, etc.)
@@ -249,13 +249,13 @@ class ExpandedCollector:
         for match in cl_matches[:50]:  # Sample of CL matches
             important_matches.append(match)
         
-        print(f"🎯 Collecting detailed stats for {len(important_matches[:100])} key matches...")
+        print(f"Collecting detailed stats for {len(important_matches[:100])} key matches...")
         
         match_stats = {}
         
         for i, match in enumerate(important_matches[:100]):  # Limit to 100 matches
             if self.requests_used >= 25000:  # Safety limit
-                print(f"   ⚠️  Stopping at match {i} - safety limit reached")
+                print(f"   Stopping at match {i} - safety limit reached")
                 break
                 
             fixture_id = match.get('fixture', {}).get('id')
@@ -271,7 +271,7 @@ class ExpandedCollector:
                     }
             
             if i % 10 == 0:  # Progress update
-                print(f"      📊 Processed {i} matches...")
+                print(f"      Processed {i} matches...")
             
             time.sleep(0.1)
         
@@ -279,11 +279,11 @@ class ExpandedCollector:
         with open('data/processed/detailed_match_statistics_expanded.json', 'w') as f:
             json.dump(match_stats, f, indent=2, default=str)
         
-        print(f"   ✅ Detailed match statistics saved for {len(match_stats)} matches")
+        print(f"   Detailed match statistics saved for {len(match_stats)} matches")
     
     def collect_additional_competitions(self):
         """Collect data from additional competitions."""
-        print("\n🏆 ADDITIONAL COMPETITIONS")
+        print("\nADDITIONAL COMPETITIONS")
         print("-" * 60)
         
         additional_leagues = {
@@ -299,10 +299,10 @@ class ExpandedCollector:
         
         for comp_name, comp_info in additional_leagues.items():
             if self.requests_used >= 30000:  # Safety limit
-                print(f"⚠️  Stopping at {comp_name} - safety limit reached")
+                print(f"Stopping at {comp_name} - safety limit reached")
                 break
                 
-            print(f"\n🏅 Collecting {comp_name}...")
+            print(f"\nCollecting {comp_name}...")
             
             for season in seasons:
                 if self.requests_used >= 30000:
@@ -319,7 +319,7 @@ class ExpandedCollector:
                     filename = f'data/processed/{safe_name}_teams_{season}.json'
                     with open(filename, 'w') as f:
                         json.dump(teams, f, indent=2, default=str)
-                    print(f"      ✅ {len(teams)} teams")
+                    print(f"      {len(teams)} teams")
                 
                 # Matches
                 matches_response = self.make_request('fixtures',
@@ -332,20 +332,20 @@ class ExpandedCollector:
                     filename = f'data/processed/{safe_name}_matches_{season}.json'
                     with open(filename, 'w') as f:
                         json.dump(matches, f, indent=2, default=str)
-                    print(f"      ✅ {len(matches)} matches")
+                    print(f"      {len(matches)} matches")
                 
                 time.sleep(0.3)
     
     def generate_expanded_summary(self):
         """Generate comprehensive summary of expanded collection."""
         print(f"\n" + "=" * 70)
-        print("🚀 EXPANDED COLLECTION SUMMARY - ULTRA PLAN MAXIMIZED")
+        print("EXPANDED COLLECTION SUMMARY - ULTRA PLAN MAXIMIZED")
         print("=" * 70)
         
         efficiency = (self.requests_used / self.daily_limit) * 100
         remaining = self.daily_limit - self.requests_used
         
-        print(f"📊 Ultra Plan Usage Analysis:")
+        print(f"Ultra Plan Usage Analysis:")
         print(f"   • Total requests used: {self.requests_used:,}")
         print(f"   • Remaining capacity: {remaining:,}")
         print(f"   • Efficiency: {efficiency:.2f}% of daily limit")
@@ -363,7 +363,7 @@ class ExpandedCollector:
                     data_files.append((file, size))
                     total_size += size
         
-        print(f"\n💾 Comprehensive Dataset Collected:")
+        print(f"\nComprehensive Dataset Collected:")
         print(f"   • Total files: {len(data_files)}")
         print(f"   • Total size: {total_size:.2f} MB")
         print(f"   • Coverage: Multi-league, multi-year, comprehensive")
@@ -388,31 +388,31 @@ class ExpandedCollector:
                 if year in filename:
                     years_covered.add(year)
         
-        print(f"\n🏆 Dataset Coverage:")
+        print(f"\nDataset Coverage:")
         print(f"   • Leagues: {', '.join(sorted(leagues_covered))}")
         print(f"   • Years: {', '.join(sorted(years_covered, reverse=True))}")
         print(f"   • Data types: Teams, Matches, Standings, Statistics")
         
-        print(f"\n🎯 Research Capabilities Unlocked:")
-        print("   ✅ Multi-league comparative analysis")
-        print("   ✅ Historical trend analysis (5+ years)")
-        print("   ✅ Cross-competition performance studies")
-        print("   ✅ Detailed team and match statistics")
-        print("   ✅ Comprehensive Shapley value analysis")
-        print("   ✅ Advanced tactical intelligence")
+        print(f"\nResearch Capabilities Unlocked:")
+        print("   Multi-league comparative analysis")
+        print("   Historical trend analysis (5+ years)")
+        print("   Cross-competition performance studies")
+        print("   Detailed team and match statistics")
+        print("   Comprehensive Shapley value analysis")
+        print("   Advanced tactical intelligence")
         
-        print(f"\n📋 Perfect for ADS599 Capstone Research:")
-        print("   • Comprehensive European football dataset")
-        print("   • Multi-year trend analysis capabilities")
-        print("   • Cross-league performance comparisons")
-        print("   • Advanced statistical modeling data")
-        print("   • Professional-grade research dataset")
+        print(f"\nPerfect for ADS599 Capstone Research:")
+        print("   Comprehensive European football dataset")
+        print("   Multi-year trend analysis capabilities")
+        print("   Cross-league performance comparisons")
+        print("   Advanced statistical modeling data")
+        print("   Professional-grade research dataset")
 
 def main():
     """Execute expanded data collection strategy."""
     start_time = datetime.now()
     
-    print("🎯 Starting Expanded Data Collection...")
+    print("Starting Expanded Data Collection...")
     
     # Ensure directories
     os.makedirs('data/processed', exist_ok=True)
@@ -437,9 +437,9 @@ def main():
             collector.collect_additional_competitions()
         
     except KeyboardInterrupt:
-        print("\n⚠️  Collection interrupted by user")
+        print("\nCollection interrupted by user")
     except Exception as e:
-        print(f"\n❌ Collection error: {e}")
+        print(f"\nCollection error: {e}")
     
     # Final summary
     end_time = datetime.now()
@@ -447,9 +447,9 @@ def main():
     
     collector.generate_expanded_summary()
     
-    print(f"\n⏱️  Total Collection Duration: {duration}")
-    print(f"🎉 EXPANDED COLLECTION COMPLETE!")
-    print(f"🏆 World-class soccer intelligence dataset ready for ADS599 Capstone!")
+    print(f"\nTotal Collection Duration: {duration}")
+    print(f"EXPANDED COLLECTION COMPLETE!")
+    print(f"World-class soccer intelligence dataset ready for ADS599 Capstone!")
 
 if __name__ == "__main__":
     main()

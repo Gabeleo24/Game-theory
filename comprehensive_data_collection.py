@@ -15,8 +15,8 @@ import time
 
 def setup_collection():
     """Initialize data collection with progress tracking."""
-    print("⚽ COMPREHENSIVE SOCCER DATA COLLECTION")
-    print("🏆 Ultra Plan Strategy - 75,000 Daily Requests")
+    print("COMPREHENSIVE SOCCER DATA COLLECTION")
+    print("Ultra Plan Strategy - 75,000 Daily Requests")
     print("=" * 60)
     
     try:
@@ -27,21 +27,21 @@ def setup_collection():
         cleaner = DataCleaner()
         
         if not client.api_key:
-            print("❌ API key not configured")
+            print("API key not configured")
             return None, None
         
-        print(f"✅ API Client initialized with key: {client.api_key[:10]}...")
-        print(f"📊 Starting with 16 requests used, 74,984 remaining")
+        print(f"API Client initialized with key: {client.api_key[:10]}...")
+        print(f"Starting with 16 requests used, 74,984 remaining")
         
         return client, cleaner
         
     except Exception as e:
-        print(f"❌ Setup error: {e}")
+        print(f"Setup error: {e}")
         return None, None
 
 def collect_la_liga_comprehensive(client, cleaner):
     """Collect comprehensive La Liga 2023 data."""
-    print("\n🇪🇸 PHASE 1: LA LIGA 2023 COMPREHENSIVE COLLECTION")
+    print("\nPHASE 1: LA LIGA 2023 COMPREHENSIVE COLLECTION")
     print("=" * 60)
     
     LA_LIGA_ID = 140
@@ -50,16 +50,16 @@ def collect_la_liga_comprehensive(client, cleaner):
     
     try:
         # 1. League Information
-        print("📋 Collecting league information...")
+        print("Collecting league information...")
         leagues = client.get_leagues(country="Spain")
         requests_used += 1
-        print(f"   ✅ Spanish leagues collected (Requests: {requests_used})")
+        print(f"   Spanish leagues collected (Requests: {requests_used})")
         
         # 2. Teams Data
-        print("🏟️  Collecting La Liga teams...")
+        print("Collecting La Liga teams...")
         teams_data = client.get_teams(LA_LIGA_ID, SEASON)
         requests_used += 1
-        print(f"   ✅ {len(teams_data)} teams collected (Requests: {requests_used})")
+        print(f"   {len(teams_data)} teams collected (Requests: {requests_used})")
         
         # Clean and save teams
         teams_df = cleaner.clean_team_data(teams_data)
@@ -67,10 +67,10 @@ def collect_la_liga_comprehensive(client, cleaner):
                         orient='records', indent=2)
         
         # 3. All Matches
-        print("⚽ Collecting all La Liga matches...")
+        print("Collecting all La Liga matches...")
         matches_data = client.get_matches(LA_LIGA_ID, SEASON)
         requests_used += 1
-        print(f"   ✅ {len(matches_data)} matches collected (Requests: {requests_used})")
+        print(f"   {len(matches_data)} matches collected (Requests: {requests_used})")
         
         # Clean and save matches
         matches_df = cleaner.clean_match_data(matches_data)
@@ -78,23 +78,23 @@ def collect_la_liga_comprehensive(client, cleaner):
                           orient='records', indent=2)
         
         # 4. League Standings
-        print("🏆 Collecting league standings...")
+        print("Collecting league standings...")
         standings_data = client.get_standings(LA_LIGA_ID, SEASON)
         requests_used += 1
-        print(f"   ✅ Standings collected (Requests: {requests_used})")
+        print(f"   Standings collected (Requests: {requests_used})")
         
         with open('data/processed/la_liga_standings_2023.json', 'w') as f:
             json.dump(standings_data, f, indent=2, default=str)
         
         # 5. Team Statistics for All Teams
-        print("📊 Collecting detailed team statistics...")
+        print("Collecting detailed team statistics...")
         team_stats = {}
         
         for team in teams_data[:10]:  # Top 10 teams to manage requests
             team_id = team['team']['id']
             team_name = team['team']['name']
             
-            print(f"   📈 Collecting stats for {team_name}...")
+            print(f"   Collecting stats for {team_name}...")
             stats = client.get_team_statistics(team_id, LA_LIGA_ID, SEASON)
             team_stats[team_id] = stats
             requests_used += 1
@@ -102,21 +102,21 @@ def collect_la_liga_comprehensive(client, cleaner):
             # Rate limiting
             time.sleep(0.5)
         
-        print(f"   ✅ Team statistics collected (Requests: {requests_used})")
+        print(f"   Team statistics collected (Requests: {requests_used})")
         
         with open('data/processed/la_liga_team_stats_2023.json', 'w') as f:
             json.dump(team_stats, f, indent=2, default=str)
         
-        print(f"\n📊 La Liga Phase Complete - Requests Used: {requests_used}")
+        print(f"\nLa Liga Phase Complete - Requests Used: {requests_used}")
         return requests_used, teams_data, matches_data
         
     except Exception as e:
-        print(f"❌ La Liga collection error: {e}")
+        print(f"La Liga collection error: {e}")
         return requests_used, [], []
 
 def collect_champions_league(client, cleaner, requests_used):
     """Collect Champions League 2023 data."""
-    print(f"\n🏆 PHASE 2: CHAMPIONS LEAGUE 2023 COLLECTION")
+    print(f"\nPHASE 2: CHAMPIONS LEAGUE 2023 COLLECTION")
     print("=" * 60)
     
     CL_ID = 2
@@ -125,16 +125,16 @@ def collect_champions_league(client, cleaner, requests_used):
     
     try:
         # 1. Champions League Teams
-        print("🌟 Collecting Champions League teams...")
+        print("Collecting Champions League teams...")
         cl_teams_data = client.get_teams(CL_ID, SEASON)
         phase_requests += 1
-        print(f"   ✅ {len(cl_teams_data)} CL teams collected")
+        print(f"   {len(cl_teams_data)} CL teams collected")
         
         # 2. Champions League Matches
-        print("⚽ Collecting Champions League matches...")
+        print("Collecting Champions League matches...")
         cl_matches_data = client.get_matches(CL_ID, SEASON)
         phase_requests += 1
-        print(f"   ✅ {len(cl_matches_data)} CL matches collected")
+        print(f"   {len(cl_matches_data)} CL matches collected")
         
         # Clean and save
         cl_teams_df = cleaner.clean_team_data(cl_teams_data)
@@ -146,7 +146,7 @@ def collect_champions_league(client, cleaner, requests_used):
                              orient='records', indent=2)
         
         # 3. Champions League Standings
-        print("🏆 Collecting CL standings...")
+        print("Collecting CL standings...")
         cl_standings = client.get_standings(CL_ID, SEASON)
         phase_requests += 1
         
@@ -154,17 +154,17 @@ def collect_champions_league(client, cleaner, requests_used):
             json.dump(cl_standings, f, indent=2, default=str)
         
         total_requests = requests_used + phase_requests
-        print(f"\n📊 Champions League Phase Complete - Total Requests: {total_requests}")
+        print(f"\nChampions League Phase Complete - Total Requests: {total_requests}")
         
         return total_requests, cl_teams_data, cl_matches_data
         
     except Exception as e:
-        print(f"❌ Champions League collection error: {e}")
+        print(f"Champions League collection error: {e}")
         return requests_used + phase_requests, [], []
 
 def collect_historical_data(client, cleaner, requests_used):
     """Collect historical data for trend analysis."""
-    print(f"\n📈 PHASE 3: HISTORICAL DATA COLLECTION")
+    print(f"\nPHASE 3: HISTORICAL DATA COLLECTION")
     print("=" * 60)
     
     LA_LIGA_ID = 140
@@ -173,7 +173,7 @@ def collect_historical_data(client, cleaner, requests_used):
     
     try:
         for season in historical_seasons:
-            print(f"📅 Collecting La Liga {season} season...")
+            print(f"Collecting La Liga {season} season...")
             
             # Teams for historical season
             historical_teams = client.get_teams(LA_LIGA_ID, season)
@@ -192,23 +192,23 @@ def collect_historical_data(client, cleaner, requests_used):
             matches_df.to_json(f'data/processed/la_liga_matches_{season}.json', 
                               orient='records', indent=2)
             
-            print(f"   ✅ {season} season: {len(historical_teams)} teams, {len(historical_matches)} matches")
+            print(f"   {season} season: {len(historical_teams)} teams, {len(historical_matches)} matches")
             
             # Rate limiting
             time.sleep(1)
         
         total_requests = requests_used + phase_requests
-        print(f"\n📊 Historical Data Phase Complete - Total Requests: {total_requests}")
+        print(f"\nHistorical Data Phase Complete - Total Requests: {total_requests}")
         
         return total_requests
         
     except Exception as e:
-        print(f"❌ Historical data collection error: {e}")
+        print(f"Historical data collection error: {e}")
         return requests_used + phase_requests
 
 def collect_detailed_match_statistics(client, matches_data, requests_used):
     """Collect detailed statistics for key matches."""
-    print(f"\n📊 PHASE 4: DETAILED MATCH STATISTICS")
+    print(f"\nPHASE 4: DETAILED MATCH STATISTICS")
     print("=" * 60)
     
     phase_requests = 0
@@ -227,7 +227,7 @@ def collect_detailed_match_statistics(client, matches_data, requests_used):
             if any(team in home_team for team in key_teams) or any(team in away_team for team in key_teams):
                 important_matches.append(match)
         
-        print(f"🎯 Collecting detailed stats for {len(important_matches)} key matches...")
+        print(f"Collecting detailed stats for {len(important_matches)} key matches...")
         
         for match in important_matches[:15]:  # Limit to manage requests
             fixture_id = match.get('fixture', {}).get('id')
@@ -244,26 +244,26 @@ def collect_detailed_match_statistics(client, matches_data, requests_used):
             json.dump(match_stats, f, indent=2, default=str)
         
         total_requests = requests_used + phase_requests
-        print(f"   ✅ Detailed statistics for {len(match_stats)} matches collected")
-        print(f"\n📊 Match Statistics Phase Complete - Total Requests: {total_requests}")
+        print(f"   Detailed statistics for {len(match_stats)} matches collected")
+        print(f"\nMatch Statistics Phase Complete - Total Requests: {total_requests}")
         
         return total_requests
         
     except Exception as e:
-        print(f"❌ Match statistics collection error: {e}")
+        print(f"Match statistics collection error: {e}")
         return requests_used + phase_requests
 
 def generate_collection_summary(total_requests):
     """Generate summary of data collection."""
     print(f"\n" + "=" * 60)
-    print("📊 COMPREHENSIVE DATA COLLECTION SUMMARY")
+    print("COMPREHENSIVE DATA COLLECTION SUMMARY")
     print("=" * 60)
     
-    print(f"🎯 Total API Requests Used: {total_requests}")
-    print(f"📈 Remaining Requests Today: {75000 - total_requests:,}")
-    print(f"💰 Request Efficiency: {(total_requests/75000)*100:.2f}% of daily limit")
+    print(f"Total API Requests Used: {total_requests}")
+    print(f"Remaining Requests Today: {75000 - total_requests:,}")
+    print(f"Request Efficiency: {(total_requests/75000)*100:.2f}% of daily limit")
     
-    print(f"\n✅ Data Collected:")
+    print(f"\nData Collected:")
     
     # Check what files were created
     data_files = []
@@ -275,19 +275,19 @@ def generate_collection_summary(total_requests):
                 data_files.append((file, file_size))
     
     for filename, size in data_files:
-        print(f"   📁 {filename}: {size:.1f} KB")
+        print(f"   {filename}: {size:.1f} KB")
     
     total_size = sum(size for _, size in data_files)
-    print(f"\n💾 Total Data Collected: {total_size:.1f} KB")
+    print(f"\nTotal Data Collected: {total_size:.1f} KB")
     
-    print(f"\n🚀 Ready for Analysis:")
+    print(f"\nReady for Analysis:")
     print("   • La Liga 2023 comprehensive dataset")
     print("   • Champions League 2023 data")
     print("   • Historical data for trend analysis")
     print("   • Detailed match statistics for key games")
     print("   • Team performance metrics")
     
-    print(f"\n📋 Next Steps:")
+    print(f"\nNext Steps:")
     print("   1. Run Shapley value analysis on collected data")
     print("   2. Perform tactical formation analysis")
     print("   3. Generate performance intelligence reports")
@@ -330,9 +330,9 @@ def main():
     
     generate_collection_summary(total_requests)
     
-    print(f"\n⏱️  Collection Duration: {duration}")
-    print(f"🎉 COMPREHENSIVE DATA COLLECTION COMPLETE!")
-    print(f"🚀 Your ADS599 Capstone dataset is ready for advanced analysis!")
+    print(f"\nCollection Duration: {duration}")
+    print(f"COMPREHENSIVE DATA COLLECTION COMPLETE!")
+    print(f"Your ADS599 Capstone dataset is ready for advanced analysis!")
 
 if __name__ == "__main__":
     main()

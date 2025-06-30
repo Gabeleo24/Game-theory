@@ -20,7 +20,7 @@ def test_api_football():
         leagues = client.get_leagues(country="Spain")
         
         if leagues:
-            print(f"✅ API-Football: Successfully retrieved {len(leagues)} Spanish leagues")
+            print(f"API-Football: Successfully retrieved {len(leagues)} Spanish leagues")
             # Find La Liga
             la_liga = next((league for league in leagues 
                           if league.get('league', {}).get('name') == 'La Liga'), None)
@@ -28,11 +28,11 @@ def test_api_football():
                 print(f"   Found La Liga (ID: {la_liga['league']['id']})")
             return True
         else:
-            print("❌ API-Football: No data retrieved")
+            print("API-Football: No data retrieved")
             return False
             
     except Exception as e:
-        print(f"❌ API-Football: Error - {e}")
+        print(f"API-Football: Error - {e}")
         return False
 
 def test_twitter():
@@ -46,18 +46,18 @@ def test_twitter():
             tweets = collector.search_tweets("Real Madrid", max_results=5, days_back=1)
             
             if tweets:
-                print(f"✅ Twitter: Successfully retrieved {len(tweets)} tweets")
+                print(f"Twitter: Successfully retrieved {len(tweets)} tweets")
                 print(f"   Sample tweet: {tweets[0].get('text', 'N/A')[:50]}...")
                 return True
             else:
-                print("⚠️  Twitter: Connected but no tweets retrieved (might be rate limited)")
+                print("Twitter: Connected but no tweets retrieved (might be rate limited)")
                 return True
         else:
-            print("❌ Twitter: Client not initialized")
+            print("Twitter: Client not initialized")
             return False
             
     except Exception as e:
-        print(f"❌ Twitter: Error - {e}")
+        print(f"Twitter: Error - {e}")
         return False
 
 def test_openai():
@@ -81,14 +81,14 @@ def test_openai():
             )
             
             if response:
-                print("✅ OpenAI: API connection successful")
+                print("OpenAI: API connection successful")
                 return True
         else:
-            print("❌ OpenAI: API key not found")
+            print("OpenAI: API key not found")
             return False
             
     except Exception as e:
-        print(f"❌ OpenAI: Error - {e}")
+        print(f"OpenAI: Error - {e}")
         return False
 
 def main():
@@ -110,7 +110,7 @@ def main():
     print("=" * 55)
     
     for api, success in results.items():
-        status = "✅ WORKING" if success else "❌ FAILED"
+        status = "WORKING" if success else "FAILED"
         print(f"{api.upper():12}: {status}")
     
     working_apis = sum(results.values())
@@ -119,14 +119,14 @@ def main():
     print(f"\nOverall: {working_apis}/{total_apis} APIs working correctly")
     
     if working_apis == total_apis:
-        print("\n🎉 All APIs configured correctly! Your Soccer Intelligence System is ready!")
+        print("\nAll APIs configured correctly. Your Soccer Intelligence System is ready.")
         print("\nNext steps:")
         print("1. Run: jupyter notebook notebooks/01_data_collection_demo.ipynb")
         print("2. Start collecting La Liga and Champions League data")
         print("3. Begin your ADS599 Capstone analysis")
     else:
-        print("\n⚠️  Some APIs need attention. Check the error messages above.")
-        print("   The system will still work with the functioning APIs.")
+        print("\nSome APIs need attention. Check the error messages above.")
+        print("The system will still work with the functioning APIs.")
 
 if __name__ == "__main__":
     main()

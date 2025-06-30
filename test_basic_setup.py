@@ -16,14 +16,14 @@ def test_api_football():
         client = APIFootballClient()
         
         if not client.api_key:
-            print("❌ API-Football: No API key configured")
+            print("API-Football: No API key configured")
             return False
         
         # Test with a simple request - get leagues
         leagues = client.get_leagues(country="Spain")
         
         if leagues:
-            print(f"✅ API-Football: Successfully retrieved {len(leagues)} Spanish leagues")
+            print(f"API-Football: Successfully retrieved {len(leagues)} Spanish leagues")
             # Find La Liga
             la_liga = next((league for league in leagues 
                           if league.get('league', {}).get('name') == 'La Liga'), None)
@@ -31,11 +31,11 @@ def test_api_football():
                 print(f"   Found La Liga (ID: {la_liga['league']['id']})")
             return True
         else:
-            print("❌ API-Football: No data retrieved")
+            print("API-Football: No data retrieved")
             return False
             
     except Exception as e:
-        print(f"❌ API-Football: Error - {e}")
+        print(f"API-Football: Error - {e}")
         return False
 
 def test_twitter():
@@ -47,15 +47,15 @@ def test_twitter():
         collector = SocialMediaCollector()
         
         if collector.twitter_client:
-            print("✅ Twitter: Client initialized successfully")
+            print("Twitter: Client initialized successfully")
             print("   Note: Actual tweet collection requires rate limit consideration")
             return True
         else:
-            print("❌ Twitter: Client not initialized")
+            print("Twitter: Client not initialized")
             return False
             
     except Exception as e:
-        print(f"❌ Twitter: Error - {e}")
+        print(f"Twitter: Error - {e}")
         return False
 
 def test_config():
@@ -71,15 +71,15 @@ def test_config():
         openai_key = config.get('openai.api_key')
         twitter_token = config.get('twitter.bearer_token')
         
-        print(f"✅ Configuration loaded successfully")
-        print(f"   API-Football key: {'✅ Set' if api_football_key else '❌ Missing'}")
-        print(f"   OpenAI key: {'✅ Set' if openai_key else '❌ Missing'}")
-        print(f"   Twitter token: {'✅ Set' if twitter_token else '❌ Missing'}")
+        print(f"Configuration loaded successfully")
+        print(f"   API-Football key: {'Set' if api_football_key else 'Missing'}")
+        print(f"   OpenAI key: {'Set' if openai_key else 'Missing'}")
+        print(f"   Twitter token: {'Set' if twitter_token else 'Missing'}")
         
         return True
         
     except Exception as e:
-        print(f"❌ Configuration: Error - {e}")
+        print(f"Configuration: Error - {e}")
         return False
 
 def test_data_collection():
@@ -91,14 +91,14 @@ def test_data_collection():
         client = APIFootballClient()
         
         if not client.api_key:
-            print("⚠️  Skipping data collection test - no API key")
+            print("Skipping data collection test - no API key")
             return True
         
         # Get La Liga teams for 2023 season
         teams = client.get_teams(league_id=140, season=2023)
         
         if teams:
-            print(f"✅ Successfully collected {len(teams)} La Liga teams")
+            print(f"Successfully collected {len(teams)} La Liga teams")
             
             # Show sample teams
             print("   Sample teams:")
@@ -108,11 +108,11 @@ def test_data_collection():
             
             return True
         else:
-            print("⚠️  No teams data retrieved (might be rate limited)")
+            print("No teams data retrieved (might be rate limited)")
             return True
             
     except Exception as e:
-        print(f"❌ Data collection: Error - {e}")
+        print(f"Data collection: Error - {e}")
         return False
 
 def test_cache():
@@ -124,7 +124,7 @@ def test_cache():
         cache_manager = CacheManager()
         cache_info = cache_manager.get_cache_info()
         
-        print(f"✅ Cache system working")
+        print(f"Cache system working")
         print(f"   Cache directory: {cache_info['cache_directory']}")
         print(f"   Cache files: {cache_info['total_files']}")
         print(f"   Total size: {cache_info['total_size_mb']} MB")
@@ -132,7 +132,7 @@ def test_cache():
         return True
         
     except Exception as e:
-        print(f"❌ Cache system: Error - {e}")
+        print(f"Cache system: Error - {e}")
         return False
 
 def main():
@@ -153,7 +153,7 @@ def main():
     print("=" * 50)
     
     for component, success in results.items():
-        status = "✅ WORKING" if success else "❌ FAILED"
+        status = "WORKING" if success else "FAILED"
         print(f"{component.upper():15}: {status}")
     
     working_components = sum(results.values())
@@ -162,13 +162,13 @@ def main():
     print(f"\nOverall: {working_components}/{total_components} components working correctly")
     
     if working_components >= 4:  # Allow for some optional components
-        print("\n🎉 Core system is working! You can start collecting soccer data!")
+        print("\nCore system is working. You can start collecting soccer data.")
         print("\nNext steps:")
         print("1. Try: python -c \"from src.soccer_intelligence.data_collection.api_football import APIFootballClient; client = APIFootballClient(); print('API client ready!')\"")
         print("2. Collect some La Liga data to test the system")
         print("3. Run the Jupyter notebook for full demonstration")
     else:
-        print("\n⚠️  Some core components need attention. Check the error messages above.")
+        print("\nSome core components need attention. Check the error messages above.")
 
 if __name__ == "__main__":
     main()
