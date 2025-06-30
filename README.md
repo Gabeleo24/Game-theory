@@ -51,16 +51,34 @@ ADS599_Capstone/
 │   │   ├── vector_store.py         # Vector database management
 │   │   └── query_processor.py      # Natural language query processing
 │   └── utils/                       # System utilities and helpers
+├── scripts/                         # Utility scripts and tools
+│   ├── data_collection/            # Data collection scripts
+│   │   ├── clean_data_collection.py        # Professional data collection
+│   │   ├── collect_today_data.py           # Daily data collection
+│   │   ├── comprehensive_data_collection.py # Multi-source collection
+│   │   ├── expanded_data_collection.py     # Maximum coverage collection
+│   │   └── ultra_plan_strategy.py          # Strategic API usage
+│   ├── demos/                      # System demonstration scripts
+│   │   ├── demo_soccer_intelligence.py     # Complete system demo
+│   │   └── working_demo.py                 # Basic functionality demo
+│   └── testing/                    # Testing and validation scripts
+│       ├── test_api_setup.py              # API connectivity testing
+│       └── test_basic_setup.py            # Basic system validation
 ├── data/                            # Data storage and management
 │   ├── raw/                        # Original API responses and cached data
 │   ├── processed/                  # Cleaned and transformed datasets
 │   └── models/                     # Trained models and embeddings
 ├── config/                         # System configuration
-│   ├── api_keys.yaml              # API credentials (template)
-│   └── system_config.yaml         # System parameters
+│   ├── api_keys.yaml              # API credentials (configured)
+│   ├── api_keys_template.yaml     # API credentials template
+│   └── config_template.yaml       # System configuration template
+├── docs/                           # Technical documentation
+│   └── setup/                     # Setup and configuration documentation
+│       ├── CLEAN_SETUP_SUMMARY.md        # Clean system setup summary
+│       └── SETUP_COMPLETE.md              # Original setup documentation
 ├── tests/                          # Comprehensive test suite
 ├── notebooks/                      # Research and analysis notebooks
-└── docs/                          # Technical documentation
+└── requirements.txt                # Python dependencies
 ```
 
 ## Installation and Setup
@@ -128,6 +146,22 @@ twitter:
 
 ### Quick Start
 
+#### Option 1: Using Demo Scripts (Recommended)
+```bash
+# Test basic system setup
+python scripts/testing/test_basic_setup.py
+
+# Test API connectivity
+python scripts/testing/test_api_setup.py
+
+# Run basic system demonstration
+python scripts/demos/working_demo.py
+
+# Run comprehensive system demonstration
+python scripts/demos/demo_soccer_intelligence.py
+```
+
+#### Option 2: Using Python API
 ```python
 # Initialize the Soccer Intelligence System
 from src.soccer_intelligence import SoccerIntelligenceSystem
@@ -137,6 +171,18 @@ system = SoccerIntelligenceSystem()
 
 # Verify system configuration
 system.verify_setup()
+```
+
+#### Option 3: Data Collection Scripts
+```bash
+# Run daily data collection
+python scripts/data_collection/collect_today_data.py
+
+# Run comprehensive data collection
+python scripts/data_collection/comprehensive_data_collection.py
+
+# Run clean professional data collection
+python scripts/data_collection/clean_data_collection.py
 ```
 
 ### Data Collection Operations
