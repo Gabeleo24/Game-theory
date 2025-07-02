@@ -1,0 +1,53 @@
+{
+  "analysis_summary": {
+    "total_unique_teams": 0,
+    "years_analyzed": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "dataset_files_analyzed": 180
+  },
+  "core_teams": [],
+  "league_distribution": {
+    "39": {
+      "name": "Premier League",
+      "country": "England",
+      "teams": []
+    },
+    "140": {
+      "name": "La Liga",
+      "country": "Spain",
+      "teams": []
+    },
+    "135": {
+      "name": "Serie A",
+      "country": "Italy",
+      "teams": []
+    },
+    "78": {
+      "name": "Bundesliga",
+      "country": "Germany",
+      "teams": []
+    },
+    "61": {
+      "name": "Ligue 1",
+      "country": "France",
+      "teams": []
+    }
+  },
+  "dataset_coverage": {
+    "champions_league": 19,
+    "domestic_leagues": 85,
+    "other_competitions": 31,
+    "total_files": 180
+  },
+  "recommendations": [
+    "Focus data collection on the identified core teams",
+    "Maintain multi-competition context for these teams",
+    "Prioritize Champions League, domestic league, and major cup data",
+    "Filter existing dataset to reduce noise from non-core teams"
+  ]
+}

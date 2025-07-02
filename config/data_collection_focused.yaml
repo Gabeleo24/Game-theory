@@ -1,0 +1,169 @@
+competitions:
+  champions_league:
+    collect_all_data: true
+    priority: highest
+    years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+  domestic_cups:
+    filter_by_teams: true
+    priority: medium
+  domestic_leagues:
+    filter_by_teams: true
+    leagues:
+    - premier_league
+    - la_liga
+    - serie_a
+    - bundesliga
+    - ligue_1
+    priority: high
+  europa_league:
+    filter_by_teams: true
+    priority: medium
+data_types:
+  injuries:
+    core_teams_only: true
+    priority: medium
+  matches:
+    include_detailed_stats: true
+    priority: highest
+  players:
+    focus_on_core_teams: true
+    priority: high
+  standings:
+    all_competitions: true
+    priority: high
+  teams:
+    include_all_seasons: true
+    priority: highest
+  transfers:
+    core_teams_only: true
+    priority: medium
+focus_mode:
+  description: Focused data collection for Champions League teams
+  enabled: true
+  league_configurations:
+    bundesliga:
+      league_id: 78
+      priority_teams:
+      - 157
+      - 161
+      - 163
+      - 165
+      - 168
+      - 169
+      - 173
+      - 182
+    la_liga:
+      league_id: 140
+      priority_teams:
+      - 529
+      - 530
+      - 532
+      - 533
+      - 536
+      - 541
+      - 548
+    ligue_1:
+      league_id: 61
+      priority_teams:
+      - 79
+      - 80
+      - 81
+      - 85
+      - 94
+      - 116
+    premier_league:
+      league_id: 39
+      priority_teams:
+      - 33
+      - 34
+      - 40
+      - 42
+      - 47
+      - 49
+      - 50
+    serie_a:
+      league_id: 135
+      priority_teams:
+      - 487
+      - 489
+      - 492
+      - 496
+      - 499
+      - 505
+  priority_teams:
+    high_priority:
+    - 85
+    - 541
+    - 157
+    - 50
+    - 550
+    - 530
+    - 571
+    - 529
+    - 165
+    - 505
+    - 173
+    - 569
+    - 496
+    - 40
+    - 211
+    - 49
+    - 194
+    - 212
+    - 536
+    - 499
+    low_priority:
+    - 560
+    - 80
+    - 532
+    - 163
+    - 397
+    - 621
+    - 94
+    - 651
+    - 564
+    - 549
+    - 568
+    - 533
+    - 161
+    - 375
+    - 257
+    - 567
+    - 169
+    - 4195
+    - 42
+    - 197
+    - 116
+    - 217
+    - 182
+    - 548
+    - 209
+    - 34
+    - 740
+    medium_priority:
+    - 492
+    - 596
+    - 33
+    - 489
+    - 645
+    - 47
+    - 553
+    - 598
+    - 620
+    - 168
+    - 597
+    - 79
+    - 81
+    - 487
+    - 572
+    - 228
+    - 565
+    - 247
+    - 400
+    - 742

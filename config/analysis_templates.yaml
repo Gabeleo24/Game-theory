@@ -1,0 +1,83 @@
+performance_intelligence:
+  description: Multi-competition performance intelligence
+  metrics:
+  - consistency_across_competitions
+  - peak_performance_periods
+  - tactical_evolution
+  rag_queries:
+  - formation_effectiveness_by_competition
+  - player_contribution_analysis
+  - tactical_adaptation_strategies
+  scope: all_core_teams
+shapley_analysis:
+  competitions:
+  - champions_league
+  - domestic_league
+  description: Shapley Value Analysis for Champions League teams
+  focus_teams:
+  - 85
+  - 541
+  - 157
+  - 50
+  - 550
+  - 530
+  - 571
+  - 529
+  - 165
+  - 505
+  - 173
+  - 569
+  - 496
+  - 40
+  - 211
+  - 49
+  - 194
+  - 212
+  - 536
+  - 499
+  - 492
+  - 596
+  - 33
+  - 489
+  - 645
+  - 47
+  - 553
+  - 598
+  - 620
+  - 168
+  - 597
+  - 79
+  metrics:
+  - goals
+  - assists
+  - defensive_actions
+  - possession_contribution
+  output_format: comparative_analysis
+tactical_analysis:
+  analysis_types:
+  - formation_effectiveness
+  - tactical_flexibility
+  - competition_adaptation
+  comparison_scope: champions_league_vs_domestic
+  description: Formation and tactical analysis across competitions
+  focus_teams:
+  - 85
+  - 541
+  - 157
+  - 50
+  - 550
+  - 530
+  - 571
+  - 529
+  - 165
+  - 505
+  - 173
+  - 569
+  - 496
+  - 40
+  - 211
+  - 49
+  - 194
+  - 212
+  - 536
+  - 499

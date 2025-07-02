@@ -1,0 +1,13 @@
+analysis:
+  rag_output: data/analysis/rag
+  shapley_output: data/analysis/shapley
+  tactical_output: data/analysis/tactical
+core_files:
+  champions_league_teams: data/focused/core_champions_league_teams.json
+  focus_report: data/focused/champions_league_focus_report.json
+  team_league_mapping: data/focused/team_league_mapping.json
+data:
+  analysis_output: data/analysis
+  focused_dataset: data/focused
+  original_dataset: data/processed
+  reports: data/reports
