@@ -1,0 +1,191 @@
+# Optimized Data Collection Configuration for ADS599 Capstone Project
+# Implements data collection optimization guidelines for focused analysis
+
+project:
+  name: "ADS599 Capstone - Optimized Soccer Analytics"
+  scope: "67 UEFA Champions League Teams"
+  temporal_scope: "2020-2025 (6 seasons)"
+  optimization_target: "API efficiency and focused analysis"
+
+# Scope Filtering Configuration
+scope_filtering:
+  # Restrict to 67 UEFA Champions League teams
+  team_filtering:
+    enabled: true
+    source: "data/focused/players/team_rosters/"
+    method: "roster_file_extraction"
+    core_teams_only: true
+    
+  # Limit temporal scope to 2020-2025
+  temporal_filtering:
+    enabled: true
+    target_seasons: [2020, 2021, 2022, 2023, 2024, 2025]
+    season_count: 6
+    historical_cutoff: 2020
+    future_limit: 2025
+    
+  # Prioritize multi-competition data
+  competition_priority:
+    primary: ["champions_league", "domestic_league"]
+    secondary: ["domestic_cup", "europa_league"]
+    tertiary: ["international_friendlies"]
+
+# Implementation Strategy
+implementation:
+  # Use existing team filtering logic
+  team_filtering_logic:
+    script: "scripts/data_collection/comprehensive_player_collection.py"
+    method: "roster_based_filtering"
+    validation: "team_id_extraction"
+    
+  # Apply season filters in API collection
+  season_filtering:
+    api_level: true
+    request_optimization: true
+    avoid_unnecessary_historical: true
+    
+  # Leverage established player roster files
+  roster_utilization:
+    source_pattern: "team_*_players_*.json"
+    player_identification: "pre_request_filtering"
+    duplicate_avoidance: true
+
+# API Efficiency Considerations
+api_efficiency:
+  # Maintain rate limiting
+  rate_limiting:
+    requests_per_minute: 100
+    delay_between_requests: 0.6  # seconds
+    burst_protection: true
+    
+  # Use existing caching mechanisms
+  caching:
+    enabled: true
+    cache_directory: "data/cache/"
+    avoid_duplicate_requests: true
+    cache_expiry_days: 30
+    
+  # Focus on individual player statistics
+  collection_focus:
+    primary_target: "individual_player_statistics"
+    team_scope: "filtered_67_teams"
+    season_scope: "2020_2025_only"
+
+# Quality Assurance Configuration
+quality_assurance:
+  # Maintain 99.85% consistency standard
+  consistency_target:
+    minimum_percentage: 99.85
+    validation_enabled: true
+    error_threshold: 0.15
+    
+  # Ensure core team representation
+  team_coverage:
+    target_teams: 67
+    minimum_coverage: 100.0  # percentage
+    validation_required: true
+    
+  # Update validation scripts
+  validation_updates:
+    scope_parameters: "optimized_scope"
+    season_range: [2020, 2025]
+    team_filtering: "core_teams_only"
+
+# Data Collection Paths
+paths:
+  # Input paths
+  roster_files: "data/focused/players/team_rosters/"
+  existing_stats: "data/focused/players/individual_stats/"
+  
+  # Output paths
+  individual_stats: "data/focused/players/individual_stats/"
+  collection_reports: "data/analysis/"
+  validation_reports: "data/analysis/"
+  
+  # Cache and temporary
+  cache_directory: "data/cache/"
+  temp_directory: "data/temp/"
+
+# Collection Modes
+collection_modes:
+  # Optimized mode (default)
+  optimized:
+    description: "Focused collection for 67 teams, 2020-2025"
+    team_filtering: true
+    season_filtering: true
+    api_optimization: true
+    
+  # Validation mode
+  validation:
+    description: "Validate existing data against optimization criteria"
+    check_coverage: true
+    verify_consistency: true
+    generate_reports: true
+    
+  # Incremental mode
+  incremental:
+    description: "Collect only missing data for optimized scope"
+    skip_existing: true
+    fill_gaps: true
+    update_recent: true
+
+# Performance Targets
+performance_targets:
+  # Collection efficiency
+  collection_speed:
+    teams_per_hour: 10
+    players_per_minute: 5
+    api_requests_per_hour: 6000
+    
+  # Data quality
+  quality_metrics:
+    consistency_percentage: 99.85
+    completeness_percentage: 95.0
+    accuracy_validation: true
+    
+  # Resource utilization
+  resource_limits:
+    max_api_requests_per_run: 5000
+    max_collection_duration_hours: 8
+    memory_limit_gb: 4
+
+# Monitoring and Reporting
+monitoring:
+  # Progress tracking
+  progress_reporting:
+    enabled: true
+    interval_teams: 5
+    show_api_usage: true
+    show_time_estimates: true
+    
+  # Error handling
+  error_handling:
+    log_errors: true
+    continue_on_error: true
+    max_consecutive_errors: 10
+    
+  # Final reporting
+  final_reports:
+    collection_summary: true
+    api_usage_report: true
+    quality_validation: true
+    optimization_metrics: true
+
+# Integration with Existing System
+integration:
+  # Existing scripts compatibility
+  script_compatibility:
+    comprehensive_collector: true
+    player_statistics_collector: true
+    validation_scripts: true
+    
+  # Configuration inheritance
+  inherit_from:
+    - "config/player_collection_config.yaml"
+    - "config/focused_config.yaml"
+    
+  # Override settings
+  overrides:
+    temporal_scope: "2020_2025_only"
+    team_scope: "core_67_teams"
+    api_optimization: "enabled"
