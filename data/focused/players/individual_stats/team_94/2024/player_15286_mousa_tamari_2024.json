@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 15286,
+    "name": "Mousa Tamari",
+    "firstname": "Mousa Mohammad Mousa",
+    "lastname": "Sulaiman Al Tamari",
+    "age": 28,
+    "birth": {
+      "date": "1997-06-10",
+      "place": "Amman",
+      "country": "Jordan"
+    },
+    "nationality": "Jordan",
+    "height": "175 cm",
+    "weight": "72 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/15286.png"
+  },
+  "team_context": {
+    "team_id": 94,
+    "team_name": "Rennes",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 94,
+    "team_name": "Rennes",
+    "primary_position": "Attacker",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 11,
+      "goals": 1,
+      "assists": 1,
+      "minutes": 567,
+      "average_rating": 6.84
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "performance_stats": {
+        "appearances": 11,
+        "lineups": 7,
+        "minutes": 567,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.840000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 276,
+        "passes_key": 12,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 14,
+        "tackles_blocks": null,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 154,
+        "duels_won": 71
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 63,
+        "dribbles_success": 23,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 26,
+        "fouls_committed": 7,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 19,
+        "shots_on": 11
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 11,
+    "total_lineups": 7,
+    "total_minutes": 567,
+    "total_goals": 1,
+    "total_assists": 1,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.84,
+    "goals_per_90": 0.16,
+    "assists_per_90": 0.16,
+    "minutes_per_appearance": 51.5
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.561626",
+    "source_file": "team_94_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

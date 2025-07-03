@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 10135,
+    "name": "Bruno Guimarães",
+    "firstname": "Bruno",
+    "lastname": "Guimarães Rodriguez Moura",
+    "age": 28,
+    "birth": {
+      "date": "1997-11-16",
+      "place": "Rio de Janeiro",
+      "country": "Brazil"
+    },
+    "nationality": "Brazil",
+    "height": "182 cm",
+    "weight": "74 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/10135.png"
+  },
+  "team_context": {
+    "team_id": 34,
+    "team_name": "Newcastle",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 34,
+    "team_name": "Newcastle",
+    "primary_position": "Midfielder",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 17,
+      "goals": 5,
+      "assists": 1,
+      "minutes": 1032,
+      "average_rating": 7.17
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "performance_stats": {
+        "appearances": 17,
+        "lineups": 11,
+        "minutes": 1032,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.173333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 5,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 505,
+        "passes_key": 12,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 44,
+        "tackles_blocks": 6,
+        "tackles_interceptions": 9
+      },
+      "duel_stats": {
+        "duels_total": 192,
+        "duels_won": 106
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 40,
+        "dribbles_success": 22,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 36,
+        "fouls_committed": 13,
+        "cards_yellow": 4,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 17,
+        "shots_on": 12
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 17,
+    "total_lineups": 11,
+    "total_minutes": 1032,
+    "total_goals": 5,
+    "total_assists": 1,
+    "total_yellow_cards": 4,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 7.17,
+    "goals_per_90": 0.44,
+    "assists_per_90": 0.09,
+    "minutes_per_appearance": 60.7
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.774661",
+    "source_file": "team_34_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

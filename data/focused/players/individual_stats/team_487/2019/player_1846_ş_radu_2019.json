@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 1846,
+    "name": "Ş. Radu",
+    "firstname": "Ştefan Daniel",
+    "lastname": "Radu",
+    "age": 37,
+    "birth": {
+      "date": "1986-10-22",
+      "place": "București",
+      "country": "Romania"
+    },
+    "nationality": "Romania",
+    "height": "183 cm",
+    "weight": "79 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1846.png"
+  },
+  "team_context": {
+    "team_id": 487,
+    "team_name": "Lazio",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 487,
+    "team_name": "Lazio",
+    "primary_position": "Defender",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 29,
+      "goals": 1,
+      "assists": 0,
+      "minutes": 2315,
+      "average_rating": 6.98
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 487,
+        "name": "Lazio",
+        "logo": "https://media.api-sports.io/football/teams/487.png"
+      },
+      "performance_stats": {
+        "appearances": 29,
+        "lineups": 28,
+        "minutes": 2315,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.979310",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1164,
+        "passes_key": 12,
+        "passes_accuracy": 87
+      },
+      "defensive_stats": {
+        "tackles_total": 39,
+        "tackles_blocks": 9,
+        "tackles_interceptions": 32
+      },
+      "duel_stats": {
+        "duels_total": 38,
+        "duels_won": 23
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 23,
+        "dribbles_success": 18,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 21,
+        "fouls_committed": 31,
+        "cards_yellow": 8,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": 1,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 5,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 29,
+    "total_lineups": 28,
+    "total_minutes": 2315,
+    "total_goals": 1,
+    "total_assists": 0,
+    "total_yellow_cards": 8,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.98,
+    "goals_per_90": 0.04,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 79.8
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.018248",
+    "source_file": "team_487_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

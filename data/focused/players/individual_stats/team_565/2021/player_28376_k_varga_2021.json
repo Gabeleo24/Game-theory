@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 28376,
+    "name": "K. Varga",
+    "firstname": "Kevin",
+    "lastname": "Varga",
+    "age": 29,
+    "birth": {
+      "date": "1996-03-30",
+      "place": "Karcag",
+      "country": "Hungary"
+    },
+    "nationality": "Hungary",
+    "height": "178 cm",
+    "weight": "72 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/28376.png"
+  },
+  "team_context": {
+    "team_id": 565,
+    "team_name": "BSC Young Boys",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 565,
+    "team_name": "BSC Young Boys",
+    "primary_position": "Midfielder",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 6,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 127,
+      "average_rating": 6.48
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 565,
+        "name": "BSC Young Boys",
+        "logo": "https://media.api-sports.io/football/teams/565.png"
+      },
+      "performance_stats": {
+        "appearances": 6,
+        "lineups": 1,
+        "minutes": 127,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.483333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 44,
+        "passes_key": 2,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 2,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 15,
+        "duels_won": 6
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 3,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 6,
+    "total_lineups": 1,
+    "total_minutes": 127,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.48,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 21.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.611853",
+    "source_file": "team_565_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

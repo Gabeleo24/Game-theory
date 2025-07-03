@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 44378,
+    "name": "Wergiton do Rosário Calmon",
+    "firstname": "Wergiton",
+    "lastname": "do Rosário Calmon",
+    "age": 36,
+    "birth": {
+      "date": "1988-09-28",
+      "place": "Rio de Janeiro",
+      "country": "Brazil"
+    },
+    "nationality": "Brazil",
+    "height": "180 cm",
+    "weight": "73 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/44378.png"
+  },
+  "team_context": {
+    "team_id": 651,
+    "team_name": "Ferencvarosi TC",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 651,
+    "team_name": "Ferencvarosi TC",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 35,
+      "goals": 3,
+      "assists": 1,
+      "minutes": 2382,
+      "average_rating": 6.62
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 271,
+        "name": "NB I",
+        "country": "Hungary",
+        "logo": "https://media.api-sports.io/football/leagues/271.png",
+        "flag": "https://media.api-sports.io/flags/hu.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 651,
+        "name": "Ferencvarosi TC",
+        "logo": "https://media.api-sports.io/football/teams/651.png"
+      },
+      "performance_stats": {
+        "appearances": 24,
+        "lineups": 17,
+        "minutes": 1486,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 3,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 651,
+        "name": "Ferencvarosi TC",
+        "logo": "https://media.api-sports.io/football/teams/651.png"
+      },
+      "performance_stats": {
+        "appearances": 11,
+        "lineups": 10,
+        "minutes": 896,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.622222",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 277,
+        "passes_key": 6,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 9,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 17
+      },
+      "duel_stats": {
+        "duels_total": 74,
+        "duels_won": 37
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 12,
+        "dribbles_success": 8,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 9,
+        "fouls_committed": 5,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 0
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 35,
+    "total_lineups": 27,
+    "total_minutes": 2382,
+    "total_goals": 3,
+    "total_assists": 1,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.62,
+    "goals_per_90": 0.11,
+    "assists_per_90": 0.04,
+    "minutes_per_appearance": 68.1
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.968755",
+    "source_file": "team_651_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 1990,
+    "name": "A. Hutchinson",
+    "firstname": "Atiba",
+    "lastname": "Hutchinson",
+    "age": 40,
+    "birth": {
+      "date": "1983-02-08",
+      "place": "Brampton",
+      "country": "Canada"
+    },
+    "nationality": "Canada",
+    "height": "187 cm",
+    "weight": "83 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1990.png"
+  },
+  "team_context": {
+    "team_id": 549,
+    "team_name": "Besiktas",
+    "season": 2022
+  },
+  "season_summary": {
+    "season": 2022,
+    "team_id": 549,
+    "team_name": "Besiktas",
+    "primary_position": "Midfielder",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 5,
+      "goals": 1,
+      "assists": 0,
+      "minutes": 79,
+      "average_rating": 6.45
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 549,
+        "name": "Besiktas",
+        "logo": "https://media.api-sports.io/football/teams/549.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 1,
+        "minutes": 79,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.450000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 77,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 11,
+        "duels_won": 5
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 3,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 1,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 5,
+    "total_lineups": 1,
+    "total_minutes": 79,
+    "total_goals": 1,
+    "total_assists": 0,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.45,
+    "goals_per_90": 1.14,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 15.8
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.479041",
+    "source_file": "team_549_players_2022.json",
+    "data_structure_version": "1.0"
+  }
+}

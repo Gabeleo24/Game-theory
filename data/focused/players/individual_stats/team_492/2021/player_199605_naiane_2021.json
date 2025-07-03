@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 199605,
+    "name": "Naiane",
+    "firstname": "Naiane Alice",
+    "lastname": "Aparecida Brozinga",
+    "age": 29,
+    "birth": {
+      "date": "1995-04-25",
+      "place": "Itapira",
+      "country": "Brazil"
+    },
+    "nationality": "Brazil",
+    "height": "161 cm",
+    "weight": "59 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/199605.png"
+  },
+  "team_context": {
+    "team_id": 492,
+    "team_name": "Napoli",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 492,
+    "team_name": "Napoli",
+    "primary_position": "Attacker",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 13,
+      "goals": 1,
+      "assists": 0,
+      "minutes": 553,
+      "average_rating": null
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 74,
+        "name": "Brasileiro Women",
+        "country": "Brazil",
+        "logo": "https://media.api-sports.io/football/leagues/74.png",
+        "flag": "https://media.api-sports.io/flags/br.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "performance_stats": {
+        "appearances": 13,
+        "lineups": 6,
+        "minutes": 553,
+        "number": null,
+        "position": "Attacker",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 13,
+    "total_lineups": 6,
+    "total_minutes": 553,
+    "total_goals": 1,
+    "total_assists": 0,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": null,
+    "goals_per_90": 0.16,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 42.5
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.088047",
+    "source_file": "team_492_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

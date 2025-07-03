@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 187987,
+    "name": "Ramón Terrats",
+    "firstname": "Ramón",
+    "lastname": "Terrats Espacio",
+    "age": 25,
+    "birth": {
+      "date": "2000-10-18",
+      "place": "Barcelona",
+      "country": "Spain"
+    },
+    "nationality": "Spain",
+    "height": "181 cm",
+    "weight": "71 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/187987.png"
+  },
+  "team_context": {
+    "team_id": 533,
+    "team_name": "Villarreal",
+    "season": 2022
+  },
+  "season_summary": {
+    "season": 2022,
+    "team_id": 533,
+    "team_name": "Villarreal",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 18,
+      "goals": 1,
+      "assists": 0,
+      "minutes": 896,
+      "average_rating": 6.58
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 533,
+        "name": "Villarreal",
+        "logo": "https://media.api-sports.io/football/teams/533.png"
+      },
+      "performance_stats": {
+        "appearances": 16,
+        "lineups": 11,
+        "minutes": 822,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.566666",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 91,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": 2,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 31,
+        "duels_won": 9
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 5,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 3,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2022
+      },
+      "team_info": {
+        "id": 533,
+        "name": "Villarreal",
+        "logo": "https://media.api-sports.io/football/teams/533.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 1,
+        "minutes": 74,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.600000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 54,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 11,
+        "duels_won": 4
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 3,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 18,
+    "total_lineups": 12,
+    "total_minutes": 896,
+    "total_goals": 1,
+    "total_assists": 0,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.58,
+    "goals_per_90": 0.1,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 49.8
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.356819",
+    "source_file": "team_533_players_2022.json",
+    "data_structure_version": "1.0"
+  }
+}

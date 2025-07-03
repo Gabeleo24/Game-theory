@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 15791,
+    "name": "K. Hansen",
+    "firstname": "Kian",
+    "lastname": "Hansen",
+    "age": 36,
+    "birth": {
+      "date": "1989-03-03",
+      "place": null,
+      "country": "Denmark"
+    },
+    "nationality": "Denmark",
+    "height": "184 cm",
+    "weight": "73 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/15791.png"
+  },
+  "team_context": {
+    "team_id": 397,
+    "team_name": "FC Midtjylland",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 397,
+    "team_name": "FC Midtjylland",
+    "primary_position": "Defender",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 1,
+      "goals": 0,
+      "assists": 1,
+      "minutes": 90,
+      "average_rating": 7.05
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 397,
+        "name": "FC Midtjylland",
+        "logo": "https://media.api-sports.io/football/teams/397.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 90,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.047619",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1088,
+        "passes_key": 6,
+        "passes_accuracy": 84
+      },
+      "defensive_stats": {
+        "tackles_total": 27,
+        "tackles_blocks": 16,
+        "tackles_interceptions": 19
+      },
+      "duel_stats": {
+        "duels_total": 79,
+        "duels_won": 53
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 4,
+        "dribbles_success": 3,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 4,
+        "fouls_committed": 13,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 7,
+        "shots_on": 3
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 1,
+    "total_lineups": 1,
+    "total_minutes": 90,
+    "total_goals": 0,
+    "total_assists": 1,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 7.05,
+    "goals_per_90": 0.0,
+    "assists_per_90": 1.0,
+    "minutes_per_appearance": 90.0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.819939",
+    "source_file": "team_397_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

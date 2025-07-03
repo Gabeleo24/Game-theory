@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 2296,
+    "name": "E. Hazard",
+    "firstname": "Eden Michael Walter",
+    "lastname": "Hazard",
+    "age": 32,
+    "birth": {
+      "date": "1991-01-07",
+      "place": "La Louvière",
+      "country": "Belgium"
+    },
+    "nationality": "Belgium",
+    "height": "175 cm",
+    "weight": "74 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/2296.png"
+  },
+  "team_context": {
+    "team_id": 541,
+    "team_name": "Real Madrid",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 541,
+    "team_name": "Real Madrid",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 21,
+      "goals": 0,
+      "assists": 1,
+      "minutes": 795,
+      "average_rating": 6.83
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png"
+      },
+      "performance_stats": {
+        "appearances": 18,
+        "lineups": 7,
+        "minutes": 712,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.927777",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 385,
+        "passes_key": 27,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 6,
+        "tackles_blocks": null,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 98,
+        "duels_won": 62
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 31,
+        "dribbles_success": 25,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 30,
+        "fouls_committed": 9,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 9,
+        "shots_on": 7
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 1,
+        "minutes": 83,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.733333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 53,
+        "passes_key": 2,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 12,
+        "duels_won": 7
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 1,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 3
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 21,
+    "total_lineups": 8,
+    "total_minutes": 795,
+    "total_goals": 0,
+    "total_assists": 1,
+    "total_yellow_cards": 2,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.83,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.11,
+    "minutes_per_appearance": 37.9
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.416554",
+    "source_file": "team_541_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

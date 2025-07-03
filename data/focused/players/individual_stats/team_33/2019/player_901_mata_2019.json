@@ -1,0 +1,461 @@
+{
+  "player_info": {
+    "id": 901,
+    "name": "Mata",
+    "firstname": "Juan Manuel",
+    "lastname": "Mata García",
+    "age": 37,
+    "birth": {
+      "date": "1988-04-28",
+      "place": "Burgos",
+      "country": "Spain"
+    },
+    "nationality": "Spain",
+    "height": "170 cm",
+    "weight": "63 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/901.png"
+  },
+  "team_context": {
+    "team_id": 33,
+    "team_name": "Manchester United",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 33,
+    "team_name": "Manchester United",
+    "primary_position": "Midfielder",
+    "total_competitions": 6,
+    "key_metrics": {
+      "appearances": 43,
+      "goals": 4,
+      "assists": 7,
+      "minutes": 2195,
+      "average_rating": 7.1
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "performance_stats": {
+        "appearances": 19,
+        "lineups": 8,
+        "minutes": 753,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.684210",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 511,
+        "passes_key": 18,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 7,
+        "tackles_blocks": 1,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 56,
+        "duels_won": 24
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 12,
+        "dribbles_success": 5,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 10,
+        "fouls_committed": 7,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 8,
+        "shots_on": 2
+      }
+    },
+    {
+      "league_info": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 1,
+        "minutes": 106,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.833333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 76,
+        "passes_key": 2,
+        "passes_accuracy": 83
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 0
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 0,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 0
+      }
+    },
+    {
+      "league_info": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 4,
+        "minutes": 313,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.550000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 166,
+        "passes_key": 9,
+        "passes_accuracy": 91
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 0
+      },
+      "duel_stats": {
+        "duels_total": 3,
+        "duels_won": 2
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 7,
+        "dribbles_success": 6,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 0,
+        "fouls_committed": 0,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 9,
+        "shots_on": 5
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "performance_stats": {
+        "appearances": 11,
+        "lineups": 8,
+        "minutes": 768,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.320000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": null,
+        "assists": 5,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 390,
+        "passes_key": 20,
+        "passes_accuracy": 86
+      },
+      "defensive_stats": {
+        "tackles_total": 2,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 18,
+        "duels_won": 11
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 23,
+        "dribbles_success": 16,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 9,
+        "fouls_committed": 3,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 1,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 12,
+        "shots_on": 4
+      }
+    },
+    {
+      "league_info": {
+        "id": 26,
+        "name": "International Champions Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/26.png",
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 1,
+        "minutes": 135,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": null,
+        "name": "Club Friendlies",
+        "country": null,
+        "logo": null,
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 1,
+        "minutes": 120,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 43,
+    "total_lineups": 23,
+    "total_minutes": 2195,
+    "total_goals": 4,
+    "total_assists": 7,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 6,
+    "average_rating": 7.1,
+    "goals_per_90": 0.16,
+    "assists_per_90": 0.29,
+    "minutes_per_appearance": 51.0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.721817",
+    "source_file": "team_33_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

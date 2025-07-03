@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 1321,
+    "name": "L. Majer",
+    "firstname": "Lovro",
+    "lastname": "Majer",
+    "age": 27,
+    "birth": {
+      "date": "1998-01-17",
+      "place": "Zagreb",
+      "country": "Croatia"
+    },
+    "nationality": "Croatia",
+    "height": "178 cm",
+    "weight": "76 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1321.png"
+  },
+  "team_context": {
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 11,
+      "goals": 2,
+      "assists": 1,
+      "minutes": 482,
+      "average_rating": 7.29
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "performance_stats": {
+        "appearances": 9,
+        "lineups": 3,
+        "minutes": 302,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.033333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 121,
+        "passes_key": 8,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 2,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 39,
+        "duels_won": 16
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 8,
+        "dribbles_success": 5,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 6,
+        "fouls_committed": 6,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 1,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 7,
+        "shots_on": 5
+      }
+    },
+    {
+      "league_info": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 180,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.550000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 94,
+        "passes_key": 5,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": null,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 17,
+        "duels_won": 7
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 2,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 11,
+    "total_lineups": 5,
+    "total_minutes": 482,
+    "total_goals": 2,
+    "total_assists": 1,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.29,
+    "goals_per_90": 0.37,
+    "assists_per_90": 0.19,
+    "minutes_per_appearance": 43.8
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.181419",
+    "source_file": "team_161_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

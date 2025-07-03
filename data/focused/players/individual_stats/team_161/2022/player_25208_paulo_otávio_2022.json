@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 25208,
+    "name": "Paulo Otávio",
+    "firstname": "Paulo Otávio",
+    "lastname": "Rosa da Silva",
+    "age": 31,
+    "birth": {
+      "date": "1994-11-23",
+      "place": "Ourinhos",
+      "country": "Brazil"
+    },
+    "nationality": "Brazil",
+    "height": "173 cm",
+    "weight": "68 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/25208.png"
+  },
+  "team_context": {
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "season": 2022
+  },
+  "season_summary": {
+    "season": 2022,
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 27,
+      "goals": 0,
+      "assists": 5,
+      "minutes": 2225,
+      "average_rating": 6.8
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "performance_stats": {
+        "appearances": 25,
+        "lineups": 25,
+        "minutes": 2051,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.048000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 5,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 920,
+        "passes_key": 23,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 72,
+        "tackles_blocks": 6,
+        "tackles_interceptions": 28
+      },
+      "duel_stats": {
+        "duels_total": 269,
+        "duels_won": 161
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 41,
+        "dribbles_success": 22,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 40,
+        "fouls_committed": 25,
+        "cards_yellow": 7,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 13,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 174,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.550000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 73,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 2,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 11,
+        "duels_won": 4
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 3,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 27,
+    "total_lineups": 27,
+    "total_minutes": 2225,
+    "total_goals": 0,
+    "total_assists": 5,
+    "total_yellow_cards": 8,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.8,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.2,
+    "minutes_per_appearance": 82.4
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.242794",
+    "source_file": "team_161_players_2022.json",
+    "data_structure_version": "1.0"
+  }
+}

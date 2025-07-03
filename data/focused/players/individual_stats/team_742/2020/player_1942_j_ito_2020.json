@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 1942,
+    "name": "J. Ito",
+    "firstname": "Junya",
+    "lastname": "Ito",
+    "age": 32,
+    "birth": {
+      "date": "1993-03-09",
+      "place": "Yokosuka",
+      "country": "Japan"
+    },
+    "nationality": "Japan",
+    "height": "176 cm",
+    "weight": "66 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1942.png"
+  },
+  "team_context": {
+    "team_id": 742,
+    "team_name": "Genk",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 742,
+    "team_name": "Genk",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 42,
+      "goals": 12,
+      "assists": 14,
+      "minutes": 3592,
+      "average_rating": 7.32
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 742,
+        "name": "Genk",
+        "logo": "https://media.api-sports.io/football/teams/742.png"
+      },
+      "performance_stats": {
+        "appearances": 38,
+        "lineups": 37,
+        "minutes": 3232,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.318918",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 11,
+        "goals_conceded": 0,
+        "assists": 14,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1389,
+        "passes_key": 74,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 45,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 14
+      },
+      "duel_stats": {
+        "duels_total": 393,
+        "duels_won": 174
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 103,
+        "dribbles_success": 53,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 69,
+        "fouls_committed": 23,
+        "cards_yellow": 4,
+        "cards_yellowred": 1,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 58,
+        "shots_on": 32
+      }
+    },
+    {
+      "league_info": {
+        "id": 147,
+        "name": "Cup",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/147.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 742,
+        "name": "Genk",
+        "logo": "https://media.api-sports.io/football/teams/742.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 4,
+        "minutes": 360,
+        "number": null,
+        "position": "Attacker",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 42,
+    "total_lineups": 41,
+    "total_minutes": 3592,
+    "total_goals": 12,
+    "total_assists": 14,
+    "total_yellow_cards": 4,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.32,
+    "goals_per_90": 0.3,
+    "assists_per_90": 0.35,
+    "minutes_per_appearance": 85.5
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:06.025731",
+    "source_file": "team_742_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

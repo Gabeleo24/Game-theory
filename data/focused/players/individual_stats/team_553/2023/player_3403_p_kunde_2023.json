@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 3403,
+    "name": "P. Kunde",
+    "firstname": "Pierre",
+    "lastname": "Kunde Malong",
+    "age": 30,
+    "birth": {
+      "date": "1995-07-26",
+      "place": "Limbe",
+      "country": "Cameroon"
+    },
+    "nationality": "Cameroon",
+    "height": "180 cm",
+    "weight": "79 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/3403.png"
+  },
+  "team_context": {
+    "team_id": 553,
+    "team_name": "Olympiakos Piraeus",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 553,
+    "team_name": "Olympiakos Piraeus",
+    "primary_position": "Unknown",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 2,
+      "minutes": 0,
+      "average_rating": 7.0
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 197,
+        "name": "Super League 1",
+        "country": "Greece",
+        "logo": "https://media.api-sports.io/football/leagues/197.png",
+        "flag": "https://media.api-sports.io/flags/gr.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 553,
+        "name": "Olympiakos Piraeus",
+        "logo": "https://media.api-sports.io/football/teams/553.png"
+      },
+      "performance_stats": {
+        "appearances": null,
+        "lineups": null,
+        "minutes": null,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.005000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": null,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 861,
+        "passes_key": 23,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 27,
+        "tackles_blocks": 4,
+        "tackles_interceptions": 12
+      },
+      "duel_stats": {
+        "duels_total": 124,
+        "duels_won": 61
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 22,
+        "dribbles_success": 15,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 11,
+        "fouls_committed": 18,
+        "cards_yellow": null,
+        "cards_yellowred": null,
+        "cards_red": null
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 16,
+        "shots_on": 3
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 0,
+    "total_lineups": 0,
+    "total_minutes": 0,
+    "total_goals": 0,
+    "total_assists": 2,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 7.0,
+    "goals_per_90": 0,
+    "assists_per_90": 0,
+    "minutes_per_appearance": 0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.542411",
+    "source_file": "team_553_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

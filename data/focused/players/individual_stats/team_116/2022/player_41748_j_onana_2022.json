@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 41748,
+    "name": "J. Onana",
+    "firstname": "Jean Emile Junior",
+    "lastname": "Onana Onana",
+    "age": 25,
+    "birth": {
+      "date": "2000-01-08",
+      "place": "Yaoundé",
+      "country": "Cameroon"
+    },
+    "nationality": "Cameroon",
+    "height": "189 cm",
+    "weight": "85 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/41748.png"
+  },
+  "team_context": {
+    "team_id": 116,
+    "team_name": "Lens",
+    "season": 2022
+  },
+  "season_summary": {
+    "season": 2022,
+    "team_id": 116,
+    "team_name": "Lens",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 23,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 899,
+      "average_rating": 6.76
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png"
+      },
+      "performance_stats": {
+        "appearances": 21,
+        "lineups": 9,
+        "minutes": 806,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.811111",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 471,
+        "passes_key": 7,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 28,
+        "tackles_blocks": 5,
+        "tackles_interceptions": 18
+      },
+      "duel_stats": {
+        "duels_total": 89,
+        "duels_won": 54
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 7,
+        "dribbles_success": 7,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 10,
+        "fouls_committed": 7,
+        "cards_yellow": 3,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 6,
+        "shots_on": 3
+      }
+    },
+    {
+      "league_info": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 1,
+        "minutes": 93,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.700000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 81,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 10,
+        "duels_won": 4
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 2,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 23,
+    "total_lineups": 10,
+    "total_minutes": 899,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 4,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.76,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 39.1
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.178785",
+    "source_file": "team_116_players_2022.json",
+    "data_structure_version": "1.0"
+  }
+}

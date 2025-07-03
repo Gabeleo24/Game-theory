@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 15802,
+    "name": "M. James",
+    "firstname": "Manjrekar",
+    "lastname": "James",
+    "age": 32,
+    "birth": {
+      "date": "1993-08-05",
+      "place": "Roseau",
+      "country": "Dominica"
+    },
+    "nationality": "Canada",
+    "height": "192 cm",
+    "weight": "84 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/15802.png"
+  },
+  "team_context": {
+    "team_id": 397,
+    "team_name": "FC Midtjylland",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 397,
+    "team_name": "FC Midtjylland",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 5,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 450,
+      "average_rating": 6.94
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 397,
+        "name": "FC Midtjylland",
+        "logo": "https://media.api-sports.io/football/teams/397.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 4,
+        "minutes": 360,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.875000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 203,
+        "passes_key": null,
+        "passes_accuracy": 42
+      },
+      "defensive_stats": {
+        "tackles_total": 5,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 4
+      },
+      "duel_stats": {
+        "duels_total": 34,
+        "duels_won": 17
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 5,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 397,
+        "name": "FC Midtjylland",
+        "logo": "https://media.api-sports.io/football/teams/397.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 90,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.000000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 21,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 5,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 10,
+        "duels_won": 6
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": 1,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 5,
+    "total_lineups": 5,
+    "total_minutes": 450,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.94,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 90.0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.826719",
+    "source_file": "team_397_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

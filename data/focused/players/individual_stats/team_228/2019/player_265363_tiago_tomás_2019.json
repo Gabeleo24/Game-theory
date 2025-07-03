@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 265363,
+    "name": "Tiago Tomás",
+    "firstname": "Tiago",
+    "lastname": "Barreiros de Melo Tomás",
+    "age": 23,
+    "birth": {
+      "date": "2002-06-16",
+      "place": "Lisboa",
+      "country": "Portugal"
+    },
+    "nationality": "Portugal",
+    "height": "180 cm",
+    "weight": "69 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/265363.png"
+  },
+  "team_context": {
+    "team_id": 228,
+    "team_name": "Sporting CP",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 228,
+    "team_name": "Sporting CP",
+    "primary_position": "Attacker",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 5,
+      "goals": 0,
+      "assists": 1,
+      "minutes": 167,
+      "average_rating": 6.66
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 228,
+        "name": "Sporting CP",
+        "logo": "https://media.api-sports.io/football/teams/228.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 1,
+        "minutes": 167,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.660000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 23,
+        "passes_key": 1,
+        "passes_accuracy": 66
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 19,
+        "duels_won": 8
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 4,
+        "fouls_committed": 3,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 4,
+        "shots_on": 0
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 5,
+    "total_lineups": 1,
+    "total_minutes": 167,
+    "total_goals": 0,
+    "total_assists": 1,
+    "total_yellow_cards": 2,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.66,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.54,
+    "minutes_per_appearance": 33.4
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.624221",
+    "source_file": "team_228_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

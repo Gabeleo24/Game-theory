@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 918,
+    "name": "José Gayà",
+    "firstname": "José Luis",
+    "lastname": "Gayà Peña",
+    "age": 30,
+    "birth": {
+      "date": "1995-05-25",
+      "place": "Pedreguer",
+      "country": "Spain"
+    },
+    "nationality": "Spain",
+    "height": "172 cm",
+    "weight": "66 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/918.png"
+  },
+  "team_context": {
+    "team_id": 532,
+    "team_name": "Valencia",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 532,
+    "team_name": "Valencia",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 34,
+      "goals": 1,
+      "assists": 7,
+      "minutes": 2862,
+      "average_rating": 6.5
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 532,
+        "name": "Valencia",
+        "logo": "https://media.api-sports.io/football/teams/532.png"
+      },
+      "performance_stats": {
+        "appearances": 33,
+        "lineups": 32,
+        "minutes": 2848,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.803030",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 7,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1170,
+        "passes_key": 36,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 59,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 38
+      },
+      "duel_stats": {
+        "duels_total": 279,
+        "duels_won": 149
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 50,
+        "dribbles_success": 33,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 30,
+        "fouls_committed": 29,
+        "cards_yellow": 6,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 20,
+        "shots_on": 5
+      }
+    },
+    {
+      "league_info": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 532,
+        "name": "Valencia",
+        "logo": "https://media.api-sports.io/football/teams/532.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 0,
+        "minutes": 14,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.200000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 9,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 1,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 34,
+    "total_lineups": 32,
+    "total_minutes": 2862,
+    "total_goals": 1,
+    "total_assists": 7,
+    "total_yellow_cards": 6,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.5,
+    "goals_per_90": 0.03,
+    "assists_per_90": 0.22,
+    "minutes_per_appearance": 84.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.315364",
+    "source_file": "team_532_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

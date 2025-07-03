@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 6523,
+    "name": "M. Lovera",
+    "firstname": "Maximiliano Alberto",
+    "lastname": "Lovera",
+    "age": 26,
+    "birth": {
+      "date": "1999-03-09",
+      "place": "Laguna Blanca",
+      "country": "Argentina"
+    },
+    "nationality": "Argentina",
+    "height": "170 cm",
+    "weight": "65 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/6523.png"
+  },
+  "team_context": {
+    "team_id": 553,
+    "team_name": "Olympiakos Piraeus",
+    "season": 2022
+  },
+  "season_summary": {
+    "season": 2022,
+    "team_id": 553,
+    "team_name": "Olympiakos Piraeus",
+    "primary_position": "Unknown",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 0,
+      "average_rating": 6.56
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 197,
+        "name": "Super League 1",
+        "country": "Greece",
+        "logo": "https://media.api-sports.io/football/leagues/197.png",
+        "flag": "https://media.api-sports.io/flags/gr.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 553,
+        "name": "Olympiakos Piraeus",
+        "logo": "https://media.api-sports.io/football/teams/553.png"
+      },
+      "performance_stats": {
+        "appearances": null,
+        "lineups": null,
+        "minutes": null,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.563157",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": null,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 305,
+        "passes_key": 11,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 10,
+        "tackles_blocks": null,
+        "tackles_interceptions": 8
+      },
+      "duel_stats": {
+        "duels_total": 90,
+        "duels_won": 41
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 20,
+        "dribbles_success": 13,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 17,
+        "fouls_committed": 11,
+        "cards_yellow": null,
+        "cards_yellowred": null,
+        "cards_red": null
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 1,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 8,
+        "shots_on": 4
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 0,
+    "total_lineups": 0,
+    "total_minutes": 0,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.56,
+    "goals_per_90": 0,
+    "assists_per_90": 0,
+    "minutes_per_appearance": 0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.539042",
+    "source_file": "team_553_players_2022.json",
+    "data_structure_version": "1.0"
+  }
+}

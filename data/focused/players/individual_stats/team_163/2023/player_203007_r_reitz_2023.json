@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 203007,
+    "name": "R. Reitz",
+    "firstname": "Rocco",
+    "lastname": "Reitz",
+    "age": 23,
+    "birth": {
+      "date": "2002-05-29",
+      "place": "Duisburg",
+      "country": "Germany"
+    },
+    "nationality": "Germany",
+    "height": "176 cm",
+    "weight": "75 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/203007.png"
+  },
+  "team_context": {
+    "team_id": 163,
+    "team_name": "Borussia Monchengladbach",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 163,
+    "team_name": "Borussia Monchengladbach",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 37,
+      "goals": 6,
+      "assists": 3,
+      "minutes": 2356,
+      "average_rating": 7.03
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 163,
+        "name": "Borussia Mönchengladbach",
+        "logo": "https://media.api-sports.io/football/teams/163.png"
+      },
+      "performance_stats": {
+        "appearances": 34,
+        "lineups": 24,
+        "minutes": 2141,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.994117",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 6,
+        "goals_conceded": 0,
+        "assists": 3,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1024,
+        "passes_key": 20,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 59,
+        "tackles_blocks": 20,
+        "tackles_interceptions": 45
+      },
+      "duel_stats": {
+        "duels_total": 271,
+        "duels_won": 138
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 46,
+        "dribbles_success": 20,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 45,
+        "fouls_committed": 26,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 23,
+        "shots_on": 14
+      }
+    },
+    {
+      "league_info": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 163,
+        "name": "Borussia Mönchengladbach",
+        "logo": "https://media.api-sports.io/football/teams/163.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 3,
+        "minutes": 215,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.066666",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 108,
+        "passes_key": 2,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": null,
+        "tackles_interceptions": 5
+      },
+      "duel_stats": {
+        "duels_total": 29,
+        "duels_won": 15
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 11,
+        "dribbles_success": 6,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 4,
+        "fouls_committed": 3,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 37,
+    "total_lineups": 27,
+    "total_minutes": 2356,
+    "total_goals": 6,
+    "total_assists": 3,
+    "total_yellow_cards": 2,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.03,
+    "goals_per_90": 0.23,
+    "assists_per_90": 0.11,
+    "minutes_per_appearance": 63.7
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.282948",
+    "source_file": "team_163_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

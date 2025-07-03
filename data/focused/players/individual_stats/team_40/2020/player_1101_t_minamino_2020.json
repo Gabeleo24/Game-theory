@@ -1,0 +1,394 @@
+{
+  "player_info": {
+    "id": 1101,
+    "name": "T. Minamino",
+    "firstname": "Takumi",
+    "lastname": "Minamino",
+    "age": 30,
+    "birth": {
+      "date": "1995-01-16",
+      "place": "Osaka",
+      "country": "Japan"
+    },
+    "nationality": "Japan",
+    "height": "172 cm",
+    "weight": "68 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1101.png"
+  },
+  "team_context": {
+    "team_id": 40,
+    "team_name": "Liverpool",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 40,
+    "team_name": "Liverpool",
+    "primary_position": "Midfielder",
+    "total_competitions": 5,
+    "key_metrics": {
+      "appearances": 19,
+      "goals": 4,
+      "assists": 2,
+      "minutes": 892,
+      "average_rating": 6.83
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 9,
+        "lineups": 2,
+        "minutes": 286,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.633333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 138,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": null,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 39,
+        "duels_won": 16
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 7,
+        "dribbles_success": 7,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 4,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 4,
+        "shots_on": 3
+      }
+    },
+    {
+      "league_info": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 180,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.250000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 67,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 3,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 23,
+        "duels_won": 5
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 10,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 2
+      }
+    },
+    {
+      "league_info": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 61,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.000000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 32,
+        "passes_key": 2,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 2,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 6,
+        "duels_won": 2
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": 1,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 2,
+        "minutes": 187,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.425000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 66,
+        "passes_key": 2,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 3,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 30,
+        "duels_won": 8
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 4,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 4,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 2
+      }
+    },
+    {
+      "league_info": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 1,
+        "minutes": 178,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 19,
+    "total_lineups": 8,
+    "total_minutes": 892,
+    "total_goals": 4,
+    "total_assists": 2,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 5,
+    "average_rating": 6.83,
+    "goals_per_90": 0.4,
+    "assists_per_90": 0.2,
+    "minutes_per_appearance": 46.9
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.888054",
+    "source_file": "team_40_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

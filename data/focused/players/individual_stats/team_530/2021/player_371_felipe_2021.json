@@ -1,0 +1,327 @@
+{
+  "player_info": {
+    "id": 371,
+    "name": "Felipe",
+    "firstname": "Felipe Augusto",
+    "lastname": "de Almeida Monteiro",
+    "age": 35,
+    "birth": {
+      "date": "1989-05-16",
+      "place": "Mogi das Cruzes",
+      "country": "Brazil"
+    },
+    "nationality": "Brazil",
+    "height": "190 cm",
+    "weight": "83 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/371.png"
+  },
+  "team_context": {
+    "team_id": 530,
+    "team_name": "Atletico Madrid",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 530,
+    "team_name": "Atletico Madrid",
+    "primary_position": "Defender",
+    "total_competitions": 4,
+    "key_metrics": {
+      "appearances": 35,
+      "goals": 2,
+      "assists": 1,
+      "minutes": 2147,
+      "average_rating": 6.63
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 530,
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "performance_stats": {
+        "appearances": 26,
+        "lineups": 15,
+        "minutes": 1496,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.752173",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 771,
+        "passes_key": 5,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 20,
+        "tackles_blocks": 11,
+        "tackles_interceptions": 28
+      },
+      "duel_stats": {
+        "duels_total": 144,
+        "duels_won": 81
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 14,
+        "fouls_committed": 22,
+        "cards_yellow": 5,
+        "cards_yellowred": 0,
+        "cards_red": 1
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 11,
+        "shots_on": 4
+      }
+    },
+    {
+      "league_info": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 530,
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 180,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.800000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 100,
+        "passes_key": 1,
+        "passes_accuracy": 42
+      },
+      "defensive_stats": {
+        "tackles_total": 3,
+        "tackles_blocks": null,
+        "tackles_interceptions": 4
+      },
+      "duel_stats": {
+        "duels_total": 28,
+        "duels_won": 14
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 4,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 530,
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "performance_stats": {
+        "appearances": 7,
+        "lineups": 6,
+        "minutes": 471,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.333333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 215,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 2,
+        "tackles_blocks": 4,
+        "tackles_interceptions": 4
+      },
+      "duel_stats": {
+        "duels_total": 31,
+        "duels_won": 11
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 4,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 7,
+        "cards_yellow": 2,
+        "cards_yellowred": 1,
+        "cards_red": 1
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 530,
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "performance_stats": {
+        "appearances": 0,
+        "lineups": 0,
+        "minutes": 0,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 35,
+    "total_lineups": 23,
+    "total_minutes": 2147,
+    "total_goals": 2,
+    "total_assists": 1,
+    "total_yellow_cards": 8,
+    "total_red_cards": 2,
+    "competitions_played": 4,
+    "average_rating": 6.63,
+    "goals_per_90": 0.08,
+    "assists_per_90": 0.04,
+    "minutes_per_appearance": 61.3
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.293037",
+    "source_file": "team_530_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

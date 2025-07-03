@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 30785,
+    "name": "A. Schäfer",
+    "firstname": "András",
+    "lastname": "Schäfer",
+    "age": 26,
+    "birth": {
+      "date": "1999-04-13",
+      "place": "Szombathely",
+      "country": "Hungary"
+    },
+    "nationality": "Hungary",
+    "height": "179 cm",
+    "weight": "70 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/30785.png"
+  },
+  "team_context": {
+    "team_id": 182,
+    "team_name": "Union Berlin",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 182,
+    "team_name": "Union Berlin",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 28,
+      "goals": 1,
+      "assists": 1,
+      "minutes": 1648,
+      "average_rating": 7.2
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 182,
+        "name": "Union Berlin",
+        "logo": "https://media.api-sports.io/football/teams/182.png"
+      },
+      "performance_stats": {
+        "appearances": 26,
+        "lineups": 17,
+        "minutes": 1538,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.853846",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 537,
+        "passes_key": 10,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 55,
+        "tackles_blocks": 6,
+        "tackles_interceptions": 22
+      },
+      "duel_stats": {
+        "duels_total": 214,
+        "duels_won": 129
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 26,
+        "dribbles_success": 13,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 33,
+        "fouls_committed": 27,
+        "cards_yellow": 3,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 9,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 182,
+        "name": "Union Berlin",
+        "logo": "https://media.api-sports.io/football/teams/182.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 110,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.550000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 85,
+        "passes_key": 4,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": null,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 14,
+        "duels_won": 11
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 2,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 28,
+    "total_lineups": 19,
+    "total_minutes": 1648,
+    "total_goals": 1,
+    "total_assists": 1,
+    "total_yellow_cards": 3,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.2,
+    "goals_per_90": 0.05,
+    "assists_per_90": 0.05,
+    "minutes_per_appearance": 58.9
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.221559",
+    "source_file": "team_182_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

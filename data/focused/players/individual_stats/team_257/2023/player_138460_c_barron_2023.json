@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 138460,
+    "name": "C. Barron",
+    "firstname": "Connor Clark",
+    "lastname": "Barron",
+    "age": 23,
+    "birth": {
+      "date": "2002-08-29",
+      "place": "Kintore",
+      "country": "Scotland"
+    },
+    "nationality": "Scotland",
+    "height": "175 cm",
+    "weight": null,
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/138460.png"
+  },
+  "team_context": {
+    "team_id": 257,
+    "team_name": "Rangers",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 257,
+    "team_name": "Rangers",
+    "primary_position": "Unknown",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 3,
+      "minutes": 0,
+      "average_rating": 6.9
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 257,
+        "name": "Rangers",
+        "logo": "https://media.api-sports.io/football/teams/257.png"
+      },
+      "performance_stats": {
+        "appearances": null,
+        "lineups": null,
+        "minutes": null,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.900000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": null,
+        "goals_conceded": 0,
+        "assists": 3,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 966,
+        "passes_key": 21,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 50,
+        "tackles_blocks": 5,
+        "tackles_interceptions": 22
+      },
+      "duel_stats": {
+        "duels_total": 178,
+        "duels_won": 100
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 21,
+        "dribbles_success": 12,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 15,
+        "fouls_committed": 22,
+        "cards_yellow": null,
+        "cards_yellowred": null,
+        "cards_red": null
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 8,
+        "shots_on": 5
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 0,
+    "total_lineups": 0,
+    "total_minutes": 0,
+    "total_goals": 0,
+    "total_assists": 3,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.9,
+    "goals_per_90": 0,
+    "assists_per_90": 0,
+    "minutes_per_appearance": 0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.715366",
+    "source_file": "team_257_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

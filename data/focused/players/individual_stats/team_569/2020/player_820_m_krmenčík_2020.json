@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 820,
+    "name": "M. Krmenčík",
+    "firstname": "Michael",
+    "lastname": "Krmenčík",
+    "age": 32,
+    "birth": {
+      "date": "1993-03-15",
+      "place": "Kraslice",
+      "country": "Czech Republic"
+    },
+    "nationality": "Czech Republic",
+    "height": "191 cm",
+    "weight": "84 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/820.png"
+  },
+  "team_context": {
+    "team_id": 569,
+    "team_name": "Club Brugge KV",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 569,
+    "team_name": "Club Brugge KV",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 12,
+      "goals": 3,
+      "assists": 2,
+      "minutes": 507,
+      "average_rating": 6.82
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 569,
+        "name": "Club Brugge KV",
+        "logo": "https://media.api-sports.io/football/teams/569.png"
+      },
+      "performance_stats": {
+        "appearances": 9,
+        "lineups": 5,
+        "minutes": 434,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.944444",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 3,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 73,
+        "passes_key": 3,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 32,
+        "duels_won": 12
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 8,
+        "fouls_committed": 7,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 16,
+        "shots_on": 8
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 569,
+        "name": "Club Brugge KV",
+        "logo": "https://media.api-sports.io/football/teams/569.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 1,
+        "minutes": 73,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.700000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 7,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 7,
+        "duels_won": 4
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 12,
+    "total_lineups": 6,
+    "total_minutes": 507,
+    "total_goals": 3,
+    "total_assists": 2,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.82,
+    "goals_per_90": 0.53,
+    "assists_per_90": 0.36,
+    "minutes_per_appearance": 42.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.694169",
+    "source_file": "team_569_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

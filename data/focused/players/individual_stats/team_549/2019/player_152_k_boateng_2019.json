@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 152,
+    "name": "K. Boateng",
+    "firstname": "Kevin-Prince",
+    "lastname": "Boateng",
+    "age": 36,
+    "birth": {
+      "date": "1987-03-06",
+      "place": "Berlin",
+      "country": "Germany"
+    },
+    "nationality": "Ghana",
+    "height": "186 cm",
+    "weight": "76 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/152.png"
+  },
+  "team_context": {
+    "team_id": 549,
+    "team_name": "Besiktas",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 549,
+    "team_name": "Besiktas",
+    "primary_position": "Midfielder",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 11,
+      "goals": 3,
+      "assists": 1,
+      "minutes": 598,
+      "average_rating": 7.09
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 549,
+        "name": "Besiktas",
+        "logo": "https://media.api-sports.io/football/teams/549.png"
+      },
+      "performance_stats": {
+        "appearances": 11,
+        "lineups": 6,
+        "minutes": 598,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.088888",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 3,
+        "goals_conceded": null,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 157,
+        "passes_key": 11,
+        "passes_accuracy": 83
+      },
+      "defensive_stats": {
+        "tackles_total": 7,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 30,
+        "duels_won": 15
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 8,
+        "dribbles_success": 7,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 13,
+        "fouls_committed": 10,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 20,
+        "shots_on": 5
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 11,
+    "total_lineups": 6,
+    "total_minutes": 598,
+    "total_goals": 3,
+    "total_assists": 1,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 7.09,
+    "goals_per_90": 0.45,
+    "assists_per_90": 0.15,
+    "minutes_per_appearance": 54.4
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.461963",
+    "source_file": "team_549_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

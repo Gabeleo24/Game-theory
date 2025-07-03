@@ -1,0 +1,394 @@
+{
+  "player_info": {
+    "id": 136,
+    "name": "Piqué",
+    "firstname": "Gerard",
+    "lastname": "Piqué Bernabéu",
+    "age": 35,
+    "birth": {
+      "date": "1987-02-02",
+      "place": "Barcelona",
+      "country": "Spain"
+    },
+    "nationality": "Spain",
+    "height": "194 cm",
+    "weight": "85 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/136.png"
+  },
+  "team_context": {
+    "team_id": 529,
+    "team_name": "Barcelona",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 529,
+    "team_name": "Barcelona",
+    "primary_position": "Defender",
+    "total_competitions": 5,
+    "key_metrics": {
+      "appearances": 42,
+      "goals": 4,
+      "assists": 0,
+      "minutes": 3177,
+      "average_rating": 7.04
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png"
+      },
+      "performance_stats": {
+        "appearances": 27,
+        "lineups": 25,
+        "minutes": 2096,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.111111",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1677,
+        "passes_key": 5,
+        "passes_accuracy": 55
+      },
+      "defensive_stats": {
+        "tackles_total": 22,
+        "tackles_blocks": 16,
+        "tackles_interceptions": 34
+      },
+      "duel_stats": {
+        "duels_total": 200,
+        "duels_won": 123
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 6,
+        "dribbles_success": 6,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 15,
+        "fouls_committed": 30,
+        "cards_yellow": 9,
+        "cards_yellowred": 1,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 14,
+        "shots_on": 3
+      }
+    },
+    {
+      "league_info": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 1,
+        "minutes": 164,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.100000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 147,
+        "passes_key": null,
+        "passes_accuracy": 67
+      },
+      "defensive_stats": {
+        "tackles_total": 2,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 14,
+        "duels_won": 10
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 3,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 4,
+        "minutes": 328,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.960000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 285,
+        "passes_key": null,
+        "passes_accuracy": 53
+      },
+      "defensive_stats": {
+        "tackles_total": 5,
+        "tackles_blocks": null,
+        "tackles_interceptions": 6
+      },
+      "duel_stats": {
+        "duels_total": 23,
+        "duels_won": 13
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": 1,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 5,
+        "minutes": 393,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.000000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 294,
+        "passes_key": null,
+        "passes_accuracy": 53
+      },
+      "defensive_stats": {
+        "tackles_total": 7,
+        "tackles_blocks": 4,
+        "tackles_interceptions": 10
+      },
+      "duel_stats": {
+        "duels_total": 47,
+        "duels_won": 32
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 8,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": null,
+        "name": "Club Friendlies",
+        "country": null,
+        "logo": null,
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 3,
+        "minutes": 196,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 42,
+    "total_lineups": 38,
+    "total_minutes": 3177,
+    "total_goals": 4,
+    "total_assists": 0,
+    "total_yellow_cards": 12,
+    "total_red_cards": 0,
+    "competitions_played": 5,
+    "average_rating": 7.04,
+    "goals_per_90": 0.11,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 75.6
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.261152",
+    "source_file": "team_529_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

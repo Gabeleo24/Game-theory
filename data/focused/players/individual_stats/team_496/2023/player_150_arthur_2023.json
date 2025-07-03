@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 150,
+    "name": "Arthur",
+    "firstname": "Arthur Henrique",
+    "lastname": "Ramos de Oliveira Melo",
+    "age": 29,
+    "birth": {
+      "date": "1996-08-12",
+      "place": "Goiânia",
+      "country": "Brazil"
+    },
+    "nationality": "Brazil",
+    "height": "171 cm",
+    "weight": "73 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/150.png"
+  },
+  "team_context": {
+    "team_id": 496,
+    "team_name": "Juventus",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 496,
+    "team_name": "Juventus",
+    "primary_position": "Unknown",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 3,
+      "minutes": 0,
+      "average_rating": 7.15
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 496,
+        "name": "Juventus",
+        "logo": "https://media.api-sports.io/football/teams/496.png"
+      },
+      "performance_stats": {
+        "appearances": null,
+        "lineups": null,
+        "minutes": null,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.153125",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": null,
+        "goals_conceded": 0,
+        "assists": 3,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1466,
+        "passes_key": 34,
+        "passes_accuracy": 42
+      },
+      "defensive_stats": {
+        "tackles_total": 45,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 18
+      },
+      "duel_stats": {
+        "duels_total": 169,
+        "duels_won": 110
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 15,
+        "dribbles_success": 11,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 47,
+        "fouls_committed": 18,
+        "cards_yellow": null,
+        "cards_yellowred": null,
+        "cards_red": null
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 1,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 10,
+        "shots_on": 6
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 0,
+    "total_lineups": 0,
+    "total_minutes": 0,
+    "total_goals": 0,
+    "total_assists": 3,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 7.15,
+    "goals_per_90": 0,
+    "assists_per_90": 0,
+    "minutes_per_appearance": 0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.121961",
+    "source_file": "team_496_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

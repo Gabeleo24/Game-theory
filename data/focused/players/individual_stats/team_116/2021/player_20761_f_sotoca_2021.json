@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 20761,
+    "name": "F. Sotoca",
+    "firstname": "Florian",
+    "lastname": "Sotoca",
+    "age": 35,
+    "birth": {
+      "date": "1990-10-25",
+      "place": "Narbonne",
+      "country": "France"
+    },
+    "nationality": "France",
+    "height": "187 cm",
+    "weight": "77 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/20761.png"
+  },
+  "team_context": {
+    "team_id": 116,
+    "team_name": "Lens",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 116,
+    "team_name": "Lens",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 38,
+      "goals": 6,
+      "assists": 4,
+      "minutes": 2685,
+      "average_rating": 6.77
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png"
+      },
+      "performance_stats": {
+        "appearances": 35,
+        "lineups": 28,
+        "minutes": 2486,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.094285",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 6,
+        "goals_conceded": 0,
+        "assists": 4,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1137,
+        "passes_key": 32,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 31,
+        "tackles_blocks": 4,
+        "tackles_interceptions": 25
+      },
+      "duel_stats": {
+        "duels_total": 350,
+        "duels_won": 184
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 50,
+        "dribbles_success": 30,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 34,
+        "fouls_committed": 37,
+        "cards_yellow": 7,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 2,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 55,
+        "shots_on": 26
+      }
+    },
+    {
+      "league_info": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 3,
+        "minutes": 199,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.450000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 36,
+        "passes_key": 2,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 14,
+        "duels_won": 5
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": 4,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 2
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 38,
+    "total_lineups": 31,
+    "total_minutes": 2685,
+    "total_goals": 6,
+    "total_assists": 4,
+    "total_yellow_cards": 7,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.77,
+    "goals_per_90": 0.2,
+    "assists_per_90": 0.13,
+    "minutes_per_appearance": 70.7
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.170357",
+    "source_file": "team_116_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

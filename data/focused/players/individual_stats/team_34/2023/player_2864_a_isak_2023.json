@@ -1,0 +1,394 @@
+{
+  "player_info": {
+    "id": 2864,
+    "name": "A. Isak",
+    "firstname": "Alexander",
+    "lastname": "Isak",
+    "age": 26,
+    "birth": {
+      "date": "1999-09-21",
+      "place": "Stockholm",
+      "country": "Sweden"
+    },
+    "nationality": "Sweden",
+    "height": "192 cm",
+    "weight": "77 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/2864.png"
+  },
+  "team_context": {
+    "team_id": 34,
+    "team_name": "Newcastle",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 34,
+    "team_name": "Newcastle",
+    "primary_position": "Attacker",
+    "total_competitions": 5,
+    "key_metrics": {
+      "appearances": 42,
+      "goals": 26,
+      "assists": 2,
+      "minutes": 3111,
+      "average_rating": 7.2
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "performance_stats": {
+        "appearances": 30,
+        "lineups": 27,
+        "minutes": 2267,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.166666",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 21,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 474,
+        "passes_key": 27,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 5,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 6
+      },
+      "duel_stats": {
+        "duels_total": 180,
+        "duels_won": 71
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 70,
+        "dribbles_success": 42,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 15,
+        "fouls_committed": 14,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 5,
+        "penalty_missed": 1,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 64,
+        "shots_on": 43
+      }
+    },
+    {
+      "league_info": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 4,
+        "minutes": 332,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.000000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 40,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 26,
+        "duels_won": 7
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 10,
+        "dribbles_success": 4,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 4,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 1,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 4,
+        "shots_on": 4
+      }
+    },
+    {
+      "league_info": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 62,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.900000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 11,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 2,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 3,
+        "duels_won": 2
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2023
+      },
+      "team_info": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 4,
+        "minutes": 313,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.720000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 67,
+        "passes_key": 3,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": 2,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 35,
+        "duels_won": 11
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 9,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 5,
+        "fouls_committed": 3,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 5,
+        "shots_on": 3
+      }
+    },
+    {
+      "league_info": {
+        "id": 1022,
+        "name": "Premier League - Summer Series",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/1022.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 137,
+        "number": null,
+        "position": "Attacker",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 42,
+    "total_lineups": 38,
+    "total_minutes": 3111,
+    "total_goals": 26,
+    "total_assists": 2,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 5,
+    "average_rating": 7.2,
+    "goals_per_90": 0.75,
+    "assists_per_90": 0.06,
+    "minutes_per_appearance": 74.1
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.786960",
+    "source_file": "team_34_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

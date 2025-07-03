@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 26300,
+    "name": "O. Kabak",
+    "firstname": "Ozan Muhammed",
+    "lastname": "Kabak",
+    "age": 25,
+    "birth": {
+      "date": "2000-03-25",
+      "place": "Ankara",
+      "country": "Türkiye"
+    },
+    "nationality": "Türkiye",
+    "height": "187 cm",
+    "weight": "86 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/26300.png"
+  },
+  "team_context": {
+    "team_id": 40,
+    "team_name": "Liverpool",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 40,
+    "team_name": "Liverpool",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 13,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 1124,
+      "average_rating": 6.87
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 9,
+        "lineups": 9,
+        "minutes": 803,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.788888",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 584,
+        "passes_key": 1,
+        "passes_accuracy": 57
+      },
+      "defensive_stats": {
+        "tackles_total": 19,
+        "tackles_blocks": 2,
+        "tackles_interceptions": 12
+      },
+      "duel_stats": {
+        "duels_total": 91,
+        "duels_won": 51
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 5,
+        "dribbles_success": 3,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 12,
+        "cards_yellow": 3,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 4,
+        "minutes": 321,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.950000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 200,
+        "passes_key": null,
+        "passes_accuracy": 42
+      },
+      "defensive_stats": {
+        "tackles_total": 6,
+        "tackles_blocks": 5,
+        "tackles_interceptions": 6
+      },
+      "duel_stats": {
+        "duels_total": 22,
+        "duels_won": 13
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 3,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 2,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 13,
+    "total_lineups": 13,
+    "total_minutes": 1124,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 4,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.87,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 86.5
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.889498",
+    "source_file": "team_40_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

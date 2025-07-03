@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 8489,
+    "name": "J. David",
+    "firstname": "Jonathan Christian",
+    "lastname": "David",
+    "age": 25,
+    "birth": {
+      "date": "2000-01-14",
+      "place": "New York",
+      "country": "USA"
+    },
+    "nationality": "Canada",
+    "height": "175 cm",
+    "weight": "70 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/8489.png"
+  },
+  "team_context": {
+    "team_id": 79,
+    "team_name": "Lille",
+    "season": 2022
+  },
+  "season_summary": {
+    "season": 2022,
+    "team_id": 79,
+    "team_name": "Lille",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 40,
+      "goals": 26,
+      "assists": 4,
+      "minutes": 3420,
+      "average_rating": 7.31
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 79,
+        "name": "Lille",
+        "logo": "https://media.api-sports.io/football/teams/79.png"
+      },
+      "performance_stats": {
+        "appearances": 37,
+        "lineups": 36,
+        "minutes": 3179,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.162162",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 24,
+        "goals_conceded": 0,
+        "assists": 4,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 858,
+        "passes_key": 54,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 24,
+        "tackles_blocks": 2,
+        "tackles_interceptions": 9
+      },
+      "duel_stats": {
+        "duels_total": 338,
+        "duels_won": 128
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 68,
+        "dribbles_success": 29,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 59,
+        "fouls_committed": 41,
+        "cards_yellow": 6,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 10,
+        "penalty_missed": 1,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 89,
+        "shots_on": 56
+      }
+    },
+    {
+      "league_info": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 79,
+        "name": "Lille",
+        "logo": "https://media.api-sports.io/football/teams/79.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 3,
+        "minutes": 241,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.466666",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 99,
+        "passes_key": 5,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 2,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 25,
+        "duels_won": 10
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 5,
+        "fouls_committed": 4,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 1,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 9,
+        "shots_on": 5
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 40,
+    "total_lineups": 39,
+    "total_minutes": 3420,
+    "total_goals": 26,
+    "total_assists": 4,
+    "total_yellow_cards": 7,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.31,
+    "goals_per_90": 0.68,
+    "assists_per_90": 0.11,
+    "minutes_per_appearance": 85.5
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:06.071070",
+    "source_file": "team_79_players_2022.json",
+    "data_structure_version": "1.0"
+  }
+}

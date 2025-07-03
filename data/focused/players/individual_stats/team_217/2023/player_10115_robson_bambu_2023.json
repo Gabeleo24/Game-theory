@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 10115,
+    "name": "Robson Bambu",
+    "firstname": "Robson",
+    "lastname": "Alves de Barros",
+    "age": 28,
+    "birth": {
+      "date": "1997-11-12",
+      "place": "Santos",
+      "country": "Brazil"
+    },
+    "nationality": "Brazil",
+    "height": "185 cm",
+    "weight": "69 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/10115.png"
+  },
+  "team_context": {
+    "team_id": 217,
+    "team_name": "SC Braga",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 217,
+    "team_name": "SC Braga",
+    "primary_position": "Unknown",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 0,
+      "average_rating": 6.7
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 217,
+        "name": "SC Braga",
+        "logo": "https://media.api-sports.io/football/teams/217.png"
+      },
+      "performance_stats": {
+        "appearances": null,
+        "lineups": null,
+        "minutes": null,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.700000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": null,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 597,
+        "passes_key": null,
+        "passes_accuracy": 52
+      },
+      "defensive_stats": {
+        "tackles_total": 14,
+        "tackles_blocks": 7,
+        "tackles_interceptions": 9
+      },
+      "duel_stats": {
+        "duels_total": 68,
+        "duels_won": 43
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 5,
+        "dribbles_success": 3,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 12,
+        "fouls_committed": 12,
+        "cards_yellow": null,
+        "cards_yellowred": null,
+        "cards_red": null
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 0,
+    "total_lineups": 0,
+    "total_minutes": 0,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.7,
+    "goals_per_90": 0,
+    "assists_per_90": 0,
+    "minutes_per_appearance": 0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.613655",
+    "source_file": "team_217_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

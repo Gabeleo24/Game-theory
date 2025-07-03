@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 24,
+    "name": "M. Philipp",
+    "firstname": "Maximilian Marcus",
+    "lastname": "Philipp",
+    "age": 31,
+    "birth": {
+      "date": "1994-03-01",
+      "place": "Berlin",
+      "country": "Germany"
+    },
+    "nationality": "Germany",
+    "height": "183 cm",
+    "weight": "79 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/24.png"
+  },
+  "team_context": {
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 26,
+      "goals": 6,
+      "assists": 2,
+      "minutes": 1153,
+      "average_rating": 6.78
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "performance_stats": {
+        "appearances": 24,
+        "lineups": 13,
+        "minutes": 1113,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.850000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 6,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 358,
+        "passes_key": 13,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 15,
+        "tackles_blocks": null,
+        "tackles_interceptions": 6
+      },
+      "duel_stats": {
+        "duels_total": 104,
+        "duels_won": 48
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 13,
+        "dribbles_success": 11,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 12,
+        "fouls_committed": 16,
+        "cards_yellow": 3,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 23,
+        "shots_on": 16
+      }
+    },
+    {
+      "league_info": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 0,
+        "minutes": 40,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.700000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 21,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 1,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 26,
+    "total_lineups": 13,
+    "total_minutes": 1153,
+    "total_goals": 6,
+    "total_assists": 2,
+    "total_yellow_cards": 3,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.78,
+    "goals_per_90": 0.47,
+    "assists_per_90": 0.16,
+    "minutes_per_appearance": 44.3
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.228758",
+    "source_file": "team_161_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 2275,
+    "name": "W. Caballero",
+    "firstname": "Wilfredo Daniel",
+    "lastname": "Caballero Lazcano",
+    "age": 42,
+    "birth": {
+      "date": "1981-09-28",
+      "place": "Entre Ríos",
+      "country": "Argentina"
+    },
+    "nationality": "Argentina",
+    "height": "186 cm",
+    "weight": "81 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/2275.png"
+  },
+  "team_context": {
+    "team_id": 49,
+    "team_name": "Chelsea",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 49,
+    "team_name": "Chelsea",
+    "primary_position": "Goalkeeper",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 7,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 630,
+      "average_rating": 6.25
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 5,
+        "minutes": 450,
+        "number": null,
+        "position": "Goalkeeper",
+        "rating": "6.660000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 7,
+        "assists": null,
+        "saves": 10
+      },
+      "passing_stats": {
+        "passes_total": 107,
+        "passes_key": 0,
+        "passes_accuracy": 71
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 0
+      },
+      "duel_stats": {
+        "duels_total": 2,
+        "duels_won": 2
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 0,
+        "dribbles_success": 0,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 0,
+        "fouls_committed": 0,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": 0
+      },
+      "shooting_stats": {
+        "shots_total": 0,
+        "shots_on": 0
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 180,
+        "number": null,
+        "position": "Goalkeeper",
+        "rating": "5.850000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 7,
+        "assists": null,
+        "saves": 6
+      },
+      "passing_stats": {
+        "passes_total": 45,
+        "passes_key": 0,
+        "passes_accuracy": 66
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 0
+      },
+      "duel_stats": {
+        "duels_total": 1,
+        "duels_won": 0
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 0,
+        "dribbles_success": 0,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 0,
+        "fouls_committed": 1,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": 0
+      },
+      "shooting_stats": {
+        "shots_total": 0,
+        "shots_on": 0
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 7,
+    "total_lineups": 7,
+    "total_minutes": 630,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.25,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 90.0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.153898",
+    "source_file": "team_49_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

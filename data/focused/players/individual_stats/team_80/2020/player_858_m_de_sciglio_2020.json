@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 858,
+    "name": "M. De Sciglio",
+    "firstname": "Mattia",
+    "lastname": "De Sciglio",
+    "age": 33,
+    "birth": {
+      "date": "1992-10-20",
+      "place": "Milano",
+      "country": "Italy"
+    },
+    "nationality": "Italy",
+    "height": "182 cm",
+    "weight": "78 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/858.png"
+  },
+  "team_context": {
+    "team_id": 80,
+    "team_name": "Lyon",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 80,
+    "team_name": "Lyon",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 33,
+      "goals": 0,
+      "assists": 3,
+      "minutes": 1805,
+      "average_rating": 6.92
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "performance_stats": {
+        "appearances": 29,
+        "lineups": 14,
+        "minutes": 1460,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.696428",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 837,
+        "passes_key": 9,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 29,
+        "tackles_blocks": 4,
+        "tackles_interceptions": 27
+      },
+      "duel_stats": {
+        "duels_total": 123,
+        "duels_won": 70
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 21,
+        "dribbles_success": 12,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 10,
+        "fouls_committed": 22,
+        "cards_yellow": 4,
+        "cards_yellowred": 0,
+        "cards_red": 1
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 4,
+        "minutes": 345,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.150000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 161,
+        "passes_key": 5,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 7
+      },
+      "duel_stats": {
+        "duels_total": 24,
+        "duels_won": 14
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 3,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 33,
+    "total_lineups": 18,
+    "total_minutes": 1805,
+    "total_goals": 0,
+    "total_assists": 3,
+    "total_yellow_cards": 5,
+    "total_red_cards": 1,
+    "competitions_played": 2,
+    "average_rating": 6.92,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.15,
+    "minutes_per_appearance": 54.7
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:06.088841",
+    "source_file": "team_80_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

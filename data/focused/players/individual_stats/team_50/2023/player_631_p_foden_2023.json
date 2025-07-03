@@ -1,0 +1,528 @@
+{
+  "player_info": {
+    "id": 631,
+    "name": "P. Foden",
+    "firstname": "Philip Walter",
+    "lastname": "Foden",
+    "age": 25,
+    "birth": {
+      "date": "2000-05-28",
+      "place": "Stockport",
+      "country": "England"
+    },
+    "nationality": "England",
+    "height": "171 cm",
+    "weight": "63 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/631.png"
+  },
+  "team_context": {
+    "team_id": 50,
+    "team_name": "Manchester City",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 50,
+    "team_name": "Manchester City",
+    "primary_position": "Midfielder",
+    "total_competitions": 7,
+    "key_metrics": {
+      "appearances": 54,
+      "goals": 27,
+      "assists": 12,
+      "minutes": 4339,
+      "average_rating": 7.58
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "performance_stats": {
+        "appearances": 35,
+        "lineups": 33,
+        "minutes": 2868,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.794285",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 19,
+        "goals_conceded": 0,
+        "assists": 8,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1670,
+        "passes_key": 73,
+        "passes_accuracy": 42
+      },
+      "defensive_stats": {
+        "tackles_total": 31,
+        "tackles_blocks": null,
+        "tackles_interceptions": 13
+      },
+      "duel_stats": {
+        "duels_total": 287,
+        "duels_won": 144
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 93,
+        "dribbles_success": 47,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 60,
+        "fouls_committed": 14,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 64,
+        "shots_on": 48
+      }
+    },
+    {
+      "league_info": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 0,
+        "minutes": 17,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.700000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 4,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 3,
+        "duels_won": 2
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 5,
+        "minutes": 436,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.820000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 255,
+        "passes_key": 10,
+        "passes_accuracy": 44
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": null,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 27,
+        "duels_won": 17
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 9,
+        "fouls_committed": 2,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 10,
+        "shots_on": 5
+      }
+    },
+    {
+      "league_info": {
+        "id": 531,
+        "name": "UEFA Super Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/531.png",
+        "flag": null,
+        "season": 2023
+      },
+      "team_info": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 90,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2023
+      },
+      "team_info": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "performance_stats": {
+        "appearances": 8,
+        "lineups": 7,
+        "minutes": 683,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "8.012500",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 5,
+        "goals_conceded": 0,
+        "assists": 3,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 437,
+        "passes_key": 15,
+        "passes_accuracy": 49
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 47,
+        "duels_won": 22
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 16,
+        "dribbles_success": 11,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 5,
+        "fouls_committed": 4,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 22,
+        "shots_on": 12
+      }
+    },
+    {
+      "league_info": {
+        "id": null,
+        "name": "FIFA Intercontinental Cup",
+        "country": null,
+        "logo": null,
+        "flag": null,
+        "season": 2023
+      },
+      "team_info": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 146,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2023
+      },
+      "team_info": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 1,
+        "minutes": 99,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 54,
+    "total_lineups": 49,
+    "total_minutes": 4339,
+    "total_goals": 27,
+    "total_assists": 12,
+    "total_yellow_cards": 2,
+    "total_red_cards": 0,
+    "competitions_played": 7,
+    "average_rating": 7.58,
+    "goals_per_90": 0.56,
+    "assists_per_90": 0.25,
+    "minutes_per_appearance": 80.4
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.241677",
+    "source_file": "team_50_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

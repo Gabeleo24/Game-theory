@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 3034,
+    "name": "M. Elia",
+    "firstname": "Meschack",
+    "lastname": "Elia Lina",
+    "age": 28,
+    "birth": {
+      "date": "1997-08-06",
+      "place": "Kinshasa",
+      "country": "Congo DR"
+    },
+    "nationality": "Congo DR",
+    "height": "173 cm",
+    "weight": "67 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/3034.png"
+  },
+  "team_context": {
+    "team_id": 565,
+    "team_name": "BSC Young Boys",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 565,
+    "team_name": "BSC Young Boys",
+    "primary_position": "Attacker",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 12,
+      "goals": 2,
+      "assists": 8,
+      "minutes": 499,
+      "average_rating": 6.95
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 207,
+        "name": "Super League",
+        "country": "Switzerland",
+        "logo": "https://media.api-sports.io/football/leagues/207.png",
+        "flag": "https://media.api-sports.io/flags/ch.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 565,
+        "name": "BSC Young Boys",
+        "logo": "https://media.api-sports.io/football/teams/565.png"
+      },
+      "performance_stats": {
+        "appearances": 12,
+        "lineups": 5,
+        "minutes": 499,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.953571",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": 8,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 354,
+        "passes_key": 40,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 13,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 8
+      },
+      "duel_stats": {
+        "duels_total": 201,
+        "duels_won": 70
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 58,
+        "dribbles_success": 28,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 22,
+        "fouls_committed": 20,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 36,
+        "shots_on": 17
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 12,
+    "total_lineups": 5,
+    "total_minutes": 499,
+    "total_goals": 2,
+    "total_assists": 8,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.95,
+    "goals_per_90": 0.36,
+    "assists_per_90": 1.44,
+    "minutes_per_appearance": 41.6
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.600881",
+    "source_file": "team_565_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

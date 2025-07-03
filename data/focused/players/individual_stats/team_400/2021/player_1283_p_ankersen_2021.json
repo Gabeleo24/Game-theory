@@ -1,0 +1,260 @@
+{
+  "player_info": {
+    "id": 1283,
+    "name": "P. Ankersen",
+    "firstname": "Peter",
+    "lastname": "Svarrer Ankersen",
+    "age": 35,
+    "birth": {
+      "date": "1990-09-22",
+      "place": "Esbjerg",
+      "country": "Denmark"
+    },
+    "nationality": "Denmark",
+    "height": "179 cm",
+    "weight": "73 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1283.png"
+  },
+  "team_context": {
+    "team_id": 400,
+    "team_name": "FC Copenhagen",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 400,
+    "team_name": "FC Copenhagen",
+    "primary_position": "Defender",
+    "total_competitions": 3,
+    "key_metrics": {
+      "appearances": 39,
+      "goals": 2,
+      "assists": 4,
+      "minutes": 2561,
+      "average_rating": 6.87
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png"
+      },
+      "performance_stats": {
+        "appearances": 28,
+        "lineups": 23,
+        "minutes": 2005,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.988888",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 4,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 927,
+        "passes_key": 23,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 35,
+        "tackles_blocks": 9,
+        "tackles_interceptions": 29
+      },
+      "duel_stats": {
+        "duels_total": 180,
+        "duels_won": 105
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 29,
+        "dribbles_success": 10,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 37,
+        "fouls_committed": 8,
+        "cards_yellow": 3,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 14,
+        "shots_on": 4
+      }
+    },
+    {
+      "league_info": {
+        "id": 121,
+        "name": "DBU Pokalen",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/121.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 71,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png"
+      },
+      "performance_stats": {
+        "appearances": 10,
+        "lineups": 5,
+        "minutes": 485,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.742857",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 177,
+        "passes_key": 2,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 8,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 5
+      },
+      "duel_stats": {
+        "duels_total": 30,
+        "duels_won": 20
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 7,
+        "dribbles_success": 3,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 6,
+        "fouls_committed": 2,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 4,
+        "shots_on": 2
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 39,
+    "total_lineups": 29,
+    "total_minutes": 2561,
+    "total_goals": 2,
+    "total_assists": 4,
+    "total_yellow_cards": 3,
+    "total_red_cards": 0,
+    "competitions_played": 3,
+    "average_rating": 6.87,
+    "goals_per_90": 0.07,
+    "assists_per_90": 0.14,
+    "minutes_per_appearance": 65.7
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.861403",
+    "source_file": "team_400_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

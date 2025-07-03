@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 30414,
+    "name": "G. Simeone",
+    "firstname": "Giovanni Pablo",
+    "lastname": "Simeone Baldini",
+    "age": 30,
+    "birth": {
+      "date": "1995-07-05",
+      "place": "Madrid",
+      "country": "Spain"
+    },
+    "nationality": "Argentina",
+    "height": "180 cm",
+    "weight": "81 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/30414.png"
+  },
+  "team_context": {
+    "team_id": 492,
+    "team_name": "Napoli",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 492,
+    "team_name": "Napoli",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 33,
+      "goals": 2,
+      "assists": 2,
+      "minutes": 569,
+      "average_rating": 6.76
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "performance_stats": {
+        "appearances": 30,
+        "lineups": 1,
+        "minutes": 391,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.492592",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 110,
+        "passes_key": 8,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 2,
+        "tackles_blocks": 2,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 98,
+        "duels_won": 32
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 13,
+        "dribbles_success": 6,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 16,
+        "fouls_committed": 7,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 10,
+        "shots_on": 3
+      }
+    },
+    {
+      "league_info": {
+        "id": 137,
+        "name": "Coppa Italia",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 2,
+        "minutes": 178,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.033333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 26,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 13,
+        "duels_won": 4
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 7,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 4,
+        "shots_on": 3
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 33,
+    "total_lineups": 3,
+    "total_minutes": 569,
+    "total_goals": 2,
+    "total_assists": 2,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.76,
+    "goals_per_90": 0.32,
+    "assists_per_90": 0.32,
+    "minutes_per_appearance": 17.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.360805",
+    "source_file": "team_492_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

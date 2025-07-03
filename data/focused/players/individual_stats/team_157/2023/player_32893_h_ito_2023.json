@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 32893,
+    "name": "H. Ito",
+    "firstname": "Hiroki",
+    "lastname": "Ito",
+    "age": 26,
+    "birth": {
+      "date": "1999-05-12",
+      "place": "Shizuoka",
+      "country": "Japan"
+    },
+    "nationality": "Japan",
+    "height": "188 cm",
+    "weight": "84 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/32893.png"
+  },
+  "team_context": {
+    "team_id": 157,
+    "team_name": "Bayern Munich",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 157,
+    "team_name": "Bayern Munich",
+    "primary_position": "Unknown",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 2,
+      "minutes": 0,
+      "average_rating": 7.06
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 157,
+        "name": "Bayern München",
+        "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "performance_stats": {
+        "appearances": null,
+        "lineups": null,
+        "minutes": null,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.061538",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": null,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1965,
+        "passes_key": 19,
+        "passes_accuracy": 67
+      },
+      "defensive_stats": {
+        "tackles_total": 19,
+        "tackles_blocks": 17,
+        "tackles_interceptions": 31
+      },
+      "duel_stats": {
+        "duels_total": 141,
+        "duels_won": 64
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 10,
+        "dribbles_success": 7,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 8,
+        "fouls_committed": 17,
+        "cards_yellow": null,
+        "cards_yellowred": null,
+        "cards_red": null
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 9,
+        "shots_on": 4
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 0,
+    "total_lineups": 0,
+    "total_minutes": 0,
+    "total_goals": 0,
+    "total_assists": 2,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 7.06,
+    "goals_per_90": 0,
+    "assists_per_90": 0,
+    "minutes_per_appearance": 0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.217424",
+    "source_file": "team_157_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

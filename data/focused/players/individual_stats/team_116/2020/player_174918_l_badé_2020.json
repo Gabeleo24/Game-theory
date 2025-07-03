@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 174918,
+    "name": "L. Badé",
+    "firstname": "Loïc",
+    "lastname": "Badé",
+    "age": 25,
+    "birth": {
+      "date": "2000-04-11",
+      "place": "Sèvres",
+      "country": "France"
+    },
+    "nationality": "France",
+    "height": "191 cm",
+    "weight": "89 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/174918.png"
+  },
+  "team_context": {
+    "team_id": 116,
+    "team_name": "Lens",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 116,
+    "team_name": "Lens",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 33,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 2779,
+      "average_rating": 6.89
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png"
+      },
+      "performance_stats": {
+        "appearances": 31,
+        "lineups": 29,
+        "minutes": 2610,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.977419",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1949,
+        "passes_key": 7,
+        "passes_accuracy": 55
+      },
+      "defensive_stats": {
+        "tackles_total": 57,
+        "tackles_blocks": 17,
+        "tackles_interceptions": 74
+      },
+      "duel_stats": {
+        "duels_total": 353,
+        "duels_won": 208
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 26,
+        "dribbles_success": 23,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 16,
+        "fouls_committed": 44,
+        "cards_yellow": 10,
+        "cards_yellowred": 1,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 7,
+        "shots_on": 3
+      }
+    },
+    {
+      "league_info": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 169,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.800000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 144,
+        "passes_key": null,
+        "passes_accuracy": 63
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": 2,
+        "tackles_interceptions": 5
+      },
+      "duel_stats": {
+        "duels_total": 18,
+        "duels_won": 11
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 33,
+    "total_lineups": 31,
+    "total_minutes": 2779,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 10,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.89,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 84.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.168894",
+    "source_file": "team_116_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

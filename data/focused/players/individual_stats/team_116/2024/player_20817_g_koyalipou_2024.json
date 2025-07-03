@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 20817,
+    "name": "G. Koyalipou",
+    "firstname": "Goduine",
+    "lastname": "Koyalipou",
+    "age": 25,
+    "birth": {
+      "date": "2000-02-15",
+      "place": "Bangui",
+      "country": "Central African Republic"
+    },
+    "nationality": "France",
+    "height": "184 cm",
+    "weight": "82 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/20817.png"
+  },
+  "team_context": {
+    "team_id": 116,
+    "team_name": "Lens",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 116,
+    "team_name": "Lens",
+    "primary_position": "Attacker",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 15,
+      "goals": 4,
+      "assists": 0,
+      "minutes": 895,
+      "average_rating": 6.75
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png"
+      },
+      "performance_stats": {
+        "appearances": 15,
+        "lineups": 12,
+        "minutes": 895,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.753333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 4,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 187,
+        "passes_key": 10,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 3,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 96,
+        "duels_won": 37
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 25,
+        "dribbles_success": 12,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 6,
+        "fouls_committed": 7,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 29,
+        "shots_on": 15
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 15,
+    "total_lineups": 12,
+    "total_minutes": 895,
+    "total_goals": 4,
+    "total_assists": 0,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.75,
+    "goals_per_90": 0.4,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 59.7
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.170424",
+    "source_file": "team_116_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

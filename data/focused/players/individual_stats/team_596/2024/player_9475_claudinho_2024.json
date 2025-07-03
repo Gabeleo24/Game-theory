@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 9475,
+    "name": "Claudinho",
+    "firstname": "Cláudio Luiz",
+    "lastname": "Rodrigues Parise Leonel",
+    "age": 28,
+    "birth": {
+      "date": "1997-01-28",
+      "place": "São Vicente",
+      "country": "Brazil"
+    },
+    "nationality": "Brazil",
+    "height": "172 cm",
+    "weight": "65 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/9475.png"
+  },
+  "team_context": {
+    "team_id": 596,
+    "team_name": "Zenit Saint Petersburg",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 596,
+    "team_name": "Zenit Saint Petersburg",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 19,
+      "goals": 1,
+      "assists": 5,
+      "minutes": 1401,
+      "average_rating": 7.44
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 235,
+        "name": "Premier League",
+        "country": "Russia",
+        "logo": "https://media.api-sports.io/football/leagues/235.png",
+        "flag": "https://media.api-sports.io/flags/ru.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 596,
+        "name": "Zenit",
+        "logo": "https://media.api-sports.io/football/teams/596.png"
+      },
+      "performance_stats": {
+        "appearances": 16,
+        "lineups": 15,
+        "minutes": 1203,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.443750",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 5,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1055,
+        "passes_key": 28,
+        "passes_accuracy": 55
+      },
+      "defensive_stats": {
+        "tackles_total": 17,
+        "tackles_blocks": 4,
+        "tackles_interceptions": 18
+      },
+      "duel_stats": {
+        "duels_total": 118,
+        "duels_won": 60
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 35,
+        "dribbles_success": 14,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 26,
+        "fouls_committed": 14,
+        "cards_yellow": 3,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 22,
+        "shots_on": 10
+      }
+    },
+    {
+      "league_info": {
+        "id": 237,
+        "name": "Cup",
+        "country": "Russia",
+        "logo": "https://media.api-sports.io/football/leagues/237.png",
+        "flag": "https://media.api-sports.io/flags/ru.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 596,
+        "name": "Zenit",
+        "logo": "https://media.api-sports.io/football/teams/596.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 2,
+        "minutes": 198,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 19,
+    "total_lineups": 17,
+    "total_minutes": 1401,
+    "total_goals": 1,
+    "total_assists": 5,
+    "total_yellow_cards": 3,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.44,
+    "goals_per_90": 0.06,
+    "assists_per_90": 0.32,
+    "minutes_per_appearance": 73.7
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.479521",
+    "source_file": "team_596_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

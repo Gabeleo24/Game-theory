@@ -1,0 +1,42 @@
+{
+  "start_time": "2025-07-03T11:43:31.641422",
+  "basic_collection": {
+    "status": "completed",
+    "total_players": 6700,
+    "unique_players": 3417,
+    "api_requests": 335,
+    "seasons_processed": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "teams_processed": 67
+  },
+  "competition_collection": {
+    "status": "completed",
+    "total_players": 0,
+    "api_requests": 90,
+    "seasons_processed": [
+      2022,
+      2023
+    ],
+    "competitions_processed": 11
+  },
+  "validation_results": {
+    "status": "failed",
+    "error": "unsupported operand type(s) for +=: 'int' and 'NoneType'"
+  },
+  "total_api_requests": 425,
+  "total_players_collected": 6700,
+  "end_time": "2025-07-03T11:54:11.719531",
+  "total_duration": "0:10:40.078109",
+  "summary": {
+    "collection_mode": "full",
+    "total_api_requests": 425,
+    "total_players_collected": 6700,
+    "collection_duration": "0:10:40.078109",
+    "success_rate": 66.66666666666666
+  }
+}

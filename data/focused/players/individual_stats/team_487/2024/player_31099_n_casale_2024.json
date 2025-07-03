@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 31099,
+    "name": "N. Casale",
+    "firstname": "Nicolò",
+    "lastname": "Casale",
+    "age": 27,
+    "birth": {
+      "date": "1998-02-14",
+      "place": "Negrar",
+      "country": "Italy"
+    },
+    "nationality": "Italy",
+    "height": "191 cm",
+    "weight": "84 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/31099.png"
+  },
+  "team_context": {
+    "team_id": 487,
+    "team_name": "Lazio",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 487,
+    "team_name": "Lazio",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 2,
+      "goals": 0,
+      "assists": 1,
+      "minutes": 136,
+      "average_rating": 6.76
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 487,
+        "name": "Lazio",
+        "logo": "https://media.api-sports.io/football/teams/487.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 136,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.760000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 509,
+        "passes_key": 3,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 11,
+        "tackles_blocks": 7,
+        "tackles_interceptions": 17
+      },
+      "duel_stats": {
+        "duels_total": 104,
+        "duels_won": 54
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 3,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 8,
+        "fouls_committed": 23,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 137,
+        "name": "Coppa Italia",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 487,
+        "name": "Lazio",
+        "logo": "https://media.api-sports.io/football/teams/487.png"
+      },
+      "performance_stats": {
+        "appearances": 0,
+        "lineups": 0,
+        "minutes": 0,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.766666",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 61,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 15,
+        "duels_won": 6
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 4,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 2,
+    "total_lineups": 2,
+    "total_minutes": 136,
+    "total_goals": 0,
+    "total_assists": 1,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.76,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.66,
+    "minutes_per_appearance": 68.0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.347127",
+    "source_file": "team_487_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

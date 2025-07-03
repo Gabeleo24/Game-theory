@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 25139,
+    "name": "V. Kušej",
+    "firstname": "Vasil",
+    "lastname": "Kušej",
+    "age": 25,
+    "birth": {
+      "date": "2000-05-24",
+      "place": "Ústí nad Labem",
+      "country": "Czechia"
+    },
+    "nationality": "Czechia",
+    "height": "168 cm",
+    "weight": "65 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/25139.png"
+  },
+  "team_context": {
+    "team_id": 560,
+    "team_name": "Slavia Praha",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 560,
+    "team_name": "Slavia Praha",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 15,
+      "goals": 10,
+      "assists": 4,
+      "minutes": 792,
+      "average_rating": 7.31
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 345,
+        "name": "Czech Liga",
+        "country": "Czech-Republic",
+        "logo": "https://media.api-sports.io/football/leagues/345.png",
+        "flag": "https://media.api-sports.io/flags/cz.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 560,
+        "name": "Slavia Praha",
+        "logo": "https://media.api-sports.io/football/teams/560.png"
+      },
+      "performance_stats": {
+        "appearances": 13,
+        "lineups": 7,
+        "minutes": 670,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.312500",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 10,
+        "goals_conceded": 0,
+        "assists": 4,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 202,
+        "passes_key": 17,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 6,
+        "tackles_blocks": null,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 71,
+        "duels_won": 29
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 28,
+        "dribbles_success": 16,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 6,
+        "fouls_committed": 4,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 9,
+        "shots_on": 7
+      }
+    },
+    {
+      "league_info": {
+        "id": 347,
+        "name": "Cup",
+        "country": "Czech-Republic",
+        "logo": "https://media.api-sports.io/football/leagues/347.png",
+        "flag": "https://media.api-sports.io/flags/cz.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 560,
+        "name": "Slavia Praha",
+        "logo": "https://media.api-sports.io/football/teams/560.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 1,
+        "minutes": 122,
+        "number": null,
+        "position": "Attacker",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 15,
+    "total_lineups": 8,
+    "total_minutes": 792,
+    "total_goals": 10,
+    "total_assists": 4,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.31,
+    "goals_per_90": 1.14,
+    "assists_per_90": 0.45,
+    "minutes_per_appearance": 52.8
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.439336",
+    "source_file": "team_560_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "player_info": {
+    "id": 164,
+    "name": "B. Davies",
+    "firstname": "Benjamin Thomas",
+    "lastname": "Davies",
+    "age": 32,
+    "birth": {
+      "date": "1993-04-24",
+      "place": "Neath",
+      "country": "Wales"
+    },
+    "nationality": "Wales",
+    "height": "181 cm",
+    "weight": "77 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/164.png"
+  },
+  "team_context": {
+    "team_id": 47,
+    "team_name": "Tottenham",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 47,
+    "team_name": "Tottenham",
+    "primary_position": "Defender",
+    "total_competitions": 5,
+    "key_metrics": {
+      "appearances": 41,
+      "goals": 1,
+      "assists": 2,
+      "minutes": 3036,
+      "average_rating": 6.83
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 47,
+        "name": "Tottenham",
+        "logo": "https://media.api-sports.io/football/teams/47.png"
+      },
+      "performance_stats": {
+        "appearances": 20,
+        "lineups": 14,
+        "minutes": 1340,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.731578",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 645,
+        "passes_key": 8,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 27,
+        "tackles_blocks": 5,
+        "tackles_interceptions": 18
+      },
+      "duel_stats": {
+        "duels_total": 134,
+        "duels_won": 69
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 7,
+        "dribbles_success": 3,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 13,
+        "fouls_committed": 19,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 47,
+        "name": "Tottenham",
+        "logo": "https://media.api-sports.io/football/teams/47.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 1,
+        "minutes": 109,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.700000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 85,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 5,
+        "duels_won": 2
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 2,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 47,
+        "name": "Tottenham",
+        "logo": "https://media.api-sports.io/football/teams/47.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 3,
+        "minutes": 281,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.100000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 181,
+        "passes_key": 3,
+        "passes_accuracy": 49
+      },
+      "defensive_stats": {
+        "tackles_total": 7,
+        "tackles_blocks": null,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 24,
+        "duels_won": 18
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 47,
+        "name": "Tottenham",
+        "logo": "https://media.api-sports.io/football/teams/47.png"
+      },
+      "performance_stats": {
+        "appearances": 13,
+        "lineups": 13,
+        "minutes": 1170,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.800000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 522,
+        "passes_key": 9,
+        "passes_accuracy": 41
+      },
+      "defensive_stats": {
+        "tackles_total": 10,
+        "tackles_blocks": 2,
+        "tackles_interceptions": 9
+      },
+      "duel_stats": {
+        "duels_total": 92,
+        "duels_won": 53
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 7,
+        "dribbles_success": 5,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 10,
+        "fouls_committed": 6,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 47,
+        "name": "Tottenham",
+        "logo": "https://media.api-sports.io/football/teams/47.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 2,
+        "minutes": 136,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 41,
+    "total_lineups": 33,
+    "total_minutes": 3036,
+    "total_goals": 1,
+    "total_assists": 2,
+    "total_yellow_cards": 2,
+    "total_red_cards": 0,
+    "competitions_played": 5,
+    "average_rating": 6.83,
+    "goals_per_90": 0.03,
+    "assists_per_90": 0.06,
+    "minutes_per_appearance": 74.0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.981002",
+    "source_file": "team_47_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

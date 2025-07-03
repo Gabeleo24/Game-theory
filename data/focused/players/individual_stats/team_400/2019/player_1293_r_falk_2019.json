@@ -1,0 +1,327 @@
+{
+  "player_info": {
+    "id": 1293,
+    "name": "R. Falk",
+    "firstname": "Rasmus",
+    "lastname": "Falk Jensen",
+    "age": 33,
+    "birth": {
+      "date": "1992-01-15",
+      "place": "Middelfart",
+      "country": "Denmark"
+    },
+    "nationality": "Denmark",
+    "height": "177 cm",
+    "weight": "69 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1293.png"
+  },
+  "team_context": {
+    "team_id": 400,
+    "team_name": "FC Copenhagen",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 400,
+    "team_name": "FC Copenhagen",
+    "primary_position": "Midfielder",
+    "total_competitions": 4,
+    "key_metrics": {
+      "appearances": 47,
+      "goals": 2,
+      "assists": 3,
+      "minutes": 3707,
+      "average_rating": 7.1
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png"
+      },
+      "performance_stats": {
+        "appearances": 31,
+        "lineups": 31,
+        "minutes": 2496,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.106896",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1482,
+        "passes_key": 41,
+        "passes_accuracy": 90
+      },
+      "defensive_stats": {
+        "tackles_total": 48,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 35
+      },
+      "duel_stats": {
+        "duels_total": 125,
+        "duels_won": 68
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 83,
+        "dribbles_success": 62,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 46,
+        "fouls_committed": 30,
+        "cards_yellow": 4,
+        "cards_yellowred": 0,
+        "cards_red": 1
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 23,
+        "shots_on": 9
+      }
+    },
+    {
+      "league_info": {
+        "id": 121,
+        "name": "DBU Pokalen",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/121.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 81,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png"
+      },
+      "performance_stats": {
+        "appearances": 13,
+        "lineups": 12,
+        "minutes": 1035,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.090000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 309,
+        "passes_key": 8,
+        "passes_accuracy": 86
+      },
+      "defensive_stats": {
+        "tackles_total": 19,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 20
+      },
+      "duel_stats": {
+        "duels_total": 21,
+        "duels_won": 17
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 31,
+        "dribbles_success": 25,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 13,
+        "fouls_committed": 9,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 7,
+        "shots_on": 3
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 1,
+        "minutes": 95,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 47,
+    "total_lineups": 45,
+    "total_minutes": 3707,
+    "total_goals": 2,
+    "total_assists": 3,
+    "total_yellow_cards": 5,
+    "total_red_cards": 1,
+    "competitions_played": 4,
+    "average_rating": 7.1,
+    "goals_per_90": 0.05,
+    "assists_per_90": 0.07,
+    "minutes_per_appearance": 78.9
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.850292",
+    "source_file": "team_400_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

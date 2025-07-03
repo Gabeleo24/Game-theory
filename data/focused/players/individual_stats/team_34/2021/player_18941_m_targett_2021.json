@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 18941,
+    "name": "M. Targett",
+    "firstname": "Matthew Robert",
+    "lastname": "Targett",
+    "age": 30,
+    "birth": {
+      "date": "1995-09-18",
+      "place": "Eastleigh",
+      "country": "England"
+    },
+    "nationality": "England",
+    "height": "183 cm",
+    "weight": "70 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/18941.png"
+  },
+  "team_context": {
+    "team_id": 34,
+    "team_name": "Newcastle",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 34,
+    "team_name": "Newcastle",
+    "primary_position": "Defender",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 16,
+      "goals": 0,
+      "assists": 1,
+      "minutes": 1440,
+      "average_rating": 6.87
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "performance_stats": {
+        "appearances": 16,
+        "lineups": 16,
+        "minutes": 1440,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.870588",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 643,
+        "passes_key": 21,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 34,
+        "tackles_blocks": 9,
+        "tackles_interceptions": 23
+      },
+      "duel_stats": {
+        "duels_total": 137,
+        "duels_won": 78
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 6,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 11,
+        "fouls_committed": 15,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 6,
+        "shots_on": 2
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 16,
+    "total_lineups": 16,
+    "total_minutes": 1440,
+    "total_goals": 0,
+    "total_assists": 1,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.87,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.06,
+    "minutes_per_appearance": 90.0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.776768",
+    "source_file": "team_34_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

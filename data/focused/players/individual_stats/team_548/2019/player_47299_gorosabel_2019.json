@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 47299,
+    "name": "Gorosabel",
+    "firstname": "Andoni",
+    "lastname": "Gorosabel Espinosa",
+    "age": 29,
+    "birth": {
+      "date": "1996-08-04",
+      "place": "Arrasate",
+      "country": "Spain"
+    },
+    "nationality": "Spain",
+    "height": "174 cm",
+    "weight": "70 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/47299.png"
+  },
+  "team_context": {
+    "team_id": 548,
+    "team_name": "Real Sociedad",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 548,
+    "team_name": "Real Sociedad",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 19,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 1163,
+      "average_rating": 6.82
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 548,
+        "name": "Real Sociedad",
+        "logo": "https://media.api-sports.io/football/teams/548.png"
+      },
+      "performance_stats": {
+        "appearances": 14,
+        "lineups": 8,
+        "minutes": 713,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.576923",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 346,
+        "passes_key": 5,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 14,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 13
+      },
+      "duel_stats": {
+        "duels_total": 78,
+        "duels_won": 35
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 5,
+        "dribbles_success": 4,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 9,
+        "fouls_committed": 10,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 548,
+        "name": "Real Sociedad",
+        "logo": "https://media.api-sports.io/football/teams/548.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 5,
+        "minutes": 450,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.060000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 200,
+        "passes_key": 8,
+        "passes_accuracy": 74
+      },
+      "defensive_stats": {
+        "tackles_total": 22,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 12,
+        "duels_won": 7
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 8,
+        "dribbles_success": 5,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 4,
+        "fouls_committed": 7,
+        "cards_yellow": 1,
+        "cards_yellowred": 1,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 19,
+    "total_lineups": 13,
+    "total_minutes": 1163,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 3,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.82,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 61.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.433916",
+    "source_file": "team_548_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

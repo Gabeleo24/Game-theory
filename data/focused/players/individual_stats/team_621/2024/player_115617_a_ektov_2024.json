@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 115617,
+    "name": "A. Ektov",
+    "firstname": "Aleksandr",
+    "lastname": "Ektov",
+    "age": 29,
+    "birth": {
+      "date": "1996-01-30",
+      "place": "Volokolamsk",
+      "country": "Russia"
+    },
+    "nationality": "Russia",
+    "height": "180 cm",
+    "weight": "70 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/115617.png"
+  },
+  "team_context": {
+    "team_id": 621,
+    "team_name": "Krasnodar",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 621,
+    "team_name": "Krasnodar",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 2,
+      "goals": 0,
+      "assists": 2,
+      "minutes": 67,
+      "average_rating": 6.6
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 235,
+        "name": "Premier League",
+        "country": "Russia",
+        "logo": "https://media.api-sports.io/football/leagues/235.png",
+        "flag": "https://media.api-sports.io/flags/ru.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 621,
+        "name": "FC Krasnodar",
+        "logo": "https://media.api-sports.io/football/teams/621.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 0,
+        "minutes": 5,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.604000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 736,
+        "passes_key": 18,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 27,
+        "tackles_blocks": 7,
+        "tackles_interceptions": 28
+      },
+      "duel_stats": {
+        "duels_total": 166,
+        "duels_won": 77
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 24,
+        "dribbles_success": 11,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 17,
+        "fouls_committed": 32,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 6,
+        "shots_on": 2
+      }
+    },
+    {
+      "league_info": {
+        "id": 237,
+        "name": "Cup",
+        "country": "Russia",
+        "logo": "https://media.api-sports.io/football/leagues/237.png",
+        "flag": "https://media.api-sports.io/flags/ru.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 621,
+        "name": "FC Krasnodar",
+        "logo": "https://media.api-sports.io/football/teams/621.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 62,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 2,
+    "total_lineups": 1,
+    "total_minutes": 67,
+    "total_goals": 0,
+    "total_assists": 2,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.6,
+    "goals_per_90": 0.0,
+    "assists_per_90": 2.69,
+    "minutes_per_appearance": 33.5
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.507754",
+    "source_file": "team_621_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

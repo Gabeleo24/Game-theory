@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 187987,
+    "name": "Ramón Terrats",
+    "firstname": "Ramón",
+    "lastname": "Terrats Espacio",
+    "age": 25,
+    "birth": {
+      "date": "2000-10-18",
+      "place": "Barcelona",
+      "country": "Spain"
+    },
+    "nationality": "Spain",
+    "height": "181 cm",
+    "weight": "71 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/187987.png"
+  },
+  "team_context": {
+    "team_id": 533,
+    "team_name": "Villarreal",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 533,
+    "team_name": "Villarreal",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 12,
+      "goals": 1,
+      "assists": 1,
+      "minutes": 213,
+      "average_rating": 6.98
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 533,
+        "name": "Villarreal",
+        "logo": "https://media.api-sports.io/football/teams/533.png"
+      },
+      "performance_stats": {
+        "appearances": 11,
+        "lineups": 1,
+        "minutes": 123,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.053333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 309,
+        "passes_key": 16,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 21,
+        "tackles_blocks": 2,
+        "tackles_interceptions": 8
+      },
+      "duel_stats": {
+        "duels_total": 159,
+        "duels_won": 80
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 43,
+        "dribbles_success": 23,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 22,
+        "fouls_committed": 13,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 17,
+        "shots_on": 9
+      }
+    },
+    {
+      "league_info": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 533,
+        "name": "Villarreal",
+        "logo": "https://media.api-sports.io/football/teams/533.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 90,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.900000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 54,
+        "passes_key": null,
+        "passes_accuracy": 44
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 10,
+        "duels_won": 6
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 1,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 12,
+    "total_lineups": 2,
+    "total_minutes": 213,
+    "total_goals": 1,
+    "total_assists": 1,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.98,
+    "goals_per_90": 0.42,
+    "assists_per_90": 0.42,
+    "minutes_per_appearance": 17.8
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.404368",
+    "source_file": "team_533_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

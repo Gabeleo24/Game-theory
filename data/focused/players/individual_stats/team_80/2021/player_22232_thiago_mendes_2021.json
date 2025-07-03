@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 22232,
+    "name": "Thiago Mendes",
+    "firstname": "Thiago Henrique",
+    "lastname": "Mendes Ribeiro",
+    "age": 33,
+    "birth": {
+      "date": "1992-03-15",
+      "place": "São Luís",
+      "country": "Brazil"
+    },
+    "nationality": "Brazil",
+    "height": "176 cm",
+    "weight": "78 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/22232.png"
+  },
+  "team_context": {
+    "team_id": 80,
+    "team_name": "Lyon",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 80,
+    "team_name": "Lyon",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 37,
+      "goals": 1,
+      "assists": 1,
+      "minutes": 2567,
+      "average_rating": 7.13
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "performance_stats": {
+        "appearances": 29,
+        "lineups": 21,
+        "minutes": 1862,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.964285",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1537,
+        "passes_key": 15,
+        "passes_accuracy": 46
+      },
+      "defensive_stats": {
+        "tackles_total": 36,
+        "tackles_blocks": 5,
+        "tackles_interceptions": 34
+      },
+      "duel_stats": {
+        "duels_total": 160,
+        "duels_won": 82
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 8,
+        "dribbles_success": 4,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 16,
+        "fouls_committed": 23,
+        "cards_yellow": 3,
+        "cards_yellowred": 0,
+        "cards_red": 1
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 10,
+        "shots_on": 5
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "performance_stats": {
+        "appearances": 8,
+        "lineups": 8,
+        "minutes": 705,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.287500",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 563,
+        "passes_key": 11,
+        "passes_accuracy": 61
+      },
+      "defensive_stats": {
+        "tackles_total": 13,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 19
+      },
+      "duel_stats": {
+        "duels_total": 59,
+        "duels_won": 32
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 5,
+        "dribbles_success": 3,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 6,
+        "fouls_committed": 5,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 7,
+        "shots_on": 2
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 37,
+    "total_lineups": 29,
+    "total_minutes": 2567,
+    "total_goals": 1,
+    "total_assists": 1,
+    "total_yellow_cards": 4,
+    "total_red_cards": 1,
+    "competitions_played": 2,
+    "average_rating": 7.13,
+    "goals_per_90": 0.04,
+    "assists_per_90": 0.04,
+    "minutes_per_appearance": 69.4
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:06.092987",
+    "source_file": "team_80_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

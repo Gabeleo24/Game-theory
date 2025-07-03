@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 51016,
+    "name": "T. Buchanan",
+    "firstname": "Tajon Trevor",
+    "lastname": "Buchanan",
+    "age": 26,
+    "birth": {
+      "date": "1999-02-08",
+      "place": "Brampton",
+      "country": "Canada"
+    },
+    "nationality": "Canada",
+    "height": "183 cm",
+    "weight": "68 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/51016.png"
+  },
+  "team_context": {
+    "team_id": 569,
+    "team_name": "Club Brugge KV",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 569,
+    "team_name": "Club Brugge KV",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 15,
+      "goals": 1,
+      "assists": 1,
+      "minutes": 1264,
+      "average_rating": 6.76
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 569,
+        "name": "Club Brugge KV",
+        "logo": "https://media.api-sports.io/football/teams/569.png"
+      },
+      "performance_stats": {
+        "appearances": 14,
+        "lineups": 13,
+        "minutes": 1174,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.764285",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 362,
+        "passes_key": 5,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 32,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 10
+      },
+      "duel_stats": {
+        "duels_total": 192,
+        "duels_won": 102
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 58,
+        "dribbles_success": 25,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 32,
+        "fouls_committed": 15,
+        "cards_yellow": 2,
+        "cards_yellowred": 1,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 14,
+        "shots_on": 6
+      }
+    },
+    {
+      "league_info": {
+        "id": 147,
+        "name": "Cup",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/147.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 569,
+        "name": "Club Brugge KV",
+        "logo": "https://media.api-sports.io/football/teams/569.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 90,
+        "number": null,
+        "position": "Attacker",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 15,
+    "total_lineups": 14,
+    "total_minutes": 1264,
+    "total_goals": 1,
+    "total_assists": 1,
+    "total_yellow_cards": 2,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.76,
+    "goals_per_90": 0.07,
+    "assists_per_90": 0.07,
+    "minutes_per_appearance": 84.3
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.700438",
+    "source_file": "team_569_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "player_info": {
+    "id": 2206,
+    "name": "B. Bourigeaud",
+    "firstname": "Benjamin",
+    "lastname": "Bourigeaud",
+    "age": 31,
+    "birth": {
+      "date": "1994-01-14",
+      "place": "Calais",
+      "country": "France"
+    },
+    "nationality": "France",
+    "height": "178 cm",
+    "weight": "70 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/2206.png"
+  },
+  "team_context": {
+    "team_id": 94,
+    "team_name": "Rennes",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 94,
+    "team_name": "Rennes",
+    "primary_position": "Midfielder",
+    "total_competitions": 3,
+    "key_metrics": {
+      "appearances": 43,
+      "goals": 6,
+      "assists": 6,
+      "minutes": 3020,
+      "average_rating": 7.38
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "performance_stats": {
+        "appearances": 37,
+        "lineups": 29,
+        "minutes": 2559,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.208108",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 6,
+        "goals_conceded": 0,
+        "assists": 5,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1661,
+        "passes_key": 62,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 40,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 19
+      },
+      "duel_stats": {
+        "duels_total": 218,
+        "duels_won": 76
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 16,
+        "dribbles_success": 8,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 10,
+        "fouls_committed": 26,
+        "cards_yellow": 8,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 48,
+        "shots_on": 24
+      }
+    },
+    {
+      "league_info": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 90,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "8.000000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 109,
+        "passes_key": 2,
+        "passes_accuracy": 91
+      },
+      "defensive_stats": {
+        "tackles_total": 5,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 4
+      },
+      "duel_stats": {
+        "duels_total": 13,
+        "duels_won": 7
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 5,
+        "minutes": 371,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.940000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 216,
+        "passes_key": 12,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 5
+      },
+      "duel_stats": {
+        "duels_total": 35,
+        "duels_won": 7
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 4,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 6,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 2
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 43,
+    "total_lineups": 35,
+    "total_minutes": 3020,
+    "total_goals": 6,
+    "total_assists": 6,
+    "total_yellow_cards": 9,
+    "total_red_cards": 0,
+    "competitions_played": 3,
+    "average_rating": 7.38,
+    "goals_per_90": 0.18,
+    "assists_per_90": 0.18,
+    "minutes_per_appearance": 70.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:06.173114",
+    "source_file": "team_94_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

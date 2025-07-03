@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 3333,
+    "name": "M. Haïdara",
+    "firstname": "Massadio",
+    "lastname": "Haïdara",
+    "age": 33,
+    "birth": {
+      "date": "1992-12-02",
+      "place": "Trappes",
+      "country": "France"
+    },
+    "nationality": "Mali",
+    "height": "179 cm",
+    "weight": "76 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/3333.png"
+  },
+  "team_context": {
+    "team_id": 116,
+    "team_name": "Lens",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 116,
+    "team_name": "Lens",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 1,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 19,
+      "average_rating": 6.61
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png"
+      },
+      "performance_stats": {
+        "appearances": 0,
+        "lineups": 0,
+        "minutes": 0,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.923809",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 679,
+        "passes_key": 8,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 27,
+        "tackles_blocks": 2,
+        "tackles_interceptions": 26
+      },
+      "duel_stats": {
+        "duels_total": 174,
+        "duels_won": 112
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 22,
+        "dribbles_success": 15,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 45,
+        "fouls_committed": 20,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 7,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024
+      },
+      "team_info": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 0,
+        "minutes": 19,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.300000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 11,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 1,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": 1,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 1,
+    "total_lineups": 0,
+    "total_minutes": 19,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.61,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 19.0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.169657",
+    "source_file": "team_116_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

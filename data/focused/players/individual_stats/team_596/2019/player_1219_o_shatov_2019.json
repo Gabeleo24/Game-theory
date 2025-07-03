@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 1219,
+    "name": "O. Shatov",
+    "firstname": "Oleg",
+    "lastname": "Shatov",
+    "age": 33,
+    "birth": {
+      "date": "1990-07-29",
+      "place": "Nizhniy Tagil",
+      "country": "Russia"
+    },
+    "nationality": "Russia",
+    "height": "173 cm",
+    "weight": "73 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1219.png"
+  },
+  "team_context": {
+    "team_id": 596,
+    "team_name": "Zenit Saint Petersburg",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 596,
+    "team_name": "Zenit Saint Petersburg",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 16,
+      "goals": 2,
+      "assists": 3,
+      "minutes": 819,
+      "average_rating": 6.82
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 235,
+        "name": "Premier League",
+        "country": "Russia",
+        "logo": "https://media.api-sports.io/football/leagues/235.png",
+        "flag": "https://media.api-sports.io/flags/ru.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 596,
+        "name": "Zenit",
+        "logo": "https://media.api-sports.io/football/teams/596.png"
+      },
+      "performance_stats": {
+        "appearances": 12,
+        "lineups": 5,
+        "minutes": 584,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.141666",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": null,
+        "assists": 3,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 277,
+        "passes_key": 12,
+        "passes_accuracy": 78
+      },
+      "defensive_stats": {
+        "tackles_total": 11,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 6
+      },
+      "duel_stats": {
+        "duels_total": 21,
+        "duels_won": 13
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 11,
+        "dribbles_success": 6,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 9,
+        "fouls_committed": 7,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 15,
+        "shots_on": 6
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 596,
+        "name": "Zenit",
+        "logo": "https://media.api-sports.io/football/teams/596.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 3,
+        "minutes": 235,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.500000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 89,
+        "passes_key": 2,
+        "passes_accuracy": 82
+      },
+      "defensive_stats": {
+        "tackles_total": 3,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 7,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 2,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 0
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 16,
+    "total_lineups": 8,
+    "total_minutes": 819,
+    "total_goals": 2,
+    "total_assists": 3,
+    "total_yellow_cards": 3,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.82,
+    "goals_per_90": 0.22,
+    "assists_per_90": 0.33,
+    "minutes_per_appearance": 51.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.788601",
+    "source_file": "team_596_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

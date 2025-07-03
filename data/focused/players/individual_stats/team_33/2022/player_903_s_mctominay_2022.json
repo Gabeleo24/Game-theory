@@ -1,0 +1,394 @@
+{
+  "player_info": {
+    "id": 903,
+    "name": "S. McTominay",
+    "firstname": "Scott Francis",
+    "lastname": "McTominay",
+    "age": 29,
+    "birth": {
+      "date": "1996-12-08",
+      "place": "Lancaster",
+      "country": "England"
+    },
+    "nationality": "Scotland",
+    "height": "193 cm",
+    "weight": "88 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/903.png"
+  },
+  "team_context": {
+    "team_id": 33,
+    "team_name": "Manchester United",
+    "season": 2022
+  },
+  "season_summary": {
+    "season": 2022,
+    "team_id": 33,
+    "team_name": "Manchester United",
+    "primary_position": "Midfielder",
+    "total_competitions": 5,
+    "key_metrics": {
+      "appearances": 45,
+      "goals": 4,
+      "assists": 1,
+      "minutes": 2032,
+      "average_rating": 6.65
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "performance_stats": {
+        "appearances": 24,
+        "lineups": 10,
+        "minutes": 1149,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.669565",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 426,
+        "passes_key": 8,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 32,
+        "tackles_blocks": 6,
+        "tackles_interceptions": 14
+      },
+      "duel_stats": {
+        "duels_total": 183,
+        "duels_won": 95
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 22,
+        "dribbles_success": 13,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 16,
+        "fouls_committed": 28,
+        "cards_yellow": 8,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 11,
+        "shots_on": 6
+      }
+    },
+    {
+      "league_info": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 2,
+        "minutes": 117,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.400000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 42,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 9,
+        "duels_won": 3
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 2,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 3,
+        "minutes": 290,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.000000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 153,
+        "passes_key": 4,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 10,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 35,
+        "duels_won": 19
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 5,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 3,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2022
+      },
+      "team_info": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "performance_stats": {
+        "appearances": 7,
+        "lineups": 1,
+        "minutes": 133,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.528571",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 89,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 6,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 25,
+        "duels_won": 15
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 1,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 5,
+        "shots_on": 4
+      }
+    },
+    {
+      "league_info": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2022
+      },
+      "team_info": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "performance_stats": {
+        "appearances": 6,
+        "lineups": 6,
+        "minutes": 343,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 45,
+    "total_lineups": 22,
+    "total_minutes": 2032,
+    "total_goals": 4,
+    "total_assists": 1,
+    "total_yellow_cards": 11,
+    "total_red_cards": 0,
+    "competitions_played": 5,
+    "average_rating": 6.65,
+    "goals_per_90": 0.18,
+    "assists_per_90": 0.04,
+    "minutes_per_appearance": 45.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.742159",
+    "source_file": "team_33_players_2022.json",
+    "data_structure_version": "1.0"
+  }
+}

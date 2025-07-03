@@ -1,0 +1,327 @@
+{
+  "player_info": {
+    "id": 800,
+    "name": "L. Hejda",
+    "firstname": "Lukáš",
+    "lastname": "Hejda",
+    "age": 35,
+    "birth": {
+      "date": "1990-03-09",
+      "place": "Bílovec",
+      "country": "Czechia"
+    },
+    "nationality": "Czechia",
+    "height": "189 cm",
+    "weight": "85 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/800.png"
+  },
+  "team_context": {
+    "team_id": 567,
+    "team_name": "Plzen",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 567,
+    "team_name": "Plzen",
+    "primary_position": "Defender",
+    "total_competitions": 4,
+    "key_metrics": {
+      "appearances": 24,
+      "goals": 3,
+      "assists": 0,
+      "minutes": 1950,
+      "average_rating": 6.2
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 345,
+        "name": "Czech Liga",
+        "country": "Czech-Republic",
+        "logo": "https://media.api-sports.io/football/leagues/345.png",
+        "flag": "https://media.api-sports.io/flags/cz.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 567,
+        "name": "Plzen",
+        "logo": "https://media.api-sports.io/football/teams/567.png"
+      },
+      "performance_stats": {
+        "appearances": 20,
+        "lineups": 18,
+        "minutes": 1560,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 3,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 3,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 347,
+        "name": "Cup",
+        "country": "Czech-Republic",
+        "logo": "https://media.api-sports.io/football/leagues/347.png",
+        "flag": "https://media.api-sports.io/flags/cz.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 567,
+        "name": "Plzen",
+        "logo": "https://media.api-sports.io/football/teams/567.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 90,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 567,
+        "name": "Plzen",
+        "logo": "https://media.api-sports.io/football/teams/567.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 120,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.200000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 45,
+        "passes_key": 1,
+        "passes_accuracy": 68
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 16,
+        "duels_won": 7
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 0,
+        "dribbles_success": 0,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 0,
+        "fouls_committed": 2,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 0,
+        "shots_on": 0
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 567,
+        "name": "Plzen",
+        "logo": "https://media.api-sports.io/football/teams/567.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 180,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 24,
+    "total_lineups": 22,
+    "total_minutes": 1950,
+    "total_goals": 3,
+    "total_assists": 0,
+    "total_yellow_cards": 6,
+    "total_red_cards": 0,
+    "competitions_played": 4,
+    "average_rating": 6.2,
+    "goals_per_90": 0.14,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 81.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.636470",
+    "source_file": "team_567_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

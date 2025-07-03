@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 51070,
+    "name": "Z. Ibrahimović",
+    "firstname": "Zlatan",
+    "lastname": "Ibrahimović",
+    "age": 42,
+    "birth": {
+      "date": "1981-10-03",
+      "place": "Malmö",
+      "country": "Sweden"
+    },
+    "nationality": "Sweden",
+    "height": "195 cm",
+    "weight": "95 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/51070.png"
+  },
+  "team_context": {
+    "team_id": 489,
+    "team_name": "AC Milan",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 489,
+    "team_name": "AC Milan",
+    "primary_position": "Attacker",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 18,
+      "goals": 10,
+      "assists": 5,
+      "minutes": 1365,
+      "average_rating": 7.36
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 489,
+        "name": "AC Milan",
+        "logo": "https://media.api-sports.io/football/teams/489.png"
+      },
+      "performance_stats": {
+        "appearances": 18,
+        "lineups": 16,
+        "minutes": 1365,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.364705",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 10,
+        "goals_conceded": null,
+        "assists": 5,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 382,
+        "passes_key": 25,
+        "passes_accuracy": 71
+      },
+      "defensive_stats": {
+        "tackles_total": 5,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 5
+      },
+      "duel_stats": {
+        "duels_total": 92,
+        "duels_won": 52
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 19,
+        "dribbles_success": 13,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 14,
+        "fouls_committed": 30,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 2,
+        "penalty_missed": 1,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 58,
+        "shots_on": 19
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 18,
+    "total_lineups": 16,
+    "total_minutes": 1365,
+    "total_goals": 10,
+    "total_assists": 5,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 7.36,
+    "goals_per_90": 0.66,
+    "assists_per_90": 0.33,
+    "minutes_per_appearance": 75.8
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.049154",
+    "source_file": "team_489_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

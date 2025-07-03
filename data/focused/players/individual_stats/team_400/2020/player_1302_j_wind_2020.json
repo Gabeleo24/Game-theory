@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 1302,
+    "name": "J. Wind",
+    "firstname": "Jonas Older",
+    "lastname": "Wind",
+    "age": 26,
+    "birth": {
+      "date": "1999-02-07",
+      "place": "København",
+      "country": "Denmark"
+    },
+    "nationality": "Denmark",
+    "height": "190 cm",
+    "weight": "82 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1302.png"
+  },
+  "team_context": {
+    "team_id": 400,
+    "team_name": "FC Copenhagen",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 400,
+    "team_name": "FC Copenhagen",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 31,
+      "goals": 17,
+      "assists": 8,
+      "minutes": 2706,
+      "average_rating": 7.35
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 119,
+        "name": "Superliga",
+        "country": "Denmark",
+        "logo": "https://media.api-sports.io/football/leagues/119.png",
+        "flag": "https://media.api-sports.io/flags/dk.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png"
+      },
+      "performance_stats": {
+        "appearances": 28,
+        "lineups": 28,
+        "minutes": 2436,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.353571",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 15,
+        "goals_conceded": 0,
+        "assists": 8,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 920,
+        "passes_key": 35,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 9,
+        "tackles_blocks": 4,
+        "tackles_interceptions": 9
+      },
+      "duel_stats": {
+        "duels_total": 429,
+        "duels_won": 227
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 52,
+        "dribbles_success": 30,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 56,
+        "fouls_committed": 35,
+        "cards_yellow": 3,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 9,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 62,
+        "shots_on": 29
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 3,
+        "minutes": 270,
+        "number": null,
+        "position": "Attacker",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 31,
+    "total_lineups": 31,
+    "total_minutes": 2706,
+    "total_goals": 17,
+    "total_assists": 8,
+    "total_yellow_cards": 3,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.35,
+    "goals_per_90": 0.57,
+    "assists_per_90": 0.27,
+    "minutes_per_appearance": 87.3
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.857731",
+    "source_file": "team_400_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

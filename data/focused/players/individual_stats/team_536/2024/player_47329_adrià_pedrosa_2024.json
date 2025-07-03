@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 47329,
+    "name": "Adrià Pedrosa",
+    "firstname": "Adrià",
+    "lastname": "Giner Pedrosa",
+    "age": 27,
+    "birth": {
+      "date": "1998-05-13",
+      "place": "Barcelona",
+      "country": "Spain"
+    },
+    "nationality": "Spain",
+    "height": "176 cm",
+    "weight": "69 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/47329.png"
+  },
+  "team_context": {
+    "team_id": 536,
+    "team_name": "Sevilla",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 536,
+    "team_name": "Sevilla",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 34,
+      "goals": 1,
+      "assists": 1,
+      "minutes": 2328,
+      "average_rating": 6.52
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 536,
+        "name": "Sevilla",
+        "logo": "https://media.api-sports.io/football/teams/536.png"
+      },
+      "performance_stats": {
+        "appearances": 31,
+        "lineups": 27,
+        "minutes": 2305,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.841935",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 893,
+        "passes_key": 20,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 56,
+        "tackles_blocks": 11,
+        "tackles_interceptions": 24
+      },
+      "duel_stats": {
+        "duels_total": 223,
+        "duels_won": 102
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 32,
+        "dribbles_success": 16,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 19,
+        "fouls_committed": 38,
+        "cards_yellow": 7,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 19,
+        "shots_on": 8
+      }
+    },
+    {
+      "league_info": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 536,
+        "name": "Sevilla",
+        "logo": "https://media.api-sports.io/football/teams/536.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 0,
+        "minutes": 23,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.200000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 5,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 1,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 34,
+    "total_lineups": 27,
+    "total_minutes": 2328,
+    "total_goals": 1,
+    "total_assists": 1,
+    "total_yellow_cards": 7,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.52,
+    "goals_per_90": 0.04,
+    "assists_per_90": 0.04,
+    "minutes_per_appearance": 68.5
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.407910",
+    "source_file": "team_536_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

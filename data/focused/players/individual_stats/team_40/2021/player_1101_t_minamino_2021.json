@@ -1,0 +1,394 @@
+{
+  "player_info": {
+    "id": 1101,
+    "name": "T. Minamino",
+    "firstname": "Takumi",
+    "lastname": "Minamino",
+    "age": 30,
+    "birth": {
+      "date": "1995-01-16",
+      "place": "Osaka",
+      "country": "Japan"
+    },
+    "nationality": "Japan",
+    "height": "172 cm",
+    "weight": "68 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1101.png"
+  },
+  "team_context": {
+    "team_id": 40,
+    "team_name": "Liverpool",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 40,
+    "team_name": "Liverpool",
+    "primary_position": "Midfielder",
+    "total_competitions": 5,
+    "key_metrics": {
+      "appearances": 24,
+      "goals": 10,
+      "assists": 1,
+      "minutes": 1007,
+      "average_rating": 7.07
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 11,
+        "lineups": 1,
+        "minutes": 176,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.842857",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 3,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 68,
+        "passes_key": 2,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 3,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 33,
+        "duels_won": 9
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 5,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 4,
+        "fouls_committed": 4,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 5,
+        "shots_on": 4
+      }
+    },
+    {
+      "league_info": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 4,
+        "minutes": 387,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.320000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 4,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 145,
+        "passes_key": 3,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": null,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 37,
+        "duels_won": 14
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 6,
+        "dribbles_success": 3,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 5,
+        "fouls_committed": 6,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 10,
+        "shots_on": 4
+      }
+    },
+    {
+      "league_info": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 2,
+        "minutes": 229,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.500000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 3,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 114,
+        "passes_key": 5,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 3,
+        "tackles_blocks": null,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 23,
+        "duels_won": 13
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 6,
+        "dribbles_success": 4,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 4,
+        "fouls_committed": 2,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 3
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 2,
+        "minutes": 215,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.625000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 80,
+        "passes_key": 3,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 5,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 27,
+        "duels_won": 12
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 4,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 3,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "performance_stats": {
+        "appearances": 0,
+        "lineups": 0,
+        "minutes": 0,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 24,
+    "total_lineups": 9,
+    "total_minutes": 1007,
+    "total_goals": 10,
+    "total_assists": 1,
+    "total_yellow_cards": 2,
+    "total_red_cards": 0,
+    "competitions_played": 5,
+    "average_rating": 7.07,
+    "goals_per_90": 0.89,
+    "assists_per_90": 0.09,
+    "minutes_per_appearance": 42.0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.893630",
+    "source_file": "team_40_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

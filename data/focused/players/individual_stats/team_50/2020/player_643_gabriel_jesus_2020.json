@@ -1,0 +1,327 @@
+{
+  "player_info": {
+    "id": 643,
+    "name": "Gabriel Jesus",
+    "firstname": "Gabriel Fernando",
+    "lastname": "de Jesus",
+    "age": 28,
+    "birth": {
+      "date": "1997-04-03",
+      "place": "São Paulo",
+      "country": "Brazil"
+    },
+    "nationality": "Brazil",
+    "height": "175 cm",
+    "weight": "73 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/643.png"
+  },
+  "team_context": {
+    "team_id": 50,
+    "team_name": "Manchester City",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 50,
+    "team_name": "Manchester City",
+    "primary_position": "Attacker",
+    "total_competitions": 4,
+    "key_metrics": {
+      "appearances": 42,
+      "goals": 14,
+      "assists": 4,
+      "minutes": 2836,
+      "average_rating": 6.98
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "performance_stats": {
+        "appearances": 29,
+        "lineups": 22,
+        "minutes": 2060,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.051724",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 9,
+        "goals_conceded": 0,
+        "assists": 4,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 732,
+        "passes_key": 32,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 17,
+        "tackles_blocks": null,
+        "tackles_interceptions": 15
+      },
+      "duel_stats": {
+        "duels_total": 285,
+        "duels_won": 129
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 70,
+        "dribbles_success": 48,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 46,
+        "fouls_committed": 28,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 33,
+        "shots_on": 16
+      }
+    },
+    {
+      "league_info": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 74,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.900000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 20,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 14,
+        "duels_won": 5
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 2,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": 2
+      }
+    },
+    {
+      "league_info": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 5,
+        "minutes": 435,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.300000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 157,
+        "passes_key": 8,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 7,
+        "tackles_blocks": null,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 49,
+        "duels_won": 30
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 19,
+        "dribbles_success": 11,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 6,
+        "fouls_committed": 4,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 11,
+        "shots_on": 7
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "performance_stats": {
+        "appearances": 7,
+        "lineups": 2,
+        "minutes": 267,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.685714",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 97,
+        "passes_key": 3,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 3,
+        "tackles_blocks": null,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 47,
+        "duels_won": 24
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 18,
+        "dribbles_success": 9,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 7,
+        "fouls_committed": 1,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 5,
+        "shots_on": 4
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 42,
+    "total_lineups": 30,
+    "total_minutes": 2836,
+    "total_goals": 14,
+    "total_assists": 4,
+    "total_yellow_cards": 3,
+    "total_red_cards": 0,
+    "competitions_played": 4,
+    "average_rating": 6.98,
+    "goals_per_90": 0.44,
+    "assists_per_90": 0.13,
+    "minutes_per_appearance": 67.5
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.227258",
+    "source_file": "team_50_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

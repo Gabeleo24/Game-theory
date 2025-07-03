@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 130292,
+    "name": "T. Suleymanov",
+    "firstname": "Timur",
+    "lastname": "Suleymanov",
+    "age": 25,
+    "birth": {
+      "date": "2000-03-17",
+      "place": "Derbent",
+      "country": "Russia"
+    },
+    "nationality": "Russia",
+    "height": "181 cm",
+    "weight": "79 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/130292.png"
+  },
+  "team_context": {
+    "team_id": 597,
+    "team_name": "Lokomotiv Moscow",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 597,
+    "team_name": "Lokomotiv Moscow",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 28,
+      "goals": 10,
+      "assists": 0,
+      "minutes": 1138,
+      "average_rating": 6.84
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 235,
+        "name": "Premier League",
+        "country": "Russia",
+        "logo": "https://media.api-sports.io/football/leagues/235.png",
+        "flag": "https://media.api-sports.io/flags/ru.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 597,
+        "name": "Lokomotiv",
+        "logo": "https://media.api-sports.io/football/teams/597.png"
+      },
+      "performance_stats": {
+        "appearances": 22,
+        "lineups": 7,
+        "minutes": 805,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.842857",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 7,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 89,
+        "passes_key": 6,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 2,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 54,
+        "duels_won": 24
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 4,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 8,
+        "fouls_committed": 6,
+        "cards_yellow": 3,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 1,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 11,
+        "shots_on": 3
+      }
+    },
+    {
+      "league_info": {
+        "id": 237,
+        "name": "Cup",
+        "country": "Russia",
+        "logo": "https://media.api-sports.io/football/leagues/237.png",
+        "flag": "https://media.api-sports.io/flags/ru.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 597,
+        "name": "Lokomotiv",
+        "logo": "https://media.api-sports.io/football/teams/597.png"
+      },
+      "performance_stats": {
+        "appearances": 6,
+        "lineups": 5,
+        "minutes": 333,
+        "number": null,
+        "position": "Attacker",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 3,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 28,
+    "total_lineups": 12,
+    "total_minutes": 1138,
+    "total_goals": 10,
+    "total_assists": 0,
+    "total_yellow_cards": 3,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.84,
+    "goals_per_90": 0.79,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 40.6
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.836096",
+    "source_file": "team_597_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

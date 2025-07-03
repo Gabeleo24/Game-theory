@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 1463,
+    "name": "J. Willock",
+    "firstname": "Joseph George",
+    "lastname": "Willock",
+    "age": 26,
+    "birth": {
+      "date": "1999-08-20",
+      "place": "London",
+      "country": "England"
+    },
+    "nationality": "England",
+    "height": "179 cm",
+    "weight": "71 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1463.png"
+  },
+  "team_context": {
+    "team_id": 34,
+    "team_name": "Newcastle",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 34,
+    "team_name": "Newcastle",
+    "primary_position": "Midfielder",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 14,
+      "goals": 8,
+      "assists": 0,
+      "minutes": 980,
+      "average_rating": 6.6
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "performance_stats": {
+        "appearances": 14,
+        "lineups": 11,
+        "minutes": 980,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.600000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 8,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 87,
+        "passes_key": 2,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 6,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 44,
+        "duels_won": 22
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 9,
+        "dribbles_success": 4,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 4,
+        "fouls_committed": 6,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 14,
+    "total_lineups": 11,
+    "total_minutes": 980,
+    "total_goals": 8,
+    "total_assists": 0,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.6,
+    "goals_per_90": 0.73,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 70.0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.759744",
+    "source_file": "team_34_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

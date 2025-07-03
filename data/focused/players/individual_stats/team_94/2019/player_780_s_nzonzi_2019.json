@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 780,
+    "name": "S. Nzonzi",
+    "firstname": "Steven N'Kemboanza Mike Christ",
+    "lastname": "Nzonzi",
+    "age": 37,
+    "birth": {
+      "date": "1988-12-15",
+      "place": "Colombes",
+      "country": "France"
+    },
+    "nationality": "France",
+    "height": "196 cm",
+    "weight": "75 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/780.png"
+  },
+  "team_context": {
+    "team_id": 94,
+    "team_name": "Rennes",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 94,
+    "team_name": "Rennes",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 7,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 562,
+      "average_rating": 7.12
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 4,
+        "minutes": 385,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.000000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 306,
+        "passes_key": null,
+        "passes_accuracy": 55
+      },
+      "defensive_stats": {
+        "tackles_total": 5,
+        "tackles_blocks": 2,
+        "tackles_interceptions": 4
+      },
+      "duel_stats": {
+        "duels_total": 41,
+        "duels_won": 27
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 3,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 177,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.250000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 112,
+        "passes_key": 2,
+        "passes_accuracy": 87
+      },
+      "defensive_stats": {
+        "tackles_total": 8,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 0,
+        "fouls_committed": 1,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 7,
+    "total_lineups": 6,
+    "total_minutes": 562,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.12,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 80.3
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:06.164969",
+    "source_file": "team_94_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

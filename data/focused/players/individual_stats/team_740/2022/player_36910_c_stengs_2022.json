@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 36910,
+    "name": "C. Stengs",
+    "firstname": "Calvin",
+    "lastname": "Stengs",
+    "age": 27,
+    "birth": {
+      "date": "1998-12-18",
+      "place": "Amsterdam",
+      "country": "Netherlands"
+    },
+    "nationality": "Netherlands",
+    "height": "182 cm",
+    "weight": "74 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/36910.png"
+  },
+  "team_context": {
+    "team_id": 740,
+    "team_name": "Antwerp",
+    "season": 2022
+  },
+  "season_summary": {
+    "season": 2022,
+    "team_id": 740,
+    "team_name": "Antwerp",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 31,
+      "goals": 3,
+      "assists": 6,
+      "minutes": 2489,
+      "average_rating": 6.92
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 144,
+        "name": "Jupiler Pro League",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/144.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 740,
+        "name": "Antwerp",
+        "logo": "https://media.api-sports.io/football/teams/740.png"
+      },
+      "performance_stats": {
+        "appearances": 25,
+        "lineups": 21,
+        "minutes": 1966,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.916000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 6,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 868,
+        "passes_key": 48,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 38,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 12
+      },
+      "duel_stats": {
+        "duels_total": 249,
+        "duels_won": 102
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 66,
+        "dribbles_success": 36,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 22,
+        "fouls_committed": 37,
+        "cards_yellow": 8,
+        "cards_yellowred": 0,
+        "cards_red": 1
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 24,
+        "shots_on": 10
+      }
+    },
+    {
+      "league_info": {
+        "id": 147,
+        "name": "Cup",
+        "country": "Belgium",
+        "logo": "https://media.api-sports.io/football/leagues/147.png",
+        "flag": "https://media.api-sports.io/flags/be.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 740,
+        "name": "Antwerp",
+        "logo": "https://media.api-sports.io/football/teams/740.png"
+      },
+      "performance_stats": {
+        "appearances": 6,
+        "lineups": 6,
+        "minutes": 523,
+        "number": null,
+        "position": "Midfielder",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 31,
+    "total_lineups": 27,
+    "total_minutes": 2489,
+    "total_goals": 3,
+    "total_assists": 6,
+    "total_yellow_cards": 9,
+    "total_red_cards": 1,
+    "competitions_played": 2,
+    "average_rating": 6.92,
+    "goals_per_90": 0.11,
+    "assists_per_90": 0.22,
+    "minutes_per_appearance": 80.3
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:06.011250",
+    "source_file": "team_740_players_2022.json",
+    "data_structure_version": "1.0"
+  }
+}

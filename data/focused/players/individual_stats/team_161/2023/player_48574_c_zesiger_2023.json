@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 48574,
+    "name": "C. Zesiger",
+    "firstname": "Cédric Adrian",
+    "lastname": "Zesiger",
+    "age": 27,
+    "birth": {
+      "date": "1998-06-24",
+      "place": "Meyriez FR",
+      "country": "Switzerland"
+    },
+    "nationality": "Switzerland",
+    "height": "194 cm",
+    "weight": "92 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/48574.png"
+  },
+  "team_context": {
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 26,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 1931,
+      "average_rating": 6.92
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "performance_stats": {
+        "appearances": 23,
+        "lineups": 18,
+        "minutes": 1631,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.680952",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1083,
+        "passes_key": 1,
+        "passes_accuracy": 43
+      },
+      "defensive_stats": {
+        "tackles_total": 17,
+        "tackles_blocks": 21,
+        "tackles_interceptions": 14
+      },
+      "duel_stats": {
+        "duels_total": 127,
+        "duels_won": 68
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 10,
+        "fouls_committed": 24,
+        "cards_yellow": 5,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 12,
+        "shots_on": 2
+      }
+    },
+    {
+      "league_info": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 3,
+        "minutes": 300,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.166666",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 250,
+        "passes_key": 1,
+        "passes_accuracy": 72
+      },
+      "defensive_stats": {
+        "tackles_total": 5,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 22,
+        "duels_won": 15
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 5,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 26,
+    "total_lineups": 21,
+    "total_minutes": 1931,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 5,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.92,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 74.3
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.249267",
+    "source_file": "team_161_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

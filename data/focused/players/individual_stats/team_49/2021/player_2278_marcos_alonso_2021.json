@@ -1,0 +1,528 @@
+{
+  "player_info": {
+    "id": 2278,
+    "name": "Marcos Alonso",
+    "firstname": "Marcos",
+    "lastname": "Alonso Mendoza",
+    "age": 35,
+    "birth": {
+      "date": "1990-12-28",
+      "place": "Madrid",
+      "country": "Spain"
+    },
+    "nationality": "Spain",
+    "height": "188 cm",
+    "weight": "84 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/2278.png"
+  },
+  "team_context": {
+    "team_id": 49,
+    "team_name": "Chelsea",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 49,
+    "team_name": "Chelsea",
+    "primary_position": "Defender",
+    "total_competitions": 7,
+    "key_metrics": {
+      "appearances": 48,
+      "goals": 5,
+      "assists": 5,
+      "minutes": 3749,
+      "average_rating": 7.31
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png"
+      },
+      "performance_stats": {
+        "appearances": 28,
+        "lineups": 25,
+        "minutes": 2173,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.064285",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 4,
+        "goals_conceded": 0,
+        "assists": 4,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1135,
+        "passes_key": 43,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 41,
+        "tackles_blocks": 5,
+        "tackles_interceptions": 43
+      },
+      "duel_stats": {
+        "duels_total": 241,
+        "duels_won": 124
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 35,
+        "dribbles_success": 15,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 28,
+        "fouls_committed": 25,
+        "cards_yellow": 8,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 24,
+        "shots_on": 11
+      }
+    },
+    {
+      "league_info": {
+        "id": 48,
+        "name": "League Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/48.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 4,
+        "minutes": 414,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.625000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 202,
+        "passes_key": 9,
+        "passes_accuracy": 44
+      },
+      "defensive_stats": {
+        "tackles_total": 7,
+        "tackles_blocks": null,
+        "tackles_interceptions": 4
+      },
+      "duel_stats": {
+        "duels_total": 45,
+        "duels_won": 26
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 6,
+        "dribbles_success": 4,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 8,
+        "fouls_committed": 4,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 2,
+        "minutes": 284,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.700000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 80,
+        "passes_key": null,
+        "passes_accuracy": 68
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 9,
+        "duels_won": 5
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 5,
+        "shots_on": 2
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png"
+      },
+      "performance_stats": {
+        "appearances": 8,
+        "lineups": 6,
+        "minutes": 547,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.850000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 288,
+        "passes_key": 10,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 10,
+        "tackles_blocks": null,
+        "tackles_interceptions": 8
+      },
+      "duel_stats": {
+        "duels_total": 69,
+        "duels_won": 31
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 10,
+        "dribbles_success": 5,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 7,
+        "fouls_committed": 11,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 8,
+        "shots_on": 4
+      }
+    },
+    {
+      "league_info": {
+        "id": 531,
+        "name": "UEFA Super Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/531.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 120,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": null,
+        "name": "FIFA Intercontinental Cup",
+        "country": null,
+        "logo": null,
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 87,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 124,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 48,
+    "total_lineups": 41,
+    "total_minutes": 3749,
+    "total_goals": 5,
+    "total_assists": 5,
+    "total_yellow_cards": 9,
+    "total_red_cards": 0,
+    "competitions_played": 7,
+    "average_rating": 7.31,
+    "goals_per_90": 0.12,
+    "assists_per_90": 0.12,
+    "minutes_per_appearance": 78.1
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.168176",
+    "source_file": "team_49_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 50202,
+    "name": "T. Antalyalı",
+    "firstname": "Taylan",
+    "lastname": "Antalyalı",
+    "age": 30,
+    "birth": {
+      "date": "1995-01-08",
+      "place": "Muğla",
+      "country": "Türkiye"
+    },
+    "nationality": "Türkiye",
+    "height": "180 cm",
+    "weight": "75 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/50202.png"
+  },
+  "team_context": {
+    "team_id": 645,
+    "team_name": "Galatasaray",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 645,
+    "team_name": "Galatasaray",
+    "primary_position": "Unknown",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 0,
+      "goals": 0,
+      "assists": 1,
+      "minutes": 0,
+      "average_rating": 6.79
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 645,
+        "name": "Galatasaray",
+        "logo": "https://media.api-sports.io/football/teams/645.png"
+      },
+      "performance_stats": {
+        "appearances": null,
+        "lineups": null,
+        "minutes": null,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.788461",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": null,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 647,
+        "passes_key": 14,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 37,
+        "tackles_blocks": 8,
+        "tackles_interceptions": 14
+      },
+      "duel_stats": {
+        "duels_total": 208,
+        "duels_won": 93
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 35,
+        "dribbles_success": 17,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 22,
+        "fouls_committed": 24,
+        "cards_yellow": null,
+        "cards_yellowred": null,
+        "cards_red": null
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 2,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 16,
+        "shots_on": 9
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 0,
+    "total_lineups": 0,
+    "total_minutes": 0,
+    "total_goals": 0,
+    "total_assists": 1,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.79,
+    "goals_per_90": 0,
+    "assists_per_90": 0,
+    "minutes_per_appearance": 0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.951886",
+    "source_file": "team_645_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

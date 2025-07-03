@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 24839,
+    "name": "M. Friedrich",
+    "firstname": "Marvin",
+    "lastname": "Friedrich",
+    "age": 30,
+    "birth": {
+      "date": "1995-12-13",
+      "place": "Kassel",
+      "country": "Germany"
+    },
+    "nationality": "Germany",
+    "height": "193 cm",
+    "weight": "81 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/24839.png"
+  },
+  "team_context": {
+    "team_id": 163,
+    "team_name": "Borussia Monchengladbach",
+    "season": 2022
+  },
+  "season_summary": {
+    "season": 2022,
+    "team_id": 163,
+    "team_name": "Borussia Monchengladbach",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 24,
+      "goals": 1,
+      "assists": 0,
+      "minutes": 1328,
+      "average_rating": 6.5
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 163,
+        "name": "Borussia Mönchengladbach",
+        "logo": "https://media.api-sports.io/football/teams/163.png"
+      },
+      "performance_stats": {
+        "appearances": 23,
+        "lineups": 13,
+        "minutes": 1238,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.694117",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 957,
+        "passes_key": 5,
+        "passes_accuracy": 43
+      },
+      "defensive_stats": {
+        "tackles_total": 17,
+        "tackles_blocks": 6,
+        "tackles_interceptions": 11
+      },
+      "duel_stats": {
+        "duels_total": 101,
+        "duels_won": 63
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 3,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 8,
+        "shots_on": 4
+      }
+    },
+    {
+      "league_info": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 163,
+        "name": "Borussia Mönchengladbach",
+        "logo": "https://media.api-sports.io/football/teams/163.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 90,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.300000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 47,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 7,
+        "duels_won": 3
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 1,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 24,
+    "total_lineups": 14,
+    "total_minutes": 1328,
+    "total_goals": 1,
+    "total_assists": 0,
+    "total_yellow_cards": 2,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.5,
+    "goals_per_90": 0.07,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 55.3
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.274835",
+    "source_file": "team_163_players_2022.json",
+    "data_structure_version": "1.0"
+  }
+}

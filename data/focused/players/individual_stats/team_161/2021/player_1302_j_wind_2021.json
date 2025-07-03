@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 1302,
+    "name": "J. Wind",
+    "firstname": "Jonas Older",
+    "lastname": "Wind",
+    "age": 26,
+    "birth": {
+      "date": "1999-02-07",
+      "place": "København",
+      "country": "Denmark"
+    },
+    "nationality": "Denmark",
+    "height": "190 cm",
+    "weight": "82 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/1302.png"
+  },
+  "team_context": {
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "primary_position": "Attacker",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 14,
+      "goals": 5,
+      "assists": 2,
+      "minutes": 1187,
+      "average_rating": 7.21
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "performance_stats": {
+        "appearances": 14,
+        "lineups": 14,
+        "minutes": 1187,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.207142",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 5,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 369,
+        "passes_key": 16,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 10,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 6
+      },
+      "duel_stats": {
+        "duels_total": 203,
+        "duels_won": 105
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 16,
+        "dribbles_success": 10,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 31,
+        "fouls_committed": 14,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 28,
+        "shots_on": 16
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 14,
+    "total_lineups": 14,
+    "total_minutes": 1187,
+    "total_goals": 5,
+    "total_assists": 2,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 7.21,
+    "goals_per_90": 0.38,
+    "assists_per_90": 0.15,
+    "minutes_per_appearance": 84.8
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.235898",
+    "source_file": "team_161_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

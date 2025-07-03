@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 2296,
+    "name": "E. Hazard",
+    "firstname": "Eden Michael Walter",
+    "lastname": "Hazard",
+    "age": 32,
+    "birth": {
+      "date": "1991-01-07",
+      "place": "La Louvière",
+      "country": "Belgium"
+    },
+    "nationality": "Belgium",
+    "height": "175 cm",
+    "weight": "74 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/2296.png"
+  },
+  "team_context": {
+    "team_id": 541,
+    "team_name": "Real Madrid",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 541,
+    "team_name": "Real Madrid",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 22,
+      "goals": 1,
+      "assists": 4,
+      "minutes": 1545,
+      "average_rating": 7.05
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png"
+      },
+      "performance_stats": {
+        "appearances": 16,
+        "lineups": 14,
+        "minutes": 1087,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.100000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": 3,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 493,
+        "passes_key": 21,
+        "passes_accuracy": 86
+      },
+      "defensive_stats": {
+        "tackles_total": 7,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 7
+      },
+      "duel_stats": {
+        "duels_total": 50,
+        "duels_won": 27
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 72,
+        "dribbles_success": 49,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 50,
+        "fouls_committed": 12,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": 3,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 19,
+        "shots_on": 13
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png"
+      },
+      "performance_stats": {
+        "appearances": 6,
+        "lineups": 6,
+        "minutes": 458,
+        "number": null,
+        "position": "Attacker",
+        "rating": "7.000000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 228,
+        "passes_key": 11,
+        "passes_accuracy": 88
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": 0,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 7,
+        "duels_won": 2
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 22,
+        "dribbles_success": 14,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 16,
+        "fouls_committed": 2,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 12,
+        "shots_on": 5
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 22,
+    "total_lineups": 20,
+    "total_minutes": 1545,
+    "total_goals": 1,
+    "total_assists": 4,
+    "total_yellow_cards": 1,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.05,
+    "goals_per_90": 0.06,
+    "assists_per_90": 0.23,
+    "minutes_per_appearance": 70.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.403822",
+    "source_file": "team_541_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

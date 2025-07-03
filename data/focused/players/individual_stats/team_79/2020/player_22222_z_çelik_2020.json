@@ -1,0 +1,260 @@
+{
+  "player_info": {
+    "id": 22222,
+    "name": "Z. Çelik",
+    "firstname": "Mehmet Zeki",
+    "lastname": "Çelik",
+    "age": 28,
+    "birth": {
+      "date": "1997-02-17",
+      "place": "Bursa",
+      "country": "Türkiye"
+    },
+    "nationality": "Türkiye",
+    "height": "180 cm",
+    "weight": "78 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/22222.png"
+  },
+  "team_context": {
+    "team_id": 79,
+    "team_name": "Lille",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 79,
+    "team_name": "Lille",
+    "primary_position": "Defender",
+    "total_competitions": 3,
+    "key_metrics": {
+      "appearances": 35,
+      "goals": 4,
+      "assists": 2,
+      "minutes": 2818,
+      "average_rating": 6.62
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 79,
+        "name": "Lille",
+        "logo": "https://media.api-sports.io/football/teams/79.png"
+      },
+      "performance_stats": {
+        "appearances": 29,
+        "lineups": 28,
+        "minutes": 2389,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.003448",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 3,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1311,
+        "passes_key": 22,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 72,
+        "tackles_blocks": 6,
+        "tackles_interceptions": 38
+      },
+      "duel_stats": {
+        "duels_total": 281,
+        "duels_won": 133
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 40,
+        "dribbles_success": 21,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 15,
+        "fouls_committed": 56,
+        "cards_yellow": 8,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 12,
+        "shots_on": 7
+      }
+    },
+    {
+      "league_info": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 79,
+        "name": "Lille",
+        "logo": "https://media.api-sports.io/football/teams/79.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 1,
+        "minutes": 97,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.700000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 50,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 5,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 14,
+        "duels_won": 9
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 4,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 79,
+        "name": "Lille",
+        "logo": "https://media.api-sports.io/football/teams/79.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 4,
+        "minutes": 332,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.150000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 158,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 6,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 43,
+        "duels_won": 13
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 8,
+        "dribbles_success": 3,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 8,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 35,
+    "total_lineups": 33,
+    "total_minutes": 2818,
+    "total_goals": 4,
+    "total_assists": 2,
+    "total_yellow_cards": 10,
+    "total_red_cards": 0,
+    "competitions_played": 3,
+    "average_rating": 6.62,
+    "goals_per_90": 0.13,
+    "assists_per_90": 0.06,
+    "minutes_per_appearance": 80.5
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:06.059565",
+    "source_file": "team_79_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

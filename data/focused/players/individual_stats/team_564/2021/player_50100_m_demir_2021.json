@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 50100,
+    "name": "M. Demir",
+    "firstname": "Muhammet",
+    "lastname": "Demir",
+    "age": 33,
+    "birth": {
+      "date": "1992-01-10",
+      "place": "Trabzon",
+      "country": "Türkiye"
+    },
+    "nationality": "Türkiye",
+    "height": "180 cm",
+    "weight": "74 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/50100.png"
+  },
+  "team_context": {
+    "team_id": 564,
+    "team_name": "Istanbul Basaksehir",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 564,
+    "team_name": "Istanbul Basaksehir",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 4,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 126,
+      "average_rating": 6.72
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "flag": "https://media.api-sports.io/flags/tr.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 564,
+        "name": "Istanbul Basaksehir",
+        "logo": "https://media.api-sports.io/football/teams/564.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 0,
+        "minutes": 80,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.717241",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 642,
+        "passes_key": 21,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 21,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 11
+      },
+      "duel_stats": {
+        "duels_total": 403,
+        "duels_won": 162
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 65,
+        "dribbles_success": 34,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 27,
+        "fouls_committed": 27,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 1,
+        "penalty_missed": 1,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 51,
+        "shots_on": 23
+      }
+    },
+    {
+      "league_info": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 564,
+        "name": "Istanbul Basaksehir",
+        "logo": "https://media.api-sports.io/football/teams/564.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 46,
+        "number": null,
+        "position": "Attacker",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 4,
+    "total_lineups": 1,
+    "total_minutes": 126,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.72,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 31.5
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.586719",
+    "source_file": "team_564_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

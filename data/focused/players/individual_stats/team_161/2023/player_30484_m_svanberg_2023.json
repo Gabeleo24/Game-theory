@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 30484,
+    "name": "M. Svanberg",
+    "firstname": "Mattias Olof",
+    "lastname": "Svanberg",
+    "age": 26,
+    "birth": {
+      "date": "1999-01-05",
+      "place": "Malmö",
+      "country": "Sweden"
+    },
+    "nationality": "Sweden",
+    "height": "185 cm",
+    "weight": "75 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/30484.png"
+  },
+  "team_context": {
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 161,
+    "team_name": "VfL Wolfsburg",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 28,
+      "goals": 1,
+      "assists": 3,
+      "minutes": 1869,
+      "average_rating": 7.06
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "performance_stats": {
+        "appearances": 25,
+        "lineups": 20,
+        "minutes": 1725,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.012500",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 3,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 749,
+        "passes_key": 26,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 38,
+        "tackles_blocks": 5,
+        "tackles_interceptions": 22
+      },
+      "duel_stats": {
+        "duels_total": 207,
+        "duels_won": 105
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 28,
+        "dribbles_success": 15,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 32,
+        "fouls_committed": 42,
+        "cards_yellow": 8,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 27,
+        "shots_on": 11
+      }
+    },
+    {
+      "league_info": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 2,
+        "minutes": 144,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.100000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 50,
+        "passes_key": 5,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 6,
+        "tackles_blocks": null,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 23,
+        "duels_won": 15
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 5,
+        "fouls_committed": 1,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 28,
+    "total_lineups": 22,
+    "total_minutes": 1869,
+    "total_goals": 1,
+    "total_assists": 3,
+    "total_yellow_cards": 9,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.06,
+    "goals_per_90": 0.05,
+    "assists_per_90": 0.14,
+    "minutes_per_appearance": 66.8
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.248992",
+    "source_file": "team_161_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}

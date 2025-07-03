@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 14519,
+    "name": "V. Lisakovich",
+    "firstname": "Vitali",
+    "lastname": "Lisakovich",
+    "age": 27,
+    "birth": {
+      "date": "1998-02-08",
+      "place": "Minsk",
+      "country": "Belarus"
+    },
+    "nationality": "Belarus",
+    "height": "179 cm",
+    "weight": "73 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/14519.png"
+  },
+  "team_context": {
+    "team_id": 597,
+    "team_name": "Lokomotiv Moscow",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 597,
+    "team_name": "Lokomotiv Moscow",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 20,
+      "goals": 2,
+      "assists": 2,
+      "minutes": 665,
+      "average_rating": 6.59
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 235,
+        "name": "Premier League",
+        "country": "Russia",
+        "logo": "https://media.api-sports.io/football/leagues/235.png",
+        "flag": "https://media.api-sports.io/flags/ru.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 597,
+        "name": "Lokomotiv",
+        "logo": "https://media.api-sports.io/football/teams/597.png"
+      },
+      "performance_stats": {
+        "appearances": 15,
+        "lineups": 4,
+        "minutes": 500,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.614285",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 64,
+        "passes_key": 7,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 58,
+        "duels_won": 13
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 10,
+        "dribbles_success": 6,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 6,
+        "fouls_committed": 11,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 6,
+        "shots_on": 4
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 597,
+        "name": "Lokomotiv",
+        "logo": "https://media.api-sports.io/football/teams/597.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 2,
+        "minutes": 165,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.560000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 26,
+        "passes_key": 2,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 3,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": 23,
+        "duels_won": 7
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 1,
+        "fouls_committed": 5,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 4,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 20,
+    "total_lineups": 6,
+    "total_minutes": 665,
+    "total_goals": 2,
+    "total_assists": 2,
+    "total_yellow_cards": 2,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.59,
+    "goals_per_90": 0.27,
+    "assists_per_90": 0.27,
+    "minutes_per_appearance": 33.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.823416",
+    "source_file": "team_597_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

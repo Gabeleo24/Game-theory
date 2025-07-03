@@ -1,0 +1,461 @@
+{
+  "player_info": {
+    "id": 371,
+    "name": "Felipe",
+    "firstname": "Felipe Augusto",
+    "lastname": "de Almeida Monteiro",
+    "age": 35,
+    "birth": {
+      "date": "1989-05-16",
+      "place": "Mogi das Cruzes",
+      "country": "Brazil"
+    },
+    "nationality": "Brazil",
+    "height": "190 cm",
+    "weight": "83 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/371.png"
+  },
+  "team_context": {
+    "team_id": 530,
+    "team_name": "Atletico Madrid",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 530,
+    "team_name": "Atletico Madrid",
+    "primary_position": "Defender",
+    "total_competitions": 6,
+    "key_metrics": {
+      "appearances": 40,
+      "goals": 3,
+      "assists": 0,
+      "minutes": 3127,
+      "average_rating": 7.17
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 530,
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "performance_stats": {
+        "appearances": 25,
+        "lineups": 23,
+        "minutes": 2099,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.000000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 673,
+        "passes_key": 4,
+        "passes_accuracy": 72
+      },
+      "defensive_stats": {
+        "tackles_total": 26,
+        "tackles_blocks": 11,
+        "tackles_interceptions": 42
+      },
+      "duel_stats": {
+        "duels_total": 26,
+        "duels_won": 16
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 6,
+        "dribbles_success": 4,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 14,
+        "fouls_committed": 29,
+        "cards_yellow": 7,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": 1,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 16,
+        "shots_on": 5
+      }
+    },
+    {
+      "league_info": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 530,
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 120,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.300000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 39,
+        "passes_key": 1,
+        "passes_accuracy": 78
+      },
+      "defensive_stats": {
+        "tackles_total": 3,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 0,
+        "dribbles_success": 0,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 0,
+        "fouls_committed": 1,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": null,
+        "name": "MLS All-Star",
+        "country": null,
+        "logo": null,
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 530,
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 1,
+        "minutes": 56,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 530,
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "performance_stats": {
+        "appearances": 8,
+        "lineups": 7,
+        "minutes": 660,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.200000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 210,
+        "passes_key": 0,
+        "passes_accuracy": 69
+      },
+      "defensive_stats": {
+        "tackles_total": 8,
+        "tackles_blocks": 8,
+        "tackles_interceptions": 11
+      },
+      "duel_stats": {
+        "duels_total": 5,
+        "duels_won": 3
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 0,
+        "dribbles_success": 0,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 5,
+        "fouls_committed": 9,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 2
+      }
+    },
+    {
+      "league_info": {
+        "id": 26,
+        "name": "International Champions Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/26.png",
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 530,
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 0,
+        "minutes": 102,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": null,
+        "name": "Club Friendlies",
+        "country": null,
+        "logo": null,
+        "flag": null,
+        "season": 2019
+      },
+      "team_info": {
+        "id": 530,
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 1,
+        "minutes": 90,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 40,
+    "total_lineups": 33,
+    "total_minutes": 3127,
+    "total_goals": 3,
+    "total_assists": 0,
+    "total_yellow_cards": 8,
+    "total_red_cards": 0,
+    "competitions_played": 6,
+    "average_rating": 7.17,
+    "goals_per_90": 0.09,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 78.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.283603",
+    "source_file": "team_530_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

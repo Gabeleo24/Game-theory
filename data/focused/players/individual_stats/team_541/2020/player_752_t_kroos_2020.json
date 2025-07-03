@@ -1,0 +1,260 @@
+{
+  "player_info": {
+    "id": 752,
+    "name": "T. Kroos",
+    "firstname": "Toni",
+    "lastname": "Kroos",
+    "age": 34,
+    "birth": {
+      "date": "1990-01-04",
+      "place": "Greifswald",
+      "country": "Germany"
+    },
+    "nationality": "Germany",
+    "height": "183 cm",
+    "weight": "76 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/752.png"
+  },
+  "team_context": {
+    "team_id": 541,
+    "team_name": "Real Madrid",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 541,
+    "team_name": "Real Madrid",
+    "primary_position": "Midfielder",
+    "total_competitions": 3,
+    "key_metrics": {
+      "appearances": 41,
+      "goals": 3,
+      "assists": 12,
+      "minutes": 3104,
+      "average_rating": 7.39
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png"
+      },
+      "performance_stats": {
+        "appearances": 28,
+        "lineups": 24,
+        "minutes": 2121,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.700000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 3,
+        "goals_conceded": 0,
+        "assists": 10,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 2021,
+        "passes_key": 67,
+        "passes_accuracy": 67
+      },
+      "defensive_stats": {
+        "tackles_total": 41,
+        "tackles_blocks": 6,
+        "tackles_interceptions": 15
+      },
+      "duel_stats": {
+        "duels_total": 179,
+        "duels_won": 101
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 18,
+        "dribbles_success": 16,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 31,
+        "fouls_committed": 27,
+        "cards_yellow": 6,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 29,
+        "shots_on": 12
+      }
+    },
+    {
+      "league_info": {
+        "id": 143,
+        "name": "Copa del Rey",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/143.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png"
+      },
+      "performance_stats": {
+        "appearances": 1,
+        "lineups": 0,
+        "minutes": 22,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "6.900000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 23,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 4,
+        "duels_won": 3
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 1,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png"
+      },
+      "performance_stats": {
+        "appearances": 12,
+        "lineups": 11,
+        "minutes": 961,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.566666",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 2,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1003,
+        "passes_key": 25,
+        "passes_accuracy": 77
+      },
+      "defensive_stats": {
+        "tackles_total": 19,
+        "tackles_blocks": 2,
+        "tackles_interceptions": 19
+      },
+      "duel_stats": {
+        "duels_total": 79,
+        "duels_won": 41
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 9,
+        "dribbles_success": 6,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 8,
+        "fouls_committed": 12,
+        "cards_yellow": 3,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 10,
+        "shots_on": 5
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 41,
+    "total_lineups": 35,
+    "total_minutes": 3104,
+    "total_goals": 3,
+    "total_assists": 12,
+    "total_yellow_cards": 9,
+    "total_red_cards": 0,
+    "competitions_played": 3,
+    "average_rating": 7.39,
+    "goals_per_90": 0.09,
+    "assists_per_90": 0.35,
+    "minutes_per_appearance": 75.7
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.409039",
+    "source_file": "team_541_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

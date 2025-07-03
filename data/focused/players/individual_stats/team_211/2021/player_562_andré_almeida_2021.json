@@ -1,0 +1,260 @@
+{
+  "player_info": {
+    "id": 562,
+    "name": "André Almeida",
+    "firstname": "André",
+    "lastname": "Gomes Magalhães de Almeida",
+    "age": 33,
+    "birth": {
+      "date": "1990-09-10",
+      "place": "Lisboa",
+      "country": "Portugal"
+    },
+    "nationality": "Portugal",
+    "height": "185 cm",
+    "weight": "79 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/562.png"
+  },
+  "team_context": {
+    "team_id": 211,
+    "team_name": "Benfica",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 211,
+    "team_name": "Benfica",
+    "primary_position": "Defender",
+    "total_competitions": 3,
+    "key_metrics": {
+      "appearances": 25,
+      "goals": 1,
+      "assists": 0,
+      "minutes": 1334,
+      "average_rating": 6.73
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "performance_stats": {
+        "appearances": 15,
+        "lineups": 9,
+        "minutes": 804,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.600000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 497,
+        "passes_key": 11,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 18,
+        "tackles_blocks": 2,
+        "tackles_interceptions": 4
+      },
+      "duel_stats": {
+        "duels_total": 82,
+        "duels_won": 38
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 11,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 7,
+        "fouls_committed": 13,
+        "cards_yellow": 2,
+        "cards_yellowred": 1,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 96,
+        "name": "Taça de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 3,
+        "minutes": 248,
+        "number": null,
+        "position": "Defender",
+        "rating": null,
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": null,
+        "passes_key": null,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": null
+      },
+      "duel_stats": {
+        "duels_total": null,
+        "duels_won": null
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": null,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": null,
+        "penalty_missed": null,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2021
+      },
+      "team_info": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "performance_stats": {
+        "appearances": 7,
+        "lineups": 3,
+        "minutes": 282,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.866666",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 123,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 10,
+        "tackles_blocks": null,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 40,
+        "duels_won": 27
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 6,
+        "fouls_committed": 3,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": null,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 25,
+    "total_lineups": 15,
+    "total_minutes": 1334,
+    "total_goals": 1,
+    "total_assists": 0,
+    "total_yellow_cards": 3,
+    "total_red_cards": 0,
+    "competitions_played": 3,
+    "average_rating": 6.73,
+    "goals_per_90": 0.07,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 53.4
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.538657",
+    "source_file": "team_211_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

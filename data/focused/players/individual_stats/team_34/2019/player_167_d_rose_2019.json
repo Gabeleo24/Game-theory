@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 167,
+    "name": "D. Rose",
+    "firstname": "Daniel Lee",
+    "lastname": "Rose",
+    "age": 32,
+    "birth": {
+      "date": "1990-07-02",
+      "place": "Doncaster",
+      "country": "England"
+    },
+    "nationality": "England",
+    "height": "173 cm",
+    "weight": "72 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/167.png"
+  },
+  "team_context": {
+    "team_id": 34,
+    "team_name": "Newcastle",
+    "season": 2019
+  },
+  "season_summary": {
+    "season": 2019,
+    "team_id": 34,
+    "team_name": "Newcastle",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 13,
+      "goals": 0,
+      "assists": 0,
+      "minutes": 1030,
+      "average_rating": 6.61
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "performance_stats": {
+        "appearances": 11,
+        "lineups": 10,
+        "minutes": 865,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.727272",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 288,
+        "passes_key": 3,
+        "passes_accuracy": 80
+      },
+      "defensive_stats": {
+        "tackles_total": 21,
+        "tackles_blocks": 4,
+        "tackles_interceptions": 10
+      },
+      "duel_stats": {
+        "duels_total": 95,
+        "duels_won": 59
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 9,
+        "dribbles_success": 5,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 23,
+        "fouls_committed": 11,
+        "cards_yellow": 2,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 0,
+        "shots_on": 0
+      }
+    },
+    {
+      "league_info": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2019
+      },
+      "team_info": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 165,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.500000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": null,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 43,
+        "passes_key": 0,
+        "passes_accuracy": 70
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 9,
+        "duels_won": 6
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 3,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 0,
+        "shots_on": 0
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 13,
+    "total_lineups": 12,
+    "total_minutes": 1030,
+    "total_goals": 0,
+    "total_assists": 0,
+    "total_yellow_cards": 3,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.61,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 79.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.753626",
+    "source_file": "team_34_players_2019.json",
+    "data_structure_version": "1.0"
+  }
+}

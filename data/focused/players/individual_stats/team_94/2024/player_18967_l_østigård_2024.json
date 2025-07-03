@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 18967,
+    "name": "L. Østigård",
+    "firstname": "Leo",
+    "lastname": "Skiri Østigård",
+    "age": 26,
+    "birth": {
+      "date": "1999-11-28",
+      "place": "Molde",
+      "country": "Norway"
+    },
+    "nationality": "Norway",
+    "height": "182 cm",
+    "weight": "81 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/18967.png"
+  },
+  "team_context": {
+    "team_id": 94,
+    "team_name": "Rennes",
+    "season": 2024
+  },
+  "season_summary": {
+    "season": 2024,
+    "team_id": 94,
+    "team_name": "Rennes",
+    "primary_position": "Defender",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 18,
+      "goals": 1,
+      "assists": 0,
+      "minutes": 1407,
+      "average_rating": 7.07
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "performance_stats": {
+        "appearances": 16,
+        "lineups": 14,
+        "minutes": 1227,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.940000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 796,
+        "passes_key": 2,
+        "passes_accuracy": 45
+      },
+      "defensive_stats": {
+        "tackles_total": 20,
+        "tackles_blocks": 10,
+        "tackles_interceptions": 15
+      },
+      "duel_stats": {
+        "duels_total": 120,
+        "duels_won": 73
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 2,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 5,
+        "fouls_committed": 18,
+        "cards_yellow": 5,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 6,
+        "shots_on": 2
+      }
+    },
+    {
+      "league_info": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2024
+      },
+      "team_info": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "performance_stats": {
+        "appearances": 2,
+        "lineups": 2,
+        "minutes": 180,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.200000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 0,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 101,
+        "passes_key": 1,
+        "passes_accuracy": 95
+      },
+      "defensive_stats": {
+        "tackles_total": 1,
+        "tackles_blocks": 3,
+        "tackles_interceptions": 2
+      },
+      "duel_stats": {
+        "duels_total": 9,
+        "duels_won": 5
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 2,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 1,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 18,
+    "total_lineups": 16,
+    "total_minutes": 1407,
+    "total_goals": 1,
+    "total_assists": 0,
+    "total_yellow_cards": 5,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.07,
+    "goals_per_90": 0.06,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 78.2
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:48:14.561814",
+    "source_file": "team_94_players_2024.json",
+    "data_structure_version": "1.0"
+  }
+}

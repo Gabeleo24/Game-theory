@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 975,
+    "name": "J. Baumgartlinger",
+    "firstname": "Julian",
+    "lastname": "Baumgartlinger",
+    "age": 35,
+    "birth": {
+      "date": "1988-01-02",
+      "place": "Salzburg",
+      "country": "Austria"
+    },
+    "nationality": "Austria",
+    "height": "181 cm",
+    "weight": "85 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/975.png"
+  },
+  "team_context": {
+    "team_id": 168,
+    "team_name": "Bayer Leverkusen",
+    "season": 2020
+  },
+  "season_summary": {
+    "season": 2020,
+    "team_id": 168,
+    "team_name": "Bayer Leverkusen",
+    "primary_position": "Midfielder",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 22,
+      "goals": 3,
+      "assists": 1,
+      "minutes": 1403,
+      "average_rating": 7.05
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2020
+      },
+      "team_info": {
+        "id": 168,
+        "name": "Bayer Leverkusen",
+        "logo": "https://media.api-sports.io/football/teams/168.png"
+      },
+      "performance_stats": {
+        "appearances": 17,
+        "lineups": 12,
+        "minutes": 1071,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.033333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 644,
+        "passes_key": 5,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 43,
+        "tackles_blocks": null,
+        "tackles_interceptions": 12
+      },
+      "duel_stats": {
+        "duels_total": 127,
+        "duels_won": 84
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 6,
+        "dribbles_success": 6,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 13,
+        "fouls_committed": 11,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 6,
+        "shots_on": 4
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2020
+      },
+      "team_info": {
+        "id": 168,
+        "name": "Bayer Leverkusen",
+        "logo": "https://media.api-sports.io/football/teams/168.png"
+      },
+      "performance_stats": {
+        "appearances": 5,
+        "lineups": 4,
+        "minutes": 332,
+        "number": null,
+        "position": "Midfielder",
+        "rating": "7.075000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 207,
+        "passes_key": 1,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 14,
+        "tackles_blocks": null,
+        "tackles_interceptions": 6
+      },
+      "duel_stats": {
+        "duels_total": 32,
+        "duels_won": 18
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 6,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 22,
+    "total_lineups": 16,
+    "total_minutes": 1403,
+    "total_goals": 3,
+    "total_assists": 1,
+    "total_yellow_cards": 2,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 7.05,
+    "goals_per_90": 0.19,
+    "assists_per_90": 0.06,
+    "minutes_per_appearance": 63.8
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:04.321966",
+    "source_file": "team_168_players_2020.json",
+    "data_structure_version": "1.0"
+  }
+}

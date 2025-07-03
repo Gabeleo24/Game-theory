@@ -1,0 +1,193 @@
+{
+  "player_info": {
+    "id": 2296,
+    "name": "E. Hazard",
+    "firstname": "Eden Michael Walter",
+    "lastname": "Hazard",
+    "age": 32,
+    "birth": {
+      "date": "1991-01-07",
+      "place": "La Louvière",
+      "country": "Belgium"
+    },
+    "nationality": "Belgium",
+    "height": "175 cm",
+    "weight": "74 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/2296.png"
+  },
+  "team_context": {
+    "team_id": 541,
+    "team_name": "Real Madrid",
+    "season": 2022
+  },
+  "season_summary": {
+    "season": 2022,
+    "team_id": 541,
+    "team_name": "Real Madrid",
+    "primary_position": "Attacker",
+    "total_competitions": 2,
+    "key_metrics": {
+      "appearances": 9,
+      "goals": 1,
+      "assists": 1,
+      "minutes": 325,
+      "average_rating": 6.64
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2022
+      },
+      "team_info": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png"
+      },
+      "performance_stats": {
+        "appearances": 6,
+        "lineups": 2,
+        "minutes": 194,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.550000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 106,
+        "passes_key": 7,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 19,
+        "duels_won": 12
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 4,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 9,
+        "fouls_committed": 2,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 1,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2022
+      },
+      "team_info": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png"
+      },
+      "performance_stats": {
+        "appearances": 3,
+        "lineups": 1,
+        "minutes": 131,
+        "number": null,
+        "position": "Attacker",
+        "rating": "6.733333",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 64,
+        "passes_key": 5,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": null,
+        "tackles_blocks": null,
+        "tackles_interceptions": 1
+      },
+      "duel_stats": {
+        "duels_total": 8,
+        "duels_won": 4
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 2,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": null,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 9,
+    "total_lineups": 3,
+    "total_minutes": 325,
+    "total_goals": 1,
+    "total_assists": 1,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 2,
+    "average_rating": 6.64,
+    "goals_per_90": 0.28,
+    "assists_per_90": 0.28,
+    "minutes_per_appearance": 36.1
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.422144",
+    "source_file": "team_541_players_2022.json",
+    "data_structure_version": "1.0"
+  }
+}

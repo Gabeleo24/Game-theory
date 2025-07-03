@@ -1,0 +1,126 @@
+{
+  "player_info": {
+    "id": 71353,
+    "name": "O. Isaenko",
+    "firstname": "Oleg",
+    "lastname": "Isaenko",
+    "age": 25,
+    "birth": {
+      "date": "2000-01-31",
+      "place": "Kaliningrad",
+      "country": "Russia"
+    },
+    "nationality": "Russia",
+    "height": "169 cm",
+    "weight": "67 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/71353.png"
+  },
+  "team_context": {
+    "team_id": 621,
+    "team_name": "Krasnodar",
+    "season": 2021
+  },
+  "season_summary": {
+    "season": 2021,
+    "team_id": 621,
+    "team_name": "Krasnodar",
+    "primary_position": "Defender",
+    "total_competitions": 1,
+    "key_metrics": {
+      "appearances": 8,
+      "goals": 0,
+      "assists": 1,
+      "minutes": 720,
+      "average_rating": 6.62
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 235,
+        "name": "Premier League",
+        "country": "Russia",
+        "logo": "https://media.api-sports.io/football/leagues/235.png",
+        "flag": "https://media.api-sports.io/flags/ru.svg",
+        "season": 2021
+      },
+      "team_info": {
+        "id": 621,
+        "name": "FC Krasnodar",
+        "logo": "https://media.api-sports.io/football/teams/621.png"
+      },
+      "performance_stats": {
+        "appearances": 8,
+        "lineups": 8,
+        "minutes": 720,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.625000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": 1,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 339,
+        "passes_key": 2,
+        "passes_accuracy": null
+      },
+      "defensive_stats": {
+        "tackles_total": 12,
+        "tackles_blocks": 1,
+        "tackles_interceptions": 9
+      },
+      "duel_stats": {
+        "duels_total": 54,
+        "duels_won": 25
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 5,
+        "dribbles_success": 3,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 3,
+        "fouls_committed": 4,
+        "cards_yellow": 0,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": 1
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 8,
+    "total_lineups": 8,
+    "total_minutes": 720,
+    "total_goals": 0,
+    "total_assists": 1,
+    "total_yellow_cards": 0,
+    "total_red_cards": 0,
+    "competitions_played": 1,
+    "average_rating": 6.62,
+    "goals_per_90": 0.0,
+    "assists_per_90": 0.12,
+    "minutes_per_appearance": 90.0
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:05.910584",
+    "source_file": "team_621_players_2021.json",
+    "data_structure_version": "1.0"
+  }
+}

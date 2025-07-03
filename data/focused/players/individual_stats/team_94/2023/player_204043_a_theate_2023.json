@@ -1,0 +1,260 @@
+{
+  "player_info": {
+    "id": 204043,
+    "name": "A. Theate",
+    "firstname": "Arthur Nicolas",
+    "lastname": "Theate",
+    "age": 25,
+    "birth": {
+      "date": "2000-05-25",
+      "place": "Liège",
+      "country": "Belgium"
+    },
+    "nationality": "Belgium",
+    "height": "185 cm",
+    "weight": "79 kg",
+    "injured": false,
+    "photo": "https://media.api-sports.io/football/players/204043.png"
+  },
+  "team_context": {
+    "team_id": 94,
+    "team_name": "Rennes",
+    "season": 2023
+  },
+  "season_summary": {
+    "season": 2023,
+    "team_id": 94,
+    "team_name": "Rennes",
+    "primary_position": "Defender",
+    "total_competitions": 3,
+    "key_metrics": {
+      "appearances": 40,
+      "goals": 3,
+      "assists": 0,
+      "minutes": 3300,
+      "average_rating": 6.96
+    }
+  },
+  "competition_stats": [
+    {
+      "league_info": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "performance_stats": {
+        "appearances": 28,
+        "lineups": 27,
+        "minutes": 2300,
+        "number": null,
+        "position": "Defender",
+        "rating": "7.140740",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 2,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 1604,
+        "passes_key": 6,
+        "passes_accuracy": 50
+      },
+      "defensive_stats": {
+        "tackles_total": 30,
+        "tackles_blocks": 23,
+        "tackles_interceptions": 31
+      },
+      "duel_stats": {
+        "duels_total": 155,
+        "duels_won": 95
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 13,
+        "dribbles_success": 7,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 17,
+        "fouls_committed": 16,
+        "cards_yellow": 4,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 17,
+        "shots_on": 5
+      }
+    },
+    {
+      "league_info": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2023
+      },
+      "team_info": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "performance_stats": {
+        "appearances": 4,
+        "lineups": 4,
+        "minutes": 360,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.975000",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 1,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 280,
+        "passes_key": 1,
+        "passes_accuracy": 61
+      },
+      "defensive_stats": {
+        "tackles_total": 4,
+        "tackles_blocks": null,
+        "tackles_interceptions": 3
+      },
+      "duel_stats": {
+        "duels_total": 24,
+        "duels_won": 12
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": 3,
+        "dribbles_success": 1,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 2,
+        "fouls_committed": 3,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 2,
+        "shots_on": 1
+      }
+    },
+    {
+      "league_info": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2023
+      },
+      "team_info": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "performance_stats": {
+        "appearances": 8,
+        "lineups": 7,
+        "minutes": 640,
+        "number": null,
+        "position": "Defender",
+        "rating": "6.762500",
+        "captain": false
+      },
+      "scoring_stats": {
+        "goals_total": 0,
+        "goals_conceded": 0,
+        "assists": null,
+        "saves": null
+      },
+      "passing_stats": {
+        "passes_total": 404,
+        "passes_key": 1,
+        "passes_accuracy": 44
+      },
+      "defensive_stats": {
+        "tackles_total": 5,
+        "tackles_blocks": 5,
+        "tackles_interceptions": 7
+      },
+      "duel_stats": {
+        "duels_total": 38,
+        "duels_won": 23
+      },
+      "dribbling_stats": {
+        "dribbles_attempts": null,
+        "dribbles_success": null,
+        "dribbles_past": null
+      },
+      "discipline_stats": {
+        "fouls_drawn": 4,
+        "fouls_committed": 3,
+        "cards_yellow": 1,
+        "cards_yellowred": 0,
+        "cards_red": 0
+      },
+      "penalty_stats": {
+        "penalty_won": null,
+        "penalty_committed": null,
+        "penalty_scored": 0,
+        "penalty_missed": 0,
+        "penalty_saved": null
+      },
+      "shooting_stats": {
+        "shots_total": 3,
+        "shots_on": null
+      }
+    }
+  ],
+  "aggregated_stats": {
+    "total_appearances": 40,
+    "total_lineups": 38,
+    "total_minutes": 3300,
+    "total_goals": 3,
+    "total_assists": 0,
+    "total_yellow_cards": 6,
+    "total_red_cards": 0,
+    "competitions_played": 3,
+    "average_rating": 6.96,
+    "goals_per_90": 0.08,
+    "assists_per_90": 0.0,
+    "minutes_per_appearance": 82.5
+  },
+  "metadata": {
+    "file_created": "2025-07-03T12:14:06.189177",
+    "source_file": "team_94_players_2023.json",
+    "data_structure_version": "1.0"
+  }
+}
