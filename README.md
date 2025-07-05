@@ -10,6 +10,10 @@
 [![Dataset](https://img.shields.io/badge/Dataset-67%20Teams%20|%208080%2B%20Players-blue.svg)](#data-coverage)
 [![Analysis](https://img.shields.io/badge/Analysis-Shapley%20Values-orange.svg)](#shapley-value-analysis)
 
+### Authors: 
+Gabriel Mancillas Gallardo, Mauricio Espinoza Acevedo, Maria Mora Mora,
+
+
 ## Project Overview
 
 This capstone project applies advanced game theory concepts, specifically **Shapley value analysis**, to soccer analytics for player valuation and team optimization. Using comprehensive data from **67 UEFA Champions League teams** across **2019-2025 seasons**, we analyze player contributions and develop predictive models for team performance.
