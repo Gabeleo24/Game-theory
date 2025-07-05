@@ -1,0 +1,501 @@
+{
+  "cache_timestamp": "2025-07-04T11:50:34.486020",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1237909"
+    },
+    "errors": [],
+    "results": 22,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": 61837,
+          "name": "A. Bardakc\u0131"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 28,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": 80552,
+          "name": "Gabriel Sara"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 30,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 49469,
+          "name": "M. Ben Ouanes"
+        },
+        "assist": {
+          "id": 2772,
+          "name": "K. Omeruo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 34,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 216,
+          "name": "M. Icardi"
+        },
+        "assist": {
+          "id": 158121,
+          "name": "I. Jakobs"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 44,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 8642,
+          "name": "M. Fall"
+        },
+        "assist": {
+          "id": 10563,
+          "name": "Cl\u00e1udio Winck"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 26252,
+          "name": "R. Sallai"
+        },
+        "assist": {
+          "id": 63274,
+          "name": "B. Y\u0131lmaz"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": 332,
+          "name": "D. Mertens"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 40401,
+          "name": "Caf\u00fa"
+        },
+        "assist": {
+          "id": 25522,
+          "name": "G. G\u00fcl"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 8642,
+          "name": "Mamadou Fall"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 50067,
+          "name": "Haris Hajradinovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 80552,
+          "name": "Gabriel Sara"
+        },
+        "assist": {
+          "id": 264627,
+          "name": "B. Kutlu"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 454,
+          "name": "Y. Akg\u00fcn"
+        },
+        "assist": {
+          "id": 25448,
+          "name": "K. Ayhan"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 61837,
+          "name": "Abd\u00fclkerim Bardakc\u0131"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 332,
+          "name": "Dries Mertens"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 216,
+          "name": "M. Icardi"
+        },
+        "assist": {
+          "id": 2927,
+          "name": "M. Batshuayi"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 30803,
+          "name": "A. Bar\u00e1k"
+        },
+        "assist": {
+          "id": 16528,
+          "name": "J. Espinoza"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 25522,
+          "name": "G\u00f6khan G\u00fcl"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 8642,
+          "name": "Mamadou Fall"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 50067,
+          "name": "H. Hajradinovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 8642,
+          "name": "Mamadou Fall"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 8
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 22265,
+          "name": "Nuno da Costa"
+        },
+        "assist": {
+          "id": 1343,
+          "name": "S. \u00c7iftp\u0131nar"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 5
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 22265,
+          "name": "Nuno da Costa"
+        },
+        "assist": {
+          "id": 50067,
+          "name": "H. Hajradinovi\u0107"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

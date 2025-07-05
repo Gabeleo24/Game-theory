@@ -1,0 +1,61 @@
+{
+  "cache_timestamp": "2025-07-04T13:26:55.501157",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1166040"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 29,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": null,
+          "name": null
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": {
+          "id": 6042,
+          "name": "Middelfart",
+          "logo": "https://media.api-sports.io/football/teams/6042.png"
+        },
+        "player": {
+          "id": null,
+          "name": null
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

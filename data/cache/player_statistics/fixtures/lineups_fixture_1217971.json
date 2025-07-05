@@ -1,0 +1,534 @@
+{
+  "cache_timestamp": "2025-07-04T12:02:57.560846",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1217971"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
+          "colors": {
+            "player": {
+              "primary": "1532c1",
+              "number": "ffffff",
+              "border": "1532c1"
+            },
+            "goalkeeper": {
+              "primary": "f5ed00",
+              "number": "050505",
+              "border": "f5ed00"
+            }
+          }
+        },
+        "coach": {
+          "id": 12629,
+          "name": "E. Maresca",
+          "photo": "https://media.api-sports.io/football/coachs/12629.png"
+        },
+        "formation": "3-4-2-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 18959,
+              "name": "Robert S\u00e1nchez",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 22094,
+              "name": "W. Fofana",
+              "number": 29,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 95,
+              "name": "B. Badiashile",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 152953,
+              "name": "L. Colwill",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 136723,
+              "name": "N. Madueke",
+              "number": 11,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 19545,
+              "name": "R. James",
+              "number": 24,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 282125,
+              "name": "R. Lavia",
+              "number": 45,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 63577,
+              "name": "M. Mudryk",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 138935,
+              "name": "C. Chukwuemeka",
+              "number": 17,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 269,
+              "name": "C. Nkunku",
+              "number": 18,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 392270,
+              "name": "Marc Guiu",
+              "number": 38,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 19145,
+              "name": "T. Adarabioyo",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 270508,
+              "name": "L. Ugochukwu",
+              "number": 16,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 645,
+              "name": "R. Sterling",
+              "number": 7,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 161907,
+              "name": "M. Gusto",
+              "number": 27,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 305834,
+              "name": "Andrey Santos",
+              "number": 39,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 288055,
+              "name": "\u00c2ngelo",
+              "number": 41,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 152955,
+              "name": "L. Bergstr\u00f6m",
+              "number": 47,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 336671,
+              "name": "Renato Veiga",
+              "number": 40,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 334037,
+              "name": "T. George",
+              "number": 32,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 138822,
+              "name": "A. Broja",
+              "number": 19,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2933,
+              "name": "B. Chilwell",
+              "number": 21,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 366735,
+              "name": "J. Acheampong",
+              "number": 34,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 303667,
+              "name": "E. Beach",
+              "number": 50,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "colors": {
+            "player": {
+              "primary": "000000",
+              "number": "ffffff",
+              "border": "000000"
+            },
+            "goalkeeper": {
+              "primary": "d2d61d",
+              "number": "ffffff",
+              "border": "d2d61d"
+            }
+          }
+        },
+        "coach": {
+          "id": 15,
+          "name": "B. Rodgers",
+          "photo": "https://media.api-sports.io/football/coachs/15.png"
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 2728,
+              "name": "K. Schmeichel",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1115,
+              "name": "A. Ralston",
+              "number": 56,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 19314,
+              "name": "C. Carter-Vickers",
+              "number": 20,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 69450,
+              "name": "L. Scales",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 44784,
+              "name": "G. Taylor",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 19030,
+              "name": "M. O'Riley",
+              "number": 33,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1129,
+              "name": "C. McGregor",
+              "number": 42,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 180758,
+              "name": "R. Hatate",
+              "number": 41,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1127,
+              "name": "J. Forrest",
+              "number": 49,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 33253,
+              "name": "K. Furuhashi",
+              "number": 8,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 33224,
+              "name": "D. Maeda",
+              "number": 38,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 27760,
+              "name": "L. Palma",
+              "number": 7,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 67958,
+              "name": "S. Welsh",
+              "number": 57,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 332737,
+              "name": "M. Anderson",
+              "number": 34,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 304958,
+              "name": "Yang Hyun-Jun",
+              "number": 13,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 394686,
+              "name": "F. Turley",
+              "number": 66,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 451314,
+              "name": "C. Donovan",
+              "number": 63,
+              "pos": null,
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 137721,
+              "name": "G. Lagerbielke",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 425199,
+              "name": "B. Lawal",
+              "number": 36,
+              "pos": null,
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 169291,
+              "name": "V. Sinisalo",
+              "number": 12,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 136106,
+              "name": "O. Holm",
+              "number": 15,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1137,
+              "name": "M. Johnston",
+              "number": 90,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 33236,
+              "name": "Y. Kobayashi",
+              "number": 18,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1104,
+              "name": "S. Bain",
+              "number": 29,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 371937,
+              "name": "J. Dede",
+              "number": 55,
+              "pos": null,
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 311820,
+              "name": "D. Murray",
+              "number": 47,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 137296,
+              "name": "Kwon Hyeok-Kyu",
+              "number": 22,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

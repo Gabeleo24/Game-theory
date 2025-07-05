@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T13:24:23.987165",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1238085"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 20968,
+          "name": "Ousseynou Ba"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 38,
+          "extra": null
+        },
+        "team": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png"
+        },
+        "player": {
+          "id": 2711,
+          "name": "Mehdi Bourabia"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 38,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 85205,
+          "name": "Olivier Kemen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 39,
+          "extra": null
+        },
+        "team": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png"
+        },
+        "player": {
+          "id": 1998,
+          "name": "Kartal Kayra Y\u0131lmaz"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 44,
+          "extra": null
+        },
+        "team": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png"
+        },
+        "player": {
+          "id": 24860,
+          "name": "Carlos Man\u00e9"
+        },
+        "assist": {
+          "id": 2711,
+          "name": "M. Bourabia"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 20968,
+          "name": "O. Ba"
+        },
+        "assist": {
+          "id": 443739,
+          "name": "H. G\u00fcreler"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 21082,
+          "name": "Lucas Lima"
+        },
+        "assist": {
+          "id": 21270,
+          "name": "P. Keny"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png"
+        },
+        "player": {
+          "id": 45020,
+          "name": "D. Nazon"
+        },
+        "assist": {
+          "id": 3407,
+          "name": "S. Bahoken"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png"
+        },
+        "player": {
+          "id": 3407,
+          "name": "S. Bahoken"
+        },
+        "assist": {
+          "id": 2711,
+          "name": "M. Bourabia"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 69942,
+          "name": "Jo\u00e3o Figueiredo"
+        },
+        "assist": {
+          "id": 14602,
+          "name": "I. Brni\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 1921,
+          "name": "Y. Sar\u0131"
+        },
+        "assist": {
+          "id": 207236,
+          "name": "\u00d6. Beyaz"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png"
+        },
+        "player": {
+          "id": 2711,
+          "name": "M. Bourabia"
+        },
+        "assist": {
+          "id": 2686,
+          "name": "M. Hosseini"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png"
+        },
+        "player": {
+          "id": 53659,
+          "name": "Miguel Cardoso"
+        },
+        "assist": {
+          "id": 62419,
+          "name": "R. Civelek"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 41973,
+          "name": "Miguel Crespo"
+        },
+        "assist": {
+          "id": 61820,
+          "name": "B. \u00d6zdemir"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png"
+        },
+        "player": {
+          "id": 62419,
+          "name": "R. Civelek"
+        },
+        "assist": {
+          "id": 64261,
+          "name": "Y. Ackah"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 1001,
+          "name": "Kayserispor",
+          "logo": "https://media.api-sports.io/football/teams/1001.png"
+        },
+        "player": {
+          "id": 1998,
+          "name": "K. Y\u0131lmaz"
+        },
+        "assist": {
+          "id": 1345,
+          "name": "H. Kald\u0131r\u0131m"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 21270,
+          "name": "P. Keny"
+        },
+        "assist": {
+          "id": 61820,
+          "name": "B. \u00d6zdemir"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

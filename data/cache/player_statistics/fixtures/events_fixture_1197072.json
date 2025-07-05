@@ -1,0 +1,853 @@
+{
+  "cache_timestamp": "2025-07-04T11:42:18.473256",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1197072"
+    },
+    "errors": [],
+    "results": 38,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 32,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 18784,
+          "name": "J. Maddison"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 37,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 169,
+          "name": "K. Trippier"
+        },
+        "assist": {
+          "id": 19163,
+          "name": "J. Murphy"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 2864,
+          "name": "A. Isak"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 2864,
+          "name": "A. Isak"
+        },
+        "assist": {
+          "id": 2939,
+          "name": "C. Wilson"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 723,
+          "name": "Joelinton"
+        },
+        "assist": {
+          "id": 138906,
+          "name": "J. White"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 863,
+          "name": "R. Bentancur"
+        },
+        "assist": {
+          "id": 180,
+          "name": "O. Skipp"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 47519,
+          "name": "Pedro Porro"
+        },
+        "assist": {
+          "id": 301281,
+          "name": "A. Phillips"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 152849,
+          "name": "M. van de Ven"
+        },
+        "assist": {
+          "id": 337929,
+          "name": "G. Abbott"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 18784,
+          "name": "J. Maddison"
+        },
+        "assist": {
+          "id": 273757,
+          "name": "A. Devine"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 54,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 180,
+          "name": "O. Skipp"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Holding"
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 237129,
+          "name": "P. Sarr"
+        },
+        "assist": {
+          "id": 293163,
+          "name": "J. Donley"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 186,
+          "name": "Son Heung-Min"
+        },
+        "assist": {
+          "id": 2061,
+          "name": "Bryan Gil"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 18961,
+          "name": "D. Burn"
+        },
+        "assist": {
+          "id": 318056,
+          "name": "A. Murphy"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 18778,
+          "name": "H. Barnes"
+        },
+        "assist": {
+          "id": 293164,
+          "name": "A. Diallo"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 2507,
+          "name": "M. Almir\u00f3n"
+        },
+        "assist": {
+          "id": 171058,
+          "name": "H. Ashby"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 30435,
+          "name": "D. Kulusevski"
+        },
+        "assist": {
+          "id": 162552,
+          "name": "D. Scarlett"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 129711,
+          "name": "B. Johnson"
+        },
+        "assist": {
+          "id": 284415,
+          "name": "Yago Santiago"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 10135,
+          "name": "Bruno Guimar\u00e3es"
+        },
+        "assist": {
+          "id": 284373,
+          "name": "L. De Bolle"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 2939,
+          "name": "C. Wilson"
+        },
+        "assist": {
+          "id": 349987,
+          "name": "G. Kuol"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 162498,
+          "name": "R. Dr\u0103gu\u0219in"
+        },
+        "assist": {
+          "id": 349384,
+          "name": "T. Hall"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 284492,
+          "name": "L. Hall"
+        },
+        "assist": {
+          "id": 352210,
+          "name": "D. Charlton"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 138908,
+          "name": "E. Anderson"
+        },
+        "assist": {
+          "id": 384585,
+          "name": "T. Hernes"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 2855,
+          "name": "E. Krafth"
+        },
+        "assist": {
+          "id": 313671,
+          "name": "C. Thompson"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 156428,
+          "name": "B. Austin"
+        },
+        "assist": {
+          "id": 161,
+          "name": "A. Whiteman"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 19163,
+          "name": "J. Murphy"
+        },
+        "assist": {
+          "id": 328104,
+          "name": "B. Parkinson"
+        },
+        "type": "subst",
+        "detail": "Substitution 12",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 337929,
+          "name": "G. Abbott"
+        },
+        "assist": {
+          "id": 361736,
+          "name": "L. Black"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 1566,
+          "name": "Emerson Royal"
+        },
+        "assist": {
+          "id": 310531,
+          "name": "R. Kyerematen"
+        },
+        "type": "subst",
+        "detail": "Substitution 12",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 18911,
+          "name": "N. Pope"
+        },
+        "assist": {
+          "id": 44912,
+          "name": "M. Gillespie"
+        },
+        "type": "subst",
+        "detail": "Substitution 13",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 1
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 2061,
+          "name": "Bryan Gil"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 2
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 138906,
+          "name": "J. White"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 3
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 162552,
+          "name": "D. Scarlett"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 4
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 328104,
+          "name": "B. Parkinson"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 5
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 293164,
+          "name": "A. Diallo"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 6
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 293163,
+          "name": "J. Donley"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 7
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 349384,
+          "name": "T. Hall"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 8
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 349987,
+          "name": "G. Kuol"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 9
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 180,
+          "name": "O. Skipp"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 10
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 171058,
+          "name": "H. Ashby"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      }
+    ]
+  }
+}

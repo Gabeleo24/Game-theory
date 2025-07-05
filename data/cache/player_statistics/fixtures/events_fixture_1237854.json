@@ -1,0 +1,347 @@
+{
+  "cache_timestamp": "2025-07-04T13:33:40.236666",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1237854"
+    },
+    "errors": [],
+    "results": 15,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 17,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 18816,
+          "name": "Arthur Masuaku"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 21,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 137403,
+          "name": "Arbnor Muja"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 573,
+          "name": "Rafa"
+        },
+        "assist": {
+          "id": 336567,
+          "name": "S. K\u0131l\u0131\u00e7soy"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 36,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 915,
+          "name": "Gabriel Paulista"
+        },
+        "assist": {
+          "id": 18816,
+          "name": "A. Masuaku"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 24873,
+          "name": "Rick Van Drongelen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 915,
+          "name": "Gabriel Paulista"
+        },
+        "assist": {
+          "id": 1997,
+          "name": "N. Uysal"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 24970,
+          "name": "K. Schindler"
+        },
+        "assist": {
+          "id": 1434,
+          "name": "L. Dimata"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 137403,
+          "name": "A. Muja"
+        },
+        "assist": {
+          "id": 85369,
+          "name": "G. Laura"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 336567,
+          "name": "S. K\u0131l\u0131\u00e7soy"
+        },
+        "assist": {
+          "id": 41748,
+          "name": "J. Onana"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 15837,
+          "name": "C. Holse"
+        },
+        "assist": {
+          "id": 49848,
+          "name": "S. Aydo\u011fdu"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 394,
+          "name": "M. Mouandilmadji"
+        },
+        "assist": {
+          "id": 119139,
+          "name": "E. Kara"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 573,
+          "name": "Rafa"
+        },
+        "assist": {
+          "id": 50046,
+          "name": "E. Top\u00e7u"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 1863,
+          "name": "C. Immobile"
+        },
+        "assist": {
+          "id": 144656,
+          "name": "J. Muleka"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 55949,
+          "name": "\u013d. \u0160atka"
+        },
+        "assist": {
+          "id": 368103,
+          "name": "B. \u00c7etin"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 25324,
+          "name": "M. Rashica"
+        },
+        "assist": {
+          "id": 26275,
+          "name": "O. Bulut"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

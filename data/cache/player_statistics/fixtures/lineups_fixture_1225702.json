@@ -1,0 +1,370 @@
+{
+  "cache_timestamp": "2025-07-04T12:47:16.146936",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1225702"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png",
+          "colors": {
+            "player": {
+              "primary": "ff0000",
+              "number": "ffffff",
+              "border": "ff0000"
+            },
+            "goalkeeper": {
+              "primary": "080808",
+              "number": "ffffff",
+              "border": "080808"
+            }
+          }
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 37571,
+              "name": "Stijn van Gassel",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 37370,
+              "name": "Bart van Rooij",
+              "number": 28,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 40201,
+              "name": "Iv\u00e1n M\u00e1rquez",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 30797,
+              "name": "Bram Nuytinck",
+              "number": 17,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 37151,
+              "name": "Calvin Verdonk",
+              "number": 24,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 36898,
+              "name": "Mees Hoedemakers",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 152850,
+              "name": "Dirk Proper",
+              "number": 71,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1582,
+              "name": "Rober Gonz\u00e1lez",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 360032,
+              "name": "Ba\u015far \u00d6nal",
+              "number": 15,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 354506,
+              "name": "Kodai Sano",
+              "number": 23,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 378864,
+              "name": "Sami Ouaissa",
+              "number": 10,
+              "pos": "M",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 203769,
+              "name": "Rijk Janse",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 194536,
+              "name": "Robin Roefs",
+              "number": 22,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 274275,
+              "name": "Brayann Pereira",
+              "number": 2,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 350643,
+              "name": "D'Leanu Arts",
+              "number": 21,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 57224,
+              "name": "Lars Olden Larsen",
+              "number": 14,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 546,
+              "name": "Lasse Sch\u00f8ne",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 378958,
+              "name": "Kas de Wit",
+              "number": 29,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 403675,
+              "name": "Daan Maas",
+              "number": 30,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Omar Mohamedhoesein",
+              "number": 24,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Luc Nieuwenhuijs",
+              "number": 18,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 465278,
+              "name": "Thomas Reinders",
+              "number": 21,
+              "pos": null,
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 12353,
+          "name": "R. Meijer",
+          "photo": "https://media.api-sports.io/football/coachs/12353.png"
+        }
+      },
+      {
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png",
+          "colors": {
+            "player": {
+              "primary": "f3f3f7",
+              "number": "b60201",
+              "border": "f3f3f7"
+            },
+            "goalkeeper": {
+              "primary": "fffa00",
+              "number": "000000",
+              "border": "fffa00"
+            }
+          }
+        },
+        "formation": "5-2-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 68179,
+              "name": "Alexandros Anagnostopoulos",
+              "number": 99,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 10157,
+              "name": "Rodinei",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:5"
+            }
+          },
+          {
+            "player": {
+              "id": 84081,
+              "name": "Giulian Biancone",
+              "number": 41,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 134431,
+              "name": "Lorenzo Pirola",
+              "number": 98,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 344538,
+              "name": "Isidoros Koutsidis",
+              "number": 67,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 180424,
+              "name": "Apostolos Apostolopoulos",
+              "number": 65,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Theofanis Bakoulas",
+              "number": 29,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Antonis Papakanellos",
+              "number": 64,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 118,
+              "name": "Gelson Martins",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Charalampos Kostoulas",
+              "number": 84,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 1610,
+              "name": "Giorgos Masouras",
+              "number": 19,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "coach": {
+          "id": 1598,
+          "name": "Jos\u00e9 Luis Mendilibar",
+          "photo": "https://media.api-sports.io/football/coachs/1598.png"
+        }
+      }
+    ]
+  }
+}

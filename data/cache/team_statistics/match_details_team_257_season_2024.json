@@ -1,26 +1,273 @@
 {
-  "cache_timestamp": "2025-07-03T16:14:48.242359",
+  "cache_timestamp": "2025-07-04T00:03:06.463444",
   "data": [
     {
-      "fixture_id": 12345,
-      "date": "2024-03-15T20:00:00+00:00",
-      "timestamp": 1647374400,
+      "fixture_id": 1156416,
+      "date": "2024-01-13T15:00:00+00:00",
+      "timestamp": 1705158000,
       "status": {
         "long": "Match Finished",
-        "short": "FT"
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
       },
       "league": {
-        "id": 39,
-        "name": "Premier League",
-        "type": "domestic_league",
-        "round": "Regular Season - 28",
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "type": "unknown",
+        "round": "Club Friendlies 3",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 159,
+        "opponent_name": "Hertha BSC"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 1,
+        "result": "loss"
+      },
+      "venue": {
+        "id": null,
+        "name": "La Manga Club Football Centre A",
+        "city": "La Manga"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1156461,
+      "date": "2024-01-16T20:00:00+00:00",
+      "timestamp": 1705435200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "type": "unknown",
+        "round": "Club Friendlies 3",
         "season": 2024
       },
       "teams": {
         "team_id": 257,
         "team_location": "home",
-        "opponent_id": 258,
-        "opponent_name": "Team 258"
+        "opponent_id": 400,
+        "opponent_name": "FC Copenhagen"
+      },
+      "score": {
+        "team_score": 2,
+        "opponent_score": 2,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1210218,
+      "date": "2024-07-20T15:00:00+00:00",
+      "timestamp": 1721487600,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "type": "unknown",
+        "round": "Club Friendlies 1",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 33,
+        "opponent_name": "Manchester United"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": null,
+        "name": "Murrayfield Stadium",
+        "city": "Edinburgh"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1212745,
+      "date": "2024-07-13T14:00:00+00:00",
+      "timestamp": 1720879200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "type": "unknown",
+        "round": "Club Friendlies 1",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 194,
+        "opponent_name": "Ajax"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": null,
+        "name": "Sportpark Mulderssingel",
+        "city": "Wezep"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1218306,
+      "date": "2024-07-24T18:30:00+00:00",
+      "timestamp": 1721845800,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "type": "unknown",
+        "round": "Club Friendlies 3",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 54,
+        "opponent_name": "Birmingham"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": null,
+        "name": "St. Andrew's @ Knighthead Park",
+        "city": "Birmingham"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1218435,
+      "date": "2024-07-27T15:00:00+00:00",
+      "timestamp": 1722092400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "type": "unknown",
+        "round": "Club Friendlies 3",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 182,
+        "opponent_name": "Union Berlin"
+      },
+      "score": {
+        "team_score": 4,
+        "opponent_score": 4,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 748,
+        "name": "Stadion An der Alten F\u00f6rsterei",
+        "city": "Berlin"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220110,
+      "date": "2024-08-03T11:30:00+00:00",
+      "timestamp": 1722684600,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 1",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 254,
+        "opponent_name": "Heart Of Midlothian"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 0,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 1393,
+        "name": "Tynecastle Park",
+        "city": "Edinburgh"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220118,
+      "date": "2024-08-10T14:00:00+00:00",
+      "timestamp": 1723298400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 2",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 256,
+        "opponent_name": "Motherwell"
       },
       "score": {
         "team_score": 2,
@@ -28,9 +275,1969 @@
         "result": "win"
       },
       "venue": {
-        "id": 1,
-        "name": "Stadium",
-        "city": "City"
+        "id": 2617,
+        "name": "Hampden Park",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220126,
+      "date": "2024-08-24T14:00:00+00:00",
+      "timestamp": 1724508000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 3",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 902,
+        "opponent_name": "Ross County"
+      },
+      "score": {
+        "team_score": 6,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 2617,
+        "name": "Hampden Park",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220128,
+      "date": "2024-09-01T11:30:00+00:00",
+      "timestamp": 1725190200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 4",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 247,
+        "opponent_name": "Celtic"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 3,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 1386,
+        "name": "Celtic Park",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220136,
+      "date": "2024-09-15T11:00:00+00:00",
+      "timestamp": 1726398000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 5",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 1386,
+        "opponent_name": "Dundee Utd"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": null,
+        "name": "CalForth Construction Arena at Tannadice Park",
+        "city": "Dundee"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220144,
+      "date": "2024-09-29T11:00:00+00:00",
+      "timestamp": 1727607600,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 6",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 249,
+        "opponent_name": "Hibernian"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220149,
+      "date": "2024-10-06T19:00:00+00:00",
+      "timestamp": 1728241200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 7",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 258,
+        "opponent_name": "ST Johnstone"
+      },
+      "score": {
+        "team_score": 2,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220155,
+      "date": "2024-10-20T11:00:00+00:00",
+      "timestamp": 1729422000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 8",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 250,
+        "opponent_name": "Kilmarnock"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 1,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 19215,
+        "name": "The BBSP Stadium Rugby Park",
+        "city": "Kilmarnock"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220162,
+      "date": "2024-10-27T14:00:00+00:00",
+      "timestamp": 1730037600,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 9",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 251,
+        "opponent_name": "ST Mirren"
+      },
+      "score": {
+        "team_score": 2,
+        "opponent_score": 1,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220164,
+      "date": "2024-10-30T20:00:00+00:00",
+      "timestamp": 1730318400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 10",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 252,
+        "opponent_name": "Aberdeen"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 1383,
+        "name": "Pittodrie Stadium",
+        "city": "Aberdeen"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220171,
+      "date": "2025-01-09T20:00:00+00:00",
+      "timestamp": 1736452800,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 11",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 253,
+        "opponent_name": "Dundee"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 1,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 20420,
+        "name": "The Scot Foam Stadium at Dens Park",
+        "city": "Dundee"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220181,
+      "date": "2024-11-10T17:00:00+00:00",
+      "timestamp": 1731258000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 12",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 254,
+        "opponent_name": "Heart Of Midlothian"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220184,
+      "date": "2024-11-23T15:45:00+00:00",
+      "timestamp": 1732376700,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 13",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 1386,
+        "opponent_name": "Dundee Utd"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 1,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220193,
+      "date": "2024-12-01T12:00:00+00:00",
+      "timestamp": 1733054400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 14",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 258,
+        "opponent_name": "ST Johnstone"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1403,
+        "name": "McDiarmid Park",
+        "city": "Perth"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220197,
+      "date": "2024-12-04T19:45:00+00:00",
+      "timestamp": 1733341500,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 15",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 250,
+        "opponent_name": "Kilmarnock"
+      },
+      "score": {
+        "team_score": 6,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220204,
+      "date": "2024-12-08T12:00:00+00:00",
+      "timestamp": 1733659200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 16",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 902,
+        "opponent_name": "Ross County"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1402,
+        "name": "Global Energy Stadium",
+        "city": "Dingwall"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220210,
+      "date": "2025-01-15T20:00:00+00:00",
+      "timestamp": 1736971200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 17",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 252,
+        "opponent_name": "Aberdeen"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220216,
+      "date": "2024-12-21T15:00:00+00:00",
+      "timestamp": 1734793200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 18",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 253,
+        "opponent_name": "Dundee"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220223,
+      "date": "2024-12-26T17:45:00+00:00",
+      "timestamp": 1735235100,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 19",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 251,
+        "opponent_name": "ST Mirren"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 11913,
+        "name": "The SMISA Stadium",
+        "city": "Paisley"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220227,
+      "date": "2024-12-29T15:00:00+00:00",
+      "timestamp": 1735484400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 20",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 256,
+        "opponent_name": "Motherwell"
+      },
+      "score": {
+        "team_score": 2,
+        "opponent_score": 2,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 1398,
+        "name": "Fir Park",
+        "city": "Motherwell"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220233,
+      "date": "2025-01-02T15:00:00+00:00",
+      "timestamp": 1735830000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 21",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 247,
+        "opponent_name": "Celtic"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220238,
+      "date": "2025-01-05T12:00:00+00:00",
+      "timestamp": 1736078400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 22",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 249,
+        "opponent_name": "Hibernian"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 3,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 1394,
+        "name": "Easter Road Stadium",
+        "city": "Edinburgh"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220245,
+      "date": "2025-01-12T15:00:00+00:00",
+      "timestamp": 1736694000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 23",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 258,
+        "opponent_name": "ST Johnstone"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 1,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220250,
+      "date": "2025-01-26T12:00:00+00:00",
+      "timestamp": 1737892800,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 24",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 1386,
+        "opponent_name": "Dundee Utd"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 1,
+        "result": "win"
+      },
+      "venue": {
+        "id": null,
+        "name": "CalForth Construction Arena at Tannadice Park",
+        "city": "Dundee"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220258,
+      "date": "2025-02-02T15:00:00+00:00",
+      "timestamp": 1738508400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 25",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 902,
+        "opponent_name": "Ross County"
+      },
+      "score": {
+        "team_score": 4,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220262,
+      "date": "2025-02-16T12:00:00+00:00",
+      "timestamp": 1739707200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 26",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 254,
+        "opponent_name": "Heart Of Midlothian"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 1,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1393,
+        "name": "Tynecastle Park",
+        "city": "Edinburgh"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220269,
+      "date": "2025-02-22T15:00:00+00:00",
+      "timestamp": 1740236400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 27",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 251,
+        "opponent_name": "ST Mirren"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220275,
+      "date": "2025-02-26T20:00:00+00:00",
+      "timestamp": 1740600000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 28",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 250,
+        "opponent_name": "Kilmarnock"
+      },
+      "score": {
+        "team_score": 4,
+        "opponent_score": 2,
+        "result": "win"
+      },
+      "venue": {
+        "id": 19215,
+        "name": "The BBSP Stadium Rugby Park",
+        "city": "Kilmarnock"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220281,
+      "date": "2025-03-01T15:00:00+00:00",
+      "timestamp": 1740841200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 29",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 256,
+        "opponent_name": "Motherwell"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220284,
+      "date": "2025-03-16T12:30:00+00:00",
+      "timestamp": 1742128200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 30",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 247,
+        "opponent_name": "Celtic"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 2,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1386,
+        "name": "Celtic Park",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220292,
+      "date": "2025-03-29T17:30:00+00:00",
+      "timestamp": 1743269400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 31",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 253,
+        "opponent_name": "Dundee"
+      },
+      "score": {
+        "team_score": 4,
+        "opponent_score": 3,
+        "result": "win"
+      },
+      "venue": {
+        "id": 20420,
+        "name": "The Scot Foam Stadium at Dens Park",
+        "city": "Dundee"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220299,
+      "date": "2025-04-05T14:00:00+00:00",
+      "timestamp": 1743861600,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 32",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 249,
+        "opponent_name": "Hibernian"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1220302,
+      "date": "2025-04-13T11:00:00+00:00",
+      "timestamp": 1744542000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "1st Phase - 33",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 252,
+        "opponent_name": "Aberdeen"
+      },
+      "score": {
+        "team_score": 2,
+        "opponent_score": 2,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 1383,
+        "name": "Pittodrie Stadium",
+        "city": "Aberdeen"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1269138,
+      "date": "2024-08-17T16:45:00+00:00",
+      "timestamp": 1723913100,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "type": "unknown",
+        "round": "2nd Round",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 258,
+        "opponent_name": "ST Johnstone"
+      },
+      "score": {
+        "team_score": 2,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 2617,
+        "name": "Hampden Park",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1273687,
+      "date": "2024-08-06T18:00:00+00:00",
+      "timestamp": 1722967200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "type": "champions_league",
+        "round": "3rd Qualifying Round",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 572,
+        "opponent_name": "Dynamo Kyiv"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 1,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 11992,
+        "name": "Arena Lublin",
+        "city": "Lublin"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1273688,
+      "date": "2024-08-13T18:45:00+00:00",
+      "timestamp": 1723574700,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "type": "champions_league",
+        "round": "3rd Qualifying Round",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 572,
+        "opponent_name": "Dynamo Kyiv"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 2617,
+        "name": "Hampden Park",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1293135,
+      "date": "2024-09-21T16:30:00+00:00",
+      "timestamp": 1726936200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 13
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "type": "unknown",
+        "round": "Quarter-finals",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 253,
+        "opponent_name": "Dundee"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1299138,
+      "date": "2024-09-26T16:45:00+00:00",
+      "timestamp": 1727369100,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "League Stage - 1",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 375,
+        "opponent_name": "Malmo FF"
+      },
+      "score": {
+        "team_score": 2,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1518,
+        "name": "Eleda Stadion",
+        "city": "Malm\u00f6"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1299161,
+      "date": "2024-10-03T19:00:00+00:00",
+      "timestamp": 1727982000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "League Stage - 2",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 80,
+        "opponent_name": "Lyon"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 4,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1299179,
+      "date": "2024-10-24T19:00:00+00:00",
+      "timestamp": 1729796400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "League Stage - 3",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 559,
+        "opponent_name": "FCSB"
+      },
+      "score": {
+        "team_score": 4,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1299190,
+      "date": "2024-11-07T17:45:00+00:00",
+      "timestamp": 1731001500,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "League Stage - 4",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 553,
+        "opponent_name": "Olympiakos Piraeus"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 1,
+        "result": "draw"
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio Georgios Karaisk\u00e1ki",
+        "city": "Piraeus"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1299213,
+      "date": "2024-11-28T20:00:00+00:00",
+      "timestamp": 1732824000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "League Stage - 5",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 84,
+        "opponent_name": "Nice"
+      },
+      "score": {
+        "team_score": 4,
+        "opponent_score": 1,
+        "result": "win"
+      },
+      "venue": {
+        "id": 663,
+        "name": "Allianz Riviera",
+        "city": "Nice"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1299233,
+      "date": "2024-12-12T20:00:00+00:00",
+      "timestamp": 1734033600,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "League Stage - 6",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 47,
+        "opponent_name": "Tottenham"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 1,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1299250,
+      "date": "2025-01-23T20:00:00+00:00",
+      "timestamp": 1737662400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "League Stage - 7",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 33,
+        "opponent_name": "Manchester United"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 556,
+        "name": "Old Trafford",
+        "city": "Manchester"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1299265,
+      "date": "2025-01-30T20:00:00+00:00",
+      "timestamp": 1738267200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "League Stage - 8",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 1393,
+        "opponent_name": "Union St. Gilloise"
+      },
+      "score": {
+        "team_score": 2,
+        "opponent_score": 1,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1308227,
+      "date": "2024-11-03T15:00:00+00:00",
+      "timestamp": 1730646000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "type": "unknown",
+        "round": "Semi-finals",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 256,
+        "opponent_name": "Motherwell"
+      },
+      "score": {
+        "team_score": 2,
+        "opponent_score": 1,
+        "result": "win"
+      },
+      "venue": {
+        "id": 2617,
+        "name": "Hampden Park",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1314882,
+      "date": "2024-12-15T15:30:00+00:00",
+      "timestamp": 1734276600,
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      },
+      "league": {
+        "id": 185,
+        "name": "League Cup",
+        "type": "unknown",
+        "round": "Final",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 247,
+        "opponent_name": "Celtic"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 3,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 2617,
+        "name": "Hampden Park",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1318878,
+      "date": "2025-01-19T14:15:00+00:00",
+      "timestamp": 1737296100,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "type": "unknown",
+        "round": "4th Round",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 6769,
+        "opponent_name": "Fraserburgh"
+      },
+      "score": {
+        "team_score": 5,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1338623,
+      "date": "2025-02-09T15:30:00+00:00",
+      "timestamp": 1739115000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      },
+      "league": {
+        "id": 181,
+        "name": "FA Cup",
+        "type": "unknown",
+        "round": "5th Round",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 6778,
+        "opponent_name": "Queen's Park"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 1,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1353188,
+      "date": "2025-03-06T17:45:00+00:00",
+      "timestamp": 1741283100,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "Round of 16",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 611,
+        "opponent_name": "Fenerbahce"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 1,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1581,
+        "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+        "city": "\u0130stanbul"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1353189,
+      "date": "2025-03-13T20:00:00+00:00",
+      "timestamp": 1741896000,
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "Round of 16",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 611,
+        "opponent_name": "Fenerbahce"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1361280,
+      "date": "2025-04-10T19:00:00+00:00",
+      "timestamp": 1744311600,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 13
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "Quarter-finals",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 531,
+        "opponent_name": "Athletic Club"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 0,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1361281,
+      "date": "2025-04-17T19:00:00+00:00",
+      "timestamp": 1744916400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "type": "europa_league",
+        "round": "Quarter-finals",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 531,
+        "opponent_name": "Athletic Club"
+      },
+      "score": {
+        "team_score": 0,
+        "opponent_score": 2,
+        "result": "loss"
+      },
+      "venue": {
+        "id": 1460,
+        "name": "San Mam\u00e9s Barria",
+        "city": "Bilbao"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1371466,
+      "date": "2025-04-26T14:00:00+00:00",
+      "timestamp": 1745676000,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "2nd Phase - 1",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 251,
+        "opponent_name": "ST Mirren"
+      },
+      "score": {
+        "team_score": 2,
+        "opponent_score": 2,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 11913,
+        "name": "The SMISA Stadium",
+        "city": "Paisley"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1371475,
+      "date": "2025-05-04T11:00:00+00:00",
+      "timestamp": 1746356400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "2nd Phase - 2",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 247,
+        "opponent_name": "Celtic"
+      },
+      "score": {
+        "team_score": 1,
+        "opponent_score": 1,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1371481,
+      "date": "2025-05-11T11:00:00+00:00",
+      "timestamp": 1746961200,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "2nd Phase - 3",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 252,
+        "opponent_name": "Aberdeen"
+      },
+      "score": {
+        "team_score": 4,
+        "opponent_score": 0,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1371483,
+      "date": "2025-05-14T18:45:00+00:00",
+      "timestamp": 1747248300,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "2nd Phase - 4",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "home",
+        "opponent_id": 1386,
+        "opponent_name": "Dundee Utd"
+      },
+      "score": {
+        "team_score": 3,
+        "opponent_score": 1,
+        "result": "win"
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "statistics": []
+    },
+    {
+      "fixture_id": 1371490,
+      "date": "2025-05-17T11:30:00+00:00",
+      "timestamp": 1747481400,
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "type": "unknown",
+        "round": "2nd Phase - 5",
+        "season": 2024
+      },
+      "teams": {
+        "team_id": 257,
+        "team_location": "away",
+        "opponent_id": 249,
+        "opponent_name": "Hibernian"
+      },
+      "score": {
+        "team_score": 2,
+        "opponent_score": 2,
+        "result": "draw"
+      },
+      "venue": {
+        "id": 1394,
+        "name": "Easter Road Stadium",
+        "city": "Edinburgh"
       },
       "statistics": []
     }

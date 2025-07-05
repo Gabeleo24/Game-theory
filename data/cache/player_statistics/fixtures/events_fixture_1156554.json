@@ -1,0 +1,39 @@
+{
+  "cache_timestamp": "2025-07-04T13:13:39.253801",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1156554"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 342226,
+          "name": "J. Sljivic"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

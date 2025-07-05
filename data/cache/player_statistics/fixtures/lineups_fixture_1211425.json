@@ -1,0 +1,453 @@
+{
+  "cache_timestamp": "2025-07-04T13:08:25.780262",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1211425"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "151c33",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "fb5a20",
+              "number": "ffffff",
+              "border": "fb5a20"
+            }
+          }
+        },
+        "coach": {
+          "id": 20259,
+          "name": "R. Keane",
+          "photo": "https://media.api-sports.io/football/coachs/20259.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 28324,
+              "name": "\u00c1. Varga",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 178362,
+              "name": "\u010c. Makreckis",
+              "number": 25,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 21140,
+              "name": "I. Ciss\u00e9",
+              "number": 27,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 15605,
+              "name": "S. Gartenmann",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 2076,
+              "name": "C. Ram\u00edrez",
+              "number": 99,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 37833,
+              "name": "P. Rommens",
+              "number": 88,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 108017,
+              "name": "M. Abu Fani",
+              "number": 15,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 118347,
+              "name": "T. Kehinde",
+              "number": 24,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 2027,
+              "name": "K. Zachariassen",
+              "number": 16,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 49404,
+              "name": "M. Ben Romdhane",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 197059,
+              "name": "Matheus Saldanha",
+              "number": 11,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 7398,
+              "name": "B. Varga",
+              "number": 19,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 3347,
+              "name": "A. Traor\u00e9",
+              "number": 20,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 21613,
+              "name": "L. Joseph",
+              "number": 75,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 361485,
+              "name": "A. T\u00f3th",
+              "number": 64,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 34525,
+              "name": "A. Pe\u0161i\u0107",
+              "number": 8,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 369411,
+              "name": "I. Pappoe",
+              "number": 70,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 14390,
+              "name": "Raul Gustavo",
+              "number": 34,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 416315,
+              "name": "N. Kaj\u00e1n",
+              "number": 54,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 313152,
+              "name": "Z. Gruber",
+              "number": 30,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 56116,
+              "name": "E. \u0106ivi\u0107",
+              "number": 17,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 28209,
+              "name": "G. Sz\u00e9csi",
+              "number": 29,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 324234,
+              "name": "G. Szalai",
+              "number": 22,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 2396,
+          "name": "MTK Budapest",
+          "logo": "https://media.api-sports.io/football/teams/2396.png",
+          "colors": {
+            "player": {
+              "primary": "004ab9",
+              "number": "ffffff",
+              "border": "004ab9"
+            },
+            "goalkeeper": {
+              "primary": "ccccff",
+              "number": "000000",
+              "border": "ccccff"
+            }
+          }
+        },
+        "coach": {
+          "id": 4022,
+          "name": "D. Horv\u00e1th",
+          "photo": "https://media.api-sports.io/football/coachs/4022.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 27883,
+              "name": "P. Demj\u00e9n",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 28555,
+              "name": "B. Varju",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 28494,
+              "name": "D. Bob\u00e1l",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 2163,
+              "name": "T. K\u00e1d\u00e1r",
+              "number": 25,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 342469,
+              "name": "P. Kov\u00e1cs",
+              "number": 27,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 28561,
+              "name": "M. Kata",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 296097,
+              "name": "A. Horv\u00e1th",
+              "number": 14,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 196284,
+              "name": "V. Hei",
+              "number": 22,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 28558,
+              "name": "I. Bogn\u00e1r",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 237189,
+              "name": "R. Moln\u00e1r",
+              "number": 9,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 77015,
+              "name": "M. Jurina",
+              "number": 11,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 336462,
+              "name": "B. V\u00e9gh",
+              "number": 16,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 307027,
+              "name": "\u00c1. Moln\u00e1r",
+              "number": 23,
+              "pos": null,
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 50770,
+              "name": "Z. Stieber",
+              "number": 7,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 469548,
+              "name": "N. Kenesei",
+              "number": 28,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 324913,
+              "name": "A. Csenterics",
+              "number": 12,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 479359,
+              "name": "S. Bak\u00f3",
+              "number": 20,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 340540,
+              "name": "G. Sz\u0151ke",
+              "number": 26,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 325208,
+              "name": "J. Bal\u00e1zs",
+              "number": 29,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

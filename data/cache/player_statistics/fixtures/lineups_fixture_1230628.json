@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T12:02:17.285275",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1230628"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png",
+          "colors": {
+            "player": {
+              "primary": "052d72",
+              "number": "ffffff",
+              "border": "052d72"
+            },
+            "goalkeeper": {
+              "primary": "ff76d7",
+              "number": "ffffff",
+              "border": "ff76d7"
+            }
+          }
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 14532,
+              "name": "Ivan Nevisti\u0107",
+              "number": 33,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1483,
+              "name": "Stefan Ristovski",
+              "number": 22,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 1316,
+              "name": "K\u00e9vin Th\u00e9ophile-Catherine",
+              "number": 28,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 8503,
+              "name": "Samy Mmaee",
+              "number": 13,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 99,
+              "name": "Rona\u00ebl Pierre-Gabriel",
+              "number": 18,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2055,
+              "name": "Marko Rog",
+              "number": 30,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 2373,
+              "name": "Josip Mi\u0161i\u0107",
+              "number": 27,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 1317,
+              "name": "Arijan Ademi",
+              "number": 5,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 30413,
+              "name": "Marko Pjaca",
+              "number": 20,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1331,
+              "name": "Bruno Petkovi\u0107",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 105993,
+              "name": "Arber Hoxha",
+              "number": 11,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 419621,
+              "name": "Branko Pavi\u0107",
+              "number": 66,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 295026,
+              "name": "Martin Baturina",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 90599,
+              "name": "Maxime Bernauer",
+              "number": 6,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 270429,
+              "name": "Mauro Perkovi\u0107",
+              "number": 39,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 310135,
+              "name": "Lukas Ka\u010davenda",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 40405,
+              "name": "Sandro Kulenovi\u0107",
+              "number": 17,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1306,
+              "name": "Danijel Zagorac",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 14406,
+              "name": "Ivan Filipovi\u0107",
+              "number": 23,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 33101,
+              "name": "Takuya Ogiwara",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 290215,
+              "name": "Ra\u00fal Torrente",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 454294,
+              "name": "Leon Jakirovi\u0107",
+              "number": 86,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 3336,
+          "name": "I. Bi\u0161\u0107an",
+          "photo": "https://media.api-sports.io/football/coachs/3336.png"
+        }
+      },
+      {
+        "team": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "colors": {
+            "player": {
+              "primary": "688982",
+              "number": "fa5700",
+              "border": "688982"
+            },
+            "goalkeeper": {
+              "primary": "a73794",
+              "number": "000000",
+              "border": "a73794"
+            }
+          }
+        },
+        "formation": "4-1-4-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 1500,
+              "name": "Dmytro Riznyk",
+              "number": 31,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 125418,
+              "name": "Yukhym Konoplia",
+              "number": 26,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 676,
+              "name": "Valeriy Bondar",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 682,
+              "name": "Mykola Matviyenko",
+              "number": 22,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 24597,
+              "name": "Irakli Azarovi",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 698,
+              "name": "Taras Stepanenko",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 237819,
+              "name": "Kevin",
+              "number": 37,
+              "pos": "F",
+              "grid": "4:4"
+            }
+          },
+          {
+            "player": {
+              "id": 161950,
+              "name": "Artem Bondarenko",
+              "number": 21,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 161945,
+              "name": "Georgiy Sudakov",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 105320,
+              "name": "Oleksandr Zubkov",
+              "number": 11,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 555,
+              "name": "Lassina Traor\u00e9",
+              "number": 2,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": null,
+              "name": "Rostyslav Bahlai",
+              "number": 89,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 49439,
+              "name": "Alaa Ghram",
+              "number": 18,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 336696,
+              "name": "Maryan Faryna",
+              "number": 74,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 361435,
+              "name": "Luka Latsabidze",
+              "number": 55,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 299925,
+              "name": "Pedrinho",
+              "number": 38,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 374094,
+              "name": "Eguinaldo",
+              "number": 7,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Anton Glushchenko",
+              "number": 24,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 3173,
+          "name": "M. Pusic",
+          "photo": "https://media.api-sports.io/football/coachs/3173.png"
+        }
+      }
+    ]
+  }
+}

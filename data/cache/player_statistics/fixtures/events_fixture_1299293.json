@@ -1,0 +1,369 @@
+{
+  "cache_timestamp": "2025-07-04T13:25:02.031021",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1299293"
+    },
+    "errors": [],
+    "results": 16,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 41,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 128999,
+          "name": "Serge-Philippe Raux-Yao"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 24809,
+          "name": "L. Schaub"
+        },
+        "assist": {
+          "id": 182434,
+          "name": "D. Beljo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 1651,
+          "name": "K. Pi\u0105tek"
+        },
+        "assist": {
+          "id": 50180,
+          "name": "S. G\u00fcrler"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 24809,
+          "name": "L. Schaub"
+        },
+        "assist": {
+          "id": 420,
+          "name": "G. Burgstaller"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 420,
+          "name": "Guido Burgstaller"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 41973,
+          "name": "Miguel Crespo"
+        },
+        "assist": {
+          "id": 24885,
+          "name": "B. \u00d6zcan"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 69942,
+          "name": "Jo\u00e3o Figueiredo"
+        },
+        "assist": {
+          "id": 2374,
+          "name": "D. Pelkas"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 176022,
+          "name": "Matthias Seidl"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 182434,
+          "name": "Dion Drena Beljo"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 50180,
+          "name": "S. G\u00fcrler"
+        },
+        "assist": {
+          "id": 41161,
+          "name": "Davidson"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 50126,
+          "name": "D. T\u00fcr\u00fc\u00e7"
+        },
+        "assist": {
+          "id": 21082,
+          "name": "Lucas Lima"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 24809,
+          "name": "L. Schaub"
+        },
+        "assist": {
+          "id": 1718,
+          "name": "M. Hofmann"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 61820,
+          "name": "B. \u00d6zdemir"
+        },
+        "assist": {
+          "id": 21270,
+          "name": "P. Keny"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 182434,
+          "name": "D. Beljo"
+        },
+        "assist": {
+          "id": 428779,
+          "name": "N. Wurmbrand"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 277306,
+          "name": "M. Sangar\u00e9"
+        },
+        "assist": {
+          "id": 39288,
+          "name": "T. B\u00f8rkeeiet"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 5
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 420,
+          "name": "G. Burgstaller"
+        },
+        "assist": {
+          "id": 272700,
+          "name": "N. Bischof"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  }
+}

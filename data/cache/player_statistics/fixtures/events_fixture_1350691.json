@@ -1,0 +1,567 @@
+{
+  "cache_timestamp": "2025-07-04T13:03:53.586866",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1350691"
+    },
+    "errors": [],
+    "results": 25,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": -5,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 182636,
+          "name": "Javi L\u00f3pez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 16,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 47317,
+          "name": "Barrenetxea"
+        },
+        "assist": {
+          "id": 290106,
+          "name": "Pablo Mar\u00edn"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 27,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 21694,
+          "name": "N. Aguerd"
+        },
+        "assist": {
+          "id": 47298,
+          "name": "Aritz Elustondo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 30,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 377122,
+          "name": "Endrick"
+        },
+        "assist": {
+          "id": 762,
+          "name": "Vin\u00edcius J\u00fanior"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 377122,
+          "name": "Endrick"
+        },
+        "assist": {
+          "id": 278,
+          "name": "K. Mbapp\u00e9"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 47317,
+          "name": "Barrenetxea"
+        },
+        "assist": {
+          "id": 23,
+          "name": "Sergio G\u00f3mez"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 505,
+          "name": "D. Alaba"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Own Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 199044,
+          "name": "Jon Aramburu"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 757,
+          "name": "Lucas V\u00e1zquez"
+        },
+        "assist": {
+          "id": 754,
+          "name": "L. Modri\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 199044,
+          "name": "J. Aramburu"
+        },
+        "assist": {
+          "id": 2202,
+          "name": "H. Traor\u00e9"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 47323,
+          "name": "Mikel Oyarzabal"
+        },
+        "assist": {
+          "id": 32862,
+          "name": "T. Kubo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 129718,
+          "name": "J. Bellingham"
+        },
+        "assist": {
+          "id": 762,
+          "name": "Vin\u00edcius J\u00fanior"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 1271,
+          "name": "A. Tchouam\u00e9ni"
+        },
+        "assist": {
+          "id": 10009,
+          "name": "Rodrygo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 47323,
+          "name": "Mikel Oyarzabal"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 47323,
+          "name": "Mikel Oyarzabal"
+        },
+        "assist": {
+          "id": 23,
+          "name": "Sergio G\u00f3mez"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 290106,
+          "name": "Pablo Mar\u00edn"
+        },
+        "assist": {
+          "id": 182603,
+          "name": "Jon Olasagasti"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 2207,
+          "name": "E. Camavinga"
+        },
+        "assist": {
+          "id": 736,
+          "name": "Fran Garc\u00eda"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 505,
+          "name": "D. Alaba"
+        },
+        "assist": {
+          "id": 2285,
+          "name": "A. R\u00fcdiger"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 2207,
+          "name": "Eduardo Camavinga"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 105,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 47323,
+          "name": "Mikel Oyarzabal"
+        },
+        "assist": {
+          "id": 61774,
+          "name": "O. \u00d3skarsson"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 105,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 32862,
+          "name": "T. Kubo"
+        },
+        "assist": {
+          "id": 402168,
+          "name": "Arkaitz Mariezkurrena"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 105,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 341640,
+          "name": "Ra\u00fal Asencio"
+        },
+        "assist": {
+          "id": 744,
+          "name": "Brahim D\u00edaz"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 105,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 10009,
+          "name": "Rodrygo"
+        },
+        "assist": {
+          "id": 291964,
+          "name": "A. G\u00fcler"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 106,
+          "extra": null
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "player": {
+          "id": 182603,
+          "name": "Jon Ander Olasagasti"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 115,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 2285,
+          "name": "A. R\u00fcdiger"
+        },
+        "assist": {
+          "id": 291964,
+          "name": "A. G\u00fcler"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

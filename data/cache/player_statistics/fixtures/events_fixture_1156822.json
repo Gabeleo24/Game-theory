@@ -1,0 +1,61 @@
+{
+  "cache_timestamp": "2025-07-04T12:33:20.801627",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1156822"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 4,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 9475,
+          "name": "Claudinho"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 13,
+          "extra": null
+        },
+        "team": {
+          "id": 2931,
+          "name": "Al-Fateh",
+          "logo": "https://media.api-sports.io/football/teams/2931.png"
+        },
+        "player": {
+          "id": 1586,
+          "name": "C. Tello"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

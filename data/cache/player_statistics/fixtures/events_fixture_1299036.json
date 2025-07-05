@@ -1,0 +1,303 @@
+{
+  "cache_timestamp": "2025-07-04T12:17:01.259797",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1299036"
+    },
+    "errors": [],
+    "results": 13,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 8,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 162761,
+          "name": "Castello Lukeba"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png"
+        },
+        "player": {
+          "id": 6716,
+          "name": "Alexis Mac Allister"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Simulation"
+      },
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 37143,
+          "name": "Lutsharel Geertruida"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 27,
+          "extra": null
+        },
+        "team": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png"
+        },
+        "player": {
+          "id": 51617,
+          "name": "D. N\u00fa\u00f1ez"
+        },
+        "assist": {
+          "id": 306,
+          "name": "Mohamed Salah"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png"
+        },
+        "player": {
+          "id": 306,
+          "name": "Mohamed Salah"
+        },
+        "assist": {
+          "id": 2489,
+          "name": "L. D\u00edaz"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 37143,
+          "name": "L. Geertruida"
+        },
+        "assist": {
+          "id": 268571,
+          "name": "E. Bitshiabu"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 115589,
+          "name": "B. \u0160e\u0161ko"
+        },
+        "assist": {
+          "id": 715,
+          "name": "C. Baumgartner"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 340154,
+          "name": "A. Vermeeren"
+        },
+        "assist": {
+          "id": 1155,
+          "name": "K. Kampl"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png"
+        },
+        "player": {
+          "id": 51617,
+          "name": "D. N\u00fa\u00f1ez"
+        },
+        "assist": {
+          "id": 293,
+          "name": "C. Jones"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png"
+        },
+        "player": {
+          "id": 1600,
+          "name": "K. Tsimikas"
+        },
+        "assist": {
+          "id": 289,
+          "name": "A. Robertson"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png"
+        },
+        "player": {
+          "id": 283,
+          "name": "T. Alexander-Arnold"
+        },
+        "assist": {
+          "id": 284,
+          "name": "J. Gomez"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 162016,
+          "name": "X. Simons"
+        },
+        "assist": {
+          "id": 1167,
+          "name": "Y. Poulsen"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 1153,
+          "name": "A. Haidara"
+        },
+        "assist": {
+          "id": 1358,
+          "name": "E. Elmas"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

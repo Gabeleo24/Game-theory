@@ -1,0 +1,633 @@
+{
+  "cache_timestamp": "2025-07-04T12:19:29.830241",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1220031"
+    },
+    "errors": [],
+    "results": 28,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 17,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 2063,
+          "name": "Andre Silva"
+        },
+        "assist": {
+          "id": 1153,
+          "name": "A. Haidara"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 27,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 21090,
+          "name": "Diego Carlos"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 27,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 86,
+          "name": "L. Openda"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 30,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 148270,
+          "name": "O. Zych"
+        },
+        "assist": {
+          "id": 766,
+          "name": "R. Olsen"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 41,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 86,
+          "name": "L. Openda"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 42,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 21090,
+          "name": "Diego Carlos"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 42,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 21090,
+          "name": "Diego Carlos"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 1167,
+          "name": "Y. Poulsen"
+        },
+        "assist": {
+          "id": 2063,
+          "name": "Andre Silva"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 1924,
+          "name": "M. Vandevoordt"
+        },
+        "assist": {
+          "id": 1139,
+          "name": "P. Gulacsi"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 48,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 138816,
+          "name": "I. Maatsen"
+        },
+        "assist": {
+          "id": 2724,
+          "name": "L. Digne"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 48,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 138931,
+          "name": "J. Philogene"
+        },
+        "assist": {
+          "id": 2287,
+          "name": "R. Barkley"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 48,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 2926,
+          "name": "Y. Tielemans"
+        },
+        "assist": {
+          "id": 162173,
+          "name": "S. Iling Junior"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 48,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 19192,
+          "name": "J. Ramsey"
+        },
+        "assist": {
+          "id": 983,
+          "name": "L. Bailey"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": null,
+          "name": "K. Nedeljkovic"
+        },
+        "assist": {
+          "id": 19298,
+          "name": "M. Cash"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 2922,
+          "name": "L. Dendoncker"
+        },
+        "assist": {
+          "id": 162714,
+          "name": "A. Onana"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 158378,
+          "name": "E. Barrenechea"
+        },
+        "assist": {
+          "id": 19191,
+          "name": "J. McGinn"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 19071,
+          "name": "E. Buendia"
+        },
+        "assist": {
+          "id": 19170,
+          "name": "M. Rogers"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": null,
+          "name": "R. Ramsak"
+        },
+        "assist": {
+          "id": 86,
+          "name": "L. Openda"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 284457,
+          "name": "L. Bogarde"
+        },
+        "assist": {
+          "id": 46815,
+          "name": "P. Torres"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": null,
+          "name": "V. Gebel"
+        },
+        "assist": {
+          "id": 1358,
+          "name": "E. Elmas"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 413072,
+          "name": "N. Jatta"
+        },
+        "assist": {
+          "id": 380978,
+          "name": "A. Ouedraogo"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 115589,
+          "name": "B. Sesko"
+        },
+        "assist": {
+          "id": 1167,
+          "name": "Y. Poulsen"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": null,
+          "name": "J. Schuldes"
+        },
+        "assist": {
+          "id": 1148,
+          "name": "W. Orban"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": null,
+          "name": "F. Sakar"
+        },
+        "assist": {
+          "id": 22250,
+          "name": "M. Simakan"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 7328,
+          "name": "N. Seiwald"
+        },
+        "assist": {
+          "id": 1153,
+          "name": "A. Haidara"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png"
+        },
+        "player": {
+          "id": 47547,
+          "name": "A. Moreno"
+        },
+        "assist": {
+          "id": 19192,
+          "name": "J. Ramsey"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": null,
+          "name": "W. Osawe"
+        },
+        "assist": {
+          "id": 1155,
+          "name": "K. Kampl"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 364662,
+          "name": "J. Norbye"
+        },
+        "assist": {
+          "id": 268571,
+          "name": "E. Bitshiabu"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      }
+    ]
+  }
+}

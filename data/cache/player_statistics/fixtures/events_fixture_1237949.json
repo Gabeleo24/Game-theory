@@ -1,0 +1,523 @@
+{
+  "cache_timestamp": "2025-07-04T11:50:43.466550",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1237949"
+    },
+    "errors": [],
+    "results": 23,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 3,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": 1462,
+          "name": "L. Torreira"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 30,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 2709,
+          "name": "Youssef A\u00eft Bennasser"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 34,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "Victor Osimhen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 158121,
+          "name": "I. Jakobs"
+        },
+        "assist": {
+          "id": 15912,
+          "name": "V. Nelsson"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 429,
+          "name": "Fernando Muslera"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 50,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 1130,
+          "name": "O. Ntcham"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 50091,
+          "name": "Emre K\u0131l\u0131n\u00e7"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 50091,
+          "name": "E. K\u0131l\u0131n\u00e7"
+        },
+        "assist": {
+          "id": 85369,
+          "name": "G. Laura"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 1434,
+          "name": "L. Dimata"
+        },
+        "assist": {
+          "id": 24970,
+          "name": "K. Schindler"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 168,
+          "name": "Davinson S\u00e1nchez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 63274,
+          "name": "B. Y\u0131lmaz"
+        },
+        "assist": {
+          "id": 264627,
+          "name": "B. Kutlu"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 332,
+          "name": "D. Mertens"
+        },
+        "assist": {
+          "id": 2927,
+          "name": "M. Batshuayi"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 2139,
+          "name": "Z. Yavru"
+        },
+        "assist": {
+          "id": 137403,
+          "name": "A. Muja"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 15837,
+          "name": "C. Holse"
+        },
+        "assist": {
+          "id": 49848,
+          "name": "S. Aydo\u011fdu"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": 548,
+          "name": "H. Ziyech"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2927,
+          "name": "M. Batshuayi"
+        },
+        "assist": {
+          "id": 548,
+          "name": "H. Ziyech"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 454,
+          "name": "Y. Akg\u00fcn"
+        },
+        "assist": {
+          "id": 341234,
+          "name": "E. Jelert"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 1130,
+          "name": "O. Ntcham"
+        },
+        "assist": {
+          "id": 21154,
+          "name": "F. Tait"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 49848,
+          "name": "Soner Aydo\u011fdu"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 5
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 21154,
+          "name": "Flavien Tait"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 7
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 137403,
+          "name": "Arbnor Muja"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "player": {
+          "id": 2709,
+          "name": "Y. Bennasser"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      }
+    ]
+  }
+}

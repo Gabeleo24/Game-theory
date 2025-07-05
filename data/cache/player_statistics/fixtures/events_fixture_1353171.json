@@ -1,0 +1,677 @@
+{
+  "cache_timestamp": "2025-07-04T13:03:57.964023",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1353171"
+    },
+    "errors": [],
+    "results": 30,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 1,
+          "extra": null
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 67972,
+          "name": "C. Gallagher"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 39,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 1271,
+          "name": "Aur\u00e9lien Tchouam\u00e9ni"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 762,
+          "name": "Vin\u00edcius J\u00fanior"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 754,
+          "name": "L. Modri\u0107"
+        },
+        "assist": {
+          "id": 757,
+          "name": "Lucas V\u00e1zquez"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 1271,
+          "name": "A. Tchouam\u00e9ni"
+        },
+        "assist": {
+          "id": 2207,
+          "name": "E. Camavinga"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 323935,
+          "name": "Giuliano Simeone"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Persistent fouling"
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 133,
+          "name": "Cl\u00e9ment Lenglet"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 762,
+          "name": "Vin\u00edcius J\u00fanior"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 10009,
+          "name": "Rodrygo"
+        },
+        "assist": {
+          "id": 744,
+          "name": "Brahim D\u00edaz"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 653,
+          "name": "F. Mendy"
+        },
+        "assist": {
+          "id": 736,
+          "name": "Fran Garc\u00eda"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 67972,
+          "name": "C. Gallagher"
+        },
+        "assist": {
+          "id": 126936,
+          "name": "Samuel Lino"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 56,
+          "name": "A. Griezmann"
+        },
+        "assist": {
+          "id": 8492,
+          "name": "A. S\u00f8rloth"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 323935,
+          "name": "G. Simeone"
+        },
+        "assist": {
+          "id": 53,
+          "name": "\u00c1. Correa"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 2472,
+          "name": "R. De Paul"
+        },
+        "assist": {
+          "id": 6503,
+          "name": "N. Molina"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 133,
+          "name": "C. Lenglet"
+        },
+        "assist": {
+          "id": 47301,
+          "name": "Robin Le Normand"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 98,
+          "extra": null
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 22225,
+          "name": "Reinildo"
+        },
+        "assist": {
+          "id": 2280,
+          "name": "C\u00e9sar Azpilicueta"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 114,
+          "extra": null
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 2280,
+          "name": "C\u00e9sar Azpilicueta"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 115,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 757,
+          "name": "Lucas V\u00e1zquez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 115,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 762,
+          "name": "Vin\u00edcius J\u00fanior"
+        },
+        "assist": {
+          "id": 377122,
+          "name": "Endrick"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 115,
+          "extra": null
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 753,
+          "name": "Marcos Llorente"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 1
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 278,
+          "name": "K. Mbapp\u00e9"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 2
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 8492,
+          "name": "A. S\u00f8rloth"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 3
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 129718,
+          "name": "J. Bellingham"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 4
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 6009,
+          "name": "J. Alvarez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 5
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 756,
+          "name": "F. Valverde"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 6
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 53,
+          "name": "\u00c1. Correa"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 7
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "player": {
+          "id": 753,
+          "name": "Marcos Llorente"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 8
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 757,
+          "name": "Lucas V\u00e1zquez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 9
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 2285,
+          "name": "A. R\u00fcdiger"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 128,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 278,
+          "name": "Kylian Mbapp\u00e9"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      }
+    ]
+  }
+}

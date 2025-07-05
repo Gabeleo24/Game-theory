@@ -1,0 +1,281 @@
+{
+  "cache_timestamp": "2025-07-04T13:19:23.982981",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1210438"
+    },
+    "errors": [],
+    "results": 12,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 29,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 409303,
+          "name": "E. Diouf"
+        },
+        "assist": {
+          "id": 66353,
+          "name": "L. Provod"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 3713,
+          "name": "Ban\u00edk Ostrava",
+          "logo": "https://media.api-sports.io/football/teams/3713.png"
+        },
+        "player": {
+          "id": 353898,
+          "name": "M. \u0160\u00edn"
+        },
+        "assist": {
+          "id": 127357,
+          "name": "A. Tanko"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 3713,
+          "name": "Ban\u00edk Ostrava",
+          "logo": "https://media.api-sports.io/football/teams/3713.png"
+        },
+        "player": {
+          "id": 66072,
+          "name": "D. Holzer"
+        },
+        "assist": {
+          "id": 48087,
+          "name": "P. Kpozo"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 15328,
+          "name": "I. Schranz"
+        },
+        "assist": {
+          "id": 66208,
+          "name": "O. Lingr"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 818,
+          "name": "T. Chor\u00fd"
+        },
+        "assist": {
+          "id": 66275,
+          "name": "M. Chytil"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 3713,
+          "name": "Ban\u00edk Ostrava",
+          "logo": "https://media.api-sports.io/football/teams/3713.png"
+        },
+        "player": {
+          "id": 105726,
+          "name": "E. Prekop"
+        },
+        "assist": {
+          "id": 66743,
+          "name": "F. Kubala"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 216762,
+          "name": "Christos Zafeiris"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 9
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 265826,
+          "name": "Antonin Kinsky"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 3713,
+          "name": "Ban\u00edk Ostrava",
+          "logo": "https://media.api-sports.io/football/teams/3713.png"
+        },
+        "player": {
+          "id": 66257,
+          "name": "Ewerton"
+        },
+        "assist": {
+          "id": 471381,
+          "name": "U. Aririerisim"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 3713,
+          "name": "Ban\u00edk Ostrava",
+          "logo": "https://media.api-sports.io/football/teams/3713.png"
+        },
+        "player": {
+          "id": 66070,
+          "name": "D. Buchta"
+        },
+        "assist": {
+          "id": 66391,
+          "name": "J. Kl\u00edma"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 5
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 216762,
+          "name": "C. Zafeiris"
+        },
+        "assist": {
+          "id": 337740,
+          "name": "\u0160. Chaloupek"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 66353,
+          "name": "L. Provod"
+        },
+        "assist": {
+          "id": 394698,
+          "name": "D. Pech"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "cache_timestamp": "2025-07-04T13:34:59.221143",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1287607"
+    },
+    "errors": [],
+    "results": 21,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 5,
+          "extra": null
+        },
+        "team": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png"
+        },
+        "player": {
+          "id": 50832,
+          "name": "Milton Valenzuela"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 7,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 1863,
+          "name": "C. Immobile"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 28,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 569,
+          "name": "Gedson Fernandes"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 42,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 336567,
+          "name": "Semih K\u0131l\u0131\u00e7soy"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png"
+        },
+        "player": {
+          "id": 383023,
+          "name": "A. El Wafi"
+        },
+        "assist": {
+          "id": 503,
+          "name": "L. Mai"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png"
+        },
+        "player": {
+          "id": 67195,
+          "name": "M. Hadj Mahmoud"
+        },
+        "assist": {
+          "id": 48693,
+          "name": "O. Doumbia"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png"
+        },
+        "player": {
+          "id": 162948,
+          "name": "S. Vladi"
+        },
+        "assist": {
+          "id": 5939,
+          "name": "I. Aliseda"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 50046,
+          "name": "Emirhan Top\u00e7u"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 569,
+          "name": "Gedson Fernandes"
+        },
+        "assist": {
+          "id": 573,
+          "name": "Rafa"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 336567,
+          "name": "S. K\u0131l\u0131\u00e7soy"
+        },
+        "assist": {
+          "id": 3638,
+          "name": "E. Mu\u00e7i"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 573,
+          "name": "Rafa"
+        },
+        "assist": {
+          "id": 25324,
+          "name": "M. Rashica"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png"
+        },
+        "player": {
+          "id": 48520,
+          "name": "A. Grgic"
+        },
+        "assist": {
+          "id": 48413,
+          "name": "M. Bottani"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 1863,
+          "name": "C. Immobile"
+        },
+        "assist": {
+          "id": 569,
+          "name": "Gedson Fernandes"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png"
+        },
+        "player": {
+          "id": 322626,
+          "name": "M. Zanotti"
+        },
+        "assist": {
+          "id": 50779,
+          "name": "Z. Brault-Guillard"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png"
+        },
+        "player": {
+          "id": 162948,
+          "name": "S. Vladi"
+        },
+        "assist": {
+          "id": 193645,
+          "name": "Y. Cimignani"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 25324,
+          "name": "M. Rashica"
+        },
+        "assist": {
+          "id": 311083,
+          "name": "C. Ndour"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 1863,
+          "name": "C. Immobile"
+        },
+        "assist": {
+          "id": 436179,
+          "name": "M. Hekimo\u011flu"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 573,
+          "name": "Rafa"
+        },
+        "assist": {
+          "id": 128955,
+          "name": "C. Kele\u015f"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 569,
+          "name": "Gedson Fernandes"
+        },
+        "assist": {
+          "id": 31058,
+          "name": "S. U\u00e7an"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 606,
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png"
+        },
+        "player": {
+          "id": 125708,
+          "name": "Uran Bislimi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 31058,
+          "name": "S. U\u00e7an"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

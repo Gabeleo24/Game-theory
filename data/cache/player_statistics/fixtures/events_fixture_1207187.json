@@ -1,0 +1,105 @@
+{
+  "cache_timestamp": "2025-07-04T13:00:05.173473",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1207187"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 1,
+          "extra": null
+        },
+        "team": {
+          "id": 1014,
+          "name": "Lausanne",
+          "logo": "https://media.api-sports.io/football/teams/1014.png"
+        },
+        "player": {
+          "id": 56303,
+          "name": "M. K. Sene"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 44,
+          "extra": null
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "player": {
+          "id": 153290,
+          "name": "V. Gomez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "player": {
+          "id": 41103,
+          "name": "R. Horta"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "player": {
+          "id": 193188,
+          "name": "A. El Ouazzani"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

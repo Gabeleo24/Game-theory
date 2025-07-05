@@ -1,0 +1,325 @@
+{
+  "cache_timestamp": "2025-07-04T13:16:38.738544",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1208780"
+    },
+    "errors": [],
+    "results": 14,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 10,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 1489,
+          "name": "Nemanja Gudelj"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 162126,
+          "name": "Peque Fern\u00e1ndez"
+        },
+        "assist": {
+          "id": 21004,
+          "name": "L. Agoum\u00e9"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 42,
+          "extra": null
+        },
+        "team": {
+          "id": 542,
+          "name": "Alaves",
+          "logo": "https://media.api-sports.io/football/teams/542.png"
+        },
+        "player": {
+          "id": 104821,
+          "name": "Jon Guridi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 542,
+          "name": "Alaves",
+          "logo": "https://media.api-sports.io/football/teams/542.png"
+        },
+        "player": {
+          "id": 47396,
+          "name": "Kike Garc\u00eda"
+        },
+        "assist": {
+          "id": 187214,
+          "name": "Carlos Vicente"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 39121,
+          "name": "C. Ejuke"
+        },
+        "assist": {
+          "id": 48,
+          "name": "Sa\u00fal"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 185398,
+          "name": "Isaac Romero"
+        },
+        "assist": {
+          "id": 1650,
+          "name": "Suso"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 21004,
+          "name": "L. Agoum\u00e9"
+        },
+        "assist": {
+          "id": 957,
+          "name": "D. Sow"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 542,
+          "name": "Alaves",
+          "logo": "https://media.api-sports.io/football/teams/542.png"
+        },
+        "player": {
+          "id": 143,
+          "name": "Carles Ale\u00f1\u00e1"
+        },
+        "assist": {
+          "id": 51241,
+          "name": "T. Conechny"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 542,
+          "name": "Alaves",
+          "logo": "https://media.api-sports.io/football/teams/542.png"
+        },
+        "player": {
+          "id": 104821,
+          "name": "Jon Guridi"
+        },
+        "assist": {
+          "id": 324750,
+          "name": "Carlos Mart\u00edn"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 542,
+          "name": "Alaves",
+          "logo": "https://media.api-sports.io/football/teams/542.png"
+        },
+        "player": {
+          "id": 47389,
+          "name": "Joan Jord\u00e1n"
+        },
+        "assist": {
+          "id": 47309,
+          "name": "Ander Guevara"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 195923,
+          "name": "Jos\u00e9 \u00c1ngel Carmona"
+        },
+        "assist": {
+          "id": 182772,
+          "name": "Juanlu S\u00e1nchez"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 162126,
+          "name": "Peque Fern\u00e1ndez"
+        },
+        "assist": {
+          "id": 331607,
+          "name": "Manu Bueno"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 542,
+          "name": "Alaves",
+          "logo": "https://media.api-sports.io/football/teams/542.png"
+        },
+        "player": {
+          "id": 70476,
+          "name": "Moussa Diarra"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 1650,
+          "name": "Suso"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      }
+    ]
+  }
+}

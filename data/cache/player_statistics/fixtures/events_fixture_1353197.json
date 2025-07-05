@@ -1,0 +1,501 @@
+{
+  "cache_timestamp": "2025-07-04T12:49:26.161105",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1353197"
+    },
+    "errors": [],
+    "results": 22,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 30,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 351483,
+          "name": "Fredrik Sj\u00f8vold"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 36,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 15704,
+          "name": "K. H\u00f8gh"
+        },
+        "assist": {
+          "id": 39073,
+          "name": "J. Hauge"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 39,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 118,
+          "name": "Gelson Martins"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Simulation"
+      },
+      {
+        "time": {
+          "elapsed": 41,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 10157,
+          "name": "Rodinei"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 195929,
+          "name": "S. Hezze"
+        },
+        "assist": {
+          "id": 392514,
+          "name": "C. Mouzakitis"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 51036,
+          "name": "Andr\u00e9 Horta"
+        },
+        "assist": {
+          "id": 8493,
+          "name": "R. Yaremchuk"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 8493,
+          "name": "R. Yaremchuk"
+        },
+        "assist": {
+          "id": 392514,
+          "name": "C. Mouzakitis"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 41130,
+          "name": "Chiquinho"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 10157,
+          "name": "Rodinei"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 8493,
+          "name": "R. Yaremchuk"
+        },
+        "assist": {
+          "id": 392514,
+          "name": "C. Mouzakitis"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 15704,
+          "name": "K. H\u00f8gh"
+        },
+        "assist": {
+          "id": 39099,
+          "name": "A. Helmersen"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 351483,
+          "name": "F. Sj\u00f8vold"
+        },
+        "assist": {
+          "id": 57173,
+          "name": "B. Wembangomo"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 39055,
+          "name": "Nikita Haikin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 6064,
+          "name": "F. Ortega"
+        },
+        "assist": {
+          "id": 278196,
+          "name": "B. Onyemaechi"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 118,
+          "name": "Gelson Martins"
+        },
+        "assist": {
+          "id": 27760,
+          "name": "L. Palma"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 41130,
+          "name": "Chiquinho"
+        },
+        "assist": {
+          "id": 84081,
+          "name": "G. Biancone"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 39073,
+          "name": "J. Hauge"
+        },
+        "assist": {
+          "id": 449592,
+          "name": "V. Nielsen"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 39065,
+          "name": "H\u00e5kon Evjen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 1591,
+          "name": "Konstantinos Tzolakis"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Professional foul last man"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 39065,
+          "name": "H. Evjen"
+        },
+        "assist": {
+          "id": 57153,
+          "name": "I. M\u00e4\u00e4tt\u00e4"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 39069,
+          "name": "U. Saltnes"
+        },
+        "assist": {
+          "id": 262598,
+          "name": "S. Auklend"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 84081,
+          "name": "Giulian Biancone"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      }
+    ]
+  }
+}

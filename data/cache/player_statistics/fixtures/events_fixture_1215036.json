@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T12:50:33.933111",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1215036"
+    },
+    "errors": [],
+    "results": 19,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 9,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 345208,
+          "name": "Roey Elimelech"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 2253,
+          "name": "Hapoel Haifa",
+          "logo": "https://media.api-sports.io/football/teams/2253.png"
+        },
+        "player": {
+          "id": 192753,
+          "name": "Aboubacar Doumbia"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 8450,
+          "name": "Abdoulaye Seck"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 2253,
+          "name": "Hapoel Haifa",
+          "logo": "https://media.api-sports.io/football/teams/2253.png"
+        },
+        "player": {
+          "id": 111335,
+          "name": "S. Goldberg"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Own Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 345208,
+          "name": "R. Elimelech"
+        },
+        "assist": {
+          "id": 105846,
+          "name": "M. Kandil"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 111264,
+          "name": "G. Melamed"
+        },
+        "assist": {
+          "id": 308839,
+          "name": "X. Severina"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 136155,
+          "name": "M. Jaber"
+        },
+        "assist": {
+          "id": 106804,
+          "name": "G. Kinda"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 2253,
+          "name": "Hapoel Haifa",
+          "logo": "https://media.api-sports.io/football/teams/2253.png"
+        },
+        "player": {
+          "id": 192753,
+          "name": "A. Doumbia"
+        },
+        "assist": {
+          "id": 263536,
+          "name": "A. Zargari"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 2253,
+          "name": "Hapoel Haifa",
+          "logo": "https://media.api-sports.io/football/teams/2253.png"
+        },
+        "player": {
+          "id": 110538,
+          "name": "D. Hugi"
+        },
+        "assist": {
+          "id": 32266,
+          "name": "J. East"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 2253,
+          "name": "Hapoel Haifa",
+          "logo": "https://media.api-sports.io/football/teams/2253.png"
+        },
+        "player": {
+          "id": 296741,
+          "name": "I. Boganim"
+        },
+        "assist": {
+          "id": 105494,
+          "name": "O. Biton"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 106804,
+          "name": "Gadi Kinda"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 2253,
+          "name": "Hapoel Haifa",
+          "logo": "https://media.api-sports.io/football/teams/2253.png"
+        },
+        "player": {
+          "id": 111293,
+          "name": "Dor Malul"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 106804,
+          "name": "Gadi Kinda"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 50990,
+          "name": "K. Saief"
+        },
+        "assist": {
+          "id": 304334,
+          "name": "I. Hagag"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 111277,
+          "name": "D. David"
+        },
+        "assist": {
+          "id": 306368,
+          "name": "Ricardinho"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 2253,
+          "name": "Hapoel Haifa",
+          "logo": "https://media.api-sports.io/football/teams/2253.png"
+        },
+        "player": {
+          "id": 110618,
+          "name": "N. Sabag"
+        },
+        "assist": {
+          "id": 111376,
+          "name": "L. Serdal"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 110987,
+          "name": "Dolev Haziza"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 2253,
+          "name": "Hapoel Haifa",
+          "logo": "https://media.api-sports.io/football/teams/2253.png"
+        },
+        "player": {
+          "id": 56000,
+          "name": "Yoav Gerafi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 8
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 8461,
+          "name": "L. Refaelov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

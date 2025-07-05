@@ -1,0 +1,83 @@
+{
+  "cache_timestamp": "2025-07-04T12:24:26.067582",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1244919"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 4,
+          "extra": null
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": null,
+          "name": "Lindstrom"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 10,
+          "extra": null
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": null,
+          "name": "Spinazzola"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 16,
+          "extra": null
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": null,
+          "name": "Cheddira"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

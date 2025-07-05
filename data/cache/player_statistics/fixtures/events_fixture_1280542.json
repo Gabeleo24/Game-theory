@@ -1,0 +1,259 @@
+{
+  "cache_timestamp": "2025-07-04T11:45:35.222245",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1280542"
+    },
+    "errors": [],
+    "results": 11,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 81,
+          "name": "Marseille",
+          "logo": "https://media.api-sports.io/football/teams/81.png"
+        },
+        "player": {
+          "id": 10077,
+          "name": "Luis Henrique"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 21,
+          "extra": null
+        },
+        "team": {
+          "id": 81,
+          "name": "Marseille",
+          "logo": "https://media.api-sports.io/football/teams/81.png"
+        },
+        "player": {
+          "id": 897,
+          "name": "M. Greenwood"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 170,
+          "name": "FC Augsburg",
+          "logo": "https://media.api-sports.io/football/teams/170.png"
+        },
+        "player": {
+          "id": 25290,
+          "name": "J. Gouweleeuw"
+        },
+        "assist": {
+          "id": 25355,
+          "name": "A. Maier"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 170,
+          "name": "FC Augsburg",
+          "logo": "https://media.api-sports.io/football/teams/170.png"
+        },
+        "player": {
+          "id": 202755,
+          "name": "T. Breithaupt"
+        },
+        "assist": {
+          "id": 14395,
+          "name": "K. Jakic"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 170,
+          "name": "FC Augsburg",
+          "logo": "https://media.api-sports.io/football/teams/170.png"
+        },
+        "player": {
+          "id": 163064,
+          "name": "D. Klein"
+        },
+        "assist": {
+          "id": 14553,
+          "name": "N. Labrovic"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 170,
+          "name": "FC Augsburg",
+          "logo": "https://media.api-sports.io/football/teams/170.png"
+        },
+        "player": {
+          "id": 25413,
+          "name": "E. Rexhbecaj"
+        },
+        "assist": {
+          "id": 3395,
+          "name": "S. Mounie"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 170,
+          "name": "FC Augsburg",
+          "logo": "https://media.api-sports.io/football/teams/170.png"
+        },
+        "player": {
+          "id": 348888,
+          "name": "M. Komur"
+        },
+        "assist": {
+          "id": 25299,
+          "name": "F. Jensen"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 170,
+          "name": "FC Augsburg",
+          "logo": "https://media.api-sports.io/football/teams/170.png"
+        },
+        "player": {
+          "id": 26171,
+          "name": "P. Tietz"
+        },
+        "assist": {
+          "id": 25355,
+          "name": "A. Maier"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 81,
+          "name": "Marseille",
+          "logo": "https://media.api-sports.io/football/teams/81.png"
+        },
+        "player": {
+          "id": 412,
+          "name": "A. Harit"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 170,
+          "name": "FC Augsburg",
+          "logo": "https://media.api-sports.io/football/teams/170.png"
+        },
+        "player": {
+          "id": 319858,
+          "name": "H. Koudossou"
+        },
+        "assist": {
+          "id": 8651,
+          "name": "S. Essende"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 170,
+          "name": "FC Augsburg",
+          "logo": "https://media.api-sports.io/football/teams/170.png"
+        },
+        "player": {
+          "id": 322508,
+          "name": "Y. Kabadayi"
+        },
+        "assist": {
+          "id": 2360,
+          "name": "D. Giannoulis"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      }
+    ]
+  }
+}

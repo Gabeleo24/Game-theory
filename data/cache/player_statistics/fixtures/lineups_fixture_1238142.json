@@ -1,0 +1,453 @@
+{
+  "cache_timestamp": "2025-07-04T11:51:27.605238",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1238142"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 3588,
+          "name": "Ey\u00fcpspor",
+          "logo": "https://media.api-sports.io/football/teams/3588.png",
+          "colors": {
+            "player": {
+              "primary": "39236d",
+              "number": "e0aa1b",
+              "border": "39236d"
+            },
+            "goalkeeper": {
+              "primary": "41e4db",
+              "number": "ffffff",
+              "border": "41e4db"
+            }
+          }
+        },
+        "coach": {
+          "id": 19792,
+          "name": "A. Turan",
+          "photo": "https://media.api-sports.io/football/coachs/19792.png"
+        },
+        "formation": "4-1-4-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 1337,
+              "name": "B. \u00d6zer",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 47457,
+              "name": "R\u00faben Vezo",
+              "number": 14,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 49917,
+              "name": "R. Yal\u00e7\u0131n",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 61809,
+              "name": "Luccas Claro",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 50223,
+              "name": "U. Mera\u015f",
+              "number": 77,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 50181,
+              "name": "Y. Kayan",
+              "number": 30,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 47446,
+              "name": "E. Mor",
+              "number": 66,
+              "pos": "M",
+              "grid": "4:4"
+            }
+          },
+          {
+            "player": {
+              "id": 158431,
+              "name": "M. Kabasakal",
+              "number": 57,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 443,
+              "name": "E. Akbaba",
+              "number": 8,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 14565,
+              "name": "P. Ampem",
+              "number": 40,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 50464,
+              "name": "M. Thiam",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 1978,
+              "name": "C. Erkin",
+              "number": 88,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 50174,
+              "name": "H. Akbunar",
+              "number": 7,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 21447,
+              "name": "U. Bozok",
+              "number": 19,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 50176,
+              "name": "T. Bing\u00f6l",
+              "number": 75,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 451830,
+              "name": "H. Maldar",
+              "number": 17,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 62906,
+              "name": "B. Tetik",
+              "number": 71,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1985,
+              "name": "D. Tok\u00f6z",
+              "number": 5,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 61847,
+              "name": "R. Niyaz",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 364378,
+              "name": "H. Akman",
+              "number": 81,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 62168,
+              "name": "A. K\u00f6seer",
+              "number": 26,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "a02727",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "ffdf00",
+              "number": "fefbfb",
+              "border": "ffdf00"
+            }
+          }
+        },
+        "coach": {
+          "id": 1442,
+          "name": "O. Buruk",
+          "photo": "https://media.api-sports.io/football/coachs/1442.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 429,
+              "name": "F. Muslera",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 3007,
+              "name": "P. Frankowski",
+              "number": 29,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 168,
+              "name": "D. S\u00e1nchez",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 61837,
+              "name": "A. Bardakc\u0131",
+              "number": 42,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 50057,
+              "name": "E. Elmal\u0131",
+              "number": 17,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1462,
+              "name": "L. Torreira",
+              "number": 34,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 18947,
+              "name": "M. Lemina",
+              "number": 99,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 454,
+              "name": "Y. Akg\u00fcn",
+              "number": 11,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 80552,
+              "name": "Gabriel Sara",
+              "number": 20,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 26252,
+              "name": "R. Sallai",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2780,
+              "name": "V. Osimhen",
+              "number": 45,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 25448,
+              "name": "K. Ayhan",
+              "number": 23,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 59,
+              "name": "\u00c1lvaro Morata",
+              "number": 77,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 422,
+              "name": "A. Kutucu",
+              "number": 21,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 332,
+              "name": "D. Mertens",
+              "number": 10,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 717,
+              "name": "K. Demirbay",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 61950,
+              "name": "G. G\u00fcven\u00e7",
+              "number": 19,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 131294,
+              "name": "Y. Demir",
+              "number": 30,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 264627,
+              "name": "B. Kutlu",
+              "number": 18,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 158121,
+              "name": "I. Jakobs",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162000,
+              "name": "M. Baltac\u0131",
+              "number": 90,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "cache_timestamp": "2025-07-04T12:36:29.109875",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1221063"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "0b2d68",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "faff00",
+              "number": "ffffff",
+              "border": "faff00"
+            }
+          }
+        },
+        "coach": {
+          "id": 21868,
+          "name": "O. Shovkovskyi",
+          "photo": "https://media.api-sports.io/football/coachs/21868.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 154864,
+              "name": "R. Neshcheret",
+              "number": 35,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 55877,
+              "name": "O. Karavaiev",
+              "number": 20,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 162227,
+              "name": "K. Bilovar",
+              "number": 40,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 385027,
+              "name": "T. Mykhavko",
+              "number": 32,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 63564,
+              "name": "V. Dubinchak",
+              "number": 44,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 161570,
+              "name": "M. Mykhailenko",
+              "number": 91,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 2177,
+              "name": "M. Shaparenko",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 18834,
+              "name": "A. Yarmolenko",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 2172,
+              "name": "V. Buialskyi",
+              "number": 29,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 63452,
+              "name": "V. Kabaiev",
+              "number": 22,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 161670,
+              "name": "V. Vanat",
+              "number": 11,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 95105,
+              "name": "E. Guerrero",
+              "number": 39,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 198391,
+              "name": "N. Voloshyn",
+              "number": 9,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63420,
+              "name": "O. Pikhalionok",
+              "number": 76,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63637,
+              "name": "V. Rubchynskyi",
+              "number": 15,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63378,
+              "name": "V. Luchkevych",
+              "number": 27,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162232,
+              "name": "V. Morhun",
+              "number": 51,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 395550,
+              "name": "M. Ponomarenko",
+              "number": 99,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 198390,
+              "name": "M. Diachuk",
+              "number": 25,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 290055,
+              "name": "D. Ihnatenko",
+              "number": 74,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63434,
+              "name": "O. Tymchyk",
+              "number": 18,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 161686,
+              "name": "K. Vivcharenko",
+              "number": 2,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 345440,
+              "name": "D. Kremchanin",
+              "number": 47,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 3630,
+          "name": "Obolon'-Brovar",
+          "logo": "https://media.api-sports.io/football/teams/3630.png",
+          "colors": {
+            "player": {
+              "primary": "2a865f",
+              "number": "ffffff",
+              "border": "2a865f"
+            },
+            "goalkeeper": {
+              "primary": "0d31d4",
+              "number": "ffffff",
+              "border": "0d31d4"
+            }
+          }
+        },
+        "coach": {
+          "id": 4870,
+          "name": "S. Shyshchenko",
+          "photo": "https://media.api-sports.io/football/coachs/4870.png"
+        },
+        "formation": "5-3-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 428242,
+              "name": "D. Marchenko",
+              "number": 31,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 101467,
+              "name": "O. Illin",
+              "number": 79,
+              "pos": "D",
+              "grid": "2:5"
+            }
+          },
+          {
+            "player": {
+              "id": 105337,
+              "name": "D. Karas",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 63464,
+              "name": "V. Pryimak",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 264644,
+              "name": "V. Dubko",
+              "number": 37,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 130904,
+              "name": "P. Stasiuk",
+              "number": 15,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 63813,
+              "name": "V. Vitenchuk",
+              "number": 44,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 63650,
+              "name": "V. Kurko",
+              "number": 95,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 63904,
+              "name": "V. Hrusha",
+              "number": 25,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 63402,
+              "name": "D. Ustymenko",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 308069,
+              "name": "K. Bychek",
+              "number": 21,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 276636,
+              "name": "D. Tesliuk",
+              "number": 99,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 172844,
+              "name": "T. Moroz",
+              "number": 4,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 161669,
+              "name": "V. Bliznichenko",
+              "number": 7,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63716,
+              "name": "O. Slobodian",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63711,
+              "name": "I. Medynskyi",
+              "number": 13,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63840,
+              "name": "M. Hrysio",
+              "number": 11,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63902,
+              "name": "R. Chernenko",
+              "number": 17,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 101307,
+              "name": "O. Rybka",
+              "number": 23,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63695,
+              "name": "N. Fedorivskyi",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 101460,
+              "name": "R. Taranukha",
+              "number": 8,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 126798,
+              "name": "S. Sukhanov",
+              "number": 55,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63566,
+              "name": "O. Osman",
+              "number": 5,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "cache_timestamp": "2025-07-04T12:15:30.970318",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1372057"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 691,
+          "name": "Milsami Orhei",
+          "logo": "https://media.api-sports.io/football/teams/691.png"
+        },
+        "player": {
+          "id": 344057,
+          "name": "I. Ndon"
+        },
+        "assist": {
+          "id": 144630,
+          "name": "M. Gopey"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 568,
+          "name": "Sheriff Tiraspol",
+          "logo": "https://media.api-sports.io/football/teams/568.png"
+        },
+        "player": {
+          "id": 196353,
+          "name": "R. Akanbi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 568,
+          "name": "Sheriff Tiraspol",
+          "logo": "https://media.api-sports.io/football/teams/568.png"
+        },
+        "player": {
+          "id": 24585,
+          "name": "V. Mamuchashvili"
+        },
+        "assist": {
+          "id": 182019,
+          "name": "A. Mija"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 568,
+          "name": "Sheriff Tiraspol",
+          "logo": "https://media.api-sports.io/football/teams/568.png"
+        },
+        "player": {
+          "id": 142016,
+          "name": "Jo\u00e3o Paulo"
+        },
+        "assist": {
+          "id": 66759,
+          "name": "A. Maru\u0161i\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 691,
+          "name": "Milsami Orhei",
+          "logo": "https://media.api-sports.io/football/teams/691.png"
+        },
+        "player": {
+          "id": 106009,
+          "name": "V. Jardan"
+        },
+        "assist": {
+          "id": 56067,
+          "name": "A. Antoniuc"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 691,
+          "name": "Milsami Orhei",
+          "logo": "https://media.api-sports.io/football/teams/691.png"
+        },
+        "player": {
+          "id": 295428,
+          "name": "C. Nwaeze"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": null
+      }
+    ]
+  }
+}

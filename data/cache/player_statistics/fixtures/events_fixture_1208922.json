@@ -1,0 +1,545 @@
+{
+  "cache_timestamp": "2025-07-04T12:17:39.364850",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1208922"
+    },
+    "errors": [],
+    "results": 24,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 362564,
+          "name": "A. Daghim"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 115587,
+          "name": "M. Kjaergaard"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 302869,
+          "name": "D. Nene"
+        },
+        "assist": {
+          "id": 115587,
+          "name": "M. Kjaergaard"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 1314,
+          "name": "SpVgg Unterhaching",
+          "logo": "https://media.api-sports.io/football/teams/1314.png"
+        },
+        "player": {
+          "id": 265361,
+          "name": "V. Zentrich"
+        },
+        "assist": {
+          "id": 25075,
+          "name": "S. Maier"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 1314,
+          "name": "SpVgg Unterhaching",
+          "logo": "https://media.api-sports.io/football/teams/1314.png"
+        },
+        "player": {
+          "id": 407041,
+          "name": "A. Leuthard"
+        },
+        "assist": {
+          "id": 278735,
+          "name": "B. Mashigo"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 334178,
+          "name": "H. Blank"
+        },
+        "assist": {
+          "id": 119762,
+          "name": "K. Piatkowski"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 322984,
+          "name": "S. Baidoo"
+        },
+        "assist": {
+          "id": 115588,
+          "name": "B. Okoh"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 237116,
+          "name": "S. Tijani"
+        },
+        "assist": {
+          "id": 381810,
+          "name": "M. K. Yeo"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 162189,
+          "name": "M. Bidstrup"
+        },
+        "assist": {
+          "id": 362564,
+          "name": "A. Daghim"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 329715,
+          "name": "O. Gloukh"
+        },
+        "assist": {
+          "id": 302915,
+          "name": "M. Diambou"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 304026,
+          "name": "A. Forson"
+        },
+        "assist": {
+          "id": 331865,
+          "name": "K. Konate"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 271066,
+          "name": "R. Simic"
+        },
+        "assist": {
+          "id": 5973,
+          "name": "N. Capaldo"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 349,
+          "name": "A. Terzic"
+        },
+        "assist": {
+          "id": 302868,
+          "name": "D. Guindo"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 129119,
+          "name": "I. Van der Brempt"
+        },
+        "assist": {
+          "id": 7318,
+          "name": "A. Dedic"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 287792,
+          "name": "J. Krumrey"
+        },
+        "assist": {
+          "id": 37246,
+          "name": "J. Blaswich"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 1314,
+          "name": "SpVgg Unterhaching",
+          "logo": "https://media.api-sports.io/football/teams/1314.png"
+        },
+        "player": {
+          "id": 408098,
+          "name": "G. Adu"
+        },
+        "assist": {
+          "id": 147674,
+          "name": "L. Ihorst"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 334178,
+          "name": "H. Blank"
+        },
+        "assist": {
+          "id": 304026,
+          "name": "A. Forson"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 322985,
+          "name": "D. Kameri"
+        },
+        "assist": {
+          "id": 237116,
+          "name": "S. Tijani"
+        },
+        "type": "subst",
+        "detail": "Substitution 12",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 1314,
+          "name": "SpVgg Unterhaching",
+          "logo": "https://media.api-sports.io/football/teams/1314.png"
+        },
+        "player": {
+          "id": 347898,
+          "name": "B. Schlicke"
+        },
+        "assist": {
+          "id": 380597,
+          "name": "T. Hoops"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 1314,
+          "name": "SpVgg Unterhaching",
+          "logo": "https://media.api-sports.io/football/teams/1314.png"
+        },
+        "player": {
+          "id": 177499,
+          "name": "T. Winklbauer"
+        },
+        "assist": {
+          "id": null,
+          "name": "R. Littig"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 1314,
+          "name": "SpVgg Unterhaching",
+          "logo": "https://media.api-sports.io/football/teams/1314.png"
+        },
+        "player": {
+          "id": 334122,
+          "name": "B. Westermeier"
+        },
+        "assist": {
+          "id": 26413,
+          "name": "S. Skarlatidis"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 289576,
+          "name": "L. Wallner"
+        },
+        "assist": {
+          "id": 334178,
+          "name": "H. Blank"
+        },
+        "type": "subst",
+        "detail": "Substitution 13",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 1314,
+          "name": "SpVgg Unterhaching",
+          "logo": "https://media.api-sports.io/football/teams/1314.png"
+        },
+        "player": {
+          "id": 299924,
+          "name": "F. Seidel"
+        },
+        "assist": {
+          "id": 199937,
+          "name": "L. Jastremski"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 1314,
+          "name": "SpVgg Unterhaching",
+          "logo": "https://media.api-sports.io/football/teams/1314.png"
+        },
+        "player": {
+          "id": 177499,
+          "name": "T. Winklbauer"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      }
+    ]
+  }
+}

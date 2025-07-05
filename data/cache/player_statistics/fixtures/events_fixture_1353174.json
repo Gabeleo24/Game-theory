@@ -1,0 +1,347 @@
+{
+  "cache_timestamp": "2025-07-04T12:06:51.920606",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1353174"
+    },
+    "errors": [],
+    "results": 15,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 38,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 21509,
+          "name": "M. Thuram"
+        },
+        "assist": {
+          "id": 30558,
+          "name": "N. Barella"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 50,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 217,
+          "name": "L. Mart\u00ednez"
+        },
+        "assist": {
+          "id": 329,
+          "name": "P. Zieli\u0144ski"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 6386,
+          "name": "J. Carranza"
+        },
+        "assist": {
+          "id": 72155,
+          "name": "A. Ueda"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 21509,
+          "name": "M. Thuram"
+        },
+        "assist": {
+          "id": 42315,
+          "name": "M. Taremi"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 21509,
+          "name": "Marcus Thuram"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 329,
+          "name": "Piotr Zieli\u0144ski"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 297583,
+          "name": "Jeyland Mitchell"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 36776,
+          "name": "Timon Wellenreuther"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 194,
+          "name": "S. de Vrij"
+        },
+        "assist": {
+          "id": 24953,
+          "name": "Y. Bisseck"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 30558,
+          "name": "N. Barella"
+        },
+        "assist": {
+          "id": 31173,
+          "name": "D. Frattesi"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 31009,
+          "name": "Alessandro Bastoni"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 293643,
+          "name": "Ibrahim Osman"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 275776,
+          "name": "K. Asllani"
+        },
+        "assist": {
+          "id": 1640,
+          "name": "H. \u00c7alhano\u011flu"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 217,
+          "name": "L. Mart\u00ednez"
+        },
+        "assist": {
+          "id": 18830,
+          "name": "M. Arnautovi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 6
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 18830,
+          "name": "Marko Arnautovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      }
+    ]
+  }
+}

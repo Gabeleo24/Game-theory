@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T13:26:29.897855",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1298642"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 16,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 2937,
+          "name": "D. Rice"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 34,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 157052,
+          "name": "Riccardo Calafiori"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 37,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 313236,
+          "name": "E. Nwaneri"
+        },
+        "assist": {
+          "id": 645,
+          "name": "R. Sterling"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 313236,
+          "name": "E. Nwaneri"
+        },
+        "assist": {
+          "id": 2937,
+          "name": "D. Rice"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 68,
+          "name": "Bolton",
+          "logo": "https://media.api-sports.io/football/teams/68.png"
+        },
+        "player": {
+          "id": 17551,
+          "name": "A. Collins"
+        },
+        "assist": {
+          "id": 87858,
+          "name": "J. McAtee"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 313245,
+          "name": "M. Lewis-Skelly"
+        },
+        "assist": {
+          "id": 22224,
+          "name": "Gabriel Magalh\u00e3es"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 2937,
+          "name": "D. Rice"
+        },
+        "assist": {
+          "id": 978,
+          "name": "K. Havertz"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 645,
+          "name": "R. Sterling"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 68,
+          "name": "Bolton",
+          "logo": "https://media.api-sports.io/football/teams/68.png"
+        },
+        "player": {
+          "id": 19965,
+          "name": "K. Dempsey"
+        },
+        "assist": {
+          "id": 152696,
+          "name": "J. Matete"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 68,
+          "name": "Bolton",
+          "logo": "https://media.api-sports.io/football/teams/68.png"
+        },
+        "player": {
+          "id": 1747,
+          "name": "S. Arfield"
+        },
+        "assist": {
+          "id": 194461,
+          "name": "G. Thomason"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 157052,
+          "name": "R. Calafiori"
+        },
+        "assist": {
+          "id": 380697,
+          "name": "M. Kacurri"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 68,
+          "name": "Bolton",
+          "logo": "https://media.api-sports.io/football/teams/68.png"
+        },
+        "player": {
+          "id": 320843,
+          "name": "C. Forino"
+        },
+        "assist": {
+          "id": 127369,
+          "name": "G. Johnston"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 1460,
+          "name": "B. Saka"
+        },
+        "assist": {
+          "id": 127769,
+          "name": "Gabriel Martinelli"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 978,
+          "name": "K. Havertz"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 68,
+          "name": "Bolton",
+          "logo": "https://media.api-sports.io/football/teams/68.png"
+        },
+        "player": {
+          "id": 87858,
+          "name": "J. McAtee"
+        },
+        "assist": {
+          "id": 19801,
+          "name": "V. Adeboyejo"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 68,
+          "name": "Bolton",
+          "logo": "https://media.api-sports.io/football/teams/68.png"
+        },
+        "player": {
+          "id": 17551,
+          "name": "A. Collins"
+        },
+        "assist": {
+          "id": 82483,
+          "name": "D. Charles"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 645,
+          "name": "R. Sterling"
+        },
+        "assist": {
+          "id": 407033,
+          "name": "I. Kabia"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

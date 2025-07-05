@@ -1,0 +1,677 @@
+{
+  "cache_timestamp": "2025-07-04T11:47:08.347769",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1219972"
+    },
+    "errors": [],
+    "results": 30,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 15,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 128985,
+          "name": "Iker Losada"
+        },
+        "assist": {
+          "id": 185477,
+          "name": "Rodri"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 18,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 909,
+          "name": "M. Rashford"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 24,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 157997,
+          "name": "A. Diallo"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 747,
+          "name": "Casemiro"
+        },
+        "assist": {
+          "id": 909,
+          "name": "M. Rashford"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 889,
+          "name": "V. Lindel\u00f6f"
+        },
+        "assist": {
+          "id": 18772,
+          "name": "J. Evans"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 2935,
+          "name": "H. Maguire"
+        },
+        "assist": {
+          "id": 153434,
+          "name": "W. Fish"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 46672,
+          "name": "Rui Silva"
+        },
+        "assist": {
+          "id": 179996,
+          "name": "Fran Vieites"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 47341,
+          "name": "Marc Roca"
+        },
+        "assist": {
+          "id": 133185,
+          "name": "J. Cardoso"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 47302,
+          "name": "Diego Llorente"
+        },
+        "assist": {
+          "id": 185477,
+          "name": "Rodri"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 909,
+          "name": "M. Rashford"
+        },
+        "assist": {
+          "id": 180560,
+          "name": "H. Mejbri"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 903,
+          "name": "S. McTominay"
+        },
+        "assist": {
+          "id": 19220,
+          "name": "M. Mount"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 18,
+          "name": "J. Sancho"
+        },
+        "assist": {
+          "id": 362270,
+          "name": "E. Wheatley"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 157997,
+          "name": "A. Diallo"
+        },
+        "assist": {
+          "id": 9971,
+          "name": "Antony"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 18846,
+          "name": "A. Wan-Bissaka"
+        },
+        "assist": {
+          "id": 396729,
+          "name": "J. Scanlon"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 403064,
+          "name": "H. Amass"
+        },
+        "assist": {
+          "id": 284391,
+          "name": "S. Murray"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 747,
+          "name": "Casemiro"
+        },
+        "assist": {
+          "id": 303016,
+          "name": "M. Oyedele"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 174,
+          "name": "C. Eriksen"
+        },
+        "assist": {
+          "id": 284400,
+          "name": "T. Collyer"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 1439,
+          "name": "H\u00e9ctor Beller\u00edn"
+        },
+        "assist": {
+          "id": 1264,
+          "name": "Y. Sabaly"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 47302,
+          "name": "Diego Llorente"
+        },
+        "assist": {
+          "id": 1561,
+          "name": "Marc Bartra"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 128985,
+          "name": "Iker Losada"
+        },
+        "assist": {
+          "id": 668,
+          "name": "N. Fekir"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 286084,
+          "name": "Sergi Altimira"
+        },
+        "assist": {
+          "id": 1580,
+          "name": "William Carvalho"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 47579,
+          "name": "E. \u00c1vila"
+        },
+        "assist": {
+          "id": 47320,
+          "name": "Juanmi"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 185477,
+          "name": "Rodri"
+        },
+        "assist": {
+          "id": 443163,
+          "name": "Pablo Garc\u00eda"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 47119,
+          "name": "Aitor Ruibal"
+        },
+        "assist": {
+          "id": 1697,
+          "name": "Pablo Fornals"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 133185,
+          "name": "Johnny Cardoso"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 9971,
+          "name": "Antony"
+        },
+        "assist": {
+          "id": 303017,
+          "name": "S. Mather"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 20600,
+          "name": "R. Perraud"
+        },
+        "assist": {
+          "id": 270973,
+          "name": "Lucas Alc\u00e1zar"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 133185,
+          "name": "J. Cardoso"
+        },
+        "assist": {
+          "id": 413502,
+          "name": "Mateo Flores"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 153434,
+          "name": "W. Fish"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 180560,
+          "name": "H. Mejbri"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      }
+    ]
+  }
+}

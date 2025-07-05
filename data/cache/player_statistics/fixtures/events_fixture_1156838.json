@@ -1,0 +1,127 @@
+{
+  "cache_timestamp": "2025-07-04T12:35:09.608537",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1156838"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 43387,
+          "name": "Benito"
+        },
+        "assist": {
+          "id": 214276,
+          "name": "S. Diallo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 339,
+          "name": "Legia Warszawa",
+          "logo": "https://media.api-sports.io/football/teams/339.png"
+        },
+        "player": {
+          "id": 3638,
+          "name": "E. Muci"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 34,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 43387,
+          "name": "Benito"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 339,
+          "name": "Legia Warszawa",
+          "logo": "https://media.api-sports.io/football/teams/339.png"
+        },
+        "player": {
+          "id": 40257,
+          "name": "R. Augustyniak"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 339,
+          "name": "Legia Warszawa",
+          "logo": "https://media.api-sports.io/football/teams/339.png"
+        },
+        "player": {
+          "id": 119780,
+          "name": "B. Kramer"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

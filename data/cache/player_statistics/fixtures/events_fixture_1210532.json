@@ -1,0 +1,237 @@
+{
+  "cache_timestamp": "2025-07-04T13:19:48.476277",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1210532"
+    },
+    "errors": [],
+    "results": 10,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 66275,
+          "name": "M. Chytil"
+        },
+        "assist": {
+          "id": 15328,
+          "name": "I. Schranz"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 818,
+          "name": "T. Chor\u00fd"
+        },
+        "assist": {
+          "id": 15328,
+          "name": "I. Schranz"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 216623,
+          "name": "M. \u0160ev\u010d\u00edk"
+        },
+        "assist": {
+          "id": 162140,
+          "name": "N. Penner"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 291632,
+          "name": "M. Vojta"
+        },
+        "assist": {
+          "id": 66028,
+          "name": "M. Pulkrab"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 278198,
+          "name": "Solomon John"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 66353,
+          "name": "L. Provod"
+        },
+        "assist": {
+          "id": 394698,
+          "name": "D. Pech"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 66253,
+          "name": "T. Ladra"
+        },
+        "assist": {
+          "id": 66251,
+          "name": "J. Fulnek"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 270424,
+          "name": "D. Kostka"
+        },
+        "assist": {
+          "id": 363563,
+          "name": "D. Mare\u0161"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 48377,
+          "name": "Marek Such\u00fd"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 818,
+          "name": "T. Chor\u00fd"
+        },
+        "assist": {
+          "id": 66208,
+          "name": "O. Lingr"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      }
+    ]
+  }
+}

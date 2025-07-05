@@ -1,0 +1,303 @@
+{
+  "cache_timestamp": "2025-07-04T12:31:36.293408",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1210452"
+    },
+    "errors": [],
+    "results": 13,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 410016,
+          "name": "P. Adu"
+        },
+        "assist": {
+          "id": 66278,
+          "name": "L. Kalvach"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 66253,
+          "name": "T. Ladra"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 410016,
+          "name": "P. Adu"
+        },
+        "assist": {
+          "id": 162194,
+          "name": "L. \u010cerv"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 390567,
+          "name": "T. Slon\u010d\u00edk"
+        },
+        "assist": {
+          "id": 18930,
+          "name": "M. Vydra"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 51,
+          "extra": null
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 263483,
+          "name": "Denis Don\u00e1t"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Violent conduct"
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 216553,
+          "name": "Cadu"
+        },
+        "assist": {
+          "id": 13401,
+          "name": "J. Mosquera"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 272145,
+          "name": "L. Ma\u0161ek"
+        },
+        "assist": {
+          "id": 162162,
+          "name": "D. Langhamer"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 162194,
+          "name": "Luk\u00e1\u0161 \u010cerv"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Violent conduct"
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 66253,
+          "name": "T. Ladra"
+        },
+        "assist": {
+          "id": 66360,
+          "name": "D. Mare\u010dek"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 25139,
+          "name": "Vasil Ku\u0161ej"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 66659,
+          "name": "D. Va\u0161ul\u00edn"
+        },
+        "assist": {
+          "id": 355,
+          "name": "E. Jirka"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 25139,
+          "name": "V. Ku\u0161ej"
+        },
+        "assist": {
+          "id": 66028,
+          "name": "M. Pulkrab"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 640,
+          "name": "Mlada Boleslav",
+          "logo": "https://media.api-sports.io/football/teams/640.png"
+        },
+        "player": {
+          "id": 66251,
+          "name": "J. Fulnek"
+        },
+        "assist": {
+          "id": 40468,
+          "name": "A. Kadlec"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  }
+}

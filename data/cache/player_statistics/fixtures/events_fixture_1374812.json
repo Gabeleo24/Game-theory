@@ -1,0 +1,457 @@
+{
+  "cache_timestamp": "2025-07-04T12:00:41.168325",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1374812"
+    },
+    "errors": [],
+    "results": 20,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 9,
+          "name": "A. Hakimi"
+        },
+        "assist": {
+          "id": 343027,
+          "name": "D. Dou\u00e9"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 343027,
+          "name": "D. Dou\u00e9"
+        },
+        "assist": {
+          "id": 153,
+          "name": "O. Demb\u00e9l\u00e9"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 54,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 2725,
+          "name": "B. Pavard"
+        },
+        "assist": {
+          "id": 24953,
+          "name": "Y. Bisseck"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 54,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 31010,
+          "name": "F. Dimarco"
+        },
+        "assist": {
+          "id": 203474,
+          "name": "N. Zalewski"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 203474,
+          "name": "Nicola Zalewski"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1457,
+          "name": "H. Mkhitaryan"
+        },
+        "assist": {
+          "id": 10238,
+          "name": "Carlos Augusto"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 24953,
+          "name": "Y. Bisseck"
+        },
+        "assist": {
+          "id": 887,
+          "name": "M. Darmian"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 343027,
+          "name": "D. Dou\u00e9"
+        },
+        "assist": {
+          "id": 128384,
+          "name": "Vitinha"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 343027,
+          "name": "D\u00e9sir\u00e9 Dou\u00e9"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 343027,
+          "name": "D. Dou\u00e9"
+        },
+        "assist": {
+          "id": 161904,
+          "name": "B. Barcola"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 21509,
+          "name": "Marcus Thuram"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1640,
+          "name": "H. \u00c7alhano\u011flu"
+        },
+        "assist": {
+          "id": 275776,
+          "name": "K. Asllani"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1836,
+          "name": "Francesco Acerbi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 483,
+          "name": "K. Kvaratskhelia"
+        },
+        "assist": {
+          "id": 153,
+          "name": "O. Demb\u00e9l\u00e9"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 263482,
+          "name": "Nuno Mendes"
+        },
+        "assist": {
+          "id": 33,
+          "name": "L. Hern\u00e1ndez"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 483,
+          "name": "K. Kvaratskhelia"
+        },
+        "assist": {
+          "id": 41585,
+          "name": "Gon\u00e7alo Ramos"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 328,
+          "name": "Fabi\u00e1n Ruiz"
+        },
+        "assist": {
+          "id": 409216,
+          "name": "S. Mayulu"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 335051,
+          "name": "Jo\u00e3o Neves"
+        },
+        "assist": {
+          "id": 336657,
+          "name": "W. Za\u00efre-Emery"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 409216,
+          "name": "S. Mayulu"
+        },
+        "assist": {
+          "id": 161904,
+          "name": "B. Barcola"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 9,
+          "name": "Achraf Hakimi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "cache_timestamp": "2025-07-04T12:20:45.183930",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1299018"
+    },
+    "errors": [],
+    "results": 20,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 6,
+          "extra": null
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "player": {
+          "id": 30497,
+          "name": "Bremer"
+        },
+        "assist": {
+          "id": 268341,
+          "name": "F. Gatti"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "player": {
+          "id": 26315,
+          "name": "N. Gonz\u00e1lez"
+        },
+        "assist": {
+          "id": 161585,
+          "name": "Francisco Concei\u00e7\u00e3o"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 30,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 115589,
+          "name": "B. \u0160e\u0161ko"
+        },
+        "assist": {
+          "id": 86,
+          "name": "L. Openda"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 715,
+          "name": "C. Baumgartner"
+        },
+        "assist": {
+          "id": 98,
+          "name": "B. Henrichs"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 50,
+          "extra": null
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "player": {
+          "id": 30415,
+          "name": "D. Vlahovi\u0107"
+        },
+        "assist": {
+          "id": 127011,
+          "name": "A. Cambiaso"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "player": {
+          "id": 30670,
+          "name": "Michele Di Gregorio"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Card upgrade",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "player": {
+          "id": 30670,
+          "name": "Michele Di Gregorio"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Professional handball"
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "player": {
+          "id": 339883,
+          "name": "K. Y\u0131ld\u0131z"
+        },
+        "assist": {
+          "id": 849,
+          "name": "M. Perin"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "player": {
+          "id": 181806,
+          "name": "N. Savona"
+        },
+        "assist": {
+          "id": 47522,
+          "name": "Douglas Luiz"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 162016,
+          "name": "Xavi Simons"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 115589,
+          "name": "B. \u0160e\u0161ko"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "player": {
+          "id": 30415,
+          "name": "D. Vlahovi\u0107"
+        },
+        "assist": {
+          "id": 161585,
+          "name": "Francisco Concei\u00e7\u00e3o"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 1153,
+          "name": "A. Haidara"
+        },
+        "assist": {
+          "id": 314511,
+          "name": "A. Nusa"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 25158,
+          "name": "David Raum"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "player": {
+          "id": 161585,
+          "name": "Francisco Concei\u00e7\u00e3o"
+        },
+        "assist": {
+          "id": 876,
+          "name": "N. Fagioli"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "player": {
+          "id": 161585,
+          "name": "Francisco Concei\u00e7\u00e3o"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 37143,
+          "name": "L. Geertruida"
+        },
+        "assist": {
+          "id": 340154,
+          "name": "A. Vermeeren"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 7328,
+          "name": "N. Seiwald"
+        },
+        "assist": {
+          "id": 1167,
+          "name": "Y. Poulsen"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 86,
+          "name": "L. Openda"
+        },
+        "assist": {
+          "id": 2063,
+          "name": "Andr\u00e9 Silva"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 9
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "player": {
+          "id": 849,
+          "name": "Mattia Perin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      }
+    ]
+  }
+}

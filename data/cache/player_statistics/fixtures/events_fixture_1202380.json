@@ -1,0 +1,413 @@
+{
+  "cache_timestamp": "2025-07-04T12:19:25.815663",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1202380"
+    },
+    "errors": [],
+    "results": 18,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 2,
+          "extra": null
+        },
+        "team": {
+          "id": 1621,
+          "name": "Rot-Wei\u00df Essen",
+          "logo": "https://media.api-sports.io/football/teams/1621.png"
+        },
+        "player": {
+          "id": 374855,
+          "name": "R. Safi"
+        },
+        "assist": {
+          "id": 25645,
+          "name": "T. M\u00fcsel"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 115589,
+          "name": "B. \u0160e\u0161ko"
+        },
+        "assist": {
+          "id": 1153,
+          "name": "A. Haidara"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 40,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 86,
+          "name": "L. Openda"
+        },
+        "assist": {
+          "id": 115589,
+          "name": "B. \u0160e\u0161ko"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 47,
+          "extra": null
+        },
+        "team": {
+          "id": 1621,
+          "name": "Rot-Wei\u00df Essen",
+          "logo": "https://media.api-sports.io/football/teams/1621.png"
+        },
+        "player": {
+          "id": 204049,
+          "name": "Jos\u00e9-Enrique R\u00edos Alonso"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 1621,
+          "name": "Rot-Wei\u00df Essen",
+          "logo": "https://media.api-sports.io/football/teams/1621.png"
+        },
+        "player": {
+          "id": 88029,
+          "name": "Ahmet Arslan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 1144,
+          "name": "L. Klostermann"
+        },
+        "assist": {
+          "id": 98,
+          "name": "B. Henrichs"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 25158,
+          "name": "D. Raum"
+        },
+        "assist": {
+          "id": 162761,
+          "name": "C. Lukeba"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 98,
+          "name": "Benjamin Henrichs"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 1621,
+          "name": "Rot-Wei\u00df Essen",
+          "logo": "https://media.api-sports.io/football/teams/1621.png"
+        },
+        "player": {
+          "id": 374855,
+          "name": "R. Safi"
+        },
+        "assist": {
+          "id": 24890,
+          "name": "M. Wintzheimer"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 1621,
+          "name": "Rot-Wei\u00df Essen",
+          "logo": "https://media.api-sports.io/football/teams/1621.png"
+        },
+        "player": {
+          "id": 162901,
+          "name": "J. Kaparos"
+        },
+        "assist": {
+          "id": 25070,
+          "name": "T. Eisfeld"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 1621,
+          "name": "Rot-Wei\u00df Essen",
+          "logo": "https://media.api-sports.io/football/teams/1621.png"
+        },
+        "player": {
+          "id": 204049,
+          "name": "J. R\u00edos Alonso"
+        },
+        "assist": {
+          "id": 128812,
+          "name": "E. \u00c7elebi"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 1153,
+          "name": "A. Haidara"
+        },
+        "assist": {
+          "id": 314511,
+          "name": "A. Nusa"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 115589,
+          "name": "B. \u0160e\u0161ko"
+        },
+        "assist": {
+          "id": 2063,
+          "name": "Andr\u00e9 Silva"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 314511,
+          "name": "A. Nusa"
+        },
+        "assist": {
+          "id": 162016,
+          "name": "X. Simons"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 162016,
+          "name": "X. Simons"
+        },
+        "assist": {
+          "id": 2063,
+          "name": "Andr\u00e9 Silva"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 1621,
+          "name": "Rot-Wei\u00df Essen",
+          "logo": "https://media.api-sports.io/football/teams/1621.png"
+        },
+        "player": {
+          "id": 25070,
+          "name": "T. Eisfeld"
+        },
+        "assist": {
+          "id": 380570,
+          "name": "G. Swajkowski"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 1621,
+          "name": "Rot-Wei\u00df Essen",
+          "logo": "https://media.api-sports.io/football/teams/1621.png"
+        },
+        "player": {
+          "id": 128859,
+          "name": "E. Voufack"
+        },
+        "assist": {
+          "id": 279973,
+          "name": "M. Kourouma"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png"
+        },
+        "player": {
+          "id": 162016,
+          "name": "X. Simons"
+        },
+        "assist": {
+          "id": 469695,
+          "name": "V. Gebel"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

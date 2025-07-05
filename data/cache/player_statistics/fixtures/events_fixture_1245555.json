@@ -1,0 +1,611 @@
+{
+  "cache_timestamp": "2025-07-04T11:56:02.413692",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1245555"
+    },
+    "errors": [],
+    "results": 27,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 128581,
+          "name": "N. Melamed"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 36,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 36798,
+          "name": "V. Pavlidis"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 418944,
+          "name": "M. Pena"
+        },
+        "assist": {
+          "id": 1565,
+          "name": "E. Gonzalez"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 138776,
+          "name": "L. Ramazani"
+        },
+        "assist": {
+          "id": null,
+          "name": "V. Gomez"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 312650,
+          "name": "L. Marezi"
+        },
+        "assist": {
+          "id": 39245,
+          "name": "I. Kone"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 203468,
+          "name": "D. Lopy"
+        },
+        "assist": {
+          "id": 47576,
+          "name": "G. Melero"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 162595,
+          "name": "S. Soares"
+        },
+        "assist": {
+          "id": 675,
+          "name": "A. Trubin"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 342967,
+          "name": "D. Spencer"
+        },
+        "assist": {
+          "id": 158065,
+          "name": "T. Gouveia"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 304827,
+          "name": "Gustavo Marques"
+        },
+        "assist": {
+          "id": 161939,
+          "name": "T. Araujo"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 162703,
+          "name": "C. Tengstedt"
+        },
+        "assist": {
+          "id": 267771,
+          "name": "Marcos Leonardo"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 9938,
+          "name": "A. Cabral"
+        },
+        "assist": {
+          "id": 36798,
+          "name": "V. Pavlidis"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 362755,
+          "name": "G. Prestianni"
+        },
+        "assist": {
+          "id": 39043,
+          "name": "F. Aursnes"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 271580,
+          "name": "M. Neto"
+        },
+        "assist": {
+          "id": 25918,
+          "name": "L. Barreiro"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 180320,
+          "name": "A. Bajrami"
+        },
+        "assist": {
+          "id": 67943,
+          "name": "Morato"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 345427,
+          "name": "J. Rego"
+        },
+        "assist": {
+          "id": 552,
+          "name": "David Neres"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 25313,
+          "name": "J. Beste"
+        },
+        "assist": {
+          "id": 284300,
+          "name": "A. Carreras"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 206,
+          "name": "Joao Mario"
+        },
+        "assist": {
+          "id": 575,
+          "name": "Florentino"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 9938,
+          "name": "A. Cabral"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 19306,
+          "name": "A. Appiah"
+        },
+        "assist": {
+          "id": 310609,
+          "name": "Gui Guedes"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 354550,
+          "name": "B. Iribarne"
+        },
+        "assist": {
+          "id": 1470,
+          "name": "L. Maximiano"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 126901,
+          "name": "B. Langa"
+        },
+        "assist": {
+          "id": 914,
+          "name": "A. Centelles"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 305803,
+          "name": "Kaiky"
+        },
+        "assist": {
+          "id": 129,
+          "name": "Chumi"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 20660,
+          "name": "A. Radovanovic"
+        },
+        "assist": {
+          "id": 46688,
+          "name": "A. Pozo"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 162033,
+          "name": "S. Arribas"
+        },
+        "assist": {
+          "id": 181171,
+          "name": "R. Perez"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "player": {
+          "id": 138809,
+          "name": "A. Puigmal"
+        },
+        "assist": {
+          "id": 128581,
+          "name": "N. Melamed"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 206,
+          "name": "Joao Mario"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": null,
+          "name": null
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      }
+    ]
+  }
+}

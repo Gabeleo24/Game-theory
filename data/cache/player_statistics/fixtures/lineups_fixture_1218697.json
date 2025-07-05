@@ -1,0 +1,399 @@
+{
+  "cache_timestamp": "2025-07-04T12:18:28.669459",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1218697"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 618,
+          "name": "SCR Altach",
+          "logo": "https://media.api-sports.io/football/teams/618.png",
+          "colors": {
+            "player": {
+              "primary": "000000",
+              "number": "ffffff",
+              "border": "000000"
+            },
+            "goalkeeper": {
+              "primary": "ff6f00",
+              "number": "ffffff",
+              "border": "ff6f00"
+            }
+          }
+        },
+        "coach": {
+          "id": 17696,
+          "name": "F. Ingolitsch",
+          "photo": "https://media.api-sports.io/football/coachs/17696.png"
+        },
+        "formation": "4-3-1-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 48473,
+              "name": "D. Stojanovic",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 7615,
+              "name": "S. Ingolitsch",
+              "number": 25,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 7677,
+              "name": "B. Zech",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 280686,
+              "name": "P. Estrada",
+              "number": 22,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 119831,
+              "name": "L. Luka\u010devi\u0107",
+              "number": 12,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 7441,
+              "name": "V. Demaku",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 308125,
+              "name": "D. Ka\u00efba",
+              "number": 13,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 19792,
+              "name": "M. B\u00e4hre",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 322985,
+              "name": "D. Kameri",
+              "number": 37,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 161087,
+              "name": "O. Diawara",
+              "number": 10,
+              "pos": "F",
+              "grid": "5:2"
+            }
+          },
+          {
+            "player": {
+              "id": 202729,
+              "name": "M. Mustapha",
+              "number": 11,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 91181,
+              "name": "F. Dietz",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 78321,
+              "name": "L. Fridrikas",
+              "number": 14,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 14294,
+              "name": "A. Gorgon",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 25612,
+              "name": "L. J\u00e4ger",
+              "number": 23,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 497109,
+              "name": "S. Noode",
+              "number": 2,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 7169,
+              "name": "A. Helac",
+              "number": 21,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 428786,
+              "name": "E. Yalcin",
+              "number": 26,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "ff0000",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "083134",
+              "number": "849334",
+              "border": "083134"
+            }
+          }
+        },
+        "coach": {
+          "id": 2935,
+          "name": "T. Letsch",
+          "photo": "https://media.api-sports.io/football/coachs/2935.png"
+        },
+        "formation": "4-3-1-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 7525,
+              "name": "A. Schlager",
+              "number": 24,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 5973,
+              "name": "N. Capaldo",
+              "number": 7,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 409215,
+              "name": "J. Gadou",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 322984,
+              "name": "S. Baidoo",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 349,
+              "name": "A. Terzi\u0107",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 302869,
+              "name": "D. Nene",
+              "number": 45,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 162189,
+              "name": "M. Bidstrup",
+              "number": 18,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 329715,
+              "name": "O. Gloukh",
+              "number": 30,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 129072,
+              "name": "Y. Vertessen",
+              "number": 11,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 362564,
+              "name": "A. Daghim",
+              "number": 28,
+              "pos": "F",
+              "grid": "5:2"
+            }
+          },
+          {
+            "player": {
+              "id": 25928,
+              "name": "K. Onisiwo",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 381810,
+              "name": "M. Yeo",
+              "number": 49,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 302915,
+              "name": "M. Diambou",
+              "number": 15,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 464055,
+              "name": "E. Baidoo",
+              "number": 20,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 386296,
+              "name": "T. Trummer",
+              "number": 37,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 8718,
+              "name": "M. Caufriez",
+              "number": 2,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 329265,
+              "name": "L. Morgalla",
+              "number": 39,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 37246,
+              "name": "J. Blaswich",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

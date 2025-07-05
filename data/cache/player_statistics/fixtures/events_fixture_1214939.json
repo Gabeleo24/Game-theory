@@ -1,0 +1,457 @@
+{
+  "cache_timestamp": "2025-07-04T12:50:04.425149",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1214939"
+    },
+    "errors": [],
+    "results": 20,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 9,
+          "extra": null
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 105489,
+          "name": "Dan Einbinder"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 16,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 111277,
+          "name": "D. David"
+        },
+        "assist": {
+          "id": 12939,
+          "name": "D. Sabi'a"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 41,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 8461,
+          "name": "L. Refaelov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 105489,
+          "name": "D. Einbinder"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 105489,
+          "name": "Dan Einbinder"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 52,
+          "extra": null
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 110605,
+          "name": "I. Shoolmayster"
+        },
+        "assist": {
+          "id": 15915,
+          "name": "G. Donyoh"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 46802,
+          "name": "Nahuel Leiva"
+        },
+        "assist": {
+          "id": 110987,
+          "name": "D. Haziza"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 105846,
+          "name": "M. Kandil"
+        },
+        "assist": {
+          "id": 308839,
+          "name": "X. Severina"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 105489,
+          "name": "D. Einbinder"
+        },
+        "assist": {
+          "id": 351260,
+          "name": "L. Rokach"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 105806,
+          "name": "R. Barsky"
+        },
+        "assist": {
+          "id": 126971,
+          "name": "Y. Lugasi"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 21660,
+          "name": "Abdoulaye Cisse"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 126500,
+          "name": "A. Muhammad"
+        },
+        "assist": {
+          "id": 106804,
+          "name": "G. Kinda"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 110956,
+          "name": "Diaa Lababidi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 308839,
+          "name": "X. Severina"
+        },
+        "assist": {
+          "id": 12939,
+          "name": "D. Sabi'a"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 111282,
+          "name": "I. Levy"
+        },
+        "assist": {
+          "id": 371933,
+          "name": "Y. Shabo"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 105634,
+          "name": "Mamadou Mbodj"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 105634,
+          "name": "Mamadou Mbodj"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png"
+        },
+        "player": {
+          "id": 15915,
+          "name": "G. Donyoh"
+        },
+        "assist": {
+          "id": 110755,
+          "name": "R. Twizer"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 12939,
+          "name": "D. Sabia"
+        },
+        "assist": {
+          "id": 162272,
+          "name": "E. Azoulay"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 8461,
+          "name": "L. Refaelov"
+        },
+        "assist": {
+          "id": 110987,
+          "name": "D. Haziza"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "cache_timestamp": "2025-07-04T12:41:37.072377",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1156888"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png",
+          "colors": {
+            "player": {
+              "primary": "79bcff",
+              "number": "ffffff",
+              "border": "79bcff"
+            },
+            "goalkeeper": {
+              "primary": "5a3333",
+              "number": "ffffff",
+              "border": "5a3333"
+            }
+          }
+        },
+        "formation": "3-4-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 1947,
+              "name": "Johan Dahlin",
+              "number": null,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 19124,
+              "name": "Pontus Jansson",
+              "number": null,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Nils Zatterstrom",
+              "number": null,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 51295,
+              "name": "Derek Cornelius",
+              "number": null,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2733,
+              "name": "Jens Stryger Larsen",
+              "number": null,
+              "pos": "D",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 41448,
+              "name": "Sergio Pe\u00f1a",
+              "number": null,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 39141,
+              "name": "Lasse Berg Johnsen",
+              "number": null,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 226803,
+              "name": "Sebastian Nanasi",
+              "number": null,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 160925,
+              "name": "Taha  Ali",
+              "number": null,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 988,
+              "name": "Isaac Kiese Thelin",
+              "number": null,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 335095,
+              "name": "Hugo Bolin",
+              "number": null,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 39056,
+              "name": "Ricardo Friedrich",
+              "number": null,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 19319,
+              "name": "Martin Olsson",
+              "number": null,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 335106,
+              "name": "Elison Makolli",
+              "number": null,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1961,
+              "name": "S\u00f8ren Rieks",
+              "number": null,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 15943,
+              "name": "Sebastian J\u00f8rgensen",
+              "number": null,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 48169,
+              "name": "Oliver Berg",
+              "number": null,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 48286,
+              "name": "Stefano Vecchia",
+              "number": null,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 394916,
+              "name": "Zakaria Loukili",
+              "number": null,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 306955,
+              "name": "Otto Rosengren",
+              "number": null,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 105145,
+              "name": "Mathias Nilsson",
+              "number": null,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 424637,
+              "name": "Adrian Skogmar",
+              "number": null,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 1380,
+          "name": "H. Rydstr\u00f6m",
+          "photo": "https://media.api-sports.io/football/coachs/1380.png"
+        }
+      },
+      {
+        "team": {
+          "id": 628,
+          "name": "Sparta Praha",
+          "logo": "https://media.api-sports.io/football/teams/628.png",
+          "colors": {
+            "player": {
+              "primary": "fdde0a",
+              "number": "a20111",
+              "border": "fdde0a"
+            },
+            "goalkeeper": {
+              "primary": "3d9c00",
+              "number": "fafafa",
+              "border": "3d9c00"
+            }
+          }
+        },
+        "formation": "3-4-2-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 15897,
+              "name": "Peter Vindahl Jensen",
+              "number": null,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 287564,
+              "name": "Martin Vit\u00edk",
+              "number": null,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 80413,
+              "name": "Filip Pan\u00e1k",
+              "number": null,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 66407,
+              "name": "Ladislav Krej\u010d\u00ed",
+              "number": null,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2583,
+              "name": "\u00c1ngelo Preciado",
+              "number": null,
+              "pos": "D",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 55404,
+              "name": "Kaan Kairinen",
+              "number": null,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 20953,
+              "name": "Qazim Laci",
+              "number": null,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 295027,
+              "name": "Mat\u011bj Ryne\u0161",
+              "number": null,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 68079,
+              "name": "Indrit Tuci",
+              "number": null,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 45804,
+              "name": "Veljko Birman\u010devi\u0107",
+              "number": null,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 66340,
+              "name": "Jan Kuchta",
+              "number": null,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 272143,
+              "name": "Dalibor Ve\u010derka",
+              "number": null,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66051,
+              "name": "Jakub Pe\u0161ek",
+              "number": null,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 161864,
+              "name": "Jakub Surov\u010d\u00edk",
+              "number": null,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66574,
+              "name": "Jan Mejdr",
+              "number": null,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Roman Hor\u00e1k",
+              "number": null,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Roman Mokrovics",
+              "number": null,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 1682,
+          "name": "B. Priske",
+          "photo": "https://media.api-sports.io/football/coachs/1682.png"
+        }
+      }
+    ]
+  }
+}

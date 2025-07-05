@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T12:42:29.657051",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1164248"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 377,
+          "name": "AIK Stockholm",
+          "logo": "https://media.api-sports.io/football/teams/377.png",
+          "colors": {
+            "player": {
+              "primary": "000000",
+              "number": "ffff00",
+              "border": "000000"
+            },
+            "goalkeeper": {
+              "primary": "ff5385",
+              "number": "000000",
+              "border": "ff5385"
+            }
+          }
+        },
+        "coach": {
+          "id": 2479,
+          "name": "M. Thomassen",
+          "photo": "https://media.api-sports.io/football/coachs/2479.png"
+        },
+        "formation": "5-4-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 2851,
+              "name": "K. Nordfeldt",
+              "number": 15,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 15809,
+              "name": "M. Thychosen",
+              "number": 17,
+              "pos": "D",
+              "grid": "2:5"
+            }
+          },
+          {
+            "player": {
+              "id": 19292,
+              "name": "A. Milo\u0161evi\u0107",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 1288,
+              "name": "S. Papagiannopoulos",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 39233,
+              "name": "B. Hansen",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 277087,
+              "name": "E. Edh",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 39365,
+              "name": "O. Valakari",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 48150,
+              "name": "A. Sal\u00e9tros",
+              "number": 7,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 415517,
+              "name": "Lamine Fanne",
+              "number": 24,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 19334,
+              "name": "B. Celina",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 15518,
+              "name": "I. Pittas",
+              "number": 28,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 338949,
+              "name": "T. Ayari",
+              "number": 45,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 47371,
+              "name": "J. Guidetti",
+              "number": 11,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 48266,
+              "name": "A. Bj\u00f6rnstr\u00f6m",
+              "number": 12,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 375545,
+              "name": "V. Andersson",
+              "number": 43,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 48090,
+              "name": "T. Isherwood",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 275169,
+              "name": "O. Udden\u00e4s",
+              "number": 20,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 343379,
+              "name": "Ahmad Faqa",
+              "number": 37,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 438531,
+              "name": "S. Wilson",
+              "number": 21,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 47660,
+              "name": "I. Diawara",
+              "number": 30,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png",
+          "colors": {
+            "player": {
+              "primary": "79bcff",
+              "number": "ffffff",
+              "border": "79bcff"
+            },
+            "goalkeeper": {
+              "primary": "5a3333",
+              "number": "ffffff",
+              "border": "5a3333"
+            }
+          }
+        },
+        "coach": {
+          "id": 1380,
+          "name": "H. Rydstr\u00f6m",
+          "photo": "https://media.api-sports.io/football/coachs/1380.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 39056,
+              "name": "Ricardo Friedrich",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2733,
+              "name": "J. Stryger Larsen",
+              "number": 17,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 137131,
+              "name": "C. R\u00f6sler",
+              "number": 19,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 19124,
+              "name": "P. Jansson",
+              "number": 18,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 443779,
+              "name": "N. Z\u00e4tterstr\u00f6m",
+              "number": 35,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 39141,
+              "name": "L. Berg Johnsen",
+              "number": 23,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 41448,
+              "name": "S. Pe\u00f1a",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1188,
+              "name": "E. Botheim",
+              "number": 20,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 160925,
+              "name": "T. Ali",
+              "number": 22,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 335095,
+              "name": "H. Bolin",
+              "number": 38,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 988,
+              "name": "I. Kiese Thelin",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 15943,
+              "name": "S. J\u00f8rgensen",
+              "number": 14,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1961,
+              "name": "S. Rieks",
+              "number": 5,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 306955,
+              "name": "O. Rosengren",
+              "number": 7,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 19319,
+              "name": "M. Olsson",
+              "number": 13,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 394916,
+              "name": "Z. Loukili",
+              "number": 34,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 424637,
+              "name": "A. Skogmar",
+              "number": 37,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 48169,
+              "name": "O. Berg",
+              "number": 16,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 335106,
+              "name": "E. Makolli",
+              "number": 33,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1947,
+              "name": "J. Dahlin",
+              "number": 27,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

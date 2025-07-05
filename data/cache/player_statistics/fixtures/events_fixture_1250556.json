@@ -1,0 +1,501 @@
+{
+  "cache_timestamp": "2025-07-04T12:47:36.602938",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1250556"
+    },
+    "errors": [],
+    "results": 22,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 2,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 41130,
+          "name": "Chiquinho"
+        },
+        "assist": {
+          "id": 39244,
+          "name": "K. Velde"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 4,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 41130,
+          "name": "Chiquinho"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 9,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 6064,
+          "name": "Francisco Ortega"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 21,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 2722,
+          "name": "A. El Kaabi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 24,
+          "extra": null
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 24871,
+          "name": "Kyriakos Papadopoulos"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 30,
+          "extra": null
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 59233,
+          "name": "Fabricio Pedrozo"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 27134,
+          "name": "K. Plegas"
+        },
+        "assist": {
+          "id": 237121,
+          "name": "Zine"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 24871,
+          "name": "K. Papadopoulos"
+        },
+        "assist": {
+          "id": 392556,
+          "name": "G. Katris"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 1
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 11282,
+          "name": "A. O\u017ebolt"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 3575,
+          "name": "Enis \u00c7okaj"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 609,
+          "name": "G. Gianniotas"
+        },
+        "assist": {
+          "id": 59233,
+          "name": "F. Pedrozo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 39244,
+          "name": "K. Velde"
+        },
+        "assist": {
+          "id": 392482,
+          "name": "C. Kostoulas"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 41130,
+          "name": "Chiquinho"
+        },
+        "assist": {
+          "id": 1602,
+          "name": "T. Androutsos"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 609,
+          "name": "G. Gianniotas"
+        },
+        "assist": {
+          "id": 103743,
+          "name": "J. Romo"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 204290,
+          "name": "Triantafyllos Tsapras"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 392556,
+          "name": "Georgios Marios Katris"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 10157,
+          "name": "Rodinei"
+        },
+        "assist": {
+          "id": 204037,
+          "name": "Costinha"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 195929,
+          "name": "S. Hezze"
+        },
+        "assist": {
+          "id": 47281,
+          "name": "Dani Garc\u00eda"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 11282,
+          "name": "A. O\u017ebolt"
+        },
+        "assist": {
+          "id": 26962,
+          "name": "M. Vichos"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 1610,
+          "name": "G. Masouras"
+        },
+        "assist": {
+          "id": 8493,
+          "name": "R. Yaremchuk"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 237121,
+          "name": "Zini"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 957,
+          "name": "Levadiakos",
+          "logo": "https://media.api-sports.io/football/teams/957.png"
+        },
+        "player": {
+          "id": 28409,
+          "name": "D\u00e1vid Gr\u00f3f"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      }
+    ]
+  }
+}

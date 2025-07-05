@@ -1,0 +1,545 @@
+{
+  "cache_timestamp": "2025-07-04T12:38:39.567110",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1225628"
+    },
+    "errors": [],
+    "results": 24,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 19,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 37652,
+          "name": "B. van den Boomen"
+        },
+        "assist": {
+          "id": 161886,
+          "name": "C. Rasmussen"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 19,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 323611,
+          "name": "San\u00e1 Gomes"
+        },
+        "assist": {
+          "id": 50520,
+          "name": "Abdulrahman Saleh"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 335335,
+          "name": "J. Rijkhoff"
+        },
+        "assist": {
+          "id": 313941,
+          "name": "A. Gaaei"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 3
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 2895,
+          "name": "Jung Seung-Hyun"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 140576,
+          "name": "Majid Surour"
+        },
+        "assist": {
+          "id": 411238,
+          "name": "A. Diallo"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 582,
+          "name": "H. Seferovi\u0107"
+        },
+        "assist": {
+          "id": 50542,
+          "name": "Caio Canedo"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 384799,
+          "name": "S. Sidibe"
+        },
+        "assist": {
+          "id": 50535,
+          "name": "Ali Salmin"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 200156,
+          "name": "D. Pedrozo"
+        },
+        "assist": {
+          "id": 50511,
+          "name": "Yousif Ali Al Mheiri"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 293949,
+          "name": "J. NGuessan"
+        },
+        "assist": {
+          "id": 6685,
+          "name": "N. Gim\u00e9nez"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 2895,
+          "name": "Jung Seung-Hyun"
+        },
+        "assist": {
+          "id": 35969,
+          "name": "A. P\u00e9rez"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 329155,
+          "name": "Mohamed Ali"
+        },
+        "assist": {
+          "id": 50651,
+          "name": "Abdullah Salem"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 50388,
+          "name": "Tahnoon Al Zaabi"
+        },
+        "assist": {
+          "id": 409471,
+          "name": "Mallek Janeer"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 36609,
+          "name": "S. Bouftini"
+        },
+        "assist": {
+          "id": 402344,
+          "name": "Omar Al Balooshi"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 50518,
+          "name": "Salem Al Azizi"
+        },
+        "assist": {
+          "id": 156206,
+          "name": "Rabee Hassan Salmin"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 37160,
+          "name": "S. Berghuis"
+        },
+        "assist": {
+          "id": 336580,
+          "name": "S. Vos"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 340153,
+          "name": "M. Godts"
+        },
+        "assist": {
+          "id": 191879,
+          "name": "K. Hlynsson"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 6685,
+          "name": "N. Gimenez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 26303,
+          "name": "B. Sosa"
+        },
+        "assist": {
+          "id": 278159,
+          "name": "A. Kaplan"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 37652,
+          "name": "B. van den Boomen"
+        },
+        "assist": {
+          "id": 264094,
+          "name": "B. Tahirovi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 50520,
+          "name": "Abdulrahman Saleh"
+        },
+        "assist": {
+          "id": 293949,
+          "name": "J. N'Guessan"
+        },
+        "type": "subst",
+        "detail": "Substitution 12",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 50542,
+          "name": "Caio Canedo"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 313941,
+          "name": "A. Gaaei"
+        },
+        "assist": {
+          "id": 412882,
+          "name": "P. Ugwu"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 313941,
+          "name": "A. Gaaei"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 2872,
+          "name": "Al-Wasl FC",
+          "logo": "https://media.api-sports.io/football/teams/2872.png"
+        },
+        "player": {
+          "id": 50511,
+          "name": "Y. Al Mheiri"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      }
+    ]
+  }
+}

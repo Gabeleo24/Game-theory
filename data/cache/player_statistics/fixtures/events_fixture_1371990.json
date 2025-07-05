@@ -1,0 +1,347 @@
+{
+  "cache_timestamp": "2025-07-04T13:33:26.319350",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1371990"
+    },
+    "errors": [],
+    "results": 15,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 1,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 129711,
+          "name": "B. Johnson"
+        },
+        "assist": {
+          "id": 2413,
+          "name": "Richarlison"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 34,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 18784,
+          "name": "J. Maddison"
+        },
+        "assist": {
+          "id": 47519,
+          "name": "Pedro Porro"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 2413,
+          "name": "Richarlison"
+        },
+        "assist": {
+          "id": 270510,
+          "name": "M. Tel"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 449592,
+          "name": "V. Nielsen"
+        },
+        "assist": {
+          "id": 39061,
+          "name": "B. Moe"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 39058,
+          "name": "Fredrik Andr\u00e9 Bj\u00f8rkan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 30776,
+          "name": "Cristian Romero"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 18883,
+          "name": "D. Solanke"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 18784,
+          "name": "J. Maddison"
+        },
+        "assist": {
+          "id": 30435,
+          "name": "D. Kulusevski"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 57153,
+          "name": "I. M\u00e4\u00e4tt\u00e4"
+        },
+        "assist": {
+          "id": 262598,
+          "name": "S. Auklend"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 30776,
+          "name": "Cristian Romero"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Off the ball foul"
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media.api-sports.io/football/teams/47.png"
+        },
+        "player": {
+          "id": 18883,
+          "name": "D. Solanke"
+        },
+        "assist": {
+          "id": 336564,
+          "name": "W. Odobert"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 39073,
+          "name": "Jens Petter Hauge"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 57159,
+          "name": "S. Fet"
+        },
+        "assist": {
+          "id": 201898,
+          "name": "J. Kj\u00e6r"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 151510,
+          "name": "O. Blomberg"
+        },
+        "assist": {
+          "id": 39169,
+          "name": "S. S\u00f8rli"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "player": {
+          "id": 39069,
+          "name": "U. Saltnes"
+        },
+        "assist": {
+          "id": 201898,
+          "name": "J. Kj\u00e6r"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

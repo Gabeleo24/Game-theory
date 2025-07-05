@@ -1,0 +1,303 @@
+{
+  "cache_timestamp": "2025-07-04T13:24:53.201776",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1274825"
+    },
+    "errors": [],
+    "results": 13,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 21,
+          "extra": null
+        },
+        "team": {
+          "id": 3502,
+          "name": "Saburtalo",
+          "logo": "https://media.api-sports.io/football/teams/3502.png"
+        },
+        "player": {
+          "id": 265603,
+          "name": "Cheikne Sylla"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 21,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 50018,
+          "name": "\u00d6mer Ali \u015eahiner"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 62114,
+          "name": "Onur Erg\u00fcn"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 1651,
+          "name": "Krzysztof Pi\u0105tek"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 51,
+          "extra": null
+        },
+        "team": {
+          "id": 3502,
+          "name": "Saburtalo",
+          "logo": "https://media.api-sports.io/football/teams/3502.png"
+        },
+        "player": {
+          "id": 163515,
+          "name": "Shota Nonikashvili"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 1651,
+          "name": "K. Pi\u0105tek"
+        },
+        "assist": {
+          "id": 69942,
+          "name": "Jo\u00e3o Figueiredo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 3502,
+          "name": "Saburtalo",
+          "logo": "https://media.api-sports.io/football/teams/3502.png"
+        },
+        "player": {
+          "id": 24568,
+          "name": "G. Kokhreidze"
+        },
+        "assist": {
+          "id": 273296,
+          "name": "O. Mamageishvili"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 3502,
+          "name": "Saburtalo",
+          "logo": "https://media.api-sports.io/football/teams/3502.png"
+        },
+        "player": {
+          "id": 125750,
+          "name": "I. Tabatadze"
+        },
+        "assist": {
+          "id": 311243,
+          "name": "S. Mamatsashvili"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 50126,
+          "name": "D. T\u00fcr\u00fc\u00e7"
+        },
+        "assist": {
+          "id": 50180,
+          "name": "S. G\u00fcrler"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 2374,
+          "name": "D. Pelkas"
+        },
+        "assist": {
+          "id": 21270,
+          "name": "P. Keny"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 41161,
+          "name": "Davidson"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 24885,
+          "name": "B. \u00d6zcan"
+        },
+        "assist": {
+          "id": 21082,
+          "name": "Lucas Lima"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 3502,
+          "name": "Saburtalo",
+          "logo": "https://media.api-sports.io/football/teams/3502.png"
+        },
+        "player": {
+          "id": 163515,
+          "name": "S. Nonikashvili"
+        },
+        "assist": {
+          "id": 24758,
+          "name": "I. Sikharulidze"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      }
+    ]
+  }
+}

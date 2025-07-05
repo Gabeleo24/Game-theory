@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T11:55:03.369361",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1231790"
+    },
+    "errors": [],
+    "results": 19,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 8,
+          "extra": null
+        },
+        "team": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        },
+        "player": {
+          "id": 135749,
+          "name": "F\u00e9lix Correia"
+        },
+        "assist": {
+          "id": 33794,
+          "name": "K. Fujimoto"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 9,
+          "extra": null
+        },
+        "team": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        },
+        "player": {
+          "id": 184743,
+          "name": "Santi Garc\u00eda"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 17,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 624,
+          "name": "N. Otamendi"
+        },
+        "assist": {
+          "id": 266,
+          "name": "\u00c1. Di Mar\u00eda"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 142959,
+          "name": "K. Akt\u00fcrko\u011flu"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 33,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 37155,
+          "name": "Orkun K\u00f6k\u00e7\u00fc"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 34,
+          "extra": null
+        },
+        "team": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        },
+        "player": {
+          "id": 41574,
+          "name": "Sandro Cruz"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 36798,
+          "name": "V. Pavlidis"
+        },
+        "assist": {
+          "id": 9938,
+          "name": "Arthur Cabral"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 37155,
+          "name": "O. K\u00f6k\u00e7\u00fc"
+        },
+        "assist": {
+          "id": 119485,
+          "name": "B. Rollheiser"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 142959,
+          "name": "K. Akt\u00fcrko\u011flu"
+        },
+        "assist": {
+          "id": 123469,
+          "name": "Z. Amdouni"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        },
+        "player": {
+          "id": 122,
+          "name": "Jordi Mboula"
+        },
+        "assist": {
+          "id": 162208,
+          "name": "T. Tour\u00e9"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        },
+        "player": {
+          "id": 184743,
+          "name": "Santi Garc\u00eda"
+        },
+        "assist": {
+          "id": 41418,
+          "name": "Jo\u00e3o Teixeira"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 266,
+          "name": "\u00c1. Di Mar\u00eda"
+        },
+        "assist": {
+          "id": 25313,
+          "name": "J. Beste"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 123469,
+          "name": "Z. Amdouni"
+        },
+        "assist": {
+          "id": 119485,
+          "name": "B. Rollheiser"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        },
+        "player": {
+          "id": 195473,
+          "name": "Cau\u00ea"
+        },
+        "assist": {
+          "id": 200994,
+          "name": "Jorge Aguirre"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        },
+        "player": {
+          "id": 41574,
+          "name": "Sandro Cruz"
+        },
+        "assist": {
+          "id": 197451,
+          "name": "Kazu"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        },
+        "player": {
+          "id": 142024,
+          "name": "Z\u00e9 Carlos"
+        },
+        "assist": {
+          "id": 162209,
+          "name": "J. Mutombo"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 284300,
+          "name": "\u00c1lvaro Fern\u00e1ndez"
+        },
+        "assist": {
+          "id": 362755,
+          "name": "G. Prestianni"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 575,
+          "name": "Florentino"
+        },
+        "assist": {
+          "id": 624,
+          "name": "N. Otamendi"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 119485,
+          "name": "B. Rollheiser"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

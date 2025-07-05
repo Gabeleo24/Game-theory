@@ -1,0 +1,498 @@
+{
+  "cache_timestamp": "2025-07-04T13:13:16.365464",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1244975"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "colors": {
+            "player": {
+              "primary": "ff5900",
+              "number": "000000",
+              "border": "ff5900"
+            },
+            "goalkeeper": {
+              "primary": "a73794",
+              "number": "000000",
+              "border": "a73794"
+            }
+          }
+        },
+        "formation": "4-1-4-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 336695,
+              "name": "Denys Tvardovskyi",
+              "number": 48,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 279792,
+              "name": "Vin\u00edcius Tobias",
+              "number": 17,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 14704,
+              "name": "Bartol Franji\u0107",
+              "number": 45,
+              "pos": "M",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 336696,
+              "name": "Maryan Faryna",
+              "number": 28,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 299925,
+              "name": "Pedrinho",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 698,
+              "name": "Taras Stepanenko",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 10244,
+              "name": "Pedrinho",
+              "number": 38,
+              "pos": "M",
+              "grid": "4:4"
+            }
+          },
+          {
+            "player": {
+              "id": 8458,
+              "name": "Yehor Nazaryna",
+              "number": 29,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 415151,
+              "name": "Newerton Palmares",
+              "number": 39,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 374094,
+              "name": "Eguinaldo",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 63557,
+              "name": "Marian Shved",
+              "number": 9,
+              "pos": "M",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 1500,
+              "name": "Dmytro Riznyk",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Rostyslav Bahlai",
+              "number": 89,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 24597,
+              "name": "Irakli Azarovi",
+              "number": 16,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 676,
+              "name": "Valeriy Bondar",
+              "number": 5,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 682,
+              "name": "Mykola Matviyenko",
+              "number": 22,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 125418,
+              "name": "Yukhym Konoplia",
+              "number": 26,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 336702,
+              "name": "Roman Savchenko",
+              "number": 36,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 361435,
+              "name": "Luka Latsabidze",
+              "number": 55,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 105320,
+              "name": "Oleksandr Zubkov",
+              "number": 11,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 374356,
+              "name": "Marlon Gomes",
+              "number": 30,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 161945,
+              "name": "Georgiy Sudakov",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 336626,
+              "name": "Anton Hlushchenko",
+              "number": 90,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 555,
+              "name": "Lassina Traor\u00e9",
+              "number": 2,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 237819,
+              "name": "Kevin",
+              "number": 37,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 3173,
+          "name": "M. Pusic",
+          "photo": "https://media.api-sports.io/football/coachs/3173.png"
+        }
+      },
+      {
+        "team": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png",
+          "colors": {
+            "player": {
+              "primary": "f9fbf9",
+              "number": "055ff0",
+              "border": "f9fbf9"
+            },
+            "goalkeeper": {
+              "primary": "fffb0d",
+              "number": "000000",
+              "border": "fffb0d"
+            }
+          }
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 62401,
+              "name": "Tarik \u00c7etin",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 338502,
+              "name": "Eray Korkmaz",
+              "number": 27,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 2335,
+              "name": "Attila Mocsi",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 137430,
+              "name": "Seyfettin Anil Yasar",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 15579,
+              "name": "Casper H\u00f8jer",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 151943,
+              "name": "Mithat Pala",
+              "number": 54,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 27039,
+              "name": "Giannis Papanikolaou",
+              "number": 90,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 138833,
+              "name": "Dal Vare\u0161anovi\u0107",
+              "number": 8,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 419870,
+              "name": "Oumar Diouf",
+              "number": 19,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 127164,
+              "name": "Altin Zeqiri",
+              "number": 77,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 11116,
+              "name": "Martin Minchev",
+              "number": 89,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 50021,
+              "name": "Zafer G\u00f6rgen",
+              "number": 91,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 134755,
+              "name": "Canberk Yurdakul",
+              "number": 40,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Taha \u015eahin",
+              "number": 37,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 61812,
+              "name": "Halil Ibrahim Pehlivan",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 50040,
+              "name": "Okechukwu Azubuike",
+              "number": 14,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 104855,
+              "name": "\u00d3scar Pinchi",
+              "number": 93,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 392093,
+              "name": "Emirhan Yilmaz",
+              "number": 94,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 366674,
+              "name": "Efe Tecimer",
+              "number": 99,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 383860,
+              "name": "Emrecan Bulut",
+              "number": 95,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 394448,
+              "name": "Habil \u00d6zbakir",
+              "number": 92,
+              "pos": null,
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Remzi Kolcuoglu",
+              "number": 96,
+              "pos": null,
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 15478,
+          "name": "\u0130. Palut",
+          "photo": "https://media.api-sports.io/football/coachs/15478.png"
+        }
+      }
+    ]
+  }
+}

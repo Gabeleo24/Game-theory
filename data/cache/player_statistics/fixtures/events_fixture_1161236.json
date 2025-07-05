@@ -1,0 +1,61 @@
+{
+  "cache_timestamp": "2025-07-04T12:14:21.276305",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1161236"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 2172,
+          "name": "V. Buyalskyy"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 198391,
+          "name": "N. Voloshyn"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

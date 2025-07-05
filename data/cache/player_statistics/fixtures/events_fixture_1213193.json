@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T12:34:41.358639",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213193"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 1085,
+          "name": "Akhmat",
+          "logo": "https://media.api-sports.io/football/teams/1085.png"
+        },
+        "player": {
+          "id": 25181,
+          "name": "Aleksandr Zhirov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 43488,
+          "name": "Yuri Gorshkov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": {
+          "id": 1085,
+          "name": "Akhmat",
+          "logo": "https://media.api-sports.io/football/teams/1085.png"
+        },
+        "player": {
+          "id": 43517,
+          "name": "Vladislav Kamilov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 43855,
+          "name": "A. Mostovoy"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 32,
+          "extra": null
+        },
+        "team": {
+          "id": 1085,
+          "name": "Akhmat",
+          "logo": "https://media.api-sports.io/football/teams/1085.png"
+        },
+        "player": {
+          "id": 191889,
+          "name": "Maksim Samorodov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 5
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 278549,
+          "name": "Gustavo Mantuan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 6
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 43855,
+          "name": "A. Mostovoy"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 1085,
+          "name": "Akhmat",
+          "logo": "https://media.api-sports.io/football/teams/1085.png"
+        },
+        "player": {
+          "id": 191889,
+          "name": "M. Samorodov"
+        },
+        "assist": {
+          "id": 384400,
+          "name": "D. Zorin"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 1085,
+          "name": "Akhmat",
+          "logo": "https://media.api-sports.io/football/teams/1085.png"
+        },
+        "player": {
+          "id": 43517,
+          "name": "V. Kamilov"
+        },
+        "assist": {
+          "id": 53545,
+          "name": "B. Berisha"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 363696,
+          "name": "Pedro Henrique"
+        },
+        "assist": {
+          "id": 53772,
+          "name": "A. Sobolev"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 1085,
+          "name": "Akhmat",
+          "logo": "https://media.api-sports.io/football/teams/1085.png"
+        },
+        "player": {
+          "id": 25181,
+          "name": "A. Zhirov"
+        },
+        "assist": {
+          "id": 45855,
+          "name": "M. \u0160atara"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 1085,
+          "name": "Akhmat",
+          "logo": "https://media.api-sports.io/football/teams/1085.png"
+        },
+        "player": {
+          "id": 53552,
+          "name": "L. Sadulaev"
+        },
+        "assist": {
+          "id": 1086,
+          "name": "D. Todorovi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 1085,
+          "name": "Akhmat",
+          "logo": "https://media.api-sports.io/football/teams/1085.png"
+        },
+        "player": {
+          "id": 1794,
+          "name": "G. Melkadze"
+        },
+        "assist": {
+          "id": 70810,
+          "name": "R. Ruiz D\u00edaz"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 265785,
+          "name": "Luiz Henrique"
+        },
+        "assist": {
+          "id": 133391,
+          "name": "S. Erakovi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 43855,
+          "name": "A. Mostovoy"
+        },
+        "assist": {
+          "id": 5923,
+          "name": "M. Cassierra"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 53772,
+          "name": "A. Sobolev"
+        },
+        "assist": {
+          "id": 1210,
+          "name": "A. Erokhin"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 278549,
+          "name": "Gustavo Mantuan"
+        },
+        "assist": {
+          "id": 265909,
+          "name": "L. Gondou"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  }
+}

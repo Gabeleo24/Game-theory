@@ -1,0 +1,369 @@
+{
+  "cache_timestamp": "2025-07-04T12:47:47.607365",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1250590"
+    },
+    "errors": [],
+    "results": 16,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 10,
+          "extra": null
+        },
+        "team": {
+          "id": 1124,
+          "name": "OFI",
+          "logo": "https://media.api-sports.io/football/teams/1124.png"
+        },
+        "player": {
+          "id": 7625,
+          "name": "Taxiarchis Fountas"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": {
+          "id": 1124,
+          "name": "OFI",
+          "logo": "https://media.api-sports.io/football/teams/1124.png"
+        },
+        "player": {
+          "id": 21354,
+          "name": "Andrew Jung"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 24,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 179862,
+          "name": "Marko Stameni\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 27,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 204037,
+          "name": "Costinha"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 84081,
+          "name": "G. Biancone"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 1124,
+          "name": "OFI",
+          "logo": "https://media.api-sports.io/football/teams/1124.png"
+        },
+        "player": {
+          "id": 21354,
+          "name": "A. Jung"
+        },
+        "assist": {
+          "id": 220,
+          "name": "E. Salcedo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 84081,
+          "name": "Giulian Biancone"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 179862,
+          "name": "M. Stameni\u0107"
+        },
+        "assist": {
+          "id": 392514,
+          "name": "C. Mouzakitis"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 204037,
+          "name": "Costinha"
+        },
+        "assist": {
+          "id": 10157,
+          "name": "Rodinei"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 84081,
+          "name": "G. Biancone"
+        },
+        "assist": {
+          "id": 971,
+          "name": "P. Retsos"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 1124,
+          "name": "OFI",
+          "logo": "https://media.api-sports.io/football/teams/1124.png"
+        },
+        "player": {
+          "id": 170077,
+          "name": "T. Nuss"
+        },
+        "assist": {
+          "id": 133918,
+          "name": "Adri\u00e1n Riera"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 2294,
+          "name": "Willian"
+        },
+        "assist": {
+          "id": 424375,
+          "name": "A. Papakanellos"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 1124,
+          "name": "OFI",
+          "logo": "https://media.api-sports.io/football/teams/1124.png"
+        },
+        "player": {
+          "id": 26771,
+          "name": "N. Marinakis"
+        },
+        "assist": {
+          "id": 92525,
+          "name": "Borja Gonz\u00e1lez"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 1124,
+          "name": "OFI",
+          "logo": "https://media.api-sports.io/football/teams/1124.png"
+        },
+        "player": {
+          "id": 349497,
+          "name": "G. Apostolakis"
+        },
+        "assist": {
+          "id": 26905,
+          "name": "J. Neira"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 392482,
+          "name": "C. Kostoulas"
+        },
+        "assist": {
+          "id": 2375,
+          "name": "S\u00e9rgio Oliveira"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 41130,
+          "name": "Chiquinho"
+        },
+        "assist": {
+          "id": 2722,
+          "name": "A. El Kaabi"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

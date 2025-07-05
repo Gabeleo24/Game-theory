@@ -1,0 +1,480 @@
+{
+  "cache_timestamp": "2025-07-04T13:28:04.049611",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1298985"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "colors": {
+            "player": {
+              "primary": "fcd807",
+              "number": "000000",
+              "border": "fcd807"
+            },
+            "goalkeeper": {
+              "primary": "465ba8",
+              "number": "ffffff",
+              "border": "465ba8"
+            }
+          }
+        },
+        "coach": {
+          "id": 1499,
+          "name": "P. Rahmen",
+          "photo": "https://media.api-sports.io/football/coachs/1499.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 939,
+              "name": "D. von Ballmoos",
+              "number": 26,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 396380,
+              "name": "Z. Athekame",
+              "number": 24,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 942,
+              "name": "M. Camara",
+              "number": 13,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 282546,
+              "name": "T. Zoukrou",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 271539,
+              "name": "J. Hadjam",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 22239,
+              "name": "C. Niasse",
+              "number": 20,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 954,
+              "name": "S. Lauper",
+              "number": 30,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 277862,
+              "name": "J. Monteiro",
+              "number": 77,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 48465,
+              "name": "F. Ugrinic",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 140847,
+              "name": "E. Colley",
+              "number": 11,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 25079,
+              "name": "S. Ganvoula",
+              "number": 35,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 3034,
+              "name": "M. Elia",
+              "number": 15,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1478,
+              "name": "Abdu Cont\u00e9",
+              "number": 22,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 271572,
+              "name": "A. Virginius",
+              "number": 21,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 135965,
+              "name": "D. Males",
+              "number": 39,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 48497,
+              "name": "C. Itten",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 161810,
+              "name": "L. Blum",
+              "number": 27,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 938,
+              "name": "D. Marzino",
+              "number": 40,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 345326,
+              "name": "M. Chaiwa",
+              "number": 14,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 148351,
+              "name": "\u0141. \u0141akomy",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 48612,
+              "name": "K. Imeri",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 941,
+              "name": "L. Benito",
+              "number": 23,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 123468,
+              "name": "M. Keller",
+              "number": 33,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media.api-sports.io/football/teams/66.png",
+          "colors": {
+            "player": {
+              "primary": "07304d",
+              "number": "ffffff",
+              "border": "07304d"
+            },
+            "goalkeeper": {
+              "primary": "000000",
+              "number": "ffffff",
+              "border": "000000"
+            }
+          }
+        },
+        "coach": {
+          "id": 18,
+          "name": "Unai Emery",
+          "photo": "https://media.api-sports.io/football/coachs/18.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 19599,
+              "name": "E. Mart\u00ednez",
+              "number": 23,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 284457,
+              "name": "L. Bogarde",
+              "number": 26,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 19354,
+              "name": "E. Konsa",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 46815,
+              "name": "Pau Torres",
+              "number": 14,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 2724,
+              "name": "L. Digne",
+              "number": 12,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 162714,
+              "name": "A. Onana",
+              "number": 24,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 2926,
+              "name": "Y. Tielemans",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 19191,
+              "name": "J. McGinn",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 19170,
+              "name": "M. Rogers",
+              "number": 27,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 19192,
+              "name": "J. Ramsey",
+              "number": 41,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 19366,
+              "name": "O. Watkins",
+              "number": 11,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 21090,
+              "name": "Diego Carlos",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 13489,
+              "name": "J. Dur\u00e1n",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 138816,
+              "name": "I. Maatsen",
+              "number": 22,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2287,
+              "name": "R. Barkley",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 19071,
+              "name": "E. Buend\u00eda",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 148270,
+              "name": "O. Zych",
+              "number": 48,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 284523,
+              "name": "S. Swinkels",
+              "number": 50,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 7029,
+              "name": "J. Gauci",
+              "number": 18,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 983,
+              "name": "L. Bailey",
+              "number": 31,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 342320,
+              "name": "K. Nedeljkovi\u0107",
+              "number": 20,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 312260,
+              "name": "K. Young",
+              "number": 72,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

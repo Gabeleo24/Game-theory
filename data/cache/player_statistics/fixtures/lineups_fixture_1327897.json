@@ -1,0 +1,426 @@
+{
+  "cache_timestamp": "2025-07-04T12:00:12.034956",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1327897"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 13601,
+          "name": "Espaly-Saint-Marcel",
+          "logo": "https://media.api-sports.io/football/teams/13601.png",
+          "colors": {
+            "player": {
+              "primary": "000000",
+              "number": "222226",
+              "border": "808080"
+            },
+            "goalkeeper": {
+              "primary": "000000",
+              "number": "222226",
+              "border": "808080"
+            }
+          }
+        },
+        "coach": {
+          "id": 7578,
+          "name": "L. Vaillant",
+          "photo": "https://media.api-sports.io/football/coachs/7578.png"
+        },
+        "formation": "5-3-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 193568,
+              "name": "J. Etienne",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 21963,
+              "name": "G. Allaigre",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:5"
+            }
+          },
+          {
+            "player": {
+              "id": 23435,
+              "name": "K. Uzun",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 437718,
+              "name": "L. Curt",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 21605,
+              "name": "J. Ichane",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 174836,
+              "name": "M. Mezaber",
+              "number": 7,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 386889,
+              "name": "K. Portal",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 21600,
+              "name": "M. Ait Boulaalam",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 333115,
+              "name": "L. Russo",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 194374,
+              "name": "M. Fournel",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 117924,
+              "name": "K. Gje\u00e7i",
+              "number": 11,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 437715,
+              "name": "N. Fila",
+              "number": 19,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 175130,
+              "name": "M. El Hammiri",
+              "number": 13,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 281322,
+              "name": "B. Beaumont",
+              "number": 14,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 344931,
+              "name": "S. Bendriss",
+              "number": 12,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 505638,
+              "name": "N. Raboisson",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 21975,
+              "name": "H. Di Piazza",
+              "number": 18,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 438887,
+              "name": "C. Pag\u00e8s",
+              "number": 16,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 453065,
+              "name": "R. Grand",
+              "number": 17,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 439965,
+              "name": "T. Teil",
+              "number": 15,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png",
+          "colors": {
+            "player": {
+              "primary": "fcfcfc",
+              "number": "1f317a",
+              "border": "fcfcfc"
+            },
+            "goalkeeper": {
+              "primary": "40a344",
+              "number": "ffffff",
+              "border": "40a344"
+            }
+          }
+        },
+        "coach": {
+          "id": 193,
+          "name": "Luis Enrique",
+          "photo": "https://media.api-sports.io/football/coachs/193.png"
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 162473,
+              "name": "Arnau Tenas",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 386285,
+              "name": "Y. Zague",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 491103,
+              "name": "A. Tape",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 33,
+              "name": "L. Hern\u00e1ndez",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 335051,
+              "name": "Jo\u00e3o Neves",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 336657,
+              "name": "W. Za\u00efre-Emery",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 328,
+              "name": "Fabi\u00e1n Ruiz",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 409216,
+              "name": "S. Mayulu",
+              "number": 7,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 343027,
+              "name": "D. Dou\u00e9",
+              "number": 11,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 41585,
+              "name": "Gon\u00e7alo Ramos",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 161904,
+              "name": "B. Barcola",
+              "number": 10,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 263482,
+              "name": "Nuno Mendes",
+              "number": 18,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 128384,
+              "name": "Vitinha",
+              "number": 17,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 927,
+              "name": "Lee Kang-In",
+              "number": 19,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 16367,
+              "name": "W. Pacho",
+              "number": 15,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 262,
+              "name": "P. Kimpembe",
+              "number": 12,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 349189,
+              "name": "Louis Mouquet",
+              "number": 20,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2068,
+              "name": "M. Safonov",
+              "number": 16,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 746,
+              "name": "Marco Asensio",
+              "number": 14,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

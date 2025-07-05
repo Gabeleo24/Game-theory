@@ -1,0 +1,471 @@
+{
+  "cache_timestamp": "2025-07-04T13:19:43.616354",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1210515"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 2250,
+          "name": "Sigma Olomouc",
+          "logo": "https://media.api-sports.io/football/teams/2250.png",
+          "colors": {
+            "player": {
+              "primary": "0062ff",
+              "number": "ffffff",
+              "border": "0062ff"
+            },
+            "goalkeeper": {
+              "primary": "1acc0c",
+              "number": "ffffff",
+              "border": "1acc0c"
+            }
+          }
+        },
+        "coach": {
+          "id": 5358,
+          "name": "T. Janotka",
+          "photo": "https://media.api-sports.io/football/coachs/5358.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 425770,
+              "name": "J. Koutn\u00fd",
+              "number": 91,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 316077,
+              "name": "M. Hada\u0161",
+              "number": 34,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 409875,
+              "name": "A. Dohn\u00e1lek",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 25093,
+              "name": "J. Kr\u00e1l",
+              "number": 21,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 282300,
+              "name": "J. Elbel",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 66041,
+              "name": "R. Breite",
+              "number": 7,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 66439,
+              "name": "F. Zorvan",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 66100,
+              "name": "J. Navr\u00e1til",
+              "number": 30,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 379017,
+              "name": "M. Mikulenka",
+              "number": 25,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 162755,
+              "name": "J. \u0160\u00edp",
+              "number": 6,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 314368,
+              "name": "J. Fiala",
+              "number": 18,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 364254,
+              "name": "F. Slav\u00ed\u010dek",
+              "number": 16,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 200805,
+              "name": "Y. Muritala",
+              "number": 11,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66268,
+              "name": "J. Chv\u00e1tal",
+              "number": 20,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66151,
+              "name": "J. Vodh\u00e1n\u011bl",
+              "number": 77,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66435,
+              "name": "M. Leibl",
+              "number": 28,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 163105,
+              "name": "J. Sp\u00e1\u010dil",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 40481,
+              "name": "M. Posp\u00ed\u0161il",
+              "number": 26,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 210180,
+              "name": "O. Dele",
+              "number": 17,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 296149,
+              "name": "T. Stoppen",
+              "number": 29,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 338970,
+              "name": "A. Uri\u010da",
+              "number": 5,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 449783,
+              "name": "P. Siegl",
+              "number": 15,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "578ade",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "f7b030",
+              "number": "ffffff",
+              "border": "f7b030"
+            }
+          }
+        },
+        "coach": {
+          "id": 1813,
+          "name": "J. Trpi\u0161ovsk\u00fd",
+          "photo": "https://media.api-sports.io/football/coachs/1813.png"
+        },
+        "formation": "3-4-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 265826,
+              "name": "A. Kinsk\u00fd",
+              "number": 31,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2252,
+              "name": "T. Hole\u0161",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1174,
+              "name": "I. Ogbu",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 1230,
+              "name": "J. Bo\u0159il",
+              "number": 18,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 66214,
+              "name": "D. Doud\u011bra",
+              "number": 21,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 216762,
+              "name": "C. Zafeiris",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 66042,
+              "name": "O. Dorley",
+              "number": 19,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 409303,
+              "name": "E. Diouf",
+              "number": 12,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 66208,
+              "name": "O. Lingr",
+              "number": 32,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 66275,
+              "name": "M. Chytil",
+              "number": 13,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 394698,
+              "name": "D. Pech",
+              "number": 48,
+              "pos": null,
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 66353,
+              "name": "L. Provod",
+              "number": 17,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 818,
+              "name": "T. Chor\u00fd",
+              "number": 25,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 180305,
+              "name": "M. Jur\u00e1sek",
+              "number": 35,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 15328,
+              "name": "I. Schranz",
+              "number": 26,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 337740,
+              "name": "\u0160. Chaloupek",
+              "number": 2,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 128772,
+              "name": "D. Zima",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66265,
+              "name": "A. Mandous",
+              "number": 24,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 181824,
+              "name": "F. Prebsl",
+              "number": 28,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66287,
+              "name": "O. Zmrzl\u00fd",
+              "number": 33,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 322561,
+              "name": "S. Michez",
+              "number": 14,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 290536,
+              "name": "D. Fila",
+              "number": 11,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

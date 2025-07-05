@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T12:17:54.314574",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1218602"
+    },
+    "errors": [],
+    "results": 19,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 5,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 302869,
+          "name": "D. Nene"
+        },
+        "assist": {
+          "id": 329715,
+          "name": "O. Gloukh"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 19,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 105154,
+          "name": "I. Jansson"
+        },
+        "assist": {
+          "id": 176022,
+          "name": "M. Seidl"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 30,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 420,
+          "name": "G. Burgstaller"
+        },
+        "assist": {
+          "id": 182434,
+          "name": "D. Beljo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 37,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 66728,
+          "name": "J. Auer"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 3
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 301763,
+          "name": "P. Ratkov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 48,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 179843,
+          "name": "Lucas Gourna-Douath"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 51,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 381810,
+          "name": "Moussa Kounfolo Yeo"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 179843,
+          "name": "L. Gourna-Douath"
+        },
+        "assist": {
+          "id": 162189,
+          "name": "M. Bidstrup"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 115587,
+          "name": "M. Kj\u00e6rgaard"
+        },
+        "assist": {
+          "id": 362564,
+          "name": "A. Daghim"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 301763,
+          "name": "P. Ratkov"
+        },
+        "assist": {
+          "id": 5973,
+          "name": "N. Capaldo"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 182434,
+          "name": "D. Beljo"
+        },
+        "assist": {
+          "id": 328226,
+          "name": "D. Kaygin"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 105154,
+          "name": "I. Jansson"
+        },
+        "assist": {
+          "id": 7072,
+          "name": "L. Grgi\u0107"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 27778,
+          "name": "Bendeg\u00faz Bolla"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 7072,
+          "name": "L. Grgi\u0107"
+        },
+        "assist": {
+          "id": 39288,
+          "name": "T. B\u00f8rkeeiet"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 24809,
+          "name": "L. Schaub"
+        },
+        "assist": {
+          "id": 1718,
+          "name": "M. Hofmann"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png"
+        },
+        "player": {
+          "id": 105154,
+          "name": "I. Jansson"
+        },
+        "assist": {
+          "id": 169420,
+          "name": "M. Oswald"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 362564,
+          "name": "Adam Daghim"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 302915,
+          "name": "Mamady Diambou"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 302869,
+          "name": "Nene Dorgeles"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      }
+    ]
+  }
+}

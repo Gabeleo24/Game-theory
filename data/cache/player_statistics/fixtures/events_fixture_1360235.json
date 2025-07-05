@@ -1,0 +1,457 @@
+{
+  "cache_timestamp": "2025-07-04T12:51:09.393349",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1360235"
+    },
+    "errors": [],
+    "results": 20,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 335633,
+          "name": "Weslley Patati"
+        },
+        "assist": {
+          "id": 206361,
+          "name": "I. Sissokho"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 345208,
+          "name": "Roey Elimelech"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 12943,
+          "name": "Eran Zahavi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 52,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 126969,
+          "name": "O. Davida"
+        },
+        "assist": {
+          "id": 56011,
+          "name": "D. Peretz"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 304334,
+          "name": "I. Hagag"
+        },
+        "assist": {
+          "id": 162272,
+          "name": "E. Azoulay"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 12943,
+          "name": "E. Zahavi"
+        },
+        "assist": {
+          "id": 269532,
+          "name": "D. Turgeman"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 110987,
+          "name": "D. Haziza"
+        },
+        "assist": {
+          "id": 412687,
+          "name": "I. Khalaili"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 8461,
+          "name": "L. Refaelov"
+        },
+        "assist": {
+          "id": 111277,
+          "name": "D. David"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 206361,
+          "name": "Issouf Sissokho"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 274199,
+          "name": "T. Asante"
+        },
+        "assist": {
+          "id": 111288,
+          "name": "I. Nachmias"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 111148,
+          "name": "G. Kanichowsky"
+        },
+        "assist": {
+          "id": 37183,
+          "name": "J. van Overeem"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 8450,
+          "name": "Abdoulaye Seck"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Professional foul last man"
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 12939,
+          "name": "D. Sabia"
+        },
+        "assist": {
+          "id": 397735,
+          "name": "G. Yabelo"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 111264,
+          "name": "G. Melamed"
+        },
+        "assist": {
+          "id": 469735,
+          "name": "E. Amir"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 162272,
+          "name": "Ethane Azoulay"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 126969,
+          "name": "O. Davida"
+        },
+        "assist": {
+          "id": 111284,
+          "name": "S. Jehezkel"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 206361,
+          "name": "I. Sissokho"
+        },
+        "assist": {
+          "id": 137531,
+          "name": "I. Shahar"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 137531,
+          "name": "I. Shahar"
+        },
+        "assist": {
+          "id": 315127,
+          "name": "R. Revivo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 5
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 111284,
+          "name": "Sagiv Jehezkel"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 126500,
+          "name": "Ali Mohamed"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+}

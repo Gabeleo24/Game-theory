@@ -1,0 +1,413 @@
+{
+  "cache_timestamp": "2025-07-04T12:33:48.653458",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1212977"
+    },
+    "errors": [],
+    "results": 18,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 19,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 363696,
+          "name": "Pedro Henrique"
+        },
+        "assist": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 363696,
+          "name": "Pedro"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "assist": {
+          "id": 5923,
+          "name": "M. Cassierra"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 32,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 5923,
+          "name": "M. Cassierra"
+        },
+        "assist": {
+          "id": 1492,
+          "name": "Wendel"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "assist": {
+          "id": 5923,
+          "name": "M. Cassierra"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 36,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 53528,
+          "name": "Daniil Glebov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 9475,
+          "name": "Claudinho"
+        },
+        "assist": {
+          "id": 43488,
+          "name": "Y. Gorshkov"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 10306,
+          "name": "Nino"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 363696,
+          "name": "Pedro Henrique"
+        },
+        "assist": {
+          "id": 84087,
+          "name": "W. Isidor"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 5923,
+          "name": "M. Cassierra"
+        },
+        "assist": {
+          "id": 43855,
+          "name": "A. Mostovoy"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 2090,
+          "name": "D. Utkin"
+        },
+        "assist": {
+          "id": 310756,
+          "name": "R. Saravia"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "assist": {
+          "id": 1492,
+          "name": "Wendel"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 459650,
+          "name": "I. Aznaurov"
+        },
+        "assist": {
+          "id": 104627,
+          "name": "E. Golenkov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 162171,
+          "name": "K. Shchetinin"
+        },
+        "assist": {
+          "id": 837,
+          "name": "K. Kuchaev"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "assist": {
+          "id": 10040,
+          "name": "Artur"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1492,
+          "name": "Wendel"
+        },
+        "assist": {
+          "id": 278549,
+          "name": "Gustavo Mantuan"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 195433,
+          "name": "Ronaldo"
+        },
+        "assist": {
+          "id": 53604,
+          "name": "K. Bayramyan"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 43734,
+          "name": "M. Osipenko"
+        },
+        "assist": {
+          "id": 323446,
+          "name": "V. Melekhin"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

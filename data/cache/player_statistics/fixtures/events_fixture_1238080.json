@@ -1,0 +1,479 @@
+{
+  "cache_timestamp": "2025-07-04T11:51:14.933041",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1238080"
+    },
+    "errors": [],
+    "results": 21,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 2,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 376039,
+          "name": "Yasin \u00d6zcan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 6,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 49469,
+          "name": "Mortadha Ben Ouanes"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 10,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "Victor Osimhen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 376039,
+          "name": "Y. \u00d6zcan"
+        },
+        "assist": {
+          "id": 47304,
+          "name": "K. Rodrigues"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 52,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 49469,
+          "name": "M. Ben Ouanes"
+        },
+        "assist": {
+          "id": 119762,
+          "name": "K. Pi\u0105tkowski"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 2762,
+          "name": "Josip Brekalo"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 2762,
+          "name": "J. Brekalo"
+        },
+        "assist": {
+          "id": 25522,
+          "name": "G. G\u00fcl"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 26252,
+          "name": "R. Sallai"
+        },
+        "assist": {
+          "id": 422,
+          "name": "A. Kutucu"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 18947,
+          "name": "Mario Lemina"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 18947,
+          "name": "M. Lemina"
+        },
+        "assist": {
+          "id": 168,
+          "name": "D. S\u00e1nchez"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 2762,
+          "name": "J. Brekalo"
+        },
+        "assist": {
+          "id": 128955,
+          "name": "C. Kele\u015f"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 50057,
+          "name": "E. Elmal\u0131"
+        },
+        "assist": {
+          "id": 13283,
+          "name": "C. Cuesta"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 18947,
+          "name": "M. Lemina"
+        },
+        "assist": {
+          "id": 25448,
+          "name": "K. Ayhan"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 128955,
+          "name": "Can Kele\u015f"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 13283,
+          "name": "Carlos Cuesta"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 50067,
+          "name": "H. Hajradinovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 1004,
+          "name": "Kasimpasa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        },
+        "player": {
+          "id": 49469,
+          "name": "M. Ben Ouanes"
+        },
+        "assist": {
+          "id": 40401,
+          "name": "Caf\u00fa"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 1462,
+          "name": "L. Torreira"
+        },
+        "assist": {
+          "id": 332,
+          "name": "D. Mertens"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 61837,
+          "name": "A. Bardakc\u0131"
+        },
+        "assist": {
+          "id": 131294,
+          "name": "Y. Demir"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

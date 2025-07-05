@@ -1,0 +1,489 @@
+{
+  "cache_timestamp": "2025-07-04T13:14:55.336532",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1218069"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "121111",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "d7db00",
+              "number": "000000",
+              "border": "d7db00"
+            }
+          }
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 198395,
+              "name": "Ivan Gute\u0161a",
+              "number": 77,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 340727,
+              "name": "Ognjen Mimovi\u0107",
+              "number": 70,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 303322,
+              "name": "Nasser Djiga",
+              "number": 24,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 340726,
+              "name": "Stefan Lekovi\u0107",
+              "number": 12,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 345,
+              "name": "Milan Rodi\u0107",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 41242,
+              "name": "D\u00e1lcio",
+              "number": 20,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 38699,
+              "name": "Luka Ili\u0107",
+              "number": 32,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 342226,
+              "name": "Jovan \u0160ljivi\u0107",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 50910,
+              "name": "Aleksandar Katai",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 398194,
+              "name": "Lazar Jovanovi\u0107",
+              "number": 91,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 14379,
+              "name": "Cherif Ndiaye",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 337,
+              "name": "Milo\u0161 Gordi\u0107",
+              "number": 51,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Vuk Dra\u0161ki\u0107",
+              "number": 99,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 304003,
+              "name": "Andrej \u0110uri\u0107",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 305450,
+              "name": "Ebenezer Annan",
+              "number": 77,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 340729,
+              "name": "Viktor Radojevi\u0107",
+              "number": 29,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2901,
+              "name": "In-Beom Hwang",
+              "number": 66,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66021,
+              "name": "Gu\u00e9lor Kanga",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 325447,
+              "name": "Nikola Kne\u017eevi\u0107",
+              "number": 41,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Andrija Maksimovi\u0107",
+              "number": 55,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 289536,
+              "name": "Uro\u0161 Kabi\u0107",
+              "number": 17,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 368205,
+              "name": "Uro\u0161 Srem\u010devi\u0107",
+              "number": 31,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 2494,
+          "name": "B. Bakhar",
+          "photo": "https://media.api-sports.io/football/coachs/2494.png"
+        }
+      },
+      {
+        "team": {
+          "id": 2012,
+          "name": "FC Sochi",
+          "logo": "https://media.api-sports.io/football/teams/2012.png",
+          "colors": {
+            "player": {
+              "primary": "202c49",
+              "number": "f6cc28",
+              "border": "202c49"
+            },
+            "goalkeeper": {
+              "primary": "cef35c",
+              "number": "0e1115",
+              "border": "cef35c"
+            }
+          }
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 426408,
+              "name": "Aleksandr Degtev",
+              "number": 35,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 43762,
+              "name": "Ruslan Magal",
+              "number": 28,
+              "pos": "M",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 180380,
+              "name": "Marcelo Alves",
+              "number": 33,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 43453,
+              "name": "Kirill Suslov",
+              "number": 15,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 43742,
+              "name": "Artem Makarchuk",
+              "number": 17,
+              "pos": "M",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 11371,
+              "name": "Ignacio Saavedra",
+              "number": 21,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 162172,
+              "name": "Kirill Kravtsov",
+              "number": 14,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 66147,
+              "name": "Vladislav Levin",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 43804,
+              "name": "Ilya Safronov",
+              "number": 77,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 157992,
+              "name": "Sa\u00fal Guarirapa",
+              "number": 23,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 105579,
+              "name": "Martin Kramari\u010d",
+              "number": 10,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 55390,
+              "name": "Maksim Rudakov",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 43342,
+              "name": "Nikolay Zabolotnyi",
+              "number": 12,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 43558,
+              "name": "Vyacheslav Litvinov",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 43518,
+              "name": "Oleg Kozhemyakin",
+              "number": 22,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 467630,
+              "name": "Astemir Khezhev",
+              "number": 42,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 324438,
+              "name": "Ruslan Shagiakhmetov",
+              "number": 72,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 415454,
+              "name": "Zakhar Fedorov",
+              "number": 68,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 149870,
+              "name": "Kirill Ushatov",
+              "number": 23,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 107516,
+              "name": "Anatoli Makarov",
+              "number": 80,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 166841,
+              "name": "Vladislav Lazarev",
+              "number": 89,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 43352,
+              "name": "Nikita Burmistrov",
+              "number": 18,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 324173,
+              "name": "Daniil Martovoy",
+              "number": 50,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 382908,
+              "name": "Ruslan Bart",
+              "number": 59,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 208,
+          "name": "Robert Moreno",
+          "photo": "https://media.api-sports.io/football/coachs/208.png"
+        }
+      }
+    ]
+  }
+}

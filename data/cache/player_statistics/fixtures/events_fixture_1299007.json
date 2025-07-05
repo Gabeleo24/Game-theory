@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T12:58:06.157873",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1299007"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 11,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1640,
+          "name": "H. \u00c7alhano\u011flu"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 15,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1457,
+          "name": "Henrikh Mkhitaryan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 48,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 194,
+          "name": "Stefan de Vrij"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Off the ball foul"
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 18830,
+          "name": "M. Arnautovi\u0107"
+        },
+        "assist": {
+          "id": 42315,
+          "name": "M. Taremi"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 18830,
+          "name": "M. Arnautovi\u0107"
+        },
+        "assist": {
+          "id": 217,
+          "name": "Lautaro Mart\u00ednez"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1457,
+          "name": "H. Mkhitaryan"
+        },
+        "assist": {
+          "id": 31173,
+          "name": "D. Frattesi"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 194,
+          "name": "S. de Vrij"
+        },
+        "assist": {
+          "id": 1836,
+          "name": "F. Acerbi"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 14379,
+          "name": "C. Ndiaye"
+        },
+        "assist": {
+          "id": 38699,
+          "name": "L. Ili\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 17789,
+          "name": "Timi Max El\u0161nik"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 398192,
+          "name": "A. Maksimovi\u0107"
+        },
+        "assist": {
+          "id": 1920,
+          "name": "N. Radonji\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 20617,
+          "name": "S. Katompa Mvumpa"
+        },
+        "assist": {
+          "id": 63475,
+          "name": "Bruno Duarte"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1640,
+          "name": "H. \u00c7alhano\u011flu"
+        },
+        "assist": {
+          "id": 275776,
+          "name": "K. Asllani"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 217,
+          "name": "Lautaro Mart\u00ednez"
+        },
+        "assist": {
+          "id": 42315,
+          "name": "M. Taremi"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 31009,
+          "name": "A. Bastoni"
+        },
+        "assist": {
+          "id": 24953,
+          "name": "Y. Bisseck"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 42315,
+          "name": "M. Taremi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 31054,
+          "name": "R. Kruni\u0107"
+        },
+        "assist": {
+          "id": 41242,
+          "name": "D\u00e1lcio"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 36983,
+          "name": "V. Drku\u0161i\u0107"
+        },
+        "assist": {
+          "id": 345,
+          "name": "M. Rodi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "cache_timestamp": "2025-07-04T12:09:33.290124",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1211556"
+    },
+    "errors": [],
+    "results": 18,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 15,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 310756,
+          "name": "R. A. Saravia Salvia"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 16,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 401073,
+          "name": "A. Batrakov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 19,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 264151,
+          "name": "I. Komarov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 39,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 162598,
+          "name": "E. Morozov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 53583,
+          "name": "A. Sutormin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 166840,
+          "name": "S. Pinyaev"
+        },
+        "assist": {
+          "id": 43500,
+          "name": "V. Sarveli"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 324420,
+          "name": "A. Karpukas"
+        },
+        "assist": {
+          "id": 130292,
+          "name": "T. Suleymanov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 43443,
+          "name": "D. Vorobyev"
+        },
+        "assist": {
+          "id": 342206,
+          "name": "V. Rakov"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 323446,
+          "name": "V. Melekhin"
+        },
+        "assist": {
+          "id": 43734,
+          "name": "M. Osipenko"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 460624,
+          "name": "A. Shamonin"
+        },
+        "assist": {
+          "id": 66261,
+          "name": "N. Komlichenko"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 310756,
+          "name": "R. Saravia"
+        },
+        "assist": {
+          "id": 162171,
+          "name": "K. Shchetinin"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 401073,
+          "name": "A. Batrakov"
+        },
+        "assist": {
+          "id": 53688,
+          "name": "A. Timofeev"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 192015,
+          "name": "E. Sevikyan"
+        },
+        "assist": {
+          "id": 43511,
+          "name": "I. Samoshnikov"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 464689,
+          "name": "I. Zhbanov"
+        },
+        "assist": {
+          "id": 43847,
+          "name": "I. Vakhania"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 264151,
+          "name": "I. Komarov"
+        },
+        "assist": {
+          "id": 134217,
+          "name": "M. Mohebi"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 2200,
+          "name": "G. Nyamsi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 53583,
+          "name": "A. Sutormin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 6
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 43500,
+          "name": "V. Sarveli"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

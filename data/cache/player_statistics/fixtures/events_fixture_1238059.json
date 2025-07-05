@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T11:51:10.419284",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1238059"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 13283,
+          "name": "Carlos Cuesta"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png"
+        },
+        "player": {
+          "id": 1186,
+          "name": "Babajide David Akintola"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 4
+        },
+        "team": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png"
+        },
+        "player": {
+          "id": 151943,
+          "name": "Mithat Pala"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 13283,
+          "name": "C. Cuesta"
+        },
+        "assist": {
+          "id": 50057,
+          "name": "E. Elmal\u0131"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 332,
+          "name": "D. Mertens"
+        },
+        "assist": {
+          "id": 26252,
+          "name": "R. Sallai"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 47,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": 3007,
+          "name": "P. Frankowski"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 54,
+          "extra": null
+        },
+        "team": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png"
+        },
+        "player": {
+          "id": 11012,
+          "name": "A. Sowe"
+        },
+        "assist": {
+          "id": 1186,
+          "name": "D. Akintola"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 422,
+          "name": "A. Kutucu"
+        },
+        "assist": {
+          "id": 18947,
+          "name": "M. Lemina"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png"
+        },
+        "player": {
+          "id": 49883,
+          "name": "A. \u00d6m\u00fcr"
+        },
+        "assist": {
+          "id": 18780,
+          "name": "R. Ghezzal"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png"
+        },
+        "player": {
+          "id": 151943,
+          "name": "M. Pala"
+        },
+        "assist": {
+          "id": 24885,
+          "name": "B. \u00d6zcan"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png"
+        },
+        "player": {
+          "id": 62401,
+          "name": "Tarik \u00c7etin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": 18947,
+          "name": "M. Lemina"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 63274,
+          "name": "B. Y\u0131lmaz"
+        },
+        "assist": {
+          "id": 25448,
+          "name": "K. Ayhan"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 80552,
+          "name": "Gabriel Sara"
+        },
+        "assist": {
+          "id": 717,
+          "name": "K. Demirbay"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png"
+        },
+        "player": {
+          "id": 180644,
+          "name": "I. Olawoyin"
+        },
+        "assist": {
+          "id": 127164,
+          "name": "A. Zeqiri"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png"
+        },
+        "player": {
+          "id": 2335,
+          "name": "A. Mocsi"
+        },
+        "assist": {
+          "id": 66127,
+          "name": "V. Jure\u010dka"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 6
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 429,
+          "name": "Fernando Muslera"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      }
+    ]
+  }
+}

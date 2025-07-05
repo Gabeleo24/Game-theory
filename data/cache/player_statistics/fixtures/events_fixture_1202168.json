@@ -1,0 +1,369 @@
+{
+  "cache_timestamp": "2025-07-04T13:01:56.754480",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1202168"
+    },
+    "errors": [],
+    "results": 16,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 9,
+          "extra": null
+        },
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png"
+        },
+        "player": {
+          "id": 10097,
+          "name": "\u00c9derson"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Persistent fouling"
+      },
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 129718,
+          "name": "Jude Bellingham"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 42,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 762,
+          "name": "Vin\u00edcius J\u00fanior"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 756,
+          "name": "F. Valverde"
+        },
+        "assist": {
+          "id": 762,
+          "name": "Vin\u00edcius J\u00fanior"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png"
+        },
+        "player": {
+          "id": 147859,
+          "name": "C. De Ketelaere"
+        },
+        "assist": {
+          "id": 6420,
+          "name": "M. Retegui"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png"
+        },
+        "player": {
+          "id": 2286,
+          "name": "D. Zappacosta"
+        },
+        "assist": {
+          "id": 19073,
+          "name": "B. Godfrey"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png"
+        },
+        "player": {
+          "id": 30421,
+          "name": "Berat Djimsiti"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 278,
+          "name": "K. Mbapp\u00e9"
+        },
+        "assist": {
+          "id": 129718,
+          "name": "J. Bellingham"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png"
+        },
+        "player": {
+          "id": 1442,
+          "name": "S. Kola\u0161inac"
+        },
+        "assist": {
+          "id": 530,
+          "name": "M. Bakker"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 10009,
+          "name": "Rodrygo"
+        },
+        "assist": {
+          "id": 754,
+          "name": "L. Modri\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 278,
+          "name": "K. Mbapp\u00e9"
+        },
+        "assist": {
+          "id": 744,
+          "name": "Brahim D\u00edaz"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 762,
+          "name": "Vin\u00edcius J\u00fanior"
+        },
+        "assist": {
+          "id": 291964,
+          "name": "A. G\u00fcler"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 733,
+          "name": "Dani Carvajal"
+        },
+        "assist": {
+          "id": 757,
+          "name": "Lucas V\u00e1zquez"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 129718,
+          "name": "J. Bellingham"
+        },
+        "assist": {
+          "id": 748,
+          "name": "Dani Ceballos"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png"
+        },
+        "player": {
+          "id": 137976,
+          "name": "I. Hien"
+        },
+        "assist": {
+          "id": 383018,
+          "name": "M. Palestra"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png"
+        },
+        "player": {
+          "id": 2763,
+          "name": "M. Pa\u0161ali\u0107"
+        },
+        "assist": {
+          "id": 419423,
+          "name": "A. Manzoni"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

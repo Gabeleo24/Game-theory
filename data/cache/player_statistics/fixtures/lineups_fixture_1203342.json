@@ -1,0 +1,45 @@
+{
+  "cache_timestamp": "2025-07-04T13:27:02.198894",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1203342"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 3315,
+          "name": "R. Wicky",
+          "photo": "https://media.api-sports.io/football/coachs/3315.png"
+        },
+        "formation": null
+      },
+      {
+        "team": {
+          "id": 1015,
+          "name": "Neuchatel Xamax FC",
+          "logo": "https://media.api-sports.io/football/teams/1015.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 1500,
+          "name": "U. Forte",
+          "photo": "https://media.api-sports.io/football/coachs/1500.png"
+        },
+        "formation": null
+      }
+    ]
+  }
+}

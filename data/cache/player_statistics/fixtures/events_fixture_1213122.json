@@ -1,0 +1,325 @@
+{
+  "cache_timestamp": "2025-07-04T12:25:40.281043",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213122"
+    },
+    "errors": [],
+    "results": 14,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 52,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2079,
+          "name": "Aleksandr Chernikov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 53583,
+          "name": "Aleksey Sutormin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 134217,
+          "name": "Mohammad Mohebi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 130247,
+          "name": "Batxi"
+        },
+        "assist": {
+          "id": 323556,
+          "name": "M. Cobnan"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 43734,
+          "name": "Maksim Osipenko"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 323556,
+          "name": "Moses David Cobnan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 202211,
+          "name": "N. Krivtsov"
+        },
+        "assist": {
+          "id": 342208,
+          "name": "D. Kozlov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 323556,
+          "name": "M. Cobnan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 837,
+          "name": "K. Kuchaev"
+        },
+        "assist": {
+          "id": 195433,
+          "name": "Ronaldo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 264151,
+          "name": "I. Komarov"
+        },
+        "assist": {
+          "id": 162171,
+          "name": "K. Shchetinin"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 24810,
+          "name": "Jhon C\u00f3rdoba"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 237056,
+          "name": "O. Olusegun"
+        },
+        "assist": {
+          "id": 2610,
+          "name": "G. Gonz\u00e1lez"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 779,
+          "name": "FC Rostov",
+          "logo": "https://media.api-sports.io/football/teams/779.png"
+        },
+        "player": {
+          "id": 323446,
+          "name": "Viktor Melekhin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 7
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 67871,
+          "name": "Stanislav Agkatsev"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      }
+    ]
+  }
+}

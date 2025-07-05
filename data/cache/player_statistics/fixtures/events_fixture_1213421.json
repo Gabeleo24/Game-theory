@@ -1,0 +1,259 @@
+{
+  "cache_timestamp": "2025-07-04T12:52:13.534438",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213421"
+    },
+    "errors": [],
+    "results": 11,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 47,
+          "extra": null
+        },
+        "team": {
+          "id": 740,
+          "name": "Antwerp",
+          "logo": "https://media.api-sports.io/football/teams/740.png"
+        },
+        "player": {
+          "id": 18853,
+          "name": "Ja\u00efro Riedewald"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png"
+        },
+        "player": {
+          "id": 327691,
+          "name": "Ibrahim Diakit\u00e9"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png"
+        },
+        "player": {
+          "id": 280695,
+          "name": "A. Minda"
+        },
+        "assist": {
+          "id": 386276,
+          "name": "P. Brunner"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png"
+        },
+        "player": {
+          "id": 352500,
+          "name": "L. Agyekum"
+        },
+        "assist": {
+          "id": 197814,
+          "name": "Bruninho"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 740,
+          "name": "Antwerp",
+          "logo": "https://media.api-sports.io/football/teams/740.png"
+        },
+        "player": {
+          "id": 385662,
+          "name": "M. Ben\u00edtez"
+        },
+        "assist": {
+          "id": 384473,
+          "name": "M. Doumbia"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 740,
+          "name": "Antwerp",
+          "logo": "https://media.api-sports.io/football/teams/740.png"
+        },
+        "player": {
+          "id": 312260,
+          "name": "K. Young"
+        },
+        "assist": {
+          "id": 511314,
+          "name": "O. Achihi"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png"
+        },
+        "player": {
+          "id": 355012,
+          "name": "Christiaan Ravych"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Professional foul last man"
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png"
+        },
+        "player": {
+          "id": 127416,
+          "name": "G. Magn\u00e9e"
+        },
+        "assist": {
+          "id": 163019,
+          "name": "E. Utkus"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png"
+        },
+        "player": {
+          "id": 415077,
+          "name": "Erick Nunes"
+        },
+        "assist": {
+          "id": 374499,
+          "name": "M. Efekele"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 740,
+          "name": "Antwerp",
+          "logo": "https://media.api-sports.io/football/teams/740.png"
+        },
+        "player": {
+          "id": 511314,
+          "name": "Orseer Achihi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 740,
+          "name": "Antwerp",
+          "logo": "https://media.api-sports.io/football/teams/740.png"
+        },
+        "player": {
+          "id": 24288,
+          "name": "M. Bayo"
+        },
+        "assist": {
+          "id": 511601,
+          "name": "D. Gabriel"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      }
+    ]
+  }
+}

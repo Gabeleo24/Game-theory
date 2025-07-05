@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T12:50:31.098176",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1215030"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 4500,
+          "name": "Hapoel Hadera",
+          "logo": "https://media.api-sports.io/football/teams/4500.png",
+          "colors": {
+            "player": {
+              "primary": "191970",
+              "number": "ffffff",
+              "border": "191970"
+            },
+            "goalkeeper": {
+              "primary": "be2125",
+              "number": "ffffff",
+              "border": "be2125"
+            }
+          }
+        },
+        "coach": {
+          "id": 4658,
+          "name": "H. Silvas",
+          "photo": "https://media.api-sports.io/football/coachs/4658.png"
+        },
+        "formation": "5-3-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 111321,
+              "name": "O. Levita",
+              "number": 21,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 110931,
+              "name": "M. Zalka",
+              "number": 15,
+              "pos": "D",
+              "grid": "2:5"
+            }
+          },
+          {
+            "player": {
+              "id": 110956,
+              "name": "D. Lababedy",
+              "number": 27,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 105634,
+              "name": "M. Mbodj",
+              "number": 24,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 470487,
+              "name": "B. Abdach",
+              "number": 28,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 110605,
+              "name": "I. Shoolmayster",
+              "number": 17,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 311859,
+              "name": "L. Osikmashvili",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 74504,
+              "name": "A. James",
+              "number": 29,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 105489,
+              "name": "D. Einbinder",
+              "number": 18,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 62265,
+              "name": "I. Sangar\u00e9",
+              "number": 12,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 65733,
+              "name": "J. Cort\u00e9s",
+              "number": 77,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 110706,
+              "name": "D. Azaria",
+              "number": 19,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 367649,
+              "name": "O. Eliyahu",
+              "number": 36,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 111306,
+              "name": "N. Bardea",
+              "number": 26,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 371933,
+              "name": "Y. Shabo",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 163581,
+              "name": "G. Herman",
+              "number": 55,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 110680,
+              "name": "T. Levi",
+              "number": 99,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 478134,
+              "name": "R. Schwartz",
+              "number": 11,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 296287,
+              "name": "O. Senior",
+              "number": 20,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 351260,
+              "name": "L. Rokach",
+              "number": 3,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "000000",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "1453cd",
+              "number": "ffffff",
+              "border": "1453cd"
+            }
+          }
+        },
+        "coach": {
+          "id": 2494,
+          "name": "B. Bakhar",
+          "photo": "https://media.api-sports.io/football/coachs/2494.png"
+        },
+        "formation": "5-3-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 163580,
+              "name": "S. Keouf",
+              "number": 40,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 110987,
+              "name": "D. Haziza",
+              "number": 8,
+              "pos": "D",
+              "grid": "2:5"
+            }
+          },
+          {
+            "player": {
+              "id": 105846,
+              "name": "M. Kandil",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 8450,
+              "name": "A. Seck",
+              "number": 30,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 111335,
+              "name": "S. Goldberg",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 50990,
+              "name": "K. Saief",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 162272,
+              "name": "E. Azoulay",
+              "number": 24,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 12939,
+              "name": "D. Sabi'a",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 136155,
+              "name": "M. Jaber",
+              "number": 26,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 111277,
+              "name": "D. David",
+              "number": 21,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 111264,
+              "name": "G. Melamed",
+              "number": 18,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 106804,
+              "name": "G. Kinda",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 308839,
+              "name": "X. Severina",
+              "number": 7,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 306368,
+              "name": "Ricardinho",
+              "number": 99,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 345208,
+              "name": "R. Elimelech",
+              "number": 42,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 349219,
+              "name": "L. Hermesh",
+              "number": 33,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 304334,
+              "name": "I. Hagag",
+              "number": 28,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 59081,
+              "name": "T. Sultani",
+              "number": 13,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 126500,
+              "name": "A. Muhammad",
+              "number": 4,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 395830,
+              "name": "T. Lannes",
+              "number": 35,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "cache_timestamp": "2025-07-04T13:27:56.103908",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1222602"
+    },
+    "errors": [],
+    "results": 21,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 5,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 952,
+          "name": "C. Fassnacht"
+        },
+        "assist": {
+          "id": 161810,
+          "name": "L. Blum"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 9,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 20586,
+          "name": "R. Raveloson"
+        },
+        "assist": {
+          "id": 8625,
+          "name": "C. Bedia"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 41,
+          "extra": null
+        },
+        "team": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png"
+        },
+        "player": {
+          "id": 335770,
+          "name": "Djibril Diop"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Violent conduct"
+      },
+      {
+        "time": {
+          "elapsed": 42,
+          "extra": null
+        },
+        "team": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png"
+        },
+        "player": {
+          "id": 335770,
+          "name": "Djibril Diop"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Card upgrade",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png"
+        },
+        "player": {
+          "id": 48527,
+          "name": "Mauro Rodrigues"
+        },
+        "assist": {
+          "id": 31544,
+          "name": "N. Gunnarsson"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png"
+        },
+        "player": {
+          "id": 129687,
+          "name": "M. Ak\u00e9"
+        },
+        "assist": {
+          "id": 48677,
+          "name": "V. Tasar"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png"
+        },
+        "player": {
+          "id": 191191,
+          "name": "H. Komano"
+        },
+        "assist": {
+          "id": 1009,
+          "name": "A. Marchesano"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 51,
+          "extra": null
+        },
+        "team": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png"
+        },
+        "player": {
+          "id": 152964,
+          "name": "Christian Marques"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png"
+        },
+        "player": {
+          "id": 1009,
+          "name": "A. Marchesano"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 8625,
+          "name": "C. Bedia"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 277862,
+          "name": "J. Monteiro"
+        },
+        "assist": {
+          "id": 271539,
+          "name": "J. Hadjam"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 8625,
+          "name": "C. Bedia"
+        },
+        "assist": {
+          "id": 140847,
+          "name": "E. Colley"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png"
+        },
+        "player": {
+          "id": 48545,
+          "name": "W. Le Pogam"
+        },
+        "assist": {
+          "id": 57193,
+          "name": "V. Kongsro"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 271572,
+          "name": "A. Virginius"
+        },
+        "assist": {
+          "id": 48612,
+          "name": "K. Imeri"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 48612,
+          "name": "K. Imeri"
+        },
+        "assist": {
+          "id": 140847,
+          "name": "E. Colley"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 277862,
+          "name": "J. Monteiro"
+        },
+        "assist": {
+          "id": 490734,
+          "name": "E. Tsimba"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 20586,
+          "name": "R. Raveloson"
+        },
+        "assist": {
+          "id": 954,
+          "name": "S. Lauper"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png"
+        },
+        "player": {
+          "id": 301772,
+          "name": "M. \u0141\u0119gowski"
+        },
+        "assist": {
+          "id": 369294,
+          "name": "J. Gnakpa"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 952,
+          "name": "C. Fassnacht"
+        },
+        "assist": {
+          "id": 345326,
+          "name": "M. Chaiwa"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 6653,
+          "name": "Yverdon Sport",
+          "logo": "https://media.api-sports.io/football/teams/6653.png"
+        },
+        "player": {
+          "id": 48677,
+          "name": "Varol Tasar"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 140847,
+          "name": "E. Colley"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      }
+    ]
+  }
+}

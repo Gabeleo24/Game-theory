@@ -1,0 +1,633 @@
+{
+  "cache_timestamp": "2025-07-04T11:50:50.274344",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1237976"
+    },
+    "errors": [],
+    "results": 28,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 1,
+          "extra": null
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 48091,
+          "name": "Noah Sonko Sundberg"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 15,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 162000,
+          "name": "Metehan Baltac\u0131"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Professional handball"
+      },
+      {
+        "time": {
+          "elapsed": 15,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 162000,
+          "name": "Metehan Baltac\u0131"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Card upgrade",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 44612,
+          "name": "Garry Rodrigues"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 50074,
+          "name": "Bengali-Fod\u00e9 Koita"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 36,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 454,
+          "name": "Y. Akg\u00fcn"
+        },
+        "assist": {
+          "id": 264627,
+          "name": "B. Kutlu"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 8
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 48653,
+          "name": "\u0110or\u0111e Nikoli\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 9
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 48653,
+          "name": "\u0110. Nikoli\u0107"
+        },
+        "assist": {
+          "id": 50078,
+          "name": "A. Vural"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 63274,
+          "name": "B. Y\u0131lmaz"
+        },
+        "assist": {
+          "id": 454,
+          "name": "Y. Akg\u00fcn"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 436324,
+          "name": "E. Ba\u015fyi\u011fit"
+        },
+        "assist": {
+          "id": 19051,
+          "name": "A. Pritchard"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 332,
+          "name": "Dries Mertens"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 332,
+          "name": "D. Mertens"
+        },
+        "assist": {
+          "id": 341234,
+          "name": "E. Jelert"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 8532,
+          "name": "C. Charisis"
+        },
+        "assist": {
+          "id": 280239,
+          "name": "\u00d6. Yi\u011fiter"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 66013,
+          "name": "U. Radakovi\u0107"
+        },
+        "assist": {
+          "id": 197114,
+          "name": "T. B\u00f6ke"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 44612,
+          "name": "Garry Rodrigues"
+        },
+        "assist": {
+          "id": 213,
+          "name": "K. Bald\u00e9"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 454,
+          "name": "Y. Akg\u00fcn"
+        },
+        "assist": {
+          "id": 2927,
+          "name": "M. Batshuayi"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": 15912,
+          "name": "V. Nelsson"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 213,
+          "name": "Keita Bald\u00e9"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 26252,
+          "name": "Roland Sallai"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2927,
+          "name": "Michy Batshuayi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 1462,
+          "name": "L. Torreira"
+        },
+        "assist": {
+          "id": 371929,
+          "name": "E. Akman"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 80552,
+          "name": "Gabriel Sara"
+        },
+        "assist": {
+          "id": 717,
+          "name": "K. Demirbay"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 7
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 717,
+          "name": "Kerem Demirbay"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 10
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 429,
+          "name": "Fernando Muslera"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 8
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 46725,
+          "name": "Rey Manaj"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Card reviewed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 6
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 46725,
+          "name": "Rey Manaj"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 1002,
+          "name": "Sivasspor",
+          "logo": "https://media.api-sports.io/football/teams/1002.png"
+        },
+        "player": {
+          "id": 197114,
+          "name": "T. B\u00f6ke"
+        },
+        "assist": {
+          "id": 48091,
+          "name": "N. Sonko Sundberg"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

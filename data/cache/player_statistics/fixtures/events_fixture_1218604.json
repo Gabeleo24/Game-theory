@@ -1,0 +1,347 @@
+{
+  "cache_timestamp": "2025-07-04T12:17:56.479506",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1218604"
+    },
+    "errors": [],
+    "results": 15,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 10,
+          "extra": null
+        },
+        "team": {
+          "id": 1405,
+          "name": "Austria Klagenfurt",
+          "logo": "https://media.api-sports.io/football/teams/1405.png"
+        },
+        "player": {
+          "id": 502640,
+          "name": "Matteo Kitz"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 40,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 329715,
+          "name": "O. Gloukh"
+        },
+        "assist": {
+          "id": 302869,
+          "name": "D. Nene"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 44,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 302869,
+          "name": "D. Nene"
+        },
+        "assist": {
+          "id": 5973,
+          "name": "N. Capaldo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 1405,
+          "name": "Austria Klagenfurt",
+          "logo": "https://media.api-sports.io/football/teams/1405.png"
+        },
+        "player": {
+          "id": 202634,
+          "name": "J. K\u00fchn"
+        },
+        "assist": {
+          "id": 7567,
+          "name": "C. Wernitznig"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 1405,
+          "name": "Austria Klagenfurt",
+          "logo": "https://media.api-sports.io/football/teams/1405.png"
+        },
+        "player": {
+          "id": 169446,
+          "name": "N. Binder"
+        },
+        "assist": {
+          "id": 203220,
+          "name": "P. Wydra"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 1405,
+          "name": "Austria Klagenfurt",
+          "logo": "https://media.api-sports.io/football/teams/1405.png"
+        },
+        "player": {
+          "id": 384968,
+          "name": "Jannik Thomas Robatsch"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 301763,
+          "name": "P. Ratkov"
+        },
+        "assist": {
+          "id": 362564,
+          "name": "A. Daghim"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 302915,
+          "name": "M. Diambou"
+        },
+        "assist": {
+          "id": 310187,
+          "name": "Stefan Baj\u010deti\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 302869,
+          "name": "D. Nene"
+        },
+        "assist": {
+          "id": 334729,
+          "name": "B. Clark"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 334729,
+          "name": "B. Clark"
+        },
+        "assist": {
+          "id": 329715,
+          "name": "O. Gloukh"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 5973,
+          "name": "N. Capaldo"
+        },
+        "assist": {
+          "id": 409215,
+          "name": "J. Gadou"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "player": {
+          "id": 381810,
+          "name": "M. Yeo"
+        },
+        "assist": {
+          "id": 302868,
+          "name": "D. Guindo"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 1405,
+          "name": "Austria Klagenfurt",
+          "logo": "https://media.api-sports.io/football/teams/1405.png"
+        },
+        "player": {
+          "id": 502640,
+          "name": "M. Kitz"
+        },
+        "assist": {
+          "id": 500058,
+          "name": "A. Mustafi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 1405,
+          "name": "Austria Klagenfurt",
+          "logo": "https://media.api-sports.io/football/teams/1405.png"
+        },
+        "player": {
+          "id": 279924,
+          "name": "D. Salifou"
+        },
+        "assist": {
+          "id": 500017,
+          "name": "D. Deli\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 1405,
+          "name": "Austria Klagenfurt",
+          "logo": "https://media.api-sports.io/football/teams/1405.png"
+        },
+        "player": {
+          "id": 287932,
+          "name": "B. Bobzien"
+        },
+        "assist": {
+          "id": 503615,
+          "name": "T. Schoppitsch"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

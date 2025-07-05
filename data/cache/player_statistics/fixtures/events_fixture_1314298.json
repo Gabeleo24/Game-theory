@@ -1,0 +1,413 @@
+{
+  "cache_timestamp": "2025-07-04T11:44:01.277408",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1314298"
+    },
+    "errors": [],
+    "results": 18,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 9,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 31146,
+          "name": "S. Tonali"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 14,
+          "extra": null
+        },
+        "team": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media.api-sports.io/football/teams/55.png"
+        },
+        "player": {
+          "id": 19789,
+          "name": "E. Pinnock"
+        },
+        "assist": {
+          "id": 15745,
+          "name": "M. Roerslev"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 17,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 2806,
+          "name": "Fabian Sch\u00e4r"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media.api-sports.io/football/teams/55.png"
+        },
+        "player": {
+          "id": 19495,
+          "name": "Nathan Collins"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 38,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 10135,
+          "name": "Bruno Guimar\u00e3es"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 31146,
+          "name": "S. Tonali"
+        },
+        "assist": {
+          "id": 138787,
+          "name": "A. Gordon"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 1
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 158694,
+          "name": "Valentino Livramento"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 723,
+          "name": "Joelinton"
+        },
+        "assist": {
+          "id": 1463,
+          "name": "J. Willock"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media.api-sports.io/football/teams/55.png"
+        },
+        "player": {
+          "id": 153066,
+          "name": "F\u00e1bio Carvalho"
+        },
+        "assist": {
+          "id": 20589,
+          "name": "B. Mbeumo"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media.api-sports.io/football/teams/55.png"
+        },
+        "player": {
+          "id": 25073,
+          "name": "V. Janelt"
+        },
+        "assist": {
+          "id": 15908,
+          "name": "M. Damsgaard"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 19163,
+          "name": "J. Murphy"
+        },
+        "assist": {
+          "id": 18778,
+          "name": "H. Barnes"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 2806,
+          "name": "F. Sch\u00e4r"
+        },
+        "assist": {
+          "id": 10135,
+          "name": "Bruno Guimar\u00e3es"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media.api-sports.io/football/teams/55.png"
+        },
+        "player": {
+          "id": 178077,
+          "name": "K. Schade"
+        },
+        "assist": {
+          "id": 162075,
+          "name": "P. Maghoma"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media.api-sports.io/football/teams/55.png"
+        },
+        "player": {
+          "id": 106725,
+          "name": "K. Lewis-Potter"
+        },
+        "assist": {
+          "id": 350625,
+          "name": "J. Meghoma"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 2864,
+          "name": "A. Isak"
+        },
+        "assist": {
+          "id": 315237,
+          "name": "W. Osula"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 284492,
+          "name": "L. Hall"
+        },
+        "assist": {
+          "id": 169,
+          "name": "K. Trippier"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png"
+        },
+        "player": {
+          "id": 138787,
+          "name": "A. Gordon"
+        },
+        "assist": {
+          "id": 2507,
+          "name": "M. Almir\u00f3n"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media.api-sports.io/football/teams/55.png"
+        },
+        "player": {
+          "id": 20649,
+          "name": "Y. Wissa"
+        },
+        "assist": {
+          "id": 20589,
+          "name": "B. Mbeumo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

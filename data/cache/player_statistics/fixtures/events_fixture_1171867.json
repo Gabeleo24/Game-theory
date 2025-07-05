@@ -1,0 +1,61 @@
+{
+  "cache_timestamp": "2025-07-04T12:09:18.369338",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1171867"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 13,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 130292,
+          "name": "T. Suleymanov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

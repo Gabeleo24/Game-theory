@@ -1,0 +1,413 @@
+{
+  "cache_timestamp": "2025-07-04T12:01:01.636640",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1202668"
+    },
+    "errors": [],
+    "results": 18,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 22,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 1331,
+          "name": "B. Petkovi\u0107"
+        },
+        "assist": {
+          "id": 295026,
+          "name": "M. Baturina"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 30,
+          "extra": null
+        },
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "player": {
+          "id": 14389,
+          "name": "Ante Majstorovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "player": {
+          "id": 1325,
+          "name": "Komnen Andri\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 1
+        },
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "player": {
+          "id": 109714,
+          "name": "Dejan Petrovi\u010d"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 348205,
+          "name": "Petar Su\u010di\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 105993,
+          "name": "A. Hoxha"
+        },
+        "assist": {
+          "id": 14353,
+          "name": "D. \u0160piki\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 348205,
+          "name": "P. Su\u010di\u0107"
+        },
+        "assist": {
+          "id": 2055,
+          "name": "M. Rog"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "player": {
+          "id": 135957,
+          "name": "V. Hod\u017ea"
+        },
+        "assist": {
+          "id": 14705,
+          "name": "N. Jankovi\u0107"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 8503,
+          "name": "S. Mmaee"
+        },
+        "assist": {
+          "id": 1483,
+          "name": "S. Ristovski"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 2373,
+          "name": "Josip Mi\u0161i\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "player": {
+          "id": 1325,
+          "name": "Komnen Andri\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 40405,
+          "name": "S. Kulenovi\u0107"
+        },
+        "assist": {
+          "id": 346893,
+          "name": "J. C\u00f3rdoba"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "player": {
+          "id": 329285,
+          "name": "G. Rukavina"
+        },
+        "assist": {
+          "id": 284869,
+          "name": "T. Fruk"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 295026,
+          "name": "M. Baturina"
+        },
+        "assist": {
+          "id": 308814,
+          "name": "L. Stojkovi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "player": {
+          "id": 135957,
+          "name": "V. Hod\u017ea"
+        },
+        "assist": {
+          "id": 47308,
+          "name": "N. Djouahra"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "player": {
+          "id": 260865,
+          "name": "Marco Pa\u0161ali\u0107"
+        },
+        "assist": {
+          "id": 14301,
+          "name": "S. Radelji\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 346893,
+          "name": "Juan Cordoba"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "player": {
+          "id": 14301,
+          "name": "Stjepan Radelji\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      }
+    ]
+  }
+}

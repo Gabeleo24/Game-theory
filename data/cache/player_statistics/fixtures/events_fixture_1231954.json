@@ -1,0 +1,457 @@
+{
+  "cache_timestamp": "2025-07-04T13:07:01.821288",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1231954"
+    },
+    "errors": [],
+    "results": 20,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 18,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 404097,
+          "name": "Rodrigo Mora"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 1
+        },
+        "team": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png"
+        },
+        "player": {
+          "id": 304589,
+          "name": "Ignacio Rodr\u00edguez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png"
+        },
+        "player": {
+          "id": 304589,
+          "name": "Ignacio Rodr\u00edguez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png"
+        },
+        "player": {
+          "id": 304589,
+          "name": "Ignacio Rodr\u00edguez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 48,
+          "extra": null
+        },
+        "team": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png"
+        },
+        "player": {
+          "id": 41362,
+          "name": "Lucas Fernandes"
+        },
+        "assist": {
+          "id": 8499,
+          "name": "Jorge Teixeira"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 50,
+          "extra": null
+        },
+        "team": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png"
+        },
+        "player": {
+          "id": 141861,
+          "name": "Vasco Lopes"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png"
+        },
+        "player": {
+          "id": 8499,
+          "name": "Jorge Teixeira"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 278375,
+          "name": "Alan Varela"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 41725,
+          "name": "F\u00e1bio Vieira"
+        },
+        "assist": {
+          "id": 41966,
+          "name": "Francisco Moura"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png"
+        },
+        "player": {
+          "id": 141861,
+          "name": "Vasco Lopes"
+        },
+        "assist": {
+          "id": 33291,
+          "name": "G. Rodrigues"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png"
+        },
+        "player": {
+          "id": 26284,
+          "name": "E. Veiga"
+        },
+        "assist": {
+          "id": 325664,
+          "name": "T. Akinsola"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 404097,
+          "name": "Rodrigo Mora"
+        },
+        "assist": {
+          "id": 130256,
+          "name": "Andr\u00e9 Franco"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 10500,
+          "name": "Pep\u00ea"
+        },
+        "assist": {
+          "id": 449243,
+          "name": "William"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 41725,
+          "name": "F\u00e1bio Vieira"
+        },
+        "assist": {
+          "id": 414544,
+          "name": "T. P\u00e9rez"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 278375,
+          "name": "A. Varela"
+        },
+        "assist": {
+          "id": 19625,
+          "name": "D. Namaso"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png"
+        },
+        "player": {
+          "id": 1795,
+          "name": "Z\u00e9 Lu\u00eds"
+        },
+        "assist": {
+          "id": 341641,
+          "name": "Rodrigo Ribeiro"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png"
+        },
+        "player": {
+          "id": 30756,
+          "name": "Lucas Piaz\u00f3n"
+        },
+        "assist": {
+          "id": 42,
+          "name": "Gustavo Assun\u00e7\u00e3o"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 35570,
+          "name": "S. Eustaquio"
+        },
+        "assist": {
+          "id": 388570,
+          "name": "D. G\u00fcl"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 414544,
+          "name": "Tom\u00e1s P\u00e9rez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 130256,
+          "name": "Andr\u00e9 Franco"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+}

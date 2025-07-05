@@ -1,0 +1,633 @@
+{
+  "cache_timestamp": "2025-07-04T12:05:05.410339",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1203256"
+    },
+    "errors": [],
+    "results": 28,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 36,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 36910,
+          "name": "C. Stengs"
+        },
+        "assist": {
+          "id": 319517,
+          "name": "A. Milambo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 40,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 72155,
+          "name": "A. Ueda"
+        },
+        "assist": {
+          "id": 129047,
+          "name": "R. Zerrouki"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 1
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 37147,
+          "name": "B. Nieuwkoop"
+        },
+        "assist": {
+          "id": 129047,
+          "name": "R. Zerrouki"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 275941,
+          "name": "D. Zandbergen"
+        },
+        "assist": {
+          "id": 306701,
+          "name": "D. Haen"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 36910,
+          "name": "C. Stengs"
+        },
+        "assist": {
+          "id": 361888,
+          "name": "S. \u2019t Zand"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 441221,
+          "name": "J. Plug"
+        },
+        "assist": {
+          "id": 326067,
+          "name": "A. Hadj Moussa"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 129047,
+          "name": "R. Zerrouki"
+        },
+        "assist": {
+          "id": 342652,
+          "name": "I. Sebaoui"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 72155,
+          "name": "A. Ueda"
+        },
+        "assist": {
+          "id": 441275,
+          "name": "D. Giersthove"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 161176,
+          "name": "P. W\u00e5lemark"
+        },
+        "assist": {
+          "id": 361487,
+          "name": "J. Slory"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 319517,
+          "name": "A. Milambo"
+        },
+        "assist": {
+          "id": 359390,
+          "name": "G. Read"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 9363,
+          "name": "Igor Paix\u00e3o"
+        },
+        "assist": {
+          "id": 275268,
+          "name": "C. Nadje"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 138874,
+          "name": "A. Tsoungui"
+        },
+        "assist": {
+          "id": 425819,
+          "name": "G. Zechi\u00ebl"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 36934,
+          "name": "T. van den Belt"
+        },
+        "assist": {
+          "id": 134756,
+          "name": "N. Kasanwirjo"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 36776,
+          "name": "T. Wellenreuther"
+        },
+        "assist": {
+          "id": 284355,
+          "name": "M. van Sas"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 37147,
+          "name": "B. Nieuwkoop"
+        },
+        "assist": {
+          "id": 372230,
+          "name": "N. Groen"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 359436,
+          "name": "K. Osundina"
+        },
+        "assist": {
+          "id": 379886,
+          "name": "Jo\u00e3o Sim\u00f5es"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 146331,
+          "name": "J. Pynadath"
+        },
+        "assist": {
+          "id": 469323,
+          "name": "K. Tabiri"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 203771,
+          "name": "J. Hilton"
+        },
+        "assist": {
+          "id": 367868,
+          "name": "C. Olde Keizer"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 380203,
+          "name": "B. Smolarczyk"
+        },
+        "assist": {
+          "id": 314510,
+          "name": "S. Valk"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 272561,
+          "name": "J. van der Avert"
+        },
+        "assist": {
+          "id": 92972,
+          "name": "R. Akmum"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 948,
+          "name": "L. Seydoux"
+        },
+        "assist": {
+          "id": 350609,
+          "name": "L. Codutti"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 37682,
+          "name": "T. Receveur"
+        },
+        "assist": {
+          "id": 339130,
+          "name": "D. van Vianen"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 272451,
+          "name": "B. Scholte"
+        },
+        "assist": {
+          "id": 390017,
+          "name": "Igor"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 60371,
+          "name": "R. Shein"
+        },
+        "assist": {
+          "id": 349328,
+          "name": "J. Amuzu"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 306701,
+          "name": "D. Haen"
+        },
+        "assist": {
+          "id": 445303,
+          "name": "R. van Gogh"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 379886,
+          "name": "Jo\u00e3o Sim\u00f5es"
+        },
+        "assist": {
+          "id": 278307,
+          "name": "J. van der Sluijs"
+        },
+        "type": "subst",
+        "detail": "Substitution 12",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 409,
+          "name": "Dordrecht",
+          "logo": "https://media.api-sports.io/football/teams/409.png"
+        },
+        "player": {
+          "id": 350609,
+          "name": "L. Codutti"
+        },
+        "assist": {
+          "id": 371906,
+          "name": "J. de Bie"
+        },
+        "type": "subst",
+        "detail": "Substitution 13",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "player": {
+          "id": 342652,
+          "name": "I. Sebaoui"
+        },
+        "assist": {
+          "id": 359390,
+          "name": "G. Read"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

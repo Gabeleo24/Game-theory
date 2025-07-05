@@ -1,0 +1,413 @@
+{
+  "cache_timestamp": "2025-07-04T13:06:52.025522",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1231907"
+    },
+    "errors": [],
+    "results": 18,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 37,
+          "extra": null
+        },
+        "team": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png"
+        },
+        "player": {
+          "id": 195580,
+          "name": "Clayton"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 266013,
+          "name": "Ot\u00e1vio"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 51,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 37,
+          "name": "N. P\u00e9rez"
+        },
+        "assist": {
+          "id": 41966,
+          "name": "Francisco Moura"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 35570,
+          "name": "Stephen Eustaquio"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png"
+        },
+        "player": {
+          "id": 271580,
+          "name": "Martim Neto"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 128385,
+          "name": "Gon\u00e7alo Borges"
+        },
+        "assist": {
+          "id": 10500,
+          "name": "Pep\u00ea"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png"
+        },
+        "player": {
+          "id": 406377,
+          "name": "F. Petrasso"
+        },
+        "assist": {
+          "id": 275567,
+          "name": "N. Abbey"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png"
+        },
+        "player": {
+          "id": 278783,
+          "name": "Tiago Morais"
+        },
+        "assist": {
+          "id": 325717,
+          "name": "Andr\u00e9 Luiz"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 35570,
+          "name": "S. Eustaquio"
+        },
+        "assist": {
+          "id": 41725,
+          "name": "F\u00e1bio Vieira"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png"
+        },
+        "player": {
+          "id": 271580,
+          "name": "Martim Neto"
+        },
+        "assist": {
+          "id": 41101,
+          "name": "Jo\u00e3o Novais"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 278375,
+          "name": "Alan Varela"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png"
+        },
+        "player": {
+          "id": 199936,
+          "name": "O. Pohlmann"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 266013,
+          "name": "Ot\u00e1vio"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 404097,
+          "name": "Rodrigo Mora"
+        },
+        "assist": {
+          "id": 19625,
+          "name": "D. Namaso"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png"
+        },
+        "player": {
+          "id": 199936,
+          "name": "O. Pohlmann"
+        },
+        "assist": {
+          "id": 96308,
+          "name": "Jo\u00e3o Gra\u00e7a"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 37,
+          "name": "N. P\u00e9rez"
+        },
+        "assist": {
+          "id": 388570,
+          "name": "D. G\u00fcl"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png"
+        },
+        "player": {
+          "id": 119633,
+          "name": "Kiko Bondoso"
+        },
+        "assist": {
+          "id": 84088,
+          "name": "J. Panzo"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 6
+        },
+        "team": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png"
+        },
+        "player": {
+          "id": 84088,
+          "name": "Jonathan Panzo"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Professional foul last man"
+      }
+    ]
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T12:00:20.787039",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1348680"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 3229,
+          "name": "Stade Briochin",
+          "logo": "https://media.api-sports.io/football/teams/3229.png",
+          "colors": {
+            "player": {
+              "primary": "0035f3",
+              "number": "ffffff",
+              "border": "0035f3"
+            },
+            "goalkeeper": {
+              "primary": "00ff00",
+              "number": "000000",
+              "border": "00ff00"
+            }
+          }
+        },
+        "coach": {
+          "id": 19148,
+          "name": "G. Allanou",
+          "photo": "https://media.api-sports.io/football/coachs/19148.png"
+        },
+        "formation": "5-3-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 21598,
+              "name": "F. L'Hostis",
+              "number": 30,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 85749,
+              "name": "J. Le Marer",
+              "number": 27,
+              "pos": "D",
+              "grid": "2:5"
+            }
+          },
+          {
+            "player": {
+              "id": 26944,
+              "name": "B. Angoua",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 21490,
+              "name": "C. Kerbrat",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 85770,
+              "name": "H. Boudin",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 24083,
+              "name": "M. Diakit\u00e9",
+              "number": 8,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 174677,
+              "name": "L. Yob\u00e9",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 22338,
+              "name": "G. Beghin",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 22125,
+              "name": "A. Zakharyan",
+              "number": 7,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 193519,
+              "name": "A. Gomis-Maillard",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 343797,
+              "name": "S. Janno",
+              "number": 11,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 135843,
+              "name": "C. Konan",
+              "number": 24,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 336874,
+              "name": "B. Diakhaby",
+              "number": 17,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 21225,
+              "name": "J. Benhaim",
+              "number": 25,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 404594,
+              "name": "M. Ntumi",
+              "number": 23,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 360021,
+              "name": "L. Rouill\u00e9",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 349638,
+              "name": "H. Boutsingkham",
+              "number": 14,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 461468,
+              "name": "J. Balzan",
+              "number": 26,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 401579,
+              "name": "Y. Ahjaou",
+              "number": 28,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 451467,
+              "name": "G. Le Normand",
+              "number": 16,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png",
+          "colors": {
+            "player": {
+              "primary": "fcfcfc",
+              "number": "1f317a",
+              "border": "fcfcfc"
+            },
+            "goalkeeper": {
+              "primary": "40a344",
+              "number": "ffffff",
+              "border": "40a344"
+            }
+          }
+        },
+        "coach": {
+          "id": 193,
+          "name": "Luis Enrique",
+          "photo": "https://media.api-sports.io/football/coachs/193.png"
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 2068,
+              "name": "M. Safonov",
+              "number": 39,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 9,
+              "name": "A. Hakimi",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 307835,
+              "name": "Beraldo",
+              "number": 35,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 16367,
+              "name": "W. Pacho",
+              "number": 51,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 33,
+              "name": "L. Hern\u00e1ndez",
+              "number": 21,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 335051,
+              "name": "Jo\u00e3o Neves",
+              "number": 87,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 328,
+              "name": "Fabi\u00e1n Ruiz",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 409216,
+              "name": "S. Mayulu",
+              "number": 24,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 343027,
+              "name": "D. Dou\u00e9",
+              "number": 14,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 41585,
+              "name": "Gon\u00e7alo Ramos",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 483,
+              "name": "K. Kvaratskhelia",
+              "number": 7,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 153,
+              "name": "O. Demb\u00e9l\u00e9",
+              "number": 10,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 161904,
+              "name": "B. Barcola",
+              "number": 29,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 262,
+              "name": "P. Kimpembe",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 336657,
+              "name": "W. Za\u00efre-Emery",
+              "number": 33,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 446249,
+              "name": "I. Mbaye",
+              "number": 49,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162473,
+              "name": "Arnau Tenas",
+              "number": 80,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 349189,
+              "name": "Louis Mouquet",
+              "number": 70,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 263482,
+              "name": "Nuno Mendes",
+              "number": 25,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 257,
+              "name": "Marquinhos",
+              "number": 5,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

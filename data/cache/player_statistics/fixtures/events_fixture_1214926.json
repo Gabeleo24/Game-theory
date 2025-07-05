@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T12:49:59.888158",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1214926"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 8,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 20767,
+          "name": "V. Nsimba"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 20767,
+          "name": "V. N'Simba"
+        },
+        "assist": {
+          "id": 110987,
+          "name": "D. Haziza"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 4481,
+          "name": "Bnei Sakhnin",
+          "logo": "https://media.api-sports.io/football/teams/4481.png"
+        },
+        "player": {
+          "id": 304425,
+          "name": "J. Bushnak"
+        },
+        "assist": {
+          "id": 428391,
+          "name": "A. Ayias"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 54,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 338794,
+          "name": "I. Feingold"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 4481,
+          "name": "Bnei Sakhnin",
+          "logo": "https://media.api-sports.io/football/teams/4481.png"
+        },
+        "player": {
+          "id": 182373,
+          "name": "M. Tadisa"
+        },
+        "assist": {
+          "id": 44849,
+          "name": "S. Om\u00e9onga"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 111277,
+          "name": "D. David"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 110987,
+          "name": "D. Haziza"
+        },
+        "assist": {
+          "id": 8461,
+          "name": "L. Refaelov"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 308839,
+          "name": "X. Severina"
+        },
+        "assist": {
+          "id": 46802,
+          "name": "Nahuel Leiva"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 4481,
+          "name": "Bnei Sakhnin",
+          "logo": "https://media.api-sports.io/football/teams/4481.png"
+        },
+        "player": {
+          "id": 153595,
+          "name": "I. Elmkies"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 4481,
+          "name": "Bnei Sakhnin",
+          "logo": "https://media.api-sports.io/football/teams/4481.png"
+        },
+        "player": {
+          "id": 325266,
+          "name": "A. Salman"
+        },
+        "assist": {
+          "id": 377141,
+          "name": "B. Khuri"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 136155,
+          "name": "M. Jaber"
+        },
+        "assist": {
+          "id": 162272,
+          "name": "E. Azoulay"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 4481,
+          "name": "Bnei Sakhnin",
+          "logo": "https://media.api-sports.io/football/teams/4481.png"
+        },
+        "player": {
+          "id": 3402,
+          "name": "J. Fuchs"
+        },
+        "assist": {
+          "id": 377140,
+          "name": "A. Taha"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 4481,
+          "name": "Bnei Sakhnin",
+          "logo": "https://media.api-sports.io/football/teams/4481.png"
+        },
+        "player": {
+          "id": 111353,
+          "name": "M. Gantus"
+        },
+        "assist": {
+          "id": 15489,
+          "name": "K. Sotiriou"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 338794,
+          "name": "I. Feingold"
+        },
+        "assist": {
+          "id": 105846,
+          "name": "M. Kandil"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 111277,
+          "name": "D. David"
+        },
+        "assist": {
+          "id": 106804,
+          "name": "G. Kinda"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 4481,
+          "name": "Bnei Sakhnin",
+          "logo": "https://media.api-sports.io/football/teams/4481.png"
+        },
+        "player": {
+          "id": 15489,
+          "name": "K. Sotiriou"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 12939,
+          "name": "D. Sabi'a"
+        },
+        "assist": {
+          "id": 20767,
+          "name": "V. N'Simba"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

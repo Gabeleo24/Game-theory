@@ -1,0 +1,507 @@
+{
+  "cache_timestamp": "2025-07-04T12:17:28.972510",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1156519"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "ff0000",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "f3ef0f",
+              "number": "000000",
+              "border": "f3ef0f"
+            }
+          }
+        },
+        "formation": "3-4-1-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 7525,
+              "name": "Alexander Schlager",
+              "number": 24,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 322984,
+              "name": "Samson Baidoo",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 162189,
+              "name": "Mads Bidstrup",
+              "number": 18,
+              "pos": "M",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 45826,
+              "name": "Strahinja Pavlovi\u0107",
+              "number": 31,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 7318,
+              "name": "Amar Dedi\u0107",
+              "number": 70,
+              "pos": "D",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 179843,
+              "name": "Lucas Gourna-Douath",
+              "number": 27,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 302915,
+              "name": "Mamady Diambou",
+              "number": 15,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 302868,
+              "name": "Daouda Guindo",
+              "number": 29,
+              "pos": "D",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 7332,
+              "name": "Luka Su\u010di\u0107",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 329715,
+              "name": "Oscar Gloukh",
+              "number": 30,
+              "pos": "M",
+              "grid": "5:2"
+            }
+          },
+          {
+            "player": {
+              "id": 688,
+              "name": "Fernando",
+              "number": 11,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 656,
+              "name": "Oumar Solet",
+              "number": 22,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 24785,
+              "name": "Timo Horn",
+              "number": 13,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 329265,
+              "name": "Leandro Morgalla",
+              "number": 39,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 115588,
+              "name": "Bryan Okoh",
+              "number": 5,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1087,
+              "name": "Andreas Ulmer",
+              "number": 17,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 362564,
+              "name": "Adam Daghim",
+              "number": 28,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 301763,
+              "name": "Petar Ratkov",
+              "number": 21,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 271066,
+              "name": "Roko \u0160imi\u0107",
+              "number": 23,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 322988,
+              "name": "Raphael Hofer",
+              "number": 56,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 349,
+              "name": "Aleksa Terzi\u0107",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 352500,
+              "name": "Lawrence Agyekum",
+              "number": 35,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 287792,
+              "name": "Jonas Krumrey",
+              "number": 41,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 1916,
+          "name": "G. Struber",
+          "photo": "https://media.api-sports.io/football/coachs/1916.png"
+        }
+      },
+      {
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png",
+          "colors": {
+            "player": {
+              "primary": "5cfab6",
+              "number": "ffffff",
+              "border": "5cfab6"
+            },
+            "goalkeeper": {
+              "primary": "01598b",
+              "number": "ffffff",
+              "border": "01598b"
+            }
+          }
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 39178,
+              "name": "Julian Faye Lund",
+              "number": 12,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 57173,
+              "name": "Brice Wembangomo",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 216754,
+              "name": "Isak Helstad Amundsen",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 39352,
+              "name": "Jostein Gundersen",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 16061,
+              "name": "Adam S\u00f8rensen",
+              "number": 30,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 57159,
+              "name": "Sondre Fet",
+              "number": 19,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 39064,
+              "name": "Patrick Berg",
+              "number": 77,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 39169,
+              "name": "Sondre S\u00f6rli",
+              "number": 27,
+              "pos": "F",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 146053,
+              "name": "Tobias Fjeld Gulliksen",
+              "number": 25,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 410604,
+              "name": "Oscar Forsmo Kapskarmo",
+              "number": 28,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 39347,
+              "name": "Amahl Pellegrino",
+              "number": 7,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 364814,
+              "name": "Daniel Bassi",
+              "number": 10,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 39058,
+              "name": "Fredrik Andr\u00e9 Bj\u00f8rkan",
+              "number": 15,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 39083,
+              "name": "Odin Luras Bjortuft",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 39060,
+              "name": "Marius Lode",
+              "number": 2,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 39061,
+              "name": "Brede Moe",
+              "number": 18,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 263177,
+              "name": "Albert Gr\u00f8nb\u00e6k",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 39069,
+              "name": "Ulrik Saltnes",
+              "number": 14,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 351483,
+              "name": "Fredrik Sj\u00f8vold",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 131309,
+              "name": "Nino \u017dugelj",
+              "number": 99,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 319319,
+              "name": "Magnus Brondbo",
+              "number": 44,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1593,
+              "name": "Omar Elabdellaoui",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 407659,
+              "name": "Isak Sjong",
+              "number": 45,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 410596,
+              "name": "Stian Kristiansen",
+              "number": 47,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 352728,
+              "name": "Petter Nosakhare Dahl",
+              "number": 22,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 1952,
+          "name": "K. Knutsen",
+          "photo": "https://media.api-sports.io/football/coachs/1952.png"
+        }
+      }
+    ]
+  }
+}

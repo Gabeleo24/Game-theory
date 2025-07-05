@@ -1,0 +1,457 @@
+{
+  "cache_timestamp": "2025-07-04T12:32:00.096544",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1210539"
+    },
+    "errors": [],
+    "results": 20,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 8,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 799,
+          "name": "M. Havel"
+        },
+        "assist": {
+          "id": 66387,
+          "name": "P. \u0160ulc"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 11,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 410016,
+          "name": "P. Adu"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 13,
+          "extra": null
+        },
+        "team": {
+          "id": 782,
+          "name": "Slovan Liberec",
+          "logo": "https://media.api-sports.io/football/teams/782.png"
+        },
+        "player": {
+          "id": 290212,
+          "name": "D. Vi\u0161insk\u00fd"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 47,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 800,
+          "name": "Luk\u00e1\u0161 Hejda"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 782,
+          "name": "Slovan Liberec",
+          "logo": "https://media.api-sports.io/football/teams/782.png"
+        },
+        "player": {
+          "id": 66703,
+          "name": "C. Fr\u00fddek"
+        },
+        "assist": {
+          "id": 153717,
+          "name": "Santiago Eneme"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 782,
+          "name": "Slovan Liberec",
+          "logo": "https://media.api-sports.io/football/teams/782.png"
+        },
+        "player": {
+          "id": 432375,
+          "name": "B. Nyarko"
+        },
+        "assist": {
+          "id": 72561,
+          "name": "R. Krollis"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 410016,
+          "name": "P. Adu"
+        },
+        "assist": {
+          "id": 341226,
+          "name": "R. Durosinmi"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 782,
+          "name": "Slovan Liberec",
+          "logo": "https://media.api-sports.io/football/teams/782.png"
+        },
+        "player": {
+          "id": 66582,
+          "name": "M. Hlavat\u00fd"
+        },
+        "assist": {
+          "id": 216185,
+          "name": "A. Ghali"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 782,
+          "name": "Slovan Liberec",
+          "logo": "https://media.api-sports.io/football/teams/782.png"
+        },
+        "player": {
+          "id": 2192,
+          "name": "Tom\u00e1\u0161 Koubek"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Card upgrade",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 782,
+          "name": "Slovan Liberec",
+          "logo": "https://media.api-sports.io/football/teams/782.png"
+        },
+        "player": {
+          "id": 2192,
+          "name": "Tom\u00e1\u0161 Koubek"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Violent conduct"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 799,
+          "name": "M. Havel"
+        },
+        "assist": {
+          "id": 810,
+          "name": "J. Kopic"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 18930,
+          "name": "M. Vydra"
+        },
+        "assist": {
+          "id": 66659,
+          "name": "D. Va\u0161ul\u00edn"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 782,
+          "name": "Slovan Liberec",
+          "logo": "https://media.api-sports.io/football/teams/782.png"
+        },
+        "player": {
+          "id": 66582,
+          "name": "M. Hlavat\u00fd"
+        },
+        "assist": {
+          "id": 61189,
+          "name": "I. Kraj\u010d\u00edrik"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 782,
+          "name": "Slovan Liberec",
+          "logo": "https://media.api-sports.io/football/teams/782.png"
+        },
+        "player": {
+          "id": 290212,
+          "name": "D. Vi\u0161insk\u00fd"
+        },
+        "assist": {
+          "id": 66375,
+          "name": "D. Preisler"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 45824,
+          "name": "Svetozar Markovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 162194,
+          "name": "L. \u010cerv"
+        },
+        "assist": {
+          "id": 449656,
+          "name": "J. Pano\u0161"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 45824,
+          "name": "S. Markovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 6
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 66270,
+          "name": "V\u00e1clav Jemelka"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 782,
+          "name": "Slovan Liberec",
+          "logo": "https://media.api-sports.io/football/teams/782.png"
+        },
+        "player": {
+          "id": 216185,
+          "name": "Abubakar Ghali"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 61161,
+          "name": "Martin Jedli\u010dka"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      }
+    ]
+  }
+}

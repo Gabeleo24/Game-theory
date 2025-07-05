@@ -1,0 +1,325 @@
+{
+  "cache_timestamp": "2025-07-04T12:31:20.909372",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1210398"
+    },
+    "errors": [],
+    "results": 14,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 9,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 18930,
+          "name": "Mat\u011bj Vydra"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 38,
+          "extra": null
+        },
+        "team": {
+          "id": 1122,
+          "name": "FK Jablonec",
+          "logo": "https://media.api-sports.io/football/teams/1122.png"
+        },
+        "player": {
+          "id": 118954,
+          "name": "Michal Beran"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": {
+          "id": 1122,
+          "name": "FK Jablonec",
+          "logo": "https://media.api-sports.io/football/teams/1122.png"
+        },
+        "player": {
+          "id": 331231,
+          "name": "T. Sch\u00e1n\u011blec"
+        },
+        "assist": {
+          "id": 314370,
+          "name": "D. Holl\u00fd"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 66659,
+          "name": "D. Va\u0161ul\u00edn"
+        },
+        "assist": {
+          "id": 281323,
+          "name": "I. Metsoko"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 1122,
+          "name": "FK Jablonec",
+          "logo": "https://media.api-sports.io/football/teams/1122.png"
+        },
+        "player": {
+          "id": 21260,
+          "name": "Alexis Alegue"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Handball"
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 1122,
+          "name": "FK Jablonec",
+          "logo": "https://media.api-sports.io/football/teams/1122.png"
+        },
+        "player": {
+          "id": 66425,
+          "name": "Jakub Martinec"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 317825,
+          "name": "Sampson Dweh"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 18930,
+          "name": "M. Vydra"
+        },
+        "assist": {
+          "id": 390567,
+          "name": "T. Slon\u010d\u00edk"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 1122,
+          "name": "FK Jablonec",
+          "logo": "https://media.api-sports.io/football/teams/1122.png"
+        },
+        "player": {
+          "id": 144722,
+          "name": "S. Nebyla"
+        },
+        "assist": {
+          "id": 102556,
+          "name": "B. Kanakimana"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 1122,
+          "name": "FK Jablonec",
+          "logo": "https://media.api-sports.io/football/teams/1122.png"
+        },
+        "player": {
+          "id": 66628,
+          "name": "J. Forteln\u00fd"
+        },
+        "assist": {
+          "id": 193344,
+          "name": "Dudu Nardini"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 1122,
+          "name": "FK Jablonec",
+          "logo": "https://media.api-sports.io/football/teams/1122.png"
+        },
+        "player": {
+          "id": 193344,
+          "name": "Eduardo Nardini"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 1122,
+          "name": "FK Jablonec",
+          "logo": "https://media.api-sports.io/football/teams/1122.png"
+        },
+        "player": {
+          "id": 66425,
+          "name": "Jakub Martinec"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 66387,
+          "name": "P. \u0160ulc"
+        },
+        "assist": {
+          "id": 306368,
+          "name": "Ricardinho"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 1122,
+          "name": "FK Jablonec",
+          "logo": "https://media.api-sports.io/football/teams/1122.png"
+        },
+        "player": {
+          "id": 21260,
+          "name": "A. Al\u00e9gu\u00e9"
+        },
+        "assist": {
+          "id": 66222,
+          "name": "D. Sou\u010dek"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  }
+}

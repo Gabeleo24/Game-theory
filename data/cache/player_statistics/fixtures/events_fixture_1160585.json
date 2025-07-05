@@ -1,0 +1,171 @@
+{
+  "cache_timestamp": "2025-07-04T13:07:49.809746",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1160585"
+    },
+    "errors": [],
+    "results": 7,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": null,
+          "name": "S. Szabo"
+        },
+        "assist": {
+          "id": 118347,
+          "name": "T. Kehinde"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 41,
+          "extra": null
+        },
+        "team": {
+          "id": 6489,
+          "name": "Kryvbas KR",
+          "logo": "https://media.api-sports.io/football/teams/6489.png"
+        },
+        "player": {
+          "id": 8728,
+          "name": "D. Bizimana"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 89229,
+          "name": "L. Paszka"
+        },
+        "assist": {
+          "id": 8503,
+          "name": "S. Mmaee"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 6489,
+          "name": "Kryvbas KR",
+          "logo": "https://media.api-sports.io/football/teams/6489.png"
+        },
+        "player": {
+          "id": 63582,
+          "name": "Y. Vakulko"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 6489,
+          "name": "Kryvbas KR",
+          "logo": "https://media.api-sports.io/football/teams/6489.png"
+        },
+        "player": {
+          "id": 294349,
+          "name": "D. Sosah"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 361485,
+          "name": "A. Toth"
+        },
+        "assist": {
+          "id": 19236,
+          "name": "M. Besic"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 7398,
+          "name": "B. Varga"
+        },
+        "assist": {
+          "id": 48001,
+          "name": "G. Kharaishvili"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  }
+}

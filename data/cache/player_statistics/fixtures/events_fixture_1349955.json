@@ -1,0 +1,545 @@
+{
+  "cache_timestamp": "2025-07-04T11:47:44.051536",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1349955"
+    },
+    "errors": [],
+    "results": 24,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 51494,
+          "name": "Manuel Ugarte"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 27,
+          "extra": null
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 899,
+          "name": "Andreas Pereira"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 1
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 152967,
+          "name": "C. Bassey"
+        },
+        "assist": {
+          "id": 195106,
+          "name": "Rodrigo Muniz"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 51494,
+          "name": "M. Ugarte"
+        },
+        "assist": {
+          "id": 284324,
+          "name": "A. Garnacho"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 342970,
+          "name": "L. Yoro"
+        },
+        "assist": {
+          "id": 889,
+          "name": "V. Lindel\u00f6f"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 18753,
+          "name": "Adama Traor\u00e9"
+        },
+        "assist": {
+          "id": 1161,
+          "name": "E. Smith Rowe"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 174,
+          "name": "C. Eriksen"
+        },
+        "assist": {
+          "id": 747,
+          "name": "Casemiro"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 288006,
+          "name": "R. H\u00f8jlund"
+        },
+        "assist": {
+          "id": 389309,
+          "name": "C. Obi"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 1485,
+          "name": "Bruno Fernandes"
+        },
+        "assist": {
+          "id": 886,
+          "name": "Diogo Dalot"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 6
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 2729,
+          "name": "Joachim Andersen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 2935,
+          "name": "H. Maguire"
+        },
+        "assist": {
+          "id": 402329,
+          "name": "A. Heaven"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 899,
+          "name": "Andreas Pereira"
+        },
+        "assist": {
+          "id": 2294,
+          "name": "Willian"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 195106,
+          "name": "Rodrigo Muniz"
+        },
+        "assist": {
+          "id": 2887,
+          "name": "R. Jim\u00e9nez"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 101,
+          "extra": null
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 2823,
+          "name": "S. Luki\u0107"
+        },
+        "assist": {
+          "id": 19480,
+          "name": "H. Reed"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 107,
+          "extra": null
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 1455,
+          "name": "A. Iwobi"
+        },
+        "assist": {
+          "id": 19032,
+          "name": "R. Sessegnon"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 1
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 1485,
+          "name": "Bruno Fernandes"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 2
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 2887,
+          "name": "R. Jim\u00e9nez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 3
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 886,
+          "name": "Diogo Dalot"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 4
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 1934,
+          "name": "S. Berge"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 5
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 747,
+          "name": "Casemiro"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 6
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 2294,
+          "name": "Willian"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 7
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 889,
+          "name": "V. Lindel\u00f6f"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 8
+        },
+        "team": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media.api-sports.io/football/teams/36.png"
+        },
+        "player": {
+          "id": 19549,
+          "name": "A. Robinson"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 9
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 70100,
+          "name": "J. Zirkzee"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      }
+    ]
+  }
+}

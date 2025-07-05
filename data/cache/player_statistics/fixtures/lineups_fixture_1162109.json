@@ -1,0 +1,45 @@
+{
+  "cache_timestamp": "2025-07-04T12:41:41.493314",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1162109"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 1380,
+          "name": "H. Rydstr\u00f6m",
+          "photo": "https://media.api-sports.io/football/coachs/1380.png"
+        },
+        "formation": null
+      },
+      {
+        "team": {
+          "id": 812,
+          "name": "falkenbergs FF",
+          "logo": "https://media.api-sports.io/football/teams/812.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 16731,
+          "name": "C. Andersson",
+          "photo": "https://media.api-sports.io/football/coachs/16731.png"
+        },
+        "formation": null
+      }
+    ]
+  }
+}

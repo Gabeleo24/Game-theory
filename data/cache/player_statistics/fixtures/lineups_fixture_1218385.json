@@ -1,0 +1,489 @@
+{
+  "cache_timestamp": "2025-07-04T13:30:20.308573",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1218385"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png",
+          "colors": {
+            "player": {
+              "primary": "d50000",
+              "number": "ffffff",
+              "border": "d50000"
+            },
+            "goalkeeper": {
+              "primary": "ffc300",
+              "number": "ffffff",
+              "border": "ffc300"
+            }
+          }
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 224,
+              "name": "Jeroen Zoet",
+              "number": 41,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 199793,
+              "name": "Seiya Maikuma",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 312838,
+              "name": "Maxim Dekker",
+              "number": 22,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 338839,
+              "name": "Wouter Goes",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 265782,
+              "name": "David M\u00f6ller Wolfe",
+              "number": 18,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 38820,
+              "name": "Peer Koopmeiners",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 161956,
+              "name": "Kristijan Beli\u0107",
+              "number": 14,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 37438,
+              "name": "Sven Mijnans",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 15920,
+              "name": "Ibrahim Sadiq",
+              "number": 11,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 149551,
+              "name": "Troy Parrott",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 287797,
+              "name": "Myron Van Brederode",
+              "number": 19,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 37602,
+              "name": "Hobie Verhulst",
+              "number": 12,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 278308,
+              "name": "Daniel Deen",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 179839,
+              "name": "Denso Kasius",
+              "number": 30,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162594,
+              "name": "Alexandre Penetra",
+              "number": 5,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 37175,
+              "name": "Riechedly Bazoer",
+              "number": 25,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 272695,
+              "name": "Zico Buurmeester",
+              "number": 27,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 365018,
+              "name": "Ruben van Bommel",
+              "number": 7,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 37154,
+              "name": "Jordy Clasie",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 354533,
+              "name": "Jayden Addai",
+              "number": 17,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 312840,
+              "name": "Ernest Poku",
+              "number": 21,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 312837,
+              "name": "Lequincio Zeefuik",
+              "number": 28,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 15114,
+          "name": "M. Martens",
+          "photo": "https://media.api-sports.io/football/coachs/15114.png"
+        }
+      },
+      {
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "000000",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "729e65",
+              "number": "181616",
+              "border": "729e65"
+            }
+          }
+        },
+        "formation": "3-4-1-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 30417,
+              "name": "Marco Carnesecchi",
+              "number": 29,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 19073,
+              "name": "Ben Godfrey",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 137976,
+              "name": "Isak Hien",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 1442,
+              "name": "Sead Kola\u0161inac",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2286,
+              "name": "Davide Zappacosta",
+              "number": 77,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 2763,
+              "name": "Mario Pa\u0161ali\u0107",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 30432,
+              "name": "Marten de Roon",
+              "number": 15,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 162012,
+              "name": "Matteo Ruggeri",
+              "number": 22,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 36899,
+              "name": "Teun Koopmeiners",
+              "number": 7,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 30544,
+              "name": "Gianluca Scamacca",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:2"
+            }
+          },
+          {
+            "player": {
+              "id": 18767,
+              "name": "Ademola Lookman",
+              "number": 11,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 2465,
+              "name": "Juan Musso",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 353609,
+              "name": "Ibrahim Sulemana",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 530,
+              "name": "Mitchel Bakker",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 30423,
+              "name": "Hans Hateboer",
+              "number": 33,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 147859,
+              "name": "Charles De Ketelaere",
+              "number": 17,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 383018,
+              "name": "Marco Palestra",
+              "number": 45,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 30429,
+              "name": "Rafael Tol\u00f3i",
+              "number": 2,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 341838,
+              "name": "Giovanni Bonfanti",
+              "number": 43,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 194750,
+              "name": "El Bilal Tour\u00e9",
+              "number": 10,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 419423,
+              "name": "Alberto Manzoni",
+              "number": 44,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 237150,
+              "name": "Samuel Giovane",
+              "number": 46,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 30419,
+              "name": "Francesco Rossi",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 30421,
+              "name": "Berat Djimsiti",
+              "number": 19,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 2393,
+          "name": "G. Gasperini",
+          "photo": "https://media.api-sports.io/football/coachs/2393.png"
+        }
+      }
+    ]
+  }
+}

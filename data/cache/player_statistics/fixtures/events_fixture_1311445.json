@@ -1,0 +1,347 @@
+{
+  "cache_timestamp": "2025-07-04T13:17:08.019118",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1311445"
+    },
+    "errors": [],
+    "results": 15,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 40,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 189556,
+          "name": "L. M\u00e9ndez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Own Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 9395,
+          "name": "Las Rozas",
+          "logo": "https://media.api-sports.io/football/teams/9395.png"
+        },
+        "player": {
+          "id": 184924,
+          "name": "Victor Velasco"
+        },
+        "assist": {
+          "id": 288820,
+          "name": "\u00c1lvaro Escolano"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 433,
+          "name": "Marc\u00e3o"
+        },
+        "assist": {
+          "id": 297311,
+          "name": "Kike Salas"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 9395,
+          "name": "Las Rozas",
+          "logo": "https://media.api-sports.io/football/teams/9395.png"
+        },
+        "player": {
+          "id": 382783,
+          "name": "S. Lagreca"
+        },
+        "assist": {
+          "id": 184523,
+          "name": "Juanito"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 9395,
+          "name": "Las Rozas",
+          "logo": "https://media.api-sports.io/football/teams/9395.png"
+        },
+        "player": {
+          "id": 331400,
+          "name": "Borja Pascual"
+        },
+        "assist": {
+          "id": 312474,
+          "name": "Roberto"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 2778,
+          "name": "K. \u1ecaheanach\u1ecd"
+        },
+        "assist": {
+          "id": 182772,
+          "name": "Juanlu S\u00e1nchez"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 340152,
+          "name": "S. Idumbo"
+        },
+        "assist": {
+          "id": 286271,
+          "name": "Isra Dom\u00ednguez"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 182772,
+          "name": "Juanlu S\u00e1nchez"
+        },
+        "assist": {
+          "id": 119235,
+          "name": "Pedro Ortiz"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 9395,
+          "name": "Las Rozas",
+          "logo": "https://media.api-sports.io/football/teams/9395.png"
+        },
+        "player": {
+          "id": 287167,
+          "name": "Iv\u00e1n Quivira"
+        },
+        "assist": {
+          "id": 459051,
+          "name": "Varo"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 9395,
+          "name": "Las Rozas",
+          "logo": "https://media.api-sports.io/football/teams/9395.png"
+        },
+        "player": {
+          "id": 288820,
+          "name": "Alvaro Escolano"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 957,
+          "name": "D. Sow"
+        },
+        "assist": {
+          "id": 360411,
+          "name": "Alberto Collado"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 2778,
+          "name": "K. \u1ecaheanach\u1ecd"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 119235,
+          "name": "Pedro Ortiz"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 9395,
+          "name": "Las Rozas",
+          "logo": "https://media.api-sports.io/football/teams/9395.png"
+        },
+        "player": {
+          "id": 302052,
+          "name": "Losada"
+        },
+        "assist": {
+          "id": 185007,
+          "name": "Javi Bernal"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "player": {
+          "id": 162126,
+          "name": "Peque Fern\u00e1ndez"
+        },
+        "assist": {
+          "id": 47329,
+          "name": "Adri\u00e0 Pedrosa"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

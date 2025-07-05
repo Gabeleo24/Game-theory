@@ -1,0 +1,325 @@
+{
+  "cache_timestamp": "2025-07-04T11:51:26.012737",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1238131"
+    },
+    "errors": [],
+    "results": 14,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 29,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 1462,
+          "name": "L. Torreira"
+        },
+        "assist": {
+          "id": 80552,
+          "name": "Gabriel Sara"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 63274,
+          "name": "Bar\u0131\u015f Alper Y\u0131lmaz"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 80552,
+          "name": "Gabriel Sara"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 3583,
+          "name": "BB Bodrumspor",
+          "logo": "https://media.api-sports.io/football/teams/3583.png"
+        },
+        "player": {
+          "id": 49957,
+          "name": "O. \u010cel\u016fstka"
+        },
+        "assist": {
+          "id": 152078,
+          "name": "\u00dc. Erg\u00fcn"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 80552,
+          "name": "Gabriel Sara"
+        },
+        "assist": {
+          "id": 59,
+          "name": "\u00c1lvaro Morata"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 3583,
+          "name": "BB Bodrumspor",
+          "logo": "https://media.api-sports.io/football/teams/3583.png"
+        },
+        "player": {
+          "id": 182155,
+          "name": "E. Bilsel"
+        },
+        "assist": {
+          "id": 107268,
+          "name": "C. \u015een"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 3583,
+          "name": "BB Bodrumspor",
+          "logo": "https://media.api-sports.io/football/teams/3583.png"
+        },
+        "player": {
+          "id": 37382,
+          "name": "J. Okita"
+        },
+        "assist": {
+          "id": 11307,
+          "name": "Z. Dimitrov"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 63274,
+          "name": "B. Y\u0131lmaz"
+        },
+        "assist": {
+          "id": 422,
+          "name": "A. Kutucu"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 3583,
+          "name": "BB Bodrumspor",
+          "logo": "https://media.api-sports.io/football/teams/3583.png"
+        },
+        "player": {
+          "id": 327386,
+          "name": "A. Aslan"
+        },
+        "assist": {
+          "id": 48698,
+          "name": "T. Seferi"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 168,
+          "name": "D. S\u00e1nchez"
+        },
+        "assist": {
+          "id": 454,
+          "name": "Y. Akg\u00fcn"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 1462,
+          "name": "L. Torreira"
+        },
+        "assist": {
+          "id": 332,
+          "name": "D. Mertens"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 18947,
+          "name": "M. Lemina"
+        },
+        "assist": {
+          "id": 717,
+          "name": "K. Demirbay"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 2780,
+          "name": "V. Osimhen"
+        },
+        "assist": {
+          "id": 264627,
+          "name": "B. Kutlu"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 3583,
+          "name": "BB Bodrumspor",
+          "logo": "https://media.api-sports.io/football/teams/3583.png"
+        },
+        "player": {
+          "id": 62100,
+          "name": "A. Aytemur"
+        },
+        "assist": {
+          "id": 31562,
+          "name": "G. Pu\u0219ca\u0219"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

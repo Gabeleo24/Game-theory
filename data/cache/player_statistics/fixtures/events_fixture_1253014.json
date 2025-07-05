@@ -1,0 +1,39 @@
+{
+  "cache_timestamp": "2025-07-04T12:02:22.298507",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1253014"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": null,
+          "name": "T. Bakovic"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

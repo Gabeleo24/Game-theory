@@ -1,0 +1,281 @@
+{
+  "cache_timestamp": "2025-07-04T13:07:32.800140",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1299262"
+    },
+    "errors": [],
+    "results": 12,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 111148,
+          "name": "G. Kanichowsky"
+        },
+        "assist": {
+          "id": 37183,
+          "name": "J. van Overeem"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 48,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 41966,
+          "name": "Francisco Moura"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 161933,
+          "name": "Nico Gonz\u00e1lez"
+        },
+        "assist": {
+          "id": 41734,
+          "name": "Jo\u00e3o M\u00e1rio"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 19625,
+          "name": "D. Namaso"
+        },
+        "assist": {
+          "id": 388570,
+          "name": "D. G\u00fcl"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 41725,
+          "name": "F\u00e1bio Vieira"
+        },
+        "assist": {
+          "id": 325830,
+          "name": "Vasco Sousa"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 137531,
+          "name": "I. Shahar"
+        },
+        "assist": {
+          "id": 56011,
+          "name": "D. Peretz"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 274199,
+          "name": "T. Asante"
+        },
+        "assist": {
+          "id": 133403,
+          "name": "N. Stoji\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 269532,
+          "name": "D. Turgeman"
+        },
+        "assist": {
+          "id": 400496,
+          "name": "E. Madmon"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 10500,
+          "name": "Pep\u00ea"
+        },
+        "assist": {
+          "id": 41197,
+          "name": "Galeno"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 41966,
+          "name": "Francisco Moura"
+        },
+        "assist": {
+          "id": 126899,
+          "name": "Z. Sanusi"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "player": {
+          "id": 126969,
+          "name": "O. Davida"
+        },
+        "assist": {
+          "id": 342928,
+          "name": "H. Addo"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 161933,
+          "name": "Nico Gonz\u00e1lez"
+        },
+        "assist": {
+          "id": 41964,
+          "name": "Z\u00e9 Pedro"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

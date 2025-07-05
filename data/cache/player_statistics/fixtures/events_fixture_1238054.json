@@ -1,0 +1,61 @@
+{
+  "cache_timestamp": "2025-07-04T11:51:08.219575",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1238054"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "player": {
+          "id": 59,
+          "name": "\u00c1lvaro Morata"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 21,
+          "extra": null
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 328155,
+          "name": "A. Kurtulan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+}

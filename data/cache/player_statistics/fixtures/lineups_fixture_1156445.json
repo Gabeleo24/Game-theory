@@ -1,0 +1,444 @@
+{
+  "cache_timestamp": "2025-07-04T13:18:47.041281",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1156445"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "121d2d",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "e8d401",
+              "number": "ffffff",
+              "border": "e8d401"
+            }
+          }
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 66265,
+              "name": "Ale\u0161 Mandous",
+              "number": 28,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 61243,
+              "name": "Michal Tomi\u010d",
+              "number": 29,
+              "pos": "M",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 1236,
+              "name": "Tom\u00e1\u0161 Vl\u010dek",
+              "number": 27,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1230,
+              "name": "Jan Bo\u0159il",
+              "number": 18,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 196382,
+              "name": "Andres Dumitrescu",
+              "number": 22,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 70483,
+              "name": "Jakub Hromada",
+              "number": 25,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 66042,
+              "name": "Oscar Dorley",
+              "number": 19,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1252,
+              "name": "Mick van Buren",
+              "number": 14,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1251,
+              "name": "Stanislav Tecl",
+              "number": 11,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Bolu Ogungbayi",
+              "number": 24,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 144021,
+              "name": "Muhamed Tijani",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 161863,
+              "name": "Jan Sirotn\u00edk",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2252,
+              "name": "Tom\u00e1\u0161 Hole\u0161",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 39320,
+              "name": "Sheriff Sinyan",
+              "number": 2,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66287,
+              "name": "Ond\u0159ej Zmrzl\u00fd",
+              "number": 33,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 409303,
+              "name": "El Hadji Malick Diouf",
+              "number": 12,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66214,
+              "name": "David Doudera",
+              "number": 21,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66353,
+              "name": "Luk\u00e1\u0161 Provod",
+              "number": 17,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 151311,
+              "name": "Conrad Wallem",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 216762,
+              "name": "Christos Zafeiris",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66275,
+              "name": "Mojmir Chytil",
+              "number": 13,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66127,
+              "name": "V\u00e1clav Jure\u010dka",
+              "number": 15,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 1813,
+          "name": "J. Trpi\u0161ovsk\u00fd",
+          "photo": "https://media.api-sports.io/football/coachs/1813.png"
+        }
+      },
+      {
+        "team": {
+          "id": 396,
+          "name": "Sonderjyske",
+          "logo": "https://media.api-sports.io/football/teams/396.png",
+          "colors": {
+            "player": {
+              "primary": "000000",
+              "number": "ffffff",
+              "border": "000000"
+            },
+            "goalkeeper": {
+              "primary": "ffff00",
+              "number": "000000",
+              "border": "ffff00"
+            }
+          }
+        },
+        "formation": "4-3-2-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 15736,
+              "name": "Nikolai Fl\u00f8",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 15790,
+              "name": "Marc Dal Hende",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 38719,
+              "name": "Maxime Soulas",
+              "number": 12,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 151502,
+              "name": "Atli Barkarson",
+              "number": 21,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 26283,
+              "name": "Jonas Thorsen",
+              "number": 16,
+              "pos": "M",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 102574,
+              "name": "Jos\u00e9 Gallegos",
+              "number": 17,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 119103,
+              "name": "Sefer Emini",
+              "number": 22,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Ivan Nikolov",
+              "number": 12,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Olti Hyseni",
+              "number": 24,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Simon Maass",
+              "number": 32,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 15622,
+              "name": "Peter Christiansen",
+              "number": 20,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 94332,
+              "name": "Dalton Wilkins",
+              "number": 13,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Benjamin Rasmussen",
+              "number": 35,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Gustav Wagner",
+              "number": 37,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Kristoffer J\u00f8rgensen",
+              "number": 29,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Marcus Kristensen",
+              "number": 15,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Anders Pedersen",
+              "number": 36,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Mads Agger",
+              "number": 25,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Soren Andreasen",
+              "number": 14,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 7255,
+          "name": "T. N\u00f8rgaard",
+          "photo": "https://media.api-sports.io/football/coachs/7255.png"
+        }
+      }
+    ]
+  }
+}

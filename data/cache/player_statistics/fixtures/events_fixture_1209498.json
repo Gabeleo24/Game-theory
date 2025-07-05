@@ -1,0 +1,83 @@
+{
+  "cache_timestamp": "2025-07-04T13:23:31.379322",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1209498"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 19,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 2374,
+          "name": "D. Pelkas"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 40,
+          "extra": null
+        },
+        "team": {
+          "id": 12360,
+          "name": "\u017delezni\u010dar Pan\u010devo",
+          "logo": "https://media.api-sports.io/football/teams/12360.png"
+        },
+        "player": {
+          "id": 378315,
+          "name": "B. Blagojevi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 49919,
+          "name": "D. Aleksi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

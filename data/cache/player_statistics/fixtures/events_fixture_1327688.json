@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T13:28:19.081005",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1327688"
+    },
+    "errors": [],
+    "results": 19,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 1,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 20586,
+          "name": "R. Raveloson"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 13,
+          "extra": null
+        },
+        "team": {
+          "id": 630,
+          "name": "FC Sion",
+          "logo": "https://media.api-sports.io/football/teams/630.png"
+        },
+        "player": {
+          "id": 686,
+          "name": "Marquinhos Cipriano"
+        },
+        "assist": {
+          "id": 48717,
+          "name": "N. Hefti"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 17,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 8625,
+          "name": "C. Bedia"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 123468,
+          "name": "Marvin Keller"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Card reviewed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 29,
+          "extra": null
+        },
+        "team": {
+          "id": 630,
+          "name": "FC Sion",
+          "logo": "https://media.api-sports.io/football/teams/630.png"
+        },
+        "player": {
+          "id": 123474,
+          "name": "Kreshnik Hajrizi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 37,
+          "extra": null
+        },
+        "team": {
+          "id": 630,
+          "name": "FC Sion",
+          "logo": "https://media.api-sports.io/football/teams/630.png"
+        },
+        "player": {
+          "id": 1005,
+          "name": "B. Kololli"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 42,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 271572,
+          "name": "A. Virginius"
+        },
+        "assist": {
+          "id": 277862,
+          "name": "J. Monteiro"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 8625,
+          "name": "C. Bedia"
+        },
+        "assist": {
+          "id": 271572,
+          "name": "A. Virginius"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 630,
+          "name": "FC Sion",
+          "logo": "https://media.api-sports.io/football/teams/630.png"
+        },
+        "player": {
+          "id": 20841,
+          "name": "I. Chouaref"
+        },
+        "assist": {
+          "id": 51128,
+          "name": "R. Ziegler"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 630,
+          "name": "FC Sion",
+          "logo": "https://media.api-sports.io/football/teams/630.png"
+        },
+        "player": {
+          "id": 190671,
+          "name": "T. Bouchlarhem"
+        },
+        "assist": {
+          "id": 485,
+          "name": "A. Miranchuk"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 630,
+          "name": "FC Sion",
+          "logo": "https://media.api-sports.io/football/teams/630.png"
+        },
+        "player": {
+          "id": 30737,
+          "name": "F. Barba"
+        },
+        "assist": {
+          "id": 388568,
+          "name": "G. Diouf"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 271572,
+          "name": "A. Virginius"
+        },
+        "assist": {
+          "id": 48612,
+          "name": "K. Imeri"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 148351,
+          "name": "\u0141. \u0141akomy"
+        },
+        "assist": {
+          "id": 48465,
+          "name": "F. Ugrinic"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 630,
+          "name": "FC Sion",
+          "logo": "https://media.api-sports.io/football/teams/630.png"
+        },
+        "player": {
+          "id": 300871,
+          "name": "T. Berdayes"
+        },
+        "assist": {
+          "id": 283842,
+          "name": "M. Bouriga"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 277862,
+          "name": "J. Monteiro"
+        },
+        "assist": {
+          "id": 140847,
+          "name": "E. Colley"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 8625,
+          "name": "C. Bedia"
+        },
+        "assist": {
+          "id": 48497,
+          "name": "C. Itten"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 140847,
+          "name": "Ebrima Colley"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 952,
+          "name": "C. Fassnacht"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 161810,
+          "name": "L. Blum"
+        },
+        "assist": {
+          "id": 396380,
+          "name": "Z. Athekame"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

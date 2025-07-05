@@ -1,0 +1,303 @@
+{
+  "cache_timestamp": "2025-07-04T12:10:18.988146",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213123"
+    },
+    "errors": [],
+    "results": 13,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 38,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 43443,
+          "name": "D. Vorobyev"
+        },
+        "assist": {
+          "id": 401073,
+          "name": "A. Batrakov"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 10006,
+          "name": "Arthur Gomes"
+        },
+        "assist": {
+          "id": 5994,
+          "name": "J. Carrascal"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 192015,
+          "name": "E. Sevikyan"
+        },
+        "assist": {
+          "id": 841,
+          "name": "N. Tiknizyan"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 51,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 166840,
+          "name": "S. Pinyaev"
+        },
+        "assist": {
+          "id": 43500,
+          "name": "V. Sarveli"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 5994,
+          "name": "Jorge Carrascal"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 43451,
+          "name": "Maksim Nenakhov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 10006,
+          "name": "Arthur Gomes"
+        },
+        "assist": {
+          "id": 303486,
+          "name": "E. Maouhoub"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 162504,
+          "name": "A. Silyanov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 282712,
+          "name": "Y. Gladyshev"
+        },
+        "assist": {
+          "id": 127280,
+          "name": "D. Makarov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 2077,
+          "name": "D. Skopintsev"
+        },
+        "assist": {
+          "id": 1643,
+          "name": "D. Laxalt"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 5
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 43729,
+          "name": "Ilya Lantratov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 43443,
+          "name": "D. Vorobyev"
+        },
+        "assist": {
+          "id": 130292,
+          "name": "T. Suleymanov"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 35690,
+          "name": "L. Ch\u00e1vez"
+        },
+        "assist": {
+          "id": 955,
+          "name": "N. Ngamaleu"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  }
+}

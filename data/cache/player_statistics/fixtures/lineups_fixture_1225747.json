@@ -1,0 +1,516 @@
+{
+  "cache_timestamp": "2025-07-04T11:43:47.445699",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1225747"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 296,
+          "name": "Yokohama F. Marinos",
+          "logo": "https://media.api-sports.io/football/teams/296.png",
+          "colors": {
+            "player": {
+              "primary": "0460c0",
+              "number": "ffffff",
+              "border": "0460c0"
+            },
+            "goalkeeper": {
+              "primary": "ffee26",
+              "number": "171717",
+              "border": "ffee26"
+            }
+          }
+        },
+        "formation": "3-4-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 33003,
+              "name": "Hiroki Ilkura",
+              "number": 21,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 199886,
+              "name": "Hijiri Kato",
+              "number": 24,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 33197,
+              "name": "Eduardo",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 353587,
+              "name": "Ren Kato",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 351542,
+              "name": "Riku Yamane",
+              "number": 28,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 199627,
+              "name": "Kenta Inoue",
+              "number": 17,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 33018,
+              "name": "Takuya Kida",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 288949,
+              "name": "Keigo Sakakibara",
+              "number": 35,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 41630,
+              "name": "Yan Matheus",
+              "number": 11,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 846,
+              "name": "Takuma Nishimura",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 10042,
+              "name": "\u00c9lber",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 32912,
+              "name": "William Popp",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2591,
+              "name": "Shinnosuke Hatanaka",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 33594,
+              "name": "Takumi Kamijima",
+              "number": 15,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 33066,
+              "name": "Yuta Koike",
+              "number": 26,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 33012,
+              "name": "Ken Matsubara",
+              "number": 27,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 32968,
+              "name": "Kazuya Yamamura",
+              "number": 47,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 33016,
+              "name": "Jun Amano",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 33175,
+              "name": "Kota Mizunuma",
+              "number": 18,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 33804,
+              "name": "Kota Watanabe",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 24939,
+              "name": "Ryo Miyaichi",
+              "number": 23,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 325288,
+              "name": "Yuhi Murakami",
+              "number": 38,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 146564,
+              "name": "Fuma Shirasaka",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Reno Noguchi",
+              "number": 43,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Hiroto Asada",
+              "number": 46,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 4514,
+          "name": "J. Hutchinson",
+          "photo": "https://media.api-sports.io/football/coachs/4514.png"
+        }
+      },
+      {
+        "team": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media.api-sports.io/football/teams/34.png",
+          "colors": {
+            "player": {
+              "primary": "10ad98",
+              "number": "0d0d0d",
+              "border": "10ad98"
+            },
+            "goalkeeper": {
+              "primary": "4ed4e8",
+              "number": "000000",
+              "border": "4ed4e8"
+            }
+          }
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 557,
+              "name": "Odysseas Vlachodimos",
+              "number": 19,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 158694,
+              "name": "Valentino Livramento",
+              "number": 21,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 19263,
+              "name": "Lloyd Kelly",
+              "number": 25,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 2806,
+              "name": "Fabian Sch\u00e4r",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 284492,
+              "name": "Lewis Hall",
+              "number": 20,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 723,
+              "name": "Joelinton",
+              "number": 7,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 10135,
+              "name": "Bruno Guimar\u00e3es",
+              "number": 39,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 18901,
+              "name": "Sean Longstaff",
+              "number": 36,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2507,
+              "name": "Miguel Almir\u00f3n",
+              "number": 24,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 2864,
+              "name": "Alexander Isak",
+              "number": 14,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 18778,
+              "name": "Harvey Barnes",
+              "number": 11,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 18911,
+              "name": "Nick Pope",
+              "number": 22,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2855,
+              "name": "Emil Krafth",
+              "number": 17,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 171058,
+              "name": "Harrison Ashby",
+              "number": 30,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 18961,
+              "name": "Dan Burn",
+              "number": 33,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 328104,
+              "name": "Ben Parkinson",
+              "number": 44,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 19163,
+              "name": "Jacob Murphy",
+              "number": 23,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 401389,
+              "name": "Trevan Sanusi",
+              "number": 75,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 19076,
+              "name": "Jamal Lewis",
+              "number": 6,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Alfie Harrison",
+              "number": 48,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 18737,
+              "name": "John Ruddy",
+              "number": 26,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 322304,
+              "name": "Cathal Heffernan",
+              "number": 43,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 284305,
+              "name": "Jamie Miley",
+              "number": 35,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 284291,
+              "name": "Jay Turner-Cooke",
+              "number": 42,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 5,
+          "name": "E. Howe",
+          "photo": "https://media.api-sports.io/football/coachs/5.png"
+        }
+      }
+    ]
+  }
+}

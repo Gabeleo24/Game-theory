@@ -1,0 +1,325 @@
+{
+  "cache_timestamp": "2025-07-04T13:21:00.153871",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1208555"
+    },
+    "errors": [],
+    "results": 14,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        },
+        "player": {
+          "id": 333682,
+          "name": "Cristhian Mosquera"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png"
+        },
+        "player": {
+          "id": 46662,
+          "name": "Moncayola"
+        },
+        "assist": {
+          "id": 139001,
+          "name": "Pablo Ib\u00e1\u00f1ez"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 54,
+          "extra": null
+        },
+        "team": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png"
+        },
+        "player": {
+          "id": 1825,
+          "name": "Lucas Torr\u00f3"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        },
+        "player": {
+          "id": 41157,
+          "name": "Andr\u00e9 Almeida"
+        },
+        "assist": {
+          "id": 162931,
+          "name": "Fran P\u00e9rez"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        },
+        "player": {
+          "id": 158378,
+          "name": "E. Barrenechea"
+        },
+        "assist": {
+          "id": 315699,
+          "name": "Javi Guerra"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png"
+        },
+        "player": {
+          "id": 67939,
+          "name": "Aimar Oroz"
+        },
+        "assist": {
+          "id": 46658,
+          "name": "Rub\u00e9n Garc\u00eda"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png"
+        },
+        "player": {
+          "id": 146751,
+          "name": "Ra\u00fal Garc\u00eda"
+        },
+        "assist": {
+          "id": 46746,
+          "name": "A. Budimir"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        },
+        "player": {
+          "id": 162175,
+          "name": "Jes\u00fas V\u00e1zquez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png"
+        },
+        "player": {
+          "id": 182592,
+          "name": "Jorge Herrando"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        },
+        "player": {
+          "id": 162127,
+          "name": "Diego L\u00f3pez"
+        },
+        "assist": {
+          "id": 47264,
+          "name": "Hugo Duro"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        },
+        "player": {
+          "id": 1482,
+          "name": "Thierry Correia"
+        },
+        "assist": {
+          "id": 47251,
+          "name": "D. Foulquier"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png"
+        },
+        "player": {
+          "id": 47391,
+          "name": "Rub\u00e9n Pe\u00f1a"
+        },
+        "assist": {
+          "id": 286639,
+          "name": "Bryan Zaragoza"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        },
+        "player": {
+          "id": 119232,
+          "name": "Dani G\u00f3mez"
+        },
+        "assist": {
+          "id": 19352,
+          "name": "Sergi Can\u00f3s"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png"
+        },
+        "player": {
+          "id": 46746,
+          "name": "Ante Budimir"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Simulation"
+      }
+    ]
+  }
+}

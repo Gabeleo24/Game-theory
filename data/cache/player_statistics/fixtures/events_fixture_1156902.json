@@ -1,0 +1,39 @@
+{
+  "cache_timestamp": "2025-07-04T12:35:13.258714",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1156902"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 22,
+          "extra": null
+        },
+        "team": {
+          "id": 646,
+          "name": "Levski Sofia",
+          "logo": "https://media.api-sports.io/football/teams/646.png"
+        },
+        "player": {
+          "id": 269422,
+          "name": "P. Galchev"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

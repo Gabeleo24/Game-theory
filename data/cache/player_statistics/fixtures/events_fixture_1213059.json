@@ -1,0 +1,303 @@
+{
+  "cache_timestamp": "2025-07-04T12:25:24.927951",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213059"
+    },
+    "errors": [],
+    "results": 13,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 42,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 24810,
+          "name": "J. C\u00f3rdoba"
+        },
+        "assist": {
+          "id": 7541,
+          "name": "Victor S\u00e1"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 143363,
+          "name": "Diego Costa"
+        },
+        "assist": {
+          "id": 43565,
+          "name": "E. Spertsyan"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 144743,
+          "name": "Benjam\u00edn Garr\u00e9"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Simulation"
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 7541,
+          "name": "Victor S\u00e1"
+        },
+        "assist": {
+          "id": 342208,
+          "name": "D. Kozlov"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 43745,
+          "name": "I. Oleynikov"
+        },
+        "assist": {
+          "id": 304214,
+          "name": "I. Dmitriev"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 43486,
+          "name": "R. Ezhov"
+        },
+        "assist": {
+          "id": 339164,
+          "name": "U. Babaev"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 130247,
+          "name": "Jo\u00e3o Batxi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 130247,
+          "name": "Batxi"
+        },
+        "assist": {
+          "id": 493,
+          "name": "F. Smolov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 43565,
+          "name": "E. Spertsyan"
+        },
+        "assist": {
+          "id": 289592,
+          "name": "K. Casta\u00f1o"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 92189,
+          "name": "I. Sergeev"
+        },
+        "assist": {
+          "id": 271664,
+          "name": "V. Shitov"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 1779,
+          "name": "N. Rasskazov"
+        },
+        "assist": {
+          "id": 37280,
+          "name": "G. Bijl"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 144743,
+          "name": "B. Garr\u00e9"
+        },
+        "assist": {
+          "id": 237210,
+          "name": "F. Orozco"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 11442,
+          "name": "T. Galdames"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

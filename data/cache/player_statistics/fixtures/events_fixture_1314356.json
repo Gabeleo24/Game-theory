@@ -1,0 +1,369 @@
+{
+  "cache_timestamp": "2025-07-04T11:54:18.680769",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1314356"
+    },
+    "errors": [],
+    "results": 16,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 14,
+          "extra": null
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "player": {
+          "id": 41179,
+          "name": "Matheus Reis"
+        },
+        "assist": {
+          "id": 419582,
+          "name": "Geovany Quenda"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "player": {
+          "id": 18979,
+          "name": "V. Gy\u00f6keres"
+        },
+        "assist": {
+          "id": 419582,
+          "name": "Geovany Quenda"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 10500,
+          "name": "Pep\u00ea"
+        },
+        "assist": {
+          "id": 126899,
+          "name": "Z. Sanusi"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 130256,
+          "name": "Andr\u00e9 Franco"
+        },
+        "assist": {
+          "id": 41725,
+          "name": "F\u00e1bio Vieira"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "player": {
+          "id": 32960,
+          "name": "Hidemasa Morita"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 41725,
+          "name": "F\u00e1bio Vieira"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "player": {
+          "id": 32960,
+          "name": "H. Morita"
+        },
+        "assist": {
+          "id": 400509,
+          "name": "Jo\u00e3o Sim\u00f5es"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 35570,
+          "name": "Stephen Eustaquio"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "player": {
+          "id": 400509,
+          "name": "Jo\u00e3o Sim\u00f5es"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 336596,
+          "name": "Martim Fernandes"
+        },
+        "assist": {
+          "id": 41734,
+          "name": "Jo\u00e3o M\u00e1rio"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 404097,
+          "name": "Rodrigo Mora"
+        },
+        "assist": {
+          "id": 46828,
+          "name": "Iv\u00e1n Jaime"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "player": {
+          "id": 7712,
+          "name": "Morten Hjulmand"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 35570,
+          "name": "S. Eustaquio"
+        },
+        "assist": {
+          "id": 388570,
+          "name": "D. G\u00fcl"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "player": {
+          "id": 41112,
+          "name": "Trinc\u00e3o"
+        },
+        "assist": {
+          "id": 419916,
+          "name": "C. Harder"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "player": {
+          "id": 341700,
+          "name": "Iv\u00e1n Fresneda"
+        },
+        "assist": {
+          "id": 262845,
+          "name": "Eduardo Quaresma"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 161933,
+          "name": "Nico Gonz\u00e1lez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+}

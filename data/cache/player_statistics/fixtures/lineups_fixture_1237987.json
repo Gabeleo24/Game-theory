@@ -1,0 +1,453 @@
+{
+  "cache_timestamp": "2025-07-04T13:34:06.881023",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1237987"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png",
+          "colors": {
+            "player": {
+              "primary": "82c2f2",
+              "number": "495784",
+              "border": "82c2f2"
+            },
+            "goalkeeper": {
+              "primary": "fff540",
+              "number": "000000",
+              "border": "fff540"
+            }
+          }
+        },
+        "coach": {
+          "id": 12685,
+          "name": "M. Dalc\u0131",
+          "photo": "https://media.api-sports.io/football/coachs/12685.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 442410,
+              "name": "D. D\u00f6nmezer",
+              "number": 27,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 328155,
+              "name": "A. Kurtulan",
+              "number": 99,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 61987,
+              "name": "S. G\u00fcler",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 62472,
+              "name": "T. Kalender",
+              "number": 55,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 143268,
+              "name": "A. Burak",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 282773,
+              "name": "\u0130. \u00c7elik",
+              "number": 16,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 237120,
+              "name": "Maestro",
+              "number": 58,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1921,
+              "name": "Y. Sar\u0131",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 36906,
+              "name": "Y. Baras\u0131",
+              "number": 11,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 461,
+              "name": "A. Kol",
+              "number": 80,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 70346,
+              "name": "A. Aymbetov",
+              "number": 17,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 62384,
+              "name": "T. Aydo\u011fan",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 306566,
+              "name": "F. Shehu",
+              "number": 29,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 456146,
+              "name": "O. Demirbag",
+              "number": 60,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 335577,
+              "name": "B. Ersoy",
+              "number": 24,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 125450,
+              "name": "B. Balat",
+              "number": 21,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 484100,
+              "name": "K. Karayi\u011fit",
+              "number": 91,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 350319,
+              "name": "O. Kaynak",
+              "number": 87,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 498252,
+              "name": "A. Y\u0131lmaz",
+              "number": 90,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 87368,
+              "name": "A. Akta\u015f",
+              "number": 22,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 50105,
+              "name": "V. Karaku\u015f",
+              "number": 39,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "000000",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "45d3d0",
+              "number": "ffffff",
+              "border": "45d3d0"
+            }
+          }
+        },
+        "coach": {
+          "id": 21644,
+          "name": "S. Topraktepe",
+          "photo": "https://media.api-sports.io/football/coachs/21644.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 49837,
+              "name": "M. G\u00fcnok",
+              "number": 34,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 36889,
+              "name": "J. Svensson",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 61993,
+              "name": "T. Sanu\u00e7",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 50046,
+              "name": "E. Top\u00e7u",
+              "number": 53,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 18816,
+              "name": "A. Masuaku",
+              "number": 26,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 31058,
+              "name": "S. U\u00e7an",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 42006,
+              "name": "Al Musrati",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 128955,
+              "name": "C. Kele\u015f",
+              "number": 77,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 573,
+              "name": "Rafa",
+              "number": 27,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 297,
+              "name": "A. Oxlade-Chamberlain",
+              "number": 15,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 336567,
+              "name": "S. K\u0131l\u0131\u00e7soy",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 53533,
+              "name": "B. Zaynutdinov",
+              "number": 22,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 3638,
+              "name": "E. Mu\u00e7i",
+              "number": 23,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 436179,
+              "name": "M. Hekimo\u011flu",
+              "number": 91,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 206,
+              "name": "Jo\u00e3o M\u00e1rio",
+              "number": 18,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 445967,
+              "name": "A. K\u0131l\u0131\u00e7",
+              "number": 19,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1971,
+              "name": "E. Destano\u011flu",
+              "number": 30,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 336664,
+              "name": "E. Terzi",
+              "number": 79,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 26275,
+              "name": "O. Bulut",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 311083,
+              "name": "C. Ndour",
+              "number": 73,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 25406,
+              "name": "F. Uduokhai",
+              "number": 14,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "cache_timestamp": "2025-07-04T13:13:45.118068",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1160594"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 16,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 342226,
+          "name": "J. Sljivic"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 14379,
+          "name": "C. Ndiaye"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 179862,
+          "name": "M. Stamenic"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": null
+      }
+    ]
+  }
+}

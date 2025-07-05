@@ -1,0 +1,303 @@
+{
+  "cache_timestamp": "2025-07-04T12:42:47.900325",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1164314"
+    },
+    "errors": [],
+    "results": 13,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 28,
+          "extra": null
+        },
+        "team": {
+          "id": 371,
+          "name": "IF Brommapojkarna",
+          "logo": "https://media.api-sports.io/football/teams/371.png"
+        },
+        "player": {
+          "id": 216775,
+          "name": "N. Vasi\u0107"
+        },
+        "assist": {
+          "id": 48035,
+          "name": "A. Abrahamsson"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 29,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 306955,
+          "name": "O. Rosengren"
+        },
+        "assist": {
+          "id": 335095,
+          "name": "H. Bolin"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 129964,
+          "name": "Gabriel Busanello"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 3
+        },
+        "team": {
+          "id": 371,
+          "name": "IF Brommapojkarna",
+          "logo": "https://media.api-sports.io/football/teams/371.png"
+        },
+        "player": {
+          "id": 318032,
+          "name": "W. Odefalk"
+        },
+        "assist": {
+          "id": 266209,
+          "name": "H. Karlsson"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 335095,
+          "name": "H. Bolin"
+        },
+        "assist": {
+          "id": 424637,
+          "name": "A. Skogmar"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 371,
+          "name": "IF Brommapojkarna",
+          "logo": "https://media.api-sports.io/football/teams/371.png"
+        },
+        "player": {
+          "id": 47982,
+          "name": "A. Calisir"
+        },
+        "assist": {
+          "id": 467592,
+          "name": "K. Sever"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 371,
+          "name": "IF Brommapojkarna",
+          "logo": "https://media.api-sports.io/football/teams/371.png"
+        },
+        "player": {
+          "id": 48160,
+          "name": "E. Bj\u00f6rkander"
+        },
+        "assist": {
+          "id": 394997,
+          "name": "C. Nild\u00e9n"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 988,
+          "name": "I. Kiese Thelin"
+        },
+        "assist": {
+          "id": 1188,
+          "name": "E. Botheim"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 129964,
+          "name": "Gabriel Busanello"
+        },
+        "assist": {
+          "id": 19319,
+          "name": "M. Olsson"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 394916,
+          "name": "Z. Loukili"
+        },
+        "assist": {
+          "id": 1958,
+          "name": "A. Christiansen"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 1958,
+          "name": "Anders Christiansen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 1961,
+          "name": "S. Rieks"
+        },
+        "assist": {
+          "id": 1962,
+          "name": "O. Lewicki"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 371,
+          "name": "IF Brommapojkarna",
+          "logo": "https://media.api-sports.io/football/teams/371.png"
+        },
+        "player": {
+          "id": 48100,
+          "name": "Ludvig Fritzson"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      }
+    ]
+  }
+}

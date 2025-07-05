@@ -1,0 +1,149 @@
+{
+  "cache_timestamp": "2025-07-04T12:59:42.128625",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1280529"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 1580,
+          "name": "W. Carvalho"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 52,
+          "extra": null
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "player": {
+          "id": 47320,
+          "name": "Juanmi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 168,
+          "name": "Bayer Leverkusen",
+          "logo": "https://media.api-sports.io/football/teams/168.png"
+        },
+        "player": {
+          "id": 343316,
+          "name": "J. Belocian"
+        },
+        "assist": {
+          "id": 127817,
+          "name": "P. Hincapie"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 168,
+          "name": "Bayer Leverkusen",
+          "logo": "https://media.api-sports.io/football/teams/168.png"
+        },
+        "player": {
+          "id": 663,
+          "name": "M. Terrier"
+        },
+        "assist": {
+          "id": 25635,
+          "name": "J. Hofmann"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 168,
+          "name": "Bayer Leverkusen",
+          "logo": "https://media.api-sports.io/football/teams/168.png"
+        },
+        "player": {
+          "id": 47516,
+          "name": "A. Garcia"
+        },
+        "assist": {
+          "id": 352375,
+          "name": "Arthur"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 168,
+          "name": "Bayer Leverkusen",
+          "logo": "https://media.api-sports.io/football/teams/168.png"
+        },
+        "player": {
+          "id": 343316,
+          "name": "J. Belocian"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

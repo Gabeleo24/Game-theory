@@ -1,0 +1,83 @@
+{
+  "cache_timestamp": "2025-07-04T13:00:08.812220",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1207367"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "player": {
+          "id": 296455,
+          "name": "Mario Stroeykens"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Own Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 554,
+          "name": "Anderlecht",
+          "logo": "https://media.api-sports.io/football/teams/554.png"
+        },
+        "player": {
+          "id": 1431,
+          "name": "Francis Amuzu"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "player": {
+          "id": 297303,
+          "name": "Gabriel Mart\u00ednez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

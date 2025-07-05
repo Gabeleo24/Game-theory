@@ -1,0 +1,457 @@
+{
+  "cache_timestamp": "2025-07-04T12:01:19.218205",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1202711"
+    },
+    "errors": [],
+    "results": 20,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 2,
+          "extra": null
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 68083,
+          "name": "Martin Slogar"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Handball"
+      },
+      {
+        "time": {
+          "elapsed": 13,
+          "extra": null
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 40191,
+          "name": "M. Kolar"
+        },
+        "assist": {
+          "id": 104801,
+          "name": "M. Ndockyt"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 81756,
+          "name": "D. Mikanovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Own Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 40191,
+          "name": "M. Kolar"
+        },
+        "assist": {
+          "id": 392501,
+          "name": "M. Gashi"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 30413,
+          "name": "M. Pjaca"
+        },
+        "assist": {
+          "id": 105993,
+          "name": "A. Hoxha"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 14361,
+          "name": "K. Krizmani\u0107"
+        },
+        "assist": {
+          "id": 14599,
+          "name": "J. Pr\u0161ir"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 14353,
+          "name": "D. \u0160piki\u0107"
+        },
+        "assist": {
+          "id": 129670,
+          "name": "N. Mbuku"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 1317,
+          "name": "A. Ademi"
+        },
+        "assist": {
+          "id": 310135,
+          "name": "L. Ka\u010davenda"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 104801,
+          "name": "Merveil Ndockyt"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 68083,
+          "name": "M. \u0160logar"
+        },
+        "assist": {
+          "id": 80214,
+          "name": "D. \u0160tiglec"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 80214,
+          "name": "Dino \u0160tiglec"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 14494,
+          "name": "Ivan Bani\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 295026,
+          "name": "M. Baturina"
+        },
+        "assist": {
+          "id": 2055,
+          "name": "M. Rog"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 99,
+          "name": "R. Pierre-Gabriel"
+        },
+        "assist": {
+          "id": 1331,
+          "name": "B. Petkovi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 104801,
+          "name": "M. Ndockyt"
+        },
+        "assist": {
+          "id": 14283,
+          "name": "T. Halilovi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 129670,
+          "name": "N. Mbuku"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 375307,
+          "name": "L. Kapulica"
+        },
+        "assist": {
+          "id": 37037,
+          "name": "M. Steenvoorden"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 392501,
+          "name": "M. Gashi"
+        },
+        "assist": {
+          "id": 393072,
+          "name": "J. Gurlica"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png"
+        },
+        "player": {
+          "id": 1483,
+          "name": "Stefan Ristovski"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 1068,
+          "name": "HNK Gorica",
+          "logo": "https://media.api-sports.io/football/teams/1068.png"
+        },
+        "player": {
+          "id": 37037,
+          "name": "Matthew Steenvoorden"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+}

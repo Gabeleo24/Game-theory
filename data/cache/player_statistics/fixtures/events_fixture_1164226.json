@@ -1,0 +1,347 @@
+{
+  "cache_timestamp": "2025-07-04T12:42:23.677278",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1164226"
+    },
+    "errors": [],
+    "results": 15,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 21,
+          "extra": null
+        },
+        "team": {
+          "id": 378,
+          "name": "IFK Norrkoping",
+          "logo": "https://media.api-sports.io/football/teams/378.png"
+        },
+        "player": {
+          "id": 28836,
+          "name": "\u00cd. Sigurgeirsson"
+        },
+        "assist": {
+          "id": 193329,
+          "name": "K. Khazeni"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 30,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 1958,
+          "name": "A. Christiansen"
+        },
+        "assist": {
+          "id": 15943,
+          "name": "S. J\u00f8rgensen"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 37,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 39141,
+          "name": "Lasse Berg Johnsen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 15943,
+          "name": "S. J\u00f8rgensen"
+        },
+        "assist": {
+          "id": 335095,
+          "name": "H. Bolin"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 1958,
+          "name": "A. Christiansen"
+        },
+        "assist": {
+          "id": 226803,
+          "name": "S. Nanasi"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 306955,
+          "name": "O. Rosengren"
+        },
+        "assist": {
+          "id": 48169,
+          "name": "O. Berg"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 424637,
+          "name": "A. Skogmar"
+        },
+        "assist": {
+          "id": 2733,
+          "name": "J. Stryger Larsen"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 378,
+          "name": "IFK Norrkoping",
+          "logo": "https://media.api-sports.io/football/teams/378.png"
+        },
+        "player": {
+          "id": 193329,
+          "name": "K. Khazeni"
+        },
+        "assist": {
+          "id": 1969,
+          "name": "T. Prica"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 378,
+          "name": "IFK Norrkoping",
+          "logo": "https://media.api-sports.io/football/teams/378.png"
+        },
+        "player": {
+          "id": 28836,
+          "name": "\u00cd. Sigurgeirsson"
+        },
+        "assist": {
+          "id": 1965,
+          "name": "L. Shabani"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 39141,
+          "name": "L. Berg Johnsen"
+        },
+        "assist": {
+          "id": 335095,
+          "name": "H. Bolin"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 378,
+          "name": "IFK Norrkoping",
+          "logo": "https://media.api-sports.io/football/teams/378.png"
+        },
+        "player": {
+          "id": 375608,
+          "name": "Moutaz Neffati"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 160925,
+          "name": "T. Ali"
+        },
+        "assist": {
+          "id": 48196,
+          "name": "S. Hak\u0161abanovi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 378,
+          "name": "IFK Norrkoping",
+          "logo": "https://media.api-sports.io/football/teams/378.png"
+        },
+        "player": {
+          "id": 63943,
+          "name": "I. Lushaku"
+        },
+        "assist": {
+          "id": 201026,
+          "name": "Jesper Ceesay"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 378,
+          "name": "IFK Norrkoping",
+          "logo": "https://media.api-sports.io/football/teams/378.png"
+        },
+        "player": {
+          "id": 375608,
+          "name": "M. Neffati"
+        },
+        "assist": {
+          "id": 398919,
+          "name": "T. Sandberg"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 378,
+          "name": "IFK Norrkoping",
+          "logo": "https://media.api-sports.io/football/teams/378.png"
+        },
+        "player": {
+          "id": 146846,
+          "name": "D. Salihovi\u0107"
+        },
+        "assist": {
+          "id": 108501,
+          "name": "K. H\u00f6\u00f6g Jansson"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

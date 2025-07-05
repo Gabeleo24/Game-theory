@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T12:35:15.089661",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1157465"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 12733,
+          "name": "Ballkani",
+          "logo": "https://media.api-sports.io/football/teams/12733.png"
+        },
+        "player": {
+          "id": 203465,
+          "name": "M. Danfa"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 24,
+          "extra": null
+        },
+        "team": {
+          "id": 12733,
+          "name": "Ballkani",
+          "logo": "https://media.api-sports.io/football/teams/12733.png"
+        },
+        "player": {
+          "id": null,
+          "name": null
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 38,
+          "extra": null
+        },
+        "team": {
+          "id": 12733,
+          "name": "Ballkani",
+          "logo": "https://media.api-sports.io/football/teams/12733.png"
+        },
+        "player": {
+          "id": 106105,
+          "name": "Q. Zyba"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 39,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": null,
+          "name": "M. Ponomarenko"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 198390,
+          "name": "M. Dyachuk"
+        },
+        "assist": {
+          "id": 161686,
+          "name": "K. Vivcharenko"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": null,
+          "name": "A. Matkevych"
+        },
+        "assist": {
+          "id": 161670,
+          "name": "V. Vanat"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 2188,
+          "name": "V. Supryaga"
+        },
+        "assist": {
+          "id": null,
+          "name": "M. Ponomarenko"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 63564,
+          "name": "V. Dubinchak"
+        },
+        "assist": {
+          "id": 198391,
+          "name": "N. Voloshyn"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 162227,
+          "name": "K. Bilovar"
+        },
+        "assist": {
+          "id": 335039,
+          "name": "A. Tsarenko"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 161672,
+          "name": "O. Syrota"
+        },
+        "assist": {
+          "id": 337688,
+          "name": "R. Ramadani"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 2172,
+          "name": "V. Buyalskyy"
+        },
+        "assist": {
+          "id": 283566,
+          "name": "V. Brazhko"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 63452,
+          "name": "V. Kabaev"
+        },
+        "assist": {
+          "id": 2167,
+          "name": "D. Popov"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 2170,
+          "name": "O. Andriyevski"
+        },
+        "assist": {
+          "id": 385027,
+          "name": "T. Mykhavko"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 2177,
+          "name": "M. Shaparenko"
+        },
+        "assist": {
+          "id": 55877,
+          "name": "O. Karavaev"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 154864,
+          "name": "R. Neshcheret"
+        },
+        "assist": {
+          "id": 2158,
+          "name": "G. Bushchan"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 12733,
+          "name": "Ballkani",
+          "logo": "https://media.api-sports.io/football/teams/12733.png"
+        },
+        "player": {
+          "id": 74665,
+          "name": "A. Berisha"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 198390,
+          "name": "M. Dyachuk"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      }
+    ]
+  }
+}

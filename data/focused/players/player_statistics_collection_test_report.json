@@ -1,0 +1,60 @@
+{
+  "test_timestamp": "2025-07-04T08:55:01.044269",
+  "test_configuration": {
+    "test_team_id": 33,
+    "test_season": 2024,
+    "test_fixture_id": 1208021,
+    "max_test_teams": 2,
+    "test_seasons": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "test_2019_season": 2019
+  },
+  "test_results": {
+    "api_client_test": {
+      "initialization": true,
+      "player_statistics_retrieval": true,
+      "formation_data_retrieval": true,
+      "match_events_retrieval": true,
+      "caching_functionality": false,
+      "rate_limiting": true
+    },
+    "data_collection_test": {
+      "team_fixture_loading": true,
+      "match_data_collection": true,
+      "season_data_aggregation": true,
+      "file_saving": true,
+      "data_structure_validation": true
+    },
+    "integration_test": {
+      "team_data_loading": true,
+      "player_data_loading": false,
+      "consistency_validation": false,
+      "integrated_report_generation": false
+    },
+    "validation_test": {
+      "validator_initialization": true,
+      "data_discovery": false,
+      "quality_validation": false,
+      "report_generation": true
+    },
+    "overall_success": true,
+    "2019_handling_test": {
+      "team_data_2019_check": false,
+      "player_data_2019_check": false,
+      "graceful_handling": true,
+      "error_messages": true
+    }
+  },
+  "overall_success": true,
+  "summary": {
+    "total_tests": 23,
+    "passed_tests": 15,
+    "success_rate": 65.21739130434783,
+    "overall_status": "PASS"
+  }
+}

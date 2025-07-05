@@ -1,0 +1,45 @@
+{
+  "cache_timestamp": "2025-07-04T12:31:09.991340",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1205637"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 15041,
+          "name": "M. Koubek",
+          "photo": "https://media.api-sports.io/football/coachs/15041.png"
+        },
+        "formation": null
+      },
+      {
+        "team": {
+          "id": 1402,
+          "name": "SV Lafnitz",
+          "logo": "https://media.api-sports.io/football/teams/1402.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 3608,
+          "name": "R. Weinstabl",
+          "photo": "https://media.api-sports.io/football/coachs/3608.png"
+        },
+        "formation": null
+      }
+    ]
+  }
+}

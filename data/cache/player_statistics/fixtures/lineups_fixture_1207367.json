@@ -1,0 +1,269 @@
+{
+  "cache_timestamp": "2025-07-04T13:00:08.185101",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1207367"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "colors": {
+            "player": {
+              "primary": "ff0000",
+              "number": "ffffff",
+              "border": "ff0000"
+            },
+            "goalkeeper": {
+              "primary": "ff8405",
+              "number": "ffffff",
+              "border": "ff8405"
+            }
+          }
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 41089,
+              "name": "Matheus",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 153290,
+              "name": "Victor G\u00f3mez",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 20884,
+              "name": "Sikou Niakat\u00e9",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 47383,
+              "name": "Paulo Oliveira",
+              "number": 15,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 47358,
+              "name": "Adri\u00e1n Mar\u00edn",
+              "number": 19,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2677,
+              "name": "Jo\u00e3o Moutinho",
+              "number": 28,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 108563,
+              "name": "Rodrigo Zalazar",
+              "number": 16,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 325165,
+              "name": "Roger Fernandes",
+              "number": 11,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 41103,
+              "name": "Ricardo Horta",
+              "number": 21,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 1163,
+              "name": "Bruma",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 193188,
+              "name": "Amine El Ouazzani",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "coach": {
+          "id": 3111,
+          "name": "Rui Duarte",
+          "photo": "https://media.api-sports.io/football/coachs/3111.png"
+        }
+      },
+      {
+        "team": {
+          "id": 554,
+          "name": "Anderlecht",
+          "logo": "https://media.api-sports.io/football/teams/554.png",
+          "colors": {
+            "player": {
+              "primary": "452763",
+              "number": "ffffff",
+              "border": "452763"
+            },
+            "goalkeeper": {
+              "primary": "131412",
+              "number": "f3eded",
+              "border": "131412"
+            }
+          }
+        },
+        "formation": "3-4-1-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 8469,
+              "name": "Colin Coosemans",
+              "number": 26,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 127418,
+              "name": "Killian Sardella",
+              "number": 54,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 431984,
+              "name": "Nunzio Engwanda",
+              "number": 71,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 175415,
+              "name": "Moussa N'Diaye",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 162768,
+              "name": "Theo Leoni",
+              "number": 17,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 77,
+              "name": "Mats Rits",
+              "number": 23,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 296455,
+              "name": "Mario Stroeykens",
+              "number": 29,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 311543,
+              "name": "Nilson Angulo",
+              "number": 32,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1429,
+              "name": "Yari Verschaeren",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 6490,
+              "name": "Luis V\u00e1zquez",
+              "number": 20,
+              "pos": "F",
+              "grid": "5:2"
+            }
+          },
+          {
+            "player": {
+              "id": 1431,
+              "name": "Francis Amuzu",
+              "number": 7,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "coach": {
+          "id": 19077,
+          "name": "B. Riemer",
+          "photo": "https://media.api-sports.io/football/coachs/19077.png"
+        }
+      }
+    ]
+  }
+}

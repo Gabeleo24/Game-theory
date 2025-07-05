@@ -1,0 +1,2085 @@
+{
+  "cache_timestamp": "2025-07-04T12:36:24.088778",
+  "data": {
+    "get": "fixtures/players",
+    "parameters": {
+      "fixture": "1221043"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png",
+          "update": "2025-06-03T04:06:36+00:00"
+        },
+        "players": [
+          {
+            "player": {
+              "id": 154864,
+              "name": "Ruslan Neshcheret",
+              "photo": "https://media.api-sports.io/football/players/154864.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 35,
+                  "position": "G",
+                  "rating": "6.9",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": 1
+                },
+                "passes": {
+                  "total": 33,
+                  "key": null,
+                  "accuracy": "29"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": null,
+                  "won": 0
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": 0
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 55877,
+              "name": "Oleksandr Karavayev",
+              "photo": "https://media.api-sports.io/football/players/55877.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 89,
+                  "number": 20,
+                  "position": "D",
+                  "rating": "7.3",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 51,
+                  "key": 2,
+                  "accuracy": "47"
+                },
+                "tackles": {
+                  "total": 1,
+                  "blocks": 0,
+                  "interceptions": 2
+                },
+                "duels": {
+                  "total": 6,
+                  "won": 1
+                },
+                "dribbles": {
+                  "attempts": 1,
+                  "success": 0,
+                  "past": 1
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 1
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 2167,
+              "name": "Denys Popov",
+              "photo": "https://media.api-sports.io/football/players/2167.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 4,
+                  "position": "D",
+                  "rating": "7.2",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 76,
+                  "key": null,
+                  "accuracy": "70"
+                },
+                "tackles": {
+                  "total": 3,
+                  "blocks": 1,
+                  "interceptions": 1
+                },
+                "duels": {
+                  "total": 8,
+                  "won": 4
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 1
+                },
+                "fouls": {
+                  "drawn": 1,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 385027,
+              "name": "Taras Mykhavko",
+              "photo": "https://media.api-sports.io/football/players/385027.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 32,
+                  "position": "D",
+                  "rating": "7.3",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 115,
+                  "key": null,
+                  "accuracy": "102"
+                },
+                "tackles": {
+                  "total": 1,
+                  "blocks": 0,
+                  "interceptions": 2
+                },
+                "duels": {
+                  "total": 22,
+                  "won": 10
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 2
+                },
+                "fouls": {
+                  "drawn": 4,
+                  "committed": 2
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63564,
+              "name": "Vladyslav Dubinchak",
+              "photo": "https://media.api-sports.io/football/players/63564.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 44,
+                  "position": "D",
+                  "rating": "7.3",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 81,
+                  "key": null,
+                  "accuracy": "70"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": 2
+                },
+                "duels": {
+                  "total": 17,
+                  "won": 5
+                },
+                "dribbles": {
+                  "attempts": 1,
+                  "success": 1,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 2,
+                  "committed": 1
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 161570,
+              "name": "Mykola Mykhailenko",
+              "photo": "https://media.api-sports.io/football/players/161570.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 91,
+                  "position": "M",
+                  "rating": "7.7",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 63,
+                  "key": null,
+                  "accuracy": "60"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 3,
+                  "interceptions": 5
+                },
+                "duels": {
+                  "total": 9,
+                  "won": 3
+                },
+                "dribbles": {
+                  "attempts": 1,
+                  "success": 1,
+                  "past": 1
+                },
+                "fouls": {
+                  "drawn": 1,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 2177,
+              "name": "Mykola Shaparenko",
+              "photo": "https://media.api-sports.io/football/players/2177.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 77,
+                  "number": 10,
+                  "position": "M",
+                  "rating": "8.7",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": 2,
+                  "on": 1
+                },
+                "goals": {
+                  "total": 1,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 84,
+                  "key": null,
+                  "accuracy": "73"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": 2
+                },
+                "duels": {
+                  "total": 13,
+                  "won": 9
+                },
+                "dribbles": {
+                  "attempts": 3,
+                  "success": 3,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 1,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 18834,
+              "name": "Andriy Yarmolenko",
+              "photo": "https://media.api-sports.io/football/players/18834.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 7,
+                  "position": "M",
+                  "rating": "8.2",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": 3,
+                  "on": 1
+                },
+                "goals": {
+                  "total": 1,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 39,
+                  "key": null,
+                  "accuracy": "33"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": 13,
+                  "won": 4
+                },
+                "dribbles": {
+                  "attempts": 5,
+                  "success": 4,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 3,
+                  "committed": 2
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 2172,
+              "name": "Vitaliy Buyalskyi",
+              "photo": "https://media.api-sports.io/football/players/2172.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 85,
+                  "number": 29,
+                  "position": "M",
+                  "rating": "7.2",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": 1,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 26,
+                  "key": 1,
+                  "accuracy": "21"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": 1
+                },
+                "duels": {
+                  "total": 6,
+                  "won": 3
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 1
+                },
+                "fouls": {
+                  "drawn": 1,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63452,
+              "name": "Vladyslav Kabaiev",
+              "photo": "https://media.api-sports.io/football/players/63452.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 77,
+                  "number": 22,
+                  "position": "M",
+                  "rating": "7",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": 2,
+                  "on": 1
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 40,
+                  "key": null,
+                  "accuracy": "36"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": 2
+                },
+                "duels": {
+                  "total": 19,
+                  "won": 7
+                },
+                "dribbles": {
+                  "attempts": 4,
+                  "success": 3,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 1,
+                  "committed": 1
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 161670,
+              "name": "Vladyslav Vanat",
+              "photo": "https://media.api-sports.io/football/players/161670.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 85,
+                  "number": 11,
+                  "position": "F",
+                  "rating": "7",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": 1,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 1,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 15,
+                  "key": 3,
+                  "accuracy": "11"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": 7,
+                  "won": 0
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 1
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 198391,
+              "name": "Nazar Voloshyn",
+              "photo": "https://media.api-sports.io/football/players/198391.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 18,
+                  "number": 9,
+                  "position": "M",
+                  "rating": "6.7",
+                  "captain": false,
+                  "substitute": true
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 6,
+                  "key": null,
+                  "accuracy": "5"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": 2,
+                  "won": 1
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63420,
+              "name": "Oleksandr Pikhalyonok",
+              "photo": "https://media.api-sports.io/football/players/63420.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 18,
+                  "number": 76,
+                  "position": "M",
+                  "rating": "6.5",
+                  "captain": false,
+                  "substitute": true
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 9,
+                  "key": null,
+                  "accuracy": "7"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": null,
+                  "won": 0
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63637,
+              "name": "Valentyn Rubchynskyi",
+              "photo": "https://media.api-sports.io/football/players/63637.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 10,
+                  "number": 15,
+                  "position": "M",
+                  "rating": "6.3",
+                  "captain": false,
+                  "substitute": true
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 2,
+                  "key": null,
+                  "accuracy": "1"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": 4,
+                  "won": 2
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 1
+                },
+                "fouls": {
+                  "drawn": 2,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 95105,
+              "name": "Eduardo Guerrero",
+              "photo": "https://media.api-sports.io/football/players/95105.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 10,
+                  "number": 39,
+                  "position": "F",
+                  "rating": "6.3",
+                  "captain": false,
+                  "substitute": true
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 2,
+                  "key": null,
+                  "accuracy": "1"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": 3,
+                  "won": 1
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63378,
+              "name": "Valerii Luchkevych",
+              "photo": "https://media.api-sports.io/football/players/63378.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 6,
+                  "number": 27,
+                  "position": "D",
+                  "rating": null,
+                  "captain": false,
+                  "substitute": true
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 2,
+                  "key": null,
+                  "accuracy": "1"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": null,
+                  "won": 0
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 17162,
+          "name": "Livyi Bereh",
+          "logo": "https://media.api-sports.io/football/teams/17162.png",
+          "update": "2025-06-03T04:06:36+00:00"
+        },
+        "players": [
+          {
+            "player": {
+              "id": 172872,
+              "name": "Maksym Mekhaniv",
+              "photo": "https://media.api-sports.io/football/players/172872.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 1,
+                  "position": "G",
+                  "rating": "6.3",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 2,
+                  "assists": 0,
+                  "saves": 1
+                },
+                "passes": {
+                  "total": 13,
+                  "key": null,
+                  "accuracy": "12"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": 1
+                },
+                "duels": {
+                  "total": null,
+                  "won": 0
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": 0
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 72071,
+              "name": "Oleg Sokolov",
+              "photo": "https://media.api-sports.io/football/players/72071.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 87,
+                  "number": 2,
+                  "position": "D",
+                  "rating": "6.3",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 37,
+                  "key": null,
+                  "accuracy": "29"
+                },
+                "tackles": {
+                  "total": 1,
+                  "blocks": 0,
+                  "interceptions": 1
+                },
+                "duels": {
+                  "total": 15,
+                  "won": 5
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 3
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63386,
+              "name": "Yevhen Banada",
+              "photo": "https://media.api-sports.io/football/players/63386.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 44,
+                  "position": "D",
+                  "rating": "6.7",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 43,
+                  "key": null,
+                  "accuracy": "33"
+                },
+                "tackles": {
+                  "total": 1,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": 13,
+                  "won": 4
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 1
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 2
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63495,
+              "name": "Andriy Yakimiv",
+              "photo": "https://media.api-sports.io/football/players/63495.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 97,
+                  "position": "D",
+                  "rating": "6.6",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 17,
+                  "key": null,
+                  "accuracy": "10"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 1,
+                  "interceptions": 2
+                },
+                "duels": {
+                  "total": 8,
+                  "won": 3
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 2,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63382,
+              "name": "Dmytro Semenov",
+              "photo": "https://media.api-sports.io/football/players/63382.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 50,
+                  "position": "D",
+                  "rating": "7.2",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 32,
+                  "key": 1,
+                  "accuracy": "31"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 1,
+                  "interceptions": 5
+                },
+                "duels": {
+                  "total": 9,
+                  "won": 4
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 2
+                },
+                "fouls": {
+                  "drawn": 1,
+                  "committed": 3
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63626,
+              "name": "Vladyslav Shapoval",
+              "photo": "https://media.api-sports.io/football/players/63626.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 22,
+                  "position": "D",
+                  "rating": "6.3",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": 1,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 25,
+                  "key": null,
+                  "accuracy": "19"
+                },
+                "tackles": {
+                  "total": 1,
+                  "blocks": 0,
+                  "interceptions": 1
+                },
+                "duels": {
+                  "total": 3,
+                  "won": 1
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 2
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 1
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63689,
+              "name": "Oleg Synytsia",
+              "photo": "https://media.api-sports.io/football/players/63689.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 69,
+                  "number": 96,
+                  "position": "M",
+                  "rating": "6.3",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 14,
+                  "key": 1,
+                  "accuracy": "9"
+                },
+                "tackles": {
+                  "total": 1,
+                  "blocks": 0,
+                  "interceptions": 2
+                },
+                "duels": {
+                  "total": 13,
+                  "won": 4
+                },
+                "dribbles": {
+                  "attempts": 1,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 1
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63710,
+              "name": "Serhii Kosovskyi",
+              "photo": "https://media.api-sports.io/football/players/63710.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 87,
+                  "number": 25,
+                  "position": "M",
+                  "rating": "6.2",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 21,
+                  "key": null,
+                  "accuracy": "17"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": 1
+                },
+                "duels": {
+                  "total": 9,
+                  "won": 2
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 1
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 162915,
+              "name": "Klim Prykhodko",
+              "photo": "https://media.api-sports.io/football/players/162915.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 69,
+                  "number": 29,
+                  "position": "M",
+                  "rating": "6.2",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 15,
+                  "key": null,
+                  "accuracy": "9"
+                },
+                "tackles": {
+                  "total": 1,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": 6,
+                  "won": 1
+                },
+                "dribbles": {
+                  "attempts": 1,
+                  "success": 1,
+                  "past": 1
+                },
+                "fouls": {
+                  "drawn": 1,
+                  "committed": 1
+                },
+                "cards": {
+                  "yellow": 1,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63906,
+              "name": "Mykola Kohut",
+              "photo": "https://media.api-sports.io/football/players/63906.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 47,
+                  "number": 19,
+                  "position": "M",
+                  "rating": "6.3",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 11,
+                  "key": null,
+                  "accuracy": "5"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": 1
+                },
+                "duels": {
+                  "total": 7,
+                  "won": 2
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 1
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63395,
+              "name": "Dmytro Shastal",
+              "photo": "https://media.api-sports.io/football/players/63395.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 90,
+                  "number": 7,
+                  "position": "F",
+                  "rating": "6.6",
+                  "captain": false,
+                  "substitute": false
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": 1,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 12,
+                  "key": 1,
+                  "accuracy": "7"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": 1
+                },
+                "duels": {
+                  "total": 17,
+                  "won": 6
+                },
+                "dribbles": {
+                  "attempts": 3,
+                  "success": 2,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 3,
+                  "committed": 2
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 175369,
+              "name": "Andriy Riznyk",
+              "photo": "https://media.api-sports.io/football/players/175369.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 48,
+                  "number": 10,
+                  "position": "F",
+                  "rating": "6.5",
+                  "captain": false,
+                  "substitute": true
+                },
+                "offsides": 1,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 7,
+                  "key": null,
+                  "accuracy": "6"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": 1
+                },
+                "duels": {
+                  "total": 12,
+                  "won": 3
+                },
+                "dribbles": {
+                  "attempts": 2,
+                  "success": 2,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 3
+                },
+                "cards": {
+                  "yellow": 1,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 63820,
+              "name": "Vladislav Voytsekhovskiy",
+              "photo": "https://media.api-sports.io/football/players/63820.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 26,
+                  "number": 11,
+                  "position": "M",
+                  "rating": "6.2",
+                  "captain": false,
+                  "substitute": true
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": 1,
+                  "on": 1
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 4,
+                  "key": null,
+                  "accuracy": "4"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": 1
+                },
+                "duels": {
+                  "total": 7,
+                  "won": 2
+                },
+                "dribbles": {
+                  "attempts": 1,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 1,
+                  "committed": 1
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 324600,
+              "name": "Taras Galas",
+              "photo": "https://media.api-sports.io/football/players/324600.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 26,
+                  "number": 26,
+                  "position": "M",
+                  "rating": "6.6",
+                  "captain": false,
+                  "substitute": true
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 11,
+                  "key": 1,
+                  "accuracy": "7"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": 2,
+                  "won": 1
+                },
+                "dribbles": {
+                  "attempts": 1,
+                  "success": 1,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 130886,
+              "name": "Ernest Astakhov",
+              "photo": "https://media.api-sports.io/football/players/130886.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 9,
+                  "number": 27,
+                  "position": "D",
+                  "rating": "6.6",
+                  "captain": false,
+                  "substitute": true
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 4,
+                  "key": null,
+                  "accuracy": "4"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": 2
+                },
+                "duels": {
+                  "total": 1,
+                  "won": 0
+                },
+                "dribbles": {
+                  "attempts": 0,
+                  "success": 0,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 0
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          },
+          {
+            "player": {
+              "id": 454367,
+              "name": "Diego Henrique",
+              "photo": "https://media.api-sports.io/football/players/454367.png"
+            },
+            "statistics": [
+              {
+                "games": {
+                  "minutes": 9,
+                  "number": 8,
+                  "position": "M",
+                  "rating": "6.6",
+                  "captain": false,
+                  "substitute": true
+                },
+                "offsides": 0,
+                "shots": {
+                  "total": null,
+                  "on": 0
+                },
+                "goals": {
+                  "total": 0,
+                  "conceded": 0,
+                  "assists": 0,
+                  "saves": null
+                },
+                "passes": {
+                  "total": 4,
+                  "key": null,
+                  "accuracy": "3"
+                },
+                "tackles": {
+                  "total": 0,
+                  "blocks": 0,
+                  "interceptions": null
+                },
+                "duels": {
+                  "total": 4,
+                  "won": 2
+                },
+                "dribbles": {
+                  "attempts": 2,
+                  "success": 2,
+                  "past": 0
+                },
+                "fouls": {
+                  "drawn": 0,
+                  "committed": 1
+                },
+                "cards": {
+                  "yellow": 0,
+                  "red": 0
+                },
+                "penalty": {
+                  "won": null,
+                  "commited": null,
+                  "scored": 0,
+                  "missed": 0,
+                  "saved": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

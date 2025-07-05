@@ -1,0 +1,105 @@
+{
+  "cache_timestamp": "2025-07-04T12:45:29.352769",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1244893"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 15,
+          "extra": null
+        },
+        "team": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png"
+        },
+        "player": {
+          "id": 50856,
+          "name": "T. Castellanos"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png"
+        },
+        "player": {
+          "id": 50856,
+          "name": "T. Castellanos"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 17862,
+          "name": "Trapani 1905",
+          "logo": "https://media.api-sports.io/football/teams/17862.png"
+        },
+        "player": {
+          "id": 31652,
+          "name": "O. Kragl"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png"
+        },
+        "player": {
+          "id": 133729,
+          "name": "T. Noslin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

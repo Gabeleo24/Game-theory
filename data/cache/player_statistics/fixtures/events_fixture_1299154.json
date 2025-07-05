@@ -1,0 +1,303 @@
+{
+  "cache_timestamp": "2025-07-04T12:36:58.704747",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1299154"
+    },
+    "errors": [],
+    "results": 13,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 22,
+          "extra": null
+        },
+        "team": {
+          "id": 167,
+          "name": "1899 Hoffenheim",
+          "logo": "https://media.api-sports.io/football/teams/167.png"
+        },
+        "player": {
+          "id": 66019,
+          "name": "A. Hlo\u017eek"
+        },
+        "assist": {
+          "id": 127631,
+          "name": "V. Gendrey"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 40,
+          "extra": null
+        },
+        "team": {
+          "id": 167,
+          "name": "1899 Hoffenheim",
+          "logo": "https://media.api-sports.io/football/teams/167.png"
+        },
+        "player": {
+          "id": 719,
+          "name": "Florian Grillitsch"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 167,
+          "name": "1899 Hoffenheim",
+          "logo": "https://media.api-sports.io/football/teams/167.png"
+        },
+        "player": {
+          "id": 719,
+          "name": "F. Grillitsch"
+        },
+        "assist": {
+          "id": 279907,
+          "name": "U. Tohumcu"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 167,
+          "name": "1899 Hoffenheim",
+          "logo": "https://media.api-sports.io/football/teams/167.png"
+        },
+        "player": {
+          "id": 127631,
+          "name": "V. Gendrey"
+        },
+        "assist": {
+          "id": 709,
+          "name": "P. Kade\u0159\u00e1bek"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 167,
+          "name": "1899 Hoffenheim",
+          "logo": "https://media.api-sports.io/football/teams/167.png"
+        },
+        "player": {
+          "id": 66019,
+          "name": "A. Hlo\u017eek"
+        },
+        "assist": {
+          "id": 726,
+          "name": "A. Kramari\u0107"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 161570,
+          "name": "M. Mykhailenko"
+        },
+        "assist": {
+          "id": 63420,
+          "name": "O. Pikhalionok"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 161670,
+          "name": "V. Vanat"
+        },
+        "assist": {
+          "id": 95105,
+          "name": "E. Guerrero"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 167,
+          "name": "1899 Hoffenheim",
+          "logo": "https://media.api-sports.io/football/teams/167.png"
+        },
+        "player": {
+          "id": 726,
+          "name": "A. Kramari\u0107"
+        },
+        "assist": {
+          "id": 25242,
+          "name": "M. B\u00fclter"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 167,
+          "name": "1899 Hoffenheim",
+          "logo": "https://media.api-sports.io/football/teams/167.png"
+        },
+        "player": {
+          "id": 25366,
+          "name": "K. Akpoguma"
+        },
+        "assist": {
+          "id": 327861,
+          "name": "T. Drexler"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 63452,
+          "name": "V. Kabaiev"
+        },
+        "assist": {
+          "id": 63637,
+          "name": "V. Rubchynskyi"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 283566,
+          "name": "V. Brazhko"
+        },
+        "assist": {
+          "id": 2170,
+          "name": "O. Andriievskyi"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 167,
+          "name": "1899 Hoffenheim",
+          "logo": "https://media.api-sports.io/football/teams/167.png"
+        },
+        "player": {
+          "id": 387973,
+          "name": "M. Moerstedt"
+        },
+        "assist": {
+          "id": 22,
+          "name": "J. Bruun Larsen"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 2177,
+          "name": "M. Shaparenko"
+        },
+        "assist": {
+          "id": 2178,
+          "name": "V. Shepeliev"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

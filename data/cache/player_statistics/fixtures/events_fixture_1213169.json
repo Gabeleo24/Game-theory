@@ -1,0 +1,369 @@
+{
+  "cache_timestamp": "2025-07-04T12:34:34.746704",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213169"
+    },
+    "errors": [],
+    "results": 16,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 14,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 53656,
+          "name": "V. Grulev"
+        },
+        "assist": {
+          "id": 43398,
+          "name": "N. Kakkoev"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 26,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1781,
+          "name": "Maksim Glushenkov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 27,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 162726,
+          "name": "Vladislav Karapuzov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "assist": {
+          "id": 265909,
+          "name": "L. Gondou"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 45831,
+          "name": "S. Zdjelar"
+        },
+        "assist": {
+          "id": 43488,
+          "name": "Y. Gorshkov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 54,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 53772,
+          "name": "A. Sobolev"
+        },
+        "assist": {
+          "id": 1492,
+          "name": "Wendel"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1492,
+          "name": "Wendel"
+        },
+        "assist": {
+          "id": 43855,
+          "name": "A. Mostovoy"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 53592,
+          "name": "Ilya Agapov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 53656,
+          "name": "V. Grulev"
+        },
+        "assist": {
+          "id": 265945,
+          "name": "J. Castillo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 278549,
+          "name": "Gustavo Mantuan"
+        },
+        "assist": {
+          "id": 5923,
+          "name": "M. Cassierra"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 53592,
+          "name": "I. Agapov"
+        },
+        "assist": {
+          "id": 64271,
+          "name": "S. Magkeev"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 43398,
+          "name": "N. Kakkoev"
+        },
+        "assist": {
+          "id": 427882,
+          "name": "Y. Krashevskiy"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 53772,
+          "name": "A. Sobolev"
+        },
+        "assist": {
+          "id": 43488,
+          "name": "Y. Gorshkov"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 53772,
+          "name": "A. Sobolev"
+        },
+        "assist": {
+          "id": 1210,
+          "name": "A. Erokhin"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 43550,
+          "name": "A. Troshechkin"
+        },
+        "assist": {
+          "id": 137622,
+          "name": "T. Vecino"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 374088,
+          "name": "N. Ermakov"
+        },
+        "assist": {
+          "id": 427362,
+          "name": "M. Shnaptsev"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

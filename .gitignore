@@ -129,3 +129,53 @@ data/processed/*.pkl
 data/models/*.pkl
 *.log
 .DS_Store
+
+# ============================================================================
+# Performance Optimization Specific
+# ============================================================================
+# Temporary files created during performance optimization
+=*
+*.tmp.*
+temp_*
+benchmark_*
+profile_*
+performance_setup_*.json
+performance_benchmark_*.json
+optimization_*.log
+cache_stats_*.json
+
+# Docker runtime files
+.docker/
+docker-compose.override.yml.backup
+*.pid
+*.sock
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+
+# Large data files and caches
+data/cache/temp/
+data/focused/*/temp/
+data/focused/*/cache/
+data/analysis/temp/
+data/analysis/cache/
+data/reports/temp/
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.onnx
+models/checkpoints/
+models/temp/
+
+# Keep important performance files
+!requirements_minimal.txt
+!config/performance_config.yaml
+!docs/PERFORMANCE_OPTIMIZATION_GUIDE.md
+!QUICK_START_PERFORMANCE_OPTIMIZATION.md
+!performance_setup_report.md
+!scripts/performance_optimization/

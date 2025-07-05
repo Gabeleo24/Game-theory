@@ -1,0 +1,457 @@
+{
+  "cache_timestamp": "2025-07-04T12:34:01.887080",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213025"
+    },
+    "errors": [],
+    "results": 20,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 8,
+          "extra": null
+        },
+        "team": {
+          "id": 1993,
+          "name": "Fakel",
+          "logo": "https://media.api-sports.io/football/teams/1993.png"
+        },
+        "player": {
+          "id": 53668,
+          "name": "E. Markov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 53772,
+          "name": "Aleksandr Sobolev"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 1993,
+          "name": "Fakel",
+          "logo": "https://media.api-sports.io/football/teams/1993.png"
+        },
+        "player": {
+          "id": 53668,
+          "name": "Evgeniy Markov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 363696,
+          "name": "Pedro Henrique"
+        },
+        "assist": {
+          "id": 56080,
+          "name": "N. Alip"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 2620,
+          "name": "V. Karavaev"
+        },
+        "assist": {
+          "id": 9475,
+          "name": "Claudinho"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 133391,
+          "name": "S. Erakovi\u0107"
+        },
+        "assist": {
+          "id": 278549,
+          "name": "Gustavo Mantuan"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 52,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 5923,
+          "name": "M. Cassierra"
+        },
+        "assist": {
+          "id": 278549,
+          "name": "Gustavo Mantuan"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 1993,
+          "name": "Fakel",
+          "logo": "https://media.api-sports.io/football/teams/1993.png"
+        },
+        "player": {
+          "id": 428083,
+          "name": "A. Ivlev"
+        },
+        "assist": {
+          "id": 125368,
+          "name": "V. Masternoy"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 1993,
+          "name": "Fakel",
+          "logo": "https://media.api-sports.io/football/teams/1993.png"
+        },
+        "player": {
+          "id": 53668,
+          "name": "E. Markov"
+        },
+        "assist": {
+          "id": 304215,
+          "name": "A. Kashtanov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 1993,
+          "name": "Fakel",
+          "logo": "https://media.api-sports.io/football/teams/1993.png"
+        },
+        "player": {
+          "id": 43567,
+          "name": "Vyacheslav Yakimov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 1993,
+          "name": "Fakel",
+          "logo": "https://media.api-sports.io/football/teams/1993.png"
+        },
+        "player": {
+          "id": 43376,
+          "name": "Ilnur Alshin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 1993,
+          "name": "Fakel",
+          "logo": "https://media.api-sports.io/football/teams/1993.png"
+        },
+        "player": {
+          "id": 43376,
+          "name": "I. Alshin"
+        },
+        "assist": {
+          "id": 53594,
+          "name": "I. Kalinin"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 1993,
+          "name": "Fakel",
+          "logo": "https://media.api-sports.io/football/teams/1993.png"
+        },
+        "player": {
+          "id": 85416,
+          "name": "M. Brahimi"
+        },
+        "assist": {
+          "id": 38799,
+          "name": "D. Mertens"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 265909,
+          "name": "L. Gondou"
+        },
+        "assist": {
+          "id": 9475,
+          "name": "Claudinho"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 53772,
+          "name": "A. Sobolev"
+        },
+        "assist": {
+          "id": 1210,
+          "name": "A. Erokhin"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 1993,
+          "name": "Fakel",
+          "logo": "https://media.api-sports.io/football/teams/1993.png"
+        },
+        "player": {
+          "id": 53643,
+          "name": "V. Ilyin"
+        },
+        "assist": {
+          "id": 41772,
+          "name": "T. Cele"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 278549,
+          "name": "Gustavo Mantuan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 5923,
+          "name": "M. Cassierra"
+        },
+        "assist": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 265909,
+          "name": "Luciano Gondou"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1210,
+          "name": "A. Erokhin"
+        },
+        "assist": {
+          "id": 1492,
+          "name": "Wendel"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

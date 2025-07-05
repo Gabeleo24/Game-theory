@@ -1,0 +1,545 @@
+{
+  "cache_timestamp": "2025-07-04T13:34:43.431977",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1238156"
+    },
+    "errors": [],
+    "results": 24,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 11,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 297,
+          "name": "A. Oxlade-Chamberlain"
+        },
+        "assist": {
+          "id": 436179,
+          "name": "M. Hekimo\u011flu"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 19,
+          "extra": null
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 461,
+          "name": "A. Kol"
+        },
+        "assist": {
+          "id": 70346,
+          "name": "A. Aymbetov"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 25406,
+          "name": "F. Uduokhai"
+        },
+        "assist": {
+          "id": 336664,
+          "name": "E. Terzi"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 573,
+          "name": "Rafa Silva"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 26,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 336664,
+          "name": "Serkan Emrecan Terzi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 29,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 573,
+          "name": "Rafa"
+        },
+        "assist": {
+          "id": 1863,
+          "name": "C. Immobile"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 44,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 25324,
+          "name": "M. Rashica"
+        },
+        "assist": {
+          "id": 436179,
+          "name": "M. Hekimo\u011flu"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 10
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 328155,
+          "name": "Arda Kurtulan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 5
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 36906,
+          "name": "Yusuf Baras\u0131"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 8
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 328155,
+          "name": "A. Kurtulan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 335577,
+          "name": "B. Ersoy"
+        },
+        "assist": {
+          "id": 456146,
+          "name": "O. Demirbag"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 52,
+          "extra": null
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 62384,
+          "name": "Tayfun Aydo\u011fan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 70346,
+          "name": "Abat Aimbetov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 8681,
+          "name": "N. Alioui"
+        },
+        "assist": {
+          "id": 365748,
+          "name": "B. Fougeu"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 328155,
+          "name": "Arda Kurtulan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 1863,
+          "name": "C. Immobile"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 1863,
+          "name": "C. Immobile"
+        },
+        "assist": {
+          "id": 206,
+          "name": "Jo\u00e3o M\u00e1rio"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 25324,
+          "name": "M. Rashica"
+        },
+        "assist": {
+          "id": 414405,
+          "name": "K. Arroyo"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 70346,
+          "name": "A. Aymbetov"
+        },
+        "assist": {
+          "id": 350319,
+          "name": "O. Kaynak"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 3563,
+          "name": "Adana Demirspor",
+          "logo": "https://media.api-sports.io/football/teams/3563.png"
+        },
+        "player": {
+          "id": 36906,
+          "name": "Y. Baras\u0131"
+        },
+        "assist": {
+          "id": 87368,
+          "name": "A. Akta\u015f"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 206,
+          "name": "Jo\u00e3o M\u00e1rio"
+        },
+        "assist": {
+          "id": 573,
+          "name": "Rafa"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 436179,
+          "name": "M. Hekimo\u011flu"
+        },
+        "assist": {
+          "id": 336567,
+          "name": "S. K\u0131l\u0131\u00e7soy"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 336664,
+          "name": "E. Terzi"
+        },
+        "assist": {
+          "id": 1997,
+          "name": "N. Uysal"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 569,
+          "name": "Gedson Fernandes"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+}

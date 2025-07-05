@@ -1,0 +1,413 @@
+{
+  "cache_timestamp": "2025-07-04T13:06:54.729611",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1231920"
+    },
+    "errors": [],
+    "results": 18,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 47,
+          "extra": null
+        },
+        "team": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png"
+        },
+        "player": {
+          "id": 41338,
+          "name": "Claudio Falc\u00e3o"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 48,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 41966,
+          "name": "Francisco Moura"
+        },
+        "assist": {
+          "id": 41725,
+          "name": "F\u00e1bio Vieira"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png"
+        },
+        "player": {
+          "id": 41386,
+          "name": "Artur Jorge"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 130256,
+          "name": "Andr\u00e9 Franco"
+        },
+        "assist": {
+          "id": 35570,
+          "name": "S. Eustaquio"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 388570,
+          "name": "D. G\u00fcl"
+        },
+        "assist": {
+          "id": 358628,
+          "name": "Samu Aghehowa"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 19625,
+          "name": "D. Namaso"
+        },
+        "assist": {
+          "id": 41734,
+          "name": "Jo\u00e3o M\u00e1rio"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png"
+        },
+        "player": {
+          "id": 162138,
+          "name": "Marco Moreno"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png"
+        },
+        "player": {
+          "id": 41317,
+          "name": "Yusupha Njie"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 37,
+          "name": "Nehu\u00e9n P\u00e9rez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png"
+        },
+        "player": {
+          "id": 41317,
+          "name": "Y. Njie"
+        },
+        "assist": {
+          "id": 41453,
+          "name": "Toman\u00e9"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png"
+        },
+        "player": {
+          "id": 19401,
+          "name": "Marco Matias"
+        },
+        "assist": {
+          "id": 41737,
+          "name": "Rui Costa"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 404097,
+          "name": "Rodrigo Mora"
+        },
+        "assist": {
+          "id": 278375,
+          "name": "A. Varela"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png"
+        },
+        "player": {
+          "id": 238338,
+          "name": "Paulo Victor"
+        },
+        "assist": {
+          "id": 41750,
+          "name": "Derick Poloni"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png"
+        },
+        "player": {
+          "id": 330411,
+          "name": "Miguel Menino"
+        },
+        "assist": {
+          "id": 41614,
+          "name": "Filipe Soares"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png"
+        },
+        "player": {
+          "id": 41386,
+          "name": "Artur Jorge"
+        },
+        "assist": {
+          "id": 129697,
+          "name": "\u00c1lex Bermejo"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 10500,
+          "name": "Pep\u00ea"
+        },
+        "assist": {
+          "id": 325830,
+          "name": "Vasco Sousa"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 41734,
+          "name": "Jo\u00e3o M\u00e1rio"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 8
+        },
+        "team": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png"
+        },
+        "player": {
+          "id": 324844,
+          "name": "Z\u00e9 Carlos"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+}

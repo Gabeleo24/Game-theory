@@ -1,0 +1,45 @@
+{
+  "cache_timestamp": "2025-07-04T11:40:06.900871",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1222446"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 90,
+          "name": "Guingamp",
+          "logo": "https://media.api-sports.io/football/teams/90.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 15042,
+          "name": "S. Dumont",
+          "photo": "https://media.api-sports.io/football/coachs/15042.png"
+        },
+        "formation": null
+      },
+      {
+        "team": {
+          "id": 94,
+          "name": "Rennes",
+          "logo": "https://media.api-sports.io/football/teams/94.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 31,
+          "name": "J. St\u00e9phan",
+          "photo": "https://media.api-sports.io/football/coachs/31.png"
+        },
+        "formation": null
+      }
+    ]
+  }
+}

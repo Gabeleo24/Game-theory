@@ -1,0 +1,406 @@
+{
+  "cache_timestamp": "2025-07-04T12:30:57.962456",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1157002"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png",
+          "colors": {
+            "player": {
+              "primary": "ff383d",
+              "number": "ffffff",
+              "border": "ff383d"
+            },
+            "goalkeeper": {
+              "primary": "faff00",
+              "number": "ffffff",
+              "border": "faff00"
+            }
+          }
+        },
+        "formation": "3-4-2-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 61161,
+              "name": "Martin Jedli\u010dka",
+              "number": 16,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 162964,
+              "name": "Robin Hran\u00e1\u010d",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 317825,
+              "name": "Sampson Dweh",
+              "number": 40,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 800,
+              "name": "Luk\u00e1\u0161 Hejda",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 216553,
+              "name": "Cadu",
+              "number": 22,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 66463,
+              "name": "Mat\u011bj Valenta",
+              "number": 32,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 66278,
+              "name": "Luk\u00e1\u0161 Kalvach",
+              "number": 23,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 810,
+              "name": "Jan Kopic",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 66387,
+              "name": "Pavel \u0160ulc",
+              "number": 31,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 18930,
+              "name": "Mat\u011bj Vydra",
+              "number": 11,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 818,
+              "name": "Tom\u00e1\u0161 Chor\u00fd",
+              "number": 15,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 66270,
+              "name": "V\u00e1clav Jemelka",
+              "number": 21,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 179449,
+              "name": "Cheick Souare",
+              "number": 39,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66301,
+              "name": "Libor Hol\u00edk",
+              "number": 44,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162194,
+              "name": "Luk\u00e1\u0161 \u010cerv",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66447,
+              "name": "Mari\u00e1n Tvrdo\u0148",
+              "number": 13,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Matyas Silhavy",
+              "number": 35,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Jan Sutr",
+              "number": 34,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 799,
+              "name": "Milan Havel",
+              "number": 24,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 804,
+              "name": "Radim \u0158ezn\u00edk",
+              "number": 14,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 338998,
+              "name": "Jan Paluska",
+              "number": 5,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1245,
+              "name": "Ibrahim Traor\u00e9",
+              "number": 12,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 13401,
+              "name": "Jhon Mosquera",
+              "number": 18,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 66053,
+              "name": "Jan S\u00fdkora",
+              "number": 7,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 355,
+              "name": "Erik Jirka",
+              "number": 33,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 90746,
+              "name": "Jan Kliment",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 15041,
+          "name": "M. Koubek",
+          "photo": "https://media.api-sports.io/football/coachs/15041.png"
+        }
+      },
+      {
+        "team": {
+          "id": 406,
+          "name": "Aarhus",
+          "logo": "https://media.api-sports.io/football/teams/406.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "003366",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "ceff0b",
+              "number": "ffffff",
+              "border": "ceff0b"
+            }
+          }
+        },
+        "formation": "3-5-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 15786,
+              "name": "Jesper Hansen",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 25312,
+              "name": "Felix Beijmo",
+              "number": 2,
+              "pos": "M",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 15584,
+              "name": "Frederik Tingager",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 162217,
+              "name": "Tobias Anker",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 315567,
+              "name": "Jacob Andersen",
+              "number": 26,
+              "pos": "D",
+              "grid": "3:5"
+            }
+          },
+          {
+            "player": {
+              "id": 15961,
+              "name": "Frederik Brandhof",
+              "number": 29,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 15934,
+              "name": "Mads Emil Madsen",
+              "number": 7,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 315568,
+              "name": "Mathias Sauer",
+              "number": 30,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 151738,
+              "name": "Eric Kahl",
+              "number": 19,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 15964,
+              "name": "Tobias Bech",
+              "number": 31,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 24973,
+              "name": "Janni Serra",
+              "number": 13,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "coach": {
+          "id": 1389,
+          "name": "U. R\u00f6sler",
+          "photo": "https://media.api-sports.io/football/coachs/1389.png"
+        }
+      }
+    ]
+  }
+}

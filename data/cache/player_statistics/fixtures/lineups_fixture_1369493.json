@@ -1,0 +1,453 @@
+{
+  "cache_timestamp": "2025-07-04T13:15:22.685081",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1369493"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 2644,
+          "name": "Radnicki 1923",
+          "logo": "https://media.api-sports.io/football/teams/2644.png",
+          "colors": {
+            "player": {
+              "primary": "ff0000",
+              "number": "ffffff",
+              "border": "ff0000"
+            },
+            "goalkeeper": {
+              "primary": "ffff00",
+              "number": "000000",
+              "border": "ffff00"
+            }
+          }
+        },
+        "coach": {
+          "id": 4425,
+          "name": "F. Dudi\u0107",
+          "photo": "https://media.api-sports.io/football/coachs/4425.png"
+        },
+        "formation": "3-4-1-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 46157,
+              "name": "M. Milo\u0161evi\u0107",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 179874,
+              "name": "S. Zeljkovi\u0107",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 2316,
+              "name": "S. Simovi\u0107",
+              "number": 14,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 61992,
+              "name": "M. Mitrovi\u0107",
+              "number": 15,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 179876,
+              "name": "M. \u0106osi\u0107",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 45820,
+              "name": "M. Vidosavljevi\u0107",
+              "number": 55,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 45854,
+              "name": "M. Risti\u0107",
+              "number": 27,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 196834,
+              "name": "A. Jankovi\u0107",
+              "number": 40,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 410935,
+              "name": "B. Mir\u010deti\u0107",
+              "number": 44,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 284099,
+              "name": "M. Glu\u0161\u010devi\u0107",
+              "number": 7,
+              "pos": "F",
+              "grid": "5:2"
+            }
+          },
+          {
+            "player": {
+              "id": 108539,
+              "name": "I. Bah",
+              "number": 77,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 330308,
+              "name": "K. Bevis",
+              "number": 10,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 201039,
+              "name": "L. Stankovski",
+              "number": 80,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 144317,
+              "name": "S. Chinedu",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 448324,
+              "name": "N. Bukumira",
+              "number": 32,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 301197,
+              "name": "L. Ben Hassine",
+              "number": 99,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 202113,
+              "name": "M. Vidakov",
+              "number": 90,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 345417,
+              "name": "Alfa Bald\u00e9",
+              "number": 70,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 198626,
+              "name": "J. Ili\u0107",
+              "number": 21,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 342328,
+              "name": "L. Lijeski\u0107",
+              "number": 81,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 77067,
+              "name": "S. Radovi\u0107",
+              "number": 20,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 14621,
+              "name": "T. Dadi\u0107",
+              "number": 50,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png",
+          "colors": {
+            "player": {
+              "primary": "0064ff",
+              "number": "fa0000",
+              "border": "0064ff"
+            },
+            "goalkeeper": {
+              "primary": "59db00",
+              "number": "000000",
+              "border": "59db00"
+            }
+          }
+        },
+        "coach": {
+          "id": 2511,
+          "name": "V. Milojevi\u0107",
+          "photo": "https://media.api-sports.io/football/coachs/2511.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 111325,
+              "name": "O. Glazer",
+              "number": 18,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 197985,
+              "name": "Seol Young-Woo",
+              "number": 66,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 31054,
+              "name": "R. Kruni\u0107",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 345,
+              "name": "M. Rodi\u0107",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 305450,
+              "name": "E. Annan",
+              "number": 88,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 66021,
+              "name": "G. Kanga",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 17789,
+              "name": "T. El\u0161nik",
+              "number": 21,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 398192,
+              "name": "A. Maksimovi\u0107",
+              "number": 55,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 50910,
+              "name": "A. Katai",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 342226,
+              "name": "J. \u0160ljivi\u0107",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 63475,
+              "name": "Bruno Duarte",
+              "number": 17,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 353,
+              "name": "M. Ivani\u0107",
+              "number": 4,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1920,
+              "name": "N. Radonji\u0107",
+              "number": 49,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 38699,
+              "name": "L. Ili\u0107",
+              "number": 32,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 463100,
+              "name": "S. Stojkovi\u0107",
+              "number": 47,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 368205,
+              "name": "U. Srem\u010devi\u0107",
+              "number": 31,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 263410,
+              "name": "Milson",
+              "number": 27,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 407900,
+              "name": "K. Sandoval",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 462208,
+              "name": "V. Kostov",
+              "number": 92,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 198395,
+              "name": "I. Gute\u0161a",
+              "number": 77,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

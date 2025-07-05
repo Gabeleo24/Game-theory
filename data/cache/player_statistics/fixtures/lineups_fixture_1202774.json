@@ -1,0 +1,480 @@
+{
+  "cache_timestamp": "2025-07-04T12:01:47.139702",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1202774"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 620,
+          "name": "Dinamo Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/620.png",
+          "colors": {
+            "player": {
+              "primary": "052d72",
+              "number": "ffffff",
+              "border": "052d72"
+            },
+            "goalkeeper": {
+              "primary": "ff76d7",
+              "number": "ffffff",
+              "border": "ff76d7"
+            }
+          }
+        },
+        "coach": {
+          "id": 53,
+          "name": "F. Cannavaro",
+          "photo": "https://media.api-sports.io/football/coachs/53.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 14532,
+              "name": "I. Nevisti\u0107",
+              "number": 33,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1483,
+              "name": "S. Ristovski",
+              "number": 22,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 1316,
+              "name": "K. Th\u00e9ophile-Catherine",
+              "number": 28,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 290215,
+              "name": "Ra\u00fal Torrente",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 14704,
+              "name": "B. Franji\u0107",
+              "number": 38,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 348205,
+              "name": "P. Su\u010di\u0107",
+              "number": 25,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 2373,
+              "name": "J. Mi\u0161i\u0107",
+              "number": 27,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 308814,
+              "name": "L. Stojkovi\u0107",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 295026,
+              "name": "M. Baturina",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 30413,
+              "name": "M. Pjaca",
+              "number": 20,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 21155,
+              "name": "W. Kanga",
+              "number": 16,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 346893,
+              "name": "J. C\u00f3rdoba",
+              "number": 19,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 295976,
+              "name": "L. Belcar",
+              "number": 23,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1331,
+              "name": "B. Petkovi\u0107",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 40405,
+              "name": "S. Kulenovi\u0107",
+              "number": 17,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 419622,
+              "name": "N. Miki\u0107",
+              "number": 35,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 8503,
+              "name": "S. Mmaee",
+              "number": 13,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1306,
+              "name": "D. Zagorac",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 310135,
+              "name": "L. Ka\u010davenda",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 129670,
+              "name": "N. Mbuku",
+              "number": 21,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 105993,
+              "name": "A. Hoxha",
+              "number": 11,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 14306,
+              "name": "P. Bo\u010dkaj",
+              "number": 12,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1317,
+              "name": "A. Ademi",
+              "number": 5,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 1017,
+          "name": "NK Lokomotiva Zagreb",
+          "logo": "https://media.api-sports.io/football/teams/1017.png",
+          "colors": {
+            "player": {
+              "primary": "f42525",
+              "number": "f1f0f4",
+              "border": "f42525"
+            },
+            "goalkeeper": {
+              "primary": "12c239",
+              "number": "ffffff",
+              "border": "12c239"
+            }
+          }
+        },
+        "coach": {
+          "id": 14970,
+          "name": "S. \u010cabraja",
+          "photo": "https://media.api-sports.io/football/coachs/14970.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 14759,
+              "name": "Z. \u0160ubari\u0107",
+              "number": 31,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 14386,
+              "name": "F. Kara\u010di\u0107",
+              "number": 13,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 5910,
+              "name": "L. Sigali",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 276285,
+              "name": "L. Daj\u010der",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 31055,
+              "name": "M. Paja\u010d",
+              "number": 17,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 388482,
+              "name": "F. Fetai",
+              "number": 23,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 348168,
+              "name": "A. Smakaj",
+              "number": 15,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 342307,
+              "name": "L. Vrban\u010di\u0107",
+              "number": 21,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 162086,
+              "name": "J. Vasilj",
+              "number": 29,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 128189,
+              "name": "S. Gori\u010dan",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1325,
+              "name": "K. Andri\u0107",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 14387,
+              "name": "D. Kolinger",
+              "number": 20,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1309,
+              "name": "M. Leovac",
+              "number": 22,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 14682,
+              "name": "M. Vranjkovi\u0107",
+              "number": 27,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 430737,
+              "name": "M. Su\u0161ak",
+              "number": 25,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 369497,
+              "name": "I. Canjuga",
+              "number": 28,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 295540,
+              "name": "M. \u017divkovi\u0107",
+              "number": 14,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 507645,
+              "name": "C. Diop",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 14280,
+              "name": "D. Bu\u0161nja",
+              "number": 11,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 14383,
+              "name": "K. Hendija",
+              "number": 12,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 40393,
+              "name": "D. Antoli\u0107",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 438981,
+              "name": "I. Kati\u0107",
+              "number": 24,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

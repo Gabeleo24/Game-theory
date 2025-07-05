@@ -1,0 +1,303 @@
+{
+  "cache_timestamp": "2025-07-04T12:41:50.558523",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1164106"
+    },
+    "errors": [],
+    "results": 13,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 32,
+          "extra": null
+        },
+        "team": {
+          "id": 2241,
+          "name": "Vasteras SK FK",
+          "logo": "https://media.api-sports.io/football/teams/2241.png"
+        },
+        "player": {
+          "id": 105170,
+          "name": "Alex Douglas"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 424637,
+          "name": "A. Skogmar"
+        },
+        "assist": {
+          "id": 129964,
+          "name": "Gabriel Busanello"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 988,
+          "name": "I. Kiese Thelin"
+        },
+        "assist": {
+          "id": 48169,
+          "name": "O. Berg"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 2241,
+          "name": "Vasteras SK FK",
+          "logo": "https://media.api-sports.io/football/teams/2241.png"
+        },
+        "player": {
+          "id": 48279,
+          "name": "H. Offia"
+        },
+        "assist": {
+          "id": 161533,
+          "name": "H. Magnusson"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 2241,
+          "name": "Vasteras SK FK",
+          "logo": "https://media.api-sports.io/football/teams/2241.png"
+        },
+        "player": {
+          "id": 87321,
+          "name": "M. Ahlinvi"
+        },
+        "assist": {
+          "id": 269160,
+          "name": "J. Ali"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 2241,
+          "name": "Vasteras SK FK",
+          "logo": "https://media.api-sports.io/football/teams/2241.png"
+        },
+        "player": {
+          "id": 182784,
+          "name": "I. Diabate"
+        },
+        "assist": {
+          "id": 47768,
+          "name": "S. Johansson"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 160925,
+          "name": "T. Ali"
+        },
+        "assist": {
+          "id": 1961,
+          "name": "S. Rieks"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 41448,
+          "name": "S. Pe\u00f1a"
+        },
+        "assist": {
+          "id": 306955,
+          "name": "O. Rosengren"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 2241,
+          "name": "Vasteras SK FK",
+          "logo": "https://media.api-sports.io/football/teams/2241.png"
+        },
+        "player": {
+          "id": 46542,
+          "name": "Fr\u00e9d\u00e9ric Nsabiyumva"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 226803,
+          "name": "S. Nanasi"
+        },
+        "assist": {
+          "id": 129964,
+          "name": "Gabriel Busanello"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 2241,
+          "name": "Vasteras SK FK",
+          "logo": "https://media.api-sports.io/football/teams/2241.png"
+        },
+        "player": {
+          "id": 329303,
+          "name": "M. Larsson"
+        },
+        "assist": {
+          "id": 47912,
+          "name": "Pedro Ribeiro"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 2241,
+          "name": "Vasteras SK FK",
+          "logo": "https://media.api-sports.io/football/teams/2241.png"
+        },
+        "player": {
+          "id": 310037,
+          "name": "M. Linday"
+        },
+        "assist": {
+          "id": 408480,
+          "name": "A. Warneryd"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "player": {
+          "id": 226803,
+          "name": "S. Nanasi"
+        },
+        "assist": {
+          "id": 335106,
+          "name": "E. Makolli"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

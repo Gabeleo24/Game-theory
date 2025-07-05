@@ -1,0 +1,633 @@
+{
+  "cache_timestamp": "2025-07-04T12:26:05.814826",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1314641"
+    },
+    "errors": [],
+    "results": 28,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 22,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 342208,
+          "name": "D. Kozlov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 39,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 493,
+          "name": "F. Smolov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 1
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 414258,
+          "name": "Stanislav Poroykov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 358942,
+          "name": "M. Sukhoruchenko"
+        },
+        "assist": {
+          "id": 149914,
+          "name": "M. Petrov"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 493,
+          "name": "F. Smolov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2079,
+          "name": "A. Chernikov"
+        },
+        "assist": {
+          "id": 2081,
+          "name": "Y. Gazinskiy"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 493,
+          "name": "F. Smolov"
+        },
+        "assist": {
+          "id": 391289,
+          "name": "A. Koksharov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 414258,
+          "name": "S. Poroykov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 414258,
+          "name": "S. Poroykov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 335081,
+          "name": "A. Maryanov"
+        },
+        "assist": {
+          "id": 53689,
+          "name": "D. Tkachuk"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 43627,
+          "name": "A. Korotaev"
+        },
+        "assist": {
+          "id": 162924,
+          "name": "A. Savinov"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 202211,
+          "name": "N. Krivtsov"
+        },
+        "assist": {
+          "id": 358888,
+          "name": "D. Kuchugura"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 414258,
+          "name": "S. Poroykov"
+        },
+        "assist": {
+          "id": 136508,
+          "name": "K. Kosarev"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 53579,
+          "name": "A. Kulishev"
+        },
+        "assist": {
+          "id": 324411,
+          "name": "I. Mokaev"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 322320,
+          "name": "Maksim Khramtsov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 149573,
+          "name": "David Shavlokhov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 323556,
+          "name": "M. Cobnan"
+        },
+        "assist": {
+          "id": 460193,
+          "name": "E. Kovalevskiy"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 391289,
+          "name": "Aleksandr Koksharov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 53689,
+          "name": "D. Tkachuk"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 1
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2081,
+          "name": "Y. Gazinskiy"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 2
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 136508,
+          "name": "K. Kosarev"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 3
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 342208,
+          "name": "D. Kozlov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 4
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 43384,
+          "name": "D. Klenkin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 5
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 358888,
+          "name": "D. Kuchugura"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 6
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 43831,
+          "name": "D. Karpov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 7
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 391289,
+          "name": "A. Koksharov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 8
+        },
+        "team": {
+          "id": 2000,
+          "name": "Tyumen",
+          "logo": "https://media.api-sports.io/football/teams/2000.png"
+        },
+        "player": {
+          "id": 322320,
+          "name": "M. Khramtsov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 9
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 289592,
+          "name": "K. Casta\u00f1o"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      }
+    ]
+  }
+}

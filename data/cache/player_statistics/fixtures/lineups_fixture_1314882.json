@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T12:04:37.828983",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1314882"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "000000",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "d2d61d",
+              "number": "ffffff",
+              "border": "d2d61d"
+            }
+          }
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 2728,
+              "name": "Kasper Schmeichel",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 78547,
+              "name": "Alistair Johnston",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 19314,
+              "name": "Cameron Carter-Vickers",
+              "number": 20,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 50737,
+              "name": "Auston Trusty",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 44784,
+              "name": "Greg Taylor",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 161938,
+              "name": "Paulo Bernardo",
+              "number": 28,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1129,
+              "name": "Callum McGregor",
+              "number": 42,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 180758,
+              "name": "Reo Hatate",
+              "number": 41,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 38753,
+              "name": "Nicolas-Gerrit K\u00fchn",
+              "number": 10,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 33253,
+              "name": "Kyogo Furuhashi",
+              "number": 8,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 33224,
+              "name": "Daizen Maeda",
+              "number": 38,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 69450,
+              "name": "Liam Scales",
+              "number": 5,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1115,
+              "name": "Anthony Ralston",
+              "number": 56,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162210,
+              "name": "Arne Engels",
+              "number": 27,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 130417,
+              "name": "Adam Idah",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 336560,
+              "name": "\u00c1lex Valle",
+              "number": 11,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1127,
+              "name": "James Forrest",
+              "number": 49,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 169291,
+              "name": "Viljami Sinisalo",
+              "number": 12,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 27760,
+              "name": "Luis Palma",
+              "number": 7,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 304958,
+              "name": "Yang Hyun-Jun",
+              "number": 13,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 15,
+          "name": "B. Rodgers",
+          "photo": "https://media.api-sports.io/football/coachs/15.png"
+        }
+      },
+      {
+        "team": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png",
+          "colors": {
+            "player": {
+              "primary": "076fdf",
+              "number": "ffffff",
+              "border": "076fdf"
+            },
+            "goalkeeper": {
+              "primary": "fde543",
+              "number": "000000",
+              "border": "fde543"
+            }
+          }
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 2930,
+              "name": "Jack Butland",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1744,
+              "name": "James Tavernier",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 2767,
+              "name": "Leon Balogun",
+              "number": 27,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 37254,
+              "name": "Robin Pr\u00f6pper",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 311384,
+              "name": "Jeft\u00e9",
+              "number": 22,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 199638,
+              "name": "Mohammed Diomande",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 2120,
+              "name": "Nicolas Raskin",
+              "number": 43,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 549,
+              "name": "V\u00e1clav \u010cern\u00fd",
+              "number": 18,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 48577,
+              "name": "Nedim Bajrami",
+              "number": 14,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 43084,
+              "name": "Ianis Hagi",
+              "number": 30,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 306979,
+              "name": "Hamza Igamane",
+              "number": 29,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 1987,
+              "name": "R\u0131dvan Y\u0131lmaz",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 19990,
+              "name": "Dujon Sterling",
+              "number": 21,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 553,
+              "name": "Danilo",
+              "number": 99,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 37186,
+              "name": "Cyriel Dessers",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 138460,
+              "name": "Connor Barron",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 19100,
+              "name": "Kieran Dowell",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 44937,
+              "name": "Liam Kelly",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162284,
+              "name": "Leon King",
+              "number": 38,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 199595,
+              "name": "Ross McCausland",
+              "number": 45,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 1518,
+          "name": "P. Clement",
+          "photo": "https://media.api-sports.io/football/coachs/1518.png"
+        }
+      }
+    ]
+  }
+}

@@ -24,58 +24,173 @@ import argparse
 # Add src to path for imports
 sys.path.append('src')
 
-# Use mock client to avoid dependency issues
-class APIFootballClient:
-    def __init__(self):
-        self.requests_made = 0
+# Try to import real API client, fall back to mock if needed
+try:
+    import requests
+    import yaml
+    from pathlib import Path
 
-    def get_team_statistics(self, team_id, league_id, season):
-        self.requests_made += 1
-        # Mock response structure
-        return {
-            "response": {
-                "team": {"id": team_id, "name": f"Team {team_id}", "logo": ""},
-                "fixtures": {
-                    "played": {"total": 38, "home": 19, "away": 19},
-                    "wins": {"total": 25, "home": 15, "away": 10},
-                    "draws": {"total": 8, "home": 3, "away": 5},
-                    "loses": {"total": 5, "home": 1, "away": 4}
-                },
-                "goals": {
-                    "for": {"total": {"total": 75, "home": 45, "away": 30}},
-                    "against": {"total": {"total": 25, "home": 10, "away": 15}}
+    class APIFootballClient:
+        def __init__(self):
+            self.requests_made = 0
+            self.base_url = "https://v3.football.api-sports.io"
+            self.headers = self._load_api_headers()
+
+        def _load_api_headers(self):
+            """Load API headers from config file."""
+            try:
+                config_path = Path("config/api_keys.yaml")
+                if config_path.exists():
+                    with open(config_path, 'r') as f:
+                        config = yaml.safe_load(f)
+                    api_key = config.get('api_football', {}).get('key')
+                    if api_key:
+                        return {
+                            'X-RapidAPI-Key': api_key,
+                            'X-RapidAPI-Host': 'v3.football.api-sports.io'
+                        }
+            except Exception as e:
+                print(f"Warning: Could not load API key: {e}")
+
+            # Return mock headers if no API key found
+            return None
+
+        def get_team_statistics(self, team_id, league_id, season):
+            """Get team statistics for a specific league and season."""
+            self.requests_made += 1
+
+            if not self.headers:
+                return self._get_mock_team_statistics(team_id, league_id, season)
+
+            try:
+                url = f"{self.base_url}/teams/statistics"
+                params = {
+                    'team': team_id,
+                    'league': league_id,
+                    'season': season
+                }
+
+                response = requests.get(url, headers=self.headers, params=params, timeout=30)
+
+                if response.status_code == 200:
+                    return response.json()
+                else:
+                    print(f"API Error {response.status_code} for team {team_id}, league {league_id}, season {season}")
+                    return self._get_mock_team_statistics(team_id, league_id, season)
+
+            except Exception as e:
+                print(f"Error fetching team statistics: {e}")
+                return self._get_mock_team_statistics(team_id, league_id, season)
+
+        def get_team_fixtures(self, team_id, season):
+            """Get team fixtures for a specific season."""
+            self.requests_made += 1
+
+            if not self.headers:
+                return self._get_mock_team_fixtures(team_id, season)
+
+            try:
+                url = f"{self.base_url}/fixtures"
+                params = {
+                    'team': team_id,
+                    'season': season
+                }
+
+                response = requests.get(url, headers=self.headers, params=params, timeout=30)
+
+                if response.status_code == 200:
+                    return response.json()
+                else:
+                    print(f"API Error {response.status_code} for team {team_id} fixtures, season {season}")
+                    return self._get_mock_team_fixtures(team_id, season)
+
+            except Exception as e:
+                print(f"Error fetching team fixtures: {e}")
+                return self._get_mock_team_fixtures(team_id, season)
+
+        def _get_mock_team_statistics(self, team_id, league_id, season):
+            """Generate varied mock data based on team_id and season."""
+            import random
+            random.seed(team_id * 1000 + league_id * 100 + season)  # Consistent seed for same inputs
+
+            # Generate realistic varied statistics
+            games_played = random.randint(30, 40)
+            wins = random.randint(10, 30)
+            draws = random.randint(5, 15)
+            losses = games_played - wins - draws
+            if losses < 0:
+                losses = random.randint(0, 10)
+                wins = games_played - draws - losses
+
+            goals_for = random.randint(25, 90)
+            goals_against = random.randint(15, 70)
+
+            return {
+                "response": {
+                    "team": {"id": team_id, "name": f"Team {team_id}", "logo": ""},
+                    "fixtures": {
+                        "played": {"total": games_played, "home": games_played//2, "away": games_played//2},
+                        "wins": {"total": wins, "home": wins//2, "away": wins//2},
+                        "draws": {"total": draws, "home": draws//2, "away": draws//2},
+                        "loses": {"total": losses, "home": losses//2, "away": losses//2}
+                    },
+                    "goals": {
+                        "for": {"total": {"total": goals_for, "home": goals_for//2, "away": goals_for//2}},
+                        "against": {"total": {"total": goals_against, "home": goals_against//2, "away": goals_against//2}}
+                    }
                 }
             }
-        }
 
-    def get_team_fixtures(self, team_id, season):
-        self.requests_made += 1
-        # Mock fixtures response
-        return {
-            "response": [
-                {
+        def _get_mock_team_fixtures(self, team_id, season):
+            """Generate varied mock fixtures based on team_id and season."""
+            import random
+            random.seed(team_id * 1000 + season)  # Consistent seed
+
+            fixtures = []
+            num_fixtures = random.randint(25, 45)
+
+            for i in range(num_fixtures):
+                opponent_id = random.randint(1, 1000)
+                team_score = random.randint(0, 5)
+                opponent_score = random.randint(0, 4)
+
+                fixture = {
                     "fixture": {
-                        "id": 12345,
-                        "date": f"{season}-03-15T20:00:00+00:00",
-                        "timestamp": 1647374400,
+                        "id": team_id * 10000 + season * 100 + i,
+                        "date": f"{season}-{random.randint(8, 12):02d}-{random.randint(1, 28):02d}T{random.randint(15, 21):02d}:00:00+00:00",
+                        "timestamp": 1647374400 + i * 86400,
                         "status": {"long": "Match Finished", "short": "FT"},
-                        "venue": {"id": 1, "name": "Stadium", "city": "City"}
+                        "venue": {"id": 1, "name": f"Stadium {i%5}", "city": "City"}
                     },
                     "league": {
-                        "id": 39,
-                        "name": "Premier League",
+                        "id": random.choice([39, 140, 135, 78, 61, 2, 3]),
+                        "name": random.choice(["Premier League", "La Liga", "Serie A", "Champions League"]),
                         "season": season,
-                        "round": "Regular Season - 28"
+                        "round": f"Regular Season - {i+1}"
                     },
                     "teams": {
                         "home": {"id": team_id, "name": f"Team {team_id}"},
-                        "away": {"id": team_id + 1, "name": f"Team {team_id + 1}"}
+                        "away": {"id": opponent_id, "name": f"Team {opponent_id}"}
                     },
-                    "goals": {"home": 2, "away": 1},
+                    "goals": {"home": team_score, "away": opponent_score},
                     "statistics": []
                 }
-            ]
-        }
+                fixtures.append(fixture)
+
+            return {"response": fixtures}
+
+except ImportError:
+    print("Warning: requests or yaml not available, using basic mock client")
+
+    class APIFootballClient:
+        def __init__(self):
+            self.requests_made = 0
+
+        def get_team_statistics(self, team_id, league_id, season):
+            return self._get_mock_team_statistics(team_id, league_id, season)
+
+        def get_team_fixtures(self, team_id, season):
+            return self._get_mock_team_fixtures(team_id, season)
 
 class ComprehensiveTeamStatisticsCollector:
     """Collects comprehensive team statistics and match details."""

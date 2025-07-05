@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T12:50:37.359158",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1215051"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png",
+          "colors": {
+            "player": {
+              "primary": "009900",
+              "number": "ffffff",
+              "border": "009900"
+            },
+            "goalkeeper": {
+              "primary": "1453cd",
+              "number": "ffffff",
+              "border": "1453cd"
+            }
+          }
+        },
+        "coach": {
+          "id": 2494,
+          "name": "B. Bakhar",
+          "photo": "https://media.api-sports.io/football/coachs/2494.png"
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 163580,
+              "name": "S. Keouf",
+              "number": 40,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 345208,
+              "name": "R. Elimelech",
+              "number": 42,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 8450,
+              "name": "A. Seck",
+              "number": 30,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 111335,
+              "name": "S. Goldberg",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 50990,
+              "name": "K. Saief",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 136155,
+              "name": "M. Jaber",
+              "number": 26,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 8461,
+              "name": "L. Refaelov",
+              "number": 11,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 126500,
+              "name": "A. Muhammad",
+              "number": 4,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 12939,
+              "name": "D. Sabi'a",
+              "number": 10,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 111264,
+              "name": "G. Melamed",
+              "number": 18,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 110987,
+              "name": "D. Haziza",
+              "number": 8,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 106804,
+              "name": "G. Kinda",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 111277,
+              "name": "D. David",
+              "number": 21,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 304334,
+              "name": "I. Hagag",
+              "number": 28,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 306368,
+              "name": "Ricardinho",
+              "number": 99,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 349219,
+              "name": "L. Hermesh",
+              "number": 33,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 308839,
+              "name": "X. Severina",
+              "number": 7,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 395830,
+              "name": "T. Lannes",
+              "number": 35,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 59081,
+              "name": "T. Sultani",
+              "number": 13,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162272,
+              "name": "E. Azoulay",
+              "number": 24,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 4495,
+          "name": "Maccabi Petah Tikva",
+          "logo": "https://media.api-sports.io/football/teams/4495.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "0000ff",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "00ff00",
+              "number": "000000",
+              "border": "00ff00"
+            }
+          }
+        },
+        "coach": {
+          "id": 24214,
+          "name": "T. Luzon",
+          "photo": "https://media.api-sports.io/football/coachs/24214.png"
+        },
+        "formation": "5-3-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 6135,
+              "name": "M. Wolff",
+              "number": 34,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 110870,
+              "name": "A. Azugi",
+              "number": 12,
+              "pos": "D",
+              "grid": "2:5"
+            }
+          },
+          {
+            "player": {
+              "id": 454495,
+              "name": "I. Cohen",
+              "number": 20,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 11128,
+              "name": "P. Galabov",
+              "number": 25,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 46621,
+              "name": "R. De Reuck",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 111090,
+              "name": "A. Salem",
+              "number": 17,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 105946,
+              "name": "I. Vered",
+              "number": 15,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 371922,
+              "name": "N. Yehoshua",
+              "number": 28,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 111276,
+              "name": "E. Shamir",
+              "number": 18,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 64326,
+              "name": "W. Harris",
+              "number": 21,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 161828,
+              "name": "A. Altury",
+              "number": 77,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 395781,
+              "name": "L. Hazan",
+              "number": 9,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 122207,
+              "name": "J. Soladio",
+              "number": 29,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 110661,
+              "name": "A. Mahamid",
+              "number": 8,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 134973,
+              "name": "A. Bar",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 137530,
+              "name": "T. Glazer",
+              "number": 14,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 135452,
+              "name": "T. Litvinov",
+              "number": 98,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 111279,
+              "name": "Y. Cohen",
+              "number": 16,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 110660,
+              "name": "M. Handy",
+              "number": 32,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 381696,
+              "name": "G. Ma'atuk",
+              "number": 19,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

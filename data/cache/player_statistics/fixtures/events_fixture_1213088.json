@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T12:25:31.516612",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213088"
+    },
+    "errors": [],
+    "results": 19,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 44,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 53507,
+          "name": "Reziuan Mirzov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 44,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2075,
+          "name": "Sergey Petrov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 130247,
+          "name": "Batxi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 53507,
+          "name": "R. Mirzov"
+        },
+        "assist": {
+          "id": 43656,
+          "name": "A. Rudenko"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 119745,
+          "name": "\u00c1lex Corredera"
+        },
+        "assist": {
+          "id": 43382,
+          "name": "K. Khosonov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 202211,
+          "name": "N. Krivtsov"
+        },
+        "assist": {
+          "id": 289592,
+          "name": "K. Casta\u00f1o"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 59860,
+          "name": "Robert Mej\u00eda"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 53500,
+          "name": "Z. Bakaev"
+        },
+        "assist": {
+          "id": 149707,
+          "name": "I. Berkovskiy"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 7541,
+          "name": "Victor S\u00e1"
+        },
+        "assist": {
+          "id": 237056,
+          "name": "O. Olusegun"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 59860,
+          "name": "R. Mej\u00eda"
+        },
+        "assist": {
+          "id": 125498,
+          "name": "B. Magomedov"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 43565,
+          "name": "E. Spertsyan"
+        },
+        "assist": {
+          "id": 2081,
+          "name": "Y. Gazinskiy"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2075,
+          "name": "S. Petrov"
+        },
+        "assist": {
+          "id": 2610,
+          "name": "G. Gonz\u00e1lez"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 130247,
+          "name": "Batxi"
+        },
+        "assist": {
+          "id": 493,
+          "name": "F. Smolov"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 43656,
+          "name": "A. Rudenko"
+        },
+        "assist": {
+          "id": 59197,
+          "name": "L. Vera"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2081,
+          "name": "Y. Gazinskiy"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 493,
+          "name": "Fedor Smolov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 59197,
+          "name": "L. Vera"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 5
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 59197,
+          "name": "L. Vera"
+        },
+        "assist": {
+          "id": 150210,
+          "name": "I. Sadygov"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 129637,
+          "name": "Dani Fern\u00e1ndez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      }
+    ]
+  }
+}

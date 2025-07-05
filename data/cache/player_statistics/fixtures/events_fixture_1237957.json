@@ -1,0 +1,325 @@
+{
+  "cache_timestamp": "2025-07-04T13:34:00.947005",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1237957"
+    },
+    "errors": [],
+    "results": 14,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 3,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 336567,
+          "name": "S. K\u0131l\u0131\u00e7soy"
+        },
+        "assist": {
+          "id": 36889,
+          "name": "J. Svensson"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 9,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 87633,
+          "name": "M. Bok\u00e9l\u00e9"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Own Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 994,
+          "name": "Goztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png"
+        },
+        "player": {
+          "id": 87633,
+          "name": "M. Bok\u00e9l\u00e9"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 32,
+          "extra": null
+        },
+        "team": {
+          "id": 994,
+          "name": "Goztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png"
+        },
+        "player": {
+          "id": 301272,
+          "name": "T. Alt\u0131karde\u015f"
+        },
+        "assist": {
+          "id": 351013,
+          "name": "K. Matsuki"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 994,
+          "name": "Goztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png"
+        },
+        "player": {
+          "id": 174609,
+          "name": "I. Solet"
+        },
+        "assist": {
+          "id": 352371,
+          "name": "Victor Hugo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 42006,
+          "name": "Al Musrati"
+        },
+        "assist": {
+          "id": 311083,
+          "name": "C. Ndour"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 50046,
+          "name": "E. Top\u00e7u"
+        },
+        "assist": {
+          "id": 1863,
+          "name": "C. Immobile"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 549,
+          "name": "Besiktas",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "player": {
+          "id": 36889,
+          "name": "Jonas Svensson"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 994,
+          "name": "Goztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png"
+        },
+        "player": {
+          "id": 351013,
+          "name": "K. Matsuki"
+        },
+        "assist": {
+          "id": 109691,
+          "name": "D. Tijani\u010d"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 994,
+          "name": "Goztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png"
+        },
+        "player": {
+          "id": 180916,
+          "name": "Juan"
+        },
+        "assist": {
+          "id": 291476,
+          "name": "D. Fofana"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 994,
+          "name": "Goztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png"
+        },
+        "player": {
+          "id": 1346,
+          "name": "\u0130. K\u00f6yba\u015f\u0131"
+        },
+        "assist": {
+          "id": 303493,
+          "name": "N. Miroshi"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 994,
+          "name": "Goztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png"
+        },
+        "player": {
+          "id": 134564,
+          "name": "O. Bayrak"
+        },
+        "assist": {
+          "id": 49964,
+          "name": "N. Sangar\u00e9"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 994,
+          "name": "Goztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png"
+        },
+        "player": {
+          "id": 291476,
+          "name": "D. Fofana"
+        },
+        "assist": {
+          "id": 326102,
+          "name": "R\u00f4mulo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 994,
+          "name": "Goztepe",
+          "logo": "https://media.api-sports.io/football/teams/994.png"
+        },
+        "player": {
+          "id": 109691,
+          "name": "D. Tijani\u010d"
+        },
+        "assist": {
+          "id": 326102,
+          "name": "R\u00f4mulo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

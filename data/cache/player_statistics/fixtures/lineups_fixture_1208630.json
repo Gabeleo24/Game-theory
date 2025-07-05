@@ -1,0 +1,480 @@
+{
+  "cache_timestamp": "2025-07-04T13:16:08.556039",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1208630"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png",
+          "colors": {
+            "player": {
+              "primary": "f00000",
+              "number": "ffffff",
+              "border": "f00000"
+            },
+            "goalkeeper": {
+              "primary": "3cda42",
+              "number": "ffffff",
+              "border": "3cda42"
+            }
+          }
+        },
+        "coach": {
+          "id": 1595,
+          "name": "D. Simeone",
+          "photo": "https://media.api-sports.io/football/coachs/1595.png"
+        },
+        "formation": "4-4-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 29,
+              "name": "J. Oblak",
+              "number": 13,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 753,
+              "name": "Marcos Llorente",
+              "number": 14,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 31,
+              "name": "J. Gim\u00e9nez",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 133,
+              "name": "C. Lenglet",
+              "number": 15,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 47566,
+              "name": "Javi Gal\u00e1n",
+              "number": 21,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 323935,
+              "name": "G. Simeone",
+              "number": 22,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 2472,
+              "name": "R. De Paul",
+              "number": 5,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 336594,
+              "name": "Pablo Barrios",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 67972,
+              "name": "C. Gallagher",
+              "number": 4,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 56,
+              "name": "A. Griezmann",
+              "number": 7,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 6009,
+              "name": "J. Alvarez",
+              "number": 19,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 8492,
+              "name": "A. S\u00f8rloth",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 50,
+              "name": "Koke",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 126936,
+              "name": "Samuel Lino",
+              "number": 12,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 53,
+              "name": "\u00c1. Correa",
+              "number": 10,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 20,
+              "name": "A. Witsel",
+              "number": 20,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2280,
+              "name": "C\u00e9sar Azpilicueta",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 22225,
+              "name": "Reinildo",
+              "number": 23,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 333379,
+              "name": "Antonio Gomis",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2465,
+              "name": "J. Musso",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 47301,
+              "name": "Robin Le Normand",
+              "number": 24,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 6503,
+              "name": "N. Molina",
+              "number": 16,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 136117,
+              "name": "Rodrigo Riquelme",
+              "number": 17,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "ce0000",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "e8ff01",
+              "number": "0d0d0d",
+              "border": "e8ff01"
+            }
+          }
+        },
+        "coach": {
+          "id": 5391,
+          "name": "Garc\u00eda Pimienta",
+          "photo": "https://media.api-sports.io/football/coachs/5391.png"
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 47016,
+              "name": "\u00c1lvaro Fern\u00e1ndez",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 195923,
+              "name": "Jos\u00e9 \u00c1ngel Carmona",
+              "number": 32,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 174918,
+              "name": "L. Bad\u00e9",
+              "number": 22,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1489,
+              "name": "N. Gudelj",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 297311,
+              "name": "Kike Salas",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 182772,
+              "name": "Juanlu S\u00e1nchez",
+              "number": 26,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 21004,
+              "name": "L. Agoum\u00e9",
+              "number": 18,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 957,
+              "name": "D. Sow",
+              "number": 20,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 25458,
+              "name": "D. Luk\u00e9bakio",
+              "number": 11,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 185398,
+              "name": "Isaac Romero",
+              "number": 7,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 162126,
+              "name": "Peque Fern\u00e1ndez",
+              "number": 14,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 48,
+              "name": "Sa\u00fal",
+              "number": 17,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2468,
+              "name": "G. Montiel",
+              "number": 15,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 433,
+              "name": "Marc\u00e3o",
+              "number": 23,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2778,
+              "name": "K. \u1ecaheanach\u1ecd",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 308346,
+              "name": "Alberto Flores",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 119235,
+              "name": "Pedro Ortiz",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 319572,
+              "name": "V. Barco",
+              "number": 19,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 340152,
+              "name": "S. Idumbo",
+              "number": 27,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1650,
+              "name": "Suso",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2054,
+              "name": "Jes\u00fas Navas",
+              "number": 16,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 19172,
+              "name": "\u00d8. Nyland",
+              "number": 13,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

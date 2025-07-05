@@ -1,0 +1,325 @@
+{
+  "cache_timestamp": "2025-07-04T12:39:37.911233",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1314661"
+    },
+    "errors": [],
+    "results": 14,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 36895,
+          "name": "Kian Fitz-Jim"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 427,
+          "name": "Telstar",
+          "logo": "https://media.api-sports.io/football/teams/427.png"
+        },
+        "player": {
+          "id": 37928,
+          "name": "Danny Bakker"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 37160,
+          "name": "S. Berghuis"
+        },
+        "assist": {
+          "id": 37652,
+          "name": "B. van den Boomen"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 38750,
+          "name": "B. Brobbey"
+        },
+        "assist": {
+          "id": 25416,
+          "name": "W. Weghorst"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 427,
+          "name": "Telstar",
+          "logo": "https://media.api-sports.io/football/teams/427.png"
+        },
+        "player": {
+          "id": 36850,
+          "name": "M. Hamdaoui"
+        },
+        "assist": {
+          "id": 379487,
+          "name": "S. Hetli"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 427,
+          "name": "Telstar",
+          "logo": "https://media.api-sports.io/football/teams/427.png"
+        },
+        "player": {
+          "id": 149225,
+          "name": "T. Owusu"
+        },
+        "assist": {
+          "id": 399875,
+          "name": "J. Turfkruier"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 36895,
+          "name": "K. Fitz-Jim"
+        },
+        "assist": {
+          "id": 38749,
+          "name": "K. Taylor"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 340153,
+          "name": "M. Godts"
+        },
+        "assist": {
+          "id": 2380,
+          "name": "C. Akpom"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 861,
+          "name": "D. Rugani"
+        },
+        "assist": {
+          "id": 37652,
+          "name": "B. van den Boomen"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 427,
+          "name": "Telstar",
+          "logo": "https://media.api-sports.io/football/teams/427.png"
+        },
+        "player": {
+          "id": 281160,
+          "name": "D. Koswal"
+        },
+        "assist": {
+          "id": 272692,
+          "name": "S. Dirks"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 671,
+          "name": "B. Traor\u00e9"
+        },
+        "assist": {
+          "id": 25321,
+          "name": "D. Klaassen"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 427,
+          "name": "Telstar",
+          "logo": "https://media.api-sports.io/football/teams/427.png"
+        },
+        "player": {
+          "id": 37252,
+          "name": "J. Hardeveld"
+        },
+        "assist": {
+          "id": 406846,
+          "name": "T. Noslin"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 427,
+          "name": "Telstar",
+          "logo": "https://media.api-sports.io/football/teams/427.png"
+        },
+        "player": {
+          "id": 349560,
+          "name": "N. Rossen"
+        },
+        "assist": {
+          "id": 93460,
+          "name": "R. Kharchouch"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "player": {
+          "id": 2380,
+          "name": "C. Akpom"
+        },
+        "assist": {
+          "id": 313941,
+          "name": "A. Gaaei"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

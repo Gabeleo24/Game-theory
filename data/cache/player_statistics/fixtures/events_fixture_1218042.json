@@ -1,0 +1,39 @@
+{
+  "cache_timestamp": "2025-07-04T12:10:42.655947",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1218042"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 6822,
+          "name": "Rodina Moskva",
+          "logo": "https://media.api-sports.io/football/teams/6822.png"
+        },
+        "player": {
+          "id": 8196,
+          "name": "A. Yushin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

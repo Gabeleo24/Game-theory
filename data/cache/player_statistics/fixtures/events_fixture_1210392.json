@@ -1,0 +1,303 @@
+{
+  "cache_timestamp": "2025-07-04T12:31:18.725594",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1210392"
+    },
+    "errors": [],
+    "results": 13,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 66387,
+          "name": "Pavel \u0160ulc"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 66387,
+          "name": "P. \u0160ulc"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 3723,
+          "name": "Hradec Kr\u00e1lov\u00e9",
+          "logo": "https://media.api-sports.io/football/teams/3723.png"
+        },
+        "player": {
+          "id": 66243,
+          "name": "Jakub Kl\u00edma"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 3723,
+          "name": "Hradec Kr\u00e1lov\u00e9",
+          "logo": "https://media.api-sports.io/football/teams/3723.png"
+        },
+        "player": {
+          "id": 61174,
+          "name": "L. \u010cmel\u00edk"
+        },
+        "assist": {
+          "id": 329444,
+          "name": "M. N\u00e1prstek"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 3723,
+          "name": "Hradec Kr\u00e1lov\u00e9",
+          "logo": "https://media.api-sports.io/football/teams/3723.png"
+        },
+        "player": {
+          "id": 426130,
+          "name": "Karel Spacil"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 3723,
+          "name": "Hradec Kr\u00e1lov\u00e9",
+          "logo": "https://media.api-sports.io/football/teams/3723.png"
+        },
+        "player": {
+          "id": 304574,
+          "name": "Petr Juli\u0161"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 66659,
+          "name": "D. Va\u0161ul\u00edn"
+        },
+        "assist": {
+          "id": 306368,
+          "name": "Ricardinho"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 216553,
+          "name": "Cadu"
+        },
+        "assist": {
+          "id": 799,
+          "name": "M. Havel"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 18930,
+          "name": "M. Vydra"
+        },
+        "assist": {
+          "id": 355,
+          "name": "E. Jirka"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 3723,
+          "name": "Hradec Kr\u00e1lov\u00e9",
+          "logo": "https://media.api-sports.io/football/teams/3723.png"
+        },
+        "player": {
+          "id": 66243,
+          "name": "J. Kl\u00edma"
+        },
+        "assist": {
+          "id": 66146,
+          "name": "M. Koubek"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 3723,
+          "name": "Hradec Kr\u00e1lov\u00e9",
+          "logo": "https://media.api-sports.io/football/teams/3723.png"
+        },
+        "player": {
+          "id": 66146,
+          "name": "Mat\u011bj Koubek"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 8
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "player": {
+          "id": 66387,
+          "name": "P. \u0160ulc"
+        },
+        "assist": {
+          "id": 386837,
+          "name": "A. Sojka"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 3723,
+          "name": "Hradec Kr\u00e1lov\u00e9",
+          "logo": "https://media.api-sports.io/football/teams/3723.png"
+        },
+        "player": {
+          "id": 304574,
+          "name": "P. Juli\u0161"
+        },
+        "assist": {
+          "id": 356113,
+          "name": "D. Hais"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      }
+    ]
+  }
+}

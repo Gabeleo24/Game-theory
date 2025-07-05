@@ -1,0 +1,237 @@
+{
+  "cache_timestamp": "2025-07-04T11:59:54.802564",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1299010"
+    },
+    "errors": [],
+    "results": 10,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 978,
+          "name": "K. Havertz"
+        },
+        "assist": {
+          "id": 1946,
+          "name": "L. Trossard"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 1460,
+          "name": "B. Saka"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 38746,
+          "name": "J. Timber"
+        },
+        "assist": {
+          "id": 61431,
+          "name": "J. Kiwior"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 49,
+          "name": "T. Partey"
+        },
+        "assist": {
+          "id": 47311,
+          "name": "Mikel Merino"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 128384,
+          "name": "Vitinha"
+        },
+        "assist": {
+          "id": 328,
+          "name": "Fabi\u00e1n Ruiz"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 343027,
+          "name": "D. Dou\u00e9"
+        },
+        "assist": {
+          "id": 21104,
+          "name": "R. Kolo Muani"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 1946,
+          "name": "L. Trossard"
+        },
+        "assist": {
+          "id": 643,
+          "name": "Gabriel Jesus"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 157052,
+          "name": "Riccardo Calafiori"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png"
+        },
+        "player": {
+          "id": 328,
+          "name": "Fabi\u00e1n Ruiz"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 1460,
+          "name": "B. Saka"
+        },
+        "assist": {
+          "id": 313245,
+          "name": "M. Lewis-Skelly"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  }
+}

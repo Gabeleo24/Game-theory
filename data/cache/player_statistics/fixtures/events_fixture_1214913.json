@@ -1,0 +1,523 @@
+{
+  "cache_timestamp": "2025-07-04T12:49:55.444899",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1214913"
+    },
+    "errors": [],
+    "results": 23,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 11
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 338794,
+          "name": "Ilay Feingold"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 8
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 126500,
+          "name": "Ali Mohamed"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 8
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 126500,
+          "name": "Ali Mohamed"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 5
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 110987,
+          "name": "Dolev Haziza"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 8
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 126500,
+          "name": "Ali Mohamed"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 7
+        },
+        "team": {
+          "id": 657,
+          "name": "Beitar Jerusalem",
+          "logo": "https://media.api-sports.io/football/teams/657.png"
+        },
+        "player": {
+          "id": 108018,
+          "name": "Y. Shua"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 397734,
+          "name": "O. Dahan"
+        },
+        "assist": {
+          "id": 106804,
+          "name": "G. Kinda"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 657,
+          "name": "Beitar Jerusalem",
+          "logo": "https://media.api-sports.io/football/teams/657.png"
+        },
+        "player": {
+          "id": 76432,
+          "name": "Ismaila Soro"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 657,
+          "name": "Beitar Jerusalem",
+          "logo": "https://media.api-sports.io/football/teams/657.png"
+        },
+        "player": {
+          "id": 41143,
+          "name": "Miguel Silva"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Professional foul last man"
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 657,
+          "name": "Beitar Jerusalem",
+          "logo": "https://media.api-sports.io/football/teams/657.png"
+        },
+        "player": {
+          "id": 111408,
+          "name": "Gil Cohen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Card upgrade",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 657,
+          "name": "Beitar Jerusalem",
+          "logo": "https://media.api-sports.io/football/teams/657.png"
+        },
+        "player": {
+          "id": 2846,
+          "name": "M. George"
+        },
+        "assist": {
+          "id": 111040,
+          "name": "R. Carmi"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 12939,
+          "name": "Dia Saba"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 50990,
+          "name": "K. Saief"
+        },
+        "assist": {
+          "id": 8461,
+          "name": "L. Refaelov"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 657,
+          "name": "Beitar Jerusalem",
+          "logo": "https://media.api-sports.io/football/teams/657.png"
+        },
+        "player": {
+          "id": 56010,
+          "name": "D. Micha"
+        },
+        "assist": {
+          "id": 263226,
+          "name": "S. Kani"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 110987,
+          "name": "D. Haziza"
+        },
+        "assist": {
+          "id": 304334,
+          "name": "I. Hagag"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 657,
+          "name": "Beitar Jerusalem",
+          "logo": "https://media.api-sports.io/football/teams/657.png"
+        },
+        "player": {
+          "id": 126957,
+          "name": "Zohar Zasano"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 12939,
+          "name": "Dia Saba"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 657,
+          "name": "Beitar Jerusalem",
+          "logo": "https://media.api-sports.io/football/teams/657.png"
+        },
+        "player": {
+          "id": 263226,
+          "name": "S. Kani"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 657,
+          "name": "Beitar Jerusalem",
+          "logo": "https://media.api-sports.io/football/teams/657.png"
+        },
+        "player": {
+          "id": 126957,
+          "name": "Z. Zasno"
+        },
+        "assist": {
+          "id": 201271,
+          "name": "L. Mizrachi"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 657,
+          "name": "Beitar Jerusalem",
+          "logo": "https://media.api-sports.io/football/teams/657.png"
+        },
+        "player": {
+          "id": 131558,
+          "name": "T. Muzi"
+        },
+        "assist": {
+          "id": 47374,
+          "name": "P. Twumasi"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 136155,
+          "name": "M. Jaber"
+        },
+        "assist": {
+          "id": 162272,
+          "name": "E. Azoulay"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 50990,
+          "name": "K. Saief"
+        },
+        "assist": {
+          "id": 308839,
+          "name": "X. Severina"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 657,
+          "name": "Beitar Jerusalem",
+          "logo": "https://media.api-sports.io/football/teams/657.png"
+        },
+        "player": {
+          "id": 47374,
+          "name": "P. Twumasi"
+        },
+        "assist": {
+          "id": 108018,
+          "name": "Y. Shua"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

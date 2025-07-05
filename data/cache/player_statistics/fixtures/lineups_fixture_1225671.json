@@ -1,0 +1,543 @@
+{
+  "cache_timestamp": "2025-07-04T12:36:44.190035",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1225671"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png",
+          "colors": {
+            "player": {
+              "primary": "0026bd",
+              "number": "ffffff",
+              "border": "0026bd"
+            },
+            "goalkeeper": {
+              "primary": "32ee2b",
+              "number": "ffffff",
+              "border": "32ee2b"
+            }
+          }
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 106792,
+              "name": "Justin Heekeren",
+              "number": 28,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 203018,
+              "name": "Mehmet Ayd\u0131n",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 323584,
+              "name": "Martin Wasinski",
+              "number": 21,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 405691,
+              "name": "Felipe S\u00e1nchez",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 3003,
+              "name": "Marcin Kami\u0144ski",
+              "number": 35,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 26397,
+              "name": "Janik Bachmann",
+              "number": 14,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 25161,
+              "name": "Paul Seguin",
+              "number": 7,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 115,
+              "name": "Moussa Sylla",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 25155,
+              "name": "Tobias Mohr",
+              "number": 29,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 335,
+              "name": "Amin Younes",
+              "number": 8,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 25466,
+              "name": "Kenan Karaman",
+              "number": 19,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 19262,
+              "name": "Tom\u00e1\u0161 Kalas",
+              "number": 26,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 37760,
+              "name": "Derry Murkin",
+              "number": 5,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 88140,
+              "name": "Ron Schallenberg",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 361411,
+              "name": "Vitalie Becker",
+              "number": 33,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 394663,
+              "name": "Taylan Bulut",
+              "number": 31,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 266192,
+              "name": "Adrian Gantenbein",
+              "number": 17,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 25586,
+              "name": "Anton Donkor",
+              "number": 30,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 380854,
+              "name": "Max Gr\u00fcger",
+              "number": 37,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 356492,
+              "name": "Peter Remmert",
+              "number": 39,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 24861,
+              "name": "Sebastian Polter",
+              "number": 40,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 496,
+              "name": "Ron-Thorben Hoffmann",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 397,
+              "name": "Michael Langer",
+              "number": 34,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 334361,
+              "name": "Luca Podlech",
+              "number": 23,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 380977,
+              "name": "Niklas Barthel",
+              "number": 36,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1717,
+              "name": "Leo Greiml",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 178375,
+              "name": "Henning Matriciani",
+              "number": 41,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 380507,
+              "name": "Aris Bayindir",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 17637,
+          "name": "K. Geraerts",
+          "photo": "https://media.api-sports.io/football/coachs/17637.png"
+        }
+      },
+      {
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "0000cc",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "00ee23",
+              "number": "ffffff",
+              "border": "00ee23"
+            }
+          }
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 2158,
+              "name": "Heorhiy Bushchan",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 340624,
+              "name": "Navin Malysh",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 198390,
+              "name": "Maksym Diachuk",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 63434,
+              "name": "Oleksandr Tymchyk",
+              "number": 24,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 63564,
+              "name": "Vladyslav Dubinchak",
+              "number": 44,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 38725,
+              "name": "Justin Lonwijk",
+              "number": 17,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 2170,
+              "name": "Oleksandr Andriyevskyi",
+              "number": 18,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 18834,
+              "name": "Andriy Yarmolenko",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 335039,
+              "name": "Anton Tsarenko",
+              "number": 37,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 2172,
+              "name": "Vitaliy Buyalskyi",
+              "number": 29,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2188,
+              "name": "Vladyslav Supryaga",
+              "number": 21,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 154864,
+              "name": "Ruslan Neshcheret",
+              "number": 35,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Denys Ihnatenko",
+              "number": 74,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 161686,
+              "name": "Kostiantyn Vivcharenko",
+              "number": 2,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2167,
+              "name": "Denys Popov",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 55877,
+              "name": "Oleksandr Karavayev",
+              "number": 20,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162227,
+              "name": "Kristian Bilovar",
+              "number": 40,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 283566,
+              "name": "Volodymyr Brazhko",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2177,
+              "name": "Mykola Shaparenko",
+              "number": 40,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 198391,
+              "name": "Nazar Voloshyn",
+              "number": 9,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63452,
+              "name": "Vladyslav Kabaiev",
+              "number": 22,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 63420,
+              "name": "Oleksandr Pikhalyonok",
+              "number": 76,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2178,
+              "name": "Volodymyr Shepeliev",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 161670,
+              "name": "Vladyslav Vanat",
+              "number": 11,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 21868,
+          "name": "O. Shovkovskyi",
+          "photo": "https://media.api-sports.io/football/coachs/21868.png"
+        }
+      }
+    ]
+  }
+}

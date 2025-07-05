@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T12:25:11.282944",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213004"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 7541,
+          "name": "Victor S\u00e1"
+        },
+        "assist": {
+          "id": 289592,
+          "name": "K. Casta\u00f1o"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 195505,
+          "name": "N. Marichal"
+        },
+        "assist": {
+          "id": 2077,
+          "name": "D. Skopintsev"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 130247,
+          "name": "Batxi"
+        },
+        "assist": {
+          "id": 237056,
+          "name": "O. Olusegun"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 289592,
+          "name": "K. Casta\u00f1o"
+        },
+        "assist": {
+          "id": 2079,
+          "name": "A. Chernikov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2075,
+          "name": "S. Petrov"
+        },
+        "assist": {
+          "id": 2610,
+          "name": "G. Gonz\u00e1lez"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 143363,
+          "name": "Diego Costa"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 47433,
+          "name": "Lucas Olaza"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2610,
+          "name": "Giovanni Gonz\u00e1lez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 237056,
+          "name": "Olakunle Olusegun"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 43565,
+          "name": "E. Spertsyan"
+        },
+        "assist": {
+          "id": 202211,
+          "name": "N. Krivtsov"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 282712,
+          "name": "Y. Gladyshev"
+        },
+        "assist": {
+          "id": 127280,
+          "name": "D. Makarov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 7541,
+          "name": "Victor S\u00e1"
+        },
+        "assist": {
+          "id": 323556,
+          "name": "M. Cobnan"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 2500,
+          "name": "Fabi\u00e1n Balbuena"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 1197,
+          "name": "A. Lunev"
+        },
+        "assist": {
+          "id": 53646,
+          "name": "I. Leshchuk"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 35690,
+          "name": "L. Ch\u00e1vez"
+        },
+        "assist": {
+          "id": 290118,
+          "name": "L. Gagnidze"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 1088,
+          "name": "Dynamo",
+          "logo": "https://media.api-sports.io/football/teams/1088.png"
+        },
+        "player": {
+          "id": 5994,
+          "name": "J. Carrascal"
+        },
+        "assist": {
+          "id": 362578,
+          "name": "D. Bokov"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 6
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 24810,
+          "name": "J. C\u00f3rdoba"
+        },
+        "assist": {
+          "id": 493,
+          "name": "F. Smolov"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      }
+    ]
+  }
+}

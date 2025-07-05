@@ -1,0 +1,369 @@
+{
+  "cache_timestamp": "2025-07-04T11:49:50.510923",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1299116"
+    },
+    "errors": [],
+    "results": 16,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 8,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 522,
+          "name": "T. M\u00fcller"
+        },
+        "assist": {
+          "id": 502,
+          "name": "J. Kimmich"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 32,
+          "extra": null
+        },
+        "team": {
+          "id": 656,
+          "name": "Slovan Bratislava",
+          "logo": "https://media.api-sports.io/football/teams/656.png"
+        },
+        "player": {
+          "id": 2975,
+          "name": "C\u00e9sar Blackman"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 270510,
+          "name": "M. Tel"
+        },
+        "assist": {
+          "id": 508,
+          "name": "K. Coman"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 2195,
+          "name": "S. Boey"
+        },
+        "assist": {
+          "id": 510,
+          "name": "S. Gnabry"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 522,
+          "name": "T. M\u00fcller"
+        },
+        "assist": {
+          "id": 181812,
+          "name": "J. Musiala"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 656,
+          "name": "Slovan Bratislava",
+          "logo": "https://media.api-sports.io/football/teams/656.png"
+        },
+        "player": {
+          "id": 383041,
+          "name": "N. Marcelli"
+        },
+        "assist": {
+          "id": 61146,
+          "name": "J. Medved\u011bv"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 184,
+          "name": "H. Kane"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 656,
+          "name": "Slovan Bratislava",
+          "logo": "https://media.api-sports.io/football/teams/656.png"
+        },
+        "player": {
+          "id": 61156,
+          "name": "D. Strelec"
+        },
+        "assist": {
+          "id": 281323,
+          "name": "I. Metsoko"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 656,
+          "name": "Slovan Bratislava",
+          "logo": "https://media.api-sports.io/football/teams/656.png"
+        },
+        "player": {
+          "id": 56132,
+          "name": "T. Barseghyan"
+        },
+        "assist": {
+          "id": 1213,
+          "name": "R. Mak"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 656,
+          "name": "Slovan Bratislava",
+          "logo": "https://media.api-sports.io/football/teams/656.png"
+        },
+        "player": {
+          "id": 131516,
+          "name": "S. Zuberu"
+        },
+        "assist": {
+          "id": 14677,
+          "name": "M. Toli\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 656,
+          "name": "Slovan Bratislava",
+          "logo": "https://media.api-sports.io/football/teams/656.png"
+        },
+        "player": {
+          "id": 7786,
+          "name": "J. Sz\u00f6ke"
+        },
+        "assist": {
+          "id": 76975,
+          "name": "A. Mustafi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 656,
+          "name": "Slovan Bratislava",
+          "logo": "https://media.api-sports.io/football/teams/656.png"
+        },
+        "player": {
+          "id": 68198,
+          "name": "Kyriakos Savvidis"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 656,
+          "name": "Slovan Bratislava",
+          "logo": "https://media.api-sports.io/football/teams/656.png"
+        },
+        "player": {
+          "id": 61149,
+          "name": "Kenan Bajri\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 508,
+          "name": "K. Coman"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 125171,
+          "name": "J. Stani\u0161i\u0107"
+        },
+        "assist": {
+          "id": 8,
+          "name": "Rapha\u00ebl Guerreiro"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 656,
+          "name": "Slovan Bratislava",
+          "logo": "https://media.api-sports.io/football/teams/656.png"
+        },
+        "player": {
+          "id": 14677,
+          "name": "M. Toli\u0107"
+        },
+        "assist": {
+          "id": 61146,
+          "name": "J. Medved\u011bv"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

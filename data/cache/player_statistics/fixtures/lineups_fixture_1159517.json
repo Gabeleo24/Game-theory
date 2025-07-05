@@ -1,0 +1,399 @@
+{
+  "cache_timestamp": "2025-07-04T12:41:39.287378",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1159517"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png",
+          "colors": {
+            "player": {
+              "primary": "79bcff",
+              "number": "ffffff",
+              "border": "79bcff"
+            },
+            "goalkeeper": {
+              "primary": "5a3333",
+              "number": "ffffff",
+              "border": "5a3333"
+            }
+          }
+        },
+        "formation": "3-4-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 39056,
+              "name": "Ricardo Friedrich",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2733,
+              "name": "Jens Stryger Larsen",
+              "number": 17,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 19124,
+              "name": "Pontus Jansson",
+              "number": 18,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 51295,
+              "name": "Derek Cornelius",
+              "number": 19,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 160925,
+              "name": "Taha  Ali",
+              "number": 22,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 41448,
+              "name": "Sergio Pe\u00f1a",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 39141,
+              "name": "Lasse Berg Johnsen",
+              "number": 23,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 129964,
+              "name": "Busanello",
+              "number": 25,
+              "pos": "D",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 226803,
+              "name": "Sebastian Nanasi",
+              "number": 11,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1188,
+              "name": "Erik Botheim",
+              "number": 42,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 306955,
+              "name": "Otto Rosengren",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 19319,
+              "name": "Martin Olsson",
+              "number": 13,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1958,
+              "name": "Anders Christiansen",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 105145,
+              "name": "Mathias Nilsson",
+              "number": 12,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 1380,
+          "name": "H. Rydstr\u00f6m",
+          "photo": "https://media.api-sports.io/football/coachs/1380.png"
+        }
+      },
+      {
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png",
+          "colors": {
+            "player": {
+              "primary": "5cfab6",
+              "number": "ffffff",
+              "border": "5cfab6"
+            },
+            "goalkeeper": {
+              "primary": "01598b",
+              "number": "ffffff",
+              "border": "01598b"
+            }
+          }
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 39104,
+              "name": "Kjetil Haug",
+              "number": 46,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 57173,
+              "name": "Brice Wembangomo",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 39061,
+              "name": "Brede Moe",
+              "number": 18,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 39352,
+              "name": "Jostein Gundersen",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 39058,
+              "name": "Fredrik Andr\u00e9 Bj\u00f8rkan",
+              "number": 15,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 39069,
+              "name": "Ulrik Saltnes",
+              "number": 14,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 39064,
+              "name": "Patrick Berg",
+              "number": 77,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 263177,
+              "name": "Albert Gr\u00f8nb\u00e6k",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 39169,
+              "name": "Sondre S\u00f6rli",
+              "number": 27,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 39065,
+              "name": "H\u00e5kon Evjen",
+              "number": 26,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 39073,
+              "name": "Jens Petter Hauge",
+              "number": 23,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 131309,
+              "name": "Nino \u017dugelj",
+              "number": 99,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 39368,
+              "name": "Runar Espejord",
+              "number": 11,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 364814,
+              "name": "Daniel Bassi",
+              "number": 10,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 146053,
+              "name": "Tobias Fjeld Gulliksen",
+              "number": 25,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 319319,
+              "name": "Magnus Br\u00f8ndbo",
+              "number": 44,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 39060,
+              "name": "Marius Lode",
+              "number": 2,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 216754,
+              "name": "Isak Helstad Amundsen",
+              "number": 6,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 39083,
+              "name": "Odin Luras Bjortuft",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 16061,
+              "name": "Adam S\u00f8rensen",
+              "number": 30,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 351483,
+              "name": "Fredrik Sj\u00f8vold",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 410604,
+              "name": "Oscar Forsmo Kapskarmo",
+              "number": 28,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 1952,
+          "name": "K. Knutsen",
+          "photo": "https://media.api-sports.io/football/coachs/1952.png"
+        }
+      }
+    ]
+  }
+}

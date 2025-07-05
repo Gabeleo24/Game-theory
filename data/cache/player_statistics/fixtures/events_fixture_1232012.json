@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T13:01:22.325580",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1232012"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 6,
+          "extra": null
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 178913,
+          "name": "Ricardinho"
+        },
+        "assist": {
+          "id": 41234,
+          "name": "Diogo Calila"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 47,
+          "extra": null
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "player": {
+          "id": 41103,
+          "name": "Ricardo Horta"
+        },
+        "assist": {
+          "id": 153290,
+          "name": "V\u00edctor G\u00f3mez"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 305839,
+          "name": "MT"
+        },
+        "assist": {
+          "id": 41145,
+          "name": "Frederico Ven\u00e2ncio"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 10152,
+          "name": "Gabriel Batista"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 266630,
+          "name": "Gabriel Silva"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "player": {
+          "id": 310196,
+          "name": "Isma\u00ebl Gharbi"
+        },
+        "assist": {
+          "id": 325165,
+          "name": "Roger Fernandes"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "player": {
+          "id": 936,
+          "name": "Fran Navarro"
+        },
+        "assist": {
+          "id": 449102,
+          "name": "Afonso Patr\u00e3o"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 279452,
+          "name": "Jo\u00e3o Costa"
+        },
+        "assist": {
+          "id": 10367,
+          "name": "Vin\u00edcius Lopes"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 279580,
+          "name": "Serginho"
+        },
+        "assist": {
+          "id": 41805,
+          "name": "Pedro Ferreira"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 141289,
+          "name": "Sidney Lima"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "player": {
+          "id": 47087,
+          "name": "U. Ra\u010di\u0107"
+        },
+        "assist": {
+          "id": 330295,
+          "name": "J. Gorby"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 178913,
+          "name": "Ricardinho"
+        },
+        "assist": {
+          "id": 9849,
+          "name": "Matheusinho"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 266630,
+          "name": "Gabriel Silva"
+        },
+        "assist": {
+          "id": 80522,
+          "name": "Wendel"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "player": {
+          "id": 108563,
+          "name": "R. Zalazar"
+        },
+        "assist": {
+          "id": 297303,
+          "name": "Gabri Mart\u00ednez"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 41546,
+          "name": "Lu\u00eds Rocha"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 195091,
+          "name": "Matheus Pereira"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "player": {
+          "id": 126761,
+          "name": "Adriano Firmino"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T13:26:41.143928",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1309284"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "player": {
+          "id": 298128,
+          "name": "Kaine Kesler-Hayden"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 24,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 643,
+          "name": "Gabriel Jesus"
+        },
+        "assist": {
+          "id": 61431,
+          "name": "J. Kiwior"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 33,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 313236,
+          "name": "E. Nwaneri"
+        },
+        "assist": {
+          "id": 643,
+          "name": "Gabriel Jesus"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 47311,
+          "name": "Mikel Merino"
+        },
+        "assist": {
+          "id": 978,
+          "name": "K. Havertz"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 38746,
+          "name": "J. Timber"
+        },
+        "assist": {
+          "id": 49,
+          "name": "T. Partey"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "player": {
+          "id": 17534,
+          "name": "Andrew Hughes"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 978,
+          "name": "K. Havertz"
+        },
+        "assist": {
+          "id": 61431,
+          "name": "J. Kiwior"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "player": {
+          "id": 83029,
+          "name": "J. Bowler"
+        },
+        "assist": {
+          "id": 15858,
+          "name": "M. Fr\u00f8kj\u00e6r-Jensen"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "player": {
+          "id": 153400,
+          "name": "S. Greenwood"
+        },
+        "assist": {
+          "id": 15705,
+          "name": "E. Riis"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "player": {
+          "id": 298128,
+          "name": "K. Kesler-Hayden"
+        },
+        "assist": {
+          "id": 19455,
+          "name": "B. Potts"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 127769,
+          "name": "Gabriel Martinelli"
+        },
+        "assist": {
+          "id": 1460,
+          "name": "B. Saka"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 641,
+          "name": "O. Zinchenko"
+        },
+        "assist": {
+          "id": 313245,
+          "name": "M. Lewis-Skelly"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "player": {
+          "id": 17534,
+          "name": "A. Hughes"
+        },
+        "assist": {
+          "id": 430236,
+          "name": "K. Best"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "player": {
+          "id": 28714,
+          "name": "Stef\u00e1n Teitur \u00de\u00f3r\u00f0arson"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "player": {
+          "id": 19787,
+          "name": "L. Lindsay"
+        },
+        "assist": {
+          "id": 19442,
+          "name": "J. Storey"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media.api-sports.io/football/teams/42.png"
+        },
+        "player": {
+          "id": 313236,
+          "name": "E. Nwaneri"
+        },
+        "assist": {
+          "id": 402329,
+          "name": "A. Heaven"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "player": {
+          "id": 15858,
+          "name": "Mads Fr\u00f8kj\u00e6r-Jensen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      }
+    ]
+  }
+}

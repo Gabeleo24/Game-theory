@@ -1,0 +1,589 @@
+{
+  "cache_timestamp": "2025-07-04T11:57:58.197209",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1218112"
+    },
+    "errors": [],
+    "results": 26,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 7,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 142691,
+          "name": "Alexsandro"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 278783,
+          "name": "T. Morais"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 334878,
+          "name": "U. Raghouber"
+        },
+        "assist": {
+          "id": 142691,
+          "name": "Alexsandro"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 24288,
+          "name": "M. Bayo"
+        },
+        "assist": {
+          "id": 45892,
+          "name": "A. Ilic"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 349947,
+          "name": "A. Malouda"
+        },
+        "assist": {
+          "id": 48392,
+          "name": "E. Zhegrova"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 271572,
+          "name": "A. Virginius"
+        },
+        "assist": {
+          "id": 361445,
+          "name": "I. Ferrah"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 22093,
+          "name": "R. Cabella"
+        },
+        "assist": {
+          "id": 278783,
+          "name": "T. Morais"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 2204,
+          "name": "B. Andre"
+        },
+        "assist": {
+          "id": 896,
+          "name": "A. Gomes"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 291503,
+          "name": "I. Miramon"
+        },
+        "assist": {
+          "id": null,
+          "name": "A. Bouaddi"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 679,
+          "name": "Ismaily"
+        },
+        "assist": {
+          "id": 47969,
+          "name": "G. Gudmundsson"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 22136,
+          "name": "B. Diakite"
+        },
+        "assist": {
+          "id": 340080,
+          "name": "V. Burlet"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 351888,
+          "name": "O. Toure"
+        },
+        "assist": {
+          "id": 379329,
+          "name": "T. Santos"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png"
+        },
+        "player": {
+          "id": 8736,
+          "name": "T. Dierckx"
+        },
+        "assist": {
+          "id": 37067,
+          "name": "J. Vansteenkiste"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png"
+        },
+        "player": {
+          "id": 114133,
+          "name": "A. Staelens"
+        },
+        "assist": {
+          "id": 385521,
+          "name": "A. Spegelaere"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png"
+        },
+        "player": {
+          "id": 8898,
+          "name": "D. Prychynenko"
+        },
+        "assist": {
+          "id": 8790,
+          "name": "J. van Landschoot"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png"
+        },
+        "player": {
+          "id": 93084,
+          "name": "D. Moreo Klas"
+        },
+        "assist": {
+          "id": 104803,
+          "name": "J. Sierra"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png"
+        },
+        "player": {
+          "id": 8988,
+          "name": "G. De Schryver"
+        },
+        "assist": {
+          "id": null,
+          "name": "I. Burgos"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png"
+        },
+        "player": {
+          "id": 131962,
+          "name": "L. Mertens"
+        },
+        "assist": {
+          "id": 37304,
+          "name": "S. Braken"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png"
+        },
+        "player": {
+          "id": 8816,
+          "name": "T. Van Acker"
+        },
+        "assist": {
+          "id": 8565,
+          "name": "G. Hendrickx"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png"
+        },
+        "player": {
+          "id": 8776,
+          "name": "K. Schuermans"
+        },
+        "assist": {
+          "id": 8929,
+          "name": "L. Lemoine"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png"
+        },
+        "player": {
+          "id": null,
+          "name": "Y. Musuayi"
+        },
+        "assist": {
+          "id": null,
+          "name": "I. Mhand"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png"
+        },
+        "player": {
+          "id": 8981,
+          "name": "C. Janssens"
+        },
+        "assist": {
+          "id": 182753,
+          "name": "G. Almenara"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": null,
+          "name": "L. Olmeta"
+        },
+        "assist": {
+          "id": 51146,
+          "name": "V. Mannone"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 6214,
+          "name": "Deinze",
+          "logo": "https://media.api-sports.io/football/teams/6214.png"
+        },
+        "player": {
+          "id": 8736,
+          "name": "T. Dierckx"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": null,
+          "name": "T. Dago"
+        },
+        "assist": {
+          "id": 271572,
+          "name": "A. Virginius"
+        },
+        "type": "subst",
+        "detail": "Substitution 12",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 2204,
+          "name": "B. Andre"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "cache_timestamp": "2025-07-04T13:14:31.823916",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1214709"
+    },
+    "errors": [],
+    "results": 23,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 18,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 36983,
+          "name": "V. Drku\u0161i\u0107"
+        },
+        "assist": {
+          "id": 340726,
+          "name": "S. Lekovi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 32,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 398190,
+          "name": "M. Cvetkovi\u0107"
+        },
+        "assist": {
+          "id": 11017,
+          "name": "M. Cvetkovi\u0107"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 398190,
+          "name": "Mihajlo Cvetkovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 36,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 345,
+          "name": "M. Rodi\u0107"
+        },
+        "assist": {
+          "id": 66021,
+          "name": "G. Kanga"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 41,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 340726,
+          "name": "Stefan Lekovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 41,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 398190,
+          "name": "Mihajlo Cvetkovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 1
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 14379,
+          "name": "C. Ndiaye"
+        },
+        "assist": {
+          "id": 17789,
+          "name": "T. El\u0161nik"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 63475,
+          "name": "Bruno Duarte"
+        },
+        "assist": {
+          "id": 1920,
+          "name": "N. Radonji\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 263410,
+          "name": "Milson"
+        },
+        "assist": {
+          "id": 353,
+          "name": "M. Ivani\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 47,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 45941,
+          "name": "Nemanja Milojevi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 45941,
+          "name": "N. Milojevi\u0107"
+        },
+        "assist": {
+          "id": 445489,
+          "name": "A. Ba\u010danin"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 368102,
+          "name": "U. Miladinovi\u0107"
+        },
+        "assist": {
+          "id": 445489,
+          "name": "A. Ba\u010danin"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 368102,
+          "name": "Uro\u0161 Miladinovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 45840,
+          "name": "\u0110or\u0111e Ivanovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 14379,
+          "name": "C. Ndiaye"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 398190,
+          "name": "M. Cvetkovi\u0107"
+        },
+        "assist": {
+          "id": 45815,
+          "name": "S. Tedi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 368102,
+          "name": "U. Miladinovi\u0107"
+        },
+        "assist": {
+          "id": 46037,
+          "name": "L. Tufegd\u017ei\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 31054,
+          "name": "R. Kruni\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 45840,
+          "name": "\u0110. Ivanovi\u0107"
+        },
+        "assist": {
+          "id": 398193,
+          "name": "A. Suboti\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 2656,
+          "name": "Cukaricki",
+          "logo": "https://media.api-sports.io/football/teams/2656.png"
+        },
+        "player": {
+          "id": 11017,
+          "name": "M. Cvetkovi\u0107"
+        },
+        "assist": {
+          "id": 475580,
+          "name": "E. Dzigba"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 303322,
+          "name": "N. Djiga"
+        },
+        "assist": {
+          "id": 38699,
+          "name": "L. Ili\u0107"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 38699,
+          "name": "L. Ili\u0107"
+        },
+        "assist": {
+          "id": 41242,
+          "name": "D\u00e1lcio"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 31054,
+          "name": "R. Kruni\u0107"
+        },
+        "assist": {
+          "id": 353,
+          "name": "M. Ivani\u0107"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

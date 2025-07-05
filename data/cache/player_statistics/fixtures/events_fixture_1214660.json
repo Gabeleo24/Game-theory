@@ -1,0 +1,259 @@
+{
+  "cache_timestamp": "2025-07-04T13:14:18.660254",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1214660"
+    },
+    "errors": [],
+    "results": 11,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 19,
+          "extra": null
+        },
+        "team": {
+          "id": 702,
+          "name": "Vojvodina",
+          "logo": "https://media.api-sports.io/football/teams/702.png"
+        },
+        "player": {
+          "id": 10049,
+          "name": "Lucas Barros"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 398192,
+          "name": "A. Maksimovi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 33,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 303322,
+          "name": "N. Djiga"
+        },
+        "assist": {
+          "id": 66021,
+          "name": "G. Kanga"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 1
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 14379,
+          "name": "C. Ndiaye"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 20617,
+          "name": "S. Katompa Mvumpa"
+        },
+        "assist": {
+          "id": 1920,
+          "name": "N. Radonji\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 263410,
+          "name": "Milson"
+        },
+        "assist": {
+          "id": 38699,
+          "name": "L. Ili\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 1920,
+          "name": "N. Radonji\u0107"
+        },
+        "assist": {
+          "id": 50910,
+          "name": "A. Katai"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 398192,
+          "name": "A. Maksimovi\u0107"
+        },
+        "assist": {
+          "id": 281373,
+          "name": "E. Prutsev"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 598,
+          "name": "FK Crvena Zvezda",
+          "logo": "https://media.api-sports.io/football/teams/598.png"
+        },
+        "player": {
+          "id": 14379,
+          "name": "C. Ndiaye"
+        },
+        "assist": {
+          "id": 17789,
+          "name": "T. El\u0161nik"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 702,
+          "name": "Vojvodina",
+          "logo": "https://media.api-sports.io/football/teams/702.png"
+        },
+        "player": {
+          "id": 40183,
+          "name": "V. Savi\u0107evi\u0107"
+        },
+        "assist": {
+          "id": 30869,
+          "name": "L. Nikoli\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 702,
+          "name": "Vojvodina",
+          "logo": "https://media.api-sports.io/football/teams/702.png"
+        },
+        "player": {
+          "id": 162152,
+          "name": "A. Radulovi\u0107"
+        },
+        "assist": {
+          "id": 314423,
+          "name": "M. Veli\u010dkovi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      }
+    ]
+  }
+}

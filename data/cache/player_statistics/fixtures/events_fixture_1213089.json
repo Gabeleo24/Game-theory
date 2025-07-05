@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T12:34:16.117639",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213089"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 4,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "assist": {
+          "id": 43855,
+          "name": "A. Mostovoy"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 17,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 92189,
+          "name": "I. Sergeev"
+        },
+        "assist": {
+          "id": 43745,
+          "name": "I. Oleynikov"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 18,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 43745,
+          "name": "I. Oleynikov"
+        },
+        "assist": {
+          "id": 304214,
+          "name": "I. Dmitriev"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 28,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 92189,
+          "name": "I. Sergeev"
+        },
+        "assist": {
+          "id": 1779,
+          "name": "N. Rasskazov"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 36,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 7321,
+          "name": "Dominik Oroz"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 43855,
+          "name": "A. Mostovoy"
+        },
+        "assist": {
+          "id": 265909,
+          "name": "L. Gondou"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 309889,
+          "name": "S. Babkin"
+        },
+        "assist": {
+          "id": 271664,
+          "name": "V. Shitov"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 144743,
+          "name": "B. Garr\u00e9"
+        },
+        "assist": {
+          "id": 24608,
+          "name": "D. Ivanisenia"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1492,
+          "name": "Wendel"
+        },
+        "assist": {
+          "id": 363696,
+          "name": "Pedro Henrique"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 278549,
+          "name": "Gustavo Mantuan"
+        },
+        "assist": {
+          "id": 53772,
+          "name": "A. Sobolev"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 56080,
+          "name": "N. Alip"
+        },
+        "assist": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 304214,
+          "name": "I. Dmitriev"
+        },
+        "assist": {
+          "id": 339164,
+          "name": "U. Babaev"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 11442,
+          "name": "T. Galdames"
+        },
+        "assist": {
+          "id": 7975,
+          "name": "K. Pechenin"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 56080,
+          "name": "N. Alip"
+        },
+        "assist": {
+          "id": 1210,
+          "name": "A. Erokhin"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "assist": {
+          "id": 10040,
+          "name": "Artur"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 43745,
+          "name": "I. Oleynikov"
+        },
+        "assist": {
+          "id": 53648,
+          "name": "R. Evgenyev"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 6
+        },
+        "team": {
+          "id": 1079,
+          "name": "Krylia Sovetov",
+          "logo": "https://media.api-sports.io/football/teams/1079.png"
+        },
+        "player": {
+          "id": 53515,
+          "name": "Sergey Pesyakov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Time wasting"
+      }
+    ]
+  }
+}

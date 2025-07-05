@@ -1,0 +1,45 @@
+{
+  "cache_timestamp": "2025-07-04T13:11:50.437604",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1156615"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 3173,
+          "name": "M. Pusic",
+          "photo": "https://media.api-sports.io/football/coachs/3173.png"
+        },
+        "formation": null
+      },
+      {
+        "team": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 2887,
+          "name": "G. Dermendzhiev",
+          "photo": "https://media.api-sports.io/football/coachs/2887.png"
+        },
+        "formation": null
+      }
+    ]
+  }
+}

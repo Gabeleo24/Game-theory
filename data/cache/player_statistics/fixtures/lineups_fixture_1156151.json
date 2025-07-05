@@ -1,0 +1,269 @@
+{
+  "cache_timestamp": "2025-07-04T13:22:18.543580",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1156151"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png",
+          "colors": {
+            "player": {
+              "primary": "0026bd",
+              "number": "ffffff",
+              "border": "0026bd"
+            },
+            "goalkeeper": {
+              "primary": "95ee2b",
+              "number": "ffffff",
+              "border": "95ee2b"
+            }
+          }
+        },
+        "formation": "4-3-1-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 396,
+              "name": "Ralf F\u00e4hrmann",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 25007,
+              "name": "Cedric Brunner",
+              "number": 27,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 19262,
+              "name": "Tom\u00e1\u0161 Kalas",
+              "number": 26,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 3003,
+              "name": "Marcin Kami\u0144ski",
+              "number": 35,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 36888,
+              "name": "Thomas Ouwejan",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 108479,
+              "name": "Blendi Idrizi",
+              "number": 18,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 25161,
+              "name": "Paul Seguin",
+              "number": 7,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 25155,
+              "name": "Tobias Mohr",
+              "number": 29,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 25466,
+              "name": "Kenan Karaman",
+              "number": 19,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 24812,
+              "name": "Simon Terodde",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:2"
+            }
+          },
+          {
+            "player": {
+              "id": 334334,
+              "name": "Keke Topp",
+              "number": 42,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "coach": {
+          "id": 17637,
+          "name": "K. Geraerts",
+          "photo": "https://media.api-sports.io/football/coachs/17637.png"
+        }
+      },
+      {
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png",
+          "colors": {
+            "player": {
+              "primary": "3b4145",
+              "number": "4ca94a",
+              "border": "3b4145"
+            },
+            "goalkeeper": {
+              "primary": "8d8d8d",
+              "number": "1d2027",
+              "border": "8d8d8d"
+            }
+          }
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 2918,
+              "name": "Koen Casteels",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1930,
+              "name": "Joakim M\u00e6hle",
+              "number": 21,
+              "pos": "M",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 231032,
+              "name": "Moritz Jenz",
+              "number": 25,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1408,
+              "name": "Sebastiaan Bornauw",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 30527,
+              "name": "Rog\u00e9rio",
+              "number": 13,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 127413,
+              "name": "Aster Vranckx",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 25408,
+              "name": "Maximilian Arnold",
+              "number": 27,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 549,
+              "name": "V\u00e1clav \u010cern\u00fd",
+              "number": 7,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1321,
+              "name": "Lovro Majer",
+              "number": 19,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 40560,
+              "name": "Jakub Kami\u0144ski",
+              "number": 16,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1302,
+              "name": "Jonas Wind",
+              "number": 23,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "coach": {
+          "id": 1528,
+          "name": "N. Kova\u010d",
+          "photo": "https://media.api-sports.io/football/coachs/1528.png"
+        }
+      }
+    ]
+  }
+}

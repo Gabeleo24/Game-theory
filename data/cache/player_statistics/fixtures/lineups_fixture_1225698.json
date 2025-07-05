@@ -1,0 +1,453 @@
+{
+  "cache_timestamp": "2025-07-04T13:11:19.024015",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1225698"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 293,
+          "name": "Gamba Osaka",
+          "logo": "https://media.api-sports.io/football/teams/293.png",
+          "colors": {
+            "player": {
+              "primary": "202431",
+              "number": "ffffff",
+              "border": "202431"
+            },
+            "goalkeeper": {
+              "primary": "e7f133",
+              "number": "ffffff",
+              "border": "e7f133"
+            }
+          }
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 34046,
+              "name": "Kei Ishikawa",
+              "number": 25,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 33714,
+              "name": "Takeru Kishimoto",
+              "number": 15,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 32886,
+              "name": "Shinnosuke Nakatani",
+              "number": 20,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 33692,
+              "name": "Shota Fukuoka",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 33297,
+              "name": "Keisuke Kurokawa",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 9351,
+              "name": "Juan Alano",
+              "number": 47,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 10459,
+              "name": "Dawhan",
+              "number": 23,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 319012,
+              "name": "Rin Mito",
+              "number": 27,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 199795,
+              "name": "Ryoya Yamashita",
+              "number": 17,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 44497,
+              "name": "Issam Jebali",
+              "number": 11,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 33320,
+              "name": "Ryotaro Meshino",
+              "number": 8,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 33312,
+              "name": "Shu Kurata",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 111266,
+              "name": "Neta Lavi",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Ibuki Konno",
+              "number": 19,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 33164,
+              "name": "Riku Matsuda",
+              "number": 46,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 33338,
+              "name": "Hideki Ishige",
+              "number": 48,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 133320,
+              "name": "Jiro Nakamura",
+              "number": 41,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 455404,
+              "name": "Aolin Zhang",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 5342,
+          "name": "Daniel Algaba",
+          "photo": "https://media.api-sports.io/football/coachs/5342.png"
+        }
+      },
+      {
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "000000",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "86e0cf",
+              "number": "080808",
+              "border": "86e0cf"
+            }
+          }
+        },
+        "formation": "4-3-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 189832,
+              "name": "Unai Marrero",
+              "number": 13,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2202,
+              "name": "Hamari Traor\u00e9",
+              "number": 18,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 47314,
+              "name": "Igor Zubeldia",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 47298,
+              "name": "Aritz Elustondo",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 182636,
+              "name": "Javi L\u00f3pez",
+              "number": 21,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 47440,
+              "name": "Brais M\u00e9ndez",
+              "number": 23,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 183699,
+              "name": "Urko Gonz\u00e1lez",
+              "number": 26,
+              "pos": "D",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 290106,
+              "name": "Pablo Mar\u00edn",
+              "number": 29,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 32862,
+              "name": "Takefusa Kubo",
+              "number": 14,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 31406,
+              "name": "Umar Sadiq",
+              "number": 19,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 47317,
+              "name": "Ander Barrenetxea",
+              "number": 7,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 23,
+              "name": "Sergio G\u00f3mez",
+              "number": 39,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 37938,
+              "name": "Sheraldo Becker",
+              "number": 11,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 287652,
+              "name": "Jon Magunazelaia",
+              "number": 44,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 287653,
+              "name": "Alberto Dadie",
+              "number": 38,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 287654,
+              "name": "Jon Gorrotxategi",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 337843,
+              "name": "Aitor Fraga",
+              "number": 37,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 737,
+              "name": "\u00c1lvaro Odriozola",
+              "number": 2,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 405073,
+              "name": "Jon Martin",
+              "number": 36,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "I\u00f1aki Rup\u00e9rez",
+              "number": 22,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 182603,
+              "name": "Jon Ander Olasagasti",
+              "number": 16,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 288384,
+              "name": "Mikel Goti",
+              "number": 31,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 296757,
+              "name": "Jon Balda",
+              "number": 35,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Arkaitz Mariezkurrena",
+              "number": 31,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 1586,
+          "name": "Imanol Alguacil",
+          "photo": "https://media.api-sports.io/football/coachs/1586.png"
+        }
+      }
+    ]
+  }
+}

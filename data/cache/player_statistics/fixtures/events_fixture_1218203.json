@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T13:06:10.871675",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1218203"
+    },
+    "errors": [],
+    "results": 19,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 10,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 130256,
+          "name": "A. Franco"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 29,
+          "extra": null
+        },
+        "team": {
+          "id": 601,
+          "name": "Austria Vienna",
+          "logo": "https://media.api-sports.io/football/teams/601.png"
+        },
+        "player": {
+          "id": 263689,
+          "name": "M. Huskovic"
+        },
+        "assist": {
+          "id": 7657,
+          "name": "A. Gruber"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 3
+        },
+        "team": {
+          "id": 601,
+          "name": "Austria Vienna",
+          "logo": "https://media.api-sports.io/football/teams/601.png"
+        },
+        "player": {
+          "id": 25201,
+          "name": "Lucas Galvao"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 601,
+          "name": "Austria Vienna",
+          "logo": "https://media.api-sports.io/football/teams/601.png"
+        },
+        "player": {
+          "id": 7447,
+          "name": "M. Meisl"
+        },
+        "assist": {
+          "id": 70363,
+          "name": "M. Martins"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 601,
+          "name": "Austria Vienna",
+          "logo": "https://media.api-sports.io/football/teams/601.png"
+        },
+        "player": {
+          "id": 7353,
+          "name": "T. Plavotic"
+        },
+        "assist": {
+          "id": 25201,
+          "name": "Lucas Galvao"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 19625,
+          "name": "Danny Namaso"
+        },
+        "assist": {
+          "id": 936,
+          "name": "F. Navarro"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 41970,
+          "name": "D. Carmo"
+        },
+        "assist": {
+          "id": null,
+          "name": "G. Bras"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 41734,
+          "name": "Joao Mario"
+        },
+        "assist": {
+          "id": 266013,
+          "name": "Otavio"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 25350,
+          "name": "M. Grujic"
+        },
+        "assist": {
+          "id": 46828,
+          "name": "Ivan Jaime"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 161933,
+          "name": "Nico"
+        },
+        "assist": {
+          "id": 130256,
+          "name": "A. Franco"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 601,
+          "name": "Austria Vienna",
+          "logo": "https://media.api-sports.io/football/teams/601.png"
+        },
+        "player": {
+          "id": 323132,
+          "name": "M. Wels"
+        },
+        "assist": {
+          "id": 7681,
+          "name": "M. Fischer"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 601,
+          "name": "Austria Vienna",
+          "logo": "https://media.api-sports.io/football/teams/601.png"
+        },
+        "player": {
+          "id": 340172,
+          "name": "L. Pazourek"
+        },
+        "assist": {
+          "id": 993,
+          "name": "H. Guenouche"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 601,
+          "name": "Austria Vienna",
+          "logo": "https://media.api-sports.io/football/teams/601.png"
+        },
+        "player": {
+          "id": null,
+          "name": "C. R. do Amaral"
+        },
+        "assist": {
+          "id": 25306,
+          "name": "M. Malone"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 128385,
+          "name": "G. Borges"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 601,
+          "name": "Austria Vienna",
+          "logo": "https://media.api-sports.io/football/teams/601.png"
+        },
+        "player": {
+          "id": 204054,
+          "name": "N. Prelec"
+        },
+        "assist": {
+          "id": 7453,
+          "name": "D. Fitz"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 601,
+          "name": "Austria Vienna",
+          "logo": "https://media.api-sports.io/football/teams/601.png"
+        },
+        "player": {
+          "id": 339997,
+          "name": "S. Saljic"
+        },
+        "assist": {
+          "id": 136154,
+          "name": "A. Barry"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 161933,
+          "name": "Nico"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 400550,
+          "name": "G. Sousa"
+        },
+        "assist": {
+          "id": 278375,
+          "name": "A. Varela"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "player": {
+          "id": 325830,
+          "name": "V. Sousa"
+        },
+        "assist": {
+          "id": 128385,
+          "name": "G. Borges"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      }
+    ]
+  }
+}

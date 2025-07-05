@@ -1,0 +1,45 @@
+{
+  "cache_timestamp": "2025-07-04T13:26:51.244345",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1156376"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 3315,
+          "name": "R. Wicky",
+          "photo": "https://media.api-sports.io/football/coachs/3315.png"
+        },
+        "formation": null
+      },
+      {
+        "team": {
+          "id": 660,
+          "name": "FC Vaduz",
+          "logo": "https://media.api-sports.io/football/teams/660.png",
+          "colors": null
+        },
+        "coach": {
+          "id": 5823,
+          "name": "M. Stocklasa",
+          "photo": "https://media.api-sports.io/football/coachs/5823.png"
+        },
+        "formation": null
+      }
+    ]
+  }
+}

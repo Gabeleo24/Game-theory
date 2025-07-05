@@ -1,0 +1,435 @@
+{
+  "cache_timestamp": "2025-07-04T12:29:45.206261",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1223792"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 503,
+          "name": "Torino",
+          "logo": "https://media.api-sports.io/football/teams/503.png",
+          "colors": {
+            "player": {
+              "primary": "680b22",
+              "number": "ffffff",
+              "border": "680b22"
+            },
+            "goalkeeper": {
+              "primary": "f0660a",
+              "number": "ffffff",
+              "border": "f0660a"
+            }
+          }
+        },
+        "coach": {
+          "id": 16723,
+          "name": "P. Vanoli",
+          "photo": "https://media.api-sports.io/football/coachs/16723.png"
+        },
+        "formation": "4-4-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 31156,
+              "name": "V. Milinkovi\u0107-Savi\u0107",
+              "number": 32,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 8586,
+              "name": "M. Vojvoda",
+              "number": 27,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 2553,
+              "name": "G. Marip\u00e1n",
+              "number": 13,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 122468,
+              "name": "Sa\u00fal Coco",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 26303,
+              "name": "B. Sosa",
+              "number": 24,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 25353,
+              "name": "V. Lazaro",
+              "number": 20,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 31056,
+              "name": "S. Ricci",
+              "number": 28,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 3009,
+              "name": "K. Linetty",
+              "number": 77,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 1278,
+              "name": "Y. Karamoh",
+              "number": 7,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 842,
+              "name": "N. Vla\u0161i\u0107",
+              "number": 10,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 19524,
+              "name": "C. Adams",
+              "number": 18,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 39362,
+              "name": "M. Pedersen",
+              "number": 16,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 22174,
+              "name": "A. Tam\u00e8ze",
+              "number": 61,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 40582,
+              "name": "S. Walukiewicz",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 383006,
+              "name": "A. Njie",
+              "number": 92,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2522,
+              "name": "A. Sanabria",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 30642,
+              "name": "A. Paleari",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 349232,
+              "name": "A. Demb\u00e9l\u00e9",
+              "number": 21,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 18799,
+              "name": "A. Masina",
+              "number": 5,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1621,
+              "name": "A. Donnarumma",
+              "number": 17,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 437089,
+              "name": "M. Dalla Vecchia",
+              "number": 84,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 452430,
+              "name": "S. Perciun",
+              "number": 83,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "000000",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "df3a34",
+              "number": "000000",
+              "border": "df3a34"
+            }
+          }
+        },
+        "coach": {
+          "id": 4842,
+          "name": "T. Motta",
+          "photo": "https://media.api-sports.io/football/coachs/4842.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 30670,
+              "name": "M. Di Gregorio",
+              "number": 29,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 181806,
+              "name": "N. Savona",
+              "number": 37,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 268341,
+              "name": "F. Gatti",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 162188,
+              "name": "P. Kalulu",
+              "number": 15,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 415,
+              "name": "W. McKennie",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 47522,
+              "name": "Douglas Luiz",
+              "number": 26,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 116,
+              "name": "K. Thuram",
+              "number": 19,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 339883,
+              "name": "K. Y\u0131ld\u0131z",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 36899,
+              "name": "T. Koopmeiners",
+              "number": 8,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 346866,
+              "name": "S. Mbangula",
+              "number": 51,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 26315,
+              "name": "N. Gonz\u00e1lez",
+              "number": 11,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 127011,
+              "name": "A. Cambiaso",
+              "number": 27,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1138,
+              "name": "T. Weah",
+              "number": 22,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 335101,
+              "name": "J. Rouhi",
+              "number": 40,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 849,
+              "name": "M. Perin",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 850,
+              "name": "C. Pinsoglio",
+              "number": 23,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 876,
+              "name": "N. Fagioli",
+              "number": 21,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 339872,
+              "name": "V. Ad\u017ei\u0107",
+              "number": 17,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "cache_timestamp": "2025-07-04T12:25:22.749982",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213049"
+    },
+    "errors": [],
+    "results": 16,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 8,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 96512,
+          "name": "Kevin Pina"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 10,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 96512,
+          "name": "Kevin Lenini"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 34,
+          "extra": null
+        },
+        "team": {
+          "id": 558,
+          "name": "Spartak Moscow",
+          "logo": "https://media.api-sports.io/football/teams/558.png"
+        },
+        "player": {
+          "id": 1791,
+          "name": "Nail Umyarov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 7541,
+          "name": "Victor S\u00e1"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 558,
+          "name": "Spartak Moscow",
+          "logo": "https://media.api-sports.io/football/teams/558.png"
+        },
+        "player": {
+          "id": 105873,
+          "name": "S. Nicholson"
+        },
+        "assist": {
+          "id": 8627,
+          "name": "T. Bongonda"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 558,
+          "name": "Spartak Moscow",
+          "logo": "https://media.api-sports.io/football/teams/558.png"
+        },
+        "player": {
+          "id": 1379,
+          "name": "M. Abena"
+        },
+        "assist": {
+          "id": 267979,
+          "name": "D. Denisov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 558,
+          "name": "Spartak Moscow",
+          "logo": "https://media.api-sports.io/football/teams/558.png"
+        },
+        "player": {
+          "id": 13898,
+          "name": "M. Ugalde"
+        },
+        "assist": {
+          "id": 47319,
+          "name": "Willian Jos\u00e9"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 43565,
+          "name": "E. Spertsyan"
+        },
+        "assist": {
+          "id": 289592,
+          "name": "K. Casta\u00f1o"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 7541,
+          "name": "Victor S\u00e1"
+        },
+        "assist": {
+          "id": 342208,
+          "name": "D. Kozlov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 558,
+          "name": "Spartak Moscow",
+          "logo": "https://media.api-sports.io/football/teams/558.png"
+        },
+        "player": {
+          "id": 50880,
+          "name": "E. Barco"
+        },
+        "assist": {
+          "id": 1784,
+          "name": "M. Ignatov"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 558,
+          "name": "Spartak Moscow",
+          "logo": "https://media.api-sports.io/football/teams/558.png"
+        },
+        "player": {
+          "id": 9881,
+          "name": "Marquinhos"
+        },
+        "assist": {
+          "id": 50858,
+          "name": "J. Medina"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2079,
+          "name": "A. Chernikov"
+        },
+        "assist": {
+          "id": 202211,
+          "name": "N. Krivtsov"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 24810,
+          "name": "J. C\u00f3rdoba"
+        },
+        "assist": {
+          "id": 493,
+          "name": "F. Smolov"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 130247,
+          "name": "Batxi"
+        },
+        "assist": {
+          "id": 237056,
+          "name": "O. Olusegun"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 558,
+          "name": "Spartak Moscow",
+          "logo": "https://media.api-sports.io/football/teams/558.png"
+        },
+        "player": {
+          "id": 136103,
+          "name": "Ruslan Litvinov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 6
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 50858,
+          "name": "J. Medina"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Own Goal",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "cache_timestamp": "2025-07-04T13:08:07.365032",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1211374"
+    },
+    "errors": [],
+    "results": 16,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 2,
+          "extra": null
+        },
+        "team": {
+          "id": 2390,
+          "name": "Paks",
+          "logo": "https://media.api-sports.io/football/teams/2390.png"
+        },
+        "player": {
+          "id": 28467,
+          "name": "A. Osv\u00e1th"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 2390,
+          "name": "Paks",
+          "logo": "https://media.api-sports.io/football/teams/2390.png"
+        },
+        "player": {
+          "id": 28344,
+          "name": "D. B\u00f6de"
+        },
+        "assist": {
+          "id": 28467,
+          "name": "A. Osv\u00e1th"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 2027,
+          "name": "K. Zachariassen"
+        },
+        "assist": {
+          "id": 197059,
+          "name": "Matheus Saldanha"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 20531,
+          "name": "H. Ma\u00efga"
+        },
+        "assist": {
+          "id": 37833,
+          "name": "P. Rommens"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 15605,
+          "name": "S. Gartenmann"
+        },
+        "assist": {
+          "id": 178362,
+          "name": "\u010c. Makreckis"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 2390,
+          "name": "Paks",
+          "logo": "https://media.api-sports.io/football/teams/2390.png"
+        },
+        "player": {
+          "id": 28513,
+          "name": "J\u00f3zsef Windecker"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 324234,
+          "name": "G\u00e1bor Szalai"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 9353,
+          "name": "Kady Borges"
+        },
+        "assist": {
+          "id": 7398,
+          "name": "B. Varga"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 2390,
+          "name": "Paks",
+          "logo": "https://media.api-sports.io/football/teams/2390.png"
+        },
+        "player": {
+          "id": 28344,
+          "name": "D. B\u00f6de"
+        },
+        "assist": {
+          "id": 28321,
+          "name": "B. T\u00f3th"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 2390,
+          "name": "Paks",
+          "logo": "https://media.api-sports.io/football/teams/2390.png"
+        },
+        "player": {
+          "id": 27926,
+          "name": "S. Mezei"
+        },
+        "assist": {
+          "id": 28350,
+          "name": "R. Varga"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 2390,
+          "name": "Paks",
+          "logo": "https://media.api-sports.io/football/teams/2390.png"
+        },
+        "player": {
+          "id": 28321,
+          "name": "B. T\u00f3th"
+        },
+        "assist": {
+          "id": 28467,
+          "name": "A. Osv\u00e1th"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 324234,
+          "name": "G. Szalai"
+        },
+        "assist": {
+          "id": 56116,
+          "name": "E. \u0106ivi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 7398,
+          "name": "Barnab\u00e1s Varga"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 2390,
+          "name": "Paks",
+          "logo": "https://media.api-sports.io/football/teams/2390.png"
+        },
+        "player": {
+          "id": 28467,
+          "name": "Attila Osv\u00e1th"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 2076,
+          "name": "C. Ram\u00edrez"
+        },
+        "assist": {
+          "id": 3347,
+          "name": "A. Traor\u00e9"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 2390,
+          "name": "Paks",
+          "logo": "https://media.api-sports.io/football/teams/2390.png"
+        },
+        "player": {
+          "id": 28442,
+          "name": "E. Silye"
+        },
+        "assist": {
+          "id": 210237,
+          "name": "G. Vas"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      }
+    ]
+  }
+}

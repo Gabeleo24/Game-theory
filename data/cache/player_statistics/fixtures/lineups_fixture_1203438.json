@@ -1,0 +1,462 @@
+{
+  "cache_timestamp": "2025-07-04T12:26:16.159292",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1203438"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 1651,
+          "name": "BSG Chemie Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/1651.png",
+          "colors": {
+            "player": {
+              "primary": "127c4b",
+              "number": "ffffff",
+              "border": "127c4b"
+            },
+            "goalkeeper": {
+              "primary": "fafb00",
+              "number": "000000",
+              "border": "fafb00"
+            }
+          }
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 15868,
+              "name": "Benjamin Bellot",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 26166,
+              "name": "Florian Brugmann",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Julian Weigel",
+              "number": 32,
+              "pos": "M",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 25100,
+              "name": "Paul Horschig",
+              "number": 39,
+              "pos": "M",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Marcel Kohn",
+              "number": 34,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Elias Ndukwe Oke",
+              "number": 11,
+              "pos": "F",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 169831,
+              "name": "Cemal Kaymaz",
+              "number": 5,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Tim Bunge",
+              "number": 8,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 26411,
+              "name": "Dennis Mast",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 25851,
+              "name": "Stanley Ratifo",
+              "number": 30,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 91168,
+              "name": "Timo Mauer",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 158291,
+              "name": "Jonas Janke",
+              "number": 12,
+              "pos": null,
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Luca Biagio Marino",
+              "number": 31,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 428952,
+              "name": "Lenno Schmidt",
+              "number": 22,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Henry Koeberer",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 25475,
+              "name": "Manuel Wajer",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Yusuf Dogan",
+              "number": 19,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 379129,
+              "name": "Maximilian Jagatic",
+              "number": 37,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 431091,
+              "name": "Terry Asare",
+              "number": 6,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 25479,
+              "name": "Florian Kirstein",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 26439,
+              "name": "Janik M\u00e4der",
+              "number": 7,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 6386,
+          "name": "M. Jagatic",
+          "photo": "https://media.api-sports.io/football/coachs/6386.png"
+        }
+      },
+      {
+        "team": {
+          "id": 182,
+          "name": "Union Berlin",
+          "logo": "https://media.api-sports.io/football/teams/182.png",
+          "colors": {
+            "player": {
+              "primary": "f5f6fb",
+              "number": "e9050e",
+              "border": "f5f6fb"
+            },
+            "goalkeeper": {
+              "primary": "a6de57",
+              "number": "121111",
+              "border": "a6de57"
+            }
+          }
+        },
+        "formation": "3-4-2-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 26234,
+              "name": "Alexander Schwolow",
+              "number": 37,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 37117,
+              "name": "Danilho Doekhi",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 412847,
+              "name": "Oluwaseun Ogbemudia",
+              "number": 41,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 713,
+              "name": "Kevin Vogt",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 24848,
+              "name": "Christopher Trimmel",
+              "number": 28,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 25300,
+              "name": "Rani Khedira",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 327831,
+              "name": "Aljoscha Kemlein",
+              "number": 36,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "David Preu",
+              "number": 45,
+              "pos": "F",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 24910,
+              "name": "Tim Skarke",
+              "number": 21,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 129072,
+              "name": "Yorbe Vertessen",
+              "number": 7,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2219,
+              "name": "Jordan Siebatcheu",
+              "number": 17,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": null,
+              "name": "Jaden Rodtnick",
+              "number": 46,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 25147,
+              "name": "Paul Jaeckel",
+              "number": 3,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 26249,
+              "name": "Janik Haberer",
+              "number": 43,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 664,
+              "name": "Lucas Tousart",
+              "number": 29,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 8625,
+              "name": "Chris Bedia",
+              "number": 11,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162946,
+              "name": "Benedict Hollerbach",
+              "number": 16,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Alex Kral",
+              "number": 33,
+              "pos": null,
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 376,
+              "name": "Diogo Leite",
+              "number": 4,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Leon Prosche",
+              "number": 44,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Julien Friedrich",
+              "number": 43,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 14605,
+              "name": "Ivan Prtajin",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 8157,
+          "name": "M. Grote",
+          "photo": "https://media.api-sports.io/football/coachs/8157.png"
+        }
+      }
+    ]
+  }
+}

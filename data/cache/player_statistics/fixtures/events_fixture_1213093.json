@@ -1,0 +1,413 @@
+{
+  "cache_timestamp": "2025-07-04T12:10:10.597454",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213093"
+    },
+    "errors": [],
+    "results": 18,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 7,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 43656,
+          "name": "Aleksandr Rudenko"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 17,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 1226,
+          "name": "A. Zabolotny"
+        },
+        "assist": {
+          "id": 43382,
+          "name": "K. Khosonov"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 1226,
+          "name": "Anton Zabolotnyi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 26,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 43382,
+          "name": "K. Khosonov"
+        },
+        "assist": {
+          "id": 119745,
+          "name": "\u00c1lex Corredera"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 29,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 43500,
+          "name": "V. Sarveli"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 32,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 53500,
+          "name": "Z. Bakaev"
+        },
+        "assist": {
+          "id": 59197,
+          "name": "L. Vera"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 1
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 1772,
+          "name": "Georgiy Dzhikiya"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 5
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 9982,
+          "name": "Orinho"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 192015,
+          "name": "E. Sevikyan"
+        },
+        "assist": {
+          "id": 333919,
+          "name": "N. Saltykov"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 166840,
+          "name": "S. Pinyaev"
+        },
+        "assist": {
+          "id": 841,
+          "name": "N. Tiknizyan"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 59197,
+          "name": "L. Vera"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 43500,
+          "name": "V. Sarveli"
+        },
+        "assist": {
+          "id": 324420,
+          "name": "A. Karpukas"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 162504,
+          "name": "A. Silyanov"
+        },
+        "assist": {
+          "id": 43511,
+          "name": "I. Samoshnikov"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 53500,
+          "name": "Z. Bakaev"
+        },
+        "assist": {
+          "id": 125498,
+          "name": "B. Magomedov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 43656,
+          "name": "A. Rudenko"
+        },
+        "assist": {
+          "id": 126704,
+          "name": "S. Abdullahi"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 43443,
+          "name": "D. Vorobyev"
+        },
+        "assist": {
+          "id": 342206,
+          "name": "V. Rakov"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 1226,
+          "name": "A. Zabolotny"
+        },
+        "assist": {
+          "id": 150210,
+          "name": "I. Sadygov"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 59197,
+          "name": "L. Vera"
+        },
+        "assist": {
+          "id": 53598,
+          "name": "D. Stepanov"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

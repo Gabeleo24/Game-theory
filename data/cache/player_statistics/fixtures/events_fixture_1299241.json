@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T12:28:52.173154",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1299241"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png"
+        },
+        "player": {
+          "id": 334914,
+          "name": "Sa\u00ebl Kumbedi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 32,
+          "extra": null
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "player": {
+          "id": 49857,
+          "name": "\u0130rfan Can Kahveci"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png"
+        },
+        "player": {
+          "id": 361348,
+          "name": "M. Fofana"
+        },
+        "assist": {
+          "id": 1467,
+          "name": "A. Lacazette"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 8
+        },
+        "team": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png"
+        },
+        "player": {
+          "id": 25916,
+          "name": "Moussa Niakhat\u00e9"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 8
+        },
+        "team": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png"
+        },
+        "player": {
+          "id": 25916,
+          "name": "Moussa Niakhat\u00e9"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Red card cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 50,
+          "extra": null
+        },
+        "team": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png"
+        },
+        "player": {
+          "id": 1467,
+          "name": "Alexandre Lacazette"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "player": {
+          "id": 49857,
+          "name": "\u0130. Kahveci"
+        },
+        "assist": {
+          "id": 22173,
+          "name": "A. Saint-Maximin"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "player": {
+          "id": 412703,
+          "name": "Yusuf Ak\u00e7i\u00e7ek"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png"
+        },
+        "player": {
+          "id": 334914,
+          "name": "S. Kumbedi"
+        },
+        "assist": {
+          "id": 1902,
+          "name": "D. \u0106aleta-Car"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "player": {
+          "id": 74,
+          "name": "Sofyan Amrabat"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "player": {
+          "id": 47422,
+          "name": "Y. En-Nesyri"
+        },
+        "assist": {
+          "id": 790,
+          "name": "E. D\u017eeko"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png"
+        },
+        "player": {
+          "id": 1902,
+          "name": "Duje \u0106aleta-Car"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png"
+        },
+        "player": {
+          "id": 519,
+          "name": "Corentin Tolisso"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png"
+        },
+        "player": {
+          "id": 519,
+          "name": "C. Tolisso"
+        },
+        "assist": {
+          "id": 30409,
+          "name": "J. Veretout"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png"
+        },
+        "player": {
+          "id": 180496,
+          "name": "G. Mikautadze"
+        },
+        "assist": {
+          "id": 350856,
+          "name": "E. Nuamah"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "player": {
+          "id": 554,
+          "name": "D. Tadi\u0107"
+        },
+        "assist": {
+          "id": 785,
+          "name": "C. \u00dcnder"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "player": {
+          "id": 19588,
+          "name": "Bright Osayi-Samuel"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+}

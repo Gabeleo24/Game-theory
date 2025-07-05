@@ -1,0 +1,479 @@
+{
+  "cache_timestamp": "2025-07-04T13:24:39.544469",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1238154"
+    },
+    "errors": [],
+    "results": 21,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 4,
+          "extra": null
+        },
+        "team": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png"
+        },
+        "player": {
+          "id": 48312,
+          "name": "C. Strandberg"
+        },
+        "assist": {
+          "id": 25076,
+          "name": "G. Sa\u011flam"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 9,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 1651,
+          "name": "K. Pi\u0105tek"
+        },
+        "assist": {
+          "id": 41973,
+          "name": "Miguel Crespo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 25,
+          "extra": null
+        },
+        "team": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png"
+        },
+        "player": {
+          "id": 28630,
+          "name": "Funsho Bamgboye"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 30,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 1921,
+          "name": "Y. Sar\u0131"
+        },
+        "assist": {
+          "id": 41973,
+          "name": "Miguel Crespo"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 1651,
+          "name": "Krzysztof Pi\u0105tek"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png"
+        },
+        "player": {
+          "id": 21589,
+          "name": "B. Boutobba"
+        },
+        "assist": {
+          "id": 49870,
+          "name": "K. \u00c7\u00f6rek\u00e7i"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 50126,
+          "name": "D. T\u00fcr\u00fc\u00e7"
+        },
+        "assist": {
+          "id": 14602,
+          "name": "I. Brni\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png"
+        },
+        "player": {
+          "id": 49870,
+          "name": "K. \u00c7\u00f6rek\u00e7i"
+        },
+        "assist": {
+          "id": 61927,
+          "name": "K. Al\u0131c\u0131"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png"
+        },
+        "player": {
+          "id": 28630,
+          "name": "F. Bamgboye"
+        },
+        "assist": {
+          "id": 63030,
+          "name": "B. Y\u0131lmaz"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 61820,
+          "name": "B. \u00d6zdemir"
+        },
+        "assist": {
+          "id": 128968,
+          "name": "U. G\u00fcne\u015f"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 85205,
+          "name": "O. Kemen"
+        },
+        "assist": {
+          "id": 69942,
+          "name": "Jo\u00e3o Figueiredo"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png"
+        },
+        "player": {
+          "id": 291531,
+          "name": "Chandrel Massanga"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 14602,
+          "name": "I. Brni\u0107"
+        },
+        "assist": {
+          "id": 128968,
+          "name": "U. G\u00fcne\u015f"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 20836,
+          "name": "Christopher Operi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png"
+        },
+        "player": {
+          "id": 25076,
+          "name": "G. Sa\u011flam"
+        },
+        "assist": {
+          "id": 505018,
+          "name": "D. Aksoy"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 1651,
+          "name": "K. Pi\u0105tek"
+        },
+        "assist": {
+          "id": 21270,
+          "name": "P. Keny"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 1921,
+          "name": "Y. Sar\u0131"
+        },
+        "assist": {
+          "id": 161638,
+          "name": "F. Ebosele"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png"
+        },
+        "player": {
+          "id": 20805,
+          "name": "Guy-Marcelin Kilama"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png"
+        },
+        "player": {
+          "id": 62195,
+          "name": "C. Sertel"
+        },
+        "assist": {
+          "id": 359301,
+          "name": "B. Sarka"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 3575,
+          "name": "Hatayspor",
+          "logo": "https://media.api-sports.io/football/teams/3575.png"
+        },
+        "player": {
+          "id": 63030,
+          "name": "Recep Burak Y\u0131lmaz"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 564,
+          "name": "Istanbul Basaksehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        },
+        "player": {
+          "id": 69942,
+          "name": "Jo\u00e3o Figueiredo"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      }
+    ]
+  }
+}

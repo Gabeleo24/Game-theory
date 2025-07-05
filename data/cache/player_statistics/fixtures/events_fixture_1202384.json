@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T11:48:09.342614",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1202384"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 522,
+          "name": "T. M\u00fcller"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 14,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 522,
+          "name": "T. M\u00fcller"
+        },
+        "assist": {
+          "id": 510,
+          "name": "S. Gnabry"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 29,
+          "extra": null
+        },
+        "team": {
+          "id": 1652,
+          "name": "SSV Ulm 1846",
+          "logo": "https://media.api-sports.io/football/teams/1652.png"
+        },
+        "player": {
+          "id": 328213,
+          "name": "Luka Hyrylainen"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 38,
+          "extra": null
+        },
+        "team": {
+          "id": 1652,
+          "name": "SSV Ulm 1846",
+          "logo": "https://media.api-sports.io/football/teams/1652.png"
+        },
+        "player": {
+          "id": 25418,
+          "name": "C. Ortag"
+        },
+        "assist": {
+          "id": 202912,
+          "name": "M. Seybold"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": null
+        },
+        "team": {
+          "id": 1652,
+          "name": "SSV Ulm 1846",
+          "logo": "https://media.api-sports.io/football/teams/1652.png"
+        },
+        "player": {
+          "id": 25425,
+          "name": "Johannes Reichert"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 1652,
+          "name": "SSV Ulm 1846",
+          "logo": "https://media.api-sports.io/football/teams/1652.png"
+        },
+        "player": {
+          "id": 26480,
+          "name": "D. Chessa"
+        },
+        "assist": {
+          "id": 322314,
+          "name": "A. Keller"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 181812,
+          "name": "J. Musiala"
+        },
+        "assist": {
+          "id": 184,
+          "name": "H. Kane"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 270510,
+          "name": "M. Tel"
+        },
+        "assist": {
+          "id": 508,
+          "name": "K. Coman"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 1652,
+          "name": "SSV Ulm 1846",
+          "logo": "https://media.api-sports.io/football/teams/1652.png"
+        },
+        "player": {
+          "id": 342170,
+          "name": "M. Krattenmacher"
+        },
+        "assist": {
+          "id": 504,
+          "name": "J. Meier"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 502,
+          "name": "Joshua Kimmich"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 328033,
+          "name": "A. Pavlovi\u0107"
+        },
+        "assist": {
+          "id": 41104,
+          "name": "Jo\u00e3o Palhinha"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 510,
+          "name": "S. Gnabry"
+        },
+        "assist": {
+          "id": 19617,
+          "name": "M. Olise"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 1652,
+          "name": "SSV Ulm 1846",
+          "logo": "https://media.api-sports.io/football/teams/1652.png"
+        },
+        "player": {
+          "id": 177865,
+          "name": "M. Brandt"
+        },
+        "assist": {
+          "id": 129144,
+          "name": "N. K\u00f6lle"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 1652,
+          "name": "SSV Ulm 1846",
+          "logo": "https://media.api-sports.io/football/teams/1652.png"
+        },
+        "player": {
+          "id": 25437,
+          "name": "F. Higl"
+        },
+        "assist": {
+          "id": 321716,
+          "name": "S. Telalovi\u0107"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 508,
+          "name": "K. Coman"
+        },
+        "assist": {
+          "id": 19617,
+          "name": "M. Olise"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 1149,
+          "name": "D. Upamecano"
+        },
+        "assist": {
+          "id": 509,
+          "name": "A. Davies"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 157,
+          "name": "Bayern M\u00fcnchen",
+          "logo": "https://media.api-sports.io/football/teams/157.png"
+        },
+        "player": {
+          "id": 184,
+          "name": "H. Kane"
+        },
+        "assist": {
+          "id": 522,
+          "name": "T. M\u00fcller"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

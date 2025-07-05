@@ -1,0 +1,501 @@
+{
+  "cache_timestamp": "2025-07-04T13:19:21.803856",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1210429"
+    },
+    "errors": [],
+    "results": 22,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 12,
+          "extra": null
+        },
+        "team": {
+          "id": 3724,
+          "name": "Pardubice",
+          "logo": "https://media.api-sports.io/football/teams/3724.png"
+        },
+        "player": {
+          "id": 66723,
+          "name": "David \u0160imek"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Card upgrade",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 5
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 409303,
+          "name": "E. Diouf"
+        },
+        "assist": {
+          "id": 818,
+          "name": "T. Chor\u00fd"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 3724,
+          "name": "Pardubice",
+          "logo": "https://media.api-sports.io/football/teams/3724.png"
+        },
+        "player": {
+          "id": 77083,
+          "name": "Eldar \u0160ehi\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 3724,
+          "name": "Pardubice",
+          "logo": "https://media.api-sports.io/football/teams/3724.png"
+        },
+        "player": {
+          "id": 319913,
+          "name": "A. Leipold"
+        },
+        "assist": {
+          "id": 363563,
+          "name": "D. Mare\u0161"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 180305,
+          "name": "M. Jur\u00e1sek"
+        },
+        "assist": {
+          "id": 15328,
+          "name": "I. Schranz"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 818,
+          "name": "T. Chor\u00fd"
+        },
+        "assist": {
+          "id": 1230,
+          "name": "J. Bo\u0159il"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 3724,
+          "name": "Pardubice",
+          "logo": "https://media.api-sports.io/football/teams/3724.png"
+        },
+        "player": {
+          "id": 128773,
+          "name": "T. Zlatohl\u00e1vek"
+        },
+        "assist": {
+          "id": 128791,
+          "name": "L. Krobot"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 3724,
+          "name": "Pardubice",
+          "logo": "https://media.api-sports.io/football/teams/3724.png"
+        },
+        "player": {
+          "id": 77083,
+          "name": "E. \u0160ehi\u0107"
+        },
+        "assist": {
+          "id": 267987,
+          "name": "L. Lurvink"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 818,
+          "name": "T. Chor\u00fd"
+        },
+        "assist": {
+          "id": 66275,
+          "name": "M. Chytil"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 181824,
+          "name": "Filip Prebsl"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Card upgrade",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 181824,
+          "name": "Filip Prebsl"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Red Card",
+        "comments": "Professional foul last man"
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 3724,
+          "name": "Pardubice",
+          "logo": "https://media.api-sports.io/football/teams/3724.png"
+        },
+        "player": {
+          "id": 128791,
+          "name": "Ladislav Krobot"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 3724,
+          "name": "Pardubice",
+          "logo": "https://media.api-sports.io/football/teams/3724.png"
+        },
+        "player": {
+          "id": 267987,
+          "name": "Louis Lurvink"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 3724,
+          "name": "Pardubice",
+          "logo": "https://media.api-sports.io/football/teams/3724.png"
+        },
+        "player": {
+          "id": 146011,
+          "name": "D. Darmovzal"
+        },
+        "assist": {
+          "id": 429998,
+          "name": "M. Yahaya"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 3724,
+          "name": "Pardubice",
+          "logo": "https://media.api-sports.io/football/teams/3724.png"
+        },
+        "player": {
+          "id": 66525,
+          "name": "Michal Surzyn"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 3724,
+          "name": "Pardubice",
+          "logo": "https://media.api-sports.io/football/teams/3724.png"
+        },
+        "player": {
+          "id": 66525,
+          "name": "M. Surzyn"
+        },
+        "assist": {
+          "id": 451567,
+          "name": "F. Brdi\u010dka"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 1230,
+          "name": "Jan Bo\u0159il"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 409303,
+          "name": "E. Diouf"
+        },
+        "assist": {
+          "id": 66287,
+          "name": "O. Zmrzl\u00fd"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 216762,
+          "name": "Christos Zafeiris"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 6
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 66214,
+          "name": "David Doudera"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 66353,
+          "name": "L. Provod"
+        },
+        "assist": {
+          "id": 353610,
+          "name": "L. Vorlick\u00fd"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 216762,
+          "name": "C. Zafeiris"
+        },
+        "assist": {
+          "id": 337740,
+          "name": "\u0160. Chaloupek"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T12:49:49.572089",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1214887"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 50990,
+          "name": "K. Saief"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 38,
+          "extra": null
+        },
+        "team": {
+          "id": 6181,
+          "name": "Ironi Tiberias",
+          "logo": "https://media.api-sports.io/football/teams/6181.png"
+        },
+        "player": {
+          "id": 110836,
+          "name": "F. Abu Akel"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 3
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 111277,
+          "name": "D. David"
+        },
+        "assist": {
+          "id": 8601,
+          "name": "F. Pierrot"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 111335,
+          "name": "S. Goldberg"
+        },
+        "assist": {
+          "id": 161672,
+          "name": "O. Syrota"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 111277,
+          "name": "D. David"
+        },
+        "assist": {
+          "id": 8601,
+          "name": "F. Pierrot"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 6181,
+          "name": "Ironi Tiberias",
+          "logo": "https://media.api-sports.io/football/teams/6181.png"
+        },
+        "player": {
+          "id": 8514,
+          "name": "J. Botaka"
+        },
+        "assist": {
+          "id": 110672,
+          "name": "E. Velblum"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 6181,
+          "name": "Ironi Tiberias",
+          "logo": "https://media.api-sports.io/football/teams/6181.png"
+        },
+        "player": {
+          "id": 110836,
+          "name": "F. Abu Akel"
+        },
+        "assist": {
+          "id": 126569,
+          "name": "H. Shapso"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 162272,
+          "name": "E. Azoulay"
+        },
+        "assist": {
+          "id": 8461,
+          "name": "L. Refaelov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 50990,
+          "name": "K. Saief"
+        },
+        "assist": {
+          "id": 110987,
+          "name": "D. Haziza"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 111277,
+          "name": "D. David"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 6181,
+          "name": "Ironi Tiberias",
+          "logo": "https://media.api-sports.io/football/teams/6181.png"
+        },
+        "player": {
+          "id": 110646,
+          "name": "W. Habiballah"
+        },
+        "assist": {
+          "id": 131560,
+          "name": "S. Talias"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 6181,
+          "name": "Ironi Tiberias",
+          "logo": "https://media.api-sports.io/football/teams/6181.png"
+        },
+        "player": {
+          "id": 26781,
+          "name": "F. Mazurek"
+        },
+        "assist": {
+          "id": 469467,
+          "name": "M. Badjie"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 111277,
+          "name": "D. David"
+        },
+        "assist": {
+          "id": 106804,
+          "name": "G. Kinda"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 12939,
+          "name": "D. Sabi'a"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 8450,
+          "name": "A. Seck"
+        },
+        "assist": {
+          "id": 304334,
+          "name": "I. Hagag"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 6181,
+          "name": "Ironi Tiberias",
+          "logo": "https://media.api-sports.io/football/teams/6181.png"
+        },
+        "player": {
+          "id": 110615,
+          "name": "E. Belilti"
+        },
+        "assist": {
+          "id": 435590,
+          "name": "R. Apelbaum"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 4195,
+          "name": "Maccabi Haifa",
+          "logo": "https://media.api-sports.io/football/teams/4195.png"
+        },
+        "player": {
+          "id": 161672,
+          "name": "O. Syrota"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "cache_timestamp": "2025-07-04T13:30:11.425202",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1268893"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 65,
+          "name": "Nottingham Forest",
+          "logo": "https://media.api-sports.io/football/teams/65.png",
+          "colors": {
+            "player": {
+              "primary": "ff0000",
+              "number": "ffffff",
+              "border": "ff0000"
+            },
+            "goalkeeper": {
+              "primary": "fff900",
+              "number": "0e0b0b",
+              "border": "fff900"
+            }
+          }
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 2919,
+              "name": "Matz Sels",
+              "number": 26,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 138780,
+              "name": "Neco Williams",
+              "number": 7,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 2817,
+              "name": "Nikola Milenkovi\u0107",
+              "number": 31,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 363695,
+              "name": "Murillo",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 2771,
+              "name": "Ola Aina",
+              "number": 34,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 275170,
+              "name": "Danilo",
+              "number": 28,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 22149,
+              "name": "Ibrahim Sangar\u00e9",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 153430,
+              "name": "Anthony Elanga",
+              "number": 21,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 18746,
+              "name": "Morgan Gibbs-White",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 2298,
+              "name": "Callum Hudson-Odoi",
+              "number": 14,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 18931,
+              "name": "Chris Wood",
+              "number": 11,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 17365,
+              "name": "Harry Toffolo",
+              "number": 15,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 138908,
+              "name": "Elliot Anderson",
+              "number": 18,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 19305,
+              "name": "Ryan Yates",
+              "number": 22,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 6056,
+              "name": "Nicol\u00e1s Dom\u00ednguez",
+              "number": 16,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 380492,
+              "name": "Eric da Silva Moreira",
+              "number": 17,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Carlos Miguel",
+              "number": 35,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 18739,
+              "name": "Willy Boly",
+              "number": 30,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 147835,
+              "name": "Andrew Omobamidele",
+              "number": 32,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 8598,
+              "name": "Taiwo Awoniyi",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 329357,
+              "name": "Zach Abbott",
+              "number": 56,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 50999,
+              "name": "Matt Turner",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 0,
+          "name": null,
+          "photo": null
+        }
+      },
+      {
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png",
+          "colors": {
+            "player": {
+              "primary": "690521",
+              "number": "ffffff",
+              "border": "690521"
+            },
+            "goalkeeper": {
+              "primary": "44a3ff",
+              "number": "ede502",
+              "border": "44a3ff"
+            }
+          }
+        },
+        "formation": "4-4-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 122956,
+              "name": "Diego Conde",
+              "number": 13,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 18794,
+              "name": "Kiko Femen\u00eda",
+              "number": 17,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 314,
+              "name": "Ra\u00fal Albiol",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 435552,
+              "name": "Pau Navarro",
+              "number": 24,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 70500,
+              "name": "Sergi Cardona",
+              "number": 25,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 184226,
+              "name": "Y\u00e9remy Pino",
+              "number": 21,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 47541,
+              "name": "Santi Comesa\u00f1a",
+              "number": 4,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 187987,
+              "name": "Ram\u00f3n Terrats",
+              "number": 20,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 928,
+              "name": "Dani Parejo",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 83,
+              "name": "Arnaut Danjuma",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 1461,
+              "name": "Denis Su\u00e1rez",
+              "number": 6,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 166,
+              "name": "Juan Foyth",
+              "number": 8,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 336637,
+              "name": "Antonio Espigares",
+              "number": 15,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 169256,
+              "name": "Iker \u00c1lvarez",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1705,
+              "name": "Manu Trigueros",
+              "number": 14,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1707,
+              "name": "Gerard Moreno",
+              "number": 7,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 391131,
+              "name": "Daniel Requena",
+              "number": 27,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 1585,
+          "name": "Marcelino",
+          "photo": "https://media.api-sports.io/football/coachs/1585.png"
+        }
+      }
+    ]
+  }
+}

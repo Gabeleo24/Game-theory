@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T13:20:35.980518",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1361475"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 28,
+          "extra": null
+        },
+        "team": {
+          "id": 2250,
+          "name": "Sigma Olomouc",
+          "logo": "https://media.api-sports.io/football/teams/2250.png"
+        },
+        "player": {
+          "id": 90746,
+          "name": "J. Kliment"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 3
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 66287,
+          "name": "O. Zmrzly"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Roughing"
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 394698,
+          "name": "D. Pech"
+        },
+        "assist": {
+          "id": 818,
+          "name": "T. Chor\u00fd"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 322561,
+          "name": "S. Michez"
+        },
+        "assist": {
+          "id": 25139,
+          "name": "V. Ku\u0161ej"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 600,
+          "name": "G. Botos"
+        },
+        "assist": {
+          "id": 409303,
+          "name": "E. Diouf"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 66287,
+          "name": "O. Zmrzl\u00fd"
+        },
+        "assist": {
+          "id": 400679,
+          "name": "D. Moses"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 47,
+          "extra": null
+        },
+        "team": {
+          "id": 2250,
+          "name": "Sigma Olomouc",
+          "logo": "https://media.api-sports.io/football/teams/2250.png"
+        },
+        "player": {
+          "id": 66439,
+          "name": "F. Zorvan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Unsportsmanlike conduct"
+      },
+      {
+        "time": {
+          "elapsed": 50,
+          "extra": null
+        },
+        "team": {
+          "id": 2250,
+          "name": "Sigma Olomouc",
+          "logo": "https://media.api-sports.io/football/teams/2250.png"
+        },
+        "player": {
+          "id": 425770,
+          "name": "J. Koutny"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Delay of game"
+      },
+      {
+        "time": {
+          "elapsed": 54,
+          "extra": null
+        },
+        "team": {
+          "id": 2250,
+          "name": "Sigma Olomouc",
+          "logo": "https://media.api-sports.io/football/teams/2250.png"
+        },
+        "player": {
+          "id": 90746,
+          "name": "J. Kliment"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Holding"
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 2250,
+          "name": "Sigma Olomouc",
+          "logo": "https://media.api-sports.io/football/teams/2250.png"
+        },
+        "player": {
+          "id": 379017,
+          "name": "M. Mikulenka"
+        },
+        "assist": {
+          "id": 69958,
+          "name": "A. Dol\u017enikov"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 409303,
+          "name": "E. Diouf"
+        },
+        "assist": {
+          "id": 339346,
+          "name": "D. Teah"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 339346,
+          "name": "D. Teah"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Diving"
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 2250,
+          "name": "Sigma Olomouc",
+          "logo": "https://media.api-sports.io/football/teams/2250.png"
+        },
+        "player": {
+          "id": 66100,
+          "name": "J. Navr\u00e1til"
+        },
+        "assist": {
+          "id": 420359,
+          "name": "M. Emmanuel"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 2250,
+          "name": "Sigma Olomouc",
+          "logo": "https://media.api-sports.io/football/teams/2250.png"
+        },
+        "player": {
+          "id": 90746,
+          "name": "J. Kliment"
+        },
+        "assist": {
+          "id": 200805,
+          "name": "Y. Muritala"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 560,
+          "name": "Slavia Praha",
+          "logo": "https://media.api-sports.io/football/teams/560.png"
+        },
+        "player": {
+          "id": 388774,
+          "name": "M. Kone\u010dn\u00fd"
+        },
+        "assist": {
+          "id": 1236,
+          "name": "T. Vl\u010dek"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 2250,
+          "name": "Sigma Olomouc",
+          "logo": "https://media.api-sports.io/football/teams/2250.png"
+        },
+        "player": {
+          "id": 69958,
+          "name": "A. Dolznikov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Tripping"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 2250,
+          "name": "Sigma Olomouc",
+          "logo": "https://media.api-sports.io/football/teams/2250.png"
+        },
+        "player": {
+          "id": 162787,
+          "name": "\u0160. Langer"
+        },
+        "assist": {
+          "id": 163105,
+          "name": "J. Sp\u00e1\u010dil"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      }
+    ]
+  }
+}

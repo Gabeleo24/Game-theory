@@ -1,0 +1,489 @@
+{
+  "cache_timestamp": "2025-07-04T12:22:25.085869",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1217970"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png",
+          "colors": {
+            "player": {
+              "primary": "e51323",
+              "number": "fcfcfc",
+              "border": "e51323"
+            },
+            "goalkeeper": {
+              "primary": "d7ff0f",
+              "number": "ffffff",
+              "border": "d7ff0f"
+            }
+          }
+        },
+        "coach": {
+          "id": 1532,
+          "name": "P. Bosz",
+          "photo": "https://media.api-sports.io/football/coachs/1532.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 22157,
+              "name": "W. Ben\u00edtez",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 231,
+              "name": "J. Teze",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 342054,
+              "name": "R. Flamingo",
+              "number": 6,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 22160,
+              "name": "O. Boscagli",
+              "number": 18,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 233,
+              "name": "Mauro J\u00fanior",
+              "number": 17,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 37890,
+              "name": "J. Schouten",
+              "number": 22,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 161897,
+              "name": "I. Saibari",
+              "number": 34,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 290549,
+              "name": "J. Bakayoko",
+              "number": 11,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 162037,
+              "name": "M. Tillman",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 544,
+              "name": "N. Lang",
+              "number": 10,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 246,
+              "name": "L. de Jong",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 215827,
+              "name": "F. Oppeg\u00e5rd",
+              "number": 35,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 346895,
+              "name": "M. Dams",
+              "number": 32,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 37749,
+              "name": "J. Veerman",
+              "number": 23,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 312841,
+              "name": "E. van de Blaak",
+              "number": 31,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 36905,
+              "name": "G. Til",
+              "number": 20,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 272543,
+              "name": "C. Driouech",
+              "number": 21,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 474551,
+              "name": "F. Meri\u00e9n",
+              "number": 30,
+              "pos": null,
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 73868,
+              "name": "R. Pepi",
+              "number": 14,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 402272,
+              "name": "T. Land",
+              "number": 28,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 328193,
+              "name": "N. Schiks",
+              "number": 24,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 248,
+              "name": "H. Lozano",
+              "number": 27,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 313078,
+              "name": "I. Babadi",
+              "number": 26,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 36828,
+              "name": "J. Drommel",
+              "number": 16,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png",
+          "colors": {
+            "player": {
+              "primary": "263c4b",
+              "number": "f9a94b",
+              "border": "263c4b"
+            },
+            "goalkeeper": {
+              "primary": "006ab4",
+              "number": "ffffff",
+              "border": "006ab4"
+            }
+          }
+        },
+        "coach": {
+          "id": 3234,
+          "name": "Rub\u00e9n Baraja",
+          "photo": "https://media.api-sports.io/football/coachs/3234.png"
+        },
+        "formation": "4-4-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 47527,
+              "name": "S. Dimitrievski",
+              "number": 13,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 47251,
+              "name": "D. Foulquier",
+              "number": 20,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 333672,
+              "name": "C\u00e9sar T\u00e1rrega",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 72048,
+              "name": "C. \u00d6zkacar",
+              "number": 15,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 162175,
+              "name": "Jes\u00fas V\u00e1zquez",
+              "number": 21,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 19352,
+              "name": "Sergi Can\u00f3s",
+              "number": 7,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 41157,
+              "name": "Andr\u00e9 Almeida",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 47463,
+              "name": "Pepelu",
+              "number": 18,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 348326,
+              "name": "Mart\u00edn Tej\u00f3n",
+              "number": 32,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 47264,
+              "name": "Hugo Duro",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 47013,
+              "name": "Rafa Mir",
+              "number": 11,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 919,
+              "name": "Hugo Guillam\u00f3n",
+              "number": 6,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 161875,
+              "name": "Hugo Gonz\u00e1lez",
+              "number": 30,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1482,
+              "name": "Thierry Correia",
+              "number": 12,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 315699,
+              "name": "Javi Guerra",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 439578,
+              "name": "David Otorbi",
+              "number": 27,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 315701,
+              "name": "Rubo Iranzo",
+              "number": 31,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 288074,
+              "name": "Alberto Mar\u00ed",
+              "number": 22,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 442188,
+              "name": "Iker C\u00f3rdoba",
+              "number": 38,
+              "pos": null,
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 193252,
+              "name": "Borja Calvo",
+              "number": 26,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 327496,
+              "name": "Rodrigo Abajas",
+              "number": 39,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 401983,
+              "name": "Vicent Abril",
+              "number": 35,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

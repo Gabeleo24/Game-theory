@@ -1,0 +1,369 @@
+{
+  "cache_timestamp": "2025-07-04T11:56:44.945551",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1355269"
+    },
+    "errors": [],
+    "results": 16,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 3
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 331832,
+          "name": "Ant\u00f3nio Silva"
+        },
+        "assist": {
+          "id": 25918,
+          "name": "L. Barreiro"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 301528,
+          "name": "A. Schjelderup"
+        },
+        "assist": {
+          "id": 123469,
+          "name": "Z. Amdouni"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 575,
+          "name": "Florentino"
+        },
+        "assist": {
+          "id": 345390,
+          "name": "Jo\u00e3o Veloso"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 1163,
+          "name": "Bruma"
+        },
+        "assist": {
+          "id": 362755,
+          "name": "G. Prestianni"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 15128,
+          "name": "Tirsense",
+          "logo": "https://media.api-sports.io/football/teams/15128.png"
+        },
+        "player": {
+          "id": 279252,
+          "name": "Fontini"
+        },
+        "assist": {
+          "id": 280755,
+          "name": "Alex Reis"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 15128,
+          "name": "Tirsense",
+          "logo": "https://media.api-sports.io/football/teams/15128.png"
+        },
+        "player": {
+          "id": 41949,
+          "name": "J\u00falio Alves"
+        },
+        "assist": {
+          "id": 279010,
+          "name": "Giovanny Morais"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 15128,
+          "name": "Tirsense",
+          "logo": "https://media.api-sports.io/football/teams/15128.png"
+        },
+        "player": {
+          "id": 425226,
+          "name": "Bernardo Mesquita"
+        },
+        "assist": {
+          "id": 199253,
+          "name": "T\u00falio"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 15128,
+          "name": "Tirsense",
+          "logo": "https://media.api-sports.io/football/teams/15128.png"
+        },
+        "player": {
+          "id": 363975,
+          "name": "Daniel Rodrigues"
+        },
+        "assist": {
+          "id": 330890,
+          "name": "Diogo Gon\u00e7alves"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 15128,
+          "name": "Tirsense",
+          "logo": "https://media.api-sports.io/football/teams/15128.png"
+        },
+        "player": {
+          "id": 381258,
+          "name": "J. Pereira"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Tripping"
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 180320,
+          "name": "A. Bajrami"
+        },
+        "assist": {
+          "id": 9938,
+          "name": "Arthur Cabral"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 30509,
+          "name": "A. Belotti"
+        },
+        "assist": {
+          "id": 158065,
+          "name": "Tiago Gouveia"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 158065,
+          "name": "Tiago Gouveia"
+        },
+        "assist": {
+          "id": 349193,
+          "name": "Hugo F\u00e9lix"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 162595,
+          "name": "Samuel Soares"
+        },
+        "assist": {
+          "id": 350337,
+          "name": "Andr\u00e9 Gomes"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 15128,
+          "name": "Tirsense",
+          "logo": "https://media.api-sports.io/football/teams/15128.png"
+        },
+        "player": {
+          "id": 141608,
+          "name": "Bruno Carvalho"
+        },
+        "assist": {
+          "id": 398080,
+          "name": "Rui Maia"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 15128,
+          "name": "Tirsense",
+          "logo": "https://media.api-sports.io/football/teams/15128.png"
+        },
+        "player": {
+          "id": 279010,
+          "name": "Govanny Morais"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Tripping"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "player": {
+          "id": 25918,
+          "name": "L. Barreiro"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "cache_timestamp": "2025-07-04T12:24:22.040851",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1232060"
+    },
+    "errors": [],
+    "results": 18,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 26,
+          "extra": null
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": 3406,
+          "name": "Frank Anguissa"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": 30543,
+          "name": "G. Raspadori"
+        },
+        "assist": {
+          "id": 30414,
+          "name": "G. Simeone"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 899,
+          "name": "Modena",
+          "logo": "https://media.api-sports.io/football/teams/899.png"
+        },
+        "player": {
+          "id": 32201,
+          "name": "E. Gliozzi"
+        },
+        "assist": {
+          "id": 281191,
+          "name": "F. Abiuso"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": 31390,
+          "name": "P. Mazzocchi"
+        },
+        "assist": {
+          "id": 85,
+          "name": "C. Ngonge"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": 862,
+          "name": "L. Spinazzola"
+        },
+        "assist": {
+          "id": 47254,
+          "name": "M. Olivera"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 899,
+          "name": "Modena",
+          "logo": "https://media.api-sports.io/football/teams/899.png"
+        },
+        "player": {
+          "id": 56309,
+          "name": "M. Cotali"
+        },
+        "assist": {
+          "id": 32095,
+          "name": "C. Cauz"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": {
+          "id": 899,
+          "name": "Modena",
+          "logo": "https://media.api-sports.io/football/teams/899.png"
+        },
+        "player": {
+          "id": 383026,
+          "name": "R. Idrissi"
+        },
+        "assist": {
+          "id": 215902,
+          "name": "K. Bozhanaj"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": 219,
+          "name": "M. Politano"
+        },
+        "assist": {
+          "id": 128478,
+          "name": "W. Cheddira"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 10
+        },
+        "team": {
+          "id": 899,
+          "name": "Modena",
+          "logo": "https://media.api-sports.io/football/teams/899.png"
+        },
+        "player": {
+          "id": 56225,
+          "name": "G. Zaro"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 9
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": 483,
+          "name": "K. Kvaratskhelia"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 8
+        },
+        "team": {
+          "id": 899,
+          "name": "Modena",
+          "logo": "https://media.api-sports.io/football/teams/899.png"
+        },
+        "player": {
+          "id": 215902,
+          "name": "K. Bozhanaj"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 7
+        },
+        "team": {
+          "id": 899,
+          "name": "Modena",
+          "logo": "https://media.api-sports.io/football/teams/899.png"
+        },
+        "player": {
+          "id": 30804,
+          "name": "T. Battistella"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 6
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": 30414,
+          "name": "G. Simeone"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 5
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": 85,
+          "name": "C. Ngonge"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 4
+        },
+        "team": {
+          "id": 899,
+          "name": "Modena",
+          "logo": "https://media.api-sports.io/football/teams/899.png"
+        },
+        "player": {
+          "id": 31765,
+          "name": "L. Magnino"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 3
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": 128478,
+          "name": "W. Cheddira"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 2
+        },
+        "team": {
+          "id": 899,
+          "name": "Modena",
+          "logo": "https://media.api-sports.io/football/teams/899.png"
+        },
+        "player": {
+          "id": 31271,
+          "name": "A. Palumbo"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 1
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "player": {
+          "id": 31042,
+          "name": "G. Di Lorenzo"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      }
+    ]
+  }
+}

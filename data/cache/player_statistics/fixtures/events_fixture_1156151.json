@@ -1,0 +1,611 @@
+{
+  "cache_timestamp": "2025-07-04T13:22:19.162570",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1156151"
+    },
+    "errors": [],
+    "results": 27,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": 40560,
+          "name": "J. Kaminski"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 34,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 24812,
+          "name": "S. Terodde"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": 549,
+          "name": "V. Cerny"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": 21570,
+          "name": "N. Cozza"
+        },
+        "assist": {
+          "id": 30527,
+          "name": "Rogerio"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": 265363,
+          "name": "T. Tomas"
+        },
+        "assist": {
+          "id": 549,
+          "name": "V. Cerny"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": 149557,
+          "name": "K. Paredes"
+        },
+        "assist": {
+          "id": 40560,
+          "name": "J. Kaminski"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 106792,
+          "name": "J. Heekeren"
+        },
+        "assist": {
+          "id": 396,
+          "name": "R. Fahrmann"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 33578,
+          "name": "S. Kozuki"
+        },
+        "assist": {
+          "id": 334334,
+          "name": "K. Topp"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 178375,
+          "name": "H. Matriciani"
+        },
+        "assist": {
+          "id": 25007,
+          "name": "C. Brunner"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 51,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 25161,
+          "name": "P. Seguin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": 30484,
+          "name": "M. Svanberg"
+        },
+        "assist": {
+          "id": 127413,
+          "name": "A. Vranckx"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 24797,
+          "name": "D. Drexler"
+        },
+        "assist": {
+          "id": 108479,
+          "name": "B. Idrizi"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 162901,
+          "name": "J. Kaparos"
+        },
+        "assist": {
+          "id": 19262,
+          "name": "T. Kalas"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 88140,
+          "name": "R. Schallenberg"
+        },
+        "assist": {
+          "id": 25161,
+          "name": "P. Seguin"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 161882,
+          "name": "S. Van Der Sloot"
+        },
+        "assist": {
+          "id": 25155,
+          "name": "T. Mohr"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": null,
+          "name": "V. Becker"
+        },
+        "assist": {
+          "id": 24812,
+          "name": "S. Terodde"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": null,
+          "name": "N. H. Castelle"
+        },
+        "assist": {
+          "id": 25466,
+          "name": "K. Karaman"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 37760,
+          "name": "D. J. Murkin"
+        },
+        "assist": {
+          "id": 36888,
+          "name": "T. Ouwejan"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 26297,
+          "name": "T. Baumgartl"
+        },
+        "assist": {
+          "id": 3003,
+          "name": "M. Kaminski"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": 25400,
+          "name": "Y. Gerhardt"
+        },
+        "assist": {
+          "id": 1321,
+          "name": "L. Majer"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": 48574,
+          "name": "C. Zesiger"
+        },
+        "assist": {
+          "id": 1408,
+          "name": "S. Bornauw"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": 20995,
+          "name": "M. Lacroix"
+        },
+        "assist": {
+          "id": 231032,
+          "name": "M. Jenz"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": null,
+          "name": "D. Pejcinovic"
+        },
+        "assist": {
+          "id": 1302,
+          "name": "J. Wind"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": 177618,
+          "name": "K. Fischer"
+        },
+        "assist": {
+          "id": 1930,
+          "name": "J. Maehle"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": null,
+          "name": "D. Pejcinovic"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png"
+        },
+        "player": {
+          "id": null,
+          "name": "K. J. Amoako"
+        },
+        "assist": {
+          "id": 25408,
+          "name": "M. Arnold"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "player": {
+          "id": 26297,
+          "name": "T. Baumgartl"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

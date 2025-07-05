@@ -1,0 +1,61 @@
+{
+  "cache_timestamp": "2025-07-04T12:45:31.185812",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1244894"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 8,
+          "extra": null
+        },
+        "team": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png"
+        },
+        "player": {
+          "id": 1454,
+          "name": "M. Guendouzi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 877,
+          "name": "Triestina",
+          "logo": "https://media.api-sports.io/football/teams/877.png"
+        },
+        "player": {
+          "id": 30866,
+          "name": "M. Lazzari"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Own Goal",
+        "comments": null
+      }
+    ]
+  }
+}

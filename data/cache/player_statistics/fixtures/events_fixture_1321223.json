@@ -1,0 +1,369 @@
+{
+  "cache_timestamp": "2025-07-04T13:03:39.433602",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1321223"
+    },
+    "errors": [],
+    "results": 16,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 5,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 756,
+          "name": "F. Valverde"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 10,
+          "extra": null
+        },
+        "team": {
+          "id": 9811,
+          "name": "Deportiva Minera",
+          "logo": "https://media.api-sports.io/football/teams/9811.png"
+        },
+        "player": {
+          "id": 122886,
+          "name": "Juan Miguel Heredero"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 13,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 2207,
+          "name": "E. Camavinga"
+        },
+        "assist": {
+          "id": 736,
+          "name": "Fran Garc\u00eda"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 28,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 291964,
+          "name": "A. G\u00fcler"
+        },
+        "assist": {
+          "id": 756,
+          "name": "F. Valverde"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 9811,
+          "name": "Deportiva Minera",
+          "logo": "https://media.api-sports.io/football/teams/9811.png"
+        },
+        "player": {
+          "id": 91620,
+          "name": "Monty"
+        },
+        "assist": {
+          "id": 285355,
+          "name": "S. Baradji"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 9811,
+          "name": "Deportiva Minera",
+          "logo": "https://media.api-sports.io/football/teams/9811.png"
+        },
+        "player": {
+          "id": 122886,
+          "name": "Juanmi Heredero"
+        },
+        "assist": {
+          "id": 417256,
+          "name": "Diego de Diego"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 756,
+          "name": "F. Valverde"
+        },
+        "assist": {
+          "id": 748,
+          "name": "Dani Ceballos"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 754,
+          "name": "L. Modri\u0107"
+        },
+        "assist": {
+          "id": 744,
+          "name": "Brahim D\u00edaz"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 9811,
+          "name": "Deportiva Minera",
+          "logo": "https://media.api-sports.io/football/teams/9811.png"
+        },
+        "player": {
+          "id": 178946,
+          "name": "Francis Ferr\u00f3n"
+        },
+        "assist": {
+          "id": 393174,
+          "name": "Sergio Cortado"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 9811,
+          "name": "Deportiva Minera",
+          "logo": "https://media.api-sports.io/football/teams/9811.png"
+        },
+        "player": {
+          "id": 105068,
+          "name": "Pipo"
+        },
+        "assist": {
+          "id": 125589,
+          "name": "Domi Pujante"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 336988,
+          "name": "Lorenzo Aguado"
+        },
+        "assist": {
+          "id": 757,
+          "name": "Lucas V\u00e1zquez"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 2207,
+          "name": "E. Camavinga"
+        },
+        "assist": {
+          "id": 278,
+          "name": "K. Mbapp\u00e9"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 744,
+          "name": "Brahim D\u00edaz"
+        },
+        "assist": {
+          "id": 388871,
+          "name": "Chema Andr\u00e9s"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 754,
+          "name": "L. Modri\u0107"
+        },
+        "assist": {
+          "id": 762,
+          "name": "Vin\u00edcius J\u00fanior"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 9811,
+          "name": "Deportiva Minera",
+          "logo": "https://media.api-sports.io/football/teams/9811.png"
+        },
+        "player": {
+          "id": 136818,
+          "name": "Javi Vera"
+        },
+        "assist": {
+          "id": 291741,
+          "name": "Ra\u00fal Sanch\u00eds"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "player": {
+          "id": 291964,
+          "name": "A. G\u00fcler"
+        },
+        "assist": {
+          "id": 736,
+          "name": "Fran Garc\u00eda"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

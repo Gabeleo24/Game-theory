@@ -1,0 +1,480 @@
+{
+  "cache_timestamp": "2025-07-04T12:10:05.607037",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1213077"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png",
+          "colors": {
+            "player": {
+              "primary": "e60d0d",
+              "number": "fafafa",
+              "border": "e60d0d"
+            },
+            "goalkeeper": {
+              "primary": "c8e727",
+              "number": "000000",
+              "border": "c8e727"
+            }
+          }
+        },
+        "coach": {
+          "id": 10515,
+          "name": "M. Galaktionov",
+          "photo": "https://media.api-sports.io/football/coachs/10515.png"
+        },
+        "formation": "4-2-3-1",
+        "startXI": [
+          {
+            "player": {
+              "id": 43729,
+              "name": "I. Lantratov",
+              "number": 22,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 43451,
+              "name": "M. Nenakhov",
+              "number": 24,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 2200,
+              "name": "G. Nyamsi",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 2873,
+              "name": "C. Montes",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 43511,
+              "name": "I. Samoshnikov",
+              "number": 77,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 476,
+              "name": "D. Barinov",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 324420,
+              "name": "A. Karpukas",
+              "number": 93,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 192015,
+              "name": "E. Sevikyan",
+              "number": 7,
+              "pos": "M",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 401073,
+              "name": "A. Batrakov",
+              "number": 83,
+              "pos": "M",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 841,
+              "name": "N. Tiknizyan",
+              "number": 71,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 130292,
+              "name": "T. Suleymanov",
+              "number": 99,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 166840,
+              "name": "S. Pinyaev",
+              "number": 9,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 43500,
+              "name": "V. Sarveli",
+              "number": 8,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 43443,
+              "name": "D. Vorobyev",
+              "number": 10,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 342206,
+              "name": "V. Rakov",
+              "number": 27,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 53688,
+              "name": "A. Timofeev",
+              "number": 94,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162504,
+              "name": "A. Silyanov",
+              "number": 45,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162598,
+              "name": "E. Morozov",
+              "number": 85,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 342288,
+              "name": "D. Veselov",
+              "number": 16,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 333919,
+              "name": "N. Saltykov",
+              "number": 14,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 48504,
+              "name": "A. Mitryushkin",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 367691,
+              "name": "E. Pogostnov",
+              "number": 59,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 1993,
+          "name": "Fakel",
+          "logo": "https://media.api-sports.io/football/teams/1993.png",
+          "colors": {
+            "player": {
+              "primary": "1959b7",
+              "number": "ffffff",
+              "border": "1959b7"
+            },
+            "goalkeeper": {
+              "primary": "858186",
+              "number": "ffffff",
+              "border": "858186"
+            }
+          }
+        },
+        "coach": {
+          "id": 18263,
+          "name": "D. Pyatibratov",
+          "photo": "https://media.api-sports.io/football/coachs/18263.png"
+        },
+        "formation": "3-4-3",
+        "startXI": [
+          {
+            "player": {
+              "id": 53537,
+              "name": "V. Gudiev",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 158472,
+              "name": "M. Dziov",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 21003,
+              "name": "R. Senhadji",
+              "number": 72,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 53594,
+              "name": "I. Kalinin",
+              "number": 13,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 85416,
+              "name": "M. Brahimi",
+              "number": 7,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 342292,
+              "name": "M. Shchetinin",
+              "number": 21,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 43462,
+              "name": "I. Kvekveskiri",
+              "number": 33,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 43376,
+              "name": "I. Alshin",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 41772,
+              "name": "T. Cele",
+              "number": 5,
+              "pos": "F",
+              "grid": "4:3"
+            }
+          },
+          {
+            "player": {
+              "id": 304215,
+              "name": "A. Kashtanov",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 38799,
+              "name": "D. Mertens",
+              "number": 6,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 43567,
+              "name": "V. Yakimov",
+              "number": 23,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 318532,
+              "name": "N. Mo\u021bpan",
+              "number": 11,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 108492,
+              "name": "N. Giorgobiani",
+              "number": 17,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 53668,
+              "name": "E. Markov",
+              "number": 20,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 428083,
+              "name": "A. Ivlev",
+              "number": 64,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 43732,
+              "name": "S. Bozhin",
+              "number": 47,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 53697,
+              "name": "A. Belenov",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 125368,
+              "name": "V. Masternoy",
+              "number": 88,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 410693,
+              "name": "L. Bagatelia",
+              "number": 77,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 53622,
+              "name": "S. Bryzgalov",
+              "number": 92,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 43350,
+              "name": "I. Yurganov",
+              "number": 22,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 383682,
+              "name": "A. Bagamaev",
+              "number": 8,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

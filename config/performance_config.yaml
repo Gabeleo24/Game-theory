@@ -1,0 +1,295 @@
+# Performance Optimization Configuration for ADS599 Capstone Soccer Intelligence System
+# Optimized for 67 UEFA Champions League teams dataset (2019-2024 seasons)
+
+# ============================================================================
+# Data Processing Performance Configuration
+# ============================================================================
+data_processing:
+  # Chunked processing for large datasets
+  chunk_processing:
+    enabled: true
+    chunk_size: 10000
+    overlap_size: 100
+    parallel_chunks: true
+    max_chunks_in_memory: 4
+  
+  # Memory management
+  memory:
+    max_memory_usage_gb: 6
+    memory_monitoring_interval: 30  # seconds
+    garbage_collection_threshold: 0.8
+    force_gc_after_chunks: 10
+    use_memory_mapping: true
+    
+  # Vectorized operations
+  vectorization:
+    use_numpy_vectorization: true
+    use_pandas_vectorization: true
+    use_numba_jit: true
+    parallel_apply: true
+    
+  # I/O optimization
+  io_optimization:
+    buffer_size: 65536
+    compression: 'gzip'
+    compression_level: 6
+    use_parquet: true
+    parallel_io: true
+
+# ============================================================================
+# Shapley Analysis Performance Configuration
+# ============================================================================
+shapley_analysis:
+  # Computational optimization
+  computation:
+    parallel_computation: true
+    n_jobs: 4
+    batch_size: 100
+    use_sparse_matrices: true
+    memory_efficient_mode: true
+    
+  # Sampling optimization
+  sampling:
+    strategy: 'stratified'
+    min_samples: 1000
+    max_samples: 10000
+    early_stopping: true
+    convergence_threshold: 0.001
+    
+  # Caching optimization
+  caching:
+    cache_intermediate_results: true
+    cache_directory: '/app/data/cache/shapley'
+    cache_compression: true
+    cache_expiry_hours: 168  # 1 week
+    
+  # Model optimization
+  model:
+    use_gradient_boosting: true
+    max_depth: 6
+    n_estimators: 100
+    learning_rate: 0.1
+    subsample: 0.8
+    feature_selection: true
+    max_features: 'sqrt'
+
+# ============================================================================
+# Database Performance Configuration
+# ============================================================================
+database:
+  # PostgreSQL optimization
+  postgresql:
+    connection_pool_size: 20
+    max_overflow: 30
+    pool_timeout: 30
+    pool_recycle: 3600
+    echo: false
+    
+  # Query optimization
+  query_optimization:
+    use_prepared_statements: true
+    batch_insert_size: 1000
+    use_bulk_operations: true
+    enable_query_cache: true
+    
+  # Indexing strategy
+  indexing:
+    auto_create_indexes: true
+    composite_indexes: true
+    partial_indexes: true
+    index_maintenance: true
+
+# ============================================================================
+# Caching Performance Configuration
+# ============================================================================
+caching:
+  # Redis optimization
+  redis:
+    connection_pool_size: 10
+    max_connections: 50
+    socket_timeout: 30
+    socket_connect_timeout: 30
+    socket_keepalive: true
+    socket_keepalive_options: {}
+    
+  # Cache strategy
+  strategy:
+    default_ttl: 3600  # 1 hour
+    max_memory_policy: 'allkeys-lru'
+    compression: true
+    serialization: 'pickle'
+    
+  # Cache levels
+  levels:
+    l1_memory_cache_size: 1000
+    l2_redis_cache: true
+    l3_file_cache: true
+    cache_warming: true
+
+# ============================================================================
+# API Performance Configuration
+# ============================================================================
+api_performance:
+  # Connection optimization
+  connection:
+    pool_size: 10
+    max_retries: 3
+    backoff_factor: 0.3
+    timeout: 30
+    keep_alive: true
+    
+  # Rate limiting
+  rate_limiting:
+    requests_per_minute: 100
+    burst_protection: true
+    adaptive_rate_limiting: true
+    
+  # Request optimization
+  request_optimization:
+    use_session_pooling: true
+    compress_requests: true
+    parallel_requests: false  # Respect API limits
+    batch_requests: false     # API doesn't support batching
+
+# ============================================================================
+# Parallel Processing Configuration
+# ============================================================================
+parallel_processing:
+  # Worker configuration
+  workers:
+    max_workers: 4
+    worker_type: 'thread'  # 'thread' or 'process'
+    chunk_size: 'auto'
+    
+  # Task distribution
+  task_distribution:
+    load_balancing: true
+    dynamic_scheduling: true
+    work_stealing: true
+    
+  # Resource management
+  resource_management:
+    cpu_affinity: false
+    memory_per_worker: '1GB'
+    timeout_per_task: 300  # seconds
+
+# ============================================================================
+# Monitoring and Metrics Configuration
+# ============================================================================
+monitoring:
+  # Performance metrics
+  metrics:
+    enable_timing: true
+    enable_memory_tracking: true
+    enable_cpu_tracking: true
+    enable_io_tracking: true
+    
+  # Logging
+  logging:
+    performance_log_level: 'INFO'
+    log_slow_operations: true
+    slow_operation_threshold: 10  # seconds
+    
+  # Alerts
+  alerts:
+    memory_threshold: 0.9
+    cpu_threshold: 0.9
+    disk_threshold: 0.9
+    response_time_threshold: 30  # seconds
+
+# ============================================================================
+# Feature Engineering Performance Configuration
+# ============================================================================
+feature_engineering:
+  # Optimization techniques
+  optimization:
+    use_categorical_encoding: true
+    use_feature_selection: true
+    use_dimensionality_reduction: false
+    cache_engineered_features: true
+    
+  # Processing strategy
+  processing:
+    parallel_feature_creation: true
+    batch_feature_processing: true
+    incremental_feature_updates: true
+    
+  # Memory management
+  memory:
+    feature_cache_size: '2GB'
+    lazy_feature_loading: true
+    feature_compression: true
+
+# ============================================================================
+# Model Training Performance Configuration
+# ============================================================================
+model_training:
+  # Training optimization
+  training:
+    use_early_stopping: true
+    validation_split: 0.2
+    cross_validation_folds: 5
+    parallel_cv: true
+    
+  # Hyperparameter optimization
+  hyperparameter_optimization:
+    use_random_search: true
+    n_iter: 50
+    cv_folds: 3
+    parallel_search: true
+    
+  # Model persistence
+  persistence:
+    model_compression: true
+    incremental_learning: true
+    model_versioning: true
+
+# ============================================================================
+# Data Validation Performance Configuration
+# ============================================================================
+data_validation:
+  # Validation strategy
+  validation:
+    parallel_validation: true
+    sample_validation: true
+    sample_size: 0.1
+    
+  # Quality checks
+  quality_checks:
+    enable_schema_validation: true
+    enable_data_profiling: true
+    enable_anomaly_detection: true
+    
+  # Performance thresholds
+  thresholds:
+    max_validation_time: 300  # seconds
+    max_memory_usage: '1GB'
+    error_tolerance: 0.01
+
+# ============================================================================
+# Environment-Specific Overrides
+# ============================================================================
+environments:
+  development:
+    data_processing:
+      chunk_size: 1000
+    shapley_analysis:
+      max_samples: 1000
+    parallel_processing:
+      max_workers: 2
+      
+  production:
+    data_processing:
+      chunk_size: 10000
+    shapley_analysis:
+      max_samples: 10000
+    parallel_processing:
+      max_workers: 4
+      
+  testing:
+    data_processing:
+      chunk_size: 100
+    shapley_analysis:
+      max_samples: 100
+    parallel_processing:
+      max_workers: 1

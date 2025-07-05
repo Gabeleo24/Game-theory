@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T12:47:52.007003",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1250601"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": {
+          "id": 2095,
+          "name": "Kallithea",
+          "logo": "https://media.api-sports.io/football/teams/2095.png"
+        },
+        "player": {
+          "id": 103898,
+          "name": "Josua Mej\u00edas"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 2095,
+          "name": "Kallithea",
+          "logo": "https://media.api-sports.io/football/teams/2095.png"
+        },
+        "player": {
+          "id": 27045,
+          "name": "G. Loukinas"
+        },
+        "assist": {
+          "id": 43001,
+          "name": "Thierry Moutinho"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 204037,
+          "name": "Costinha"
+        },
+        "assist": {
+          "id": 392482,
+          "name": "C. Kostoulas"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 392482,
+          "name": "C. Kostoulas"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 2095,
+          "name": "Kallithea",
+          "logo": "https://media.api-sports.io/football/teams/2095.png"
+        },
+        "player": {
+          "id": 1367,
+          "name": "M. Valbuena"
+        },
+        "assist": {
+          "id": 374504,
+          "name": "S. Diba"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 2095,
+          "name": "Kallithea",
+          "logo": "https://media.api-sports.io/football/teams/2095.png"
+        },
+        "player": {
+          "id": 26698,
+          "name": "G. Manthatis"
+        },
+        "assist": {
+          "id": 264478,
+          "name": "A. Mercati"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 2375,
+          "name": "S\u00e9rgio Oliveira"
+        },
+        "assist": {
+          "id": 195929,
+          "name": "S. Hezze"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 2722,
+          "name": "A. El Kaabi"
+        },
+        "assist": {
+          "id": 8493,
+          "name": "R. Yaremchuk"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 2095,
+          "name": "Kallithea",
+          "logo": "https://media.api-sports.io/football/teams/2095.png"
+        },
+        "player": {
+          "id": 128383,
+          "name": "M. Ndiaye"
+        },
+        "assist": {
+          "id": 48537,
+          "name": "R. Uldri\u0137is"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 2095,
+          "name": "Kallithea",
+          "logo": "https://media.api-sports.io/football/teams/2095.png"
+        },
+        "player": {
+          "id": 10140,
+          "name": "Demethryus"
+        },
+        "assist": {
+          "id": 91576,
+          "name": "E. Giani"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 118,
+          "name": "Gelson Martins"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 195929,
+          "name": "Santiago Hezze"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 180424,
+          "name": "A. Apostolopoulos"
+        },
+        "assist": {
+          "id": 971,
+          "name": "P. Retsos"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 39244,
+          "name": "K. Velde"
+        },
+        "assist": {
+          "id": 1610,
+          "name": "G. Masouras"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 2095,
+          "name": "Kallithea",
+          "logo": "https://media.api-sports.io/football/teams/2095.png"
+        },
+        "player": {
+          "id": 91576,
+          "name": "Elia Giani"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 5
+        },
+        "team": {
+          "id": 553,
+          "name": "Olympiakos Piraeus",
+          "logo": "https://media.api-sports.io/football/teams/553.png"
+        },
+        "player": {
+          "id": 10157,
+          "name": "Rodinei"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 2095,
+          "name": "Kallithea",
+          "logo": "https://media.api-sports.io/football/teams/2095.png"
+        },
+        "player": {
+          "id": 91576,
+          "name": "E. Giani"
+        },
+        "assist": {
+          "id": 68197,
+          "name": "Javier Matilla"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

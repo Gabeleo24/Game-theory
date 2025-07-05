@@ -1,0 +1,391 @@
+{
+  "cache_timestamp": "2025-07-04T12:25:20.559303",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1213043"
+    },
+    "errors": [],
+    "results": 17,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 8,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 328148,
+          "name": "Edgardo Fari\u00f1a"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 35,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2079,
+          "name": "Aleksandr Chernikov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 37,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 43581,
+          "name": "Oleksandr Filin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 41,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 24810,
+          "name": "J. C\u00f3rdoba"
+        },
+        "assist": {
+          "id": 2075,
+          "name": "S. Petrov"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 130247,
+          "name": "Batxi"
+        },
+        "assist": {
+          "id": 24810,
+          "name": "J. C\u00f3rdoba"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2079,
+          "name": "A. Chernikov"
+        },
+        "assist": {
+          "id": 289592,
+          "name": "K. Casta\u00f1o"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 7541,
+          "name": "Victor S\u00e1"
+        },
+        "assist": {
+          "id": 342208,
+          "name": "D. Kozlov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 119745,
+          "name": "\u00c1lex Corredera"
+        },
+        "assist": {
+          "id": 59197,
+          "name": "L. Vera"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 53500,
+          "name": "Z. Bakaev"
+        },
+        "assist": {
+          "id": 53507,
+          "name": "R. Mirzov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 126704,
+          "name": "S. Abdullahi"
+        },
+        "assist": {
+          "id": 43656,
+          "name": "A. Rudenko"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 24810,
+          "name": "J. C\u00f3rdoba"
+        },
+        "assist": {
+          "id": 289592,
+          "name": "K. Casta\u00f1o"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 328148,
+          "name": "E. Fari\u00f1a"
+        },
+        "assist": {
+          "id": 1772,
+          "name": "G. Dzhikia"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 130247,
+          "name": "Batxi"
+        },
+        "assist": {
+          "id": 323556,
+          "name": "M. Cobnan"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 43565,
+          "name": "E. Spertsyan"
+        },
+        "assist": {
+          "id": 493,
+          "name": "F. Smolov"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 96512,
+          "name": "Kevin Pina"
+        },
+        "assist": {
+          "id": 202211,
+          "name": "N. Krivtsov"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 1994,
+          "name": "Khimki",
+          "logo": "https://media.api-sports.io/football/teams/1994.png"
+        },
+        "player": {
+          "id": 1226,
+          "name": "A. Zabolotny"
+        },
+        "assist": {
+          "id": 150210,
+          "name": "I. Sadygov"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 289592,
+          "name": "K. Casta\u00f1o"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

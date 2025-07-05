@@ -1,0 +1,633 @@
+{
+  "cache_timestamp": "2025-07-04T12:08:15.899846",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1219971"
+    },
+    "errors": [],
+    "results": 28,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 3,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 269,
+          "name": "C. Nkunku"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 21,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 392270,
+          "name": "Marc Guiu"
+        },
+        "assist": {
+          "id": 148099,
+          "name": "K. Dewsbury-Hall"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 282125,
+          "name": "R. Lavia"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 70473,
+          "name": "R. S\u00e1nchez"
+        },
+        "assist": {
+          "id": 750,
+          "name": "\u00c1lvaro Fidalgo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 127227,
+          "name": "I. Reyes"
+        },
+        "assist": {
+          "id": 421130,
+          "name": "D. Espinoza"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 51618,
+          "name": "B. Rodr\u00edguez"
+        },
+        "assist": {
+          "id": 128166,
+          "name": "I. Hern\u00e1ndez"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 35930,
+          "name": "L. Malag\u00f3n"
+        },
+        "assist": {
+          "id": 35473,
+          "name": "R. Cota"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 2552,
+          "name": "I. Lichnovsky"
+        },
+        "assist": {
+          "id": 394262,
+          "name": "M. V\u00e1zquez"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 25358,
+          "name": "J. Dilrosun"
+        },
+        "assist": {
+          "id": 180734,
+          "name": "R. Ju\u00e1rez"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 36093,
+          "name": "\u00c9. S\u00e1nchez"
+        },
+        "assist": {
+          "id": 2561,
+          "name": "D. Vald\u00e9s"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 35613,
+          "name": "C. Calder\u00f3n"
+        },
+        "assist": {
+          "id": 1476,
+          "name": "C. Borja"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 2870,
+          "name": "N. Ara\u00fajo"
+        },
+        "assist": {
+          "id": 51535,
+          "name": "S. C\u00e1ceres"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 2880,
+          "name": "J. dos Santos"
+        },
+        "assist": {
+          "id": 35878,
+          "name": "A. Cervantes"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 35603,
+          "name": "H. Mart\u00edn"
+        },
+        "assist": {
+          "id": 16482,
+          "name": "R. Aguirre"
+        },
+        "type": "subst",
+        "detail": "Substitution 11",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 18959,
+          "name": "Robert S\u00e1nchez"
+        },
+        "assist": {
+          "id": 286616,
+          "name": "F. J\u00f8rgensen"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 148099,
+          "name": "K. Dewsbury-Hall"
+        },
+        "assist": {
+          "id": 5996,
+          "name": "E. Fern\u00e1ndez"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 645,
+          "name": "R. Sterling"
+        },
+        "assist": {
+          "id": 63577,
+          "name": "M. Mudryk"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 95,
+          "name": "B. Badiashile"
+        },
+        "assist": {
+          "id": 22094,
+          "name": "W. Fofana"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 392270,
+          "name": "Marc Guiu"
+        },
+        "assist": {
+          "id": 138822,
+          "name": "A. Broja"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 282125,
+          "name": "R. Lavia"
+        },
+        "assist": {
+          "id": 270508,
+          "name": "L. Ugochukwu"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 19545,
+          "name": "R. James"
+        },
+        "assist": {
+          "id": 336671,
+          "name": "Renato Veiga"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 270508,
+          "name": "L. Ugochukwu"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": {
+          "id": 2287,
+          "name": "Club America",
+          "logo": "https://media.api-sports.io/football/teams/2287.png"
+        },
+        "player": {
+          "id": 16482,
+          "name": "R. Aguirre"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 161907,
+          "name": "M. Gusto"
+        },
+        "assist": {
+          "id": 2933,
+          "name": "B. Chilwell"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 136723,
+          "name": "N. Madueke"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 269,
+          "name": "C. Nkunku"
+        },
+        "assist": {
+          "id": 288055,
+          "name": "\u00c2ngelo"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 136723,
+          "name": "N. Madueke"
+        },
+        "assist": {
+          "id": 334037,
+          "name": "T. George"
+        },
+        "type": "subst",
+        "detail": "Substitution 10",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png"
+        },
+        "player": {
+          "id": 336671,
+          "name": "R. Veiga"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      }
+    ]
+  }
+}

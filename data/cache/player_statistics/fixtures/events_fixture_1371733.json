@@ -1,0 +1,633 @@
+{
+  "cache_timestamp": "2025-07-04T12:58:30.471507",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1371733"
+    },
+    "errors": [],
+    "results": 28,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": -5,
+          "extra": null
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 263530,
+          "name": "Pau V\u00edctor"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 21,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 217,
+          "name": "L. Mart\u00ednez"
+        },
+        "assist": {
+          "id": 226,
+          "name": "D. Dumfries"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 36,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1640,
+          "name": "Hakan \u00c7alhano\u011flu"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 217,
+          "name": "Lautaro Mart\u00ednez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 1
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1640,
+          "name": "H. \u00c7alhano\u011flu"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 51,
+          "extra": null
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 2670,
+          "name": "I\u00f1igo Mart\u00ednez"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 54,
+          "extra": null
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 619,
+          "name": "Eric Garc\u00eda"
+        },
+        "assist": {
+          "id": 181701,
+          "name": "Gerard Mart\u00edn"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 31010,
+          "name": "F. Dimarco"
+        },
+        "assist": {
+          "id": 10238,
+          "name": "Carlos Augusto"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 1323,
+          "name": "Dani Olmo"
+        },
+        "assist": {
+          "id": 181701,
+          "name": "Gerard Mart\u00edn"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1457,
+          "name": "Henrikh Mkhitaryan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 386828,
+          "name": "Lamine Yamal"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Penalty cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 24953,
+          "name": "Y. Bisseck"
+        },
+        "assist": {
+          "id": 887,
+          "name": "M. Darmian"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 217,
+          "name": "L. Mart\u00ednez"
+        },
+        "assist": {
+          "id": 42315,
+          "name": "M. Taremi"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 2670,
+          "name": "I\u00f1igo Mart\u00ednez"
+        },
+        "assist": {
+          "id": 101814,
+          "name": "R. Araujo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1640,
+          "name": "H. \u00c7alhano\u011flu"
+        },
+        "assist": {
+          "id": 329,
+          "name": "P. Zieli\u0144ski"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1457,
+          "name": "H. Mkhitaryan"
+        },
+        "assist": {
+          "id": 31173,
+          "name": "D. Frattesi"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 1323,
+          "name": "Dani Olmo"
+        },
+        "assist": {
+          "id": 340626,
+          "name": "Ferm\u00edn L\u00f3pez"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 1496,
+          "name": "Raphinha"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1836,
+          "name": "F. Acerbi"
+        },
+        "assist": {
+          "id": 226,
+          "name": "D. Dumfries"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 931,
+          "name": "Ferran Torres"
+        },
+        "assist": {
+          "id": 521,
+          "name": "R. Lewandowski"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 1836,
+          "name": "Francesco Acerbi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 91,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 10238,
+          "name": "Carlos Augusto"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 98,
+          "extra": null
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 619,
+          "name": "Eric Garc\u00eda"
+        },
+        "assist": {
+          "id": 386859,
+          "name": "H\u00e9ctor Fort"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 99,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 31173,
+          "name": "D. Frattesi"
+        },
+        "assist": {
+          "id": 42315,
+          "name": "M. Taremi"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 105,
+          "extra": null
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 133609,
+          "name": "Pedri"
+        },
+        "assist": {
+          "id": 263530,
+          "name": "Pau V\u00edctor"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 105,
+          "extra": null
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "player": {
+          "id": 396623,
+          "name": "Pau Cubars\u00ed"
+        },
+        "assist": {
+          "id": 296667,
+          "name": "Gavi"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 108,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 226,
+          "name": "D. Dumfries"
+        },
+        "assist": {
+          "id": 194,
+          "name": "S. de Vrij"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 118,
+          "extra": null
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "player": {
+          "id": 31009,
+          "name": "Alessandro Bastoni"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      }
+    ]
+  }
+}

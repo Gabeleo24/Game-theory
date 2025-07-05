@@ -1,0 +1,149 @@
+{
+  "cache_timestamp": "2025-07-04T12:54:54.817550",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1218306"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 10,
+          "extra": null
+        },
+        "team": {
+          "id": 54,
+          "name": "Birmingham",
+          "logo": "https://media.api-sports.io/football/teams/54.png"
+        },
+        "player": {
+          "id": 1744,
+          "name": "J. Tavernier"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Own Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 36,
+          "extra": null
+        },
+        "team": {
+          "id": 54,
+          "name": "Birmingham",
+          "logo": "https://media.api-sports.io/football/teams/54.png"
+        },
+        "player": {
+          "id": 19938,
+          "name": "A. May"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png"
+        },
+        "player": {
+          "id": 327533,
+          "name": "R. Fraser"
+        },
+        "assist": {
+          "id": 423,
+          "name": "R. Matondo"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png"
+        },
+        "player": {
+          "id": 45049,
+          "name": "S. Wright"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png"
+        },
+        "player": {
+          "id": null,
+          "name": "F. Curtis"
+        },
+        "assist": {
+          "id": 1987,
+          "name": "R. Yilmaz"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png"
+        },
+        "player": {
+          "id": 343577,
+          "name": "B. Rice"
+        },
+        "assist": {
+          "id": 138513,
+          "name": "C. McKinnon"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "cache_timestamp": "2025-07-04T12:19:25.208557",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1202380"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 1621,
+          "name": "Rot-Wei\u00df Essen",
+          "logo": "https://media.api-sports.io/football/teams/1621.png",
+          "colors": {
+            "player": {
+              "primary": "cf1b14",
+              "number": "ffffff",
+              "border": "cf1b14"
+            },
+            "goalkeeper": {
+              "primary": "141413",
+              "number": "ffffff",
+              "border": "141413"
+            }
+          }
+        },
+        "coach": {
+          "id": 6377,
+          "name": "C. Dabrowski",
+          "photo": "https://media.api-sports.io/football/coachs/6377.png"
+        },
+        "formation": "5-3-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 125264,
+              "name": "J. Golz",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 128859,
+              "name": "E. Voufack",
+              "number": 19,
+              "pos": "D",
+              "grid": "2:5"
+            }
+          },
+          {
+            "player": {
+              "id": 204049,
+              "name": "J. R\u00edos Alonso",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 119768,
+              "name": "M. Schultz",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 88167,
+              "name": "T. Kraulich",
+              "number": 33,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 26007,
+              "name": "L. Brumme",
+              "number": 14,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 25645,
+              "name": "T. M\u00fcsel",
+              "number": 26,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 162901,
+              "name": "J. Kaparos",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 88029,
+              "name": "A. Arslan",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 374855,
+              "name": "R. Safi",
+              "number": 11,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 281933,
+              "name": "L. Voni\u0107",
+              "number": 9,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 24890,
+              "name": "M. Wintzheimer",
+              "number": 25,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 25070,
+              "name": "T. Eisfeld",
+              "number": 10,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 128812,
+              "name": "E. \u00c7elebi",
+              "number": 17,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 279973,
+              "name": "M. Kourouma",
+              "number": 16,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 380570,
+              "name": "G. Swajkowski",
+              "number": 39,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 202967,
+              "name": "D. Berisha",
+              "number": 21,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 203358,
+              "name": "F. Wienand",
+              "number": 35,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 90930,
+              "name": "O. Springer",
+              "number": 31,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 279974,
+              "name": "N. Kaiser",
+              "number": 18,
+              "pos": "D",
+              "grid": null
+            }
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png",
+          "colors": {
+            "player": {
+              "primary": "ffffff",
+              "number": "ff0000",
+              "border": "ffffff"
+            },
+            "goalkeeper": {
+              "primary": "eef073",
+              "number": "100c09",
+              "border": "eef073"
+            }
+          }
+        },
+        "coach": {
+          "id": 1540,
+          "name": "M. Rose",
+          "photo": "https://media.api-sports.io/football/coachs/1540.png"
+        },
+        "formation": "4-4-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 1139,
+              "name": "P. Gul\u00e1csi",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1144,
+              "name": "L. Klostermann",
+              "number": 16,
+              "pos": "D",
+              "grid": "2:4"
+            }
+          },
+          {
+            "player": {
+              "id": 22250,
+              "name": "M. Simakan",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1148,
+              "name": "W. Orb\u00e1n",
+              "number": 4,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 25158,
+              "name": "D. Raum",
+              "number": 22,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 1153,
+              "name": "A. Haidara",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 7328,
+              "name": "N. Seiwald",
+              "number": 13,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1155,
+              "name": "K. Kampl",
+              "number": 44,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 162016,
+              "name": "X. Simons",
+              "number": 10,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 86,
+              "name": "L. Openda",
+              "number": 11,
+              "pos": "F",
+              "grid": "4:2"
+            }
+          },
+          {
+            "player": {
+              "id": 115589,
+              "name": "B. \u0160e\u0161ko",
+              "number": 30,
+              "pos": "F",
+              "grid": "4:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 98,
+              "name": "B. Henrichs",
+              "number": 39,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162761,
+              "name": "C. Lukeba",
+              "number": 23,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 314511,
+              "name": "A. Nusa",
+              "number": 7,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 2063,
+              "name": "Andr\u00e9 Silva",
+              "number": 19,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 469695,
+              "name": "V. Gebel",
+              "number": 47,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 24814,
+              "name": "L. Zingerle",
+              "number": 25,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 1924,
+              "name": "M. Vandevoordt",
+              "number": 26,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 413072,
+              "name": "N. Jatta",
+              "number": 38,
+              "pos": "M",
+              "grid": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

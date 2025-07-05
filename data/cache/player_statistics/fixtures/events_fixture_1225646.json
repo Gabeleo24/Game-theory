@@ -1,0 +1,545 @@
+{
+  "cache_timestamp": "2025-07-04T12:10:44.459579",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1225646"
+    },
+    "errors": [],
+    "results": 24,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 37,
+          "extra": null
+        },
+        "team": {
+          "id": 2006,
+          "name": "Baltika",
+          "logo": "https://media.api-sports.io/football/teams/2006.png"
+        },
+        "player": {
+          "id": 322051,
+          "name": "S. Pryakhin"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 37,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 2200,
+          "name": "G. Nyamsi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 43500,
+          "name": "V. Sarveli"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2006,
+          "name": "Baltika",
+          "logo": "https://media.api-sports.io/football/teams/2006.png"
+        },
+        "player": {
+          "id": 43676,
+          "name": "I. Petrov"
+        },
+        "assist": {
+          "id": 322051,
+          "name": "S. Pryakhin"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 2006,
+          "name": "Baltika",
+          "logo": "https://media.api-sports.io/football/teams/2006.png"
+        },
+        "player": {
+          "id": 7781,
+          "name": "Y. Kovalev"
+        },
+        "assist": {
+          "id": null,
+          "name": "D. Luna"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 324420,
+          "name": "A. Karpukas"
+        },
+        "assist": {
+          "id": 342206,
+          "name": "V. Rakov"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 166840,
+          "name": "S. Pinyaev"
+        },
+        "assist": {
+          "id": 43500,
+          "name": "V. Sarveli"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 48504,
+          "name": "A. Mitryushkin"
+        },
+        "assist": {
+          "id": 43729,
+          "name": "I. Lantratov"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 51,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 43511,
+          "name": "I. Samoshnikov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 53688,
+          "name": "A. Timofeev"
+        },
+        "assist": {
+          "id": 401073,
+          "name": "A. Batrakov"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 162504,
+          "name": "A. Silyanov"
+        },
+        "assist": {
+          "id": 2200,
+          "name": "G. Nyamsi"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 2006,
+          "name": "Baltika",
+          "logo": "https://media.api-sports.io/football/teams/2006.png"
+        },
+        "player": {
+          "id": 408727,
+          "name": "Y. Arbuzov"
+        },
+        "assist": {
+          "id": 43767,
+          "name": "N. Glushkov"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 2006,
+          "name": "Baltika",
+          "logo": "https://media.api-sports.io/football/teams/2006.png"
+        },
+        "player": {
+          "id": 43611,
+          "name": "K. Malyarov"
+        },
+        "assist": {
+          "id": 43852,
+          "name": "K. Kaplenko"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 65,
+          "extra": null
+        },
+        "team": {
+          "id": 2006,
+          "name": "Baltika",
+          "logo": "https://media.api-sports.io/football/teams/2006.png"
+        },
+        "player": {
+          "id": 131571,
+          "name": "N. Titkov"
+        },
+        "assist": {
+          "id": 335084,
+          "name": "V. Saus"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 2006,
+          "name": "Baltika",
+          "logo": "https://media.api-sports.io/football/teams/2006.png"
+        },
+        "player": {
+          "id": 166853,
+          "name": "D. Begun"
+        },
+        "assist": {
+          "id": 104564,
+          "name": "A. Mokhammad"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 2006,
+          "name": "Baltika",
+          "logo": "https://media.api-sports.io/football/teams/2006.png"
+        },
+        "player": {
+          "id": null,
+          "name": "I. Kalachev"
+        },
+        "assist": {
+          "id": 13166,
+          "name": "K. Andrade"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 460939,
+          "name": "D. Radikovskiy"
+        },
+        "assist": {
+          "id": 43443,
+          "name": "D. Vorobyev"
+        },
+        "type": "subst",
+        "detail": "Substitution 6",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 342206,
+          "name": "V. Rakov"
+        },
+        "assist": {
+          "id": 841,
+          "name": "N. Tiknizyan"
+        },
+        "type": "subst",
+        "detail": "Substitution 7",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 461105,
+          "name": "D. Godyaev"
+        },
+        "assist": {
+          "id": 476,
+          "name": "D. Barinov"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 162504,
+          "name": "A. Silyanov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 2006,
+          "name": "Baltika",
+          "logo": "https://media.api-sports.io/football/teams/2006.png"
+        },
+        "player": {
+          "id": null,
+          "name": "N. Tereshchuk"
+        },
+        "assist": {
+          "id": 401074,
+          "name": "K. Nikishin"
+        },
+        "type": "subst",
+        "detail": "Substitution 8",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 2006,
+          "name": "Baltika",
+          "logo": "https://media.api-sports.io/football/teams/2006.png"
+        },
+        "player": {
+          "id": null,
+          "name": "N. Kamaev"
+        },
+        "assist": {
+          "id": 149621,
+          "name": "A. Osipov"
+        },
+        "type": "subst",
+        "detail": "Substitution 9",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 460939,
+          "name": "D. Radikovskiy"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 597,
+          "name": "Lokomotiv",
+          "logo": "https://media.api-sports.io/football/teams/597.png"
+        },
+        "player": {
+          "id": 460939,
+          "name": "D. Radikovskiy"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "cache_timestamp": "2025-07-04T13:28:49.268714",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1372875"
+    },
+    "errors": [],
+    "results": 18,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 42,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 140847,
+          "name": "E. Colley"
+        },
+        "assist": {
+          "id": 271539,
+          "name": "J. Hadjam"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 44,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 952,
+          "name": "Christian Fassnacht"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 644,
+          "name": "FC Luzern",
+          "logo": "https://media.api-sports.io/football/teams/644.png"
+        },
+        "player": {
+          "id": 419687,
+          "name": "R. Fernandes"
+        },
+        "assist": {
+          "id": 37044,
+          "name": "A. Ciga\u0146iks"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 644,
+          "name": "FC Luzern",
+          "logo": "https://media.api-sports.io/football/teams/644.png"
+        },
+        "player": {
+          "id": 266034,
+          "name": "T. Owusu"
+        },
+        "assist": {
+          "id": 48704,
+          "name": "I. Beka"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 54,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 135965,
+          "name": "Darian Male\u0161"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": {
+          "id": 644,
+          "name": "FC Luzern",
+          "logo": "https://media.api-sports.io/football/teams/644.png"
+        },
+        "player": {
+          "id": 48704,
+          "name": "Ismajl Beka"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 644,
+          "name": "FC Luzern",
+          "logo": "https://media.api-sports.io/football/teams/644.png"
+        },
+        "player": {
+          "id": 452028,
+          "name": "L. Winkler"
+        },
+        "assist": {
+          "id": 7129,
+          "name": "P. Dorn"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 135965,
+          "name": "D. Males"
+        },
+        "assist": {
+          "id": 490734,
+          "name": "E. Tsimba"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 8625,
+          "name": "C. Bedia"
+        },
+        "assist": {
+          "id": 48497,
+          "name": "C. Itten"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 644,
+          "name": "FC Luzern",
+          "logo": "https://media.api-sports.io/football/teams/644.png"
+        },
+        "player": {
+          "id": 136741,
+          "name": "D. Rrudhani"
+        },
+        "assist": {
+          "id": 135272,
+          "name": "K. Spadanuda"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": {
+          "id": 644,
+          "name": "FC Luzern",
+          "logo": "https://media.api-sports.io/football/teams/644.png"
+        },
+        "player": {
+          "id": 7693,
+          "name": "A. Grbic"
+        },
+        "assist": {
+          "id": 414189,
+          "name": "L. Villiger"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 140847,
+          "name": "E. Colley"
+        },
+        "assist": {
+          "id": 271572,
+          "name": "A. Virginius"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 271539,
+          "name": "J. Hadjam"
+        },
+        "assist": {
+          "id": 1478,
+          "name": "Abdu Cont\u00e9"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 161810,
+          "name": "L. Blum"
+        },
+        "assist": {
+          "id": 396380,
+          "name": "Z. Athekame"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 954,
+          "name": "Sandro Lauper"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 644,
+          "name": "FC Luzern",
+          "logo": "https://media.api-sports.io/football/teams/644.png"
+        },
+        "player": {
+          "id": 414189,
+          "name": "Lars Villiger"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 48465,
+          "name": "Filip Ugrini\u0107"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "player": {
+          "id": 48497,
+          "name": "C. Itten"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

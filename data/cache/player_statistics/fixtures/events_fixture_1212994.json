@@ -1,0 +1,369 @@
+{
+  "cache_timestamp": "2025-07-04T12:25:09.111243",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1212994"
+    },
+    "errors": [],
+    "results": 16,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 36,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 101812,
+          "name": "J. Boselli"
+        },
+        "assist": {
+          "id": 11301,
+          "name": "M. Stamatov"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 53,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 130247,
+          "name": "Jo\u00e3o Batxi"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 43398,
+          "name": "N. Kakkoev"
+        },
+        "assist": {
+          "id": 64271,
+          "name": "S. Magkeev"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 2075,
+          "name": "S. Petrov"
+        },
+        "assist": {
+          "id": 2610,
+          "name": "G. Gonz\u00e1lez"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 289592,
+          "name": "K. Casta\u00f1o"
+        },
+        "assist": {
+          "id": 202211,
+          "name": "N. Krivtsov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 130247,
+          "name": "Batxi"
+        },
+        "assist": {
+          "id": 323556,
+          "name": "M. Cobnan"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 11301,
+          "name": "M. Stamatov"
+        },
+        "assist": {
+          "id": 43588,
+          "name": "K. Bozhenov"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 374088,
+          "name": "N. Ermakov"
+        },
+        "assist": {
+          "id": 76124,
+          "name": "Z\u00e9 Turbo"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 47433,
+          "name": "L. Olaza"
+        },
+        "assist": {
+          "id": 237056,
+          "name": "O. Olusegun"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 96512,
+          "name": "Kevin Pina"
+        },
+        "assist": {
+          "id": 342208,
+          "name": "D. Kozlov"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 323556,
+          "name": "M. Cobnan"
+        },
+        "assist": {
+          "id": 43565,
+          "name": "E. Spertsyan"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 323556,
+          "name": "Moses David Cobnan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Var",
+        "detail": "Goal confirmed",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": {
+          "id": 621,
+          "name": "FC Krasnodar",
+          "logo": "https://media.api-sports.io/football/teams/621.png"
+        },
+        "player": {
+          "id": 323556,
+          "name": "M. Cobnan"
+        },
+        "assist": {
+          "id": 24810,
+          "name": "J. C\u00f3rdoba"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 53511,
+          "name": "O. O\u017eegovi\u0107"
+        },
+        "assist": {
+          "id": 268895,
+          "name": "V. Tsarukyan"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 101812,
+          "name": "J. Boselli"
+        },
+        "assist": {
+          "id": 162726,
+          "name": "V. Karapuzov"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": {
+          "id": 2011,
+          "name": "Nizhny Novgorod",
+          "logo": "https://media.api-sports.io/football/teams/2011.png"
+        },
+        "player": {
+          "id": 43408,
+          "name": "Nikolay Kalinskiy"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Argument"
+      }
+    ]
+  }
+}

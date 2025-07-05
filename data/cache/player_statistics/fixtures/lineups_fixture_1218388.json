@@ -1,0 +1,417 @@
+{
+  "cache_timestamp": "2025-07-04T13:22:25.123498",
+  "data": {
+    "get": "fixtures/lineups",
+    "parameters": {
+      "fixture": "1218388"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 166,
+          "name": "Hannover 96",
+          "logo": "https://media.api-sports.io/football/teams/166.png",
+          "colors": {
+            "player": {
+              "primary": "ff0000",
+              "number": "ffffff",
+              "border": "ff0000"
+            },
+            "goalkeeper": {
+              "primary": "47c9af",
+              "number": "050505",
+              "border": "47c9af"
+            }
+          }
+        },
+        "formation": "3-4-1-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 26293,
+              "name": "Ron-Robert Zieler",
+              "number": 1,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 25206,
+              "name": "Phil Neumann",
+              "number": 5,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 19955,
+              "name": "Josh Knight",
+              "number": 2,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 1143,
+              "name": "Marcel Halstenberg",
+              "number": 23,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 2593,
+              "name": "Sei Muroya",
+              "number": 21,
+              "pos": "D",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 178250,
+              "name": "Enzo Leopold",
+              "number": 8,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 25499,
+              "name": "Fabian Kunze",
+              "number": 6,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 24954,
+              "name": "Jannik Dehm",
+              "number": 20,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 202771,
+              "name": "Lars Gindorf",
+              "number": 25,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 25277,
+              "name": "H\u00e5vard Nielsen",
+              "number": 16,
+              "pos": "F",
+              "grid": "5:2"
+            }
+          },
+          {
+            "player": {
+              "id": 287923,
+              "name": "Nicol\u00f2 Tresoldi",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 25013,
+              "name": "Max Christiansen",
+              "number": 13,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 25030,
+              "name": "Andreas Voglsammer",
+              "number": 32,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 203160,
+              "name": "Brooklyn Ezeh",
+              "number": 37,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 162771,
+              "name": "Jessic Ngankam",
+              "number": 7,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 355171,
+              "name": "Hyun-ju Lee",
+              "number": 11,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Eric Uhlmann",
+              "number": 19,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 355174,
+              "name": "Montell Ndikom",
+              "number": 28,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 202616,
+              "name": "Monju Momuluh",
+              "number": 14,
+              "pos": "F",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 25365,
+              "name": "Leo Weinkauf",
+              "number": 30,
+              "pos": "G",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 1340,
+          "name": "S. Leitl",
+          "photo": "https://media.api-sports.io/football/coachs/1340.png"
+        }
+      },
+      {
+        "team": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png",
+          "colors": {
+            "player": {
+              "primary": "3b4145",
+              "number": "4ca94a",
+              "border": "3b4145"
+            },
+            "goalkeeper": {
+              "primary": "fbdf28",
+              "number": "1d2027",
+              "border": "fbdf28"
+            }
+          }
+        },
+        "formation": "3-4-1-2",
+        "startXI": [
+          {
+            "player": {
+              "id": 1141,
+              "name": "Marius M\u00fcller",
+              "number": 29,
+              "pos": "G",
+              "grid": "1:1"
+            }
+          },
+          {
+            "player": {
+              "id": 231032,
+              "name": "Moritz Jenz",
+              "number": 25,
+              "pos": "D",
+              "grid": "2:3"
+            }
+          },
+          {
+            "player": {
+              "id": 1408,
+              "name": "Sebastiaan Bornauw",
+              "number": 3,
+              "pos": "D",
+              "grid": "2:2"
+            }
+          },
+          {
+            "player": {
+              "id": 394740,
+              "name": "David Odogu",
+              "number": 33,
+              "pos": "D",
+              "grid": "2:1"
+            }
+          },
+          {
+            "player": {
+              "id": 25917,
+              "name": "Ridle Baku",
+              "number": 20,
+              "pos": "M",
+              "grid": "3:4"
+            }
+          },
+          {
+            "player": {
+              "id": 380503,
+              "name": "Bence D\u00e1rdai",
+              "number": 24,
+              "pos": "M",
+              "grid": "3:3"
+            }
+          },
+          {
+            "player": {
+              "id": 25408,
+              "name": "Maximilian Arnold",
+              "number": 27,
+              "pos": "M",
+              "grid": "3:2"
+            }
+          },
+          {
+            "player": {
+              "id": 40560,
+              "name": "Jakub Kami\u0144ski",
+              "number": 16,
+              "pos": "M",
+              "grid": "3:1"
+            }
+          },
+          {
+            "player": {
+              "id": 431946,
+              "name": "Bennit Br\u00f6ger",
+              "number": 38,
+              "pos": "M",
+              "grid": "4:1"
+            }
+          },
+          {
+            "player": {
+              "id": 200139,
+              "name": "Mohamed El Amine Amoura",
+              "number": 9,
+              "pos": "F",
+              "grid": "5:2"
+            }
+          },
+          {
+            "player": {
+              "id": 25192,
+              "name": "Kevin Behrens",
+              "number": 17,
+              "pos": "F",
+              "grid": "5:1"
+            }
+          }
+        ],
+        "substitutes": [
+          {
+            "player": {
+              "id": 355176,
+              "name": "Kofi Jeremy Amoako",
+              "number": 41,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 25396,
+              "name": "Pavao Pervan",
+              "number": 12,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 21570,
+              "name": "Nicolas Cozza",
+              "number": 8,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 25400,
+              "name": "Yannick Gerhardt",
+              "number": 31,
+              "pos": "M",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 15573,
+              "name": "Kamil Grabara",
+              "number": 1,
+              "pos": "G",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": null,
+              "name": "Manuel Braun",
+              "number": 43,
+              "pos": "D",
+              "grid": null
+            }
+          },
+          {
+            "player": {
+              "id": 265363,
+              "name": "Tiago Tom\u00e1s",
+              "number": 11,
+              "pos": "F",
+              "grid": null
+            }
+          }
+        ],
+        "coach": {
+          "id": 8,
+          "name": "R. Hasenh\u00fcttl",
+          "photo": "https://media.api-sports.io/football/coachs/8.png"
+        }
+      }
+    ]
+  }
+}

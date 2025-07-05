@@ -1,0 +1,83 @@
+{
+  "cache_timestamp": "2025-07-04T13:07:45.769560",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1159156"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 5,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 14287,
+          "name": "S. Loncar"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 34,
+          "extra": null
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "player": {
+          "id": 14287,
+          "name": "S. Loncar"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 96,
+          "extra": null
+        },
+        "team": {
+          "id": 349,
+          "name": "Piast Gliwice",
+          "logo": "https://media.api-sports.io/football/teams/349.png"
+        },
+        "player": {
+          "id": 40429,
+          "name": "J. Felix"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": null
+      }
+    ]
+  }
+}

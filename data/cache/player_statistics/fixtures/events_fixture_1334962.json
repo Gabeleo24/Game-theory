@@ -1,0 +1,259 @@
+{
+  "cache_timestamp": "2025-07-04T11:47:41.366484",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1334962"
+    },
+    "errors": [],
+    "results": 11,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 42,
+          "extra": null
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "player": {
+          "id": 19004,
+          "name": "B. De Cordova-Reid"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 382452,
+          "name": "P. Dorgu"
+        },
+        "assist": {
+          "id": 284324,
+          "name": "A. Garnacho"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "player": {
+          "id": 18786,
+          "name": "W. Ndidi"
+        },
+        "assist": {
+          "id": 182,
+          "name": "H. Winks"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 58,
+          "extra": null
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "player": {
+          "id": 152969,
+          "name": "L. Thomas"
+        },
+        "assist": {
+          "id": 128338,
+          "name": "W. Coulibaly"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 284322,
+          "name": "K. Mainoo"
+        },
+        "assist": {
+          "id": 70100,
+          "name": "J. Zirkzee"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 70100,
+          "name": "J. Zirkzee"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "player": {
+          "id": 19004,
+          "name": "B. De Cordova-Reid"
+        },
+        "assist": {
+          "id": 283290,
+          "name": "K. McAteer"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "player": {
+          "id": 1098,
+          "name": "P. Daka"
+        },
+        "assist": {
+          "id": 311334,
+          "name": "F. Buonanotte"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 84,
+          "extra": null
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 51494,
+          "name": "Manuel Ugarte"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 4
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 51494,
+          "name": "M. Ugarte"
+        },
+        "assist": {
+          "id": 747,
+          "name": "Casemiro"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "player": {
+          "id": 2935,
+          "name": "H. Maguire"
+        },
+        "assist": {
+          "id": 1485,
+          "name": "Bruno Fernandes"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "cache_timestamp": "2025-07-04T11:58:01.869508",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1222432"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 7,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 22093,
+          "name": "R. Cabella"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 386287,
+          "name": "E. Mbappe"
+        },
+        "assist": {
+          "id": 896,
+          "name": "A. Gomes"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 51146,
+          "name": "V. Mannone"
+        },
+        "assist": {
+          "id": 162453,
+          "name": "L. Chevalier"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media.api-sports.io/football/teams/79.png"
+        },
+        "player": {
+          "id": 351888,
+          "name": "O. Toure"
+        },
+        "assist": {
+          "id": 379329,
+          "name": "T. Santos"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "cache_timestamp": "2025-07-04T12:35:07.407919",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1371983"
+    },
+    "errors": [],
+    "results": 23,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 37,
+          "extra": null
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 408728,
+          "name": "M. Kislyak"
+        },
+        "assist": {
+          "id": 7571,
+          "name": "S. Ko\u00efta"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 839,
+          "name": "Ivan Oblyakov"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 832,
+          "name": "I. Akhmetov"
+        },
+        "assist": {
+          "id": 265785,
+          "name": "Luiz Henrique"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 7571,
+          "name": "S. Ko\u00efta"
+        },
+        "assist": {
+          "id": 9893,
+          "name": "Alerrandro"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 872,
+          "name": "M. Pjani\u0107"
+        },
+        "assist": {
+          "id": 263676,
+          "name": "A. Fayzullaev"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 408728,
+          "name": "Matvey Kislyak"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 157992,
+          "name": "S. Guarirapa"
+        },
+        "assist": {
+          "id": 202167,
+          "name": "T. Musaev"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 834,
+          "name": "K. Bistrovi\u0107"
+        },
+        "assist": {
+          "id": 53703,
+          "name": "D. Krugovoy"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 839,
+          "name": "I. Oblyakov"
+        },
+        "assist": {
+          "id": 318945,
+          "name": "A. Shumanskiy"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 89,
+          "extra": null
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 41765,
+          "name": "Willyan Rocha"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 5923,
+          "name": "M. Cassierra"
+        },
+        "assist": {
+          "id": 278549,
+          "name": "Gustavo Mantuan"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 202167,
+          "name": "T. Musaev"
+        },
+        "assist": {
+          "id": 53703,
+          "name": "D. Krugovoy"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 1781,
+          "name": "M. Glushenkov"
+        },
+        "assist": {
+          "id": 53772,
+          "name": "A. Sobolev"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 363696,
+          "name": "Pedro Henrique"
+        },
+        "assist": {
+          "id": 43488,
+          "name": "Y. Gorshkov"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 1
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 53772,
+          "name": "A. Sobolev"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 2
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 826,
+          "name": "I. Diveev"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 3
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 24866,
+          "name": "Douglas Santos"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 4
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 9893,
+          "name": "Alerrandro"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 5
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 43855,
+          "name": "A. Mostovoy"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 6
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 408728,
+          "name": "M. Kislyak"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 7
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 265785,
+          "name": "Luiz Henrique"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 8
+        },
+        "team": {
+          "id": 555,
+          "name": "CSKA Moscow",
+          "logo": "https://media.api-sports.io/football/teams/555.png"
+        },
+        "player": {
+          "id": 53703,
+          "name": "D. Krugovoy"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Penalty",
+        "comments": "Penalty Shootout"
+      },
+      {
+        "time": {
+          "elapsed": 120,
+          "extra": 9
+        },
+        "team": {
+          "id": 596,
+          "name": "Zenit",
+          "logo": "https://media.api-sports.io/football/teams/596.png"
+        },
+        "player": {
+          "id": 278549,
+          "name": "Gustavo Mantuan"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": "Penalty Shootout"
+      }
+    ]
+  }
+}

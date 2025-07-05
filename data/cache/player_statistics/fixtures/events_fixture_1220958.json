@@ -1,0 +1,347 @@
+{
+  "cache_timestamp": "2025-07-04T12:36:01.089967",
+  "data": {
+    "get": "fixtures/events",
+    "parameters": {
+      "fixture": "1220958"
+    },
+    "errors": [],
+    "results": 15,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "time": {
+          "elapsed": 37,
+          "extra": null
+        },
+        "team": {
+          "id": 3625,
+          "name": "Inhulets",
+          "logo": "https://media.api-sports.io/football/teams/3625.png"
+        },
+        "player": {
+          "id": 366381,
+          "name": "Oleksandr Zhovtenko"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": "Foul"
+      },
+      {
+        "time": {
+          "elapsed": 38,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 330358,
+          "name": "O. Dykhtiaruk"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Own Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 40,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 2177,
+          "name": "M. Shaparenko"
+        },
+        "assist": {
+          "id": 2172,
+          "name": "V. Buialskyi"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 3625,
+          "name": "Inhulets",
+          "logo": "https://media.api-sports.io/football/teams/3625.png"
+        },
+        "player": {
+          "id": 335038,
+          "name": "A. Benediuk"
+        },
+        "assist": {
+          "id": 427275,
+          "name": "K. Svystun"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": {
+          "id": 3625,
+          "name": "Inhulets",
+          "logo": "https://media.api-sports.io/football/teams/3625.png"
+        },
+        "player": {
+          "id": 366381,
+          "name": "O. Zhovtenko"
+        },
+        "assist": {
+          "id": 150688,
+          "name": "S. Malysh"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 55,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 161570,
+          "name": "M. Mykhailenko"
+        },
+        "assist": {
+          "id": 63434,
+          "name": "O. Tymchyk"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 161670,
+          "name": "V. Vanat"
+        },
+        "assist": {
+          "id": 2177,
+          "name": "M. Shaparenko"
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 63452,
+          "name": "V. Kabaiev"
+        },
+        "assist": {
+          "id": 130881,
+          "name": "M. Braharu"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 2177,
+          "name": "M. Shaparenko"
+        },
+        "assist": {
+          "id": 63420,
+          "name": "O. Pikhalionok"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 161570,
+          "name": "M. Mykhailenko"
+        },
+        "assist": {
+          "id": 283566,
+          "name": "V. Brazhko"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 3625,
+          "name": "Inhulets",
+          "logo": "https://media.api-sports.io/football/teams/3625.png"
+        },
+        "player": {
+          "id": 150593,
+          "name": "V. Sad"
+        },
+        "assist": {
+          "id": 172845,
+          "name": "R. Volokhatyi"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": {
+          "id": 3625,
+          "name": "Inhulets",
+          "logo": "https://media.api-sports.io/football/teams/3625.png"
+        },
+        "player": {
+          "id": 130948,
+          "name": "B. Mohylnyi"
+        },
+        "assist": {
+          "id": 139103,
+          "name": "O. Piatov"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 2167,
+          "name": "D. Popov"
+        },
+        "assist": {
+          "id": 198390,
+          "name": "M. Diachuk"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": {
+          "id": 3625,
+          "name": "Inhulets",
+          "logo": "https://media.api-sports.io/football/teams/3625.png"
+        },
+        "player": {
+          "id": 336619,
+          "name": "I. Losenko"
+        },
+        "assist": {
+          "id": 356959,
+          "name": "R. Lisniak"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "player": {
+          "id": 2172,
+          "name": "V. Buialskyi"
+        },
+        "assist": {
+          "id": 63637,
+          "name": "V. Rubchynskyi"
+        },
+        "type": "subst",
+        "detail": "Substitution 5",
+        "comments": null
+      }
+    ]
+  }
+}
