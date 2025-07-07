@@ -50,8 +50,10 @@
 
 ## 📁 Notebook Organization
 
+**Storage Location**: `/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/`
+
 ```
-notebooks/
+/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/
 ├── shared/                 # 👥 Team collaboration notebooks
 │   ├── templates/         # 📄 Notebook templates
 │   ├── data_exploration/  # 🔍 Exploratory data analysis
@@ -69,6 +71,8 @@ notebooks/
 │   └── publications/
 └── archive/               # 📦 Completed work
 ```
+
+**Note**: Notebooks are stored on your host system at the path above and mounted into Docker containers at `/app/notebooks/` for access within Jupyter environments.
 
 ## 🛠️ Management Commands
 

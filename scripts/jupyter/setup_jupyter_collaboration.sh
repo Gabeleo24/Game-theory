@@ -47,34 +47,41 @@ echo ""
 # Function to create notebook directory structure
 setup_notebook_directories() {
     print_status "Setting up notebook directory structure..."
-    
+
+    # Define the specific notebook path
+    NOTEBOOKS_PATH="/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
+    BACKUPS_PATH="/Users/home/Documents/GitHub/ADS599_Capstone/backups/notebooks"
+
     # Create main notebook directories
-    mkdir -p notebooks/{shared,personal,research,archive}
-    
+    mkdir -p "$NOTEBOOKS_PATH"/{shared,personal,research,archive}
+
     # Create shared subdirectories
-    mkdir -p notebooks/shared/{templates,data_exploration,team_analysis,reports,tutorials}
-    
+    mkdir -p "$NOTEBOOKS_PATH"/shared/{templates,data_exploration,team_analysis,reports,tutorials}
+
     # Create personal workspaces
-    mkdir -p notebooks/personal/{analyst_workspace,developer_workspace,researcher_workspace}
-    
+    mkdir -p "$NOTEBOOKS_PATH"/personal/{analyst_workspace,developer_workspace,researcher_workspace}
+
     # Create research subdirectories
-    mkdir -p notebooks/research/{methodology,literature_review,statistical_analysis,publications}
-    
+    mkdir -p "$NOTEBOOKS_PATH"/research/{methodology,literature_review,statistical_analysis,publications}
+
     # Create archive subdirectories
-    mkdir -p notebooks/archive/{completed_projects,deprecated_analyses,backup_notebooks}
-    
+    mkdir -p "$NOTEBOOKS_PATH"/archive/{completed_projects,deprecated_analyses,backup_notebooks}
+
     # Create backup directory
-    mkdir -p backups/notebooks
-    
-    print_success "Notebook directory structure created"
+    mkdir -p "$BACKUPS_PATH"
+
+    print_success "Notebook directory structure created at: $NOTEBOOKS_PATH"
 }
 
 # Function to create notebook templates
 create_notebook_templates() {
     print_status "Creating notebook templates..."
-    
+
+    # Define the specific template path
+    TEMPLATES_PATH="/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/shared/templates"
+
     # Data Analysis Template
-    cat > notebooks/shared/templates/data_analysis_template.ipynb << 'EOF'
+    cat > "$TEMPLATES_PATH"/data_analysis_template.ipynb << 'EOF'
 {
  "cells": [
   {
@@ -313,12 +320,13 @@ EOF
 # Function to create Jupyter configuration files
 create_jupyter_configs() {
     print_status "Creating Jupyter configuration files..."
-    
+
     # Create Jupyter config directory
-    mkdir -p config/jupyter
+    CONFIG_PATH="/Users/home/Documents/GitHub/ADS599_Capstone/config/jupyter"
+    mkdir -p "$CONFIG_PATH"
     
     # Analyst Jupyter config
-    cat > config/jupyter/jupyter_config_analyst.py << 'EOF'
+    cat > "$CONFIG_PATH"/jupyter_config_analyst.py << 'EOF'
 # Jupyter Configuration for Analyst Role
 # ADS599 Capstone Soccer Intelligence System
 
@@ -358,7 +366,7 @@ c.ServerApp.jpserver_extensions = {
 EOF
 
     # Developer Jupyter config
-    cat > config/jupyter/jupyter_config_developer.py << 'EOF'
+    cat > "$CONFIG_PATH"/jupyter_config_developer.py << 'EOF'
 # Jupyter Configuration for Developer Role
 # ADS599 Capstone Soccer Intelligence System
 
@@ -399,7 +407,7 @@ c.ServerApp.jpserver_extensions = {
 EOF
 
     # Researcher Jupyter config
-    cat > config/jupyter/jupyter_config_researcher.py << 'EOF'
+    cat > "$CONFIG_PATH"/jupyter_config_researcher.py << 'EOF'
 # Jupyter Configuration for Researcher Role
 # ADS599 Capstone Soccer Intelligence System
 

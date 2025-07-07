@@ -1,0 +1,33 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter Lab workspace files
+.jupyter/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large output files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.svg
+
+# Data files (should be in data/ directory)
+*.csv
+*.json
+*.xlsx
+*.parquet
+
+# Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Personal workspace files (keep personal work private)
+personal/*/private_*
+personal/*/.private/

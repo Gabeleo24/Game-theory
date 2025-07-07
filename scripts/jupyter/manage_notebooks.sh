@@ -187,69 +187,74 @@ show_status() {
 # Function to backup notebooks
 backup_notebooks() {
     print_status "Creating notebook backup..."
-    
-    local backup_dir="backups/notebooks"
+
+    local notebooks_dir="/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
+    local backup_dir="/Users/home/Documents/GitHub/ADS599_Capstone/backups/notebooks"
     local timestamp=$(date +"%Y%m%d_%H%M%S")
     local backup_file="$backup_dir/notebook_backup_$timestamp.tar.gz"
-    
+
     # Create backup directory if it doesn't exist
     mkdir -p "$backup_dir"
-    
+
     # Create backup
-    if [ -d "notebooks" ]; then
-        tar -czf "$backup_file" notebooks/
+    if [ -d "$notebooks_dir" ]; then
+        tar -czf "$backup_file" -C "/Users/home/Documents/GitHub/ADS599_Capstone" notebooks/
         print_success "Notebooks backed up to: $backup_file"
-        
+
         # Keep only last 10 backups
         ls -t "$backup_dir"/notebook_backup_*.tar.gz | tail -n +11 | xargs -r rm
         print_status "Cleaned old backups (keeping last 10)"
     else
-        print_warning "No notebooks directory found"
+        print_warning "No notebooks directory found at: $notebooks_dir"
     fi
 }
 
 # Function to restore notebooks
 restore_notebooks() {
     local backup_file="$1"
-    
+    local notebooks_dir="/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
+    local backup_dir="/Users/home/Documents/GitHub/ADS599_Capstone/backups/notebooks"
+
     if [ -z "$backup_file" ]; then
         print_error "Usage: $0 restore <backup_file>"
         echo ""
         echo "Available backups:"
-        ls -la backups/notebooks/notebook_backup_*.tar.gz 2>/dev/null || echo "No backups found"
+        ls -la "$backup_dir"/notebook_backup_*.tar.gz 2>/dev/null || echo "No backups found"
         exit 1
     fi
-    
+
     if [ ! -f "$backup_file" ]; then
         print_error "Backup file not found: $backup_file"
         exit 1
     fi
-    
+
     print_status "Restoring notebooks from: $backup_file"
-    
+
     # Create backup of current notebooks
-    if [ -d "notebooks" ]; then
-        local current_backup="backups/notebooks/current_backup_$(date +"%Y%m%d_%H%M%S").tar.gz"
-        tar -czf "$current_backup" notebooks/
+    if [ -d "$notebooks_dir" ]; then
+        local current_backup="$backup_dir/current_backup_$(date +"%Y%m%d_%H%M%S").tar.gz"
+        tar -czf "$current_backup" -C "/Users/home/Documents/GitHub/ADS599_Capstone" notebooks/
         print_status "Current notebooks backed up to: $current_backup"
     fi
-    
+
     # Restore from backup
-    tar -xzf "$backup_file"
-    print_success "Notebooks restored successfully"
+    tar -xzf "$backup_file" -C "/Users/home/Documents/GitHub/ADS599_Capstone"
+    print_success "Notebooks restored successfully to: $notebooks_dir"
 }
 
 # Function to clean notebook outputs
 clean_outputs() {
     print_status "Cleaning notebook outputs..."
-    
+
+    local notebooks_dir="/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
+
     if command -v nbstripout >/dev/null 2>&1; then
-        find notebooks -name "*.ipynb" -exec nbstripout {} \;
+        find "$notebooks_dir" -name "*.ipynb" -exec nbstripout {} \;
         print_success "All notebook outputs cleaned"
     else
         print_warning "nbstripout not found. Installing..."
         pip install nbstripout
-        find notebooks -name "*.ipynb" -exec nbstripout {} \;
+        find "$notebooks_dir" -name "*.ipynb" -exec nbstripout {} \;
         print_success "All notebook outputs cleaned"
     fi
 }
@@ -257,21 +262,26 @@ clean_outputs() {
 # Function to sync notebooks with Git
 sync_notebooks() {
     print_status "Syncing notebooks with Git..."
-    
+
+    local notebooks_dir="/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
+
     # Clean outputs before committing
     clean_outputs
-    
+
+    # Change to project directory for Git operations
+    cd "/Users/home/Documents/GitHub/ADS599_Capstone"
+
     # Check Git status
     if git status --porcelain notebooks/ | grep -q .; then
         print_status "Changes detected in notebooks directory"
-        
+
         # Add notebook changes
         git add notebooks/
-        
+
         # Commit with timestamp
         local commit_msg="docs: Update notebooks - $(date '+%Y-%m-%d %H:%M:%S')"
         git commit -m "$commit_msg"
-        
+
         print_success "Notebooks synced with Git"
         print_status "Commit message: $commit_msg"
     else
@@ -282,24 +292,26 @@ sync_notebooks() {
 # Function to create new notebook
 create_notebook() {
     local name="$1"
-    
+
     if [ -z "$name" ]; then
         print_error "Usage: $0 create-notebook <name>"
         echo "Example: $0 create-notebook team_analysis"
         exit 1
     fi
-    
+
+    local notebooks_dir="/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
     local author=$(git config user.name 2>/dev/null || echo "Unknown")
     local date=$(date +"%Y-%m-%d")
     local filename="${date}_${author}_${name}_v1.ipynb"
-    local filepath="notebooks/shared/$filename"
-    
+    local filepath="$notebooks_dir/shared/$filename"
+    local template_path="$notebooks_dir/shared/templates/data_analysis_template.ipynb"
+
     print_status "Creating new notebook: $filename"
-    
+
     # Check if template exists
-    if [ -f "notebooks/shared/templates/data_analysis_template.ipynb" ]; then
-        cp "notebooks/shared/templates/data_analysis_template.ipynb" "$filepath"
-        
+    if [ -f "$template_path" ]; then
+        cp "$template_path" "$filepath"
+
         # Update notebook metadata (if jq is available)
         if command -v jq >/dev/null 2>&1; then
             # Update first cell with actual information
@@ -309,7 +321,7 @@ create_notebook() {
                 .cells[0].source[3] = "**Purpose:** " + $name + "  "' \
                "$filepath" > "${filepath}.tmp" && mv "${filepath}.tmp" "$filepath"
         fi
-        
+
         print_success "Notebook created: $filepath"
         echo ""
         echo "📝 Next steps:"
@@ -318,8 +330,8 @@ create_notebook() {
         echo "  3. Follow the template structure for your analysis"
         echo "  4. Save and commit when ready to share"
     else
-        print_error "Template not found. Run setup first:"
-        echo "  ./scripts/jupyter/setup_jupyter_collaboration.sh"
+        print_error "Template not found at: $template_path"
+        echo "Run setup first: ./scripts/jupyter/setup_jupyter_collaboration.sh"
         exit 1
     fi
 }
@@ -328,39 +340,41 @@ create_notebook() {
 list_notebooks() {
     print_status "Notebook Inventory:"
     echo ""
-    
-    if [ -d "notebooks" ]; then
+
+    local notebooks_dir="/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
+
+    if [ -d "$notebooks_dir" ]; then
         echo "📁 Shared Notebooks:"
-        find notebooks/shared -name "*.ipynb" -not -path "*/templates/*" 2>/dev/null | sort | while read nb; do
+        find "$notebooks_dir/shared" -name "*.ipynb" -not -path "*/templates/*" 2>/dev/null | sort | while read nb; do
             echo "  📓 $(basename "$nb")"
         done
         echo ""
-        
+
         echo "👤 Personal Notebooks:"
-        find notebooks/personal -name "*.ipynb" 2>/dev/null | sort | while read nb; do
+        find "$notebooks_dir/personal" -name "*.ipynb" 2>/dev/null | sort | while read nb; do
             echo "  📓 $(basename "$nb")"
         done
         echo ""
-        
+
         echo "🔬 Research Notebooks:"
-        find notebooks/research -name "*.ipynb" 2>/dev/null | sort | while read nb; do
+        find "$notebooks_dir/research" -name "*.ipynb" 2>/dev/null | sort | while read nb; do
             echo "  📓 $(basename "$nb")"
         done
         echo ""
-        
+
         echo "📦 Archived Notebooks:"
-        find notebooks/archive -name "*.ipynb" 2>/dev/null | sort | while read nb; do
+        find "$notebooks_dir/archive" -name "*.ipynb" 2>/dev/null | sort | while read nb; do
             echo "  📓 $(basename "$nb")"
         done
         echo ""
-        
+
         echo "📋 Templates:"
-        find notebooks/shared/templates -name "*.ipynb" 2>/dev/null | sort | while read nb; do
+        find "$notebooks_dir/shared/templates" -name "*.ipynb" 2>/dev/null | sort | while read nb; do
             echo "  📄 $(basename "$nb")"
         done
     else
-        print_warning "No notebooks directory found. Run setup first:"
-        echo "  ./scripts/jupyter/setup_jupyter_collaboration.sh"
+        print_warning "No notebooks directory found at: $notebooks_dir"
+        echo "Run setup first: ./scripts/jupyter/setup_jupyter_collaboration.sh"
     fi
 }
 

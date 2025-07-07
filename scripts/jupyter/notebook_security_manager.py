@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 class NotebookSecurityManager:
     """Manages security aspects of Jupyter notebooks"""
     
-    def __init__(self, notebooks_dir: str = "notebooks"):
+    def __init__(self, notebooks_dir: str = "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"):
         self.notebooks_dir = Path(notebooks_dir)
         self.security_patterns = {
             'api_keys': [
@@ -335,7 +335,8 @@ def main():
                        help='Action to perform')
     parser.add_argument('--notebook', help='Specific notebook file to process')
     parser.add_argument('--output', help='Output file for reports')
-    parser.add_argument('--notebooks-dir', default='notebooks', 
+    parser.add_argument('--notebooks-dir',
+                       default='/Users/home/Documents/GitHub/ADS599_Capstone/notebooks',
                        help='Directory containing notebooks')
     
     args = parser.parse_args()

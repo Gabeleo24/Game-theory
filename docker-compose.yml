@@ -275,11 +275,11 @@ services:
       - JUPYTER_TOKEN=analyst_secure_token_2024
       - JUPYTER_PASSWORD=soccer_intelligence_analyst
     volumes:
-      - ./notebooks:/app/notebooks:cached
-      - ./data:/app/data:ro  # Read-only data access
-      - ./docs:/app/docs:ro  # Read-only documentation
-      - ./config:/app/config:ro
-      - ./src:/app/src:ro
+      - /Users/home/Documents/GitHub/ADS599_Capstone/notebooks:/app/notebooks:cached
+      - /Users/home/Documents/GitHub/ADS599_Capstone/data:/app/data:ro  # Read-only data access
+      - /Users/home/Documents/GitHub/ADS599_Capstone/docs:/app/docs:ro  # Read-only documentation
+      - /Users/home/Documents/GitHub/ADS599_Capstone/config:/app/config:ro
+      - /Users/home/Documents/GitHub/ADS599_Capstone/src:/app/src:ro
     ports:
       - "8888:8888"
     networks:
@@ -315,7 +315,7 @@ services:
       - JUPYTER_TOKEN=developer_secure_token_2024
       - JUPYTER_PASSWORD=soccer_intelligence_dev
     volumes:
-      - .:/app:cached  # Full project access
+      - /Users/home/Documents/GitHub/ADS599_Capstone:/app:cached  # Full project access
       - /var/run/docker.sock:/var/run/docker.sock  # Docker access
     ports:
       - "8889:8889"
@@ -349,11 +349,11 @@ services:
       - JUPYTER_TOKEN=researcher_secure_token_2024
       - JUPYTER_PASSWORD=soccer_intelligence_research
     volumes:
-      - ./notebooks:/app/notebooks:cached
-      - ./data:/app/data:ro  # Read-only data access
-      - ./docs:/app/docs:cached  # Documentation access
-      - ./config:/app/config:ro
-      - ./src:/app/src:ro
+      - /Users/home/Documents/GitHub/ADS599_Capstone/notebooks:/app/notebooks:cached
+      - /Users/home/Documents/GitHub/ADS599_Capstone/data:/app/data:ro  # Read-only data access
+      - /Users/home/Documents/GitHub/ADS599_Capstone/docs:/app/docs:cached  # Documentation access
+      - /Users/home/Documents/GitHub/ADS599_Capstone/config:/app/config:ro
+      - /Users/home/Documents/GitHub/ADS599_Capstone/src:/app/src:ro
     ports:
       - "8890:8890"
     networks:

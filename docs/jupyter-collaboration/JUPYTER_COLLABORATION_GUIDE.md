@@ -104,7 +104,7 @@ engine = create_engine('postgresql://research_user:research_secure_pass@postgres
 
 ### Directory Structure
 ```
-notebooks/
+/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/
 ├── shared/                 # Collaborative notebooks (all roles)
 │   ├── templates/         # Notebook templates
 │   ├── data_exploration/  # Exploratory data analysis
@@ -125,6 +125,8 @@ notebooks/
     ├── deprecated_analyses/
     └── backup_notebooks/
 ```
+
+**Storage Location**: All notebooks are stored in `/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/` on the host system and mounted to `/app/notebooks/` inside the Docker containers.
 
 ### Naming Convention
 **Format**: `{date}_{author}_{purpose}_{version}.ipynb`

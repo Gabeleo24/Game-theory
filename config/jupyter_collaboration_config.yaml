@@ -59,8 +59,11 @@ jupyter_environments:
 
 # Shared Notebook Organization
 notebook_structure:
+  base_path: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
+
   shared:
-    path: "/app/notebooks/shared"
+    path: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/shared"
+    container_path: "/app/notebooks/shared"
     description: "Shared notebooks accessible to all team members"
     subdirectories:
       - "templates"          # Notebook templates for common analyses
@@ -72,9 +75,10 @@ notebook_structure:
       analyst: "read_write"
       developer: "read_write"
       researcher: "read_write"
-      
+
   personal:
-    path: "/app/notebooks/personal"
+    path: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/personal"
+    container_path: "/app/notebooks/personal"
     description: "Personal workspace for individual team members"
     subdirectories:
       - "analyst_workspace"
@@ -84,9 +88,10 @@ notebook_structure:
       analyst: "read_write_own"
       developer: "read_write_own"
       researcher: "read_write_own"
-      
+
   research:
-    path: "/app/notebooks/research"
+    path: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/research"
+    container_path: "/app/notebooks/research"
     description: "Academic research and methodology notebooks"
     subdirectories:
       - "methodology"        # Research methodology development
@@ -97,9 +102,10 @@ notebook_structure:
       analyst: "read"
       developer: "read_write"
       researcher: "read_write"
-      
+
   archive:
-    path: "/app/notebooks/archive"
+    path: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/archive"
+    container_path: "/app/notebooks/archive"
     description: "Archived notebooks and historical analyses"
     subdirectories:
       - "completed_projects"
@@ -148,30 +154,36 @@ data_access:
       port: 5432
       database: "soccer_intelligence"
       connection_pool_size: 10
-      
+
     role_specific_users:
       analyst:
         username: "analyst_user"
         password: "analyst_secure_pass"
         privileges: ["SELECT"]
         schema_access: ["public"]
-        
+
       developer:
         username: "soccerapp"
         password: "soccerpass123"
         privileges: ["ALL"]
         schema_access: ["public", "development"]
-        
+
       researcher:
         username: "research_user"
         password: "research_secure_pass"
         privileges: ["SELECT"]
         schema_access: ["public", "research"]
-        
+
   file_access:
-    data_directory: "/app/data"
-    cache_directory: "/app/data/cache"
-    output_directory: "/app/data/analysis"
+    host_data_directory: "/Users/home/Documents/GitHub/ADS599_Capstone/data"
+    host_notebooks_directory: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
+    host_cache_directory: "/Users/home/Documents/GitHub/ADS599_Capstone/data/cache"
+    host_output_directory: "/Users/home/Documents/GitHub/ADS599_Capstone/data/analysis"
+
+    container_data_directory: "/app/data"
+    container_notebooks_directory: "/app/notebooks"
+    container_cache_directory: "/app/data/cache"
+    container_output_directory: "/app/data/analysis"
     
     permissions:
       analyst:
