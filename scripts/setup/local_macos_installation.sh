@@ -2,6 +2,7 @@
 
 # ADS599 Capstone - macOS Local Installation Script
 # This script sets up the Soccer Intelligence System on macOS for local development
+# Updated: 2025-07-07
 
 set -e
 
