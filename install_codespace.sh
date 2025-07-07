@@ -21,13 +21,28 @@ fi
 echo "✅ GitHub Codespace detected: $CODESPACE_NAME"
 echo ""
 
-# Download and run the full installation script
-echo "📥 Downloading installation script..."
-curl -fsSL https://raw.githubusercontent.com/mmoramora/ADS599_Capstone/main/scripts/setup/codespace_installation.sh -o /tmp/codespace_installation.sh
-
-echo "🚀 Running installation..."
-chmod +x /tmp/codespace_installation.sh
-/tmp/codespace_installation.sh
+# Check if the installation script exists locally
+if [ -f "scripts/setup/codespace_installation.sh" ]; then
+    echo "📁 Using local installation script..."
+    chmod +x scripts/setup/codespace_installation.sh
+    ./scripts/setup/codespace_installation.sh
+else
+    # Try to download from GitHub
+    echo "📥 Downloading installation script from GitHub..."
+    if curl -fsSL https://raw.githubusercontent.com/mmoramora/ADS599_Capstone/main/scripts/setup/codespace_installation.sh -o /tmp/codespace_installation.sh; then
+        echo "🚀 Running downloaded installation..."
+        chmod +x /tmp/codespace_installation.sh
+        /tmp/codespace_installation.sh
+    else
+        echo "❌ Could not download installation script"
+        echo ""
+        echo "🔧 Manual installation steps:"
+        echo "1. Make sure you're in the ADS599_Capstone repository"
+        echo "2. Run: chmod +x scripts/setup/codespace_installation.sh"
+        echo "3. Run: ./scripts/setup/codespace_installation.sh"
+        exit 1
+    fi
+fi
 
 echo ""
 echo "🎉 Installation complete!"
