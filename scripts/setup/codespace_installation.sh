@@ -6,6 +6,13 @@
 
 set -e
 
+# Check if we're in a Codespace environment
+if [ -z "$CODESPACE_NAME" ]; then
+    echo "⚠️  Warning: This script is designed for GitHub Codespaces"
+    echo "   Some features may not work correctly in other environments"
+    echo ""
+fi
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -67,35 +74,39 @@ print_step "2/10 Updating System Packages"
 sudo apt-get update -qq
 sudo apt-get install -y curl wget git jq postgresql-client redis-tools
 
-# Step 3: Install Docker (if not already installed)
+# Step 3: Configure Docker for Codespace
 print_step "3/10 Setting Up Docker"
 
-if ! command -v docker &> /dev/null; then
-    print_status "Installing Docker..."
-    curl -fsSL https://get.docker.com -o get-docker.sh
-    sudo sh get-docker.sh
-    sudo usermod -aG docker $USER
-    rm get-docker.sh
-    print_success "Docker installed"
+# In GitHub Codespaces, Docker is pre-installed
+if command -v docker &> /dev/null; then
+    print_success "Docker is available"
+
+    # Start Docker service if not running
+    if ! docker info &> /dev/null; then
+        print_status "Starting Docker service..."
+        sudo service docker start || true
+        sleep 3
+    fi
+
+    # Add user to docker group if not already
+    if ! groups $USER | grep -q docker; then
+        print_status "Adding user to docker group..."
+        sudo usermod -aG docker $USER || true
+    fi
 else
-    print_success "Docker already installed"
+    print_error "Docker not found in Codespace environment"
+    exit 1
 fi
 
-# Install Docker Compose if not available
-if ! command -v docker-compose &> /dev/null && ! docker compose version &> /dev/null; then
-    print_status "Installing Docker Compose..."
-    sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-    sudo chmod +x /usr/local/bin/docker-compose
-    print_success "Docker Compose installed"
-fi
-
-# Set Docker Compose command
-if command -v docker-compose &> /dev/null; then
-    DOCKER_COMPOSE_CMD="docker-compose"
-elif docker compose version &> /dev/null; then
+# Set Docker Compose command (prefer 'docker compose' over 'docker-compose')
+if docker compose version &> /dev/null; then
     DOCKER_COMPOSE_CMD="docker compose"
+    print_success "Using 'docker compose' command"
+elif command -v docker-compose &> /dev/null; then
+    DOCKER_COMPOSE_CMD="docker-compose"
+    print_success "Using 'docker-compose' command"
 else
-    print_error "Docker Compose installation failed"
+    print_error "Docker Compose not available"
     exit 1
 fi
 
@@ -104,13 +115,27 @@ print_success "Docker setup complete"
 # Step 4: Install Python dependencies
 print_step "4/10 Installing Python Dependencies"
 
-# Install pip if not available
-if ! command -v pip &> /dev/null; then
+# Check Python and pip availability
+if command -v python3 &> /dev/null; then
+    print_success "Python3 is available"
+else
+    print_error "Python3 not found"
+    exit 1
+fi
+
+if command -v pip3 &> /dev/null; then
+    PIP_CMD="pip3"
+elif command -v pip &> /dev/null; then
+    PIP_CMD="pip"
+else
+    print_status "Installing pip..."
     sudo apt-get install -y python3-pip
+    PIP_CMD="pip3"
 fi
 
 # Install required Python packages
-pip install --user nbstripout jupyter jupyterlab pandas numpy matplotlib seaborn plotly sqlalchemy psycopg2-binary redis
+print_status "Installing Python packages..."
+$PIP_CMD install --user --quiet nbstripout jupyter jupyterlab pandas numpy matplotlib seaborn plotly sqlalchemy psycopg2-binary redis python-dotenv
 
 print_success "Python dependencies installed"
 
@@ -275,10 +300,20 @@ print_success "Docker configuration updated for Codespace"
 print_step "9/10 Building and Starting Services"
 
 print_status "Building Docker images..."
-$DOCKER_COMPOSE_CMD -f docker-compose.yml -f docker-compose.codespace.yml build
+if ! $DOCKER_COMPOSE_CMD -f docker-compose.yml -f docker-compose.codespace.yml build; then
+    print_error "Failed to build Docker images"
+    echo "This might be due to Docker not being fully initialized in Codespace"
+    echo "Try running the script again in a few minutes"
+    exit 1
+fi
 
 print_status "Starting core services..."
-$DOCKER_COMPOSE_CMD -f docker-compose.yml -f docker-compose.codespace.yml up -d postgres redis
+if ! $DOCKER_COMPOSE_CMD -f docker-compose.yml -f docker-compose.codespace.yml up -d postgres redis; then
+    print_error "Failed to start services"
+    echo "Checking Docker status..."
+    docker info || true
+    exit 1
+fi
 
 # Wait for services to be ready
 print_status "Waiting for services to initialize..."
@@ -289,12 +324,16 @@ if $DOCKER_COMPOSE_CMD -f docker-compose.yml -f docker-compose.codespace.yml ps 
     print_success "PostgreSQL database is ready"
 else
     print_warning "PostgreSQL may still be initializing..."
+    print_status "Checking PostgreSQL logs..."
+    $DOCKER_COMPOSE_CMD -f docker-compose.yml -f docker-compose.codespace.yml logs postgres | tail -10 || true
 fi
 
 if $DOCKER_COMPOSE_CMD -f docker-compose.yml -f docker-compose.codespace.yml ps redis | grep -q "Up"; then
     print_success "Redis cache is ready"
 else
     print_warning "Redis may still be initializing..."
+    print_status "Checking Redis logs..."
+    $DOCKER_COMPOSE_CMD -f docker-compose.yml -f docker-compose.codespace.yml logs redis | tail -10 || true
 fi
 
 # Step 10: Final setup and verification
@@ -311,7 +350,7 @@ if command -v nbstripout &> /dev/null; then
 fi
 
 # Create Codespace-specific startup script
-cat > start_codespace.sh << 'EOF'
+cat > start_codespace.sh << EOF
 #!/bin/bash
 
 # ADS599 Capstone - Codespace Startup Script
@@ -319,7 +358,7 @@ cat > start_codespace.sh << 'EOF'
 echo "🚀 Starting ADS599 Capstone Soccer Intelligence System in Codespace..."
 
 # Start all services
-docker-compose -f docker-compose.yml -f docker-compose.codespace.yml up -d
+$DOCKER_COMPOSE_CMD -f docker-compose.yml -f docker-compose.codespace.yml up -d
 
 echo ""
 echo "✅ Services started! Access points:"
@@ -341,23 +380,23 @@ echo ""
 EOF
 
 # Create stop script
-cat > stop_codespace.sh << 'EOF'
+cat > stop_codespace.sh << EOF
 #!/bin/bash
 echo "🛑 Stopping ADS599 Capstone services..."
-docker-compose -f docker-compose.yml -f docker-compose.codespace.yml down
+$DOCKER_COMPOSE_CMD -f docker-compose.yml -f docker-compose.codespace.yml down
 echo "✅ All services stopped"
 EOF
 
 # Create status script
-cat > status_codespace.sh << 'EOF'
+cat > status_codespace.sh << EOF
 #!/bin/bash
 echo "📊 ADS599 Capstone Service Status:"
 echo ""
-docker-compose -f docker-compose.yml -f docker-compose.codespace.yml ps
+$DOCKER_COMPOSE_CMD -f docker-compose.yml -f docker-compose.codespace.yml ps
 echo ""
 echo "🔗 Access URLs:"
-echo "📊 Jupyter Lab: https://$CODESPACE_NAME-8888.app.github.dev"
-echo "🗄️ pgAdmin: https://$CODESPACE_NAME-8080.app.github.dev"
+echo "📊 Jupyter Lab: https://\$CODESPACE_NAME-8888.app.github.dev"
+echo "🗄️ pgAdmin: https://\$CODESPACE_NAME-8080.app.github.dev"
 EOF
 
 # Make scripts executable
@@ -404,3 +443,12 @@ echo ""
 echo "📓 Notebooks Location: /workspaces/ADS599_Capstone/notebooks/"
 echo ""
 print_success "Ready for soccer intelligence analysis! ⚽📊"
+
+# Run verification script
+echo ""
+print_info "Running installation verification..."
+if [ -f "scripts/setup/verify_codespace.sh" ]; then
+    bash scripts/setup/verify_codespace.sh
+else
+    print_warning "Verification script not found"
+fi
