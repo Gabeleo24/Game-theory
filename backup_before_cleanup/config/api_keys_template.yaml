@@ -1,0 +1,23 @@
+# API Keys Configuration Template
+# Copy this file to api_keys.yaml and fill in your actual API keys
+# NEVER commit api_keys.yaml to version control
+
+# API-Football Configuration5ced20dec7f4b2226c8944c88c6d86aa
+api_football:
+  key: "5ced20dec7f4b2226c8944c88c6d86aa"
+  # Get your key from: https://dashboard.api-football.com
+
+# OpenAI Configuration  
+openai:
+  api_key: "your_openai_api_key_here"
+  # Get your key from: https://platform.openai.com/api-keys
+
+# Twitter API Configuration (Optional)
+twitter:
+  bearer_token: "your_twitter_bearer_token_here"
+  # Get your token from: https://developer.twitter.com
+
+# SportMonks API Configuration (Alternative/Additional)
+sportmonks:
+  api_key: "your_sportmonks_api_key_here"
+  # Get your key from: https://www.sportmonks.com

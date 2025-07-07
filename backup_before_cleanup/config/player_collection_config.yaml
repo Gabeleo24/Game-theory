@@ -1,0 +1,312 @@
+# Player Statistics Collection Configuration
+# Configuration for comprehensive player statistics collection system
+
+# Collection Settings
+collection:
+  # Seasons to collect data for
+  seasons:
+    basic_collection: [2019, 2020, 2021, 2022, 2023, 2024, 2025]
+    competition_specific: [2022, 2023, 2024, 2025]
+    extended_collection: [2024, 2025]
+  
+  # Rate limiting settings
+  rate_limiting:
+    requests_per_minute: 60
+    delay_between_requests: 1.0
+    delay_between_teams: 2.0
+    daily_limit: 75000
+  
+  # Data quality settings
+  quality_control:
+    min_appearances_threshold: 1
+    require_basic_info: true
+    validate_statistics: true
+    check_duplicates: true
+
+# Competition Configurations
+competitions:
+  european:
+    champions_league:
+      id: 2
+      name: "UEFA Champions League"
+      priority: 1
+      collect_detailed_stats: true
+    europa_league:
+      id: 3
+      name: "UEFA Europa League"
+      priority: 2
+      collect_detailed_stats: true
+  
+  domestic_leagues:
+    premier_league:
+      id: 39
+      name: "Premier League"
+      country: "England"
+      priority: 1
+    la_liga:
+      id: 140
+      name: "La Liga"
+      country: "Spain"
+      priority: 1
+    serie_a:
+      id: 135
+      name: "Serie A"
+      country: "Italy"
+      priority: 1
+    bundesliga:
+      id: 78
+      name: "Bundesliga"
+      country: "Germany"
+      priority: 1
+    ligue_1:
+      id: 61
+      name: "Ligue 1"
+      country: "France"
+      priority: 1
+  
+  domestic_cups:
+    fa_cup:
+      id: 45
+      name: "FA Cup"
+      country: "England"
+      priority: 3
+    copa_del_rey:
+      id: 143
+      name: "Copa del Rey"
+      country: "Spain"
+      priority: 3
+    coppa_italia:
+      id: 137
+      name: "Coppa Italia"
+      country: "Italy"
+      priority: 3
+    dfb_pokal:
+      id: 81
+      name: "DFB Pokal"
+      country: "Germany"
+      priority: 3
+
+# Data Structure Configuration
+data_structure:
+  # Output directories
+  directories:
+    base_output: "data/focused/players"
+    team_rosters: "data/focused/players/team_rosters"
+    individual_stats: "data/focused/players/individual_stats"
+    competition_stats: "data/focused/players/competition_stats"
+    season_stats: "data/focused/players/season_stats"
+    mappings: "data/focused/players/mappings"
+    validation: "data/analysis/player_validation"
+  
+  # File naming conventions
+  naming:
+    team_roster: "team_{team_id}_players_{season}.json"
+    competition_stats: "{competition_key}_players_{season}.json"
+    player_mapping: "player_team_mappings.json"
+    transfer_analysis: "player_transfers.json"
+    validation_report: "player_statistics_validation_report.json"
+
+# Statistics Categories
+statistics_categories:
+  # Basic performance metrics
+  basic:
+    - appearances
+    - lineups
+    - minutes_played
+    - position
+    - rating
+    - captain
+  
+  # Scoring statistics
+  scoring:
+    - goals_total
+    - goals_conceded
+    - assists
+    - saves
+  
+  # Passing statistics
+  passing:
+    - passes_total
+    - passes_key
+    - passes_accuracy
+  
+  # Defensive statistics
+  defensive:
+    - tackles_total
+    - tackles_blocks
+    - tackles_interceptions
+  
+  # Duel statistics
+  duels:
+    - duels_total
+    - duels_won
+  
+  # Dribbling statistics
+  dribbling:
+    - dribbles_attempts
+    - dribbles_success
+    - dribbles_past
+  
+  # Discipline statistics
+  discipline:
+    - fouls_drawn
+    - fouls_committed
+    - cards_yellow
+    - cards_red
+  
+  # Penalty statistics
+  penalties:
+    - penalty_won
+    - penalty_committed
+    - penalty_scored
+    - penalty_missed
+    - penalty_saved
+  
+  # Shooting statistics
+  shooting:
+    - shots_total
+    - shots_on_target
+
+# Validation Configuration
+validation:
+  # Data quality thresholds
+  quality_thresholds:
+    minimum_validation_rate: 95.0
+    minimum_completeness_rate: 90.0
+    minimum_consistency_score: 95.0
+  
+  # Required fields for validation
+  required_fields:
+    player_info:
+      - id
+      - name
+    statistics:
+      - league_info
+      - performance_stats
+      - scoring_stats
+  
+  # Consistency checks
+  consistency_checks:
+    - player_name_consistency
+    - statistics_structure_consistency
+    - mapping_consistency
+
+# Shapley Value Integration
+shapley_integration:
+  # Metrics for Shapley value calculation
+  key_metrics:
+    offensive:
+      - goals_per_90
+      - assists_per_90
+      - key_passes_per_90
+      - shots_per_90
+    
+    defensive:
+      - tackles_per_90
+      - interceptions_per_90
+      - clearances_per_90
+      - blocks_per_90
+    
+    general:
+      - pass_accuracy
+      - duel_success_rate
+      - minutes_per_appearance
+  
+  # Position-specific weights
+  position_weights:
+    goalkeeper:
+      saves: 0.4
+      goals_conceded: 0.3
+      distribution: 0.3
+    
+    defender:
+      defensive_actions: 0.5
+      passing: 0.3
+      aerial_duels: 0.2
+    
+    midfielder:
+      passing: 0.4
+      key_passes: 0.3
+      defensive_contribution: 0.3
+    
+    forward:
+      goals: 0.5
+      assists: 0.3
+      shot_creation: 0.2
+
+# API Configuration
+api:
+  # Endpoints used
+  endpoints:
+    players: "players"
+    teams: "teams"
+    leagues: "leagues"
+    standings: "standings"
+  
+  # Request parameters
+  default_params:
+    players:
+      - team
+      - season
+      - league
+    teams:
+      - league
+      - season
+  
+  # Error handling
+  error_handling:
+    max_retries: 3
+    retry_delay: 60
+    timeout: 30
+
+# Logging Configuration
+logging:
+  # Log levels
+  level: "INFO"
+  
+  # Log files
+  files:
+    main_log: "logs/player_collection/main.log"
+    api_log: "logs/player_collection/api_requests.log"
+    error_log: "logs/player_collection/errors.log"
+  
+  # Log rotation
+  rotation:
+    max_size: "10MB"
+    backup_count: 5
+
+# Performance Optimization
+performance:
+  # Batch processing
+  batch_sizes:
+    teams_per_batch: 10
+    players_per_batch: 50
+  
+  # Memory management
+  memory:
+    clear_cache_interval: 100
+    max_memory_usage: "2GB"
+  
+  # Parallel processing
+  parallel:
+    enable: false
+    max_workers: 4
+
+# Output Format Configuration
+output_format:
+  # JSON formatting
+  json:
+    indent: 2
+    ensure_ascii: false
+    sort_keys: true
+  
+  # Data compression
+  compression:
+    enable: false
+    format: "gzip"
+  
+  # Backup settings
+  backup:
+    create_backups: true
+    backup_directory: "backups/player_data"
+    retention_days: 30

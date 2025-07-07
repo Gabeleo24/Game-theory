@@ -1,0 +1,265 @@
+{
+  "database_name": "soccer_intelligence",
+  "analysis_timestamp": "2025-07-06T18:17:44.228347",
+  "tables_summary": {
+    "collection_logs": {
+      "row_count": 0,
+      "column_count": 11,
+      "primary_keys": [
+        "log_id",
+        "team_id"
+      ],
+      "foreign_keys": [],
+      "referenced_by": []
+    },
+    "competitions": {
+      "row_count": 7,
+      "column_count": 6,
+      "primary_keys": [
+        "competition_id"
+      ],
+      "foreign_keys": [],
+      "referenced_by": [
+        "matches",
+        "player_statistics",
+        "team_statistics"
+      ]
+    },
+    "matches": {
+      "row_count": 98,
+      "column_count": 17,
+      "primary_keys": [
+        "match_id",
+        "competition_id",
+        "home_team_id",
+        "away_team_id"
+      ],
+      "foreign_keys": [
+        "away_team_id",
+        "competition_id",
+        "home_team_id"
+      ],
+      "referenced_by": [
+        "player_statistics"
+      ]
+    },
+    "player_statistics": {
+      "row_count": 8080,
+      "column_count": 25,
+      "primary_keys": [
+        "stat_id",
+        "player_id",
+        "team_id",
+        "competition_id",
+        "match_id"
+      ],
+      "foreign_keys": [
+        "competition_id",
+        "match_id",
+        "player_id",
+        "team_id"
+      ],
+      "referenced_by": []
+    },
+    "players": {
+      "row_count": 3980,
+      "column_count": 14,
+      "primary_keys": [
+        "player_id"
+      ],
+      "foreign_keys": [],
+      "referenced_by": [
+        "player_statistics",
+        "shapley_analysis"
+      ]
+    },
+    "seasons": {
+      "row_count": 6,
+      "column_count": 6,
+      "primary_keys": [
+        "season_id"
+      ],
+      "foreign_keys": [],
+      "referenced_by": []
+    },
+    "shapley_analysis": {
+      "row_count": 0,
+      "column_count": 11,
+      "primary_keys": [
+        "analysis_id",
+        "player_id",
+        "team_id"
+      ],
+      "foreign_keys": [
+        "player_id",
+        "team_id"
+      ],
+      "referenced_by": []
+    },
+    "team_statistics": {
+      "row_count": 0,
+      "column_count": 16,
+      "primary_keys": [
+        "stat_id",
+        "team_id",
+        "competition_id"
+      ],
+      "foreign_keys": [
+        "competition_id",
+        "team_id"
+      ],
+      "referenced_by": []
+    },
+    "teams": {
+      "row_count": 67,
+      "column_count": 10,
+      "primary_keys": [
+        "team_id"
+      ],
+      "foreign_keys": [],
+      "referenced_by": [
+        "matches",
+        "matches",
+        "player_statistics",
+        "shapley_analysis",
+        "team_statistics"
+      ]
+    }
+  },
+  "relationship_chains": [
+    {
+      "connection": "matches.away_team_id -> teams.team_id",
+      "constraint": "matches_away_team_id_fkey",
+      "data_stats": {
+        "total_records": 98,
+        "unique_foreign_keys": 15,
+        "unique_primary_keys": 15,
+        "connected_records": 98
+      }
+    },
+    {
+      "connection": "matches.competition_id -> competitions.competition_id",
+      "constraint": "matches_competition_id_fkey",
+      "data_stats": {
+        "total_records": 98,
+        "unique_foreign_keys": 2,
+        "unique_primary_keys": 2,
+        "connected_records": 98
+      }
+    },
+    {
+      "connection": "matches.home_team_id -> teams.team_id",
+      "constraint": "matches_home_team_id_fkey",
+      "data_stats": {
+        "total_records": 98,
+        "unique_foreign_keys": 15,
+        "unique_primary_keys": 15,
+        "connected_records": 98
+      }
+    },
+    {
+      "connection": "player_statistics.competition_id -> competitions.competition_id",
+      "constraint": "player_statistics_competition_id_fkey",
+      "data_stats": {
+        "total_records": 8080,
+        "unique_foreign_keys": 0,
+        "unique_primary_keys": 0,
+        "connected_records": 0
+      }
+    },
+    {
+      "connection": "player_statistics.match_id -> matches.match_id",
+      "constraint": "player_statistics_match_id_fkey",
+      "data_stats": {
+        "total_records": 8080,
+        "unique_foreign_keys": 0,
+        "unique_primary_keys": 0,
+        "connected_records": 0
+      }
+    },
+    {
+      "connection": "player_statistics.player_id -> players.player_id",
+      "constraint": "player_statistics_player_id_fkey",
+      "data_stats": {
+        "total_records": 8080,
+        "unique_foreign_keys": 3980,
+        "unique_primary_keys": 3980,
+        "connected_records": 8080
+      }
+    },
+    {
+      "connection": "player_statistics.team_id -> teams.team_id",
+      "constraint": "player_statistics_team_id_fkey",
+      "data_stats": {
+        "total_records": 8080,
+        "unique_foreign_keys": 67,
+        "unique_primary_keys": 67,
+        "connected_records": 8080
+      }
+    },
+    {
+      "connection": "shapley_analysis.player_id -> players.player_id",
+      "constraint": "shapley_analysis_player_id_fkey",
+      "data_stats": {
+        "total_records": 0,
+        "unique_foreign_keys": 0,
+        "unique_primary_keys": 0,
+        "connected_records": 0
+      }
+    },
+    {
+      "connection": "shapley_analysis.team_id -> teams.team_id",
+      "constraint": "shapley_analysis_team_id_fkey",
+      "data_stats": {
+        "total_records": 0,
+        "unique_foreign_keys": 0,
+        "unique_primary_keys": 0,
+        "connected_records": 0
+      }
+    },
+    {
+      "connection": "team_statistics.competition_id -> competitions.competition_id",
+      "constraint": "team_statistics_competition_id_fkey",
+      "data_stats": {
+        "total_records": 0,
+        "unique_foreign_keys": 0,
+        "unique_primary_keys": 0,
+        "connected_records": 0
+      }
+    },
+    {
+      "connection": "team_statistics.team_id -> teams.team_id",
+      "constraint": "team_statistics_team_id_fkey",
+      "data_stats": {
+        "total_records": 0,
+        "unique_foreign_keys": 0,
+        "unique_primary_keys": 0,
+        "connected_records": 0
+      }
+    }
+  ],
+  "operation_orders": {
+    "insert_order": [
+      "collection_logs",
+      "competitions",
+      "players",
+      "seasons",
+      "teams",
+      "matches",
+      "shapley_analysis",
+      "team_statistics",
+      "player_statistics"
+    ],
+    "delete_order": [
+      "player_statistics",
+      "team_statistics",
+      "shapley_analysis",
+      "matches",
+      "teams",
+      "seasons",
+      "players",
+      "competitions",
+      "collection_logs"
+    ]
+  }
+}

@@ -1,0 +1,316 @@
+# Comprehensive Player Statistics Collection Configuration
+# For collecting individual player performance data for each match across 67 UEFA Champions League teams
+
+project:
+  name: "ADS599 Capstone - Player Statistics Collection"
+  scope: "67 UEFA Champions League Teams - Individual Player Performance"
+  temporal_scope: "2019-2024 (6 seasons)"
+  data_types: ["player_match_statistics", "team_formations", "tactical_data", "player_ratings"]
+
+# Collection Scope
+collection_scope:
+  # Target teams (same as team statistics)
+  teams:
+    source: "data/focused/players/team_rosters/"
+    extraction_method: "roster_file_parsing"
+    core_teams_only: true
+    expected_count: 67
+    
+  # Target seasons
+  seasons:
+    target_seasons: [2019, 2020, 2021, 2022, 2023, 2024]
+    season_count: 6
+    
+  # Target competitions
+  competitions:
+    primary_leagues:
+      - id: 39  # Premier League
+        name: "Premier League"
+        country: "England"
+      - id: 140 # La Liga
+        name: "La Liga"
+        country: "Spain"
+      - id: 135 # Serie A
+        name: "Serie A"
+        country: "Italy"
+      - id: 78  # Bundesliga
+        name: "Bundesliga"
+        country: "Germany"
+      - id: 61  # Ligue 1
+        name: "Ligue 1"
+        country: "France"
+    
+    european_competitions:
+      - id: 2   # UEFA Champions League
+        name: "UEFA Champions League"
+        type: "continental"
+      - id: 3   # UEFA Europa League
+        name: "UEFA Europa League"
+        type: "continental"
+
+# API Configuration
+api_configuration:
+  # API-Football endpoints for player data
+  endpoints:
+    player_match_statistics: "fixtures/players"
+    team_lineups: "fixtures/lineups"
+    match_events: "fixtures/events"
+    player_season_stats: "players"
+    team_formations: "fixtures/lineups"
+    
+  # Rate limiting
+  rate_limiting:
+    requests_per_minute: 100
+    requests_per_hour: 5000
+    requests_per_day: 100000
+    delay_between_requests: 0.6  # seconds
+    
+  # Request parameters
+  request_parameters:
+    timeout: 30
+    retries: 3
+    backoff_factor: 2
+
+# Data Collection Requirements
+data_requirements:
+  # Individual player match statistics
+  player_match_statistics:
+    required_fields:
+      - "player_id"
+      - "player_name"
+      - "team_id"
+      - "fixture_id"
+      - "minutes_played"
+      - "position"
+      - "rating"
+      - "goals"
+      - "assists"
+      - "shots_total"
+      - "shots_on_target"
+      - "passes_total"
+      - "passes_completed"
+      - "pass_accuracy"
+      - "tackles"
+      - "interceptions"
+      - "fouls_committed"
+      - "fouls_drawn"
+      - "yellow_cards"
+      - "red_cards"
+      - "substitution_in"
+      - "substitution_out"
+    
+    optional_fields:
+      - "key_passes"
+      - "dribbles_attempted"
+      - "dribbles_successful"
+      - "duels_total"
+      - "duels_won"
+      - "crosses"
+      - "corners"
+      - "offsides"
+      - "saves" # for goalkeepers
+      - "penalty_saves" # for goalkeepers
+      - "penalty_goals"
+      - "penalty_missed"
+  
+  # Team formation data
+  team_formations:
+    required_fields:
+      - "fixture_id"
+      - "team_id"
+      - "formation"
+      - "starting_eleven"
+      - "substitutes"
+      - "coach"
+    
+    player_position_data:
+      - "player_id"
+      - "player_name"
+      - "position"
+      - "grid_position"
+      - "jersey_number"
+      - "captain"
+  
+  # Match events and tactical changes
+  match_events:
+    required_fields:
+      - "fixture_id"
+      - "team_id"
+      - "time_elapsed"
+      - "event_type"
+      - "player_id"
+      - "assist_player_id"
+      - "detail"
+    
+    event_types:
+      - "Goal"
+      - "Card"
+      - "Substitution"
+      - "Var"
+
+# Data Organization
+data_organization:
+  # Output structure
+  output_structure:
+    base_directory: "data/focused/players/"
+    team_directory_pattern: "team_{team_id}/"
+    season_directory_pattern: "{season}/"
+    
+    # File naming patterns
+    file_patterns:
+      player_match_stats: "team_{team_id}_player_match_statistics_{season}.json"
+      team_formations: "team_{team_id}_formations_{season}.json"
+      match_events: "team_{team_id}_match_events_{season}.json"
+      season_summary: "team_{team_id}_player_season_summary_{season}.json"
+    
+  # Integration with existing team data
+  integration_strategy:
+    method: "linked_files"  # Link to existing team statistics files
+    reference_field: "fixture_id"  # Common identifier
+    maintain_consistency: true
+    
+  # File format
+  file_format:
+    format: "json"
+    encoding: "utf-8"
+    indent: 2
+    ensure_ascii: false
+
+# Data Structure Schemas
+data_schemas:
+  # Player match statistics schema
+  player_match_statistics:
+    root_fields:
+      - "team_id"
+      - "season"
+      - "collection_timestamp"
+      - "match_statistics"
+      - "formation_data"
+      - "tactical_summary"
+    
+    match_statistics_structure:
+      - "fixture_id"
+      - "match_date"
+      - "opponent_team_id"
+      - "competition"
+      - "venue"
+      - "result"
+      - "players_performance"
+    
+    player_performance_structure:
+      - "player_info"
+      - "position_data"
+      - "performance_metrics"
+      - "events"
+      - "substitution_details"
+  
+  # Formation data schema
+  formation_data:
+    root_fields:
+      - "team_id"
+      - "season"
+      - "collection_timestamp"
+      - "formations_used"
+      - "tactical_analysis"
+    
+    formation_structure:
+      - "fixture_id"
+      - "formation"
+      - "starting_lineup"
+      - "tactical_changes"
+      - "substitution_patterns"
+
+# Quality Assurance
+quality_assurance:
+  # Data validation
+  validation_rules:
+    player_statistics:
+      - "minutes_played >= 0 and <= 120"
+      - "goals >= 0"
+      - "assists >= 0"
+      - "pass_accuracy >= 0 and <= 100"
+      - "rating >= 0 and <= 10"
+    
+    formation_data:
+      - "starting_eleven.length == 11"
+      - "formation matches pattern (e.g., 4-3-3, 3-5-2)"
+      - "all_players_have_positions"
+  
+  # Consistency checks
+  consistency_checks:
+    - "player_statistics_match_team_lineups"
+    - "formation_data_matches_player_positions"
+    - "match_events_align_with_player_stats"
+    - "substitution_timing_consistency"
+  
+  # Completeness targets
+  completeness_targets:
+    minimum_matches_per_team_season: 20
+    minimum_players_per_match: 14  # 11 starters + 3 subs minimum
+    minimum_statistics_coverage: 85  # 85% of expected fields populated
+
+# Performance Targets
+performance_targets:
+  # Collection speed
+  collection_speed:
+    matches_per_hour: 50
+    players_per_match_per_hour: 500
+    api_requests_per_hour: 4000
+    
+  # Resource utilization
+  resource_limits:
+    max_api_requests_per_run: 15000
+    max_collection_duration_hours: 24
+    memory_limit_gb: 8
+    disk_space_limit_gb: 5
+    
+  # Success metrics
+  success_metrics:
+    minimum_teams_with_player_data: 60  # 90% of 67 teams
+    minimum_seasons_per_team: 5  # 83% of 6 seasons
+    minimum_player_coverage_per_match: 80  # 80% of players with statistics
+
+# Integration Points
+integration_points:
+  # Link to existing team statistics
+  team_statistics_integration:
+    reference_file_pattern: "data/focused/teams/team_{team_id}/{season}/team_{team_id}_statistics_{season}.json"
+    linking_field: "fixture_id"
+    consistency_validation: true
+  
+  # Player roster integration
+  player_roster_integration:
+    reference_file_pattern: "data/focused/players/team_rosters/team_{team_id}_roster_{season}.json"
+    linking_field: "player_id"
+    validate_player_eligibility: true
+  
+  # Analysis integration
+  analysis_integration:
+    shapley_value_compatibility: true
+    tactical_analysis_support: true
+    performance_tracking_support: true
+
+# Monitoring and Reporting
+monitoring:
+  # Progress tracking
+  progress_reporting:
+    enabled: true
+    interval_matches: 10
+    show_player_coverage: true
+    show_formation_analysis: true
+    show_api_efficiency: true
+    
+  # Quality monitoring
+  quality_monitoring:
+    track_data_completeness: true
+    track_consistency_scores: true
+    track_validation_failures: true
+    alert_on_quality_issues: true
+    
+  # Final reporting
+  final_reports:
+    player_statistics_summary: true
+    formation_analysis_report: true
+    tactical_insights_summary: true
+    api_usage_efficiency: true
+    integration_validation_report: true
