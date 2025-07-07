@@ -1,0 +1,55 @@
+graph TB
+    subgraph "User Interface Layer"
+        CLI["Command Line Interface<br/>./run_sql_with_logs.sh<br/>./show_database_structure.sh"]
+        DIRECT["Direct SQL Access<br/>docker exec -it postgres psql"]
+    end
+
+    subgraph "Application Layer"
+        LOGGER["SQL Logger<br/>scripts/sql_logging/sql_logger.py<br/>- Query execution<br/>- Result formatting<br/>- Automatic logging"]
+
+        QUERIES["Pre-built Queries<br/>common_queries_with_logging.py<br/>- Player analysis<br/>- Team analysis<br/>- Match analysis"]
+
+        LOADER["Data Loaders<br/>scripts/data_loading/<br/>- JSON to PostgreSQL<br/>- Batch processing<br/>- Error handling"]
+    end
+
+    subgraph "Infrastructure Layer"
+        DOCKER["Docker Compose<br/>Multi-service orchestration<br/>- PostgreSQL database<br/>- Redis cache<br/>- Application containers"]
+
+        POSTGRES["PostgreSQL Database<br/>Performance optimized<br/>- 9 tables with relationships<br/>- Strategic indexes<br/>- Foreign key constraints"]
+
+        REDIS["Redis Cache<br/>High-speed caching<br/>- Query result cache<br/>- Session management"]
+    end
+
+    subgraph "Data Layer"
+        JSON["JSON Data Files<br/>data/focused/<br/>- 67 Champions League teams<br/>- 3,980 players<br/>- 8,080 player statistics"]
+
+        LOGS["SQL Logs<br/>logs/sql_logs/<br/>- Query history<br/>- Formatted results<br/>- INSERT statements"]
+    end
+
+    subgraph "Configuration Layer"
+        SCHEMA["Database Schema<br/>docker/postgres/init.sql<br/>- Table definitions<br/>- Indexes<br/>- Constraints"]
+
+        CONFIG["Docker Config<br/>docker-compose.yml<br/>- Service definitions<br/>- Resource allocation<br/>- Network configuration"]
+    end
+
+    CLI --> LOGGER
+    CLI --> QUERIES
+    DIRECT --> POSTGRES
+
+    LOGGER --> POSTGRES
+    QUERIES --> LOGGER
+    LOADER --> POSTGRES
+
+    DOCKER --> POSTGRES
+    DOCKER --> REDIS
+
+    POSTGRES --> LOGS
+    JSON --> LOADER
+
+    SCHEMA --> POSTGRES
+    CONFIG --> DOCKER
+
+    style CLI fill:#e1f5fe
+    style LOGGER fill:#f3e5f5
+    style POSTGRES fill:#e8f5e8
+    style JSON fill:#fff3e0

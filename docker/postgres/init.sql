@@ -106,6 +106,8 @@ CREATE TABLE IF NOT EXISTS player_statistics (
     minutes_played INTEGER,
     goals INTEGER DEFAULT 0,
     assists INTEGER DEFAULT 0,
+    expected_goals DECIMAL(5,3) DEFAULT 0.0,
+    expected_assists DECIMAL(5,3) DEFAULT 0.0,
     shots_total INTEGER DEFAULT 0,
     shots_on_target INTEGER DEFAULT 0,
     passes_total INTEGER DEFAULT 0,
@@ -253,3 +255,111 @@ CREATE TRIGGER update_players_updated_at BEFORE UPDATE ON players FOR EACH ROW E
 CREATE TRIGGER update_matches_updated_at BEFORE UPDATE ON matches FOR EACH ROW EXECUTE FUNCTION update_updated_at_column();
 CREATE TRIGGER update_player_statistics_updated_at BEFORE UPDATE ON player_statistics FOR EACH ROW EXECUTE FUNCTION update_updated_at_column();
 CREATE TRIGGER update_team_statistics_updated_at BEFORE UPDATE ON team_statistics FOR EACH ROW EXECUTE FUNCTION update_updated_at_column();
+
+-- ============================================================================
+-- SAMPLE ANALYSIS QUERIES
+-- ============================================================================
+
+/*
+-- Query 1: Players who outperform expected goals the most
+-- This identifies players with the best goal conversion efficiency vs expected
+
+SELECT 
+    p.player_name,
+    p.nationality,
+    t.team_name,
+    c.competition_name,
+    ps.season_year,
+    SUM(ps.goals) as actual_goals,
+    ROUND(SUM(ps.expected_goals)::DECIMAL, 2) as total_expected_goals,
+    ROUND(SUM(ps.goals) - SUM(ps.expected_goals), 2) as goals_over_expected,
+    ROUND(
+        CASE 
+            WHEN SUM(ps.expected_goals) > 0 
+            THEN (SUM(ps.goals)::DECIMAL / SUM(ps.expected_goals) - 1) * 100 
+            ELSE 0 
+        END, 2
+    ) as outperformance_percentage,
+    COUNT(ps.match_id) as matches_played,
+    SUM(ps.minutes_played) as total_minutes,
+    ROUND(SUM(ps.goals)::DECIMAL / (SUM(ps.minutes_played) / 90.0), 2) as goals_per_90min
+FROM player_statistics ps
+JOIN players p ON ps.player_id = p.player_id
+JOIN teams t ON ps.team_id = t.team_id
+JOIN competitions c ON ps.competition_id = c.competition_id
+WHERE ps.goals IS NOT NULL 
+    AND ps.expected_goals IS NOT NULL
+    AND ps.expected_goals > 0
+    AND ps.minutes_played > 0
+GROUP BY p.player_id, p.player_name, p.nationality, t.team_name, c.competition_name, ps.season_year
+HAVING SUM(ps.expected_goals) >= 2.0  -- Only include players with meaningful xG sample
+    AND SUM(ps.minutes_played) >= 450  -- At least 5 full matches worth
+ORDER BY goals_over_expected DESC, outperformance_percentage DESC
+LIMIT 25;
+
+-- Query 2: Season-over-season xG outperformance consistency
+-- Identifies players who consistently outperform their expected goals
+
+WITH player_season_performance AS (
+    SELECT 
+        ps.player_id,
+        p.player_name,
+        ps.season_year,
+        SUM(ps.goals) as goals,
+        SUM(ps.expected_goals) as xg,
+        SUM(ps.goals) - SUM(ps.expected_goals) as goals_over_expected
+    FROM player_statistics ps
+    JOIN players p ON ps.player_id = p.player_id
+    WHERE ps.expected_goals > 0
+    GROUP BY ps.player_id, p.player_name, ps.season_year
+    HAVING SUM(ps.expected_goals) >= 2.0
+),
+consistency_stats AS (
+    SELECT 
+        player_id,
+        player_name,
+        COUNT(*) as seasons_played,
+        AVG(goals_over_expected) as avg_goals_over_expected,
+        COUNT(CASE WHEN goals_over_expected > 0 THEN 1 END) as seasons_outperformed,
+        STDDEV(goals_over_expected) as consistency_score
+    FROM player_season_performance
+    GROUP BY player_id, player_name
+    HAVING COUNT(*) >= 2  -- At least 2 seasons of data
+)
+SELECT 
+    player_name,
+    seasons_played,
+    ROUND(avg_goals_over_expected, 2) as avg_goals_over_expected,
+    seasons_outperformed,
+    ROUND((seasons_outperformed::DECIMAL / seasons_played) * 100, 1) as outperformance_rate_pct,
+    ROUND(consistency_score, 2) as consistency_score
+FROM consistency_stats
+ORDER BY avg_goals_over_expected DESC, outperformance_rate_pct DESC;
+
+-- Query 3: Expected goals vs actual goals by position and competition
+-- Analyzes xG performance by playing position
+
+SELECT 
+    ps.position,
+    c.competition_name,
+    COUNT(DISTINCT ps.player_id) as unique_players,
+    SUM(ps.goals) as total_goals,
+    ROUND(SUM(ps.expected_goals), 2) as total_expected_goals,
+    ROUND(SUM(ps.goals) - SUM(ps.expected_goals), 2) as total_difference,
+    ROUND(AVG(ps.goals), 2) as avg_goals_per_player,
+    ROUND(AVG(ps.expected_goals), 2) as avg_xg_per_player,
+    ROUND(
+        CASE 
+            WHEN SUM(ps.expected_goals) > 0 
+            THEN SUM(ps.goals)::DECIMAL / SUM(ps.expected_goals) 
+            ELSE 0 
+        END, 3
+    ) as conversion_ratio
+FROM player_statistics ps
+JOIN competitions c ON ps.competition_id = c.competition_id
+WHERE ps.position IS NOT NULL 
+    AND ps.expected_goals > 0
+    AND ps.position IN ('Forward', 'Midfielder', 'Defender', 'Goalkeeper')
+GROUP BY ps.position, c.competition_name
+ORDER BY total_difference DESC;
+*/

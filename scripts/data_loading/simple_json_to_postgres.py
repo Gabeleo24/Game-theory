@@ -50,12 +50,12 @@ class SimpleJSONLoader:
             with self.conn.cursor() as cur:
                 cur.execute("SELECT 1")
             
-            self.logger.info("✅ Successfully connected to PostgreSQL database")
+            self.logger.info("Successfully connected to PostgreSQL database")
             return True
             
         except Exception as e:
-            self.logger.warning(f"❌ Database connection failed: {e}")
-            self.logger.info("💡 To load data into PostgreSQL:")
+            self.logger.warning(f"Database connection failed: {e}")
+            self.logger.info("To load data into PostgreSQL:")
             self.logger.info("   1. Start Docker: docker compose up postgres -d")
             self.logger.info("   2. Wait for database to be ready (30 seconds)")
             self.logger.info("   3. Run this script again")
@@ -63,7 +63,7 @@ class SimpleJSONLoader:
     
     def analyze_data(self):
         """Analyze available JSON data."""
-        self.logger.info("📊 Analyzing available JSON data...")
+        self.logger.info("Analyzing available JSON data...")
         
         analysis = {}
         
@@ -95,8 +95,8 @@ class SimpleJSONLoader:
         else:
             analysis['team_directories'] = 0
         
-        self.logger.info(f"📈 Data Analysis Results:")
-        self.logger.info(f"   Core teams file: {'✅' if analysis.get('core_teams_available') else '❌'}")
+        self.logger.info(f"Data Analysis Results:")
+        self.logger.info(f"   Core teams file: {'Available' if analysis.get('core_teams_available') else 'Not available'}")
         self.logger.info(f"   Core teams count: {analysis.get('core_teams', 0)}")
         self.logger.info(f"   Team files: {analysis['team_files']}")
         self.logger.info(f"   Match files: {analysis['match_files']}")
@@ -106,7 +106,7 @@ class SimpleJSONLoader:
     
     def load_core_teams(self):
         """Load core Champions League teams."""
-        self.logger.info("🏆 Loading core Champions League teams...")
+        self.logger.info("Loading core Champions League teams...")
         
         core_teams_file = self.focused_dir / 'core_champions_league_teams.json'
         if not core_teams_file.exists():
@@ -136,7 +136,7 @@ class SimpleJSONLoader:
                     except Exception as e:
                         self.logger.error(f"Error inserting team {team.get('name', 'Unknown')}: {e}")
             
-            self.logger.info(f"✅ Loaded {loaded_count} core teams")
+            self.logger.info(f"Loaded {loaded_count} core teams")
             return loaded_count
             
         except Exception as e:
@@ -145,7 +145,7 @@ class SimpleJSONLoader:
     
     def load_expanded_teams(self):
         """Load expanded team data with venue information."""
-        self.logger.info("🏟️ Loading expanded team data...")
+        self.logger.info("Loading expanded team data...")
         
         expanded_files = list(self.focused_dir.glob('*teams*expanded*.json'))
         if not expanded_files:
@@ -201,12 +201,12 @@ class SimpleJSONLoader:
             except Exception as e:
                 self.logger.error(f"Error processing {file_path}: {e}")
         
-        self.logger.info(f"✅ Updated {loaded_count} teams with expanded data")
+        self.logger.info(f"Updated {loaded_count} teams with expanded data")
         return loaded_count
     
     def load_sample_matches(self, limit=1000):
         """Load a sample of match data."""
-        self.logger.info(f"⚽ Loading sample match data (limit: {limit})...")
+        self.logger.info(f"Loading sample match data (limit: {limit})...")
         
         match_files = list(self.focused_dir.glob('*matches*.json'))
         if not match_files:
@@ -270,12 +270,12 @@ class SimpleJSONLoader:
             except Exception as e:
                 self.logger.error(f"Error processing {file_path}: {e}")
         
-        self.logger.info(f"✅ Loaded {loaded_count} matches")
+        self.logger.info(f"Loaded {loaded_count} matches")
         return loaded_count
     
     def check_database_status(self):
         """Check current database status."""
-        self.logger.info("🔍 Checking database status...")
+        self.logger.info("Checking database status...")
         
         try:
             with self.conn.cursor() as cur:
@@ -291,7 +291,7 @@ class SimpleJSONLoader:
                     except Exception as e:
                         status[table] = f"Error: {e}"
                 
-                self.logger.info("📊 Current database status:")
+                self.logger.info("Current database status:")
                 for table, count in status.items():
                     self.logger.info(f"   {table}: {count}")
                 
@@ -303,7 +303,7 @@ class SimpleJSONLoader:
     
     def run_basic_load(self):
         """Run basic data loading process."""
-        self.logger.info("🚀 Starting basic JSON to PostgreSQL data loading...")
+        self.logger.info("Starting basic JSON to PostgreSQL data loading...")
         
         # Analyze data
         analysis = self.analyze_data()
@@ -324,8 +324,8 @@ class SimpleJSONLoader:
             # Check final status
             final_status = self.check_database_status()
             
-            self.logger.info("✅ Basic data loading completed!")
-            self.logger.info("📈 Summary:")
+            self.logger.info("Basic data loading completed!")
+            self.logger.info("Summary:")
             self.logger.info(f"   Core teams loaded: {teams_core}")
             self.logger.info(f"   Teams updated: {teams_expanded}")
             self.logger.info(f"   Sample matches loaded: {matches}")
@@ -333,7 +333,7 @@ class SimpleJSONLoader:
             return True
             
         except Exception as e:
-            self.logger.error(f"❌ Error during data loading: {e}")
+            self.logger.error(f"Error during data loading: {e}")
             import traceback
             self.logger.error(traceback.format_exc())
             return False
@@ -344,8 +344,8 @@ class SimpleJSONLoader:
 
 def main():
     """Main function to run the data loader."""
-    print("🚀 Starting Simple JSON to PostgreSQL data loading...")
-    print("📊 This will load a sample of your JSON data into the database")
+    print("Starting Simple JSON to PostgreSQL data loading...")
+    print("This will load a sample of your JSON data into the database")
     print()
     
     loader = SimpleJSONLoader()
@@ -353,13 +353,13 @@ def main():
     success = loader.run_basic_load()
     
     if success:
-        print("\n✅ Data loading completed successfully!")
-        print("🔍 You can now access your data via:")
+        print("\nData loading completed successfully!")
+        print("You can now access your data via:")
         print("   - psql -h localhost -p 5432 -U soccerapp -d soccer_intelligence")
         print("   - Python scripts with psycopg2")
         print("   - Analysis tools")
     else:
-        print("\n❌ Data loading failed. Check the logs for details.")
+        print("\nData loading failed. Check the logs for details.")
         return 1
     
     return 0
