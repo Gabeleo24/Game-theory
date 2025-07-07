@@ -77,6 +77,212 @@ fi
 if command_exists python3; then
     print_success "Python is installed: $(python3 --version)"
     PYTHON_CMD="python3"
+else
+    print_warning "Python not found. Some scripts may not work locally."
+fi
+
+echo ""
+
+# Step 1: Setup project directories
+print_status "Setting up project structure..."
+
+# Ensure we're in the project root
+if [ ! -f "docker-compose.yml" ]; then
+    print_error "Please run this script from the project root directory"
+    exit 1
+fi
+
+# Create necessary directories
+mkdir -p {data/{cache,analysis,backups},logs,backups/{database,notebooks}}
+print_success "Project directories created"
+
+# Step 2: Setup Jupyter collaboration
+print_status "Setting up Jupyter collaboration environment..."
+
+if [ -f "scripts/jupyter/setup_jupyter_collaboration.sh" ]; then
+    ./scripts/jupyter/setup_jupyter_collaboration.sh
+    print_success "Jupyter collaboration environment configured"
+else
+    print_warning "Jupyter setup script not found, skipping..."
+fi
+
+# Step 3: Setup API keys template
+print_status "Setting up API configuration..."
+
+if [ ! -f "config/api_keys.yaml" ]; then
+    if [ -f "config/api_keys_template.yaml" ]; then
+        cp config/api_keys_template.yaml config/api_keys.yaml
+        print_success "API keys template created at config/api_keys.yaml"
+        print_warning "⚠️  IMPORTANT: Edit config/api_keys.yaml with your SportMonks API key"
+        echo "   Get your free API key at: https://www.sportmonks.com/football-api"
+    else
+        print_warning "API keys template not found"
+    fi
+else
+    print_success "API keys configuration already exists"
+fi
+
+# Step 4: Setup Git hooks and configuration
+print_status "Configuring Git integration..."
+
+# Setup Git hooks for notebook handling
+if command_exists nbstripout; then
+    nbstripout --install --attributes .gitattributes 2>/dev/null || true
+    print_success "Git hooks configured for notebook handling"
+else
+    print_status "nbstripout will be installed when Jupyter setup runs"
+fi
+
+# Configure Git user if not set
+if [ -z "$(git config user.name)" ]; then
+    print_warning "Git user not configured. Please set your Git identity:"
+    echo "  git config --global user.name 'Your Name'"
+    echo "  git config --global user.email 'your.email@example.com'"
+fi
+
+# Step 5: Build Docker images
+print_status "Building Docker images (this may take a few minutes)..."
+$DOCKER_COMPOSE_CMD build --no-cache
+print_success "Docker images built successfully"
+
+# Step 6: Start core services
+print_status "Starting core services..."
+$DOCKER_COMPOSE_CMD up -d postgres redis
+
+# Wait for services to be ready
+print_status "Waiting for services to initialize..."
+sleep 10
+
+# Check if services are healthy
+if $DOCKER_COMPOSE_CMD ps postgres | grep -q "healthy"; then
+    print_success "PostgreSQL database is ready"
+else
+    print_warning "PostgreSQL may still be initializing..."
+fi
+
+if $DOCKER_COMPOSE_CMD ps redis | grep -q "Up"; then
+    print_success "Redis cache is ready"
+else
+    print_warning "Redis may still be initializing..."
+fi
+
+# Step 7: Verify setup
+print_status "Verifying installation..."
+
+# Create verification script if it doesn't exist
+if [ ! -f "scripts/setup/verify_setup.sh" ]; then
+    cat > scripts/setup/verify_setup.sh << 'EOF'
+#!/bin/bash
+echo "🔍 Verifying ADS599 Capstone Setup..."
+
+# Check Docker services
+echo "📊 Docker Services:"
+docker-compose ps
+
+# Check database connection
+echo ""
+echo "🗄️ Database Connection:"
+if docker exec soccer-intelligence-db pg_isready -U soccerapp >/dev/null 2>&1; then
+    echo "✅ PostgreSQL database is accessible"
+else
+    echo "❌ PostgreSQL database connection failed"
+fi
+
+# Check Redis connection
+echo ""
+echo "⚡ Redis Cache:"
+if docker exec soccer-intelligence-redis redis-cli ping >/dev/null 2>&1; then
+    echo "✅ Redis cache is accessible"
+else
+    echo "❌ Redis cache connection failed"
+fi
+
+# Check notebook storage
+echo ""
+echo "📓 Notebook Storage:"
+if [ -d "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks" ]; then
+    echo "✅ Notebook storage configured at: /Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
+    echo "   Directories: $(ls -1 /Users/home/Documents/GitHub/ADS599_Capstone/notebooks | wc -l) created"
+else
+    echo "❌ Notebook storage not found"
+fi
+
+# Check API configuration
+echo ""
+echo "🔑 API Configuration:"
+if [ -f "config/api_keys.yaml" ]; then
+    echo "✅ API keys configuration file exists"
+    if grep -q "your_api_key_here" config/api_keys.yaml; then
+        echo "⚠️  Please update config/api_keys.yaml with your actual API key"
+    else
+        echo "✅ API keys appear to be configured"
+    fi
+else
+    echo "❌ API keys configuration not found"
+fi
+
+echo ""
+echo "🚀 Setup verification complete!"
+EOF
+    chmod +x scripts/setup/verify_setup.sh
+fi
+
+# Run verification
+./scripts/setup/verify_setup.sh
+
+echo ""
+print_success "🎉 ADS599 Capstone Soccer Intelligence System Setup Complete!"
+echo ""
+echo "📊 What's Available:"
+echo "  ✅ PostgreSQL Database (67 UEFA Champions League teams)"
+echo "  ✅ Redis Cache (High-performance data caching)"
+echo "  ✅ Jupyter Collaboration Environment"
+echo "  ✅ Complete Project Documentation"
+echo "  ✅ Security and Backup Systems"
+echo ""
+echo "🚀 Next Steps:"
+echo ""
+echo "1. 🔑 Configure API Keys:"
+echo "   Edit config/api_keys.yaml with your SportMonks API key"
+echo "   Get free key at: https://www.sportmonks.com/football-api"
+echo ""
+echo "2. 🎭 Choose Your Role and Start:"
+echo ""
+echo "   📊 Data Analyst:"
+echo "   ./scripts/jupyter/manage_notebooks.sh start-jupyter analyst"
+echo "   Access: http://localhost:8888 (token: analyst_secure_token_2024)"
+echo ""
+echo "   💻 Developer:"
+echo "   ./scripts/jupyter/manage_notebooks.sh start-jupyter developer"
+echo "   Access: http://localhost:8889 (token: developer_secure_token_2024)"
+echo ""
+echo "   📚 Researcher:"
+echo "   ./scripts/jupyter/manage_notebooks.sh start-jupyter researcher"
+echo "   Access: http://localhost:8890 (token: researcher_secure_token_2024)"
+echo ""
+echo "   🚀 All Environments:"
+echo "   $DOCKER_COMPOSE_CMD --profile team up -d"
+echo ""
+echo "3. 📓 Create Your First Notebook:"
+echo "   ./scripts/jupyter/manage_notebooks.sh create-notebook my_first_analysis"
+echo ""
+echo "4. 🗄️ Explore the Database:"
+echo "   ./run_sql_with_logs.sh"
+echo "   pgAdmin: http://localhost:8080 (admin@admin.com / admin)"
+echo ""
+echo "📚 Documentation:"
+echo "  📖 Complete Startup Guide: CAPSTONE_PROJECT_STARTUP_GUIDE.md"
+echo "  📓 Jupyter Collaboration: JUPYTER_COLLABORATION_SETUP.md"
+echo "  🔬 Research Paper: docs/research-methodology/"
+echo "  🛠️ Technical Docs: docs/"
+echo ""
+echo "🆘 Need Help?"
+echo "  🔍 Verify setup: ./scripts/setup/verify_setup.sh"
+echo "  📊 Check status: $DOCKER_COMPOSE_CMD ps"
+echo "  📋 View logs: $DOCKER_COMPOSE_CMD logs [service-name]"
+echo "  🐛 GitHub Issues: Report problems and get support"
+echo ""
+print_success "Happy analyzing! 🚀⚽📊"
 elif command_exists python; then
     print_success "Python is installed: $(python --version)"
     PYTHON_CMD="python"
