@@ -1,20 +1,121 @@
-# Docker Compose Configuration for ADS599 Capstone Soccer Intelligence System
-# Orchestrates data collection, analysis, and optional database services
+# Enhanced Docker Compose Configuration for Real Madrid Soccer Intelligence System
+# Unified setup with Redis caching, PostgreSQL database, and API integrations
+# Optimized for Real Madrid KPI analysis and team performance metrics
 
 version: '3.8'
 
 services:
   # ============================================================================
-  # Main Application Container - Production (Performance Optimized)
+  # Real Madrid Soccer Intelligence Application - Production Optimized
   # ============================================================================
-  soccer-intelligence:
+  real-madrid-app:
     build:
       context: .
       dockerfile: Dockerfile
       target: production
-    container_name: soccer-intelligence-app
+    container_name: real-madrid-soccer-intelligence
     restart: unless-stopped
-    # Performance optimized resource limits
+    # Performance optimized for Real Madrid analysis
+    deploy:
+      resources:
+        limits:
+          cpus: '6.0'
+          memory: 12G
+        reservations:
+          cpus: '3.0'
+          memory: 6G
+    environment:
+      # Application Configuration
+      - PYTHONPATH=/app/src
+      - ENVIRONMENT=production
+      - LOG_LEVEL=INFO
+      - TEAM_FOCUS=real_madrid
+      - TEAM_ID=53
+      - SEASON_FOCUS=2023-2024
+
+      # API Keys
+      - API_FOOTBALL_KEY=5ced20dec7f4b2226c8944c88c6d86aa
+      - SPORTMONKS_API_KEY=TmPuKHKnA7OJdHxp8zGzF5oevN0mgyqOOOaqgWMOr7KrhpaZeg9xB2ajoq2p
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - TWITTER_BEARER_TOKEN=${TWITTER_BEARER_TOKEN}
+
+      # Database Configuration
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=soccer_intelligence
+      - POSTGRES_USER=soccerapp
+      - POSTGRES_PASSWORD=soccerpass123
+
+      # Redis Configuration
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=redispass123
+      - REDIS_DB=0
+
+      # Performance Optimization
+      - PYTHONOPTIMIZE=2
+      - PYTHONHASHSEED=random
+      - PYTHONIOENCODING=utf-8
+      - PYTHONGC=1
+      - PANDAS_COMPUTE_BACKEND=numba
+      - OMP_NUM_THREADS=6
+      - NUMEXPR_MAX_THREADS=6
+      - MKL_NUM_THREADS=6
+      - OPENBLAS_NUM_THREADS=6
+
+      # Memory Optimization
+      - MALLOC_ARENA_MAX=4
+      - MALLOC_MMAP_THRESHOLD_=131072
+      - MALLOC_TRIM_THRESHOLD_=131072
+      - MALLOC_TOP_PAD_=131072
+      - MALLOC_MMAP_MAX_=65536
+
+      # KPI Analysis Configuration
+      - ENABLE_KPI_ANALYSIS=true
+      - KPI_UPDATE_INTERVAL=300
+      - ENABLE_REAL_TIME_STATS=true
+
+    volumes:
+      # Data Storage - Optimized for Real Madrid analysis
+      - ./data/focused:/app/data/focused:cached
+      - ./data/cache:/app/data/cache:cached
+      - ./data/analysis:/app/data/analysis:cached
+      - ./data/reports:/app/data/reports:cached
+      - ./data/real_madrid:/app/data/real_madrid:cached
+      - ./logs:/app/logs:cached
+
+      # Configuration Files
+      - ./config:/app/config:ro
+      - ./services:/app/services:ro
+      - ./scripts:/app/scripts:ro
+
+    networks:
+      - soccer-intelligence-network
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import redis; r=redis.Redis(host='redis', port=6379, password='redispass123'); r.ping()"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    # Optimize container startup
+    init: true
+    shm_size: 4g
+
+  # ============================================================================
+  # Real Madrid KPI Analysis Service - Specialized for Soccer Metrics
+  # ============================================================================
+  real-madrid-kpi-analyzer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: real-madrid-kpi-analyzer
+    restart: unless-stopped
     deploy:
       resources:
         limits:
@@ -27,38 +128,18 @@ services:
       - PYTHONPATH=/app/src
       - ENVIRONMENT=production
       - LOG_LEVEL=INFO
-      - API_FOOTBALL_KEY=${API_FOOTBALL_KEY}
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - TWITTER_BEARER_TOKEN=${TWITTER_BEARER_TOKEN}
-      - SPORTMONKS_API_KEY=${SPORTMONKS_API_KEY}
-      # Performance optimization environment variables
-      - PYTHONOPTIMIZE=2
-      - PYTHONHASHSEED=random
-      - PYTHONIOENCODING=utf-8
-      - PYTHONGC=1
-      - PANDAS_COMPUTE_BACKEND=numba
-      - OMP_NUM_THREADS=4
-      - NUMEXPR_MAX_THREADS=4
-      - MKL_NUM_THREADS=4
-      - OPENBLAS_NUM_THREADS=4
-      # Memory optimization
-      - MALLOC_ARENA_MAX=2
-      - MALLOC_MMAP_THRESHOLD_=131072
-      - MALLOC_TRIM_THRESHOLD_=131072
-      - MALLOC_TOP_PAD_=131072
-      - MALLOC_MMAP_MAX_=65536
+      - SERVICE_TYPE=kpi_analyzer
+      - TEAM_FOCUS=real_madrid
+      - POSTGRES_HOST=postgres
+      - REDIS_HOST=redis
+      - REDIS_PASSWORD=redispass123
+      - SPORTMONKS_API_KEY=TmPuKHKnA7OJdHxp8zGzF5oevN0mgyqOOOaqgWMOr7KrhpaZeg9xB2ajoq2p
     volumes:
-      # Persistent data storage with optimized mount options
-      - ./data/focused:/app/data/focused:cached
-      - ./data/cache:/app/data/cache:cached
       - ./data/analysis:/app/data/analysis:cached
-      - ./data/reports:/app/data/reports:cached
-      - ./logs:/app/logs:cached
-      # Configuration files
-      - ./config/api_keys.yaml:/app/config/api_keys.yaml:ro
-      - ./config/team_statistics_collection_config.yaml:/app/config/team_statistics_collection_config.yaml:ro
-      - ./config/player_statistics_collection_config.yaml:/app/config/player_statistics_collection_config.yaml:ro
-      - ./config/performance_config.yaml:/app/config/performance_config.yaml:ro
+      - ./data/kpi:/app/data/kpi:cached
+      - ./logs/kpi:/app/logs/kpi:cached
+      - ./scripts/analysis:/app/scripts/analysis:ro
+      - ./config:/app/config:ro
     networks:
       - soccer-intelligence-network
     depends_on:
@@ -66,62 +147,145 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
-    healthcheck:
-      test: ["CMD", "python", "-c", "import sys; sys.path.append('src'); from soccer_intelligence.utils.config import Config; Config()"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 40s
-    # Optimize container startup
-    init: true
-    shm_size: 2g
+    command: ["python", "/app/scripts/analysis/real_madrid_kpi_analyzer.py"]
+    profiles:
+      - kpi-analysis
 
   # ============================================================================
-  # Development Container with Additional Tools
+  # Development Environment with Jupyter and Analysis Tools
   # ============================================================================
-  soccer-intelligence-dev:
+  real-madrid-dev:
     build:
       context: .
       dockerfile: Dockerfile
       target: development
-    container_name: soccer-intelligence-dev
+    container_name: real-madrid-dev-environment
     restart: unless-stopped
     environment:
       - PYTHONPATH=/app/src
       - ENVIRONMENT=development
       - LOG_LEVEL=DEBUG
-      - API_FOOTBALL_KEY=${API_FOOTBALL_KEY}
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - TWITTER_BEARER_TOKEN=${TWITTER_BEARER_TOKEN}
-      - SPORTMONKS_API_KEY=${SPORTMONKS_API_KEY}
+      - TEAM_FOCUS=real_madrid
+      - API_FOOTBALL_KEY=5ced20dec7f4b2226c8944c88c6d86aa
+      - SPORTMONKS_API_KEY=TmPuKHKnA7OJdHxp8zGzF5oevN0mgyqOOOaqgWMOr7KrhpaZeg9xB2ajoq2p
+      - POSTGRES_HOST=postgres
+      - REDIS_HOST=redis
+      - REDIS_PASSWORD=redispass123
     volumes:
-      # Development volumes with source code mounting
+      # Full development access
       - .:/app
-      - ./data/focused:/app/data/focused
-      - ./data/cache:/app/data/cache
-      - ./data/analysis:/app/data/analysis
-      - ./data/reports:/app/data/reports
+      - ./notebooks:/app/notebooks
+      - ./data:/app/data
       - ./logs:/app/logs
     ports:
-      - "8888:8888"  # Jupyter
-      - "8501:8501"  # Streamlit
+      - "8888:8888"  # Jupyter Lab
+      - "8501:8501"  # Streamlit Dashboard
       - "8000:8000"  # FastAPI
+      - "5000:5000"  # Flask Development
     networks:
       - soccer-intelligence-network
     depends_on:
-      - postgres
-      - redis
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
     profiles:
       - development
+    command: >
+      bash -c "
+        jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+        --NotebookApp.token='' --NotebookApp.password='' &
+        tail -f /dev/null
+      "
 
   # ============================================================================
-  # PostgreSQL Database for Structured Data Storage (Performance Optimized)
+  # PostgreSQL Database - Optimized for Real Madrid Soccer Analytics
   # ============================================================================
   postgres:
     image: postgres:15-alpine
-    container_name: soccer-intelligence-db
+    container_name: real-madrid-postgres-db
     restart: unless-stopped
-    # Performance optimized resource limits
+    # Enhanced resource allocation for soccer analytics
+    deploy:
+      resources:
+        limits:
+          cpus: '4.0'
+          memory: 8G
+        reservations:
+          cpus: '2.0'
+          memory: 4G
+    environment:
+      - POSTGRES_DB=soccer_intelligence
+      - POSTGRES_USER=soccerapp
+      - POSTGRES_PASSWORD=soccerpass123
+      - PGDATA=/var/lib/postgresql/data/pgdata
+
+      # PostgreSQL Performance Tuning for Soccer Data
+      - POSTGRES_SHARED_BUFFERS=2GB
+      - POSTGRES_EFFECTIVE_CACHE_SIZE=6GB
+      - POSTGRES_MAINTENANCE_WORK_MEM=512MB
+      - POSTGRES_CHECKPOINT_COMPLETION_TARGET=0.9
+      - POSTGRES_WAL_BUFFERS=32MB
+      - POSTGRES_DEFAULT_STATISTICS_TARGET=500
+      - POSTGRES_RANDOM_PAGE_COST=1.1
+      - POSTGRES_EFFECTIVE_IO_CONCURRENCY=300
+      - POSTGRES_WORK_MEM=128MB
+      - POSTGRES_MIN_WAL_SIZE=2GB
+      - POSTGRES_MAX_WAL_SIZE=8GB
+      - POSTGRES_MAX_CONNECTIONS=300
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - postgres_logs:/var/log/postgresql
+      - ./database/init:/docker-entrypoint-initdb.d:ro
+      - ./database/backups:/backups
+      - ./database/exports:/exports
+
+    ports:
+      - "5432:5432"
+    networks:
+      - soccer-intelligence-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U soccerapp -d soccer_intelligence"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    # Optimize container startup
+    init: true
+    shm_size: 2g
+    command: >
+      postgres
+      -c shared_buffers=2GB
+      -c effective_cache_size=6GB
+      -c maintenance_work_mem=512MB
+      -c checkpoint_completion_target=0.9
+      -c wal_buffers=32MB
+      -c default_statistics_target=500
+      -c random_page_cost=1.1
+      -c effective_io_concurrency=300
+      -c work_mem=128MB
+      -c min_wal_size=2GB
+      -c max_wal_size=8GB
+      -c max_worker_processes=12
+      -c max_parallel_workers_per_gather=6
+      -c max_parallel_workers=12
+      -c max_parallel_maintenance_workers=6
+      -c max_connections=300
+      -c log_min_duration_statement=1000
+      -c log_lock_waits=on
+      -c log_checkpoints=on
+      -c log_connections=on
+      -c log_disconnections=on
+
+  # ============================================================================
+  # Redis Cache - Optimized for Real Madrid Soccer Data and KPI Caching
+  # ============================================================================
+  redis:
+    image: redis:7-alpine
+    container_name: real-madrid-redis-cache
+    restart: unless-stopped
+    # Enhanced resource allocation for soccer data caching
     deploy:
       resources:
         limits:
@@ -131,320 +295,272 @@ services:
           cpus: '1.0'
           memory: 2G
     environment:
-      - POSTGRES_DB=${POSTGRES_DB:-soccer_intelligence}
-      - POSTGRES_USER=${POSTGRES_USER:-soccerapp}
-      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-soccerpass123}
-      - PGDATA=/var/lib/postgresql/data/pgdata
-      # PostgreSQL performance optimization
-      - POSTGRES_SHARED_BUFFERS=1GB
-      - POSTGRES_EFFECTIVE_CACHE_SIZE=3GB
-      - POSTGRES_MAINTENANCE_WORK_MEM=256MB
-      - POSTGRES_CHECKPOINT_COMPLETION_TARGET=0.9
-      - POSTGRES_WAL_BUFFERS=16MB
-      - POSTGRES_DEFAULT_STATISTICS_TARGET=100
-      - POSTGRES_RANDOM_PAGE_COST=1.1
-      - POSTGRES_EFFECTIVE_IO_CONCURRENCY=200
-      - POSTGRES_WORK_MEM=64MB
-      - POSTGRES_MIN_WAL_SIZE=1GB
-      - POSTGRES_MAX_WAL_SIZE=4GB
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-      - ./docker/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
-      - ./docker/postgres/postgresql.conf:/etc/postgresql/postgresql.conf:ro
-    ports:
-      - "5432:5432"
-    networks:
-      - soccer-intelligence-network
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-soccerapp} -d ${POSTGRES_DB:-soccer_intelligence}"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-    # Optimize container startup
-    init: true
-    shm_size: 1g
-    command: >
-      postgres
-      -c shared_buffers=1GB
-      -c effective_cache_size=3GB
-      -c maintenance_work_mem=256MB
-      -c checkpoint_completion_target=0.9
-      -c wal_buffers=16MB
-      -c default_statistics_target=100
-      -c random_page_cost=1.1
-      -c effective_io_concurrency=200
-      -c work_mem=64MB
-      -c min_wal_size=1GB
-      -c max_wal_size=4GB
-      -c max_worker_processes=8
-      -c max_parallel_workers_per_gather=4
-      -c max_parallel_workers=8
-      -c max_parallel_maintenance_workers=4
-
-  # ============================================================================
-  # Redis for Caching and Session Management (Performance Optimized)
-  # ============================================================================
-  redis:
-    image: redis:7-alpine
-    container_name: soccer-intelligence-cache
-    restart: unless-stopped
-    # Performance optimized resource limits
-    deploy:
-      resources:
-        limits:
-          cpus: '1.0'
-          memory: 2G
-        reservations:
-          cpus: '0.5'
-          memory: 1G
+      - REDIS_PASSWORD=redispass123
     command: >
       redis-server
       --appendonly yes
-      --requirepass ${REDIS_PASSWORD:-redispass123}
-      --maxmemory 1536mb
+      --requirepass redispass123
+      --maxmemory 3072mb
       --maxmemory-policy allkeys-lru
       --save 900 1
       --save 300 10
       --save 60 10000
       --tcp-keepalive 300
       --timeout 0
-      --tcp-backlog 511
+      --tcp-backlog 1024
       --databases 16
       --stop-writes-on-bgsave-error no
       --rdbcompression yes
       --rdbchecksum yes
       --dir /data
-      --logfile ""
+      --logfile /var/log/redis/redis.log
+      --loglevel notice
       --syslog-enabled no
-      --hash-max-ziplist-entries 512
-      --hash-max-ziplist-value 64
+      --hash-max-ziplist-entries 1024
+      --hash-max-ziplist-value 128
       --list-max-ziplist-size -2
       --list-compress-depth 0
-      --set-max-intset-entries 512
-      --zset-max-ziplist-entries 128
-      --zset-max-ziplist-value 64
-      --hll-sparse-max-bytes 3000
-      --stream-node-max-bytes 4096
-      --stream-node-max-entries 100
+      --set-max-intset-entries 1024
+      --zset-max-ziplist-entries 256
+      --zset-max-ziplist-value 128
+      --hll-sparse-max-bytes 6000
+      --stream-node-max-bytes 8192
+      --stream-node-max-entries 200
       --activerehashing yes
       --client-output-buffer-limit normal 0 0 0
-      --client-output-buffer-limit replica 256mb 64mb 60
-      --client-output-buffer-limit pubsub 32mb 8mb 60
+      --client-output-buffer-limit replica 512mb 128mb 60
+      --client-output-buffer-limit pubsub 64mb 16mb 60
       --hz 10
       --dynamic-hz yes
       --aof-rewrite-incremental-fsync yes
       --rdb-save-incremental-fsync yes
       --lfu-log-factor 10
       --lfu-decay-time 1
+      --lazyfree-lazy-eviction yes
+      --lazyfree-lazy-expire yes
+      --lazyfree-lazy-server-del yes
+      --replica-lazy-flush yes
     volumes:
       - redis_data:/data:cached
+      - redis_logs:/var/log/redis:cached
     ports:
       - "6379:6379"
     networks:
       - soccer-intelligence-network
     healthcheck:
-      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      test: ["CMD", "redis-cli", "--no-auth-warning", "-a", "redispass123", "ping"]
       interval: 10s
-      timeout: 3s
+      timeout: 5s
       retries: 5
+      start_period: 20s
     # Optimize container startup
     init: true
 
   # ============================================================================
-  # Jupyter Collaboration Services
+  # Real Madrid API Data Collector - SportMonks & API-Football Integration
   # ============================================================================
-
-  # Jupyter for Analysts - Read-only data access with visualization tools
-  jupyter-analyst:
-    profiles: ["analyst", "jupyter", "team"]
+  real-madrid-data-collector:
     build:
       context: .
       dockerfile: Dockerfile
       target: production
-    container_name: jupyter-analyst
-    restart: unless-stopped
-    depends_on:
-      postgres:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
-    environment:
-      - POSTGRES_HOST=postgres
-      - REDIS_HOST=redis
-      - JUPYTER_ROLE=analyst
-      - JUPYTER_TOKEN=analyst_secure_token_2024
-      - JUPYTER_PASSWORD=soccer_intelligence_analyst
-    volumes:
-      - /Users/home/Documents/GitHub/ADS599_Capstone/notebooks:/app/notebooks:cached
-      - /Users/home/Documents/GitHub/ADS599_Capstone/data:/app/data:ro  # Read-only data access
-      - /Users/home/Documents/GitHub/ADS599_Capstone/docs:/app/docs:ro  # Read-only documentation
-      - /Users/home/Documents/GitHub/ADS599_Capstone/config:/app/config:ro
-      - /Users/home/Documents/GitHub/ADS599_Capstone/src:/app/src:ro
-    ports:
-      - "8888:8888"
-    networks:
-      - soccer-intelligence-network
-    command: ["jupyter", "lab", "--config=/app/config/jupyter/jupyter_config_analyst.py"]
+    container_name: real-madrid-data-collector
+    restart: "no"  # Run on demand
     deploy:
       resources:
         limits:
-          memory: 4G
           cpus: '2.0'
+          memory: 4G
         reservations:
-          memory: 2G
           cpus: '1.0'
-
-  # Jupyter for Developers - Full system access
-  jupyter-developer:
-    profiles: ["developer", "jupyter", "team"]
-    build:
-      context: .
-      dockerfile: Dockerfile
-      target: development
-    container_name: jupyter-developer
-    restart: unless-stopped
+          memory: 2G
+    environment:
+      - PYTHONPATH=/app/src
+      - ENVIRONMENT=production
+      - LOG_LEVEL=INFO
+      - SERVICE_TYPE=data_collector
+      - TEAM_FOCUS=real_madrid
+      - TEAM_ID=53
+      - API_FOOTBALL_KEY=5ced20dec7f4b2226c8944c88c6d86aa
+      - SPORTMONKS_API_KEY=TmPuKHKnA7OJdHxp8zGzF5oevN0mgyqOOOaqgWMOr7KrhpaZeg9xB2ajoq2p
+      - POSTGRES_HOST=postgres
+      - REDIS_HOST=redis
+      - REDIS_PASSWORD=redispass123
+    volumes:
+      - ./data/focused:/app/data/focused:cached
+      - ./data/cache:/app/data/cache:cached
+      - ./data/real_madrid:/app/data/real_madrid:cached
+      - ./logs/data_collection:/app/logs:cached
+      - ./services:/app/services:ro
+      - ./config:/app/config:ro
+    networks:
+      - soccer-intelligence-network
     depends_on:
       postgres:
         condition: service_healthy
       redis:
         condition: service_healthy
-    environment:
-      - POSTGRES_HOST=postgres
-      - REDIS_HOST=redis
-      - JUPYTER_ROLE=developer
-      - JUPYTER_TOKEN=developer_secure_token_2024
-      - JUPYTER_PASSWORD=soccer_intelligence_dev
-    volumes:
-      - /Users/home/Documents/GitHub/ADS599_Capstone:/app:cached  # Full project access
-      - /var/run/docker.sock:/var/run/docker.sock  # Docker access
-    ports:
-      - "8889:8889"
-    networks:
-      - soccer-intelligence-network
-    command: ["jupyter", "lab", "--config=/app/config/jupyter/jupyter_config_developer.py"]
-    deploy:
-      resources:
-        limits:
-          memory: 8G
-          cpus: '4.0'
-        reservations:
-          memory: 4G
-          cpus: '2.0'
+    command: ["python", "/app/services/unified_data_collector.py"]
+    profiles:
+      - data-collection
 
-  # Jupyter for Researchers - Academic tools and research environment
-  jupyter-researcher:
-    profiles: ["researcher", "jupyter", "team"]
+  # ============================================================================
+  # Real Madrid Match Analysis Generator
+  # ============================================================================
+  real-madrid-match-analyzer:
     build:
       context: .
       dockerfile: Dockerfile
       target: production
-    container_name: jupyter-researcher
-    restart: unless-stopped
+    container_name: real-madrid-match-analyzer
+    restart: "no"  # Run on demand
+    environment:
+      - PYTHONPATH=/app/src
+      - ENVIRONMENT=production
+      - LOG_LEVEL=INFO
+      - SERVICE_TYPE=match_analyzer
+      - TEAM_FOCUS=real_madrid
+      - POSTGRES_HOST=postgres
+      - REDIS_HOST=redis
+      - REDIS_PASSWORD=redispass123
+    volumes:
+      - ./data/analysis:/app/data/analysis:cached
+      - ./data/reports:/app/data/reports:cached
+      - ./logs/match_analysis:/app/logs:cached
+      - ./scripts/analysis:/app/scripts/analysis:ro
+      - ./config:/app/config:ro
+    networks:
+      - soccer-intelligence-network
     depends_on:
       postgres:
         condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: ["python", "/app/scripts/analysis/comprehensive_match_generator.py"]
+    profiles:
+      - match-analysis
+
+  # ============================================================================
+  # Real Madrid Web Dashboard - Interactive KPI Visualization
+  # ============================================================================
+  real-madrid-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    container_name: real-madrid-dashboard
+    restart: unless-stopped
     environment:
       - POSTGRES_HOST=postgres
-      - JUPYTER_ROLE=researcher
-      - JUPYTER_TOKEN=researcher_secure_token_2024
-      - JUPYTER_PASSWORD=soccer_intelligence_research
+      - REDIS_HOST=redis
+      - REDIS_PASSWORD=redispass123
+      - TEAM_FOCUS=real_madrid
+      - DASHBOARD_TYPE=real_madrid_kpi
     volumes:
-      - /Users/home/Documents/GitHub/ADS599_Capstone/notebooks:/app/notebooks:cached
-      - /Users/home/Documents/GitHub/ADS599_Capstone/data:/app/data:ro  # Read-only data access
-      - /Users/home/Documents/GitHub/ADS599_Capstone/docs:/app/docs:cached  # Documentation access
-      - /Users/home/Documents/GitHub/ADS599_Capstone/config:/app/config:ro
-      - /Users/home/Documents/GitHub/ADS599_Capstone/src:/app/src:ro
+      - ./data/reports:/app/reports:ro
+      - ./data/analysis:/app/analysis:ro
+      - ./config:/app/config:ro
     ports:
-      - "8890:8890"
+      - "8080:8080"  # Web Dashboard
+      - "8090:8090"  # API Endpoint
     networks:
       - soccer-intelligence-network
-    command: ["jupyter", "lab", "--config=/app/config/jupyter/jupyter_config_researcher.py"]
-    deploy:
-      resources:
-        limits:
-          memory: 6G
-          cpus: '3.0'
-        reservations:
-          memory: 3G
-          cpus: '1.5'
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    profiles:
+      - dashboard
 
   # ============================================================================
-  # Data Collection Worker (Optional Scaling)
+  # Real Madrid Algorithm Testing Service - KPI Algorithm Optimization
   # ============================================================================
-  data-collector:
+  real-madrid-algorithm-tester:
     build:
       context: .
       dockerfile: Dockerfile
       target: production
-    container_name: soccer-intelligence-collector
-    restart: unless-stopped
+    container_name: real-madrid-algorithm-tester
+    restart: "no"  # Run on demand
     environment:
       - PYTHONPATH=/app/src
       - ENVIRONMENT=production
       - LOG_LEVEL=INFO
-      - API_FOOTBALL_KEY=${API_FOOTBALL_KEY}
-      - WORKER_TYPE=data_collection
+      - SERVICE_TYPE=algorithm_tester
+      - TEAM_FOCUS=real_madrid
+      - POSTGRES_HOST=postgres
+      - REDIS_HOST=redis
+      - REDIS_PASSWORD=redispass123
+      - ENABLE_ML_OPTIMIZATION=true
+      - ALGORITHM_TEST_MODE=kpi_optimization
     volumes:
-      - ./data/focused:/app/data/focused
-      - ./data/cache:/app/data/cache
-      - ./logs:/app/logs
-      - ./config/api_keys.yaml:/app/config/api_keys.yaml:ro
-      - ./config/team_statistics_collection_config.yaml:/app/config/team_statistics_collection_config.yaml:ro
+      - ./data/analysis:/app/data/analysis:cached
+      - ./data/algorithms:/app/data/algorithms:cached
+      - ./data/models:/app/data/models:cached
+      - ./logs/algorithms:/app/logs:cached
+      - ./scripts/algorithms:/app/scripts/algorithms:ro
+      - ./config:/app/config:ro
     networks:
       - soccer-intelligence-network
     depends_on:
-      - postgres
-      - redis
-    command: ["python", "scripts/data_collection/comprehensive_team_statistics_collector.py", "--max-teams", "10"]
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: ["python", "/app/scripts/algorithms/kpi_algorithm_optimizer.py"]
     profiles:
-      - scaling
-
-  # ============================================================================
-  # Analysis Worker (Optional Scaling)
-  # ============================================================================
-  analysis-worker:
-    build:
-      context: .
-      dockerfile: Dockerfile
-      target: production
-    container_name: soccer-intelligence-analyzer
-    restart: unless-stopped
-    environment:
-      - PYTHONPATH=/app/src
-      - ENVIRONMENT=production
-      - LOG_LEVEL=INFO
-      - WORKER_TYPE=analysis
-    volumes:
-      - ./data/focused:/app/data/focused
-      - ./data/analysis:/app/data/analysis
-      - ./data/reports:/app/data/reports
-      - ./logs:/app/logs
-    networks:
-      - soccer-intelligence-network
-    depends_on:
-      - postgres
-      - redis
-    command: ["python", "scripts/analysis/simple_shapley_analysis.py"]
-    profiles:
-      - scaling
+      - algorithm-testing
 
 # ============================================================================
-# Networks
+# Networks Configuration
 # ============================================================================
 networks:
   soccer-intelligence-network:
     driver: bridge
-    name: soccer-intelligence-network
+    name: real-madrid-soccer-intelligence-network
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
 
 # ============================================================================
-# Volumes for Persistent Data
+# Volumes for Persistent Data Storage
 # ============================================================================
 volumes:
+  # PostgreSQL Data Storage
   postgres_data:
     driver: local
-    name: soccer-intelligence-postgres-data
+    name: real-madrid-postgres-data
+
+  # PostgreSQL Logs
+  postgres_logs:
+    driver: local
+    name: real-madrid-postgres-logs
+
+  # Redis Data Storage
   redis_data:
     driver: local
-    name: soccer-intelligence-redis-data
+    name: real-madrid-redis-data
+
+  # Redis Logs
+  redis_logs:
+    driver: local
+    name: real-madrid-redis-logs
+
+  # Application Data Volumes
+  real_madrid_data:
+    driver: local
+    name: real-madrid-team-data
+
+  kpi_analysis_data:
+    driver: local
+    name: real-madrid-kpi-analysis
+
+  match_reports:
+    driver: local
+    name: real-madrid-match-reports
+
+  algorithm_models:
+    driver: local
+    name: real-madrid-algorithm-models
 
 

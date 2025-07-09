@@ -1,23 +1,115 @@
-# API Keys Configuration Template
+# Enhanced API Keys Configuration for Real Madrid Soccer Intelligence System
+# Comprehensive configuration for all data sources and services
 # Copy this file to api_keys.yaml and fill in your actual API keys
 # NEVER commit api_keys.yaml to version control
 
-# API-Football Configuration5ced20dec7f4b2226c8944c88c6d86aa
+# ============================================================================
+# Primary Soccer Data APIs
+# ============================================================================
+
+# API-Football Configuration (Primary Data Source)
 api_football:
   key: "5ced20dec7f4b2226c8944c88c6d86aa"
+  base_url: "https://v3.football.api-sports.io"
+  rate_limit: 100  # requests per day for free tier
+  timeout: 30
+  retry_attempts: 3
+  retry_delay: 1.0
   # Get your key from: https://dashboard.api-football.com
 
-# OpenAI Configuration  
+# SportMonks API Configuration (Enhanced Data Source)
+sportmonks:
+  api_key: "TmPuKHKnA7OJdHxp8zGzF5oevN0mgyqOOOaqgWMOr7KrhpaZeg9xB2ajoq2p"
+  base_url: "https://api.sportmonks.com/v3"
+  rate_limit: 3000  # requests per hour
+  timeout: 30
+  retry_attempts: 3
+  retry_delay: 1.0
+  # Get your key from: https://www.sportmonks.com
+
+# ============================================================================
+# Database Configuration
+# ============================================================================
+database:
+  host: "postgres"
+  port: 5432
+  name: "soccer_intelligence"
+  user: "soccerapp"
+  password: "soccerpass123"
+  pool_size: 20
+  max_overflow: 30
+  pool_timeout: 30
+  pool_recycle: 3600
+
+# ============================================================================
+# Redis Cache Configuration
+# ============================================================================
+redis:
+  host: "redis"
+  port: 6379
+  password: "redispass123"
+  db: 0
+  max_connections: 50
+  socket_timeout: 30
+  socket_connect_timeout: 30
+  health_check_interval: 30
+
+# ============================================================================
+# AI/ML Services Configuration
+# ============================================================================
+
+# OpenAI Configuration (for advanced analytics)
 openai:
   api_key: "your_openai_api_key_here"
+  model: "gpt-4"
+  max_tokens: 2000
+  temperature: 0.3
   # Get your key from: https://platform.openai.com/api-keys
 
-# Twitter API Configuration (Optional)
+# ============================================================================
+# Social Media APIs (Optional)
+# ============================================================================
+
+# Twitter API Configuration (for sentiment analysis)
 twitter:
   bearer_token: "your_twitter_bearer_token_here"
-  # Get your token from: https://developer.twitter.com
+  api_key: "your_twitter_api_key_here"
+  api_secret: "your_twitter_api_secret_here"
+  access_token: "your_twitter_access_token_here"
+  access_token_secret: "your_twitter_access_token_secret_here"
+  # Get your tokens from: https://developer.twitter.com
 
-# SportMonks API Configuration (Alternative/Additional)
-sportmonks:
-  api_key: "your_sportmonks_api_key_here"
-  # Get your key from: https://www.sportmonks.com
+# ============================================================================
+# Real Madrid Specific Configuration
+# ============================================================================
+real_madrid:
+  team_id_sportmonks: 53
+  team_id_api_football: 541
+  team_name: "Real Madrid"
+  seasons_focus: ["2019-2020", "2020-2021", "2021-2022", "2022-2023", "2023-2024"]
+  competitions:
+    - "La Liga"
+    - "UEFA Champions League"
+    - "Copa del Rey"
+    - "UEFA Super Cup"
+    - "FIFA Club World Cup"
+
+# ============================================================================
+# System Performance Configuration
+# ============================================================================
+performance:
+  max_concurrent_requests: 10
+  request_delay: 0.5
+  batch_size: 50
+  cache_ttl_hours: 24
+  data_refresh_interval: 3600  # seconds
+
+# ============================================================================
+# Logging Configuration
+# ============================================================================
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_rotation: "daily"
+  max_file_size: "100MB"
+  backup_count: 7
