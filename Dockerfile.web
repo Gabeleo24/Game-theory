@@ -1,0 +1,296 @@
+# Real Madrid Match Analysis Web Interface
+FROM python:3.11-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    postgresql-client \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies for web interface
+RUN pip install --no-cache-dir \
+    flask==2.3.3 \
+    flask-cors==4.0.0 \
+    psycopg2-binary==2.9.7 \
+    gunicorn==21.2.0 \
+    jinja2==3.1.2 \
+    werkzeug==2.3.7
+
+# Copy web application files
+COPY web_interface/ ./web_interface/
+COPY scripts/analysis/ ./scripts/analysis/
+COPY config/ ./config/
+
+# Create web interface application
+RUN echo '#!/usr/bin/env python3\n\
+from flask import Flask, render_template, jsonify, request\n\
+import psycopg2\n\
+import os\n\
+import json\n\
+from datetime import datetime\n\
+\n\
+app = Flask(__name__)\n\
+\n\
+def get_db_connection():\n\
+    return psycopg2.connect(\n\
+        host=os.getenv("POSTGRES_HOST", "localhost"),\n\
+        port=os.getenv("POSTGRES_PORT", "5432"),\n\
+        database=os.getenv("POSTGRES_DB", "soccer_intelligence"),\n\
+        user=os.getenv("POSTGRES_USER", "soccerapp"),\n\
+        password=os.getenv("POSTGRES_PASSWORD", "soccerpass123")\n\
+    )\n\
+\n\
+@app.route("/")\n\
+def index():\n\
+    return render_template("index.html")\n\
+\n\
+@app.route("/api/matches")\n\
+def get_matches():\n\
+    try:\n\
+        conn = get_db_connection()\n\
+        cursor = conn.cursor()\n\
+        \n\
+        query = """\n\
+            SELECT DISTINCT\n\
+                m.match_id,\n\
+                m.match_date,\n\
+                ht.team_name as home_team,\n\
+                at.team_name as away_team,\n\
+                m.competition,\n\
+                m.season\n\
+            FROM fixed_matches m\n\
+            JOIN fixed_teams ht ON m.home_team_id = ht.team_id\n\
+            JOIN fixed_teams at ON m.away_team_id = at.team_id\n\
+            WHERE (ht.team_name = '"'"'Real Madrid'"'"' OR at.team_name = '"'"'Real Madrid'"'"')\n\
+            ORDER BY m.match_date\n\
+        """\n\
+        \n\
+        cursor.execute(query)\n\
+        matches = cursor.fetchall()\n\
+        \n\
+        result = []\n\
+        for match in matches:\n\
+            result.append({\n\
+                "match_id": match[0],\n\
+                "match_date": match[1].strftime("%Y-%m-%d") if match[1] else "Unknown",\n\
+                "home_team": match[2],\n\
+                "away_team": match[3],\n\
+                "competition": match[4],\n\
+                "season": match[5]\n\
+            })\n\
+        \n\
+        cursor.close()\n\
+        conn.close()\n\
+        \n\
+        return jsonify(result)\n\
+        \n\
+    except Exception as e:\n\
+        return jsonify({"error": str(e)}), 500\n\
+\n\
+@app.route("/api/match/<int:match_id>")\n\
+def get_match_details(match_id):\n\
+    try:\n\
+        conn = get_db_connection()\n\
+        cursor = conn.cursor()\n\
+        \n\
+        # Get match details\n\
+        match_query = """\n\
+            SELECT \n\
+                m.match_id,\n\
+                m.match_date,\n\
+                ht.team_name as home_team,\n\
+                at.team_name as away_team,\n\
+                m.competition,\n\
+                m.season\n\
+            FROM fixed_matches m\n\
+            JOIN fixed_teams ht ON m.home_team_id = ht.team_id\n\
+            JOIN fixed_teams at ON m.away_team_id = at.team_id\n\
+            WHERE m.match_id = %s\n\
+        """\n\
+        \n\
+        cursor.execute(match_query, (match_id,))\n\
+        match_data = cursor.fetchone()\n\
+        \n\
+        if not match_data:\n\
+            return jsonify({"error": "Match not found"}), 404\n\
+        \n\
+        # Get player statistics\n\
+        player_query = """\n\
+            SELECT \n\
+                p.player_name,\n\
+                mps.position,\n\
+                mps.minutes_played,\n\
+                mps.goals,\n\
+                mps.assists,\n\
+                mps.shots_total,\n\
+                mps.shots_on_target,\n\
+                mps.passes_total,\n\
+                mps.passes_completed,\n\
+                mps.pass_accuracy,\n\
+                mps.tackles_total,\n\
+                mps.interceptions,\n\
+                mps.yellow_cards,\n\
+                mps.red_cards,\n\
+                mps.rating,\n\
+                t.team_name\n\
+            FROM fixed_match_player_stats mps\n\
+            JOIN fixed_players p ON mps.player_id = p.player_id\n\
+            JOIN fixed_teams t ON mps.team_id = t.team_id\n\
+            WHERE mps.match_id = %s\n\
+            ORDER BY \n\
+                CASE WHEN t.team_name = '"'"'Real Madrid'"'"' THEN 0 ELSE 1 END,\n\
+                mps.minutes_played DESC\n\
+        """\n\
+        \n\
+        cursor.execute(player_query, (match_id,))\n\
+        players = cursor.fetchall()\n\
+        \n\
+        result = {\n\
+            "match": {\n\
+                "match_id": match_data[0],\n\
+                "match_date": match_data[1].strftime("%Y-%m-%d") if match_data[1] else "Unknown",\n\
+                "home_team": match_data[2],\n\
+                "away_team": match_data[3],\n\
+                "competition": match_data[4],\n\
+                "season": match_data[5]\n\
+            },\n\
+            "players": []\n\
+        }\n\
+        \n\
+        for player in players:\n\
+            result["players"].append({\n\
+                "player_name": player[0],\n\
+                "position": player[1],\n\
+                "minutes_played": player[2],\n\
+                "goals": player[3],\n\
+                "assists": player[4],\n\
+                "shots_total": player[5],\n\
+                "shots_on_target": player[6],\n\
+                "passes_total": player[7],\n\
+                "passes_completed": player[8],\n\
+                "pass_accuracy": player[9],\n\
+                "tackles_total": player[10],\n\
+                "interceptions": player[11],\n\
+                "yellow_cards": player[12],\n\
+                "red_cards": player[13],\n\
+                "rating": player[14],\n\
+                "team_name": player[15]\n\
+            })\n\
+        \n\
+        cursor.close()\n\
+        conn.close()\n\
+        \n\
+        return jsonify(result)\n\
+        \n\
+    except Exception as e:\n\
+        return jsonify({"error": str(e)}), 500\n\
+\n\
+@app.route("/reports")\n\
+def reports():\n\
+    """Serve match analysis reports."""\n\
+    import glob\n\
+    reports_dir = "/app/reports"\n\
+    if os.path.exists(reports_dir):\n\
+        report_files = glob.glob(f"{reports_dir}/**/*.log", recursive=True)\n\
+        return render_template("reports.html", reports=report_files)\n\
+    return "No reports found"\n\
+\n\
+if __name__ == "__main__":\n\
+    app.run(host="0.0.0.0", port=8080, debug=True)' > /app/web_app.py
+
+# Create templates directory and basic HTML templates
+RUN mkdir -p /app/templates
+
+# Create index.html template
+RUN echo '<!DOCTYPE html>\n\
+<html>\n\
+<head>\n\
+    <title>Real Madrid 2023-2024 Match Analysis</title>\n\
+    <style>\n\
+        body { font-family: Arial, sans-serif; margin: 20px; }\n\
+        .header { background: #1e3a8a; color: white; padding: 20px; text-align: center; }\n\
+        .match-list { margin: 20px 0; }\n\
+        .match-item { border: 1px solid #ddd; margin: 10px 0; padding: 15px; }\n\
+        .match-item:hover { background: #f5f5f5; cursor: pointer; }\n\
+        .competition { font-weight: bold; color: #1e3a8a; }\n\
+    </style>\n\
+</head>\n\
+<body>\n\
+    <div class="header">\n\
+        <h1>🏆 Real Madrid 2023-2024 Champions League Winners 🏆</h1>\n\
+        <p>Match-Level Player Statistics Analysis</p>\n\
+    </div>\n\
+    \n\
+    <div class="match-list" id="matchList">\n\
+        <h2>Loading matches...</h2>\n\
+    </div>\n\
+    \n\
+    <script>\n\
+        fetch("/api/matches")\n\
+            .then(response => response.json())\n\
+            .then(matches => {\n\
+                const matchList = document.getElementById("matchList");\n\
+                matchList.innerHTML = "<h2>Available Matches (" + matches.length + ")</h2>";\n\
+                \n\
+                matches.forEach(match => {\n\
+                    const matchDiv = document.createElement("div");\n\
+                    matchDiv.className = "match-item";\n\
+                    matchDiv.onclick = () => window.location.href = `/match/${match.match_id}`;\n\
+                    \n\
+                    const homeTeam = match.home_team === "Real Madrid" ? "🏆 " + match.home_team : match.home_team;\n\
+                    const awayTeam = match.away_team === "Real Madrid" ? "🏆 " + match.away_team : match.away_team;\n\
+                    \n\
+                    matchDiv.innerHTML = `\n\
+                        <div class="competition">${match.competition}</div>\n\
+                        <div>${homeTeam} vs ${awayTeam}</div>\n\
+                        <div>Date: ${match.match_date} | Match ID: ${match.match_id}</div>\n\
+                    `;\n\
+                    \n\
+                    matchList.appendChild(matchDiv);\n\
+                });\n\
+            })\n\
+            .catch(error => {\n\
+                document.getElementById("matchList").innerHTML = "<h2>Error loading matches: " + error + "</h2>";\n\
+            });\n\
+    </script>\n\
+</body>\n\
+</html>' > /app/templates/index.html
+
+# Create reports.html template
+RUN echo '<!DOCTYPE html>\n\
+<html>\n\
+<head>\n\
+    <title>Match Analysis Reports</title>\n\
+    <style>\n\
+        body { font-family: Arial, sans-serif; margin: 20px; }\n\
+        .header { background: #1e3a8a; color: white; padding: 20px; text-align: center; }\n\
+        .report-list { margin: 20px 0; }\n\
+        .report-item { border: 1px solid #ddd; margin: 10px 0; padding: 15px; }\n\
+    </style>\n\
+</head>\n\
+<body>\n\
+    <div class="header">\n\
+        <h1>📊 Match Analysis Reports</h1>\n\
+    </div>\n\
+    \n\
+    <div class="report-list">\n\
+        {% for report in reports %}\n\
+        <div class="report-item">\n\
+            <a href="/static/{{ report }}">{{ report }}</a>\n\
+        </div>\n\
+        {% endfor %}\n\
+    </div>\n\
+</body>\n\
+</html>' > /app/templates/reports.html
+
+# Make the web app executable
+RUN chmod +x /app/web_app.py
+
+# Expose port
+EXPOSE 8080
+
+# Set entrypoint
+ENTRYPOINT ["python", "/app/web_app.py"]

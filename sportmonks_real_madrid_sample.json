@@ -1,0 +1,41 @@
+{
+  "data": {
+    "id": 53,
+    "sport_id": 1,
+    "country_id": 1161,
+    "venue_id": 8909,
+    "gender": "male",
+    "name": "Celtic",
+    "short_code": "CEL",
+    "image_path": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+    "founded": 1888,
+    "type": "domestic",
+    "placeholder": false,
+    "last_played_at": "2025-07-04 18:45:00"
+  },
+  "subscription": [
+    {
+      "meta": [],
+      "plans": [
+        {
+          "plan": "Football Free Plan",
+          "sport": "Football",
+          "category": "Standard"
+        },
+        {
+          "plan": "Cricket Free Plan",
+          "sport": "Cricket",
+          "category": "Standard"
+        }
+      ],
+      "add_ons": [],
+      "widgets": []
+    }
+  ],
+  "rate_limit": {
+    "resets_in_seconds": 3575,
+    "remaining": 2997,
+    "requested_entity": "Team"
+  },
+  "timezone": "UTC"
+}
