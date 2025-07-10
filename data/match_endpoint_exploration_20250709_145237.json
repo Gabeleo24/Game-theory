@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-07-09T14:52:19.839031",
+  "team_id": 9,
+  "season_id": 21646,
+  "endpoints": {
+    "fixtures": {
+      "basic_fixtures": {
+        "endpoint": "fixtures",
+        "working": true,
+        "sample_count": 5,
+        "sample_data": {
+          "id": 463,
+          "sport_id": 1,
+          "league_id": 8,
+          "season_id": 2,
+          "stage_id": 2,
+          "group_id": null,
+          "aggregate_id": null,
+          "round_id": 43,
+          "state_id": 5,
+          "venue_id": 209,
+          "name": "Tottenham Hotspur vs Manchester City",
+          "starting_at": "2010-08-14 11:45:00",
+          "result_info": "Game ended in draw.",
+          "leg": "1/1",
+          "details": null,
+          "length": 90,
+          "placeholder": false,
+          "has_odds": false,
+          "has_premium_odds": false,
+          "starting_at_timestamp": 1281786300
+        }
+      },
+      "fixture_detail": {
+        "endpoint": "fixtures/463",
+        "working": true,
+        "sample_data": {
+          "id": 463,
+          "sport_id": 1,
+          "league_id": 8,
+          "season_id": 2,
+          "stage_id": 2,
+          "group_id": null,
+          "aggregate_id": null,
+          "round_id": 43,
+          "state_id": 5,
+          "venue_id": 209,
+          "name": "Tottenham Hotspur vs Manchester City",
+          "starting_at": "2010-08-14 11:45:00",
+          "result_info": "Game ended in draw.",
+          "leg": "1/1",
+          "details": null,
+          "length": 90,
+          "placeholder": false,
+          "has_odds": false,
+          "has_premium_odds": false,
+          "starting_at_timestamp": 1281786300
+        }
+      }
+    },
+    "teams": {},
+    "seasons": {},
+    "statistics": {}
+  },
+  "manchester_city_matches": {
+    "total_found": 43,
+    "season_2023_24_count": 0,
+    "sample_matches": [],
+    "all_season_matches": []
+  }
+}

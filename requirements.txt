@@ -1,39 +1,59 @@
-# Real Madrid 2023-2024 Match Analysis System Dependencies
+# Core API Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
 
-# Database connectivity
-psycopg2-binary==2.9.7
+# Data Processing and Analysis
+pandas==2.1.3
+numpy==1.25.2
+scikit-learn==1.3.2
 
-# Configuration and environment
+# Database and Storage
+sqlite3
+aiofiles==23.2.0
+
+# HTTP Client for Data Ingestion
+aiohttp==3.9.1
+requests==2.31.0
+
+# Scheduling and Background Tasks
+schedule==1.2.0
+asyncio
+
+# Visualization (for analysis only)
+matplotlib==3.8.2
+
+# Development and Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+
+# Logging and Monitoring
+structlog==23.2.0
+
+# Type Hints
+typing-extensions==4.8.0
+
+# Math and Statistics
+scipy==1.11.4
+
+# Configuration Management
 python-dotenv==1.0.0
 pyyaml==6.0.1
 
-# Data analysis and processing
-pandas==2.1.1
-numpy==1.24.3
+# Performance Monitoring
+psutil==5.9.6
 
-# API requests and web scraping
-requests==2.31.0
-urllib3==2.0.4
+# Data Validation
+marshmallow==3.20.1
 
-# Web framework for interface
-flask==2.3.3
-flask-cors==4.0.0
-gunicorn==21.2.0
-jinja2==3.1.2
-werkzeug==2.3.7
+# Async Support
+asyncpg==0.29.0
 
-# Development and analysis tools
-jupyter==1.0.0
-ipython==8.15.0
-matplotlib==3.7.2
-seaborn==0.12.2
+# Caching
+redis==5.0.1
 
-# Optional: Advanced analytics
-scikit-learn==1.3.0
-plotly==5.15.0
-
-# Caching (optional)
-redis==4.6.0
-
-# Logging and utilities
-colorama==0.4.6
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.4.8
