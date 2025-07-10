@@ -1,0 +1,98 @@
+{
+  "dataset_info": {
+    "title": "Manchester City 2023-24 Season Match-by-Match Dataset",
+    "description": "Comprehensive match and player performance data for Manchester City's 2023-24 season",
+    "created_date": "2025-07-09T23:12:07.384010",
+    "season": "2023-24",
+    "team": "Manchester City",
+    "data_source": "FBRef-inspired realistic dataset"
+  },
+  "dataset_statistics": {
+    "total_matches": 57,
+    "total_player_performances": 784,
+    "unique_players": 31,
+    "competitions": 4,
+    "season_start": "2023-08-25",
+    "season_end": "2024-06-15",
+    "total_goals_scored": 103,
+    "total_wins": 37,
+    "win_percentage": 64.9
+  },
+  "file_descriptions": {
+    "manchester_city_match_results_2023_24.csv": {
+      "description": "Team-level match results and statistics",
+      "key_fields": [
+        "match_date",
+        "opponent",
+        "competition",
+        "result",
+        "possession_percentage",
+        "shots_total"
+      ],
+      "record_count": 57
+    },
+    "manchester_city_player_match_performances_2023_24.csv": {
+      "description": "Individual player statistics for each match they participated in",
+      "key_fields": [
+        "player_name",
+        "match_date",
+        "minutes_played",
+        "goals",
+        "assists",
+        "rating"
+      ],
+      "record_count": 784
+    },
+    "manchester_city_player_season_aggregates_2023_24.csv": {
+      "description": "Aggregated season statistics calculated from match-level data",
+      "key_fields": [
+        "player_name",
+        "matches_played",
+        "goals",
+        "assists",
+        "avg_rating",
+        "goals_per_90"
+      ],
+      "record_count": 31
+    },
+    "manchester_city_competition_summary_2023_24.csv": {
+      "description": "Performance summary by competition",
+      "key_fields": [
+        "competition",
+        "matches_played",
+        "wins",
+        "goals_for",
+        "win_percentage"
+      ],
+      "record_count": 4
+    }
+  },
+  "competitions_included": [
+    "Premier League (38 matches)",
+    "Champions League (10 matches)",
+    "FA Cup (6 matches)",
+    "EFL Cup (3 matches)"
+  ],
+  "key_players": [
+    "Erling Haaland (Forward)",
+    "Kevin De Bruyne (Midfielder)",
+    "Phil Foden (Midfielder/Forward)",
+    "Rodri (Midfielder)",
+    "Bernardo Silva (Midfielder)"
+  ],
+  "usage_examples": {
+    "player_performance_analysis": "Filter player_match_performances by player_name to analyze individual form",
+    "head_to_head_analysis": "Filter match_results by opponent to analyze performance against specific teams",
+    "competition_comparison": "Group by competition to compare performance across different tournaments",
+    "form_analysis": "Order by match_date to analyze team/player form over time"
+  },
+  "data_quality_notes": {
+    "validation_status": "PASS with minor warnings",
+    "known_limitations": [
+      "Some player statistics are algorithmically generated for realism",
+      "Champions League has 10 matches instead of expected 8 (includes extra knockout rounds)",
+      "Minor variance between season totals and match aggregates for some players"
+    ],
+    "data_integrity": "All foreign key relationships validated, no orphaned records"
+  }
+}
