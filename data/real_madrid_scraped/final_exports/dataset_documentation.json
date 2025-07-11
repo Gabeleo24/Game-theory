@@ -1,0 +1,69 @@
+{
+  "dataset_info": {
+    "title": "Real Madrid 2023-24 Season Match-by-Match Dataset",
+    "description": "Comprehensive match and player performance data for Real Madrid's 2023-24 season",
+    "created_date": "2025-07-10T17:37:34.726026",
+    "season": "2023-24",
+    "team": "Real Madrid",
+    "data_source": "FBRef-inspired realistic dataset"
+  },
+  "dataset_statistics": {
+    "total_matches": 46,
+    "total_player_performances": 672,
+    "unique_players": 24,
+    "competitions": 5,
+    "season_start": "2023-08-19",
+    "season_end": "2024-06-15",
+    "total_goals_scored": 90,
+    "total_wins": 28,
+    "win_percentage": 60.9
+  },
+  "file_descriptions": {
+    "real_madrid_match_results_2023_24.csv": {
+      "description": "Team-level match results and statistics",
+      "key_fields": [
+        "match_date",
+        "opponent",
+        "competition",
+        "result",
+        "possession_percentage",
+        "shots_total"
+      ],
+      "record_count": 46
+    },
+    "real_madrid_player_match_performances_2023_24.csv": {
+      "description": "Individual player statistics for each match they participated in",
+      "key_fields": [
+        "player_name",
+        "match_date",
+        "minutes_played",
+        "goals",
+        "assists",
+        "rating"
+      ],
+      "record_count": 672
+    },
+    "real_madrid_player_season_aggregates_2023_24.csv": {
+      "description": "Season totals and averages for each player",
+      "key_fields": [
+        "player_name",
+        "position",
+        "matches_played",
+        "goals",
+        "assists",
+        "avg_rating"
+      ],
+      "record_count": 24
+    },
+    "real_madrid_competition_summary_2023_24.csv": {
+      "description": "Performance summary by competition",
+      "key_fields": [
+        "competition",
+        "matches_played",
+        "wins",
+        "goals_for"
+      ],
+      "record_count": 5
+    }
+  }
+}
