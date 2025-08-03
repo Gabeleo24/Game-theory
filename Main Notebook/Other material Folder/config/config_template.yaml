@@ -1,0 +1,262 @@
+# Data Collection Configuration for ADS599 Capstone Soccer Intelligence System
+# Comprehensive configuration for multi-API data collection
+
+# Target Teams Configuration (67 UEFA Champions League Teams 2019-2024)
+target_teams:
+  # Premier League (England)
+  premier_league:
+    - name: "Manchester City"
+      sportmonks_id: 496
+      api_football_id: 50
+    - name: "Manchester United"
+      sportmonks_id: 14
+      api_football_id: 33
+    - name: "Liverpool"
+      sportmonks_id: 8
+      api_football_id: 40
+    - name: "Chelsea"
+      sportmonks_id: 9
+      api_football_id: 49
+    - name: "Arsenal"
+      sportmonks_id: 18
+      api_football_id: 42
+    - name: "Tottenham"
+      sportmonks_id: 6
+      api_football_id: 47
+  
+  # La Liga (Spain)
+  la_liga:
+    - name: "Real Madrid"
+      sportmonks_id: 53
+      api_football_id: 541
+    - name: "Barcelona"
+      sportmonks_id: 2
+      api_football_id: 529
+    - name: "Atletico Madrid"
+      sportmonks_id: 13
+      api_football_id: 530
+    - name: "Sevilla"
+      sportmonks_id: 19
+      api_football_id: 536
+  
+  # Bundesliga (Germany)
+  bundesliga:
+    - name: "Bayern Munich"
+      sportmonks_id: 5
+      api_football_id: 157
+    - name: "Borussia Dortmund"
+      sportmonks_id: 1
+      api_football_id: 165
+    - name: "RB Leipzig"
+      sportmonks_id: 15
+      api_football_id: 173
+  
+  # Serie A (Italy)
+  serie_a:
+    - name: "Juventus"
+      sportmonks_id: 17
+      api_football_id: 496
+    - name: "AC Milan"
+      sportmonks_id: 10
+      api_football_id: 489
+    - name: "Inter Milan"
+      sportmonks_id: 11
+      api_football_id: 505
+    - name: "Napoli"
+      sportmonks_id: 12
+      api_football_id: 492
+  
+  # Ligue 1 (France)
+  ligue_1:
+    - name: "Paris Saint-Germain"
+      sportmonks_id: 85
+      api_football_id: 85
+
+# Seasons Configuration
+seasons:
+  - name: "2019-2020"
+    sportmonks_id: 17141
+    api_football_id: 2019
+    start_date: "2019-08-01"
+    end_date: "2020-07-31"
+  - name: "2020-2021"
+    sportmonks_id: 18378
+    api_football_id: 2020
+    start_date: "2020-08-01"
+    end_date: "2021-07-31"
+  - name: "2021-2022"
+    sportmonks_id: 19686
+    api_football_id: 2021
+    start_date: "2021-08-01"
+    end_date: "2022-07-31"
+  - name: "2022-2023"
+    sportmonks_id: 21646
+    api_football_id: 2022
+    start_date: "2022-08-01"
+    end_date: "2023-07-31"
+  - name: "2023-2024"
+    sportmonks_id: 23087
+    api_football_id: 2023
+    start_date: "2023-08-01"
+    end_date: "2024-07-31"
+  - name: "2024-2025"
+    sportmonks_id: 24644
+    api_football_id: 2024
+    start_date: "2024-08-01"
+    end_date: "2025-07-31"
+
+# Competitions Configuration
+competitions:
+  # UEFA Champions League
+  champions_league:
+    name: "UEFA Champions League"
+    sportmonks_id: 8
+    api_football_id: 2
+    type: "international"
+    priority: 1
+  
+  # Major Domestic Leagues
+  premier_league:
+    name: "Premier League"
+    sportmonks_id: 8
+    api_football_id: 39
+    type: "domestic_league"
+    priority: 2
+  
+  la_liga:
+    name: "La Liga"
+    sportmonks_id: 271
+    api_football_id: 140
+    type: "domestic_league"
+    priority: 2
+  
+  bundesliga:
+    name: "Bundesliga"
+    sportmonks_id: 82
+    api_football_id: 78
+    type: "domestic_league"
+    priority: 2
+  
+  serie_a:
+    name: "Serie A"
+    sportmonks_id: 384
+    api_football_id: 135
+    type: "domestic_league"
+    priority: 2
+  
+  ligue_1:
+    name: "Ligue 1"
+    sportmonks_id: 301
+    api_football_id: 61
+    type: "domestic_league"
+    priority: 2
+
+# Data Collection Settings
+collection_settings:
+  # Collection priorities
+  priorities:
+    - "matches"
+    - "players"
+    - "player_statistics"
+    - "team_statistics"
+    - "lineups"
+    - "events"
+  
+  # Batch sizes for efficient collection
+  batch_sizes:
+    matches: 50
+    players: 25
+    statistics: 100
+    events: 200
+  
+  # Rate limiting settings
+  rate_limiting:
+    sportmonks:
+      requests_per_minute: 50
+      requests_per_hour: 3000
+      delay_between_requests: 1.2
+    api_football:
+      requests_per_minute: 10
+      requests_per_day: 100
+      delay_between_requests: 6
+  
+  # Retry settings
+  retry_settings:
+    max_attempts: 3
+    backoff_factor: 2
+    timeout: 30
+  
+  # Data quality settings
+  quality_settings:
+    min_data_completeness: 0.85
+    required_fields:
+      matches: ["date", "home_team", "away_team", "score"]
+      players: ["name", "position", "team"]
+      statistics: ["player_id", "match_id", "minutes_played"]
+  
+  # Caching settings
+  caching:
+    enabled: true
+    ttl_hours: 24
+    cache_statistics: true
+    cache_matches: true
+    cache_players: true
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_rotation: "daily"
+  max_file_size: "100MB"
+  backup_count: 30
+  
+  # Specific loggers
+  loggers:
+    data_collection: "INFO"
+    api_requests: "DEBUG"
+    database: "INFO"
+    cache: "WARNING"
+
+# Performance Settings
+performance:
+  # Parallel processing
+  max_workers: 4
+  chunk_size: 100
+  
+  # Memory management
+  max_memory_usage: "4GB"
+  gc_threshold: 1000
+  
+  # Database connection pooling
+  db_pool_size: 10
+  db_max_overflow: 20
+  
+  # Cache settings
+  cache_max_size: "1GB"
+  cache_eviction_policy: "lru"
+
+# Monitoring and Alerts
+monitoring:
+  enabled: true
+  metrics:
+    - "collection_rate"
+    - "error_rate"
+    - "data_quality_score"
+    - "api_response_time"
+    - "database_performance"
+  
+  alerts:
+    error_rate_threshold: 0.05
+    response_time_threshold: 10
+    data_quality_threshold: 0.90
+  
+  health_checks:
+    interval_minutes: 5
+    timeout_seconds: 30
+
+# Export Settings
+export:
+  formats: ["json", "csv", "parquet"]
+  compression: "gzip"
+  include_metadata: true
+  batch_export_size: 10000

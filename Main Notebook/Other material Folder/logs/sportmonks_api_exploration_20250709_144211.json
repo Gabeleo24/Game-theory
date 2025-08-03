@@ -1,0 +1,109 @@
+{
+  "timestamp": "2025-07-09T14:42:00.856386",
+  "api_base_url": "https://api.sportmonks.com/v3/football",
+  "test_team": "Manchester City (ID: 496)",
+  "test_season": "2023-2024 (ID: 21646)",
+  "endpoints": {
+    "teams": {
+      "team_basic": {
+        "endpoint": "teams/496",
+        "sample_data": {
+          "id": 496,
+          "sport_id": 1,
+          "country_id": 1161,
+          "venue_id": 8879,
+          "gender": "male",
+          "name": "St. Mirren",
+          "short_code": "STM",
+          "image_path": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
+          "founded": 1877,
+          "type": "domestic",
+          "placeholder": false,
+          "last_played_at": "2025-07-08 18:30:00"
+        },
+        "description": "Basic team information"
+      }
+    },
+    "matches": {},
+    "players": {},
+    "competitions": {
+      "seasons_list": {
+        "endpoint": "seasons",
+        "sample_data": [
+          {
+            "id": 2,
+            "sport_id": 1,
+            "league_id": 8,
+            "tie_breaker_rule_id": 1526,
+            "name": "2010/2011",
+            "finished": true,
+            "pending": false,
+            "is_current": false,
+            "starting_at": "2010-08-14",
+            "ending_at": "2011-05-22",
+            "standings_recalculated_at": "2023-05-24 08:28:07",
+            "games_in_current_week": false
+          },
+          {
+            "id": 3,
+            "sport_id": 1,
+            "league_id": 8,
+            "tie_breaker_rule_id": 1526,
+            "name": "2013/2014",
+            "finished": true,
+            "pending": false,
+            "is_current": false,
+            "starting_at": "2013-08-17",
+            "ending_at": "2014-05-11",
+            "standings_recalculated_at": "2023-05-24 08:28:09",
+            "games_in_current_week": false
+          },
+          {
+            "id": 6,
+            "sport_id": 1,
+            "league_id": 8,
+            "tie_breaker_rule_id": 1526,
+            "name": "2008/2009",
+            "finished": true,
+            "pending": false,
+            "is_current": false,
+            "starting_at": "2008-08-16",
+            "ending_at": "2009-05-24",
+            "standings_recalculated_at": "2023-11-30 13:38:48",
+            "games_in_current_week": false
+          },
+          {
+            "id": 7,
+            "sport_id": 1,
+            "league_id": 8,
+            "tie_breaker_rule_id": 1526,
+            "name": "2012/2013",
+            "finished": true,
+            "pending": false,
+            "is_current": false,
+            "starting_at": "2012-08-18",
+            "ending_at": "2013-05-19",
+            "standings_recalculated_at": "2023-05-24 08:28:13",
+            "games_in_current_week": false
+          },
+          {
+            "id": 8,
+            "sport_id": 1,
+            "league_id": 8,
+            "tie_breaker_rule_id": 1526,
+            "name": "2006/2007",
+            "finished": true,
+            "pending": false,
+            "is_current": false,
+            "starting_at": "2006-08-19",
+            "ending_at": "2007-05-13",
+            "standings_recalculated_at": "2023-05-24 08:28:14",
+            "games_in_current_week": false
+          }
+        ],
+        "description": "Available seasons"
+      }
+    },
+    "statistics": {}
+  }
+}

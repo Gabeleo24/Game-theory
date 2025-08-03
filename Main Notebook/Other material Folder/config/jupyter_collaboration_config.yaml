@@ -1,0 +1,310 @@
+# Jupyter Notebook Collaboration Configuration
+# ADS599 Capstone Soccer Intelligence System
+
+# Team Role-Based Jupyter Environments
+jupyter_environments:
+  analyst:
+    description: "Data analyst environment with read-only data access"
+    port: 8888
+    password: "soccer_intelligence_analyst"
+    token: "analyst_secure_token_2024"
+    notebook_dir: "/app/notebooks/shared"
+    data_access: "read_only"
+    allowed_kernels: ["python3", "sql"]
+    extensions:
+      - "jupyterlab-git"
+      - "jupyterlab-plotly"
+      - "jupyterlab-spreadsheet"
+      - "jupyterlab-variableinspector"
+    resource_limits:
+      memory: "4GB"
+      cpu: "2"
+    
+  developer:
+    description: "Full development environment with complete access"
+    port: 8889
+    password: "soccer_intelligence_dev"
+    token: "developer_secure_token_2024"
+    notebook_dir: "/app"
+    data_access: "read_write"
+    allowed_kernels: ["python3", "sql", "bash"]
+    extensions:
+      - "jupyterlab-git"
+      - "jupyterlab-plotly"
+      - "jupyterlab-spreadsheet"
+      - "jupyterlab-variableinspector"
+      - "jupyterlab-docker"
+      - "jupyterlab-system-monitor"
+    resource_limits:
+      memory: "8GB"
+      cpu: "4"
+    
+  researcher:
+    description: "Academic research environment with analysis tools"
+    port: 8890
+    password: "soccer_intelligence_research"
+    token: "researcher_secure_token_2024"
+    notebook_dir: "/app/notebooks/research"
+    data_access: "read_only"
+    allowed_kernels: ["python3", "sql", "r"]
+    extensions:
+      - "jupyterlab-git"
+      - "jupyterlab-plotly"
+      - "jupyterlab-latex"
+      - "jupyterlab-variableinspector"
+      - "jupyterlab-citation-manager"
+    resource_limits:
+      memory: "6GB"
+      cpu: "3"
+
+# Shared Notebook Organization
+notebook_structure:
+  base_path: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
+
+  shared:
+    path: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/shared"
+    container_path: "/app/notebooks/shared"
+    description: "Shared notebooks accessible to all team members"
+    subdirectories:
+      - "templates"          # Notebook templates for common analyses
+      - "data_exploration"    # Exploratory data analysis notebooks
+      - "team_analysis"       # Collaborative analysis projects
+      - "reports"            # Generated reports and findings
+      - "tutorials"          # Learning and onboarding materials
+    permissions:
+      analyst: "read_write"
+      developer: "read_write"
+      researcher: "read_write"
+
+  personal:
+    path: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/personal"
+    container_path: "/app/notebooks/personal"
+    description: "Personal workspace for individual team members"
+    subdirectories:
+      - "analyst_workspace"
+      - "developer_workspace"
+      - "researcher_workspace"
+    permissions:
+      analyst: "read_write_own"
+      developer: "read_write_own"
+      researcher: "read_write_own"
+
+  research:
+    path: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/research"
+    container_path: "/app/notebooks/research"
+    description: "Academic research and methodology notebooks"
+    subdirectories:
+      - "methodology"        # Research methodology development
+      - "literature_review"  # Literature review and references
+      - "statistical_analysis" # Advanced statistical methods
+      - "publications"       # Publication-ready analyses
+    permissions:
+      analyst: "read"
+      developer: "read_write"
+      researcher: "read_write"
+
+  archive:
+    path: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks/archive"
+    container_path: "/app/notebooks/archive"
+    description: "Archived notebooks and historical analyses"
+    subdirectories:
+      - "completed_projects"
+      - "deprecated_analyses"
+      - "backup_notebooks"
+    permissions:
+      analyst: "read"
+      developer: "read_write"
+      researcher: "read"
+
+# Collaboration Workflow
+collaboration_workflow:
+  version_control:
+    strategy: "git_with_nbstripout"
+    auto_commit: false
+    branch_protection: true
+    review_required: true
+    
+  notebook_naming:
+    convention: "{date}_{author}_{purpose}_{version}.ipynb"
+    examples:
+      - "2024-07-07_alice_player_analysis_v1.ipynb"
+      - "2024-07-07_bob_shapley_implementation_v2.ipynb"
+      - "2024-07-07_carol_research_methodology_v1.ipynb"
+      
+  sharing_protocol:
+    1: "Create notebook in appropriate shared directory"
+    2: "Follow naming convention"
+    3: "Add clear documentation and comments"
+    4: "Test notebook execution from clean state"
+    5: "Commit with descriptive message"
+    6: "Create pull request for review"
+    7: "Address review feedback"
+    8: "Merge after approval"
+    
+  conflict_resolution:
+    strategy: "timestamp_based_merging"
+    backup_creation: true
+    manual_review_required: true
+
+# Data Access Configuration
+data_access:
+  database_connections:
+    shared_connection:
+      host: "postgres"
+      port: 5432
+      database: "soccer_intelligence"
+      connection_pool_size: 10
+
+    role_specific_users:
+      analyst:
+        username: "analyst_user"
+        password: "analyst_secure_pass"
+        privileges: ["SELECT"]
+        schema_access: ["public"]
+
+      developer:
+        username: "soccerapp"
+        password: "soccerpass123"
+        privileges: ["ALL"]
+        schema_access: ["public", "development"]
+
+      researcher:
+        username: "research_user"
+        password: "research_secure_pass"
+        privileges: ["SELECT"]
+        schema_access: ["public", "research"]
+
+  file_access:
+    host_data_directory: "/Users/home/Documents/GitHub/ADS599_Capstone/data"
+    host_notebooks_directory: "/Users/home/Documents/GitHub/ADS599_Capstone/notebooks"
+    host_cache_directory: "/Users/home/Documents/GitHub/ADS599_Capstone/data/cache"
+    host_output_directory: "/Users/home/Documents/GitHub/ADS599_Capstone/data/analysis"
+
+    container_data_directory: "/app/data"
+    container_notebooks_directory: "/app/notebooks"
+    container_cache_directory: "/app/data/cache"
+    container_output_directory: "/app/data/analysis"
+    
+    permissions:
+      analyst:
+        data: "read"
+        cache: "read_write"
+        output: "read_write"
+        
+      developer:
+        data: "read_write"
+        cache: "read_write"
+        output: "read_write"
+        
+      researcher:
+        data: "read"
+        cache: "read"
+        output: "read_write"
+
+# Security Configuration
+security:
+  api_key_management:
+    storage_location: "/app/config/api_keys.yaml"
+    access_method: "environment_variables"
+    sharing_policy: "individual_responsibility"
+    
+    role_access:
+      analyst: ["sportmonks_readonly"]
+      developer: ["all_apis"]
+      researcher: ["sportmonks_readonly", "academic_apis"]
+      
+  notebook_security:
+    disable_shell_access: true
+    restrict_file_access: true
+    enable_audit_logging: true
+    session_timeout: 3600  # 1 hour
+    
+  data_protection:
+    encrypt_sensitive_outputs: true
+    mask_api_keys_in_notebooks: true
+    prevent_credential_exposure: true
+    
+# Backup and Versioning
+backup_strategy:
+  automatic_backup:
+    enabled: true
+    frequency: "hourly"
+    retention_period: "30_days"
+    backup_location: "/app/backups/notebooks"
+    
+  version_control:
+    git_integration: true
+    auto_save_interval: 300  # 5 minutes
+    checkpoint_creation: true
+    
+  synchronization:
+    real_time_sync: false
+    conflict_detection: true
+    merge_strategy: "manual_review"
+
+# Performance Optimization
+performance:
+  kernel_management:
+    idle_timeout: 1800  # 30 minutes
+    max_kernels_per_user: 3
+    memory_limit_per_kernel: "2GB"
+    
+  caching:
+    enable_result_caching: true
+    cache_location: "/app/data/cache/notebook_cache"
+    cache_size_limit: "5GB"
+    
+  resource_monitoring:
+    enable_monitoring: true
+    alert_thresholds:
+      memory_usage: 80
+      cpu_usage: 90
+      disk_usage: 85
+
+# Extensions and Tools
+jupyter_extensions:
+  essential:
+    - name: "jupyterlab-git"
+      description: "Git integration for version control"
+      
+    - name: "jupyterlab-plotly"
+      description: "Interactive plotting with Plotly"
+      
+    - name: "jupyterlab-variableinspector"
+      description: "Variable inspection and debugging"
+      
+  role_specific:
+    analyst:
+      - name: "jupyterlab-spreadsheet"
+        description: "Excel-like data manipulation"
+        
+    developer:
+      - name: "jupyterlab-docker"
+        description: "Docker container management"
+        
+      - name: "jupyterlab-system-monitor"
+        description: "System resource monitoring"
+        
+    researcher:
+      - name: "jupyterlab-latex"
+        description: "LaTeX support for academic writing"
+        
+      - name: "jupyterlab-citation-manager"
+        description: "Citation and reference management"
+
+# Monitoring and Logging
+monitoring:
+  notebook_usage:
+    track_execution_time: true
+    log_user_activity: true
+    monitor_resource_usage: true
+    
+  collaboration_metrics:
+    track_shared_notebook_access: true
+    monitor_conflict_frequency: true
+    measure_collaboration_effectiveness: true
+    
+  security_monitoring:
+    log_authentication_attempts: true
+    monitor_data_access_patterns: true
+    alert_on_suspicious_activity: true
