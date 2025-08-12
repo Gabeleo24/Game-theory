@@ -1,0 +1,49 @@
+# Real Madrid Soccer Analysis - Docker Compose
+# ADS599 Capstone Project
+
+version: '3.8'
+
+services:
+  jupyter:
+    build: .
+    container_name: real_madrid_analysis
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./Main Notebook:/app/Main Notebook
+      - ./Data Folder:/app/Data Folder
+      - ./README.md:/app/README.md
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=
+      - JUPYTER_PASSWORD=
+    restart: unless-stopped
+    networks:
+      - analysis_network
+
+  # Optional: Add a data processing service
+  data_processor:
+    build: .
+    container_name: data_processor
+    command: >
+      python -c "
+      import sys
+      sys.path.append('Main Notebook/Code Library')
+      from data_processing import example_data_processing
+      example_data_processing()
+      "
+    volumes:
+      - ./Main Notebook:/app/Main Notebook
+      - ./Data Folder:/app/Data Folder
+    depends_on:
+      - jupyter
+    networks:
+      - analysis_network
+
+networks:
+  analysis_network:
+    driver: bridge
+
+volumes:
+  notebook_data:
+    driver: local

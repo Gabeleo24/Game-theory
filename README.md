@@ -1,317 +1,247 @@
-# Real Madrid Player Performance Analysis
+# Real Madrid Soccer Analysis - ADS599 Capstone Project
 
-A comprehensive machine learning analysis of Real Madrid player performance data from 2017-2025, featuring position-specific modeling, weighted scoring systems, and predictive analytics.
+## 🏆 Project Overview
 
-## Table of Contents
+This project provides a comprehensive analysis of Real Madrid soccer data across multiple seasons, featuring modular code architecture, automated data processing, and advanced machine learning capabilities.
 
-- [Overview](#overview)
-- [Data](#data)
-- [Features](#features)
-- [Models](#models)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [File Structure](#file-structure)
-- [Contributing](#contributing)
+## 📁 Project Structure
 
-## Overview
-
-This project provides an in-depth analysis of Real Madrid player performance using advanced machine learning techniques. The system creates position-specific models to predict player performance scores and analyze team dynamics across different seasons.
-
-### Key Objectives
-
-- Develop position-specific performance scoring systems
-- Create predictive models for player performance
-- Analyze team performance trends over time
-- Provide actionable insights for player evaluation
-
-## Data
-
-### Dataset Information
-
-- **Size**: 5,737 observations across 8 seasons (2017-2025)
-- **Players**: 54 unique players with 200+ minutes played
-- **Positions**: Forward, Midfielder, Defender, Goalkeeper
-- **Features**: 69 performance metrics per match
-
-### Data Sources
-
-- Match performance statistics
-- Expected goals (xG) and advanced metrics
-- Position-specific defensive and offensive statistics
-- Season schedules and match results
-
-### Key Metrics by Position
-
-#### Forwards
-- Goals, Assists, Shots on Target
-- Expected Goals (xG), Expected Assists (xAG)
-- Take-ons Success
-
-#### Midfielders
-- Pass Completion %, Key Passes, Tackles
-- Progressive Passes, Carries, Touches
-
-#### Defenders
-- Interceptions, Blocks, Clearances
-- Tackles Won, Defensive Actions
-
-#### Goalkeepers
-- Distribution Accuracy, Errors
-- Progressive Distance, Pass Completion
-
-## Features
-
-### 1. Data Processing Pipeline
-
-- **Missing Value Handling**: Player-specific averages with fallback to position means
-- **Outlier Detection**: Statistical methods and box plot analysis
-- **Feature Engineering**: Per-90 minute rates and position-specific metrics
-- **Multicollinearity Analysis**: VIF testing and correlation matrix analysis
-
-### 2. Weighted Scoring System
-
-Position-specific weighted formulas based on SHAP analysis:
-
-#### Forward Scoring
-```python
-Score = 3.0×Goals + 2.0×Assists + 1.0×SoT + 1.5×xG + 1.0×xAG + 0.5×TakeOns
+```
+ADS599_Capstone/
+├── Main Notebook/
+│   ├── Code Library Folder/    # Separate Python notebook files
+│   │   ├── Data Preparation.ipynb    # Data preparation functions
+│   │   ├── Data Exploration.ipynb    # Data exploration functions
+│   │   └── Modeling.ipynb           # Modeling functions
+│   ├── Image Folder/           # Generated visualizations
+│   ├── Other material Folder/  # Python library with reusable functions
+│   │   ├── __init__.py        # Package initialization
+│   │   ├── data_acquisition.py # Web scraping and data collection
+│   │   ├── data_processing.py  # Data cleaning and analysis
+│   │   ├── visualization.py    # Charts and plots
+│   │   └── modeling.py        # Machine learning models
+│   ├── Main Code Library/      # Original notebooks (for reference)
+│   ├── Data Folder/            # All CSV data files
+│   └── Main_Analysis.ipynb    # Clean, organized main notebook
+├── requirements.txt            # Python dependencies
+├── Dockerfile                  # Container configuration
+├── docker-compose.yml          # Multi-service orchestration
+└── README.md                   # This file
 ```
 
-#### Midfielder Scoring
-```python
-Score = 2.5×PassCmp% + 1.2×KP + 1.5×Tkl + 0.8×ProgCarries + 1.8×ProgPasses + 0.3×Touches
-```
+## 🚀 Quick Start
 
-#### Defender Scoring
-```python
-Score = 2.5×Int + 2.0×Blocks + 1.0×Clr + 2.0×TklW + 1.3×TklDef + 0.8×TklMid
-```
+### Option 1: Local Development
 
-#### Goalkeeper Scoring
-```python
-Score = 3.0×TotalCmp% - 2.0×Err + 1.0×PrgDist + 1.5×ShortCmp% + 1.0×MedCmp% + 0.5×TotalCmp
-```
-#### Logistic Regression Validation
-```python
-Logistic Regression Loss Wins
-```
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd ADS599_Capstone
+   ```
 
-### 3. Machine Learning Models
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-#### Random Forest
-- Position-specific models
+3. **Run the main analysis**
+   ```bash
+   jupyter notebook "Main Notebook/Main_Analysis.ipynb"
+   ```
+
+### Option 2: Docker (Recommended)
+
+1. **Build and run with Docker Compose**
+   ```bash
+   docker-compose up --build
+   ```
+
+2. **Access Jupyter Notebook**
+   - Open your browser and go to: `http://localhost:8888`
+   - Navigate to `Main Notebook/Main_Analysis.ipynb`
+
+3. **Stop the services**
+   ```bash
+   docker-compose down
+   ```
+
+## 🔧 Code Library Modules
+
+### 📊 Data Acquisition (`data_acquisition.py`)
+- **FBrefScraper**: Web scraping class for soccer statistics
+- **quick_schedule_pull()**: Fast team schedule retrieval
+- **quick_match_stats()**: Match statistics extraction
+
+### 🧹 Data Processing (`data_processing.py`)
+- **SoccerDataProcessor**: Main data processing class
+- **quick_data_load()**: Load and combine multiple seasons
+- **quick_analysis()**: Comprehensive data analysis pipeline
+
+### 📈 Visualization (`visualization.py`)
+- **SoccerVisualizer**: Chart and plot creation
+- **quick_visualization()**: Generate common visualizations
+- **create_comprehensive_report()**: Full visualization suite
+
+### 🤖 Modeling (`modeling.py`)
+- **SoccerModeler**: Machine learning pipeline
+- **quick_regression_analysis()**: Regression model training
+- **quick_classification_analysis()**: Classification model training
+
+## 📊 Data Sources
+
+The project analyzes Real Madrid data from multiple seasons:
+- **Seasons**: 2015-16 through 2024-25
+- **Data Types**: Player statistics, match results, team performance
+- **Sources**: FBref.com, official statistics, web scraping
+
+## 🎯 Key Features
+
+- **Modular Architecture**: Clean, reusable functions organized by purpose
+- **Automated Processing**: Streamlined data pipeline from raw data to insights
+- **Comprehensive Analysis**: EDA, visualization, and machine learning
+- **Docker Support**: Containerized for easy deployment and reproducibility
+- **Professional Quality**: PEP 8 compliant, well-documented code
+
+## 📈 Analysis Capabilities
+
+### Data Exploration
+- Multi-season data combination and cleaning
+- Position-based analysis
+- Performance metrics calculation
+- Statistical summaries
+
+### Visualization
+- Season performance trends
+- Position-based comparisons
+- Player performance rankings
+- Correlation analysis
+- Time series plots
+
+### Machine Learning
+- Regression analysis for performance prediction
+- Classification for player categorization
+- Clustering for player grouping
 - Feature importance analysis
-- Cross-validation with time-based splits
 
-#### XGBoost
-- Gradient boosting implementation
-- Hyperparameter optimization
-- Raw statistics approach
+## 🐳 Docker Details
 
-#### Neural Networks
-- Multi-layer perceptron architecture
-- Fast hyperparameter tuning (20s vs 104+ minutes)
-- Standardized feature scaling
+### Services
+- **jupyter**: Main Jupyter notebook server
+- **data_processor**: Background data processing service
 
-#### Ensemble Methods
-- Voting regressor combining RF, XGBoost, and Gradient Boosting
-- Model averaging for improved predictions
+### Ports
+- **8888**: Jupyter notebook access
 
-### 4. SHAP Analysis
+### Volumes
+- Project files are mounted for live editing
+- Images folder for visualization output
+- Data folder for CSV files
 
-- Position-specific feature importance
-- Per-90 minute rate analysis
-- Player-level performance drivers
-- Bias-free efficiency metrics
+## 🔍 Usage Examples
 
-### 5. Logistic Regression Validation
-
-- Win/Loss prediction based on team performance
-- S-curve visualization (0% to 100% win probability)
-- Threshold identification for performance levels
-
-## Installation
-
-### Requirements
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap
-```
-
-### Additional Dependencies
-
-```bash
-pip install scipy plotly statsmodels
-```
-
-### Setup
-
-```bash
-git clone https://github.com/your-repo/real-madrid-analysis
-cd real-madrid-analysis
-pip install -r requirements.txt
-```
-
-## Usage
-
-### 1. Data Loading and Preprocessing
-
+### Basic Data Loading
 ```python
-# Load and clean data
-from data_processing import load_and_clean_data
-df = load_and_clean_data('path/to/real_madrid_data.csv')
+from Other_material_Folder.data_processing import quick_data_load
 
-# Create position-specific features
-from feature_engineering import create_per90_features
-df_per90 = create_per90_features(df)
+# Load data from multiple seasons
+seasons = ['15_16', '16_17', '17_18', '18_19', '19_20']
+match_data, schedule_data = quick_data_load("Data Folder/DataExtracted", seasons)
 ```
 
-### 2. Model Training
-
+### Quick Analysis
 ```python
-# Train position-specific models
-from models import train_position_models
-models = train_position_models(df_per90)
+from Other_material_Folder.data_processing import quick_analysis
 
-# Fast neural network tuning
-from neural_network import tune_neural_network_fast
-tuned_models = tune_neural_network_fast(position_datasets)
+# Run comprehensive analysis
+results = quick_analysis(match_data)
 ```
 
-### 3. Performance Analysis
-
+### Visualization
 ```python
-# Generate SHAP analysis
-from shap_analysis import analyze_player_per90
-analyze_player_per90('Player Name')
+from Other_material_Folder.visualization import create_comprehensive_report
 
-# Create performance visualizations
-from visualization import plot_performance_trends
-plot_performance_trends(df)
+# Create all visualizations
+create_comprehensive_report(match_data, "Image Folder")
 ```
 
-
-### 4. Prediction
-
+### Machine Learning
 ```python
-# Predict player performance
-from prediction import predict_performance
-score = predict_performance(player_stats, position='Forward')
+from Other_material_Folder.modeling import quick_regression_analysis
+
+# Train regression models
+regression_results = quick_regression_analysis(match_data, 'goals')
 ```
 
-## Results
+## 📋 Requirements
 
-### Model Performance Summary
+- **Python**: 3.8+
+- **Key Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn
+- **Web Scraping**: requests, beautifulsoup4
+- **Jupyter**: notebook, ipykernel
 
-| Model | Forward R² | Midfield R² | Defense R² | Goalkeeper R² |
-|-------|------------|-------------|------------|---------------|
-| Random Forest | 0.987 | 0.336 | 0.935 | 0.823 |
-| XGBoost | 0.985 | 0.302 | 0.929 | 0.904 |
-| Neural Network | 0.989 | 0.435 | 0.933 | 0.919 |
-| Ensemble | 0.987 | 0.325 | 0.933 | 0.864 |
+## 🚧 Development
 
-### Key Findings
+### Adding New Functions
+1. Add your function to the appropriate module in `Code Library/`
+2. Update the `__init__.py` file to export the function
+3. Test with the example functions
+4. Update this README if needed
 
-- **Forward Models**: Excellent performance (R² > 0.98) across all algorithms
-- **Goalkeeper Models**: Strong performance with Neural Networks (R² = 0.919)
-- **Defense Models**: Consistent high performance (R² > 0.93)
-- **Midfield Models**: Most challenging position to predict (R² ≈ 0.3-0.4)
+### Code Style
+- Follow PEP 8 guidelines
+- Use type hints for function parameters
+- Include comprehensive docstrings
+- Add example usage in docstrings
 
-### Feature Importance (Top 3 by Position)
-
-#### Forward
-1. Goals per 90: 3.320
-2. Assists per 90: 2.060
-3. Expected xG per 90: 1.738
-
-#### Midfielder
-1. Progressive Passes per 90: 1.793
-2. Tackles per 90: 1.178
-3. Pass Completion %: 0.913
-
-#### Defender
-1. Blocks per 90: 2.309
-2. Interceptions per 90: 1.517
-3. Tackles Won per 90: 1.492
-
-#### Goalkeeper
-1. Total Completion %: 1.718
-2. Short Completion %: 0.138
-3. Progressive Distance per 90: 0.101
-
-### Win Prediction Analysis
-
-- **Logistic Regression AUC**: 0.842
-- **50% Win Probability Threshold**: 5.94 team rebalanced score
-- **Strong Discrimination**: 0.843 probability range (0.155 to 0.999)
-
-## File Structure
-
-```
-Main Notebook/
-├── Data Folder/
-│   ├── DataCombined/               # Data raw combined in seasons
-│   ├── DataExtracted/              # Raw data extracted
-├── Main Code Library/
-│   ├── DataAcquisition.ipynb
-│   ├── Main_eda_Modeling.ipynb
-├── ├── Support EDA-Modeling 
-└── README.md
-```
-
-## Key Insights
-
-### Position-Specific Trends (2022-2025)
-
-#### Forwards: Becoming more clinical but less creative
-- Goal scoring: 0.34 → 0.37 per match (+8.8%)
-- Assists declining: 0.20 → 0.14 per match (-30%)
-
-#### Midfielders: Maintaining stability with defensive focus
-- Pass accuracy stable: ~87-89%
-- Increased defensive responsibility
-- Less adventurous attacking play
-
-#### Defenders: More proactive defending
-- Clearances increased: 1.77 → 2.32 per match (+31%)
-- Better tackle success rates
-- More aggressive positioning
-
-#### Goalkeepers: Conservative distribution
-- Passing accuracy declining: 86.25% → 83.39%
-- More safety-first approach
-- Excellent error rates (0.02-0.04 per game)
-
-### Model Efficiency
-
-- **Fast Neural Network Tuning**: 20.2 seconds vs 104+ minutes (99.7% time reduction)
-- **Average Improvement**: +2.9% over baseline neural networks
-- **Best Architecture**: (150, 75, 35) hidden layer configuration
-
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-analysis`)
-3. Commit changes (`git commit -am 'Add new analysis'`)
-4. Push to branch (`git push origin feature/new-analysis`)
-5. Create Pull Request
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
 
-### Development Guidelines
+## 📄 License
 
-- Follow PEP 8 style guidelines
-- Add docstrings to all functions
-- Include unit tests for new features
-- Update documentation for API changes
+This project is part of the ADS599 Capstone course at [Your University].
 
-## License
+## 👥 Team
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Gabe**: Project coordination and data analysis
+- **Mau**: Code development and optimization
+- **ADS599 Team**: Collaborative development
 
-## Acknowledgments
+## 🆘 Troubleshooting
 
-- Real Madrid performance data sources
-- scikit-learn and XGBoost communities
-- SHAP library for model interpretability
-- Academic research in sports analytics
-- Faculty at University of San Diego MAS Data Science Program
+### Common Issues
+
+1. **Import Errors**
+   - Ensure you're in the correct directory
+   - Check that `Code Library` folder exists
+   - Verify Python path includes the project directory
+
+2. **Docker Issues**
+   - Check if ports 8888 is available
+   - Ensure Docker and Docker Compose are installed
+   - Try rebuilding with `docker-compose up --build`
+
+3. **Data Loading Issues**
+   - Verify CSV files exist in `Data Folder/DataExtracted/`
+   - Check file naming conventions
+   - Ensure proper file permissions
+
+### Getting Help
+- Check the example functions in each module
+- Review the main analysis notebook
+- Check Docker logs: `docker-compose logs jupyter`
+
+## 🎉 Success!
+
+You've successfully set up a professional, modular soccer analysis project! The code is now:
+- ✅ **Organized** into logical modules
+- ✅ **Reusable** for other teams or sports
+- ✅ **Containerized** for easy deployment
+- ✅ **Documented** with clear examples
+- ✅ **Professional** quality ready for production
+
+Happy analyzing! ⚽📊

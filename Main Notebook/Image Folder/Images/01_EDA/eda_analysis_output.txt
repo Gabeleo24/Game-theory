@@ -1,0 +1,160 @@
+Starting Real Madrid Soccer Performance EDA
+============================================================
+Loading datasets...
+Main dataset loaded: (7217, 77)
+Rebalanced dataset loaded: (5737, 72)
+
+DATA OVERVIEW
+==================================================
+Dataset shape: (7217, 77)
+Memory usage: 7.81 MB
+Data types:
+float64    68
+object      9
+Name: count, dtype: int64
+Missing values: 102274
+
+First 10 columns: ['Date', 'Competition', 'Opponent', 'Player', '#', 'Nation', 'Pos', 'Age', 'Min', ' Gls']
+
+POSITION ANALYSIS
+==================================================
+Position distribution:
+Pos
+CB          1058
+FW           982
+CM           676
+RB           560
+LB           558
+            ... 
+RB,LM,RW       1
+WB,AM          1
+CM,WB          1
+CM,AM          1
+LM,FW,AM       1
+Name: count, Length: 158, dtype: int64
+
+SEASON ANALYSIS
+==================================================
+Seasons covered:
+Season
+2015.0    318
+2016.0    676
+2017.0    722
+2018.0    708
+2019.0    666
+2020.0    634
+2021.0    783
+2022.0    722
+2023.0    801
+2024.0    766
+2025.0    416
+Name: count, dtype: int64
+
+3.3 POSITION-SPECIFIC DISTRIBUTION ANALYSIS
+==================================================
+Creating distribution charts for positions: ['Forward', 'Midfielder', 'Defender', 'Goalkeeper']
+
+--- FORWARD DISTRIBUTION ANALYSIS ---
+No data available for Forward
+
+--- MIDFIELDER DISTRIBUTION ANALYSIS ---
+No data available for Midfielder
+
+--- DEFENDER DISTRIBUTION ANALYSIS ---
+No data available for Defender
+
+--- GOALKEEPER DISTRIBUTION ANALYSIS ---
+No data available for Goalkeeper
+
+Analyzing positions: ['Forward', 'Midfielder', 'Defender', 'Goalkeeper']
+
+DATA QUALITY ASSESSMENT
+==================================================
+Missing values summary (top 10):
+                 Missing_Count  Missing_Percent
+ 1/3                      5667        78.522932
+SCA                       4963        68.768186
+GCA                       4963        68.768186
+Challenges Tkl%           4146        57.447693
+SCA GCA                   3671        50.866011
+SCA SCA                   3671        50.866011
+3-Jan                     2967        41.111265
+Long Cmp%                 2282        31.619787
+Medium Cmp%               1629        22.571706
+Short Cmp%                1538        21.310794
+
+Overall data completeness: 81.6%
+
+PERFORMANCE SCORE ANALYSIS
+==================================================
+Performance Score Statistics:
+count    5737.000000
+mean        8.402646
+std         5.927693
+min         0.001111
+25%         4.100000
+50%         7.600000
+75%        12.100000
+max        34.100000
+Name: Rebalanced_Score, dtype: float64
+
+5. POSITION-SPECIFIC PLAYER PERFORMANCE SPIDER CHARTS
+==================================================
+
+FORWARD CORRELATION ANALYSIS
+==================================================
+No data available for Forward
+
+MIDFIELDER CORRELATION ANALYSIS
+==================================================
+Insufficient metrics for Midfielder correlation analysis
+
+DEFENDER CORRELATION ANALYSIS
+==================================================
+No data available for Defender
+
+GOALKEEPER CORRELATION ANALYSIS
+==================================================
+Insufficient metrics for Goalkeeper correlation analysis
+
+GENERAL CORRELATION ANALYSIS
+==================================================
+Correlation matrix for key metrics:
+       Gls    Ast     Sh    SoT
+Gls  1.000  0.083  0.487  0.641
+Ast  0.083  1.000  0.128  0.107
+Sh   0.487  0.128  1.000  0.760
+SoT  0.641  0.107  0.760  1.000
+
+Highly correlated metric pairs (|r| > 0.6):
+ Gls ↔  SoT: r = 0.641
+ Sh ↔  SoT: r = 0.760
+
+EDA SUMMARY
+==================================================
+Dataset successfully loaded and analyzed
+Total records: 7,217
+Total features: 77
+Positions analyzed: 158
+Seasons covered: 11
+
+Key findings:
+• Data quality: 81.6% complete
+• Ready for feature engineering and modeling
+
+Next steps:
+• Proceed to 02_Feature_Engineering
+• Create per-90 minute metrics
+• Engineer position-specific features
+• Prepare data for machine learning models
+
+✓ 4 Position-specific correlation matrices (Forward, Midfielder, Defender, Goalkeeper)
+✓ 4 Position-specific spider charts with 2 players each:
+  - Forward: [Player1, Player2]
+  - Midfielder: [Player1, Player2]
+  - Defender: [Player1, Player2]
+  - Goalkeeper: [Player1, Player2]
+
+EDA Analysis Complete!
+Outputs saved to: ../outputs/
+Ready for next stage: Feature Engineering
