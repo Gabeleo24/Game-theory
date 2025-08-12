@@ -13,7 +13,6 @@ A comprehensive machine learning analysis of Real Madrid player performance data
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
-- [Visuals](#visuals)
 - [File Structure](#file-structure)
 - [Repository Management](#repository-management)
 - [Contributing](#contributing)
@@ -288,17 +287,6 @@ score = predict_performance(player_stats, position='Forward')
 - **Logistic Regression AUC**: 0.842
 - **50% Win Probability Threshold**: 5.94 team rebalanced score
 - **Strong Discrimination**: 0.843 probability range (0.155 to 0.999)
-
-## Visuals
-
-Selected outputs to give readers quick intuition.
-
-| Description | Image |
-| --- | --- |
-| Position distribution | ![Position Distribution](Main%20Notebook/Image%20Folder/Images/01_EDA/position_distribution.png) |
-| Correlation heatmap | ![Correlation Heatmap](Main%20Notebook/Image%20Folder/Images/01_EDA/correlation_heatmap.png) |
-| SHAP summary (dot) | ![SHAP Summary Dot](Main%20Notebook/Code%20Library%20Folder/03_SPPS_Calibration_SHAP/outputs/shap_summary_dot.png) |
-| Calibration curve | ![Calibration Curve](Main%20Notebook/Code%20Library%20Folder/03_SPPS_Calibration_SHAP/outputs/calibration_curves_test.png) |
 
 ## File Structure
 
