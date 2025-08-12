@@ -4,19 +4,62 @@ A comprehensive machine learning analysis of Real Madrid player performance data
 
 ## Table of Contents
 
+- [Profile](#profile)
 - [Overview](#overview)
+- [Navigation](#navigation)
 - [Data](#data)
 - [Features](#features)
 - [Models](#models)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
+- [Visuals](#visuals)
 - [File Structure](#file-structure)
+- [Repository Management](#repository-management)
 - [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 This project provides an in-depth analysis of Real Madrid player performance using advanced machine learning techniques. The system creates position-specific models to predict player performance scores and analyze team dynamics across different seasons.
+## Profile
+
+Introduce yourself to readers and provide links for quick context.
+
+- **Name**: Gabriel Elohi Mancillas Gallardo (Gabi), Mauricio Espinoza Acevedo (Mau), Maria Mora Mora
+- **Program**: University of San Diego — MAS Data Science
+- **Bio**:
+  - **Gabi**: Bridging the gap between raw data and actionable intelligence, my passion for soccer is the catalyst for developing precise analytical frameworks and practical, impactful applications.
+  - **Mau**: As a former semi‑pro footballer, I have always wanted to stay involved in the sport. Football has yet to truly adopt data analytics the way baseball and other sports have—and I hope to change that.
+  - **Maria**: In a world saturated with shallow match predictions, my passion for soccer emerges as a driving force for revolutionary analytics and comprehensive real‑world applications.
+- **Links**: [LinkedIn](https://www.linkedin.com/), [Website](https://example.com), [Portfolio](https://example.com/portfolio)
+- **Contact**: your.email@example.com
+
+Add a profile image by placing it in `Main Notebook/Image Folder/Images/` and referencing it like:
+`![Profile](Main%20Notebook/Image%20Folder/Images/profile.png)`
+
+### Team
+
+| Gabriel (Gabi) | Mauricio (Mau) | Maria |
+| --- | --- | --- |
+| ![Gabi](Main%20Notebook/Image%20Folder/Images/Gabe.png) | ![Mau](Main%20Notebook/Image%20Folder/Images/mau.png) | ![Maria](Main%20Notebook/Image%20Folder/Images/maria.png) |
+
+## Navigation
+
+Quick links to the most relevant parts of the repository.
+
+- **Main Notebook**: [`Main Notebook/`](Main%20Notebook/)
+  - **Code Library Folder**: [`Main Notebook/Code Library Folder/`](Main%20Notebook/Code%20Library%20Folder/)
+    - Data Acquisition: [`00_Data_Aquisition/`](Main%20Notebook/Code%20Library%20Folder/00_Data_Aquisition/)
+    - EDA: [`01_EDA/notebooks/`](Main%20Notebook/Code%20Library%20Folder/01_EDA/notebooks/)
+    - Feature Engineering: [`02_Feature_Engineering/notebooks/`](Main%20Notebook/Code%20Library%20Folder/02_Feature_Engineering/notebooks/)
+    - Modeling & Validation: [`04_Modeling_Benchmarks_Validation/notebooks/`](Main%20Notebook/Code%20Library%20Folder/04_Modeling_Benchmarks_Validation/notebooks/)
+    - Forecasting: [`05_Forecasting/notebooks/`](Main%20Notebook/Code%20Library%20Folder/05_Forecasting/notebooks/)
+  - **Image Folder**: [`Main Notebook/Image Folder/Images/`](Main%20Notebook/Image%20Folder/Images/)
+  - **Data Folder**: [`Main Notebook/Data Folder/`](Main%20Notebook/Data%20Folder/)
+  - **Docs**: [`Main Notebook/Code Library Folder/06_Docs/`](Main%20Notebook/Code%20Library%20Folder/06_Docs/)
+
 
 ### Key Objectives
 
@@ -246,6 +289,17 @@ score = predict_performance(player_stats, position='Forward')
 - **50% Win Probability Threshold**: 5.94 team rebalanced score
 - **Strong Discrimination**: 0.843 probability range (0.155 to 0.999)
 
+## Visuals
+
+Selected outputs to give readers quick intuition.
+
+| Description | Image |
+| --- | --- |
+| Position distribution | ![Position Distribution](Main%20Notebook/Image%20Folder/Images/01_EDA/position_distribution.png) |
+| Correlation heatmap | ![Correlation Heatmap](Main%20Notebook/Image%20Folder/Images/01_EDA/correlation_heatmap.png) |
+| SHAP summary (dot) | ![SHAP Summary Dot](Main%20Notebook/Code%20Library%20Folder/03_SPPS_Calibration_SHAP/outputs/shap_summary_dot.png) |
+| Calibration curve | ![Calibration Curve](Main%20Notebook/Code%20Library%20Folder/03_SPPS_Calibration_SHAP/outputs/calibration_curves_test.png) |
+
 ## File Structure
 
 ```
@@ -253,10 +307,13 @@ Main Notebook/
 ├── Data Folder/
 │   ├── DataCombined/               # Data raw combined in seasons
 │   ├── DataExtracted/              # Raw data extracted
-├── Main Code Library/
-│   ├── DataAcquisition.ipynb
-│   ├── Main_eda_Modeling.ipynb
-├── ├── Support EDA-Modeling 
+├── Code Library Folder/
+│   ├── 00_Data_Aquisition/
+│   ├── 01_EDA/
+│   ├── 02_Feature_Engineering/
+│   ├── 03_SPPS_Calibration_SHAP/
+│   ├── 04_Modeling_Benchmarks_Validation/
+│   ├── 05_Forecasting/
 └── README.md
 ```
 
@@ -303,6 +360,16 @@ Main Notebook/
 - Add docstrings to all functions
 - Include unit tests for new features
 - Update documentation for API changes
+
+## Repository Management
+
+Guidelines to keep this repository clear and professional.
+
+- **Descriptions**: Add concise descriptions for the repository and major branches (e.g., `main`, `dev`, `experiments`) so visitors understand their purpose.
+- **Branches**: Remove unused branches/forks. Adopt a simple workflow: `main` (stable), `dev` (active work), feature branches `feature/<short-name>`.
+- **Projects/Kanban**: Use GitHub Projects to track tasks. Recommended columns: Backlog → In Progress → Review → Done. Link issues to milestones where relevant.
+- **Issues**: Create well-scoped issues with clear acceptance criteria and labels (data, modeling, docs, bug).
+- **Code Quality**: Follow PEP 8, include docstrings, and prefer modular functions in the Code Library over long notebook cells. Add unit tests in `test_modules.py` for new utilities.
 
 ## License
 
