@@ -92,6 +92,10 @@ Score = 2.5×Int + 2.0×Blocks + 1.0×Clr + 2.0×TklW + 1.3×TklDef + 0.8×TklMi
 ```python
 Score = 3.0×TotalCmp% - 2.0×Err + 1.0×PrgDist + 1.5×ShortCmp% + 1.0×MedCmp% + 0.5×TotalCmp
 ```
+#### Logistic Regression Validation
+```python
+Logistic Regression Loss Wins
+```
 
 ### 3. Machine Learning Models
 
@@ -187,6 +191,7 @@ from visualization import plot_performance_trends
 plot_performance_trends(df)
 ```
 
+
 ### 4. Prediction
 
 ```python
@@ -244,28 +249,14 @@ score = predict_performance(player_stats, position='Forward')
 ## File Structure
 
 ```
-real-madrid-analysis/
-├── data/
-│   ├── raw/                    # Original CSV files
-│   ├── processed/              # Cleaned datasets
-│   └── combined/               # Final combined dataset
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_model_training.ipynb
-│   └── 04_shap_analysis.ipynb
-├── src/
-│   ├── data_processing.py      # Data cleaning functions
-│   ├── feature_engineering.py  # Feature creation
-│   ├── models.py              # ML model implementations
-│   ├── shap_analysis.py       # SHAP interpretability
-│   ├── visualization.py       # Plotting functions
-│   └── utils.py               # Helper functions
-├── results/
-│   ├── models/                # Saved model files
-│   ├── plots/                 # Generated visualizations
-│   └── reports/               # Analysis reports
-├── requirements.txt
+Main Notebook/
+├── Data Folder/
+│   ├── DataCombined/               # Data raw combined in seasons
+│   ├── DataExtracted/              # Raw data extracted
+├── Main Code Library/
+│   ├── DataAcquisition.ipynb
+│   ├── Main_eda_Modeling.ipynb
+├── ├── Support EDA-Modeling 
 └── README.md
 ```
 
@@ -323,11 +314,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - scikit-learn and XGBoost communities
 - SHAP library for model interpretability
 - Academic research in sports analytics
-
-## Contact
-
-For questions or collaboration opportunities:
-
-- **Email**: [your-email@domain.com]
-- **LinkedIn**: [your-linkedin-profile]
-- **GitHub**: [your-github-username]
+- Faculty at University of San Diego MAS Data Science Program
